@@ -84,6 +84,10 @@ All flame tanks limited to 3 in AZ.
 Most heavily armored Flame tanks now come in to play 15 minutes in and have a 15 minute cooldown, chuchill crocodile comes in at 18 min but has 15 min cooldown, OT 34 keeps 10 minute cooldown, SS halftrack, SSD, and Wasp come at 6 minutes ; These tanks were meant to break fortified lines not bully 2 squads on infantry. They were also quite rare.
 Decreased accuracy of assault guns by 25% and reload nerfed reload by 10% ; helps prevents them from being op unkillable over hill snipers due to mow limitations (Stuh 42, Brumbar, Sig 33b, KV2, SU 152, SU122, Sherman 105, Chuchill CS, Cromwell CS, Chi Ha 120)
 Flak 88 and KwK 36 all have a base range of 230 now.
+Adjusted various halftrack and light carrier prices
+Reduced German 5cm mortar price by 40mp
+Reduced Panzerfaust single buy cost by 10mp, Ost elite by 20mp
+Reduced Wespe cost by 125
 
 
 USA
@@ -229,6 +233,7 @@ grossdeutschland single buy mg42 - 110mp
 fallshirmjager mg42 single buy - 125mp
 Sturm Grens and Sturm Gren Mech increased by 13 mp.
 	Vehicles
+Reduce 223 cost by 30mp
 Changed Pak 43 SP buy to SP
 Removed Pak 44 from mp
 Increased Flak 88 cost by 100mp
@@ -238,7 +243,6 @@ brumbar 1050mp
 28/32 - 1200mp
 stuka zu fuss - 1600mp
 pak puma aka 234/4 - 550mp
-234/3 - 325mp
 pz3m - 350mp
 pz3n 370mp
 pz4g - 480mp
@@ -251,7 +255,7 @@ marder3m - 450mp
 hetzer - 600mp
 jagdpanther - 1750mp
 nashorne - 1300mp
-jagdtiger - 2750 mp(should probably receive 260 at least for now, since we arent compressing ranges to 230 or smth yet)
+jagdtiger - 2750 mp
 pz4j battlegroup - 6sp
 two flak88 - 7sp
 sturmtiger - 15sp
@@ -266,6 +270,7 @@ Replaced double nebelwerfer buy with an 11sp double mechanized sturm pioneer wit
 	Infantry
 ss at rifle - 70mp
 	Vehicles
+Reduce 223 cost by 30mp
 Increased Flak 88 cost by 100mp
 brumbar - 1075mp
 heavy nebel 1200mp,
@@ -330,6 +335,26 @@ swg 41 increased by 2 sp
 		Jap:
 -----
 	Infantry
-
+Knee mortar reduced by 30mp
+Added 80 second cooldown to rpg single buy
+Doubled timer on bother Imperial Guard varients
+Reduced basic rifle squads by 15mp
+Reduced all elite infantry squads except Imperial guard by 20mp
+Added 50% more minners to each respective squad
 	Vehicles
 Reduced 105 and 150 howitzer by 50mp
+Increased price of HoHa to 135mp
+Type 92 HMG reduced by 10 mp
+47mm AT gun reduced by 70mp
+75mm at gun reduced by 30mp
+Ha Go and Ke Nu to 160mp
+Chi Ha 57 to 210 mp
+Chi Ha 47 to 230 mp
+Ho Ni 1 to 300mp
+Ho Ni 3 to 340mp
+Adjusted timer on kamikazes and AT grenade launcher SP buy.
+Doubled the number of people in AT grenade launcher squad.
+Added 2 more for a total of 6 to the kamikaze squad
+Banzai SP reduced to 280 second cooldown and 420 second startup
+Added 8 charger_rifles to the Banzai
+Reduced 200mm SP buy to 6sp

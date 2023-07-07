@@ -3,10 +3,10 @@
 
 ;°°°Button 1°°°
 
-{"m72"              ("vs" c(0) t(all 44 45) 	s(rus) n(2) g(b1) sc(4.50) b(v1) cw(0) cp(0)) {level 1} {cost 90} {fore 0.0}}		;0sec
-{"gaz67b"           ("vs" c(30) t(all 44 45)	s(rus) n(3) g(b2) sc(6.25) b(v1) cw(0) cp(0)) {level 1} {cost 125} {fore 0.0}}		;30sec
+{"m72"              ("vs" c(0) t(all 44 45) 	s(rus) n(2) g(b1) sc(4.50) b(v1) cw(0) cp(0)) {level 1} {cost 95} {fore 0.0}}		;0sec
+{"gaz67b"           ("vs" c(30) t(all 44 45)	s(rus) n(3) g(b2) sc(6.25) b(v1) cw(0) cp(0)) {level 1} {cost 105} {fore 0.0}}		;30sec
 {"m3a1scout"        ("vs" c(10) t(all 44 45) 	s(rus) n(2) g(b3) sc(8.75) b(v1) cw(0) cp(0)) {level 1} {cost 175} {fore -23.0}}	;240sec
-{"m3"               ("vs" c(10) t(all 44 45) 	s(rus) n(2) g(b3) sc(10.00) b(v1) cw(0) cp(0)) {level 1} {cost 200} {fore -23.0}}	;240sec
+{"m3"               ("vs" c(10) t(all 44 45) 	s(rus) n(2) g(b3) sc(10.00) b(v1) cw(0) cp(0)) {level 1} {cost 165} {fore -23.0}}	;240sec
 
 {"zis5"             ("vs" c(0) t(all 44 45) 	s(rus) n(2) g(b5) sc(5.00) b(v1) cw(0) cp(0)) {level 1} {cost 100} {fore 0.0}}		;0sec
 {"zis5art"          ("vs" c(0) t(all 44 45) 	s(rus) n(2) g(b6) sc(15.00) b(v1) cw(0) cp(0)) {level 1} {cost 300} {fore 0.0}}		;0sec

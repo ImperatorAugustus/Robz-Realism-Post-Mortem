@@ -120,9 +120,9 @@
 ("squad_with2types" side(ger_ss) name(at_rifles) c1(at_rifle:1) c2(at_rifle2:1) c(0) g(soldier_4) b(squad2) t(all inf_only 41 42 43 44 45) level(1) cost(70) f(1.0))
 
 ("squad_with2types" side(ger_ss) name(bazookers) c1(bazooker:1) c2(bazooker2:1) c(0) g(soldier_5) b(squad2) t(all inf_only 43 44 45) level(1) cost(160) f(1.0))
-("squad_with1types" side(ger_ss) name(bazooker3) c1(bazooker3:2) c(0) g(soldier_5) b(squad2) t(all inf_only 44 45) level(1) cost(80) f(1.0))
+("squad_with1types" side(ger_ss) name(bazooker3) c1(bazooker3:2) c(0) g(soldier_5) b(squad2) t(all inf_only 44 45) level(1) cost(70) f(1.0))
 ("squad_with2types" side(ger) name(bazookers) c1(bazooker:1) c2(bazooker2:1) c(0) g(soldier_5) b(squad2) t(all inf_only 43 44 45) level(1) cost(120) f(1.0))
-("squad_with1types" side(ger) name(bazooker3) c1(bazooker3:2) c(0) g(soldier_5) b(squad2) t(all inf_only 44 45) level(1) cost(60) f(1.0))
+("squad_with1types" side(ger) name(bazooker3) c1(bazooker3:2) c(0) g(soldier_5) b(squad2) t(all inf_only 44 45) level(1) cost(50) f(1.0))
 
 ("squad_with2types" side(ger) name(stormtrooper5) c1(sturmovik5:1) c2(sturmovik5b:1) c(0) g(soldier_5) b(squad2) t(all inf_only 43 44 45) level(1) cost(160) f(1.0))
 

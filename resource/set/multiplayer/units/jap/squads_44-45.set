@@ -9,24 +9,24 @@
 
 ;------------------------------regular squad || vet 2/3/4-----------------------------------------------------------
 
-("squad_with6types" side(jap) name(riflemans_t96) c(0) g(squad_3) c1(squadleader:1) c2(rifle:6) c3(rifleb:4) c4(smgb:2) c5(mgun2:1) c6(rifle_grenadier:1) b(squad1) t(all inf_only 44 45) level(1) cost(170) f(1.0))
+("squad_with6types" side(jap) name(riflemans_t96) c(0) g(squad_3) c1(squadleader:1) c2(rifle:6) c3(rifleb:4) c4(smgb:2) c5(mgun2:1) c6(rifle_grenadier:1) b(squad1) t(all inf_only 44 45) level(1) cost(155) f(1.0))
 
-("squad_with6types" side(jap) name(riflemans) c(0) g(squad_3) c1(squadleader:1) c2(rifle:6) c3(rifleb:4) c4(smgb:2) c5(mgun:1) c6(rifle_grenadier:1) b(squad1) t(all inf_only 44 45) level(1) cost(175) f(1.0))
+("squad_with6types" side(jap) name(riflemans) c(0) g(squad_3) c1(squadleader:1) c2(rifle:6) c3(rifleb:4) c4(smgb:2) c5(mgun:1) c6(rifle_grenadier:1) b(squad1) t(all inf_only 44 45) level(1) cost(160) f(1.0))
 
 ;------------------------------imperial guards ||| --------------------------------------------------------------
 
-("squad_with6types" side(jap) name(elites_ig) c(60) g(squad_55) c1(elite_ig1:7) c2(elite_ig1b:2) c3(elite_ig2:2) c4(elite_ig3b:2) c5(elite_ig4:1) c6(elite_ig_grenadier:1) b(squad1) t(all inf_only 44 45) level(1) cost(225) f(1.0))
+("squad_with6types" side(jap) name(elites_ig) c(120) g(squad_55) c1(elite_ig1:7) c2(elite_ig1b:2) c3(elite_ig2:2) c4(elite_ig3b:2) c5(elite_ig4:1) c6(elite_ig_grenadier:1) b(squad1) t(all inf_only 44 45) level(1) cost(225) f(1.0))
 
 ;------------------------------elite squads ||| vet 3/4-----------------------------------------------------------
 
-("squad_with4types" side(jap) name(elites_takasago) c(360) g(squad_5) c1(elite_takasago_rifle:2) c2(elite_takasago_rifle2:6) c3(elite_takasago_smg2:5) c4(elite_takasago_lmg:2) b(squad1) t(all inf_only 44 45) level(1) cost(275) f(1.0))
+("squad_with4types" side(jap) name(elites_takasago) c(360) g(squad_5) c1(elite_takasago_rifle:2) c2(elite_takasago_rifle2:6) c3(elite_takasago_smg2:5) c4(elite_takasago_lmg:2) b(squad1) t(all inf_only 44 45) level(1) cost(255) f(1.0))
 
-("squad_with4types" side(jap) name(elites) c(360) g(squad_5) c1(elite:6) c2(elite2:3) c3(elite3:2) c4(elite4b:4) b(squad1) t(all inf_only 44 45) level(1) cost(300) f(1.0))
-("squad_with6types_vehicle" side(jap) name(elites_drop) c(900) g(squad_5) v1(airborne_spawner) c1(elite:6) c2(elite2:3) c3(elite3:2) c4(elite4b:4) c5(a:0) c6(a:0) b(squad1) t(all inf_only 44 45 only-one) level(1) cost(400) f(1.0))
+("squad_with4types" side(jap) name(elites) c(360) g(squad_5) c1(elite:6) c2(elite2:3) c3(elite3:2) c4(elite4b:4) b(squad1) t(all inf_only 44 45) level(1) cost(280) f(1.0))
+("squad_with6types_vehicle" side(jap) name(elites_drop) c(900) g(squad_5) v1(airborne_spawner) c1(elite:6) c2(elite2:3) c3(elite3:2) c4(elite4b:4) c5(a:0) c6(a:0) b(squad1) t(all inf_only 44 45 only-one) level(1) cost(380) f(1.0))
 
 ;------------------------------stormtroopers |||| vet 6---------------------------------------------------------
 
-("squad_with5types" side(jap) name(stormtroopers) c(360) g(squad_5) c1(sturmovikb:4) c2(sturmovik2:2) c3(sturmovik3:1) c4(sturmovik4:5) c5(sturmovik6b:3) b(squad1) t(all inf_only 44 45) level(1) cost(325) f(1.0))
+("squad_with5types" side(jap) name(stormtroopers) c(360) g(squad_5) c1(sturmovikb:4) c2(sturmovik2:2) c3(sturmovik3:1) c4(sturmovik4:5) c5(sturmovik6b:3) b(squad1) t(all inf_only 44 45) level(1) cost(305) f(1.0))
 
 ;------------------------------stormtrooper halftrack |||| vet 3/4----------------------------------------------
 
@@ -34,9 +34,9 @@
 
 ;------------------------------AP and AT miners, sappers || vet 2-----------------------------------------------
 
-("squad_with1types" side(jap) name(ap_miners) c(0) g(squad_7) c1(ap_miner:4) b(squad1) t(all inf_only engineers mines 39 40 41 42 43 44 45) level(20) cost(100) f(0))
+("squad_with1types" side(jap) name(ap_miners) c(0) g(squad_7) c1(ap_miner:6) b(squad1) t(all inf_only engineers mines 39 40 41 42 43 44 45) level(20) cost(100) f(0))
 
-("squad_with1types" side(jap) name(at_miners) c(0) g(squad_8) c1(at_miner:4) b(squad1) t(all inf_only engineers mines 39 40 41 42 43 44 45) level(25) cost(150) f(0))
+("squad_with1types" side(jap) name(at_miners) c(0) g(squad_8) c1(at_miner:6) b(squad1) t(all inf_only engineers mines 39 40 41 42 43 44 45) level(25) cost(150) f(0))
 
 ("squad_with1types" side(jap) name(sappers) c(0) g(squad_9) c1(saper:2) b(squad1) t(all inf_only engineers 39 40 41 42 43 44 45) level(1) cost(50) f(0))
 
@@ -59,16 +59,16 @@
 
 ;------------------------------Kamikaze & type 89 mortar-------------------------------------------------------------------------
 
-("squad_with1types" side(jap) name(type89mortarinf) c1(light_mortar:1) c(180) g(soldier_89) b(squad2) t(all inf_only 42 43 44 45) level(1) cost(90) f(1.0))
+("squad_with1types" side(jap) name(type89mortarinf) c1(light_mortar:1) c(180) g(soldier_89) b(squad2) t(all inf_only 42 43 44 45) level(1) cost(60) f(1.0))
 ("squad_with1types" side(jap) name(kamikaze) c1(kamikaze:2) c(0) g(soldier_5) b(squad2) t(all inf_only 42 43 44 45) level(1) cost(50) f(1.0))
 
 ;------------------------------AT rifles and bazookas || vet 2--------------------------------------------------
 
 ("squad_with2types" side(jap) name(at_rifles) c1(at_rifle:1) c2(at_rifle2:1) c(0) g(soldier_4) b(squad2) t(all inf_only 39 40 41 42 43 44 45) level(1) cost(100) f(1.0))
 
-("squad_with2types" side(jap) name(bazookers) c1(bazooker:1) c2(bazooker2:1) c(0) g(soldier_5) b(squad2) t(all inf_only 44 45) level(1) cost(130) f(1.0))
+("squad_with2types" side(jap) name(bazookers) c1(bazooker:1) c2(bazooker2:1) c(80) g(soldier_5) b(squad2) t(all inf_only 44 45) level(1) cost(130) f(1.0))
 
-("squad_with2types" side(jap) name(stormtrooper5) c1(sturmovik5:1) c2(sturmovik5b:1) c(0) g(soldier_5) b(squad2) t(all inf_only 44 45) level(1) cost(160) f(1.0))
+("squad_with2types" side(jap) name(stormtrooper5) c1(sturmovik5:1) c2(sturmovik5b:1) c(80) g(soldier_5) b(squad2) t(all inf_only 44 45) level(1) cost(160) f(1.0))
 
 ;------------------------------MG infantry || vet 2-------------------------------------------------------------
 

@@ -113,6 +113,7 @@ USA
 -m18 timer reduced to same as m10 (660 sec)
 Added US logistics SP buy. 1sp for a normal truck and an inf and art ammo crate
 	Infantry
+-Buffed M1, M1A1, and M2 Carbine
 -Shotguns are single infantry at 15mp each
 -US Bazooka single buy reduced from 100 to 80mp
 -US Ranger Bazooka single buy reduced from 150 to 130mp

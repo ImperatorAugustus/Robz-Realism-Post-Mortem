@@ -1,0 +1,57 @@
+{breed
+	{skin "usa-101st-rfl"}
+	{portrait "usa_elite1"}
+	{nationality usa}
+	{icon "elite3"}
+	{icon_priority 4}
+	{armors
+		{head helmet_usa_para}
+	}
+	{perks
+		{"health" "400%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "200%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" "mp_soldier"
+		}
+		{"speed" 0.9
+		}
+		{"tank"	0.95
+		}
+		{"vehicle" 1
+		}
+		{"cannon" 1
+		}
+		
+		{"pistol" lvl_6
+		}
+		{"smg" lvl_6
+		}
+		{"mgun" lvl_7
+		}
+		{"rifle" lvl_6
+		}
+		{"rocketlauncher" lvl_6
+		}
+		{"melee" lvl_6
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_elite")
+	}
+	{inventory
+		{item "browning_m19a6" filled}
+		{item "ammo springfield_belt" 250}
+		{item "m1a1_carbine" filled}
+		{item "ammo m1carbine_mag" 90}
+		{item "bandage" 5}
+		{item "grenade m61" 2}
+		;{item "sandbag_kit" 1}
+		{in_hands 0}
+	}
+}

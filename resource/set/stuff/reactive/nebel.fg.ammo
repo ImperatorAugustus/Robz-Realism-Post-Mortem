@@ -1,0 +1,30 @@
+{bullet
+	{tag "size_maximum big shell fg"}
+	{inventory
+		{size 5 1}
+		{weight 100}
+	}	
+	{entity "nebel_ammo"}
+	{mass 83}
+	{view "nebel_ammo"
+		{tail "rocket_smoke" "tail"}
+	}
+	{detonationThickness 1}
+	{applyProjectile}
+	{damage blastwave
+		{energy 40}
+		{area 3 8}
+	}	
+	{damage add blastwave
+		{energy 18}
+		{area 8 15}
+	}
+	{damage add blastwave
+		{energy 1.2}
+		{area 25 35}
+	}
+	{damage add blastwave
+		{energy 0.1}
+		{area 40 40}
+	}
+}

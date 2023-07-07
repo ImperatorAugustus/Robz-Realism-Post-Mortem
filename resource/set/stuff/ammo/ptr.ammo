@@ -1,0 +1,17 @@
+{bullet
+	{tag "small zenite ptr pierce"}
+	{inventory
+		{size 2 1 }
+		{weight 20}
+		{block 5}
+	}
+	{mass 0.1}
+	;{trace
+	;	{view "/texture/fx/trace4"
+	;		{ScaleY 0.28}
+	;		{Light 2}
+	;	}
+	;	{length 8.0}
+	;}
+	{entity "ptr_ammo"}
+}

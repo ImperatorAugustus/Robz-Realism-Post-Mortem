@@ -1,0 +1,11 @@
+{from "pattern overcoat"
+	{tag "itemin1hand"}
+	{entity "ammo_rus"}
+	{desc "Soviet gear"}
+	{inventory
+		{size 2 2}
+		{weight 100}
+		{fsm "belt"}
+	}
+	{mass 3}
+}

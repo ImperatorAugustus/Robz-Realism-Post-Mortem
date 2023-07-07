@@ -1,0 +1,19 @@
+{from "pattern mgun"
+	{tag "mgun_light"}
+	{filling "ammo type97_mag" 20}
+	{entity "type97_mg"}
+	{fireSound	"mgun/type96_lmg_burst/"}
+	{reloadSound "type99lmg_reload"}
+
+	{Spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 97.5 95 92.5 90 85 80 70 50 20}
+	}
+	{range 150 150}
+	("spread_optic")
+	{rechargeTime 5}
+	("recoveryTime" r(500))
+	("burst_short")
+	("speed" s(732))
+	("accuracy_mgun_tank")
+}

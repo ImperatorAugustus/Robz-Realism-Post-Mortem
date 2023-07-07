@@ -1,0 +1,57 @@
+{breed
+	{skin "ger-smock2-rfl"}
+	{portrait "ger2_soldier2"}
+	{nationality ger}
+	{icon "rifleman"}
+	{icon_priority 1}
+	{armors
+		{head helmet_heer_camo}
+	}
+	{perks
+		{"health" "150%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "100%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" "mp_soldier"
+		}
+		{"speed" 0.9
+		}
+		{"tank"	0.75
+		}
+		{"vehicle" 1
+		}
+		{"cannon" 0.8
+		}
+		
+		{"pistol" lvl_4
+		}
+		{"smg" lvl_3
+		}
+		{"mgun" lvl_3
+		}
+		{"rifle" lvl_4
+		}
+		{"rocketlauncher" lvl_2
+		}
+		{"melee" lvl_4
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_1_lvl2")
+	}
+	{inventory
+		{item "mauzer" filled}
+		{item "ammo mauser_clip" 60}
+		{item "ammo mg_mauser drum" 50}
+		{item "bandage" 5}
+		{item "grenade m24" 2}
+		{item "grenade m24x5" 0 1}
+		{item "sandbag_kit" 1}
+		{in_hands 0}
+	}
+}

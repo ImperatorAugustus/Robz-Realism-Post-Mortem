@@ -1,0 +1,29 @@
+{weapon_bullet
+	{tag "weapon mgun bullet"}
+	{inventory
+		{size 3 2 }
+		{weight 100}
+	}
+	{entity "smokegun"}
+	{mass 10}
+	{aimRange 30}
+	{maxRange 50}
+
+	{curve "gun_heavy"}
+	{traceFreq 1}
+	{gravity 3}
+	{speed 30}
+	{spreading 4}
+
+	{ammoLocked}
+
+	{recoveryTime 0.3}
+	{rechargeTime 4.5}
+	{healthDamage 150}
+	{projectileDamage 2}
+
+	{cursor "grenade"}
+	{cursorReloading "grenade"}
+
+	{AimingTolerance 0.2}
+}

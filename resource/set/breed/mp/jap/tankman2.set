@@ -1,0 +1,54 @@
+{breed
+	{skin "jap_army_tankman2"}
+	{portrait "jap_tankman"}
+	{nationality jap}
+	{icon "tankman"}
+	{icon_priority 1}
+	{armors
+		{head tankhelmet_jap_old}
+	}
+	{perks
+		{"health" "150%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "100%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+        {"vision" "mp_soldier"
+		}
+		{"speed" 0.8
+		}
+		{"tank"	1.0
+		}
+		{"vehicle" 1.0
+		}
+		{"cannon" 0.8
+		}
+		
+		{"pistol" lvl_2
+		}
+		{"smg" lvl_2
+		}
+		{"mgun" lvl_3
+		}
+		{"rifle" lvl_1
+		}
+		{"rocketlauncher" lvl_1
+		}
+		{"melee" lvl_2
+		}
+		{"tankgun" lvl_4
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_tankcrew")
+	}
+	{inventory
+		{item "type100smg" filled}
+		{item "ammo type100_mag" 30}
+		{in_hands 0}
+	}
+}

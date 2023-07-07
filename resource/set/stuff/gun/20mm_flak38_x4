@@ -1,0 +1,11 @@
+{from "20mm_flak38"		; "wirbelwind"
+	{filling "bullet20 zenite" 80}
+	{RechargeTime 10}
+	("recoveryTime" r(1800))
+	
+	("accuracy_zenite_low")
+	{spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 97.5 95 92.5 90 80 65 50 35}
+	}
+}

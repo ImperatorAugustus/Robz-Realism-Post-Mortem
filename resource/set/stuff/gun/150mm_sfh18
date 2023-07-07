@@ -1,0 +1,7 @@
+{from "pattern gun_art"    ; "hummel", "sfh18"
+	{filling "bullet150 ger" 3}
+	{fireSound "gun/howitzer/150mm_sfh18"}
+	{reloadSound "gun_r04"}
+	("range_heavy_howitzer")
+	{range 440 440}	
+}

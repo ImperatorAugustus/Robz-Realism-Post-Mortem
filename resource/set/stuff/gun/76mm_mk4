@@ -1,0 +1,27 @@
+{from "pattern gun"		; "m4a4vc", "17_pdr", "achilles", "archer"
+	{filling "bullet76 eng"}
+	{fireSound "gun/50to76_cal/76mm_mk4"}
+	{reloadSound "tankgun_r04"}
+	{rechargeTime 9.5}
+	("range_long")
+	
+	{range 230 230}
+	("speed_all" ap(883) apcr(1203) fg(883) heat(883))
+	("caliber_medium")
+	{projectileDamage 161}
+	("damage_215" a(161) b(145) c(131) d(118) e(107) range(230))
+	{parameters "apc"
+		("damage_215" a(169) b(148) c(130) d(114) e(100) range(230))
+	}
+	{parameters "apcbc"
+		("damage_215" a(174) b(163) c(150) d(137) e(126) range(230))	;no explosive filler so matches up to panther
+	}							;even with less muzzle velocity
+	{parameters "apds"
+        	("damage_215" a(280) b(256) c(233) d(213) e(193) range(230))
+	}
+	{parameters "fg"
+		{range 220 220}
+	}
+	("accuracy_max_high_17pdr")
+}
+

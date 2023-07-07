@@ -1,0 +1,7 @@
+{army
+	{id 6}
+	{title "mp/army/ger_doc_am"}
+	{icon "/interface/pages/multi/flag_ger"}
+	{flag "/interface/scene/common/flag-germany"}
+}
+

@@ -1,0 +1,16 @@
+{bullet
+	{tag "ammo fg rocketlauncher shell dropboxed bazooka grenade"}
+	{entity "m18_he_ammo"}
+	{inventory
+		{weight 100}
+		{size 2 1}
+	}	
+	{damage blastwave
+		{energy 1}
+		{area 3.5 7}
+	}
+	;{cumulative 0.7}
+	{mass 2.75}
+	;{possibleDamageRadius 4}
+}
+

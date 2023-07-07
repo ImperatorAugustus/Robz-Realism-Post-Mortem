@@ -1,0 +1,38 @@
+{from "pattern mgun"
+	{tag "itemin2hands"}
+	{filling "ammo hmgun" 100}
+	{entity "browningm2"}
+	{fireSound	"mgun/browning_burst/"}
+	{reloadSound "ptrd"}
+	{inventory
+		{size 6 2 }
+	}
+	("burst_long")
+	{cursor "zenite_on"}
+	{cursorReloading "zenite_reload"}
+	{mass 34}
+
+	{range 150 150}
+
+	("recoveryTime" r(500))
+	{rechargeTime 9}
+
+	{healthDamage 75}
+	{projectileDamage 30}
+	{projectileDamageTable {0 14} {62.5 8} {125 6} {187.5 5} {250 4}}
+	{projectileDamageThreshold 1.1}
+	{calibre 12}
+	{parameters "ap"
+		{projectileDamageTable {0 30} {62.5 19} {125 12} {187.5 8} {250 6}}
+	}
+	{parameters "inc"
+		{projectileDamageTable {0 23} {62.5 16} {125 10} {187.5 6} {250 5}}
+	}
+	
+	("accuracy_dshk")
+	("speed" s(856))
+	{Spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 95 90 85 80 70 55 40 10}
+	}
+}

@@ -1,0 +1,20 @@
+{from "pattern gun"		; "m26_super_pershing"
+	{filling "bullet90 usl"}
+	{fireSound "gun/85to100_cal/90mm_m3"}
+	{reloadSound "tankgun_r02"}
+	{rechargeTime 13} ;long reload due to 2 seperate loads;; not on the first super P
+	("range_maximum")
+
+	{range 250 250}
+	("speed_all" ap(975) apcr(1143) fg(975) heat(975))
+	("caliber_large")            
+	{projectileDamage 167}
+	("damage_215" a(216) b(204) c(193) d(182) e(172) range(250))
+	{parameters "hvap"
+        	("damage_215" a(373) b(331) c(294) d(261) e(231) range(250))
+	}
+	{parameters "fg"
+		{range 240 240}
+	}
+	("accuracy_max_10m_he")
+}

@@ -1,0 +1,10 @@
+{from "pattern gun2"		; bl6 direct fire
+    	{filling "bullet152 eng fg"}
+	{fireSound "gun/howitzer/152mm_ml20"}
+	{reloadSound "gun_r04"}	
+	("range_grazing_howitzer")
+	("caliber_maximum")
+	{rechargeTime 20}
+	("speed" s(430))
+}
+

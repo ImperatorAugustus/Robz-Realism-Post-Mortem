@@ -1,0 +1,15 @@
+{weapon_bullet
+	{tag "gun"}
+	{filling "ammo m31" 12}
+	{fireSound "reactive/katyusha_real"}
+	("heavy_artillery")
+
+	{range 280 280}
+	{recoveryTime 0.5}
+	{aimtype direct}
+	{gravity 3}
+	{burst {min 12} {noaiming}}
+	{spreading
+		{SpreadRadius 28}
+	}
+}

@@ -1,0 +1,30 @@
+{from "pattern gun"		; "pak39"
+	{filling "bullet75 ger"}
+	{fireSound "gun/50to76_cal/75mm_kwk40"}
+	{reloadSound "gun_r03"}
+	{rechargeTime 7}
+	("range_medium")
+	
+	{range 200 200}
+	("speed_all" ap(750) apcr(930) fg(570) heat(450))
+	("caliber_medium")
+	{projectileDamage 132}                        
+	("damage_170" a(135) b(123) c(109) d(97) e(86) range(200))
+	{parameters "apc"
+		("damage_170" a(135) b(123) c(109) d(97) e(86) range(200))
+	}
+	{parameters "heatb"
+		("damage_heat" a(87) range(200))
+	}
+	{parameters "heatc"
+		("damage_heat" a(100) range(200))
+	}
+	{parameters "apcr"
+        	("damage_170" a(176) b(154) c(130) d(109) e(92) range(200))
+	}
+	{parameters "fg"
+		{range 180 180}
+	}
+	("accuracy_high")	
+}
+

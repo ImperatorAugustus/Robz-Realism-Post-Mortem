@@ -1,0 +1,7 @@
+{from "pattern pistol"
+	{filling "ammo colt_mag" 7}
+	{entity "colt"}
+	{fireSound	"pistol/colt"}
+	{reloadSound "colt"}
+	{healthDamage 30}
+}

@@ -1,0 +1,19 @@
+{bullet
+  {tag "bullet small stackable pierce"}
+  {desc "desc/ammo/revolver_clip"}
+  {inventory
+    {weight 1}
+    {block 25}
+    {size 1 2}
+    {fsm "belt"}
+  }
+  {mass 0.013}
+  {entity "revolver_clip"}
+  ;{trace
+	;	{view "/texture/fx/trace2"
+	;		{ScaleY 0.125}
+	; 		{Light 1}
+	;	}
+	;	{length 1.5}
+	;}
+}

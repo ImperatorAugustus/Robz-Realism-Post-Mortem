@@ -1,0 +1,22 @@
+{from "75mm_pak40"		; "pak40 vet"
+	{rechargeTime 5.6}
+	("accuracy_high_210m")
+	{range 210 210}
+	("damage_170" a(146) b(133) c(118) d(105) e(93) range(210))
+	{parameters "apcbc"
+		("damage_170" a(146) b(133) c(118) d(105) e(93) range(210))
+	}
+	{parameters "heatb"
+		("damage_heat" a(87) range(210))
+	}
+	{parameters "heatc"
+		("damage_heat" a(100) range(210))
+	}
+	{parameters "apcr"
+        	("damage_170" a(195) b(170) c(144) d(121) e(102) range(210))
+	}
+	{parameters "fg"
+		{range 190 190}
+	}
+}
+

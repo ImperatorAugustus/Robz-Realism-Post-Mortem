@@ -1,0 +1,9 @@
+{from "pattern apcbc"
+	{inventory
+		{size 6 1}
+	}
+	{tag "big" "size_big" "highvel_verybig" "shell_verybig" "pierce"}
+	("ger" args 1.4)
+	{mass 24}
+	{entity "shell_ap_128_pak44"}
+}

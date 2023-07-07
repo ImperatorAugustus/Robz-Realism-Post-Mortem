@@ -1,0 +1,16 @@
+{from "pattern fg"
+	{tag "size_minimum"}
+	{inventory
+		{size 2 1}
+	}
+	{damage blastwave  
+		{energy 0.8}
+		{area 0.1 0.2}
+	}
+	{damage add blastwave
+		{energy 0.2}
+		{area 1.7 2.7}
+	}
+	{mass 1.2}
+	{entity "shell_fg_28"}
+}

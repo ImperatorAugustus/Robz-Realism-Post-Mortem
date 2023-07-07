@@ -1,0 +1,768 @@
+{tags
+	{"actionbar"
+		{"attack" "Attack"}
+		{"attack"
+			{"action" "Attack enemy units."}
+			{"usage" "Click on an enemy unit to attack it. Click on a destination to order your squad to fight their way towards it."}
+		}
+		{"attack_ground" "Attack ground"}
+		{"attack_ground"
+			{"action" "Attack ground"}
+			{"usage" "Choose a spot to cover."}
+		}
+		{"smoke_launcher" "Smoke launcher"}
+		{"smoke_launcher"
+			{"action" "Will launch a smoke grenade from the selected vehicle"}
+		}
+		{"enginetoggle" "Engine ON/OFF toggle"}
+		{"enginetoggle"
+			{"action" "Toggle the engine on and off"}
+		}
+		{"hatch" "Commander mode"}
+		{"hatch"
+			{"action" "Switches the commander in or out of the hatch"}
+			{"usage" "Has three modes. up: commander is always up. down: commander is always down. active: commander goes down under fire, but is otherwise up"}
+		}
+		{"gun_mode" "Direct/Indirect fire mode"}
+		{"gun_mode"
+			{"action" "Switch the main gun to direct or indirect firemode"}
+			{"usage" "After switching gun use the direct / indirect main gun in the secondary weapon slot."}
+		}
+		{"burst_mode" "Burst/full auto fire mode"}
+		{"burst_mode"
+			{"action" "Switch the main gun(autocannon) and MGs from full auto to burst mode"}
+			{"usage" "For full auto/burst mode: Forces the gun to use bursts or allow full auto when firing"}
+		}
+		{"trench_bighole" "Big foxhole"}
+		{"trench_bighole"
+			{"action" "Build a foxhole big enough to fit several soldiers (to place: hold right mouse button and drag in the direction you want it to face)"}
+		}
+		{"trench_deep" "Deep foxhole"}
+		{"trench_deep"
+			{"action" "Build a deep foxhole for one soldier to sit in (to place: hold right mouse button and drag in the direction you want it to face)"}
+		}
+		{"trench_low" "Shallow foxhole"}
+		{"trench_low"
+			{"action" "Build a shallow foxhole for one soldier to lie in (to place: hold right mouse button and drag in the direction you want it to face)"}
+		}
+		{"trench_long" "Long trench"}
+		{"trench_long"
+			{"action" "Build a long trench for several soldiers (to place: hold right mouse button and drag in the direction you want it to face)"}
+		}
+		{"cancel" "Cancel"}
+		{"cancel"
+			{"action" "Cancel all orders issued to the selected units."}
+		}
+		{"drop" "Drop"}
+		{"drop"
+			{"action" "Drop the currently held item."}
+			{"usage" "After clicking the button, click the unit, item, or place where you wish to drop the item."}
+		}
+		{"examine" "Examine"}
+		{"examine"
+			{"action" "Examine inventory"}
+			{"usage" "Click item or unit whose inventory you want to examine."}
+		}
+		{"collect" "Take"}
+		{"collect"
+			{"action" "Pick up"}
+			{"usage" "After clicking the button, specify an object to pick up from the ground."}
+		}
+		{"rotate" "Turn"}
+		{"rotate"
+			{"action" "Turn around or aim at the selected destination."}
+			{"usage" "Click this button, then click on the area that the selected unit should face."}
+		}
+		{"use" "Use item"}
+		{"spread" "Spread out"}
+		{"suppression_fire" "Suppressive fire"}
+		{"suppression_fire"
+			{"action" "Suppressive fire"}
+			{"usage" "Click this button, then click enemy unit or terrain at which to direct suppressive fire."}
+		}
+		{"aimed_shot" "Aimed shot"}
+		{"aimed_shot"
+			{"action" "Fire a shot from a sniper rifle."}
+			{"usage" "Click this button and then click an enemy unit you want to shoot using the sniper rifle."}
+		}
+		{"bazooka_shot" "Rocket launcher shot"}
+		{"bazooka_shot"
+			{"action" "Fire a rocket launcher."}
+			{"usage" "Click the button, then click on the selected target to fire a rocket."}
+		}
+		{"throw_at_grenade" "Anti-tank grenade"}
+		{"throw_at_grenade"
+			{"action" "Throw an AT grenade."}
+			{"usage" "Click on the button, then click an enemy unit or a location at which to throw the grenade."}
+		}
+		{"throw_ap_grenade" "Anti-personnel grenade"}
+		{"throw_ap_grenade"
+			{"action" "Throw an AP grenade."}
+			{"usage" "Click on the button, then click an enemy unit or a location at which to throw the grenade."}
+		}
+		{"weapon_prepare"
+			{"on" "Draw/holster weapon."}
+			{"on"
+				{"action" "Draw weapon"}
+			}
+			{"off" "Draw/holster weapon."}
+			{"off"
+				{"action" "Holster weapon"}
+			}
+		}
+		{"weapon_unprepare" ""}
+		{"weapon_reload" ""}
+		{"weapon_reload"
+			{"action" ""}
+			{"on" "Load or reload weapon"}
+			{"on"
+				{"action" "Reload weapon"}
+			}
+			{"off" "Load or reload weapon"}
+			{"off"
+				{"action" "Unload weapon"}
+			}
+		}
+		{"leave_unit" "Exit vehicle"}
+		{"advance" "Advance"}
+		{"repair" "Repair"}
+		{"repair"
+			{"action" "Repair vehicle"}
+			{"usage" "Click on the button, then click on a damaged vehicle that you want to repair."}
+		}
+		{"free_fire" "Fire at will"}
+		{"back_fire" "Return fire"}
+		{"hold_fire" "Hold fire"}
+		{"hold_position" "Hold position"}
+		{"move_at_will" ""}
+		{"move_fast" ""}
+		{"move_slow" ""}
+		{"human"
+			{"stand" ""}
+			{"squat" ""}
+			{"lie" ""}
+			{"lie"
+				{"action" ""}
+				{"usage" ""}
+			}
+			{"heal" "Heal"}
+			{"heal"
+				{"action" "Heal the selected soldier."}
+			}
+			{"attack_melee" "Melee attack"}
+			{"attack_melee"
+				{"action" "Perform a melee attack."}
+				{"usage" "Click the button, then click an enemy soldier to attack in hand-to-hand combat."}
+			}
+			{"pose"
+				{"normal" "Change stance"}
+				{"normal"
+					{"action" "Stand"}
+					{"usage" "Click the button to change soldier's stance: standing, squatting, or prone."}
+				}
+				{"squat" "Change stance"}
+				{"squat"
+					{"action" "Squat"}
+					{"usage" "Click the button to change soldier's stance: standing, squatting, or prone."}
+				}
+				{"crawl" "Change stance"}
+				{"crawl"
+					{"action" "Prone"}
+					{"usage" "Click the button to change soldier's stance: standing, squatting, or prone."}
+				}
+			}
+		}
+		{"vehicle"
+			{"emit" "Unload crew"}
+			{"emit"
+				{"action" "Unload crew from the selected vehicle."}
+				{"usage" "After clicking the button, click the location where you want to unload your crew."}
+			}
+			{"mount" "Firing position"}
+			{"unmount" "Towed position"}
+			{"board" "Enter vehicle"}
+		}
+		{"squad"
+			{"call_ally" "Call for ally"}
+			{"set_commander" "Set squad commander"}
+			{"dismiss" "Dismiss squad"}
+			{"control" "Dismiss squad"}
+			{"control"
+				{"action" "The selected squad will be dismissed."}
+			}
+		}
+		{"mine" "Mine"}
+		{"mine"
+			{"usage" "After clicking the button, click the location where you wish to plant the mine."}
+		}
+		{"mine_detection" "Clear mines"}
+		{"mine_detection"
+			{"usage" "After clicking the button, click the location you want cleared of mines."}
+		}
+		{"put_dynamite" "Use dynamite"}
+		{"put_dynamite"
+			{"usage" "After clicking the button, click the place where you want to plant dynamite."}
+		}
+		{"plant" "Camouflage"}
+		{"plant"
+			{"usage" "After clicking the button, specify where you want to place a camouflage bush."}
+		}
+		{"hedgehog" "Deploy a anti-vehicle hedgehog"}
+		{"hedgehog"
+			{"usage" "After clicking the button, click the location to place an anti-vehicle hedgehog.(only stops light tanks and smaller)"}
+		}
+		{"hedgehog_big" "Deploy a anti-tank hedgehog"}
+		{"hedgehog_big"
+			{"usage" "After clicking the button, click the location to place an anti-tank hedgehog. (hold shift and left click to deploy in a queue)"}
+		}
+		{"injection" "Inject morphine"}
+		{"injection"
+			{"usage" "Click the button, then click on the injured soldier to inject morphine."}
+		}
+		{"burn" "Set alight"}
+		{"burn"
+			{"usage" "Click on the button, then choose an object you want to set alight."}
+		}
+		{"attach" ""}
+		{"attach"
+			{"on" "Attach cargo"}
+			{"on"
+				{"action" "Attach a cannon"}
+				{"usage" "Move your vehicle close to a cannon to attach it by clicking the button."}
+			}
+			{"off" "Detach cargo"}
+			{"off"
+				{"action" "Detach cannon"}
+			}
+		}
+		{"detach" ""}
+		{"supply" ""}
+		{"supply"
+			{"on" "Enable auto resupply"}
+			{"on"
+				{"action" "Enable auto resupply of your unit."}
+			}
+			{"off" "Disable auto resupply"}
+			{"off"
+				{"action" "Disable auto resupply of your unit."}
+			}
+		}
+		{"manual_control" "Direct Control mode"}
+		{"manual_control"
+			{"action" "Enable / Disable direct control over the selected unit."}
+			{"usage" "While in direct control mode, use the cursor to aim and the directional keys to move."}
+		}
+		{"inventory" "Inventory"}
+		{"inventory"
+			{"action" "Show/hide the selected unit's inventory."}
+		}
+		{"objectives" "Objectives"}
+		{"objectives"
+			{"action" "Show/hide mission objectives."}
+		}
+		{"message_history" "Message history"}
+		{"message_history"
+			{"action" "Show/hide message history."}
+		}
+		{"map" "Mini-map"}
+		{"map"
+			{"action" "Show/hide mini-map."}
+		}
+		{"map_control" "Map setup"}
+		{"map_control"
+			{"size" "Size"}
+			{"opacity" "Transparency"}
+			{"clickable" "Management"}
+			{"action" "Show/hide map controls."}
+			{"show_tracers" "Tracers"}
+			{"show_compass_icons" "Compass icons"}
+			{"show_squad_icons" "Show squad icons"}
+			{"enable_squad_icons" "Enable/disable squad icons"}
+			{"show_hit_cursor" "Show hit information"}
+			{"show_damage_messages" "Show info messages"}
+			{"show_waypoints" "Show waypoints"}
+			{"show_kill_stream" "Enable event log stream"}
+		}
+		{"minimap_zoom_in" "Zoom in"}
+		{"minimap_zoom_in"
+			{"usage" "Click to zoom in the mini-map."}
+		}
+		{"minimap_zoom_out" "Zoom out"}
+		{"minimap_zoom_out"
+			{"usage" "Click to zoom out the mini-map."}
+		}
+		{"minimap_fade_in" "Decrease transparency"}
+		{"minimap_fade_out" "Increase transparency"}
+		{"game_menu" "Game menu"}
+		{"game_menu"
+			{"action" "Switch to the main game menu"}
+		}
+		{"count_fx" "<f(arial_hq)s(8)c(FFFFFF)p(0)x.e(shadow)>%1%"}
+		{"count_fx_red" "<f(arial_hq)s(8)c(c8c8c8)p(0)x.e(shadow)>%1%"}
+		{"count_black" "<f(arial_hq)s(8)c(0 0 0)p(0)x.>%1%"}
+		{"count_white" "<f(arial_hq)s(8)c(200 200 200)p(0)x.>%1%"}
+		{"highlight"
+			{"stuff" "Highlight Items"}
+			{"stuff"
+				{"action" "Enable/disable highlighting of items on the ground."}
+			}
+			{"corpses" "Highlight Corpses"}
+			{"corpses"
+				{"action" "Enable/disable highlighting of corpses."}
+			}
+			{"silhouettes" "Highlight Silhouettes"}
+			{"silhouettes"
+				{"action" "Enable/disable highlighting of soldiers' silhouettes."}
+			}
+		}
+		{"dummy" "Button slot"}
+		{"dummy"
+			{"usage" "Right-click, then drag and drop frequently used buttons from the right panel into this slot."}
+		}
+		{"fire" ""}
+		{"fire"
+			{"action" ""}
+			{"usage" ""}
+			{"free" "Firing mode"}
+			{"free"
+				{"action" "Fire at will"}
+				{"usage" "Click this button to switch between firing modes: Hold fire, Return fire, and Fire at will."}
+			}
+			{"hold" "Firing mode"}
+			{"hold"
+				{"action" "Hold fire"}
+				{"usage" "Click this button to switch between firing modes: Hold fire, Return fire, and Fire at will."}
+			}
+			{"back" "Firing mode"}
+			{"back"
+				{"action" "Return fire"}
+				{"usage" "Click this button to switch between firing modes: Hold fire, Return fire, and Fire at will."}
+			}
+		}
+		{"move" ""}
+		{"move"
+			{"action" ""}
+			{"usage" ""}
+			{"at_will" "Movement mode"}
+			{"at_will"
+				{"action" "Move at will"}
+				{"usage" "Click this button to switch between the different movement modes: Hold position or Move at will."}
+			}
+			{"hold" "Movement mode"}
+			{"hold"
+				{"action" "Hold position"}
+				{"usage" "Click this button to switch between the different movement modes: Hold position or Move at will."}
+			}
+		}
+		{"cannon" ""}
+		{"cannon"
+			{"action" ""}
+			{"usage" ""}
+			{"fire" "Change artillery position"}
+			{"fire"
+				{"action" "Firing position"}
+				{"usage" "Click this button to toggle between an artillery piece's Firing and Towing modes."}
+			}
+			{"move" "Change artillery position"}
+			{"move"
+				{"action" "Towed position"}
+				{"usage" "Click this button to toggle between an artillery piece's Firing and Towing modes."}
+			}
+		}
+		{"browse_useitem" "Use item"}
+		{"browse_useitem"
+			{"usage" "After clicking the button, choose the desired action for the inventory item."}
+		}
+		{"browse_attack" "Attack options"}
+		{"browse_attack"
+			{"usage" "Click the button, then select desired attack mode."}
+		}
+		{"browse_back" "Back"}
+		{"browse_back"
+			{"action" "Return to the previous menu."}
+		}
+		{"key_hint" "%1% (<c(ffff60)>%2%</c>)"}
+		{"throw_sk_grenade" "Smoke grenade"}
+		{"throw_sk_grenade"
+			{"action" "Throw a smoke grenade"}
+			{"usage" "After clicking this button, click the location where you want to place a smoke grenade."}
+		}
+		{"barricade" "Set breastwork"}
+		{"barricade"
+			{"usage" "After clicking this button, select a place on the map for building a breastwork."}
+		}
+		{"barbwire" "Set barbed wire"}
+		{"barbwire"
+			{"usage" "After clicking this button, select a place on the map for rolling out some barbed wire."}
+		}
+		{"round_sandbag" "Fortify position"}
+		{"round_sandbag"
+			{"action" "Build a ring of breastwork to protect the gun."}
+		}
+		{"chat" "Chat"}
+		{"chat"
+			{"action" "Show/hide chat window."}
+		}
+		{"score_table" "Score table"}
+		{"score_table"
+			{"action" "Show/hide score table."}
+		}
+		{"videocapture" "Capture video"}
+		{"videocapture"
+			{"action" "Toggle video capture on/off."}
+		}
+		{"event_history" "Event history"}
+		{"event_history"
+			{"action" "Show/hide event history."}
+		}
+		{"transfer" "Unit transfer"}
+		{"transfer"
+			{"action" "Selected units will be transferred to chosen player in your team."}
+		}
+		{"frontline_retreat" "Retreat"}
+		{"frontline_retreat"
+			{"action" "Retreat to the next line of defenses and receive new resources."}
+		}
+		{"cp_current" "Current CP value"}
+		{"cp_current"
+			{"action" "Value raises with every purchased unit. Cannot exceed the limit."}
+		}
+		{"mp_available_points" "MP Points"}
+		{"mp_available_points"
+			{"action" "Shows how much you can spend on troops."}
+		}
+		{"mp_per_second" "MP / Second"}
+		{"mp_per_second"
+			{"action" "Shows how many MP you gain every second."}
+		}
+		{"mp_payback" "MP Payback"}
+		{"mp_payback"
+			{"action" "Regain some MP for troops that you've lost."}
+		}
+		{"vehicle_fuel" "Remaining Fuel"}
+		{"vehicle_fuel"
+			{"action" "This vehicle needs fuel to run. It can be re-filled."}
+		}
+		{"vehicle_supplies" "Remaining Supplies"}
+		{"vehicle_supplies"
+			{"action" "This vehicle supplies your troops with equipment. It refills itself automatically."}
+		}
+	}
+	{"crewbar"
+		{"charger" "Charger"}
+		{"commander" "Commander"}
+		{"driver" "Driver"}
+		{"gunner" "Gunner"}
+	}
+	{"humanbar"
+		{"veterancy"
+			{"level" "Veterancy %d"}
+			{"health" "+%.0f% Health"}
+			{"health_regeneration" "+%.0f% Health regeneration"}
+			{"stamina" "+%.0f% Stamina"}
+			{"stamina_regeneration" "+%.0f% Stamina regeneration"}
+			{"tank" "+%.0f% Tank"}
+			{"vehicle" "+%.0f% Vehicle"}
+			{"cannon" "+%.0f% Cannon"}
+			{"weapon_reload" "+%.0f% Weapon reload"}
+			{"weapon_skill" "+%1% Weapon skill"}
+		}
+		{"health_hint" "Health (%1%/%2%)%3%"}
+		{"health_regeneration" "+%.0f hpm"}
+		{"stamina_hint" "Stamina (%1%/%2%)%3% (%4%)"}
+		{"stamina_regeneration" "%.0f sps"}
+		{"equipment_mass" "%.1f kg"}
+		{"veterancy_hint" "Veterancy (%1%/%2%)"}
+		{"desc" "<f(arial_hq)s(8)x.>%1%"}
+		{"repair" "%s:%g%%"}
+	}
+	{"vehiclebar"
+		{"desc" "<f(arial_hq)s(8)x.>%1%"}
+		{"supply" "<f(arial_hq)s(8)x.>%.0f"}
+		{"supply_hint" "(%1%/%2%) +%3% spm"}
+		{"fuel" "<f(arial_hq)s(8)x.>%.1f"}
+		{"fuel_hint" "(%1%/%2%)"}
+		{"efficiency" "<f(arial_hq)s(8)><e(shadow)>%.0f%"}
+		{"ability" "Crew efficiency: %1%%\nMovement speed: %2%%\nReload speed: %2%%\nAccuracy: %2%%"}
+		{"stunned" "<f(arial_hq)s(8)><e(shadow)>stunned"}
+		{"speed" "<f(arial_hq)s(8)><e(shadow)>%.0f km/h"}
+		{"terrain"
+			{"undef" "Undef"}
+			{"ground" "Ground"}
+			{"swamp" "Swamp"}
+			{"road" "Road"}
+			{"no_pass" "No pass"}
+			{"shallow_water" "Shallow water"}
+			{"water" "Water"}
+			{"deep_water" "Deep water"}
+			{"snow" "Snow"}
+		}
+		{"desc_item" "<f(arial_hq)s(8)x(5)>%1%"}
+	}
+	{"interface"
+		{"cancel" "Cancel"}
+		{"no" "No"}
+		{"ok" "OK"}
+		{"yes" "Yes"}
+	}
+	{"equipmentbar"
+		{"title" "<x.f(arial_hq)s(8)><e(shadow)>%s"}
+	}
+	{"reinforcement_bar"
+		{"head" "<f(arial_narrow)s(16)><e(shadow)>%1% / %2% MP"}
+		{"hint" "%1%\nMP: %2%\nTime: %3%"}
+		{"available" "\nAvailable: %1%"}
+	}
+	{"mass_view"
+		{"kg" "<f(arial_hq)s(8)x.>Mass: %g kg"}
+		{"ton" "<f(arial_hq)s(8)x.>Mass: %g ton"}
+	}
+	{"scenemenu"
+		{"choose" "Choose a game to save"}
+		{"savegame" "Save game:"}
+	}
+	{"objectives"
+		{"title" "Mission objectives"}
+		{"primary" "<f(bookman_hq)s(12)b+c(245 245 245)e(shadow_ex)>Primary:"}
+		{"secondary" "<f(bookman_hq)s(12)b+c(245 245 245)e(shadow_ex)>Secondary:"}
+		{"objnew" "<f(bookman_hq)s(13)c(00ffff)>New mission objective"}
+		{"objcompleted" "<f(bookman_hq)s(13)c(00ff00)>Mission objective completed"}
+		{"objfailed" "<f(bookman_hq)s(13)c(ff0000)>Mission objective failed"}
+		{"objstyle" "<f(arial_narrow)s(18)c(ffffff)>"}
+	}
+	{"message_history"
+		{"title" "Message history"}
+	}
+	{"event_history"
+		{"title" "Event history"}
+	}
+	{"map"
+		{"title" "Map"}
+	}
+	{"quantspeeddialog"
+		{"title" "Game speed"}
+		{"slow" "Slow"}
+		{"fast" "Fast"}
+	}
+	{"hints"
+		{"play" "<f(bookman_hq)s(13)>Play"}
+		{"record" "<f(bookman_hq)s(13)>Record"}
+		{"pause" "<f(bookman_hq)s(13)>Pause"}
+		{"slow" "<f(bookman_hq)s(13)>Slow"}
+		{"outofsync" "<f(bookman_hq)s(13)>Out of sync"}
+		{"timer" "<f(bookman_hq)s(13)>%02d:%02d <f(arial_hq)s(8)c(00FFFF)>%d"}
+		{"slowdown"
+			{"slow" "<f(bookman_hq)s(13)>Slow-motion"}
+			{"fast" "<f(bookman_hq)s(13)>Fast-motion"}
+		}
+		{"restart" "Game will restart in %1% sec"}
+		{"spawntime" "Order units within %1% seconds, or surrender!"}
+		{"replay_timer" "<f(bookman_hq)s(13)c(FFFFFF)>Demo replay will begin in %1% seconds"}
+		{"enemy_leading" "<f(bookman_hq)s(13)c(FFFFFF)e(shadow)>Enemy team is leading!"}
+		{"friendly_leading" "<f(bookman_hq)s(13)c(FFFFFF)e(shadow)>Your team is leading!"}
+		{"enemy_winning" "<f(bookman_hq)s(13)c(FFFFFF)e(shadow)>Enemy team is winning!"}
+		{"friendly_winning" "<f(bookman_hq)s(13)c(FFFFFF)e(shadow)>Your team is winning!"}
+		{"vehicle_repaired" "<f(bookman_hq)s(13)c(FFFFFF)e(shadow)>Vehicle repaired!"}
+	}
+	{"tips"
+		{"title" "Help"}
+		{"button"
+			{"back" "Back"}
+			{"forw" "Forw"}
+			{"prev" "Prev"}
+			{"next" "Next"}
+		}
+		{"menu"
+			{"back" "Back"}
+			{"forw" "Forward"}
+			{"prev" "Prev"}
+			{"next" "Next"}
+		}
+	}
+	{"gameover"
+		{"mission_completed" "Mission completed"}
+		{"mission_failed" "Mission failed"}
+		{"stats" "Enemy losses:<x(135)> %1% men, %2% vehicles\nFriendly losses:<x(135)>%3% men, %4% vehicles"}
+	}
+	{"loading"
+		{"title" "<b+c(green)>%s"}
+		{"starting" "Starting"}
+		{"spawning" "Spawning (%d%)"}
+		{"meshgroups" "Building mesh groups (%d%)"}
+		{"wait4players" "Waiting for players"}
+		{"coverbase" "Init cover base"}
+		{"caching" "Caching entities (%d%)"}
+		{"interface" "Loading interface"}
+		{"landscape" "Loading landscape"}
+		{"entities" "Loading entities (%d%)"}
+		{"textures" "Loading textures (%d%)"}
+		{"purging_resources" "Purging resources"}
+		{"parsing_files" "Parsing files"}
+		{"prepare_scene" "Preparing scene"}
+		{"apply_scene_mod" "Applying scene mod"}
+		{"pathernetwork" "Initializing pather network"}
+		{"resources_to_vidmem" "Uploading resources to video memory"}
+		{"caching_interface" "Caching interface"}
+	}
+	{"storing"
+		{"waypoints" "Waypoints"}
+		{"zones" "Zones"}
+		{"entities" "Entities"}
+	}
+	{"names"
+		{"rus"
+			{"first" "Afanasy\nAkim\nAnisim\nAleksander\nAleksei\nAndrey\nAnton\nBogdan\nBoris\nBorislav\nDaniil\nDavid\nDemyan\nDenis\nDmitriy\nDorofei\nEgor\nErmolai\nEvgeni\nFedot\nFoma\nFyodor\nGavrila\nGennadiy\nGeorgiy\nGerasim\nGleb\nGrigory\nIgor\nIlya\nInnokenti\nIosif\nIvan\nKazimir\nKirill\nKliment\nKonstantin\nKuzma\nLavrenti\nLazar\nLeonid\nLev\nLuka\nMakar\nMaksim\nMark\nMatvei\nMikhail\nMiloslav\nModest\nMstislav\nNaum\nNikifor\nNikita\nNikodim\nNikolai\nOleg\nOsip\nPavel\nPeter\nRadimir\nRoman\nRostislav\nSamuil\nSaveli\nSemyon\nSergei\nSevastian\nSpyridon\nStanislav\nStepan\nSvyatoslav\nTaras\nTikhon\nTimofei\nVadim\nValentin\nVarfolomei\nVasiliy\nVenyamin\nViktor\nVitaliy\nVladilen\nVladislav\nVsevolod\nVyacheslav\nYakim\nYakov\nYaroslav\nYefrem\nYuri\nZakhar\nNikolay\nVladimir\n"}
+			{"last" "Ivanov\nSmirnov\nGrischenko\nVasilev\nPetrov\nKyznetsov\nFedorov\nMikhailov\nSokolov\nPavlov\nSemenov\nStepanov\nEgorov\nNikolaev\nKozlov\nPopov\nLebedev\nYakovlev\nVolkov\nGrigorev\nMorozov\nNovikov\nNikitin\nDmitriev\nKuzmin\nAleksandrov\nZaitsev\nZakharov\nBogdanov\nVorobev\nBelov\nBaranov\nFilippov\nTimofeev\nEfimov\nBorisov\nIlin\nKiselev\nFrolov\nSorokin\nGolubev\nPolyakov\nOsipov\nKovalev\nTarasov\nBelyaev\nGerasimov\nMironov\nMelnikov\nAbramtsov\nZhuravlev\nVlasov\nTitov\nDanilov\nKovalenko\nNazarov\nKarpov\nDenisov\nTikhonov\nSavelev\nGromov\nTikhomirov\nFomin\nShcherbakov\nAnisimov\nErmakov\nChistyakov\nBykov\nLeonov\nVoronin\nIgnatev\nEvdokimov\nArkhipov\nChernov\nBelyakov\nPonomarev\nFilatov\nProkhorov\nVoronov\nKolesnikov\nKlimov\nLoginov\nSavin\nNesterov\nDemidov\nLobanov\nAksenov\nLukin\nBelousov\nSpiridonov\nYudin\nAkimov\nSuvorov\nLarionov\nLukanov\nUshakov\nPetrenko\nBiryukov\nKhokhlov\nFilimonov\nChernyshev\nSmolensky\nKornev\n"}
+		}
+		{"ger2"
+			{"first" "Achim\nAdolf\nAlbrecht\nAlexander\nAndreas\nArnold\nArnulf\nAxel\nAugustus\nBenjamin\nBernd\nBernhard\nBerthold\nBruno\nCarsten\nChristian\nDaniel\nDavid\nDennis\nDieter\nDietrich\nDirk\nDominik\nEgon\nElmar\nEmmerich\nErhard\nErich\nErnst\nErwin\nEugen\nFelix\nFlorian\nFrank\nFranz\nFriedhelm\nFriedrich\nFritz\nGebhard\nGeorg\nGerhard\nGernot\nGotthold\nGunther\nHans\nHarald\nHartmut\nHartwig\nHelge\nHelger\nHelmut\nHerbert\nHolger\nHugbert\nHugo\nIgnaz\nIngemar\nJan\nJens\nJohann\nJohannes\nJonas\nJorg\nJurgen\nKarl\nKarsten\nKaspar\nKevin\nKlaus\nKonrad\nKristian\nKristof\nKurt\nLaurenz\nLenz\nLeon\nLeonhard\nLothar\nLudwig\nLukas\nLuither\nManfred\nMarcel\nMarko\nMario\nMarius\nMarkus\nMartin\nMatthaus\nMathias\nMax\nMaximilian\nMeinhard\nMichael\nNikolaus\nNorbert\nOlof\nOswin\nPatrick\nPaul\nPeter\nPhilipp\nRaimund\nReiner\nRalf\nRandolf\nReinhard\nReinhold\nRene\nRichard\nRobert\nRudolf\nRupert\nSebastian\nSiegfried\nSimon\nStefan\nSteffen\nSven\nTheodor\nTim\nTimo\nTobias\nTorsten\nUdo\nUlf\nUlrich\nUrban\nUrs\nUwe\nVeit\nViktor\nVinzenz\nVolkard\nVolker\nWaldemar\nWalther\nWendel\nWenzel\nWernher\nWilfried\nWilhelm\nWolfgang\nWolfram\nTomas\nOtto\n"}
+			{"last" "Adler\nAltmann\nArzt\nBader\nBauer\nBaum\nBaumann\nBecker\nBerlin\nBorg\nBrauer\nBraun\nBrenner\nBreuer\nBullwinkel\nCullen\nDannenberg\nDick\nDresdner\nEisen\nEisenhauer\nEisenhower\nErzberger\nFarber\nFischer\nFleischer\nFrank\nFuchs\nGebauer\nGerber\nGold\nGross\nGrossmann\nGruen\nHalpern\nHammer\nHartmann\nHellmann\nHermann\nHoffmann\nHolz\nHuber\nJung\nKaiser\nKaltenbach\nKeller\nKellerman\nKessler\nKlein\nKlutz\nKnopf\nKoch\nKoehler\nKoenig\nKramer\nKrauss\nKrieg\nKrieger\nKrueger\nKunstler\nKurz\nKuster\nLange\nLederer\nLedermann\nLehrer\nLesser\nLichtermann\nLichtman\nLowenthal\nLustig\nMaurer\nMeer\nMehler\nMehlinger\nMehlmann\nMelman\nMeltzer\nMetzger\nMeyer\nMuller\nNachtmann\nNagel\nNeumann\nPeters\nPfannnenschmidt\nPollack\nPostmann\nPuttkammer\nRabe\nRader\nReifsneider\nReifsnyder\nReiter\nRichter\nRockower\nRoth\nRothbart\nSaltz\nSaltzmann\nSandler\nSchafer\nSchatz\nSchenker\nScherer\nSchlesinger\nSchlosser\nSchluter\nSchmidt\nSchmuckler\nSchmuker\nSchneide\nSchneider\nSchreiber\nSchreiner\nSchroeder\nSchubert\nSchuhmann\nSchulmann\nSchultheis\nSchultz\nSchumacher\nSchuster\nSchwartz\nSchwarzkopf\nSchweitzer\nShapiro\nSilber\nSilberg\nStahl\nStamm\nStammler\nStein\nSteinhauer\nSternberg\nStock\nStroh\nStudebaker\nStump\nSussman\nUnruh\nWagner\nWaldschmidt\nWalter\nWeber\nWechsler\nWeiss\nWerner\nWolf\nZimmermann\nZumwald\nVolker\nLembek\n"}
+		}
+		{"ger"
+			{"first" "Achim\nAdolf\nAlbrecht\nAlexander\nAndreas\nArnold\nArnulf\nAxel\nAugustus\nBenjamin\nBernd\nBernhard\nBerthold\nBruno\nCarsten\nChristian\nDaniel\nDavid\nDennis\nDieter\nDietrich\nDirk\nDominik\nEgon\nElmar\nEmmerich\nErhard\nErich\nErnst\nErwin\nEugen\nFelix\nFlorian\nFrank\nFranz\nFriedhelm\nFriedrich\nFritz\nGebhard\nGeorg\nGerhard\nGernot\nGotthold\nGunther\nHans\nHarald\nHartmut\nHartwig\nHelge\nHelger\nHelmut\nHerbert\nHolger\nHugbert\nHugo\nIgnaz\nIngemar\nJan\nJens\nJohann\nJohannes\nJonas\nJorg\nJurgen\nKarl\nKarsten\nKaspar\nKevin\nKlaus\nKonrad\nKristian\nKristof\nKurt\nLaurenz\nLenz\nLeon\nLeonhard\nLothar\nLudwig\nLukas\nLuither\nManfred\nMarcel\nMarko\nMario\nMarius\nMarkus\nMartin\nMatthaus\nMathias\nMax\nMaximilian\nMeinhard\nMichael\nNikolaus\nNorbert\nOlof\nOswin\nPatrick\nPaul\nPeter\nPhilipp\nRaimund\nReiner\nRalf\nRandolf\nReinhard\nReinhold\nRene\nRichard\nRobert\nRudolf\nRupert\nSebastian\nSiegfried\nSimon\nStefan\nSteffen\nSven\nTheodor\nTim\nTimo\nTobias\nTorsten\nUdo\nUlf\nUlrich\nUrban\nUrs\nUwe\nVeit\nViktor\nVinzenz\nVolkard\nVolker\nWaldemar\nWalther\nWendel\nWenzel\nWernher\nWilfried\nWilhelm\nWolfgang\nWolfram\nTomas\nOtto\n"}
+			{"last" "Adler\nAltmann\nArzt\nBader\nBauer\nBaum\nBaumann\nBecker\nBerlin\nBorg\nBrauer\nBraun\nBrenner\nBreuer\nBullwinkel\nCullen\nDannenberg\nDick\nDresdner\nEisen\nEisenhauer\nEisenhower\nErzberger\nFarber\nFischer\nFleischer\nFrank\nFuchs\nGebauer\nGerber\nGold\nGross\nGrossmann\nGruen\nHalpern\nHammer\nHartmann\nHellmann\nHermann\nHoffmann\nHolz\nHuber\nJung\nKaiser\nKaltenbach\nKeller\nKellerman\nKessler\nKlein\nKlutz\nKnopf\nKoch\nKoehler\nKoenig\nKramer\nKrauss\nKrieg\nKrieger\nKrueger\nKunstler\nKurz\nKuster\nLange\nLederer\nLedermann\nLehrer\nLesser\nLichtermann\nLichtman\nLowenthal\nLustig\nMaurer\nMeer\nMehler\nMehlinger\nMehlmann\nMelman\nMeltzer\nMetzger\nMeyer\nMuller\nNachtmann\nNagel\nNeumann\nPeters\nPfannnenschmidt\nPollack\nPostmann\nPuttkammer\nRabe\nRader\nReifsneider\nReifsnyder\nReiter\nRichter\nRockower\nRoth\nRothbart\nSaltz\nSaltzmann\nSandler\nSchafer\nSchatz\nSchenker\nScherer\nSchlesinger\nSchlosser\nSchluter\nSchmidt\nSchmuckler\nSchmuker\nSchneide\nSchneider\nSchreiber\nSchreiner\nSchroeder\nSchubert\nSchuhmann\nSchulmann\nSchultheis\nSchultz\nSchumacher\nSchuster\nSchwartz\nSchwarzkopf\nSchweitzer\nShapiro\nSilber\nSilberg\nStahl\nStamm\nStammler\nStein\nSteinhauer\nSternberg\nStock\nStroh\nStudebaker\nStump\nSussman\nUnruh\nWagner\nWaldschmidt\nWalter\nWeber\nWechsler\nWeiss\nWerner\nWolf\nZimmermann\nZumwald\nVolker\nLembek\n"}
+		}
+		{"eng"
+			{"first" "Alan\nAlec\nAlfred\nAlistair\nAndrew\nTony\nBasil\nBill\nBenjamin\nCharles\nChris\nClive\nColin\nDaniel\nDavid\nDerek\nEdmund\nTed\nElmer\nEric\nFrank\nGarry\nGeorge\nGordon\nGraham\nGreg\nHarry\nHoward\nHugh\nHumphrey\nIan\nJack\nJason\nJames\nJeff\nJeremy\nJohn\nJoe\nJonathan\nJude\nJulian\nKeith\nKenny\nLee\nLesley\nMalcolm\nMark\nMathew\nMartin\nMichael\nMycroft\nMurray\nNeville\nNick\nNeil\nNigel\nPatrick\nPaul\nPeter\nPhilip\nRalph\nRay\nRichard\nRobert\nRoger\nRowland\nRupert\nSam\nSimon\nStephan\nStephen\nSteven\nStuart\nTerry\nTom\nTimothy\nTrevor\nVictor\nWarren\nWilliam\nKevin\nChristian\n"}
+			{"last" "Smith\nJones\nPalmer\nWilliams\nBrown\nTaylor\nDavies\nWilson\nEvans\nThomas\nJohnson\nRoberts\nWalker\nWright\nRobinson\nThompson\nWhite\nHughes\nHall\nEdwards\nGreen\nMartin\nWood\nHarris\nLewis\nClarke\nJackson\nClark\nTurner\nHill\nScott\nMoore\nCooper\nMorris\nWard\nKing\nWatson\nBaker\nHarrison\nMorgan\nYoung\nAllen\nMitchell\nPhillips\nJames\nBell\nAnderson\nCampbell\nLee\nParker\nKelly\nDavis\nBennett\nMiller\nCook\nPrice\nShaw\nSimpson\nGriffiths\nRichardson\nMarshall\nCarter\nCollins\nStewart\nBailey\nPatel\nGray\nMurray\nCox\nMurphy\nAdams\nRichards\nGraham\nEllis\nWilkinson\nRobertson\nFoster\nChapman\nRussell\nMason\nWebb\nRogers\nPowell\nHunt\nHolmes\nGibson\nMills\nPalmer\nWallace\nOwen\nMatthews\nReid\nBarnes\nRyan\nDixon\nJenkins\nFisher\nLloyd\nKnight\nPearson\nBarker\nCrosby\nGallaher\n"}
+		}
+		{"usa"
+			{"first" "James\nJohn\nRobert\nMichael\nWilliam\nDavid\nRichard\nCharles\nJoseph\nThomas\nChristopher\nDaniel\nPaul\nMark\nDonald\nGeorge\nKenneth\nSteven\nEdward\nBrian\nRonald\nAnthony\nJason\nMatthew\nGary\nTimothy\nJose\nLarry\nJeffrey\nFrank\nScott\nEric\nStephen\nAndrew\nRaymond\nGregory\nJoshua\nJerry\nDennis\nWalter\nPatrick\nPeter\nHarold\nDouglas\nHenry\nCarl\nArthur\nRyan\nRoger\nJoe\nJuan\nJack\nAlbert\nJonathan\nJustin\nTerry\nGerald\nKeith\nSamuel\nWillie\nRalph\nLawrence\nNicholas\nRoy\nBenjamin\nBruce\nBrandon\nAdam\nHarry\nFred\nWayne\nBilly\nSteve\nLouis\nJeremy\nAaron\nRandy\nHoward\nEugene\nCarlos\nRussell\nBobby\nVictor\nMartin\nErnest\nPhillip\nTodd\nJesse\nCraig\nAlan\nShawn\nClarence\nSean\nPhilip\nChris\nJohnny\nEarl\nJimmy\nAntonio\nDanny\nBryan\nTony\nLuis\nMike\nStanley\nLeonard\nNathan\nDale\nManuel\nRodney\nCurtis\nNorman\nAllen\nMarvin\nVincent\nGlenn\nJeffery\nTravis\nJeff\nChad\nJacob\nLee\nMelvin\nAlfred\nKyle\nFrancis\nBradley\nJesus\nHerbert\nFrederick\nRay\nJoel\nEdwin\nDon\nEddie\nRicky\nTroy\nRandall\nBarry\nAlexander\nBernard\nMario\nLeroy\nFrancisco\nMarcus\nMicheal\nTheodore\nClifford\nMiguel\nOscar\nJay\nJim\nTom\nCalvin\nKevin\nChristian\n"}
+			{"last" "Smith\nJohnson\nPalmer\nWilliams\nJones\nBrown\nDavis\nMiller\nWilson\nMoore\nTaylor\nAnderson\nThomas\nJackson\nWhite\nHarris\nMartin\nThompson\nGarcia\nMartinez\nRobinson\nClark\nRodriguez\nLewis\nLee\nWalker\nHall\nAllen\nYoung\nHernandez\nKing\nWright\nLopez\nHill\nScott\nGreen\nAdams\nBaker\nGonzalez\nNelson\nCarter\nMitchell\nPerez\nRoberts\nTurner\nPhillips\nCampbell\nParker\nEvans\nEdwards\nCollins\nStewart\nSanchez\nMorris\nRogers\nReed\nCook\nMorgan\nBell\nMurphy\nBailey\nRivera\nCooper\nRichardson\nCox\nHoward\nWard\nTorres\nPeterson\nGray\nRamirez\nJames\nWatson\nBrooks\nKelly\nSanders\nPrice\nBennett\nWood\nBarnes\nRoss\nHenderson\nColeman\nJenkins\nPerry\nPowell\nLong\nPatterson\nHughes\nFlores\nWashington\nButler\nSimmons\nFoster\nGonzales\nBryant\nAlexander\nRussell\nGriffin\nDiaz\nHayes\nCrosby\nGallaher\n"}
+		}
+		{"jap"
+			{"first" "Aki\nAkihisa\nAkinari\nAkira\nArata\nAshihei\nAtsumichi\nAzumamaro\nBakin\nBenkei\nBunjiro\nBussho\nChojiro\nDaisetsu\nDayu\nDokuohtei\nEichi\nEiichi\nEikichi\nEishi\nEizan\nEnnosuke\nFujio\nFumihiko\nFumio\nGempachi\nGenjo\nGenpaku\nGihei\nGoemon\nGonnohyoe\nGyo\nHachemon\nHajime\nHaranobu\nHaruhiro\nHarunobu\nHeiji\nHideaki\nHideki\nHidetada\nHidetsugu\nHigashikuni\nHikozaemon\nHirobumi\nHirohisa\nHirokichi\nHiroshige\nHirotsugu\nHiroyuki\nHisamitsu\nHisato\nHitoshi\nHokichi\nHoriuchi\nHyobe\nIchibei\nIchiyo\nIemochi\nIeshige\nIeyoshi\nIkku\nIsamu\nIshiro\nIwane\nIzumo\nJinzaburo\nJoji\nJou\nJunichi\nJunnosuke\nJurobei\nKadonomaro\nKagetoki\nKakuei\nKan\nKanezane\nKansuke\nKaoru\nKatsuhiko\nKatsumoto\nKatsuyoshi\nKawanari\nKazuhiko\nKazuko\nKazunori\nKazushige\nKazuyuki\nKeiki\nKeita\nKen\nKenjiro\nKensaku\nKenzaburo\nKichibei\nKiichi\nKikugoro\nKiminobu\nKinji\nKinnosuke\nKitahachi\nKiyohisa\nKiyomori\nKiyonori\nKoan\nKohei\nKoji\nKokan\nKokushi\nKonyo\nKorenaga\nKosaku\nKosho\nKoyo\nKuma\nKunihiko\nKunio\nKuniyoshi\nKyoichi\nKyuichi\nKyuwa\nMagobei\nMamoru\nMaresuke\nMasafumi\nMasahiko\nMasakazu\nMasamichi\nMasanori\nMasashi\nMasato\nMasazumi\nMasu\nMasutaro\nMatsu\nMatsusuke\nMeiji\nMichinori\nMinoru\nMitsuharu\nMitsunari\nMitsuzuka\nMobumasu\nMokuami\nMorie\nMoromao\nMotoki\nMototsune\nMunemitsu\nMuneyaki\nMushanokoji\nNaganori\nNakazo\nNaoaki\nNaoki\nNaonobu\nNaozane\nNariakira\nNaruhiko\nNatsuo\nNiou\nNobuatsu\nNobuhisa\nNobuo\nNobuyoki\nNori\nNorihisa\nNorishige\nNoriyori\nOda\nOkitsugu\nOmezo\nOsamu\nReijiro\nRintaro\nRoku\nRyobe\nRyoma\nRyu\nRyushi\nSaburo\nSadahige\nSadao\nSaemon\nSakutaro\nSanetomo\nSanraku\nSatoshi\nSeiesnsui\nSeiichi\nSeiki\nSeishiro\nSeison\nSekien\nSenzo\nSharaku\nShigeaki\nShigeko\nShigemori\nShigeru\nShigochiyo\nShiki\nShimpei\nShinji\nShinobu\nShinsui\nShirai\nSho\nShoichi\nShojiro\nShosuke\nShozaburo\nShuji\nShumei\nShun'en\nShunichi\nShunmyo\nShunso\nShusaku\nSoetsu\nSoichiro\nSosa\nSoshu\nSotaro\nSozui\nSuezo\nSukejuro\nSukeyasu\nSumitomo\nTadaaki\nTadamasa\nTadao\nTadasuke\nTadayuki\nTaheiji\nTaisuke\nTakafumi\nTakakazu\nTakamuku\nTakanobu\nTakashi\nTakechi\nTakeji\nTakeo\nTakesi\nTakuboku\nTakuro\nTameyoshi\nTango\nTanzan\nTarozaemon\nTasuku\nTatsuya\nTeika\nTenshin\nTerumoto\nTetsu\nTetsunori\nTetsuyuki\nTobei\nToichi\nTokaji\nTokimasa\nTokuhei\nTomiichi\nTomohiko\nTomoyuki\nToranosuke\nToshiaki\nToshikazu\nToshimichi\nToshiro\nToson\nToyoharu\nToyonobu\nToyozo\nTsuginori\nTsumemasa\nTsuneo\nTsuramatsu\nTsuruki\nUkon\nUtaemon\nUtamuro\nWashi\nYahei\nYakamochi\nYasotaro\nYasuhiro\nYasunari\nYasuoka\nYasutoki\nYatsuhiro\nYo\nYoichi\nYorikane\nYoritomo\nYosai\nYoshiaki\nYoshifusa\nYoshihisa\nYoshiiku\nYoshimasa\nYoshimitsu\nYoshinaka\nYoshinori\nYoshitaka\nYoshitoki\nYoshitoshi\nYoson\nYugoro\nYuji\nYukichi\nYuko\nYusuke\nZenko\n"}
+			{"last" "Aizawa\nAkera\nAmaya\nArai\nArishima\nAsai\nAshikaga\nBaisotei\nChino\nDazai\nEda\nEnoki\nFuchida\nFujishima\nFukumitsu\nFukuzawa\nFuschida\nGenji\nHaga\nHamaguchi\nHarada\nHatakeda\nHayami\nHideaki\nHigoshi\nHiraki\nHirata\nHiroyuki\nHohki\nHorigome\nHosokaya\nIbu\nIchiro\nIesada\nIida\nIkina\nImamura\nIno\nIppitsusai\nIseya\nIshimaru\nIsozaki\nIwahashi\nJippensha\nKada\nKaima\nKakutama\nKamisaka\nKanegawa\nKarubo\nKashiwagi\nKato\nKatsushika\nKawai\nKawasawa\nKawazu\nKi\nKikuchi\nKimura\nKiski\nKitao\nKoga\nKojima\nKomiya\nKondo\nKotara\nKubota\nKunda\nKuramoto\nKurogane\nKusonoki\nMaeda\nMakioka\nMaruyama\nMasuko\nMatsuda\nMatsuo\nMatsuzawa\nMihashi\nMinatoya\nMitsukuri\nMiyagi\nMiyazaki\nMizutani\nMoriguchi\nMorita\nMunkata\nMurata\nMuso\nNagase\nNakadai\nNakamoto\nNakao\nNakayama\nNarita\nNijo\nNishimura\nNoda\nNoro\nNumata\nOdaka\nOhira\nOinuma\nOkamura\nOkazaki\nOkuda\nOmori\nOnohara\nOta\nOtsuka\nRaikatuji\nSaigo\nSakagami\nSakiyurai\nSanda\nSasada\nSatoh\nSekigawa\nSerizawa\nShibata\nShige\nShima\nShimazaki\nShimura\nShiokawa\nShirahata\nShirokawa\nShunji\nSoma\nSuenami\nSugisata\nSuzambo\nTaira\nTakahama\nTakara\nTakayama\nTakemitsu\nTakewaki\nTakudo\nTange\nTanuma\nTawaraya\nTerakado\nTojo\nTomimoto\nTorii\nToyama\nTsucgimoto\nTsukada\nTsukehara\nTsuruga\nUchida\nUesugi\nUmehara\nUshiba\nWatari\nYamagata\nYamakawa\nYamanouchi\nYamazaki\nYanagita\nYasukawa\nYosano\nYoshinobu\nYuhara\n"}
+		}
+	}
+	{"talk"
+		{"ally" "<c(0000FF)>%s"}
+		{"enemy" "<c(FF8080)>%s"}
+		{"cant turn railway switch" "The railway switch is blocked"}
+	}
+	{"perk"
+		{"health" "Health"}
+		{"vision" "Vision"}
+		{"stealth" "Stealth"}
+		{"pistol" "Pistol"}
+		{"smg" "SMG"}
+		{"mgun" "MG"}
+		{"rifle" "Rifle"}
+		{"level"
+			{"lvl0" "Level 0"}
+			{"lvl1" "Level 1"}
+			{"lvl2" "Level 2"}
+			{"lvl3" "Level 3"}
+			{"lvl4" "Level 4"}
+			{"mp_soldier" "Soldier"}
+			{"mp_officer" "Officer"}
+			{"mp_specnaz" "Scout"}
+			{"mp_sniper" "Sniper"}
+		}
+	}
+	{"stats"
+		{"color"
+			{"ally" "<c(86b9d1)>"}
+			{"enemy" "<c(d18686)>"}
+		}
+		{"effector"
+			{"enemy" "<c(b65b5b)>enemy"}
+			{"ally" "<c(599dbd)>ally"}
+			{"neutral" "<c(c4b658)>neutral"}
+			{"world" "<c(FFFFFF)>world"}
+		}
+		{"damage"
+			{"bullet" "shot"}
+			{"blast" "explode"}
+			{"blow" "kick"}
+			{"crush" "crush"}
+			{"fire" "burn"}
+			{"unknown" "??"}
+		}
+		{"destroy" "<f(arial_hq)s(8)>%1%<c(a0a0a0)> {<c(d7cc81)>%2%<c(a0a0a0)>} %3% <c(9fd186)>%4%"}
+		{"kills_count" "<f(main)s(10)e(shadow)x.y.>%1%"}
+		{"flags_count" "<b+c(FFFFFF)s(20)x.y.>%1%"}
+		{"flag_captured" "<f(arial_hq)c(FFFFFF)s(8)>Flag captured"}
+		{"flag_lost" "<f(arial_hq)c(FFFFFF)s(8)>Flag lost"}
+		{"player_leave" "<f(arial_hq)c(FFFFFF)s(8)>%1%"}
+	}
+	{"chatwheel"
+		{"normal" "<f(impact)s(21)c(d4d4d4bb)e(shadow)>%s"}
+		{"select" "<f(impact)s(30)c(c98d55bb)e(shadow)>%s"}
+	}
+	{"entity_info"
+		{"desc"
+			{"tank" "<c(c3baae)>tank</c>"}
+			{"tank"
+				{"light" "<c(c3baae)>light tank</c>"}
+				{"medium" "<c(c3baae)>medium tank</c>"}
+				{"heavy" "<c(c3baae)>heavy tank</c>"}
+			}
+			{"human" ""}
+			{"moto" "<c(c3baae)>motorcycle</c>"}
+			{"car" "<c(c3baae)>car</c>"}
+			{"armored_car" "<c(c3baae)>armored vehicle</c>"}
+			{"cannon" "<c(c3baae)>artillery</c>"}
+			{"airborne" "<c(c3baae)>plane</c>"}
+			{"marine" "<c(c3baae)>boat</c>"}
+		}
+		{"armor" "Armor"}
+		{"crew" "Crew"}
+		{"max_speed" "Speed"}
+		{"weapon_primary" "Main gun"}
+		{"weapon_secondary" "Machine gun"}
+	}
+	{"replay"
+		{"current_player" "<e(shadow)>Currently watching: %1%"}
+		{"fow_switch" "<e(shadow)>Fog of War"}
+	}
+	{"component"
+		{"format" "<f(arial_hq)s(8)e(shadow)>"}
+		{"body_broken" "<c(FF1F00)>Hull destroyed<c(FFFFFF)>"}
+		{"body_injured" ""}
+		{"track_broken" "<c(FFFF00)>Track damaged<c(FFFFFF)>"}
+		{"track_injured" ""}
+		{"engine_broken" "<c(FFFF00)>Engine damaged<c(FFFFFF)>"}
+		{"engine_injured" ""}
+		{"gun_broken" "<c(FFFF00)>Main gun damaged<c(FFFFFF)>"}
+		{"gun_injured" ""}
+		{"turret_broken" "<c(FFFF00)>Turret damaged<c(FFFFFF)>"}
+		{"turret_injured" ""}
+		{"turret_pierced" "Turret pierced"}
+		{"armor_broken" ""}
+		{"armor_injured" ""}
+		{"body_break" "<c(FFFF00)>Hull damaged<c(FFFFFF)>"}
+		{"body_pierced" "Hull pierced"}
+		{"turret_jammed" ""}
+		{"burn_engine" ""}
+		{"inventory_broken" "<c(FF1F00)>Ammunition destroyed<c(FFFFFF)>"}
+		{"crew_down" ""}
+		{"leave_unit" "<c(CCCCCC)>Self-destruction initiated<c(FFFFFF)>"}
+		{"empty" ""}
+		{"shock" "<c(BBBBBB)>Crew injured<c(BBBBBB)>"}
+		{"charger_die" ""}
+		{"commander_die" ""}
+		{"driver_die" ""}
+		{"gunner_die" ""}
+		{"gunner2_die" ""}
+		{"grenade_timer" "<f(arial_hq)s(8)e(shadow)>%s%.1f"}
+		{"score_gain" "%.1f XP"}
+		{"ammo_damaged" "<c(FFFF00)>Ammunition damaged<c(FFFFFF)>"}
+		{"ammo_fire" "<c(FF8C00)>Ammunition on fire<c(FFFFFF)>"}
+		{"fuel_leak" "<c(BBBBBB)>Fuel Leak<c(BBBBBB)>"}
+		{"fuel_fire" "<c(FF8C00)>Fuel on fire<c(FFFFFF)>"}
+		{"engine_destroyed" "<c(FF1F00)>Engine destroyed<c(FFFFFF)>"}
+		{"turret_destroyed" "<c(FF1F00)>Turret destroyed<c(FFFFFF)>"}
+		{"gun_destroyed" "<c(FF1F00)>Main gun destroyed<c(FFFFFF)>"}
+		{"shell_shatter" "<c(BBBBBB)>Shell Shattered<c(BBBBBB)>"}
+		{"armor_damage" "<c(BBBBBB)>Armor damaged<c(BBBBBB)>"}
+		{"armor_heavydamage" "<c(FFFF00)>Armor heavily damaged<c(FFFFFF)>"}
+		{"armor_spall" "<c(FF1F00)>Armor spalled<c(FFFFFF)>"}
+		{"turretarmor_damage" "<c(BBBBBB)>Turret armor damaged<c(BBBBBB)>"}
+		{"turretarmor_heavydamage" "<c(FFFF00)>Turret armor heavily damaged<c(FFFFFF)>"}
+		{"turretarmor_spall" "<c(FF1F00)>Turret armor spalled<c(FFFFFF)>"}
+		{"hatch_mode_down" "Commander mode down"}
+		{"hatch_mode_up" "Commander mode up"}
+		{"hatch_mode_active" "Commander mode active"}
+	}
+}

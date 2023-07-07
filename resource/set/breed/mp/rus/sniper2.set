@@ -1,0 +1,62 @@
+{breed
+	{skin "rus-smguner"}
+	{portrait "rus_soldier5"}
+	{nationality rus}
+	{icon "elite5"}
+	{icon_priority 5}
+	{armors
+		{head fieldcap_rus}
+	}
+	{perks
+		{"health" "350%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "150%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" "mp_sniper"
+		}
+		{"speed" 1.0
+		}
+		{"stealth"
+		}
+		{"telescope"
+		}
+		{"tank"	0.85
+		}
+		{"vehicle" 1
+		}
+		{"cannon" 0.9
+		}
+		
+		{"pistol" lvl_4
+		}
+		{"smg" lvl_4
+		}
+		{"mgun" lvl_4
+		}
+		{"rifle" lvl_6
+		}
+		{"rocketlauncher" lvl_4
+		}
+		{"melee" lvl_4
+		}
+		{"aimedshot"}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_1")
+	}
+	{inventory
+		{item "mosin_s" filled}
+		{item "ammo mosin_clip" 100}
+		{item "ammo mosin_clip fg" 20}
+		{item "bandage" 5}
+		;{item "smoke_paradrop_ammo grenade" 1}
+		{item "plant" 3}
+		{item "knife_rus"}
+		{in_hands 0}
+	}
+}

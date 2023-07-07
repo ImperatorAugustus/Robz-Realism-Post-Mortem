@@ -1,0 +1,89 @@
+{environment
+	{light
+		{direction -0.835 0.472 -0.283}
+		{ambient 0xff444441}
+		{diffuse 0xff8d460f}
+		{specular 0xff7f7f7f}
+		{lightsIntensity 0.05}
+		{draw_sun_moon}
+		{sun_moon_radius 1}
+		{night_vision 1}
+		{color_correction
+			{gamma 0.97}
+			{brightness 1.1}
+			{saturation 0.8}
+			{tone 0xff00004b}
+			{tone_strength 0.25}
+			{color_shading
+				{shade_tone 0xff4b4b4b}
+			}
+		}
+		{camera_lens_effetcs
+			{light_scattering
+				{enable}
+				{intensity 0.5}
+				{ray_length 2}
+				{color_tone 0xff643200}
+			}
+			{lens_dirt
+				{enable}
+				{texture "/texture/common/environment/lens_effects/dirty_lens"}
+			}
+			{screen_brightening
+				{enable}
+				{intensity 0.25}
+			}
+		}
+	}
+	{wind
+		{speed 0 1 0}
+		{amplitude 0.4}
+	}
+	{haze
+		{enable}
+		{color 0xff92927b}
+		{start 100}
+		{end 5000}
+	}
+	{sky
+		{enable}
+		{texture "/texture/common/environment/environment_day_03"}
+		{globalEnvironment "/texture/common/environment/environment_day_03"}
+		{intensity 0.8}
+		{azimuth -120}
+	}
+	{weather
+		{density 10}
+		{fx "snow"}
+		{sound "world/wind/qp01 0002 wind mod soft"}
+	}
+	{thunder
+		{color 0xff686c73}
+	}
+	{video_overlay
+		{color 0xffffffff}
+	}
+	{grain
+		{enable}
+		{colorAmount 0}
+		{grainAmount 0.02}
+		{grainParticleSize 0.6}
+		{lumAmount 1}
+	}
+	{dof
+		{near_scale 1}
+		{far_scale 1}
+		{near_start 50}
+		{near_end 75}
+		{far_start 2000}
+		{far_end 6000}
+		{"3rd_Person"
+			{"3rdP_blurscale" 1}
+		}
+		{blur_strength 3}
+	}
+	{glow
+		{enable}
+		{amount 0.5}
+	}
+}

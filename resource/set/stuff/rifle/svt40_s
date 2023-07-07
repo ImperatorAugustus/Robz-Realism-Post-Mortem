@@ -1,0 +1,15 @@
+{from "svt40"
+	{entity "svt40_s"}
+	{tag "sniper"}
+	{special
+		{mode aim}
+		{PrepareTime 3.0}	
+		{PrepareCursor "aimed_shot"}
+		{accuracy 2.0}
+		{throw_off}
+	}
+	("accuracy_scoped")
+	("accuracy_boost")
+	("sa_zeroing")
+	{range 140 140}
+}

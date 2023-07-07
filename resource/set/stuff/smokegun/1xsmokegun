@@ -1,0 +1,8 @@
+{from "pattern smoke1"
+	{fireSound "reactive/mortar"}
+	{filling "ammo smoke" 1}
+	{reloadSound "mg1"}
+	{speed 27}
+	{entity "2xsmokegun"}
+	{ammoLocked}
+}

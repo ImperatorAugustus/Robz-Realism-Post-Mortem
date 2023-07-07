@@ -1,0 +1,58 @@
+{breed
+	{skin "usa-paramarine-pvt"}
+	{portrait "usa_elite2"}
+	{nationality usa}
+	{icon "elite4"}
+	{icon_priority 4}
+	{armors
+		{body ammo_us2}
+		{head helmet_marine_usa}
+	}
+	{perks
+		{"health" "350%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "200%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" "mp_soldier"
+		}
+		{"speed" 0.9
+		}
+		{"tank"	0.95
+		}
+		{"vehicle" 1
+		}
+		{"cannon" 1
+		}
+		
+		{"pistol" lvl_5
+		}
+		{"smg" lvl_6
+		}
+		{"mgun" lvl_5
+		}
+		{"rifle" lvl_5
+		}
+		{"rocketlauncher" lvl_5
+		}
+		{"melee" lvl_5
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_elite")
+	}
+	{inventory
+		{item "m50reising" filled}
+		{item "ammo m50reising_mag" 150}
+		{item "bandage" 5}
+		{item "grenade m61" 2}
+		;{item "grenade n73at" 1}
+		{item "smoke grenade" 1.5 0.5}
+		{item "m15_smoke grenade" 0.5 0.5}
+		{in_hands 0}
+	}
+}

@@ -1,0 +1,6 @@
+{from "pattern pistol"
+	{filling "ammo nambu_mag" 8}
+	{entity "nambu"}
+	{fireSound	"pistol/valter"}
+	{reloadSound "valter"}
+}

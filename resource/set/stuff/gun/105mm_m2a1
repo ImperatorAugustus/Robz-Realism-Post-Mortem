@@ -1,0 +1,10 @@
+{from "pattern gun_art"		; "m7_priest"
+	{filling "bullet105 us" 4}
+	{fireSound "gun/howitzer/105mm_m2a1"}
+	{reloadSound "gun_r05"}
+	("range_medium_howitzer")
+	{range 380 380}		
+	{parameters "heat"
+		("damage_heat" a(115) range(380))
+	}
+}

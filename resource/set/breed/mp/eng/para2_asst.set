@@ -1,0 +1,58 @@
+{breed
+	{skin "eng-para-pvt"}
+	{portrait "eng_soldier5"}
+	{nationality eng}
+	{icon "stormtrooper4c"}
+	{icon_priority 4}
+	{armors
+		{head helmet_eng_para_camo}
+	}
+	{perks
+		{"health" "400%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "200%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" "mp_soldier"
+		}
+		{"speed" 0.9
+		}
+		{"tank"	1.0
+		}
+		{"vehicle" 1.0
+		}
+		{"cannon" 1.0
+		}
+		
+		{"pistol" lvl_6
+		}
+		{"smg" lvl_6
+		}
+		{"mgun" lvl_6
+		}
+		{"rifle" lvl_6
+		}
+		{"rocketlauncher" lvl_6
+		}
+		{"melee" lvl_6
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_elite")
+	}
+	{inventory
+		{item "em3_vet" filled}
+		{item "ammo british303_clip" 100}
+		{item "ammo bren_mag" 168}
+		{item "bandage" 5}
+		{item "grenade mk1" 2}
+		{item "grenade n73at" 1}
+		{item "n77_smoke grenade" 0.25 1}
+		;{item "smoke grenade" 2}
+		{in_hands 0}
+	}
+}

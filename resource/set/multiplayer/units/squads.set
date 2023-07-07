@@ -1,0 +1,560 @@
+;----- Squads -----
+
+
+
+
+;같컂eneric같�
+
+(define "generic_vi"
+    {charge %c}
+    {tags "%t"}
+    {group "%g"}
+    {button "%b"}
+)
+
+(define "generic_i_sequence"
+    {charge %c}
+    {tags "%t"}
+    {group "%g"}
+    {button "%b"}
+    {icon %i}
+)
+
+;같캫echanized infantry같�
+(define "vb3"
+    ("generic_vi" c(%c) t(%t %s) g(%g) i(%i) b(%b))
+    {content "%c1 ( mp/%s/sturmovik:%n1 mp/%s/sturmovik2:%n2 mp/%s/sturmovik3:%n3)"}
+)
+(define "vb4"
+    ("generic_vi" c(%c) t(%t %s) g(%g) i(%i) b(%b))
+    {content "%c1 ( mp/%s/sturmovik:%n1 mp/%s/sturmovik2:%n2 mp/%s/sturmovik3:%n3 mp/%s/sturmovik4:%n4 )"}
+)
+(define "vb6"
+    ("generic_vi" c(%c) t(%t %s) g(%g) i(%i) b(%b))
+    {content "%c1 ( mp/%s/%n1 mp/%s/%n2 mp/%s/%n3 mp/%s/%n4 mp/%s/%n5 mp/%s/%n6 )"}
+)
+
+
+;같캳quads define같�
+(define "i_seq_with1types"
+	{"%name(%side)"
+		{charge %c}
+		{content "mp/%side/%c1 mp/%side/%c2"}
+		{tags "frontline_cp infantry %side %t"}
+		{group "%g"}
+		{button "%b"}
+		{level %level}
+		{cost %cost}
+		{fore %f}
+		{icon %i}
+	}
+)
+
+(define "i_seq_with1types"
+	{"%name(%side)"
+		{charge %c}
+		{content "mp/%side/%c1"}
+		{tags "frontline_cp infantry %side %t"}
+		{group "%g"}
+		{button "%b"}
+		{level %level}
+		{cost %cost}
+		{fore %f}
+		{icon %i}
+	}
+)
+
+(define "i_seq_with2types"
+	{"%name(%side)"
+		{charge %c}
+		{content "mp/%side/%c1 mp/%side/%c2"}
+		{tags "frontline_cp infantry %side %t"}
+		{group "%g"}
+		{button "%b"}
+		{level %level}
+		{cost %cost}
+		{fore %f}
+		{icon %i}
+	}
+)
+
+(define "i_seq_with3types"
+	{"%name(%side)"
+		{charge %c}
+		{content "mp/%side/%c1 mp/%side/%c2 mp/%side/%c3"}
+		{tags "frontline_cp infantry %side %t"}
+		{group "%g"}
+		{button "%b"}
+		{level %level}
+		{cost %cost}
+		{fore %f}
+		{icon %i}
+	}
+)
+
+(define "i_seq_with4types"
+	{"%name(%side)"
+		{charge %c}
+		{content "mp/%side/%c1 mp/%side/%c2 mp/%side/%c3 mp/%side/%c4"}
+		{tags "frontline_cp infantry %side %t"}
+		{group "%g"}
+		{button "%b"}
+		{level %level}
+		{cost %cost}
+		{fore %f}
+		{icon %i}
+	}
+)
+
+(define "i_seq_with5types"
+	{"%name(%side)"
+		{charge %c}
+		{content "mp/%side/%c1 mp/%side/%c2 mp/%side/%c3 mp/%side/%c4 mp/%side/%c5"}
+		{tags "frontline_cp infantry %side %t"}
+		{group "%g"}
+		{button "%b"}
+		{level %level}
+		{cost %cost}
+		{fore %f}
+		{icon %i}
+	}
+)
+
+(define "i_seq_with6types"
+	{"%name(%side)"
+		{charge %c}
+		{content "mp/%side/%c1 mp/%side/%c2 mp/%side/%c3 mp/%side/%c4 mp/%side/%c5 mp/%side/%c6"}
+		{tags "frontline_cp infantry %side %t"}
+		{group "%g"}
+		{button "%b"}
+		{level %level}
+		{cost %cost}
+		{fore %f}
+		{icon %i}
+	}
+)
+
+(define "i_seq_with7types"
+	{"%name(%side)"
+		{charge %c}
+		{content "mp/%side/%c1 mp/%side/%c2 mp/%side/%c3 mp/%side/%c4 mp/%side/%c5 mp/%side/%c6 mp/%side/%c7"}
+		{tags "frontline_cp infantry %side %t"}
+		{group "%g"}
+		{button "%b"}
+		{level %level}
+		{cost %cost}
+		{fore %f}
+		{icon %i}
+	}
+)
+
+(define "squad_kekspecial"
+	{"%name(%side)"
+		{charge %c}
+		{content "mp/%side/%c1"}
+		{tags "frontline_cp infantry %side %t"}
+		{group "%g"}
+		{button "%b"}
+		;{level %level}
+		;{cost %cost}
+		{fore %f}
+	}
+)
+(define "squad_with1types"
+	{"%name(%side)"
+		{charge %c}
+		{content "mp/%side/%c1"}
+		{tags "frontline_cp infantry %side %t"}
+		{group "%g"}
+		{button "%b"}
+		{level %level}
+		{cost %cost}
+		{fore %f}
+	}
+)
+(define "squad_with2types"
+	{"%name(%side)"
+		{charge %c}
+		{content "mp/%side/%c1 mp/%side/%c2"}
+		{tags "frontline_cp infantry %side %t"}
+		{group "%g"}
+		{button "%b"}
+		{level %level}
+		{cost %cost}
+		{fore %f}
+	}
+)
+(define "squad_with2types_vehicle"
+	{"%name(%side)"
+		{charge %c}
+		{content "%v1 ( mp/%side/%c1 mp/%side/%c2 )"}
+		{tags "frontline_cp infantry %side %t"}
+		{group "%g"}
+		{button "%b"}
+		{level %level}
+		{cost %cost}
+		{fore %f}
+	}
+)
+(define "squad_with3types"
+	{"%name(%side)"
+		{charge %c}
+		{content "mp/%side/%c1 mp/%side/%c2 mp/%side/%c3"}
+		{tags "frontline_cp infantry %side %t"}
+		{group "%g"}
+		{button "%b"}
+		{level %level}
+		{cost %cost}
+		{fore %f}
+	}
+)
+(define "squad_with3types_vehicle"
+	{"%name(%side)"
+		{charge %c}
+		{content "%v1 ( mp/%side/%c1 mp/%side/%c2 mp/%side/%c3 )"}
+		{tags "frontline_cp infantry %side %t"}
+		{group "%g"}
+		{button "%b"}
+		{level %level}
+		{cost %cost}
+		{fore %f}
+	}
+)
+(define "squad_with4types"
+	{"%name(%side)"
+		{charge %c}
+		{content "mp/%side/%c1 mp/%side/%c2 mp/%side/%c3 mp/%side/%c4"}
+		{tags "frontline_cp infantry %side %t"}
+		{group "%g"}
+		{button "%b"}
+		{level %level}
+		{cost %cost}
+		{fore %f}
+	}
+)
+(define "squad_with4types_vehicle"
+	{"%name(%side)"
+		{charge %c}
+		{content "%v1 ( mp/%side/%c1 mp/%side/%c2 mp/%side/%c3 mp/%side/%c4 )"}
+		{tags "frontline_cp infantry %side %t"}
+		{group "%g"}
+		{button "%b"}
+		{level %level}
+		{cost %cost}
+		{fore %f}
+	}
+)
+(define "squad_with5types"
+	{"%name(%side)"
+		{charge %c}
+		{content "mp/%side/%c1 mp/%side/%c2 mp/%side/%c3 mp/%side/%c4 mp/%side/%c5"}
+		{tags "frontline_cp infantry %side %t"}
+		{group "%g"}
+		{button "%b"}
+		{level %level}
+		{cost %cost}
+		{fore %f}
+	}
+)
+(define "squad_with5types_vehicle"
+	{"%name(%side)"
+		{charge %c}
+		{content "%v1 ( mp/%side/%c1 mp/%side/%c2 mp/%side/%c3 mp/%side/%c4 mp/%side/%c5 )"}
+		{tags "frontline_cp infantry %side %t"}
+		{group "%g"}
+		{button "%b"}
+		{level %level}
+		{cost %cost}
+		{fore %f}
+	}
+)
+(define "squad_with6types"
+	{"%name(%side)"
+		{charge %c}
+		{content "mp/%side/%c1 mp/%side/%c2 mp/%side/%c3 mp/%side/%c4 mp/%side/%c5 mp/%side/%c6"}
+		{tags "frontline_cp infantry %side %t"}
+		{group "%g"}
+		{button "%b"}
+		{level %level}
+		{cost %cost}
+		{fore %f}
+	}
+)
+(define "squad_with6types_vehicle"
+	{"%name(%side)"
+		{charge %c}
+		{content "%v1 ( mp/%side/%c1 mp/%side/%c2 mp/%side/%c3 mp/%side/%c4 mp/%side/%c5 mp/%side/%c6 )"}
+		{tags "frontline_cp infantry %side %t"}
+		{group "%g"}
+		{button "%b"}
+		{level %level}
+		{cost %cost}
+		{fore %f}
+	}
+)
+(define "squad_with7types"
+	{"%name(%side)"
+		{charge %c}
+		{content "mp/%side/%c1 mp/%side/%c2 mp/%side/%c3 mp/%side/%c4 mp/%side/%c5 mp/%side/%c6 mp/%side/%c7"}
+		{tags "frontline_cp infantry %side %t"}
+		{group "%g"}
+		{button "%b"}
+		{level %level}
+		{cost %cost}
+		{fore %f}
+	}
+)
+
+(define "squad_with7types_vehicle"
+	{"%name(%side)"
+		{charge %c}
+		{content "%v1 ( mp/%side/%c1 mp/%side/%c2 mp/%side/%c3 mp/%side/%c4 mp/%side/%c5 mp/%side/%c6 mp/%side/%c7 )"}
+		{tags "frontline_cp infantry %side %t"}
+		{group "%g"}
+		{button "%b"}
+		{level %level}
+		{cost %cost}
+		{fore %f}
+	}
+)
+(define "squad_with8types"
+	{"%name(%side)"
+		{charge %c}
+		{content "mp/%side/%c1 mp/%side/%c2 mp/%side/%c3 mp/%side/%c4 mp/%side/%c5 mp/%side/%c6 mp/%side/%c7 mp/%side/%c8"}
+		{tags "frontline_cp infantry %side %t"}
+		{group "%g"}
+		{button "%b"}
+		{level %level}
+		{cost %cost}
+		{fore %f}
+	}
+)
+(define "squad_with8types_vehicle"
+	{"%name(%side)"
+		{charge %c}
+		{content "%v1 ( mp/%side/%c1 mp/%side/%c2 mp/%side/%c3 mp/%side/%c4 mp/%side/%c5 mp/%side/%c6 mp/%side/%c7 mp/%side/%c8 )"}
+		{tags "frontline_cp infantry %side %t"}
+		{group "%g"}
+		{button "%b"}
+		{level %level}
+		{cost %cost}
+		{fore %f}
+	}
+)
+(define "squad_with9types"
+	{"%name(%side)"
+		{charge %c}
+		{content "mp/%side/%c1 mp/%side/%c2 mp/%side/%c3 mp/%side/%c4 mp/%side/%c5 mp/%side/%c6 mp/%side/%c7 mp/%side/%c8 mp/%side/%c9"}
+		{tags "frontline_cp infantry %side %t"}
+		{group "%g"}
+		{button "%b"}
+		{level %level}
+		{cost %cost}
+		{fore %f}
+	}
+)
+(define "squad_with9types_vehicle"
+	{"%name(%side)"
+		{charge %c}
+		{content "%v1 ( mp/%side/%c1 mp/%side/%c2 mp/%side/%c3 mp/%side/%c4 mp/%side/%c5 mp/%side/%c6 mp/%side/%c7 mp/%side/%c8 mp/%side/%c9 )"}
+		{tags "frontline_cp infantry %side %t"}
+		{group "%g"}
+		{button "%b"}
+		{level %level}
+		{cost %cost}
+		{fore %f}
+	}
+)
+(define "squad_with10types_vehicle"
+	{"%name(%side)"
+		{charge %c}
+		{content "%v1 ( mp/%side/%c1 mp/%side/%c2 mp/%side/%c3 mp/%side/%c4 mp/%side/%c5 mp/%side/%c6 mp/%side/%c7 mp/%side/%c8 mp/%side/%c9 mp/%side/%c10 )"}
+		{tags "frontline_cp infantry %side %t"}
+		{group "%g"}
+		{button "%b"}
+		{level %level}
+		{cost %cost}
+		{fore %f}
+	}
+)
+(define "squad_with14types"
+	{"%name(%side)"
+		{charge %c}
+		{content "mp/%side/%c1 mp/%side/%c2 mp/%side/%c3 mp/%side/%c4 mp/%side/%c5 mp/%side/%c6 mp/%side/%c7 mp/%side/%c8 mp/%side/%c9 mp/%side/%c10 mp/%side/%c11 mp/%side/%c12 mp/%side/%c13 mp/%side/%c14"}
+		{tags "frontline_cp infantry %side %t"}
+		{group "%g"}
+		{button "%b"}
+		{level %level}
+		{cost %cost}
+		{fore %f}
+	}
+)
+;--------------- DOCTRINE DEFINES ------------------------------------------------
+(define "squad_with1types_doc"
+	{"%name(%doc)"
+		{charge %c}
+		{content "mp/%side/%c1"}
+		{tags "frontline_cp infantry %doc %t"}
+		{group "%g"}
+		{button "%b"}
+		{level %level}
+		{cost %cost}
+		{fore %f}
+	}
+)
+(define "squad_with1types_vehicle_doc"
+	{"%name(%doc)"
+		{charge %c}
+		{content "%v1 ( mp/%side/%c1 )"}
+		{tags "frontline_cp infantry %doc %t"}
+		{group "%g"}
+		{button "%b"}
+		{level %level}
+		{cost %cost}
+		{fore %f}
+	}
+)
+(define "squad_with2types_doc"
+	{"%name(%doc)"
+		{charge %c}
+		{content "mp/%side/%c1 mp/%side/%c2"}
+		{tags "frontline_cp infantry %doc %t"}
+		{group "%g"}
+		{button "%b"}
+		{level %level}
+		{cost %cost}
+		{fore %f}
+	}
+)
+(define "squad_with3types_doc"
+	{"%name(%doc)"
+		{charge %c}
+		{content "mp/%side/%c1 mp/%side/%c2 mp/%side/%c3"}
+		{tags "frontline_cp infantry %doc %t"}
+		{group "%g"}
+		{button "%b"}
+		{level %level}
+		{cost %cost}
+		{fore %f}
+	}
+)
+(define "squad_with4types_doc"
+	{"%name(%doc)"
+		{charge %c}
+		{content "mp/%side/%c1 mp/%side/%c2 mp/%side/%c3 mp/%side/%c4"}
+		{tags "frontline_cp infantry %doc %t"}
+		{group "%g"}
+		{button "%b"}
+		{level %level}
+		{cost %cost}
+		{fore %f}
+	}
+)
+(define "squad_with4types_vehicle_doc"
+	{"%name(%doc)"
+		{charge %c}
+		{content "%v1 ( mp/%side/%c1 mp/%side/%c2 mp/%side/%c3 mp/%side/%c4 )"}
+		{tags "frontline_cp infantry %doc %t"}
+		{group "%g"}
+		{button "%b"}
+		{level %level}
+		{cost %cost}
+		{fore %f}
+	}
+)
+(define "squad_with4types_2vehicle_doc"
+	{"%name(%doc)"
+		{charge %c}
+		{content "%v1 ( mp/%side/%c1 mp/%side/%c2 ) %v1 ( mp/%side/%c3 mp/%side/%c4 )"}
+		{tags "frontline_cp infantry %doc %t"}
+		{group "%g"}
+		{button "%b"}
+		{level %level}
+		{cost %cost}
+		{fore %f}
+	}
+)
+(define "squad_with5types_doc"
+	{"%name(%doc)"
+		{charge %c}
+		{content "mp/%side/%c1 mp/%side/%c2 mp/%side/%c3 mp/%side/%c4 mp/%side/%c5"}
+		{tags "frontline_cp infantry %doc %t"}
+		{group "%g"}
+		{button "%b"}
+		{level %level}
+		{cost %cost}
+		{fore %f}
+	}
+)
+(define "squad_with5types_vehicle_doc"
+	{"%name(%doc)"
+		{charge %c}
+		{content "%v1 ( mp/%side/%c1 mp/%side/%c2 mp/%side/%c3 mp/%side/%c4 mp/%side/%c5 )"}
+		{tags "frontline_cp infantry %doc %t"}
+		{group "%g"}
+		{button "%b"}
+		{level %level}
+		{cost %cost}
+		{fore %f}
+	}
+)
+(define "squad_with6types_doc"
+	{"%name(%doc)"
+		{charge %c}
+		{content "mp/%side/%c1 mp/%side/%c2 mp/%side/%c3 mp/%side/%c4 mp/%side/%c5 mp/%side/%c6"}
+		{tags "frontline_cp infantry %doc %t"}
+		{group "%g"}
+		{button "%b"}
+		{level %level}
+		{cost %cost}
+		{fore %f}
+	}
+)
+(define "squad_with7types_doc"
+	{"%name(%doc)"
+		{charge %c}
+		{content "mp/%side/%c1 mp/%side/%c2 mp/%side/%c3 mp/%side/%c4 mp/%side/%c5 mp/%side/%c6 mp/%side/%c7"}
+		{tags "frontline_cp infantry %doc %t"}
+		{group "%g"}
+		{button "%b"}
+		{level %level}
+		{cost %cost}
+		{fore %f}
+	}
+)
+(define "squad_with7types_vehicle_doc"
+	{"%name(%doc)"
+		{charge %c}
+		{content "%v1 ( mp/%side/%c1 mp/%side/%c2 mp/%side/%c3 mp/%side/%c4 mp/%side/%c5 mp/%side/%c6 mp/%side/%c7 )"}
+		{tags "frontline_cp infantry %doc %t"}
+		{group "%g"}
+		{button "%b"}
+		{level %level}
+		{cost %cost}
+		{fore %f}
+	}
+)
+(define "squad_with8types_doc"
+	{"%name(%doc)"
+		{charge %c}
+		{content "mp/%side/%c1 mp/%side/%c2 mp/%side/%c3 mp/%side/%c4 mp/%side/%c5 mp/%side/%c6 mp/%side/%c7 mp/%side/%c8"}
+		{tags "frontline_cp infantry %doc %t"}
+		{group "%g"}
+		{button "%b"}
+		{level %level}
+		{cost %cost}
+		{fore %f}
+	}
+)
+(define "squad_with8types_vehicle_doc"
+	{"%name(%doc)"
+		{charge %c}
+		{content "%v1 ( mp/%side/%c1 mp/%side/%c2 mp/%side/%c3 mp/%side/%c4 mp/%side/%c5 mp/%side/%c6 mp/%side/%c7 mp/%side/%c8 )"}
+		{tags "frontline_cp infantry %doc %t"}
+		{group "%g"}
+		{button "%b"}
+		{level %level}
+		{cost %cost}
+		{fore %f}
+	}
+)

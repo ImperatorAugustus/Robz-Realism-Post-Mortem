@@ -1,0 +1,16 @@
+{from "pattern smg"
+	{filling "ammo ppsh_mag ppsh_ammo" 71}
+	{entity "ppsh"}
+	{fireSound	"smg/ppsh_burst/"}
+	{reloadSound "mp44"}
+	
+	{rechargeTime 5}
+	("recoveryTime" r(900))
+	("burst_short")
+ 	("speed" s(490))
+	("accuracy_smg_low")
+	{spreading 1.2
+		{SpreadPower	1}
+		{BurstAccuracy 100 97 94 91 88 85 82 79 76 73 70 60}
+	}
+}

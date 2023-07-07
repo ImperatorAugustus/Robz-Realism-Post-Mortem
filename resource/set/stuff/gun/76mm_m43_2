@@ -1,0 +1,19 @@
+{from "pattern gun2_art"		; "m43 arty mode"
+	{filling "bullet76 rus fg" 6}
+	{fireSound "gun/50to76_cal/76mm_kt26"}
+	{reloadSound "gun_r03"}
+	("range_medium_howitzer")
+	{recoveryTime 7}
+	{rechargeTime 7}
+	{burst {min 6} {noaiming}}
+
+	("speed" s(262))
+	("caliber_large")
+	{parameters "heat"
+		("damage_heat" a(87) range(265))
+	}
+	{range 265 265}
+	{gravity 6}
+	("zeroing_6")
+}
+

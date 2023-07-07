@@ -1,0 +1,11 @@
+{bullet
+  {tag "bullet stackable pierce 7-7_rifle"}
+  {inventory
+    {weight 10}
+    {block 10}
+    {size 1 1}
+    {fsm "belt"}
+  }
+  {mass 0.025}
+	{entity "rifle_cartridge"}
+}

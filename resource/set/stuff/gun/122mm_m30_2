@@ -1,0 +1,14 @@
+{from "pattern gun2"     ; "m30 direct fire"
+	{filling "bullet122 rus"}
+	{fireSound "gun/howitzer/122mm_d25"}
+	{reloadSound "tankgun_r04"}
+	("range_grazing_howitzer")
+	{parameters "heat"
+        	("damage_heat" a(120) range(200))
+	}
+	{speed 515}
+	{range 200 200}
+	{rechargeTime 16}
+	("caliber_maximum")
+	("accuracy_grazinghowitzer_high_200m")
+}

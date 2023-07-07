@@ -1,0 +1,62 @@
+{breed
+	{skin "ger-smock2-rfl"}
+	{portrait "ger_soldier5"}
+	{nationality ger}
+	{icon "sniper2"}
+	{icon_priority 5}
+	{armors
+		{head helmet_ger_m40_grass}
+	}
+	{perks
+		{"health" "350%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "200%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" "mp_sniper"
+		}
+		{"speed" 1.0
+		}
+		{"stealth"
+		}
+		{"telescope"
+		}
+		{"tank"	0.85
+		}
+		{"vehicle" 1
+		}
+		{"cannon" 0.9
+		}
+		
+		{"pistol" lvl_7
+		}
+		{"smg" lvl_7
+		}
+		{"mgun" lvl_7
+		}
+		{"rifle" lvl_7
+		}
+		{"rocketlauncher" lvl_7
+		}
+		{"melee" lvl_7
+		}
+		{"aimedshot"}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_1")
+	}
+	{inventory
+		{item "mauzer_s_vet" filled}
+		{item "ammo mauser_clip" 60}
+		{item "ammo mauser_clip fg" 20}
+		{item "bandage" 5}
+		;{item "smoke_paradrop_ammo grenade" 1}
+		{item "plant" 3}
+		{item "knife_ger"}
+		{in_hands 0}
+	}
+}

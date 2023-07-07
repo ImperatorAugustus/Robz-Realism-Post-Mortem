@@ -1,0 +1,11 @@
+{from "pattern overcoat"
+	{tag "itemin1hand"}
+	{entity "gebirgsjaeger_rucksack"}
+	{inventory
+		{size 3 3}
+		{weight 100}
+		{fsm "belt"}
+	}
+	{mass 3}
+}
+

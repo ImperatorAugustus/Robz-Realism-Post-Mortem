@@ -1,0 +1,68 @@
+{environment
+	{light
+		{direction 0.891 0.234 -0.39}
+		{ambient 0xff0f0f0f}
+		{diffuse 0xff2c2c2c}
+		{specular 0xffffffff}
+		{lightsIntensity 0.3}
+		{night_vision 0.16}
+		{color_correction
+			{tone 0xff2c2c2c}
+			{tone_strength 0.1}
+		}
+		{humans_light
+			{user_ambient 0xff727272}
+			{user_diffuse 0xff525252}
+			{ally_ambient 0xff727272}
+			{ally_diffuse 0xff525252}
+			{enemy_ambient 0xff727272}
+			{enemy_diffuse 0xff525252}
+		}
+		{vehicles_light
+			{user_ambient 0xff3d3d3d}
+			{user_diffuse 0xff414141}
+			{ally_ambient 0xff373737}
+			{ally_diffuse 0xff4c4c4c}
+			{enemy_ambient 0xff4d4d4d}
+			{enemy_diffuse 0xff000000}
+		}
+	}
+	{shadow
+		{alpha 0.6}
+		{color 0xff00172e}
+	}
+	{wind
+		{speed 0 2 1}
+		{amplitude 9}
+	}
+	{haze
+		{enable}
+		{color 0xff9e9bac}
+		{start 10}
+		{end 3000}
+	}
+	{sky
+		{enable}
+		{texture "/texture/wound/concrete02_bp"}
+		{size 1 1}
+		{globalEnvironment "/texture/common/environment/day_moskow"}
+	}
+	{cloudsonwater
+		{texture "/texture/common/environment/sky_dx.ebm"}
+		{size 2 2}
+		{scrollSpeed 0.5 0.5}
+		{windSpeed 0.0001 0.0001}
+	}
+	{weather
+		{enable}
+		{density 20}
+		{fx "snow"}
+		{sound "world/cannonade/wint_battle"}
+	}
+	{thunder
+		{color 0xff686c73}
+	}
+	{video_overlay
+		{color 0xffffffff}
+	}
+}

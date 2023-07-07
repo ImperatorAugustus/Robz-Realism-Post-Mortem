@@ -1,0 +1,52 @@
+(mod not "mp"
+{Volume "internal_components"
+	{Box 10 10 10}
+	{Bone "internal_components"}
+	{Matrix34
+		1	0	0
+		0	-1	0
+		0	0	1
+		0	0	20
+	}
+}
+{Volume "turret_drive"
+	{Box 10 10 10}
+	{Bone "turret_drive"}
+	{Matrix34
+		1	0	0
+		0	-1	0
+		0	0	1
+		0	0	20
+	}
+}
+{Volume "vertical_drive"
+	{Box 10 10 10}
+	{Bone "vertical_drive"}
+	{Matrix34
+		1	0	0
+		0	-1	0
+		0	0	1
+		0	0	20
+	}
+}
+{Volume "gun_breech"
+	{Box 10 10 10}
+	{Bone "gun_breech"}
+	{Matrix34
+		1	0	0
+		0	-1	0
+		0	0	1
+		0	0	20
+	}
+}
+{Volume "transmission"
+	{Box 10 10 10}
+	{Bone "transmission"}
+	{Matrix34
+		1	0	0
+		0	-1	0
+		0	0	1
+		0	0	20
+	}
+}
+)

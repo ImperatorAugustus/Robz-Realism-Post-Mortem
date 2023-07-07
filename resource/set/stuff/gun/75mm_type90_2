@@ -1,0 +1,14 @@
+{from "pattern gun2_art"		; "type90 indirect"
+	{filling "bullet75 jap fg" 6}
+	{fireSound "gun/75mm_type3"}
+	{reloadSound "gun_r03"}
+	{rechargeTime 8}
+	{recoveryTime 8}
+	
+	("range_arty_lowarc")
+	("speed_lowarc" s(680))
+	{gravity 10}
+	{range 500 500}
+	{burst {min 6} {noaiming}}
+	("zeroing_6")
+}

@@ -1,0 +1,17 @@
+{from "pattern mgun"
+	{tag "mgun_light"}
+	{filling "ammo arisaka6-5_clip" 30}
+	{entity "type11_mg"}
+	{fireSound	"mgun/type11_lmg_burst/"}
+	{reloadSound "type11lmg_reload"}
+
+	{rechargeTime 5}
+	("recoveryTime" r(500))
+	("burst_short")
+	("speed" s(701))
+	{healthDamage 30}
+	{Spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 97 94 91 88 85 80 70 50 30}
+	}
+}

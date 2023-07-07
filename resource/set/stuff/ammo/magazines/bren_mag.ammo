@@ -1,0 +1,21 @@
+{bullet
+  {tag "bullet stackable pierce 7-7_rifle"}
+  {inventory
+    {weight 3.5714}
+    {block 28}
+    {size 1 2}
+    {fsm "belt"}
+  }
+  {mass 0.025}
+  {entity "bren_mag"}
+	;{view "bullet"
+	;	{tail "tracer_red" "basis"}
+	;}
+	{trace
+		{view "/texture/fx/trace_mg_red"
+			{ScaleY 0.22}
+			{Light 10}
+		}
+		{length 8}
+	}
+}

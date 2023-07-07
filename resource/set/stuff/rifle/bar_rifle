@@ -1,0 +1,27 @@
+{from "pattern rifle"
+	{tag "assaultrifle"}
+	{inventory
+		{size 5 2}
+	}
+	{filling "ammo bar_mag" 20}
+	{entity "bar"}
+	{fireSound	"mgun/bar_burst/"}
+	{reloadSound "bar"}
+
+	{burst
+		{short 2 0.3}
+		{long 4 1}
+	}
+	{Automatic}
+	{mass 9}
+	{rechargeTime 4.5}
+	{range 120 120}
+	("accuracy_automatic_rifle")
+	("recoveryTime" r(650))
+	("speed" s(853))
+	{healthDamage 30}
+	{Spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 92 84 76 65 60}
+	}
+}

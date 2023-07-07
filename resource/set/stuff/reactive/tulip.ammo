@@ -1,0 +1,22 @@
+{bullet
+	{tag "big size_big shell fg shell_verybig"}
+	{entity "tulip_ammo"}
+	{inventory
+		{size 6 1}
+		{weight 50}
+	}	
+	{mass 27}
+	{view "tulip_ammo"
+		{tail "rocket_smoke_norm" "tail"}
+	}
+	{detonationThickness 1}
+	{applyProjectile}
+	{damage blastwave
+		{energy 9}
+		{area 1 2.5}
+	}
+	{damage add blastwave
+		{energy 1.5}
+		{area 8 16}
+	}
+}

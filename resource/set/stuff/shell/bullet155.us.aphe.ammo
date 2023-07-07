@@ -1,0 +1,16 @@
+{from "pattern aphebc"
+	{tag "big" "size_big" "shell_maximum" "pierce" "no_ricochet" "highvel_verybig"}
+	{inventory
+		{size 6 1}
+	}
+	;{trace
+	;	{view "/texture/fx/trace"
+	;		{Light 0}
+	;		{ScaleY 0}
+	;	}		
+	;	{length 0}
+	;}
+
+	{mass 45}
+	{entity "shell_us_ap_155"}
+}

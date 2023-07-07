@@ -1,0 +1,10 @@
+{from "pattern gun"
+	{filling "bullet76 engs fg"}
+	{fireSound "gun/50to76_cal/76mm_kt26"}
+	{reloadSound "gun_r03"}
+	("range_light_howitzer")
+	("accuracy_lighthowitzer_leig")
+	("caliber_medium")
+	("speed" s(210))
+}
+

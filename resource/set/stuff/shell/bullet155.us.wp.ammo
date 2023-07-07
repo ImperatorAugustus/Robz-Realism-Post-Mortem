@@ -1,0 +1,24 @@
+{from "pattern wp"
+	{tag "big" "size_big" "shell_maximum"}
+	{inventory
+		{size 6 1}
+	}
+	{damage blastwave
+			{energy 1}
+			{area 5 8}
+	}
+	{damage fire
+		{radius 10}
+		{heating 0.5}
+		{time 0.2}
+	}
+	{trace
+		{view "/texture/fx/trace"
+			{Light 0}
+			{ScaleY 0}
+		}		
+		{length 0}
+	}
+	{mass 40}
+	{entity "shell_sm_155"}
+}

@@ -1,0 +1,22 @@
+{bullet
+	{tag "ammo wp wp_small rocketlauncher shell dropboxed bazooka"}
+	{inventory
+		{weight 100}
+		{size 2 1}
+	}
+	{mass 2.75}
+	{entity "garand_wp_ammo"}
+	{view "garand_wp_ammo"
+		{tail "bazooka_tail" "tail"}
+	} 
+	{damage fire
+		{radius 3}
+		{heating 0.4}
+		{time 0.2}
+	}
+	{damage blastwave
+		{energy 0.5}
+		{area 0.5 1}
+	}
+}
+

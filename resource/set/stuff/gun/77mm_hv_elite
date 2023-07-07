@@ -1,0 +1,9 @@
+{from "77mm_hv"		; "comet"
+	{range 240 240}
+	("damage_215" a(147) b(137) c(126) d(116) e(106) range(240))
+	{parameters "apds"
+        	("damage_215" a(252) b(223) c(198) d(175) e(155) range(240))
+	}
+	("accuracy_maximum_240m_vet")	
+}
+

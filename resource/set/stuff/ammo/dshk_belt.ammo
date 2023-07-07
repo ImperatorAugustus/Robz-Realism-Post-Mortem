@@ -1,0 +1,30 @@
+{bullet
+	{tag "bullet stackable pierce hmgun inc"}
+	{inventory
+		{weight 1}
+		{block 100}
+		{size 2 2}
+		{fsm "belt"}
+	}
+	{mass 0.120}
+	{entity "large_cartridge"}
+	;{view "bullet"
+	;	{tail "tracer_red" "basis"}
+	;}
+	{trace
+		{view "/texture/fx/trace_mg_green"
+			{ScaleY 0.27}
+			{Light 2}
+		}
+		{length 8}
+	}
+	{damage blastwave
+		{energy 0.5}
+		{area 0.5 1}
+	}
+	{damage fire
+		{radius 0.5}
+		{heating 1.5}
+		{time 0.5}
+	}
+}

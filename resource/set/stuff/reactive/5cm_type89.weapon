@@ -1,0 +1,31 @@
+{weapon_bullet
+	{tag "mrl gun"}
+	{filling "ammo 5cm_grenade" 1}
+	{fillingVisible "rocket"}
+
+	{fireSound "reactive/type89_mortar"}
+	{foresight "foresight"}
+	
+	{spreading 
+		{SpreadRadius 5}
+		{radiusFunction
+			0	0.6
+			0.5	0.6
+			0.5	0.6
+		}
+	}
+	{aimRange 110}
+	{maxRange 110}
+	{rechargeTime 3}
+	{gravity 6}
+	{ZeroingAccuracy 0.95 0.9 0.85}
+
+	{projectileDamage 10}
+	{speed 75}
+	{AimingTolerance 0.1}
+	{projectileDamageTable {90 10}}
+	
+	{aimtype curved}
+	{cursor "cannon_on_fg"}
+	{cursorReloading "cannon_reload_fg"}
+} 

@@ -1,0 +1,61 @@
+{breed
+	{skin "ger-geb-rfl"}
+	{portrait "ger_soldier4"}
+	{icon "elite2"}
+	{icon_priority 4}
+	{nationality ger}
+	{armors
+		{body ammo_ger3}
+		{head fieldcap_ger_geb}
+	}
+	{perks
+		{"health" "400%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "225%"
+		}
+		{"stamina_regeneration" "125%"
+		}
+		{"vision" mp_soldier
+		}
+		{"speed" 1
+		}
+		{"tank" 0.95
+		}
+		{"vehicle" 1
+		}
+		{"cannon" 1
+		}
+		{"telescope"
+		}
+
+		{"pistol" lvl_7
+		}
+		{"smg" lvl_7
+		}
+		{"mgun" lvl_7
+		}
+		{"rifle" lvl_7
+		}
+		{"rocketlauncher" lvl_7
+		}
+		{"melee" lvl_7
+		}
+		{"aimedshot"}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_elite")
+	}
+	{inventory
+		{item "g43_scope" filling "ammo g43_mag" 10}
+		{item "ammo g43_mag" 20}
+		{item "ammo mauser_clip" 60}
+		{item "bandage" 5}
+		{item "grenade m24" 2}
+		{item "grenade m24x5"}
+		{item "dynamite"}
+		{in_hands 0}
+	}
+}

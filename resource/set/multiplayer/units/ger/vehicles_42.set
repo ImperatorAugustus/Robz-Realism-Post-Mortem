@@ -1,0 +1,112 @@
+;----- Germany -----
+
+
+;°°°Button 1°°°
+
+{"r12_34"           ("vs" c(0) t(42) 	s(ger) n(2) g(b1) sc(5.00) b(v1) cw(0) cp(0)) {level 1} {cost 100} {fore 0.0}}		;0sec
+{"r12"              ("vs" c(0) t(42) 	s(ger) n(2) g(b1) sc(6.25) b(v1) cw(0) cp(0)) {level 1} {cost 125} {fore 0.0}}		;0sec
+{"kubel_mgun_34"    ("vs" c(30) t(42) 	s(ger) n(3) g(b2) sc(7.00) b(v1) cw(0) cp(0)) {level 1} {cost 140} {fore 0.0}}		;30sec
+{"kubel_mgun"       ("vs" c(30) t(42) 	s(ger) n(3) g(b2) sc(8.00) b(v1) cw(0) cp(0)) {level 1} {cost 160} {fore 0.0}}		;30sec
+{"schwimmwagen"     ("vs" c(30) t(42) 	s(ger) n(3) g(b3) sc(8.00) b(v1) cw(0) cp(0)) {level 1} {cost 160} {fore 0.0}}		;30sec
+{"np_sdkfz250_1"    ("vs" c(10) t(42) 	s(ger) n(4) g(b4) sc(6.25) b(v1) cw(0) cp(0)) {level 1} {cost 125} {fore -17.0}}	;180sec
+{"np_sdkfz251_1"    ("vs" c(10) t(42) 	s(ger) n(2) g(b5) sc(6.50) b(v1) cw(0) cp(0)) {level 1} {cost 130} {fore -17.0}}	;180sec
+{"sdkfz251_1"       ("vs" c(10) t(42) 	s(ger) n(2) g(b5) sc(7.50) b(v1) cw(0) cp(0)) {level 1} {cost 150} {fore -17.0}}	;180sec
+{"np_sdkfz8"        ("vs" c(0) t(42) 	s(ger) n(2) g(b6) sc(5.00) b(v1) cw(0) cp(0)) {level 1} {cost 100} {fore 0.0}}		;0sec
+
+{"blitz3_6"         ("vs" c(0) t(42) 	s(ger) n(2) g(b7) sc(5.00) b(v1) cw(0) cp(0)) {level 1} {cost 100} {fore 0.0}}		;0sec
+{"blitz3_6art"      ("vs" c(0) t(42) 	s(ger) n(2) g(b8) sc(15.00) b(v1) cw(0) cp(0)) {level 1} {cost 300} {fore 0.0}}		;0sec
+{"blitz3_6eng"      ("vs" c(0) t(42) 	s(ger) n(2) g(b9) sc(12.50) b(v1) cw(0) cp(0)) {level 1} {cost 250} {fore 0.0}}		;0sec
+
+{"ammo_box_ger_inf" ("vs" c(0) t(42)	s(ger) n(2) g(b10) sc(1.25) b(v1) cw(0) cp(0)) {level 1} {cost 25} {fore 0.0}}		;0sec
+{"ammo_box_ger_art" ("vs" c(0) t(42)	s(ger) n(2) g(b11) sc(3.75) b(v1) cw(0) cp(0)) {level 1} {cost 75} {fore 0.0}}		;0sec
+{"ammo_box_ger_special" ("vs" c(300) t(42)	s(ger) n(2) g(b12) sc(5.00) b(v1) cw(0) cp(0)) {level 1} {cost 100} {fore 0.0}}	;0sec
+
+
+
+
+;°°°Button 2°°° support weapons
+
+{"mg34_lafette"     ("vs" c(10) t(42) 		s(ger) n(2) g(c1) sc(7.50) b(v2) cw(2) cp(5)) {level 1} {cost 150} {fore -2.0}}			;30sec
+{"mg42_lafette"     ("vs" c(10) t(42) 		s(ger) n(2) g(c2) sc(9.00) b(v2) cw(2) cp(5)) {level 1} {cost 180} {fore -2.0}}			;30sec
+{"2cm_flak38"       ("vs" c(30) t(42) 		s(ger) n(2) g(c3) sc(10.00) b(v2) cw(2) cp(5)) {level 1} {cost 200} {fore -4.0}}		;150sec
+{"2cm_flakvierling38" ("vs" c(30) t(42)		s(ger) n(4) g(c4) sc(12.50) b(v2) cw(2) cp(5)) {level 1} {cost 250} {fore -4.0}}		;150sec
+{"37mm_flak_36"     ("vs" c(30) t(42) 		s(ger) n(2) g(c5) sc(15.00) b(v2) cw(2) cp(5)) {level 1} {cost 300} {fore -5.0}}		;180sec
+
+{"light_mortar_ger" ("light_mortar" c(10) t(all 42 mortar) s(ger) g(c56) b(v2)) {level 1} {cost 150} {fore -2.0}}		;30sec
+{"sgrw_34"          ("vs" c(10) t(42 mortar) 	s(ger) n(2) g(c6) sc(16.00) b(v2) cw(2) cp(5)) {level 1} {cost 320} {fore -2.0}}		;30sec
+{"sgrw_42"          ("vs" c(60) t(42 mortar) 	s(ger) n(2) g(c7) sc(33.50) b(v2) cw(2) cp(10)) {level 1} {cost 670} {fore -9.0}}		;600sec
+
+{"pak36"            ("vs" c(10) t(42) 	s(ger) n(2) g(c8) sc(6.25)  b(v2) cw(2) cp(5)) {level 1} {cost 125} {fore -2.0}}		;30sec
+{"pak38"            ("vs" c(10) t(42) 	s(ger) n(2) g(c9) sc(10.00) b(v2) cw(2) cp(10)) {level 1} {cost 200} {fore -14.0}}		;150sec
+{"np_pak40"         ("vs" c(30) t(42) 	s(ger) n(2) g(c10) sc(20.00) b(v2) cw(2) cp(15)) {level 1} {cost 400} {fore -19.0}}		;600sec
+
+("how" side(ger) name(how_aa_2) c(60) c1(np_sdkfz8) c2(flak36a) t(medium 42) g(c12) b(v2) level(1) cost(900) f(-14.0))			;900sec
+
+{"75mm_leig18"      ("vs" c(60) t(artillery 42) s(ger) n(2) g(c13) sc(16.00) b(v2) cw(2) cp(10)) {level 1} {cost 320} {fore -1.0}}	;120sec
+{"15_cm_sig33"      ("vs" c(60) t(artillery 42) s(ger) n(2) g(c133) sc(37.50) b(v2) cw(2) cp(15)) {level 1} {cost 750} {fore -9.0}}	;600sec
+
+{"sturmpz1"	    ("v" c(10) t(artillery light 42)	s(ger) n1(2) n2(1) g(c16) sc(27.50) b(v2) cw(0) cp(15)) {level 1} {cost 550} {fore -59.0}} 	;600sec
+{"sig33b"	    ("v_com" c(10) t(medium 42)	s(ger) n1(4) n2(1) g(c17) sc(36.25) b(v2) cw(0) cp(20)) {level 1} {cost 725} {fore -69.0}} 	;700sec
+
+{"np_sdkfz8_flak"   ("vs" c(450) t(42) s(ger) n(3) g(c19) sc(47.50) b(v2) cw(0) cp(15)) {level 1} {cost 950} {fore -1.0}}	;900sec
+
+;°°°Button support 2°°° artillery guns
+
+{"flak18a"          ("vs" c(60) t(artillery 42) 	s(ger) n(2) g(cc1) sc(45.00) b(v22) cw(2) cp(15)) {level 1} {cost 900} {fore -14.0}} 		;900sec
+
+("how" side(ger) name(how_b) c(60) c1(np_sdkfz8) c2(lefh18)  	t(artillery 42) g(cc2) b(v22) level(1) cost(500) f(-14.0))				;900sec
+("how" side(ger) name(how_a) c(60) c1(np_sdkfz8) c2(sfh18) 	t(artillery heavyart heavy 42) g(cc3) b(v22) level(1) cost(750) f(-19.0))		;1200sec
+("how" side(ger) name(morser18) c(60) c1(np_sdkfz8) c2(morser18) t(artillery heavyart heavy 42) s(ger) g(cc4) b(v22)  level(1) cost(1150) f(-19.0)) 	;1200sec
+
+{"np_sdkfz250_7"    ("vs" c(10) t(42 mortar) 	s(ger) n(4) g(d3) sc(18.5) b(v22) cw(0) cp(10)) {level 1} {cost 370} {fore -31.0}}	;320sec
+{"nebelwerfer41"    ("vs" c(60) t(artillery rocket 42)	s(ger) n(2) g(cc5) sc(22.50) b(v22) cw(2) cp(15)) {level 1} {cost 450} {fore -14.0}}		;900sec
+{"nebelwerfer42"    ("vs" c(60) t(artillery heavyart rocket 42)	s(ger) n(2) g(cc6) sc(55.00) b(v22) cw(2) cp(15)) {level 1} {cost 1100} {fore -14.0}}	;900sec
+{"np_sdkfz251_1w"   ("vs" c(60) t(artillery heavyart rocket 42) s(ger) n(3) g(cc7) sc(75.00) b(v22) cw(0) cp(15)) {level 1} {cost 1500} {fore -19.0}}	;1200sec
+
+{"karlthor"         ("v" c(600) t(artillery heavyart 42) s(ger) n1(4) n2(1) g(cc11) sc(80.00) b(v22) cw(0) cp(20)) {level 1} {cost 1600} {fore -1.0}}	;1200sec
+
+;°°°Button 3°°°
+
+{"np_sdkfz250_10"   ("vs" c(10) t(42) 	s(ger) n(4) g(d1) sc(10) b(v3) cw(0) cp(0)) {level 1} {cost 200} {fore -23.0}}		;240sec
+{"np_sdkfz251_10"   ("vs" c(10) t(42) 	s(ger) n(4) g(d2) sc(10) b(v3) cw(0) cp(0)) {level 1} {cost 200} {fore -23.0}}		;240sec
+{"np_sdkfz250_9"    ("vs" c(10) t(42) 	s(ger) n(3) g(d4) sc(10.5) b(v3) cw(0) cp(5)) {level 1} {cost 210} {fore -31.0}}		;320sec
+{"np_sdkfz251_17"   ("vs" c(10) t(42) 	s(ger) n(3) g(d5) sc(11) b(v3) cw(0) cp(5)) {level 1} {cost 220} {fore -31.0}}		;320sec
+{"np_sdkfz251_9"    ("vs" c(10) t(42) 	s(ger) n(3) g(d6) sc(14) b(v3) cw(0) cp(5)) {level 1} {cost 280} {fore -31.0}}		;320sec
+{"pz1b"             ("v" c(10) t(42) 	s(ger) n1(1) n2(1) g(d7) sc(9.00)  b(v3) cw(0) cp(5)) {level 1} {cost 180} {fore -31.0}}	;320sec
+{"sdkfz223"         ("v" c(10) t(42) 	s(ger) n1(1) n2(1) g(d8) sc(9.00)  b(v3) cw(0) cp(5)) {level 1} {cost 180} {fore -31.0}}	;320sec
+{"pz1"         	    ("v" c(10) t(42) 	s(ger) n1(2) n2(1) g(d9) sc(11.00) b(v3) cw(0) cp(5)) {level 1} {cost 220} {fore -35.0}}	;360sec
+{"sdkfz222"         ("v" c(10) t(42) 	s(ger) n1(1) n2(1) g(d10) sc(11.50) b(v3) cw(0) cp(5)) {level 1} {cost 230} {fore -37.0}}	;380sec
+{"pz2f"             ("v" c(10) t(42) 	s(ger) n1(2) n2(1) g(d11) sc(12.50) b(v3) cw(0) cp(5)) {level 1} {cost 250} {fore -41.0}}	;420sec
+{"pzkpfw38t_b"      ("v" c(10) t(42) 	s(ger) n1(3) n2(1) g(d13) sc(14.00) b(v3) cw(0) cp(5)) {level 1} {cost 280} {fore -45.0}}	;460sec
+
+
+;°°°Button 4°°°
+
+{"pz3j"             ("v" c(10) t(medium 42) 	s(ger) n1(3) n2(1) g(e3) sc(17.50) b(v4) cw(0) cp(15)) {level 1} {cost 350} {fore -47.0}}	;480sec
+{"pz3"              ("v" c(10) t(medium 42) 	s(ger) n1(3) n2(1) g(e4) sc(20.00) b(v4) cw(0) cp(15)) {level 1} {cost 400} {fore -57.0}}	;580sec
+{"pz3_l"            ("v" c(10) t(medium 42) 	s(ger) n1(3) n2(1) g(e5) sc(21.25) b(v4) cw(0) cp(15)) {level 1} {cost 425} {fore -65.0}}	;660sec
+
+{"pz3_m"            ("v" c(10) t(medium 42) 	s(ger) n1(3) n2(1) g(e6) sc(22.50) b(v4) cw(0) cp(15)) {level 1} {cost 450} {fore -71.0}}	;720sec
+{"pz3n_42"          ("v" c(10) t(medium 42) 	s(ger) n1(3) n2(1) g(e8) sc(22.50) b(v4) cw(0) cp(15)) {level 1} {cost 450} {fore -71.0}}	;720sec
+
+{"pz4e"             ("v" c(10) t(42 medium) 	s(ger) n1(3) n2(1) g(e10) sc(20.00) b(v4) cw(0) cp(15)) {level 1} {cost 400} {fore -57.0}}	;580sec
+{"pz4f"             ("v" c(10) t(42 medium) 	s(ger) n1(3) n2(1) g(e11) sc(27.00) b(v4) cw(0) cp(15)) {level 1} {cost 540} {fore -79.0}}	;800sec
+{"pz4g_42"          ("v" c(10) t(42 medium)	s(ger) n1(3) n2(1) g(e12) sc(29.00) b(v4) cw(0) cp(18)) {level 1} {cost 580} {fore -89.0}}	;900sec
+
+{"pz6h"		    ("v" c(300) t(42 heavy) 	s(ger) n1(3) n2(1) g(e17) sc(100.00) b(v4) cw(0) cp(30)) {level 1} {cost 2000} {fore -4.0}}  	;1500sec
+
+;°°°Button 5°°°
+
+{"marder_3h"        ("v" c(10) t(medium 42) 	s(ger) n1(3) n2(1) g(f0) sc(27.50) b(v5) cw(0) cp(12)) {level 1} {cost 550} {fore -75.0}} 	;760sec
+{"stug3e"           ("v" c(10) t(medium 42) 	s(ger) n1(3) n2(1) g(f3) sc(18.75) b(v5) cw(0) cp(15)) {level 1} {cost 375} {fore -57.0}} 	;580sec
+{"stug3f"           ("v" c(10) t(medium 42) 	s(ger) n1(3) n2(1) g(f4) sc(28.00) b(v5) cw(0) cp(15)) {level 1} {cost 560} {fore -79.0}} 	;800sec
+{"stug3f_8"         ("v" c(10) t(medium 42) 	s(ger) n1(3) n2(1) g(f5) sc(35.00) b(v5) cw(0) cp(15)) {level 1} {cost 700} {fore -89.0}} 	;900sec
+
+
+;°°°Button Hero°°°
+
+{"hero1_ger"        ("i1" c(120)			t(hero 42) s(ger) n1(sniper2_early:1) g(h1) b(hero)) {level 1} {cost 1.0} {fore -0.5}}
+{"hero3_ger"        ("v1" c(120) c1(sdkfz303) 		t(hero 42) s(ger) n1(tankman:0) n2(tankman2:0) g(h1) b(hero))) {level 1} {cost 1.0} {fore -0.5}}
+{"heronew2_ger"	    ("v1" c(360) c1(marder_3h)		t(hero 42) s(ger) n1(tankman:3) n2(tankman2:1) g(h2) b(hero)) {level 1} {cost 5.0} {fore -0.5}}
+{"hero7_ger"        ("v1" c(480) c1(nebelwerfer41) 	t(hero artillery rocket 42) s(ger) n1(vehicle_supporter:2) n2(tankman2:0) g(h4) b(hero)) {level 1} {cost 4.0} {fore -0.5}}
+{"flak18_hero"      ("v2" c(650) c1(flak18a) 		t(hero artillery 42) s(ger) n1(vehicle_supporter:2) n2(tankman2:0) g(h8) b(hero)) {level 1} {cost 10.0} {fore -0.5}}

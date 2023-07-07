@@ -1,0 +1,61 @@
+{from "pattern rifle_grenade"
+	;{tag "weapon launcher_skill"}
+	{filling "ammo m1garand_grenade" 1}
+	{fillingVisible "m1garand_grenade fg"}
+	{inventory
+		{size 4 2}
+		;{link_bone "gun_back"}
+		{weight 10}
+		;{fsm "smg"}
+	}
+	{entity "garand_grenade"}
+	{burst
+		{short 1}
+		{Long 1}
+	}	
+	{range 75 75}
+	
+	{preloaded}
+	{mass 4}
+	
+	{fireSound "smg/beretta_burst/"}
+	{calibre 50}
+
+	{DisableRicochet}
+	{foresight "Foresight3"}
+	{gravity 2}
+	{rechargeTime 12}
+	{curve "cumulative"}
+	{projectileDamageThreshold 1}
+	{AimingTolerance 1}
+	{reloadAnimBonus 7.5}
+	{ZeroingAccuracy 0.9}
+
+	{aimtype curved}
+
+	{spreading 9
+		;{SpreadXYRatio	1}
+	}
+	{parameters "wp"
+		{cursor "cannon_on_sm"}
+		{cursorReloading "cannon_reload_wp"}
+	}
+	{parameters "ap"
+		{range 90 90}
+    		{projectileDamageTable {0 50} {90 50} {95 0}}
+		{cursor "cannon_on"}
+		{cursorReloading "cannon_reload_heat"}
+		{spreading 7}
+	}
+
+	("speed" s(75))
+	("accuracy_boost")
+	(mod "mp"
+		{tag "prepare"}
+		{Special
+			{Mode aim}
+			{PrepareTime 0.1}
+			{PrepareCursor "cannon_shot"}
+		}
+	)
+}

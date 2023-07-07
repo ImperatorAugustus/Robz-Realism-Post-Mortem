@@ -1,0 +1,5 @@
+{from "75mm_type5"		; "chi-ri"
+	{filling "bullet75 japl" 3}
+	{rechargeTime 19}
+	{recoveryTime 4}
+}

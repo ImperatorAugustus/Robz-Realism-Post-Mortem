@@ -1,0 +1,17 @@
+{bullet
+	{tag " grenade big shell hefg mortar_fg_medium"}
+	{inventory
+		{size 3 1}
+		{weight 70}
+	}	{mass 2}
+	{entity "ammo_mortar120_of843a"}
+	{view "ammo_mortar120_of843a"}	
+	{detonationThickness 1}
+
+	("fg_minimum" args 4.0)
+	{damage blastwave
+		{energy 1}
+		{area 12 17}
+	}
+
+}

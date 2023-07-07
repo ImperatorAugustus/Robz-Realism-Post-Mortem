@@ -1,0 +1,8 @@
+{from "ppsh"
+	{filling "ammo ppd40_mag ppsh_ammo" 71}
+	{entity "ppd"}
+	{fireSound	"smg/ppd40_burst/"}
+	{reloadSound "mp44"}
+	{rechargeTime 5}
+	("recoveryTime" r(950))
+}

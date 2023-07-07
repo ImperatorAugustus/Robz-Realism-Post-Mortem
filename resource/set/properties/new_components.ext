@@ -1,0 +1,54 @@
+(mod not "mp"
+	{bone "additional_components"
+		{orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "internal_components"
+			;{parameters "ID=internal_components;"}
+			{Matrix34
+				1	0	0
+				0	-1	0
+				0	0	1
+				0	0	0
+			}
+		}
+		{bone "turret_drive"
+			;{parameters "ID=turret;"}
+			{Matrix34
+				1	0	0
+				0	-1	0
+				0	0	1
+				0	0	0
+			}
+		}
+		{bone "vertical_drive"
+			;{parameters "ID=gun;"}
+			{Matrix34
+				1	0	0
+				0	-1	0
+				0	0	1
+				0	0	0
+			}
+		}
+		{bone "gun_breech"
+			;{parameters "ID=gun;"}
+			{Matrix34
+				1	0	0
+				0	-1	0
+				0	0	1
+				0	0	0
+			}
+		}
+		{bone "transmission"
+			;{parameters "ID=transmission;"}
+			{Matrix34
+				1	0	0
+				0	-1	0
+				0	0	1
+				0	0	0
+			}
+		}
+	}
+)

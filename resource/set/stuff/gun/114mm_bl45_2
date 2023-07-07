@@ -1,0 +1,15 @@
+{from "pattern gun2"		; "bl45 direct fire"
+	{filling "bullet114 eng fg"}
+	{fireSound "gun/howitzer/105mm_m2a1"}
+	{reloadSound "tankgun_r04"}
+	("range_grazing_howitzer")
+	
+	("speed" s(686))
+	("caliber_maximum")
+	{range 200 200}
+	{projectileDamage 150}
+	{rechargeTime 14}
+}
+
+
+

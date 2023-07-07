@@ -1,0 +1,1324 @@
+﻿{tags
+	{"options"
+		{"title" "<f(impact)s(28)c(255 255 255)>Options"}
+		{"btn_browse_hint" "Expand"}
+		{"timeout"
+			{"question" "Do you want to keep these settings?"}
+			{"text" "Previous settings will be restored in %1% sec."}
+			{"texture_warning" "Texture settings will be applied the next time the game is started."}
+			{"mod_warning" "Mod settings will be applied the next time the game is started."}
+		}
+		{"video"
+			{"title" "<s(25)y(+9)>Video"}
+			{"adapter" "Video card"}
+			{"adapter#desc" "Current video card."}
+			{"feature_level"
+				{"dx10.0" "DX10"}
+				{"dx10.1" "DX10.1"}
+				{"dx11.0" "DX11"}
+				{"dx11.1" "DX11.1"}
+			}
+			{"current_mode" "Current mode"}
+			{"current_mode#desc" "Current video mode. To change this setting, see the Resolution option below."}
+			{"display_hz" "Hz"}
+			{"resolution" "Resolution"}
+			{"resolution"
+				{"refresh" "Refresh rate"}
+				{"refresh#desc" "Refresh rate (Hz). Higher settings reduces screen flicker."}
+				{"depth" "Color depth"}
+				{"depth#desc" "Screen color depth (bits per pixel). Lowering this setting can improve game performance. For better results, change screen resolution, color depth and texture quality proportionally."}
+				{"depth#"
+					{"16" "16-bit"}
+					{"32" "32-bit"}
+				}
+			}
+			{"resolution#desc" "Screen resolution (pixels). Lowering this setting can improve game performance. For better results, change screen resolution, color depth and texture quality proportionally."}
+			{"resolution#"
+				{"desktop" "Use desktop settings"}
+			}
+			{"preset#desc" "Enable one of standard video settings presets. Choose \"Custom\" for advanced video settings configuration."}
+			{"preset" "Graphics setting"}
+			{"preset#"
+				{"custom" "Custom (for advanced users)"}
+				{"min" "Minimum"}
+				{"low" "Low"}
+				{"medium" "Medium"}
+				{"high" "High"}
+				{"ultra" "Ultra"}
+			}
+			{"window_mode" "Display mode"}
+			{"window_mode#desc" "Game display mode.\n"}
+			{"window_mode#"
+				{"fullscreen" "Fullscreen"}
+				{"windowed" "Windowed"}
+				{"windowed_borderless" "Windowed borderless background"}
+				{"windowed_fullscreen" "Windowed borderless foreground"}
+			}
+			{"detail" "Texture detail"}
+			{"detail#desc" "Texture quality. If you have performance issues, try to lower this setting. For better results, change screen resolution, color depth and texture quality proportionally."}
+			{"detail#"
+				{"detail_low" "Minimum"}
+				{"detail_above_low" "Low"}
+				{"detail_medium" "Medium"}
+				{"detail_above_medium" "High"}
+				{"detail_high" "Ultra"}
+			}
+			{"shadow" "Shadows"}
+			{"shadow#desc" "Shadow complexity. Lowering this setting or turning shadows off can improve game performance."}
+			{"shadow#"
+				{"none" "Off"}
+				{"low" "Low"}
+				{"medium" "Medium"}
+				{"high" "High"}
+				{"ultra" "Ultra"}
+			}
+			{"water_reflection" "Water shader"}
+			{"water_reflection#desc" "Type of water shader. 'Ultra' may significantly decrease performance."}
+			{"water_reflection#"
+				{"none" "Low"}
+				{"fake" "Medium"}
+				{"real" "Ultra"}
+			}
+			{"water_quality" "Water quality"}
+			{"water_quality#desc" "Type of water quality. 'Ultra' may significantly decrease performance."}
+			{"water_quality#"
+				{"low" "Low"}
+				{"medium" "Medium"}
+				{"high" "High"}
+				{"ultra" "Ultra"}
+			}
+			{"full_screen" "Full screen"}
+			{"full_screen#desc" "Determines whether the game should run in full screen or not."}
+			{"vertical_sync" "Vertical sync"}
+			{"vertical_sync#desc" "Wait for the screen to refresh before the next frame is drawn. Checking this can remove flickering, but may also reduce performance."}
+			{"filtering" "Texture filtering"}
+			{"filtering#desc" "Texture filtering type. At higher settings, textures will look sharper and more detailed from far away, but this can also reduce performance."}
+			{"filtering#"
+				{"bilinear" "Bilinear"}
+				{"trilinear" "Trilinear"}
+				{"anisotropic2x" "Anisotropic 2x"}
+				{"anisotropic4x" "Anisotropic 4x"}
+				{"anisotropic8x" "Anisotropic 8x"}
+				{"anisotropic16x" "Anisotropic 16x"}
+			}
+			{"model_quality" "Model quality"}
+			{"model_quality#desc" "Change complexity of game models."}
+			{"model_quality#"
+				{"high" "High"}
+				{"low" "Low"}
+			}
+			{"fx_quality" "Effects quality"}
+			{"fx_quality#desc" "Number of simultaneous visual effects, such as explosions, smoke, and debris. Lower this setting if you're experiencing unstable frame rates."}
+			{"fx_quality#"
+				{"high" "High"}
+				{"medium" "Medium"}
+				{"low" "Low"}
+			}
+			{"lights_quality" "Dynamic lighting"}
+			{"lights_quality#desc" "Dynamic lighting quality. It is recommended to set 'No dynamic lights' for Intel-integrated graphics solutions."}
+			{"lights_quality#"
+				{"off" "No dynamic lights"}
+				{"medium" "Few dynamic lights"}
+				{"full" "Full dynamic lighting"}
+			}
+			{"lens_effects_options" "Lens effects"}
+			{"lens_effects_options#desc" "Activate lens effects, may slightly reduce performance."}
+			{"lens_effects_options#"
+				{"none" "Off"}
+				{"low" "Low"}
+				{"medium" "Medium"}
+				{"high" "High"}
+			}
+			{"antialiasing" "Antialiasing"}
+			{"antialiasing#desc" "Full screen antialiasing makes model edges look smoother and more natural. However, high values may reduce game performance."}
+			{"antialiasing#"
+				{"none" "None"}
+				{"nonmaskable" "Supersampling"}
+				{"2x" "2x"}
+				{"3x" "3x"}
+				{"4x" "4x"}
+				{"5x" "5x"}
+				{"6x" "6x"}
+				{"7x" "7x"}
+				{"8x" "8x"}
+				{"9x" "9x"}
+				{"10x" "10x"}
+				{"11x" "11x"}
+				{"12x" "12x"}
+				{"13x" "13x"}
+				{"14x" "14x"}
+				{"15x" "15x"}
+				{"16x" "16x"}
+			}
+			{"antialiasing_quality" "Antialiasing samples"}
+			{"bumptype" "Bump quality"}
+			{"bumptype#desc" "Normal and parallax mapping effects make rough or uneven surfaces look more natural. Consider turning this feature off if you have performance issues."}
+			{"bumptype#"
+				{"none" "Off"}
+				{"bump" "High"}
+				{"parallax" "Ultra"}
+			}
+			{"specular" "Specular maps"}
+			{"specular#desc" "Enables an effect for shiny surfaces which makes polished or scratched metal surfaces look more realistic. This setting should not affect game performance, but you may want to turn it off in rare cases."}
+			{"environment" "Environment maps"}
+			{"environment#desc" "Enables reflections for reflective surfaces like glass and water. Disabling this option may slightly improve game performance."}
+			{"waterbump" "Water ripple"}
+			{"waterbump#desc" "Enables water ripple effect. Disable it for a slight performance increase."}
+			{"grass" "Grass"}
+			{"grass#desc" "Determines whether grass should be shown or not. Turning this option off may increase framerate."}
+			{"bloom" "Bloom"}
+			{"bloom#desc" "This effect imitates the lens of a camera, by making the whole image smoother and slightly defocused. It also enhances the overall image quality. Disable bloom if you have performance issues."}
+			{"filmgrain" "Film grain"}
+			{"filmgrain#desc" "Enables a film grain effect. May reduce performance slightly."}
+			{"vls" "Light scattering"}
+			{"vls#desc" "Enables light scattering. May reduce performance noticeably."}
+			{"dof" "Depth of field"}
+			{"dof#desc" "Enables depth of field. May reduce performance."}
+			{"softintersection" "Soft particles"}
+			{"softintersection#desc" "Enables soft particles. May reduce performance."}
+			{"ssao" "SSAO"}
+			{"ssao#desc" "Enables Screen Space Ambient Occlussion. May reduce performance noticeably."}
+			{"fake_translucency" "Translucency"}
+			{"fake_translucency#desc" "Enables flora translucency. May have slight impact on performance."}
+			{"glow" "Glow"}
+			{"glow#desc" "Enables glow. May reduce performance."}
+			{"rim_light" "Rim light"}
+			{"rim_light#desc" "Enables rim light. May reduce performance slightly."}
+			{"clip_distance" "View distance"}
+			{"clip_distance#desc" "How far you can see in the game. Reducing this value can slightly improve performance."}
+			{"gamma" "Gamma"}
+			{"gamma#desc" "Full screen gamma correction."}
+			{"brightness" "Brightness"}
+			{"brightness#desc" "Brightness setting."}
+			{"contrast" "Contrast"}
+			{"contrast#desc" "Image contrast."}
+			{"btn_video_reset" "Reset to Default"}
+			{"reset_confirm" "Do you really want to reset your video settings to default?"}
+			{"adapter_change_confirm" "You must restart the game to apply adapter change. Continue?"}
+		}
+		{"audio"
+			{"title" "<s(25)y(+9)>Audio"}
+			{"adapter" "Audio system"}
+			{"adapter#desc" "Current audio system."}
+			{"adapter_failed" "Error initializing sound system."}
+			{"txt_buffers" "Buffers"}
+			{"current_mode" "Current mode"}
+			{"current_mode#desc" "Current audio mode"}
+			{"speaker_config" "Speaker configuration"}
+			{"speaker_config#desc" "Sound system configuration. Set \"Use system settings\" for maximum compatibility."}
+			{"speaker_config#"
+				{"use_system_settings" "Use system settings"}
+				{"headphones" "Headphones"}
+				{"stereo_speakers" "Stereo speakers"}
+				{"40_discrete" "4.0-speaker system"}
+				{"51_discrete" "5.1-speaker system"}
+				{"61_discrete" "6.1-speaker system"}
+				{"71_discrete" "7.1-speaker system"}
+				{"81_discrete" "8.1-speaker system"}
+				{"directsound3d" "DirectSound3D"}
+				{"eax" "DirectSound3D with EAX"}
+			}
+			{"rate" "Mixing rate"}
+			{"rate#desc" "Enables you to change quality (sampling frequency) of audio samples. Lowering this value can slightly improve overall game performance."}
+			{"rate#"
+				{"11_khz" "11 KHz"}
+				{"22_khz" "22 KHz"}
+				{"44_khz" "44 KHz"}
+			}
+			{"bits" "Bits per channel"}
+			{"bits#desc" "Changes quality (sample resolution) of the audio stream."}
+			{"bits#"
+				{"8_bit" "8 bits"}
+				{"16_bit" "16 bits"}
+			}
+			{"buffers" "Buffers"}
+			{"buffers#desc" "The number of sound buffers is the number of simultaneous sounds which can be processed by your system. Consider lowering this setting if you are experiencing performance or stability issues."}
+			{"volume" "Volume"}
+			{"volume"
+				{"master" "Master"}
+				{"effects" "Effects"}
+				{"effects#desc" "Volume of in-game effects such as  shots, explosions and engine sounds."}
+				{"emotions" "Vocal emotes"}
+				{"emotions#desc" "Volume of soldiers' emotes during battle."}
+				{"environment" "Environment"}
+				{"environment#desc" "Volume of environmental sounds (the wind, the waves, birds, crickets, etc.)."}
+				{"interface" "Interface music"}
+				{"interface#desc" "Interface music volume."}
+				{"game_music" "Game music"}
+				{"game_music#desc" "Background music volume."}
+				{"narrator" "Speech"}
+				{"narrator#desc" "Volume of soldiers' and narrator's speech during battle."}
+			}
+			{"volume#desc" "Volumes of effects, voices and music in the game."}
+			{"btn_audio_reset" "Reset to Default"}
+			{"reset_confirm" "Do you really want to reset your audio settings to default?"}
+		}
+		{"game"
+			{"title" "<s(25)y(+9)>Game"}
+			{"difficulty" "Difficulty"}
+			{"difficulty#desc" "Specifies the game difficulty level"}
+			{"difficulty#"
+				{"easy" "Easy"}
+				{"normal" "Normal"}
+				{"hard" "Hard"}
+				{"heroic" "Heroic"}
+			}
+			{"fog_of_war" "Fog of War"}
+			{"fog_of_war#"
+				{"fog_off" "Disabled"}
+				{"fog_simple" "Simple"}
+				{"fog_realistic" "Realistic"}
+			}
+			{"fog_of_war#desc" "Determines whether the \"Fog of War\" effect should be displayed on the screen. (This setting doesn't disable it altogether, but makes it invisible to improve game performance.)"}
+			{"subtitles" "Subtitles"}
+			{"subtitles#desc" "Turn subtitles on/off."}
+			{"invert_mouse_wheel" "Invert mouse wheel"}
+			{"invert_mouse_wheel#desc" "Invert mouse wheel on/off."}
+			{"invert_camera_third_person" "Invert camera in third-person"}
+			{"invert_camera_third_person#desc" "Invert camera in third-person control."}
+			{"aiming" "Auto aiming"}
+			{"aiming"
+				{"auto_aim_vehicle" "Auto aim at vehicles"}
+				{"auto_aim_vehicle#desc" "Auto aiming at vehicles snaps your aiming cursor to the nearest vehicle in area."}
+			}
+			{"aiming#desc" "Toggles automatic aiming in \"Direct Control\" mode."}
+			{"auto_load_last_profile" "Autoload last profile"}
+			{"auto_load_last_profile#desc" "The game will always begin with the most recent profile used. To change the current profile, select \"Profile\" from the Main Menu."}
+			{"slow_down_while_inventory_exchange" "Slow down during inventory exchange"}
+			{"slow_down_while_inventory_exchange#desc" "Turn on slow-motion mode during inventory exchange. This is helpful if you often loot during the heat of battle."}
+			{"camera_scroll_speed" "Camera scroll speed"}
+			{"camera_scroll_speed#desc" "Changes the speed at which the camera moves."}
+			{"camera_rotate_speed" "Camera rotation speed"}
+			{"camera_rotate_speed#desc" "Controls the camera rotation sensibility."}
+			{"camera_speed_third_person" "Aim speed in \"3rd Person\""}
+			{"camera_speed_third_person#desc" "Changes the speed at which the cursor moves."}
+			{"rts_style_selection" "Disable squad selection"}
+			{"rts_style_selection#desc" "Toggles whether soldiers will automatically form a new squad when selected."}
+			{"hints" "Tips"}
+			{"hints#desc" "Displays mouse tooltips when pointing to buttons and units."}
+			{"action_by_left_click" "Reverse mouse button orders"}
+			{"action_by_left_click#desc" "Enables left mouse button orders."}
+			{"threat_markers" "Enemy markers"}
+			{"threat_markers#desc" "Engages enemy markers which are out of sight."}
+			{"bcap" "Bandicam"}
+			{"bcap"
+				{"preset" "Preset"}
+				{"preset#desc" "Bandicam resolution."}
+				{"preset#"
+					{"standard" "Standard"}
+					{"halfsize" "Halfsize"}
+				}
+				{"video_quality" "Video quality"}
+				{"video_quality#desc" "Bandicam video quality."}
+				{"video_quality#"
+					{"low" "Low"}
+					{"medium" "Medium"}
+					{"high" "High"}
+				}
+			}
+			{"btn_cloud_reset" "Reset Steam Cloud"}
+			{"msg_cloud_reset" "Delete stored profile data in Steam Cloud?"}
+			{"multiplayer" "Multiplayer"}
+			{"multiplayer"
+				{"username" "User name"}
+				{"username#desc" "Enter your player name."}
+				{"hostname" "Host name"}
+				{"hostname#desc" "Specify your host name."}
+				{"minfps" "Minimum FPS"}
+				{"minfps#desc" "Minimum number of frames per second to sustain during network games."}
+				{"gameenum" "Game IP list"}
+				{"gameenum#desc" "List of IP addresses outside of your LAN at which to search for games. If any games are found at these IPs, they will be automatically displayed on the LAN screen."}
+				{"message_chatwheel"
+					{"care" "Watch out!"}
+					{"wp" "Well played!"}
+					{"help" "Help!"}
+					{"back" "Get back!"}
+					{"go" "Let's go!"}
+					{"ok" "Okay!"}
+					{"no" "No!"}
+					{"sorry" "Sorry!"}
+					{"oops" "Oops!"}
+					{"ez" "Be careful!"}
+					{"glhf" "Good luck & have fun!"}
+					{"gg" "Good game & well played!"}
+					{"hi" "Greetings!"}
+					{"thx" "Thanks!"}
+				}
+			}
+			{"btn_game_reset" "Reset to Default"}
+			{"reset_confirm" "Do you really want to reset your game settings to default?"}
+		}
+		{"mp"
+			{"title" "<s(25)y(+9)>Multiplayer"}
+			{"username" "User name"}
+			{"username#desc" "Enter your player name."}
+			{"hostname" "Host name"}
+			{"hostname#desc" "Specify your host name."}
+			{"minfps" "Minimum FPS"}
+			{"minfps#desc" "Minimum number of frames per second to sustain during network games."}
+			{"gameenum" "Game IP list"}
+			{"gameenum#desc" "List of IP addresses outside of your LAN at which to search for games. If any games are found at these IPs, they will be automatically displayed on the LAN screen."}
+			{"zoneenum" "Zone IP list"}
+			{"zoneenum#desc" "List of dedicated servers' IP addresses outside of your LAN at which to search for games. If any games are found at these servers, they will be automatically displayed on the LAN screen."}
+			{"bandwidth" "Content download speed (%)"}
+			{"bandwidth"
+				{"lansession" "Starting the game (LAN)"}
+				{"langame" "Playing the game (LAN)"}
+				{"wansession" "Starting the game (WAN)"}
+				{"wangame" "Playing the game (WAN)"}
+			}
+			{"bandwidth#desc" "Content download speed (%)"}
+			{"ip_add" "Add"}
+			{"ip_del" "Remove"}
+			{"gameip_title" "Games IP list to scan"}
+			{"zoneip_title" "Zones IP list to scan"}
+		}
+		{"keys"
+			{"title" "<s(25)y(+9)>Controls"}
+			{"change_key" "Redefine controls"}
+			{"wait_for_key" "Press key for '%1%'"}
+			{"change_key_warning" "Redefinition warning"}
+			{"already_binded" "Key '%1%' is already bound to '%2%'"}
+			{"already_binded_redefine" "Key '%1%' is already bound to '%2%'. Redefine?"}
+			{"with_ctrl" "Hold CTRL+key"}
+			{"with_alt" "Hold ALT+key"}
+			{"with_shift" "Hold SHIFT+key"}
+			{"with_double" "Double key press"}
+			{"with_noctrl" "Ignore CTRL pressing"}
+			{"with_noalt" "Ignore ALT pressing"}
+			{"with_noshift" "Ignore SHIFT pressing"}
+			{"with_nodouble" "Single key press"}
+			{"common" "Standard keys"}
+			{"common"
+				{"set_commander" "Set commander"}
+				{"set_commander#desc" "Selected soldier becomes squad commander."}
+				{"dismiss_squad" "Dismiss squad"}
+				{"dismiss_squad#desc" "Dismiss current squad."}
+				{"weapon_reload" "Reload weapon"}
+				{"weapon_reload#desc" "All selected units reload their weapons."}
+				{"weapon_unload" "Unload weapon"}
+				{"weapon_unload#desc" "All selected units unload their weapons."}
+				{"weapon_prepare" "Draw/holster weapon"}
+				{"weapon_prepare#desc" "Draw or holster a weapon."}
+				{"center_active" "Centre on active unit"}
+				{"center_active#desc" "Centre camera on the selected unit."}
+				{"prev_unit" "Previous unit"}
+				{"prev_unit#desc" "Select previous available unit."}
+				{"next_unit" "Next unit"}
+				{"next_unit#desc" "Select next available unit."}
+				{"toggle_attack" "Fire mode"}
+				{"toggle_attack#desc" "Toggle between \"Hold fire\", \"Return fire\", and \"Fire at will\" modes."}
+				{"toggle_position" "Movement mode"}
+				{"toggle_position#desc" "Toggle between \"Hold position\" and \"Move at will\" modes."}
+				{"toggle_map" "Map"}
+				{"toggle_map#desc" "Toggles map on or off."}
+				{"toggle_equipment" "Inventory"}
+				{"toggle_equipment#desc" "Show the selected unit's inventory."}
+				{"toggle_objectives" "Objectives"}
+				{"toggle_objectives#desc" "Show mission objectives."}
+				{"toggle_message_history" "Message history"}
+				{"toggle_message_history#desc" "Show message history."}
+				{"toggle_autotargetting" "Auto targeting"}
+				{"toggle_autotargetting#desc" "Switch auto aiming on/off (for \"Direct Control\" mode only)."}
+				{"slowdown" "Game speed"}
+				{"slowdown#desc" "Change game speed."}
+				{"stuff_highlight" "Highlight items"}
+				{"stuff_highlight#desc" "Highlight objects on the ground."}
+				{"corpses_highlight" "Highlight corpses"}
+				{"corpses_highlight#desc" "Highlight corpses on the ground."}
+				{"silhouettes_highlight" "Highlight silhouettes"}
+				{"silhouettes_highlight#desc" "Highlight soldiers obscured by objects."}
+				{"pause" "Pause"}
+				{"pause#desc" "Pause game"}
+				{"screenshot" "Screenshot"}
+				{"screenshot#desc" "Take a screenshot. Screenshots are saved in the screenshots subfolder of the main game folder."}
+				{"videocapture" "Capture video"}
+				{"videocapture#desc" "Toggle video capture on/off. Captured video files are saved in the videos subfolder of your profile folder."}
+				{"show_tip" "Show hints"}
+				{"show_tip#desc" "Show game hints."}
+				{"game_menu" "Game menu"}
+				{"game_menu#desc" "Show game menu."}
+				{"toggle_map_control" "Map controls"}
+				{"toggle_map_control#desc" "Toggles the map control panel."}
+			}
+			{"common#desc" "General key assignments"}
+			{"control" "RTS-style control"}
+			{"control"
+				{"mouse_left#desc" "Select several units (hold down the mouse button, drag the mouse to enclose some units inside the rectangle, then release it), or select one unit by clicking on it. To deselect units, simply click on any empty space on the map."}
+				{"mouse_right" "Issue an order"}
+				{"mouse_right#desc" "Issue an order to the selected units."}
+			}
+			{"control#desc" "Unit selection"}
+			{"control_manual" "Direct Control"}
+			{"control_manual"
+				{"toggle" "Direct Control on/off"}
+				{"toggle#desc" "Toggle \"Direct Control\" mode."}
+				{"modify" "Direct Control modifier"}
+				{"modify#desc" "Activate \"Direct Control\" mode while the key is being pressed."}
+				{"quick_aim" "Quick Aim"}
+				{"quick_aim#desc" "Activate Quick Aim for fast 3rd person toggle."}
+				{"forward" "Forward"}
+				{"forward#desc" "Move the selected unit forward."}
+				{"backward" "Backward"}
+				{"backward#desc" "Move the selected unit backward."}
+				{"left" "Left"}
+				{"left#desc" "Strafe left (soldiers) or turn left (vehicles)."}
+				{"right" "Right"}
+				{"right#desc" "Strafe right (soldiers) or turn right (vehicles)."}
+				{"fire" "Fire"}
+				{"fire#desc" "Fire weapon/throw grenade."}
+				{"next_weapon" "Switch weapon"}
+				{"next_weapon#desc" "Switch between primary and secondary weapon."}
+				{"next_ammo" "Change/reload ammo"}
+				{"next_ammo#desc" "Change ammo type, or reload weapon."}
+				{"fire_mode" "Switch fire mode"}
+				{"fire_mode#desc" "Switch between user controlled and AI controlled fire."}
+				{"next_mgun" "Next machine gun"}
+				{"next_mgun#desc" "Switch to the next machine gun."}
+			}
+			{"control_manual#desc" "Direct control"}
+			{"control_human" "Infantry control"}
+			{"control_human"
+				{"stay_lie" "Stand/prone"}
+				{"stay_lie#desc" "Orders the selected soldiers to stand up or enter a prone position."}
+				{"pose_up" "Stance up"}
+				{"pose_up#desc" "Stance up (squat if lying on the ground, stand up if kneeling)."}
+				{"pose_down" "Stance down"}
+				{"pose_down#desc" "Stance down (squat if standing, lie down if kneeling)."}
+				{"drop_from_hands" "Drop item"}
+				{"drop_from_hands#desc" "Immediately drop the currently selected item on the ground."}
+				{"select_primary" "Select primary"}
+				{"select_primary#desc" "Select primary weapon."}
+				{"select_secondary" "Select secondary"}
+				{"select_secondary#desc" "Select secondary weapon."}
+			}
+			{"control_human#desc" "Infantry control"}
+			{"control_camera" "Camera control"}
+			{"control_camera"
+				{"mouse_rotate" "Camera rotation"}
+				{"mouse_rotate#desc" "Enable  camera rotation."}
+				{"scroll_forward" "Scroll forward"}
+				{"scroll_forward#desc" "Scroll the camera forward."}
+				{"scroll_backward" "Scroll backward"}
+				{"scroll_backward#desc" "Scroll the camera backwards."}
+				{"scroll_left" "Scroll left"}
+				{"scroll_left#desc" "Scroll the camera left."}
+				{"scroll_right" "Scroll right"}
+				{"scroll_right#desc" "Scroll the camera right."}
+				{"zoom_in" "Zoom in"}
+				{"zoom_in#desc" "Move camera closer to the ground."}
+				{"zoom_out" "Zoom out"}
+				{"zoom_out#desc" "Move camera away from the ground."}
+				{"rotate_left" "Rotate left"}
+				{"rotate_left#desc" "Rotate camera anti-clockwise."}
+				{"rotate_right" "Rotate right"}
+				{"rotate_right#desc" "Rotate camera clockwise."}
+				{"increase_view" "Pitch up"}
+				{"increase_view#desc" "Pitch the camera up."}
+				{"decrease_view" "Pitch down"}
+				{"decrease_view#desc" "Pitch the camera down."}
+			}
+			{"control_camera#desc" "Camera control"}
+			{"actions" "Actions"}
+			{"actions"
+				{"throw_ap_grenade" "Throw frag grenade"}
+				{"throw_ap_grenade#desc" "Order the selected squad or unit to throw a fragmentation grenade. (Only active if frag grenades are available.)"}
+				{"throw_at_grenade" "Throw AT grenade"}
+				{"throw_at_grenade#desc" "Order the selected squad or unit to throw an AT grenade. (Only active if AT grenades are available.)"}
+				{"aimed_shot" "Aimed shot"}
+				{"aimed_shot#desc" "Order the selected squad or unit to perform an aimed shot. (Only active if sniper rifle is available.)"}
+				{"bazooka_shot" "Use rocket launcher"}
+				{"bazooka_shot#desc" "Order the selected squad or unit to perform a rocket launcher shot. (Only active if the Bazooka, Panzerschreck, or Panzerfaust is available.)"}
+				{"suppression_fire" "Suppressive fire"}
+				{"suppression_fire#desc" "The selected squad will reload weapons and begin firing continuously at enemies in the direction indicated."}
+				{"attack_melee" "Melee attack"}
+				{"attack_melee#desc" "Order one of your soldiers to perform a melee attack against the selected target."}
+				{"attack_ground" "Attack ground"}
+				{"attack_ground#desc" "Choose a spot to cover."}
+				{"attach" "Attach"}
+				{"attach#desc" "Attach a cannon to a vehicle."}
+				{"repair" "Repair"}
+				{"repair#desc" "Repair a damaged component of a vehicle."}
+				{"call_ally" "Call for ally"}
+				{"call_ally#desc" "In some cases you can take an allied soldier into your squad if you're taking casualties."}
+				{"use" "Use"}
+				{"use#desc" "Use the currently-held item."}
+				{"cancel" "Cancel"}
+				{"cancel#desc" "Cancel all current orders for the selected squad."}
+				{"emit" "Drop off"}
+				{"emit#desc" "Order crew to exit a vehicle."}
+				{"examine" "Examine"}
+				{"examine#desc" "Examine a corpse, vehicle, or some other container."}
+				{"drop" "Drop/put item"}
+				{"drop#desc" "Drop the currently-selected item on a specified place on the ground, or put it into the specified container."}
+				{"attack" "Attack"}
+				{"attack#desc" "Order your squad or vehicle to attack the selected target (regardless of who it belongs to)."}
+				{"rotate" "Turn"}
+				{"rotate#desc" "Turn the unit in the direction indicated."}
+				{"spread" "Spread out"}
+				{"spread#desc" "Spread units across the area indicated."}
+				{"advance" "Advance"}
+				{"advance#desc" "Move to the indicated position and attack any enemies encountered."}
+				{"heal" "Heal"}
+				{"heal#desc" "Use medical kits to patch wounds."}
+				{"board" "Enter"}
+				{"board#desc" "Order soldiers to board a vehicle."}
+				{"throw_sk_grenade" "Smoke grenade"}
+				{"throw_sk_grenade#desc" "Order selected squad or soldier to throw a smoke grenade. (Only available if they are carrying smoke grenades.)"}
+			}
+			{"actions#desc" "Actions"}
+			{"multiplayer" "Multiplayer"}
+			{"multiplayer"
+				{"chat_team" "Team chat"}
+				{"chat_team#desc" "Send a message to your team. Hold down to activate the Chatwheel!"}
+				{"chat_all" "Global chat"}
+				{"chat_all#desc" "Send a message to all players. Hold down to activate the Chatwheel!"}
+				{"unit_buy" "Buy units"}
+				{"unit_buy#desc" "Open the \"Buy Units\" menu."}
+				{"unit_transfer" "Transfer units"}
+				{"unit_transfer#desc" "Transfer your units to a teammate."}
+				{"unit_assignment" "Select assigned unit"}
+				{"unit_assignment#desc" "Select units received from another player."}
+				{"leave_unit" "Exit vehicle"}
+				{"leave_unit#desc" "Exit the selected vehicle."}
+				{"show_statistics" "Show score table"}
+				{"show_statistics#desc" "Show in-game statistics."}
+				{"show_notification" "Set team marker"}
+				{"show_notification#desc" "Set a marker visible to teammates."}
+				{"push_to_talk" "Push to talk"}
+				{"push_to_talk#desc" "Enable your microphone by holding the key."}
+				{"toggle_microphone" "Mute microphone"}
+				{"toggle_microphone#desc" "Toggle your microphone on/off."}
+			}
+			{"multiplayer#desc" "Multiplayer settings"}
+			{"groups" "Squads"}
+			{"groups"
+				{"assign_1" "Assign squad 1"}
+				{"assign_2" "Assign squad 2"}
+				{"assign_3" "Assign squad 3"}
+				{"assign_4" "Assign squad 4"}
+				{"assign_5" "Assign squad 5"}
+				{"assign_6" "Assign squad 6"}
+				{"assign_7" "Assign squad 7"}
+				{"assign_8" "Assign squad 8"}
+				{"assign_9" "Assign squad 9"}
+				{"select_1" "Select squad 1"}
+				{"select_2" "Select squad 2"}
+				{"select_3" "Select squad 3"}
+				{"select_4" "Select squad 4"}
+				{"select_5" "Select squad 5"}
+				{"select_6" "Select squad 6"}
+				{"select_7" "Select squad 7"}
+				{"select_8" "Select squad 8"}
+				{"select_9" "Select squad 9"}
+				{"dismiss" "Dismiss"}
+				{"dismiss#desc" "Dismiss current squad."}
+			}
+			{"groups#desc" "Squads"}
+			{"keymap"
+				{"key_escape" "ESC"}
+				{"key_1" "1"}
+				{"key_2" "2"}
+				{"key_3" "3"}
+				{"key_4" "4"}
+				{"key_5" "5"}
+				{"key_6" "6"}
+				{"key_7" "7"}
+				{"key_8" "8"}
+				{"key_9" "9"}
+				{"key_0" "0"}
+				{"key_minus" "-"}
+				{"key_equals" "="}
+				{"key_back" "BACK"}
+				{"key_tab" "TAB"}
+				{"key_q" "Q"}
+				{"key_w" "W"}
+				{"key_e" "E"}
+				{"key_r" "R"}
+				{"key_t" "T"}
+				{"key_y" "Y"}
+				{"key_u" "U"}
+				{"key_i" "I"}
+				{"key_o" "O"}
+				{"key_p" "P"}
+				{"key_lbracket" "{"}
+				{"key_rbracket" "}"}
+				{"key_return" "ENTER"}
+				{"key_lcontrol" "Left CTRL"}
+				{"key_a" "A"}
+				{"key_s" "S"}
+				{"key_d" "D"}
+				{"key_f" "F"}
+				{"key_g" "G"}
+				{"key_h" "H"}
+				{"key_j" "J"}
+				{"key_k" "K"}
+				{"key_l" "L"}
+				{"key_semicolon" ";"}
+				{"key_apostrophe" "'"}
+				{"key_grave" "`"}
+				{"key_lshift" "Left SHIFT"}
+				{"key_backslash" "\\"}
+				{"key_z" "Z"}
+				{"key_x" "X"}
+				{"key_c" "C"}
+				{"key_v" "V"}
+				{"key_b" "B"}
+				{"key_n" "N"}
+				{"key_m" "M"}
+				{"key_comma" ","}
+				{"key_period" "."}
+				{"key_slash" "/"}
+				{"key_rshift" "Right SHIFT"}
+				{"key_multiply" "*"}
+				{"key_lalt" "Left ALT"}
+				{"key_space" "SPACE"}
+				{"key_capslock" "CAPS LOCK"}
+				{"key_f1" "F1"}
+				{"key_f2" "F2"}
+				{"key_f3" "F3"}
+				{"key_f4" "F4"}
+				{"key_f5" "F5"}
+				{"key_f6" "F6"}
+				{"key_f7" "F7"}
+				{"key_f8" "F8"}
+				{"key_f9" "F9"}
+				{"key_f10" "F10"}
+				{"key_numlock" "NUM LOCK"}
+				{"key_scroll" "SCROLL LOCK"}
+				{"key_numpad7" "NUM 7"}
+				{"key_numpad8" "NUM 8"}
+				{"key_numpad9" "NUM 9"}
+				{"key_subtract" "-"}
+				{"key_numpad4" "NUM 4"}
+				{"key_numpad5" "NUM 5"}
+				{"key_numpad6" "NUM 6"}
+				{"key_add" "+"}
+				{"key_numpad1" "NUM 1"}
+				{"key_numpad2" "NUM 2"}
+				{"key_numpad3" "NUM 3"}
+				{"key_numpad0" "NUM 0"}
+				{"key_decimal" "DEL"}
+				{"key_f11" "F11"}
+				{"key_f12" "F12"}
+				{"key_f13" "F13"}
+				{"key_f14" "F14"}
+				{"key_f15" "F15"}
+				{"key_kana" "KANA"}
+				{"key_convert" "CONVERT"}
+				{"key_noconvert" "NOCONVERT"}
+				{"key_yen" "YEN"}
+				{"key_numpadequals" "NOCONVERT"}
+				{"key_circumflex" "CIRCUMFLEX"}
+				{"key_at" "AT"}
+				{"key_colon" "COLON"}
+				{"key_underline" "UNDERLINE"}
+				{"key_kanji" "KANJI"}
+				{"key_stop" "STOP"}
+				{"key_ax" "AX"}
+				{"key_unlabeled" "UNLABELLED"}
+				{"key_numpadenter" "NUM ENTER"}
+				{"key_rcontrol" "Right CTRL"}
+				{"key_numpadcomma" "NUM ,"}
+				{"key_divide" "NUM DIVIDE"}
+				{"key_sysrq" "SYSRQ"}
+				{"key_ralt" "Right ALT"}
+				{"key_pause" "PAUSE"}
+				{"key_home" "HOME"}
+				{"key_up" "UP"}
+				{"key_prior" "PRIOR"}
+				{"key_left" "LEFT"}
+				{"key_right" "RIGHT"}
+				{"key_end" "END"}
+				{"key_down" "DOWN"}
+				{"key_next" "PAGE DOWN"}
+				{"key_insert" "INSERT"}
+				{"key_delete" "DELETE"}
+				{"key_lwin" "LWIN"}
+				{"key_rwin" "RWIN"}
+				{"key_apps" "APPS"}
+				{"key_esc" "ESC"}
+				{"key_enter" "ENTER"}
+				{"key_backspace" "BACKSPACE"}
+				{"key_numpadstar" "NUM *"}
+				{"key_numpadminus" "NUM -"}
+				{"key_numpadplus" "NUM +"}
+				{"key_numpadperiod" "NUM ."}
+				{"key_numpadslash" "NUM /"}
+				{"key_uparrow" "UP"}
+				{"key_pgup" "PAGE UP"}
+				{"key_leftarrow" "LEFT"}
+				{"key_rightarrow" "RIGHT"}
+				{"key_downarrow" "DOWN"}
+				{"key_pgdn" "PAGE DOWN"}
+				{"mouse0" "LMB"}
+				{"mouse1" "RMB"}
+				{"mouse2" "MMB"}
+				{"mouse3" "MOUSE3"}
+				{"mouse4" "MOUSE4"}
+				{"mouse5" "MOUSE5"}
+				{"mouse6" "MOUSE6"}
+				{"mouse7" "MOUSE7"}
+				{"mouse_left" "Left Mouse Button"}
+				{"mouse_right" "Right Mouse Button"}
+				{"mouse_midle" "Middle Mouse Button"}
+				{"key_control" "CTRL"}
+				{"key_alt" "ALT"}
+				{"key_shift" "SHIFT"}
+				{"alt" "ALT"}
+				{"ctrl" "CTRL"}
+				{"shift" "SHIFT"}
+				{"double" "DOUBLE"}
+				{"~alt" "~ALT"}
+				{"~ctrl" "~CTRL"}
+				{"~shift" "~SHIFT"}
+				{"~double" "~Double"}
+			}
+			{"btn_keys_reset" "Reset to Default"}
+			{"reset_confirm" "Do you really want to reset your controls settings to default?"}
+		}
+		{"mods"
+			{"title" "<s(25)y(+9)>MODS"}
+			{"installed" "Deactivated:"}
+			{"selected" "Activated:"}
+			{"info" "Mod info:"}
+			{"btn_delete" "Delete"}
+			{"txt_delete" "Delete selected mod?"}
+			{"unsupported_warning" "<c(red)>This mod requires different game version."}
+			{"unknown_warning" "Mod '%1%' was disabled: Not installed."}
+			{"disabled_warning" "Mod '%1%' was disabled: Unsupported game version."}
+			{"dependency_warning" "Mod '%1%' requires '%2%': Missing dependency."}
+			{"dependency_warning_caption" "Mod '%1%' is not installed: Missing dependency."}
+		}
+		{"workshop"
+			{"title" "<s(25)y(+9)>Workshop"}
+			{"btn_workshop" "Workshop"}
+			{"btn_refresh" "Refresh"}
+			{"btn_preview" "Open workshop page"}
+			{"btn_unsubscribe" "Unsubscribe"}
+			{"header" "#Title#Updated#Size#Status#"}
+			{"size" "%0.1f"}
+			{"unknown" "unknown"}
+			{"status"
+				{"subscribed" "Subscribed"}
+				{"downloading" "Downloading (%.0f%)"}
+				{"downloading_legacy" "Downloading..."}
+			}
+		}
+	}
+	{"main_menu"
+		{"quit_confirm" "Exit game?"}
+		{"exit_confirm" "Quit mission?"}
+		{"restart_confirm" "Restart mission?"}
+	}
+	{"user_profile"
+		{"nick" "<c(255 255 255)e(shadow)>%1%"}
+		{"rank" "<c(25 25 25)>%1% of %2%"}
+		{"score" "<c(25 25 25)>%1%"}
+		{"rank_txt" "<c(25 25 25)>Rank:"}
+		{"score_txt" "<c(25 25 25)>Score:"}
+		{"level" "<c(25 25 25)>level %1%"}
+		{"xp_progress" "<c(255 255 255)e(shadow)>%1%/%2% XP"}
+		{"na" "<c(25 25 25)>n/a"}
+		{"online" "<c(25 25 25)>In-Game: %1%"}
+	}
+	{"user_statistics"
+		{"title" "<f(impact)s(28)c(255 255 255)>%1%"}
+		{"faction"
+			{"title" "<s(25)y(+9)>Factions"}
+			{"header" ""}
+			{"stat"
+				{"experience" "<c(30 30 30)>Experience"}
+				{"level" "<c(30 30 30)>Level"}
+				{"rank" "Place in leaderboard"}
+				{"gamesplayed" "<c(30 30 30)>Games played"}
+				{"gameswon" "<c(30 30 30)>Games won"}
+				{"winratio" "Win ratio"}
+				{"killman" "<c(30 30 30)>Infantry killed"}
+				{"lostman" "<c(30 30 30)>Infantry lost"}
+				{"kdman" "K/D ratio"}
+				{"killveh" "<c(30 30 30)>Vehicles killed"}
+				{"lostveh" "<c(30 30 30)>Vehicles lost"}
+				{"kdveh" "K/D ratio"}
+			}
+			{"row"
+				{"experience" "<c(30 30 30)>%1% XP"}
+				{"level" "<c(30 30 30)>level %1%"}
+				{"gamesplayed" "<c(30 30 30)>%1%"}
+				{"gameswon" "<c(30 30 30)>%1%"}
+				{"winratio" "%1%%"}
+				{"killman" "<c(30 30 30)>%1%"}
+				{"lostman" "<c(30 30 30)>%1%"}
+				{"kdman" "%1%"}
+				{"killveh" "<c(30 30 30)>%1%"}
+				{"lostveh" "<c(30 30 30)>%1%"}
+				{"kdveh" "%1%"}
+			}
+		}
+		{"ranked"
+			{"title" "<s(25)y(+9)>Ranked"}
+			{"achievement"
+				{"unlocked" "<s(16)>You have %1% out of %2% (%3%%) achievements unlocked."}
+			}
+			{"stat"
+				{"trust_rating" "<c(30 30 30)>Ranked trust rating"}
+				{"score" "<c(30 30 30)>Ranked score (ELO)"}
+				{"globalrank" "Global rank"}
+				{"total_gamesplayed" "<c(30 30 30)>Total games played"}
+				{"total_gameswon" "<c(30 30 30)>Total Games won"}
+				{"total_winratio" "Total Win ratio"}
+				{"total_killman" "<c(30 30 30)>Total Infantry killed"}
+				{"total_lostman" "<c(30 30 30)>Total Infantry lost"}
+				{"total_kdman" "Total K/D ratio"}
+				{"total_killveh" "<c(30 30 30)>Total Vehicles killed"}
+				{"total_lostveh" "<c(30 30 30)>Total Vehicles lost"}
+				{"total_kdveh" "Total K/D ratio"}
+				{"max_score" "<c(30 30 30)>Highest score"}
+				{"max_infantry" "<c(30 30 30)>Highest infantry kills"}
+				{"max_vehicles" "<c(30 30 30)>Highest vehicle kills"}
+				{"max_single_infantry" "<c(30 30 30)>Highest infantry kills with one unit"}
+				{"max_single_vehicles" "<c(30 30 30)>Highest vehicle kills with one unit"}
+				{"bot_gamesplayed" "<c(30 30 30)>Bot Games played"}
+				{"bot_gameswon" "<c(30 30 30)>Bot Games won"}
+				{"max_score_bot" "<c(30 30 30)>Highest score in a bot game"}
+				{"killman_bot" "<c(30 30 30)>Bot infantry kills"}
+				{"killveh_bot" "<c(30 30 30)>Bot vehicle kills"}
+				{"max_infantry_bot" "<c(30 30 30)>Highest bot infantry kills"}
+				{"max_vehicles_bot" "<c(30 30 30)>Highest bot vehicle kills"}
+			}
+			{"row"
+				{"trust_rating"
+					{"great" "<c(30 30 30)>%1%"}
+					{"okay" "<c(30 30 30)>%1%"}
+					{"bad" "<c(30 30 30)>%1%"}
+					{"abysmal" "<c(30 30 30)>%1%"}
+					{"banned" "<c(30 30 30)>%1%"}
+					{"perm_banned" "<c(30 30 30)>%1%"}
+				}
+				{"score" "<c(30 30 30)>%1%"}
+				{"total_gamesplayed" "<c(30 30 30)>%1%"}
+				{"total_gameswon" "<c(30 30 30)>%1%"}
+				{"total_winratio" "%1%%"}
+				{"total_killman" "<c(30 30 30)>%1%"}
+				{"total_lostman" "<c(30 30 30)>%1%"}
+				{"total_kdman" "%1%"}
+				{"total_killveh" "<c(30 30 30)>%1%"}
+				{"total_lostveh" "<c(30 30 30)>%1%"}
+				{"total_kdveh" "%1%"}
+				{"max_score" "<c(30 30 30)>%1%"}
+				{"max_infantry" "<c(30 30 30)>%1%"}
+				{"max_vehicles" "<c(30 30 30)>%1%"}
+				{"max_single_infantry" "<c(30 30 30)>%1%"}
+				{"max_single_vehicles" "<c(30 30 30)>%1%"}
+				{"bot_gamesplayed" "<c(30 30 30)>%1%"}
+				{"bot_gameswon" "<c(30 30 30)>%1%"}
+				{"max_score_bot" "<c(30 30 30)>%1%"}
+				{"killman_bot" "<c(30 30 30)>%1%"}
+				{"killveh_bot" "<c(30 30 30)>%1%"}
+				{"max_infantry_bot" "<c(30 30 30)>%1%"}
+				{"max_vehicles_bot" "<c(30 30 30)>%1%"}
+			}
+		}
+		{"achievements"
+			{"title" "<s(25)y(+9)>Progress"}
+		}
+		{"leaderboards"
+			{"title" "<s(25)y(+9)>Leaderboards"}
+			{"header" "#Rank#Player#<x.>Games played#<x.>Winrate#<x.>%1%#"}
+			{"score" "Score"}
+			{"xp" "Experience"}
+			{"leaderboards"
+				{"best_player" "Hall of Fame"}
+				{"xp" "Rank - %1%"}
+			}
+			{"user" "User"}
+			{"top10" "Top 10"}
+			{"friends" "Friends"}
+			{"column"
+				{"rank" "#%1%"}
+				{"gamesplayed" "<x.>%1% (%2%)"}
+				{"winratio" "<x.>%0.0f%"}
+				{"score"
+					{"score" "<x.>%1%"}
+					{"xp" "<x.>%1% XP"}
+				}
+			}
+		}
+		{"compare"
+			{"title" "<s(25)y(+9)>Compare"}
+			{"stats"
+				{"ranked" "Ranked"}
+				{"army" "%1%"}
+			}
+			{"green" "<c(9ded90)>%1%"}
+		}
+		{"dlc"
+			{"title" "<s(25)y(+9)>DLC"}
+		}
+		{"rank" "#%1%"}
+		{"na" "n/a"}
+		{"wait" "loading..."}
+	}
+	{"tutorials"
+		{"title" "<f(impact)s(28)c(255 255 255)>Tutorials"}
+		{"category1" "<s(25)y(+9)>Beginner"}
+		{"category2" "<s(25)y(+9)>Advanced"}
+		{"category3" "<s(25)y(+9)>Veteran"}
+		{"tips" "<s(25)y(+9)>Tips"}
+	}
+	{"app_news"
+		{"title" "<s(20)c(10 10 10)>%1%</e>"}
+		{"date" "<s(8)c(225 225 225)>%1%"}
+		{"contents" "<s(15)c(225 225 225)>%1%"}
+		{"more" "»"}
+	}
+	{"open_dialogs"
+		{"msg_delete" "Delete save game: \"%1%\"?"}
+		{"msg_apply" "'%1%' will be overwritten!"}
+		{"msg_invalid_name" "Invalid name."}
+	}
+	{"dialog_box"
+		{"title_confirm" "Confirm"}
+		{"title_warning" "Warning"}
+		{"title_error" "Error"}
+		{"title_wait" "Please wait"}
+		{"title_info" "Info"}
+		{"title_searching" "Searching..."}
+	}
+	{"save_load_game"
+		{"title_save" "Save game"}
+		{"title_load" "Load game"}
+		{"lbl_load_list" "Choose a game to load:"}
+		{"lbl_save_name" "Enter save game name:"}
+		{"lbl_save_list" "Choose a game to save:"}
+		{"lbl_game_info" "Game info:"}
+		{"txt_time" "Time"}
+		{"txt_campaign" "Campaign"}
+		{"txt_mission" "Mission"}
+		{"txt_difficulty" "Difficulty"}
+		{"txt_version" "Version"}
+		{"show_all_saves" "Show all savegames"}
+		{"load_invalid_version" "Save game is from a different game version. Try to load it anyway?"}
+		{"load_invalid_version_failed" "This save game was created in a different game version. It cannot be loaded."}
+		{"load_failed" "An error occurred while loading. Save game may be corrupt."}
+		{"save_overwrite" "A save game with the same name already exists. Overwrite?"}
+		{"game_progress_lost" "Your current progress will be lost. Are you sure you want to load the game?"}
+		{"completion_save_suffix" "completed"}
+		{"save_progress" "Saving in progress..."}
+		{"campaigns"
+			{"germany" "German"}
+			{"allies" "Allies"}
+			{"soviet" "Soviet"}
+		}
+	}
+	{"save_load_replay"
+		{"title_save" "Save replay"}
+		{"lbl_save_name" "Enter replay name:"}
+		{"lbl_save_list" "List of replays:"}
+		{"lbl_replay_info" "Replay info:"}
+		{"txt_map" "Map"}
+		{"txt_date" "Date"}
+		{"txt_version" "Version"}
+		{"txt_players" "Players"}
+		{"txt_game_type" "Game Type"}
+		{"msg_apply" "A replay with the same name already exists. Overwrite?"}
+		{"msg_delete" "Delete replay: \"%1%\"?"}
+		{"completion_save_suffix" "completed"}
+		{"save_progress" "Saving in progress..."}
+	}
+	{"replay_game"
+		{"title" "Replay game"}
+		{"lbl_replay_list" "Choose a game to replay:"}
+		{"lbl_replay_info" "Replay info:"}
+		{"txt_time" "Time"}
+		{"txt_map" "Map"}
+		{"txt_mission" "Mission"}
+		{"txt_difficulty" "Difficulty"}
+		{"txt_version" "Version"}
+		{"replay_invalid_version" "Can't replay game from a different version."}
+	}
+	{"replay"
+		{"presentation_mode" "<f(bookman_hq)s(13)>Presentation mode"}
+		{"freeview_mode" "<f(bookman_hq)s(13)x(80)>Free view mode\n\n<f(arial)s(8)>To play the game, press ESC and select \"Stop demo and play\"."}
+		{"stop" "Stop demo and play"}
+		{"next" "Next demo"}
+		{"restart" "Restart demo"}
+		{"record" "Record"}
+		{"continue_replay" "Back to demo"}
+		{"continue_record" "Continue recording"}
+	}
+	{"button"
+		{"ok" "OK"}
+		{"cancel" "Cancel"}
+		{"yes" "Yes"}
+		{"no" "No"}
+		{"next" "Next"}
+		{"apply" "Apply"}
+		{"reset" "Reset"}
+		{"back" "Back"}
+		{"close" "Close"}
+		{"surrender" "Surrender"}
+		{"start" "Start"}
+		{"complete" "Complete"}
+		{"delete" "Delete"}
+		{"completed" "Completed"}
+		{"failed" "Failed"}
+		{"login" "Login"}
+		{"single" "Singleplayer"}
+		{"single_continue" "Continue game"}
+		{"single_campaigns" "Select mission"}
+		{"single_load" "Load game"}
+		{"single_skirmish" "Skirmish"}
+		{"skirmish_txt" "Choose your Skirmish mode!"}
+		{"skirmish_custom" "Custom"}
+		{"skirmish_ranked" "Ranked"}
+		{"skirmish_online" "Online"}
+		{"multiplayer" "Multiplayer"}
+		{"multiplayer_lan" "LAN"}
+		{"multiplayer_inet" "Internet"}
+		{"guides" "Guides"}
+		{"tutorials" "Tutorials"}
+		{"bonus" "Bonus Content"}
+		{"dlc" "Downloadable Content"}
+		{"ugc" "User Generated Content"}
+		{"buy" "Buy"}
+		{"options" "Options"}
+		{"credits" "Credits"}
+		{"profile" "Profile"}
+		{"exit" "Exit"}
+		{"continue" "Continue"}
+		{"restart" "Restart"}
+		{"save" "Save"}
+		{"load" "Load"}
+		{"stop" "Stop"}
+		{"easy" "Easy"}
+		{"normal" "Normal"}
+		{"hard" "Hard"}
+		{"heroic" "Heroic"}
+		{"bonus_missions" "Bonus missions"}
+		{"replay" "Replays"}
+		{"introduction" "Introduction"}
+		{"info" "Information"}
+		{"ignore" "Ignore"}
+		{"announcement" "Announcement"}
+	}
+	{"time"
+		{"format" "%d, %s %d, %d:%02d:%02d"}
+		{"month" "Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec"}
+	}
+	{"statusbar"
+		{"back" "<f(impact)s(21)>Back"}
+		{"single_player" "Singleplayer"}
+		{"multi_player" "Multiplayer"}
+		{"dlc" "Downloadable Content"}
+		{"style" "<f(impact)s(21)c(FFFFFF)>"}
+		{"campaign_list" "Singleplayer: nations"}
+		{"mission_list" "Singleplayer: missions"}
+		{"replay" "Replay"}
+	}
+	{"campaigns"
+		{"name_style" ""}
+		{"title_style" ""}
+	}
+	{"missions"
+		{"continue" "<f(impact)s(40)c(0 0 0)>Continue"}
+		{"play_single_mission" "<f(impact)s(21)>Single mission"}
+		{"mission_results" "<f(impact)s(21)>Hall of Fame"}
+		{"save_load" "<f(danger_cyr)s(21)>Load"}
+		{"difficulty_color" "<c(0 0 0)>"}
+		{"side_color" "<c(255 255 255)>"}
+		{"desc_style" "<c(0 0 0)p(0)>"}
+		{"archive" "<f(impact)s(21)>Archive"}
+		{"hall_of_fame" "<f(impact)s(21)>Hall of fame"}
+		{"demo" "<f(impact)s(21)y(+5)c(255 255 255)>Men Of War - Demo"}
+		{"campaign_name_style" "<f(impact)s(40)c(0 0 0)>"}
+		{"campaign_title_style" "<f(impact)s(21)c(0 0 0)>"}
+		{"difficulty"
+			{"easy" "<f(impact)s(21)>Easy"}
+			{"normal" "<f(impact)s(21)>Normal"}
+			{"hard" "<f(impact)s(21)>Hard"}
+			{"heroic" "<f(impact)s(21)>Heroic"}
+		}
+		{"select_difficulty" "<f(arial_narrow)s(18)c(0 0 0)>Choose difficulty level"}
+		{"current_difficulty" "Difficulty level"}
+		{"fog_of_war" "<f(impact)s(21)>Fog of War"}
+		{"mission_options" "Mission options"}
+	}
+	{"briefing"
+		{"continue" "<f(arial_narrow)s(18)c(255 255 255)>press 'space' to continue"}
+		{"name_style" "<f(impact)s(40)c(255 255 255)>"}
+		{"date_style" "<f(impact)s(21)c(255 255 255)>"}
+		{"place_style" "<f(impact)s(21)c(255 255 255)>"}
+		{"text_style" "<f(arial_narrow)s(18)>"}
+		{"warning"
+			{"text" "For brave-hearted and desperate men. For those who know the true price of war. This challenge will take place on the verge of insanity. You will feel the blood of your enemy on your hands. Will you dare accept this challenge?\n\n\n<c(67 67 67)>(Accepting this offer will commence the selected mission in far more difficult conditions, requiring very strong usage of tactics.)"}
+			{"accept" "Accept"}
+			{"decline" "Decline"}
+		}
+		{"warning2" "<f(arial_hq)s(8)c(160 160 160)>This mission is not 100% historically correct."}
+	}
+	{"entity_info"
+		{"description"
+			{"soldier" "Soldier : %1%"}
+			{"moto" "Moto : %1%"}
+			{"car" "Car : %1%"}
+			{"armored_car" "Armored Car : %1%"}
+			{"cannon" "Cannon : %1%"}
+			{"tank" "Tank : %1%"}
+			{"airborne" "Airborne : %1%"}
+			{"marine" "Boat : %1%"}
+		}
+		{"vehicle"
+			{"weapon_1" "Weapon<x(55)>: %1%"}
+			{"weapon_2" "Weapon<x(55)>: %1%, %2%"}
+			{"speed" "Speed<x(55)>: %1%"}
+			{"crew_plus" "Crew<x(55)>: %1% + %2%"}
+			{"crew" "Crew<x(55)>: %1%"}
+			{"armor_tank_desc" "Armor<x(50)>Front<x(90)>Side<x(125)>Rear<x(160)>Top<x(190)>Bottom"}
+			{"armor_tank" "%1%<x(50)>%2%<x(90)>%3%<x(125)>%4%<x(160)>%5%<x(190)>%6%"}
+			{"armor_vehicle" "Armor<x(55)>: %1%"}
+			{"body" "Body"}
+			{"turret" "Turret"}
+		}
+		{"human"
+			{"perk_format" "%1%<x(50)>%2%"}
+			{"skill_format" "<x(20)>%1%<x(70)>%2%"}
+			{"skills" "Skills :"}
+		}
+	}
+	{"credits_dms"
+		"<s(29)f(impact)>Men of War: Assault Squad 2\n\n\n "
+		"<s(29)f(impact)>Digitalmindsoft\n "
+		"<s(18)f(impact)> www.digitalmindsoft.eu"
+		"%Managing Director"
+		"|Christian Kramer"
+		"%Project and Gamedesign Lead"
+		"|Christian Kramer"
+		"%Programming"
+		"|Matthias Sommer"
+		"|Daniel Guttenberg"
+		"%Art"
+		"|Anton Gulega"
+		"|Vasily Galynskiy"
+		"|Caspar Helling"
+		"|Anna Rotenberg"
+		"|Martin Milz"
+		"|Vitaliy Shtokolov"
+		"%Mission Design"
+		"|Peter Maliszewski"
+		"%Map Design"
+		"|Ville Toivonen"
+		"|Martin Kihl"
+		"|Aleksandar Cokorilo"
+		"|Alexander Strigl"
+		"|JuanFrancisco Miralles Tora"
+		"|Marcus Barnes"
+		"|Vasily Galynskiy"
+		"|Ryogo Oyama"
+		"|Pawel Kalinski"
+		"|Joel Nallo"
+		"%Community Management"
+		"|Curtis Copple"
+		"%Localization"
+		"|Jonathan Dearborn"
+		"%Promotional videos"
+		"|Anguel Delidjakov"
+		"%Music"
+		"|Dynamedion"
+		"%Sound"
+		"|Dynamedion"
+		"|Loran Kornis"
+		"|(in memory)"
+		"%QA"
+		"|Jonathan Dearborn"
+		"|Tim Bakema"
+		"%Special thanks to:"
+		"|Strat29"
+		"|Judska"
+		"|SirHinkel"
+		"|"
+		"|Our supporters, our friends and our families!"
+	}
+	{"credits_devcube"
+		""
+		"<s(29)f(impact)>DevCubeStudio\n "
+		"<s(18)f(impact)>www.devcubestudio.com"
+		"%Lead Programming"
+		"|Vladimir Sukhorukov"
+		"%Programming"
+		"|Anton Dukhanov"
+		"|Valentin Plyasinov"
+		"|Dmitriy Ryazantsev"
+		"|Dmitriy Kiriliuk\n\n\n\n\n\n "
+		"<s(29)f(impact)>BEST WAY\n "
+		"<s(18)f(impact)>www.bestway.com.ua"
+		"%Based on"
+		"|Men of War developed by Best Way."
+	}
+	{"credits_1c"
+		"<s(29)f(impact)>1C Company\n "
+		"<s(18)f(impact)>www.1cpublishing.eu"
+		"%Producers"
+		"|Denis Maltzev"
+		"|Sergey Gerasev"
+		"% PR"
+		"|Anatoly Subbotin "
+		"%Voice Actors"
+		"|Matt Nichol"
+		"|Jonathan Guss"
+		"|Matt Hermann\n\n<s(29)f(impact)>1C Publishing EU\n "
+		"<s(18)f(impact)>www.1cpublishing.eu"
+		"%Managing Director"
+		"|Daniela Ravin"
+		"% Sales Team"
+		"|Lukas Paroulek"
+		"|Tomas Stromsky"
+		"%Graphic Design & DTP"
+		"|Lubos Bachura "
+		"%Production and Localization"
+		"|Jan Olejnik\n\n<s(29)f(impact)>QLOC s.a.\n "
+		"<s(18)f(impact)>www.q-loc.com"
+		"%General Manager|Adam Piesiak"
+		"%Localization Director"
+		"|Michal Cegielka"
+		"|Pawel Ziajka"
+		"%Localization Project Manager"
+		"|Alan Orman"
+	}
+	{"credits_other"
+		"Steamworks.\n ©2014 Valve Corporation. Steamworks and the Steamworks logo are trademarks and/or registered trademarks of Valve Corporation in the U.S. and/or other countries.\n\n "
+		"Miles Sound System.\n Copyright © 1991-2014 by RAD Game Tools, Inc.\n\n "
+		"Bandicam.\n Copyright © 2008-2014 Bandisoft. All rights reserved.\n\n "
+		"MPEG Layer-3 playback supplied with the Miles Sound System from RAD Game Tools, Inc.\n\n "
+		"MPEG Layer-3 audio compression technology licensed by Fraunhofer IIS and THOMSON multimedia.\n\n "
+		"GJK Engine\n A Fast and Robust GJK Implementation\n "
+		"Copyright © 1998 Gino van den Bergen\n\n "
+		"This software uses simple multi-body package by Eugene Laptev, Oxford Dynamics\n "
+		"eugene_laptev@oxforddynamics.co.uk\n "
+		"www.oxforddynamics.co.uk"
+	}
+	{"copyright_string" "<s(8)c(120 120 120)f(arial_hq)>(C) 2014 Digitalmindsoft"}
+	{"version_string" "<c(204 204 204)>%1% <c(20a601)>version - %2% <s(25)><c(204 204 204)> RobZ Realism mod: <c(20a601)>1.28.6<c(204 204 204)>"}
+	{"profile_string" "%1%"}
+	{"change_profile" "<s(8)f(arial_hq)>change profile"}
+	{"product_name" "Men of War: Assault Squad 2"}
+	{"demo_name" "Demo version"}
+	{"editor_name" "Editor"}
+	{"shutdown" "Application is shutting down..."}
+	{"prepare_resources" "Loading..."}
+	{"prepare_mods" "Mounting mod resources from Steam Workshop..."}
+	{"prepare_multiplayer_resources" "Loading multiplayer resources..."}
+	{"apply_mods" "Applying mods..."}
+	{"starting_game" "Starting game..."}
+	{"difficulty"
+		{"default" "Default"}
+		{"easy" "Easy"}
+		{"normal" "Normal"}
+		{"hard" "Hard"}
+		{"heroic" "Heroic"}
+	}
+	{"fail_minimum_reqirements" "Your video card does not meet the minimum system requirements.\nFor more details, see the User manual."}
+	{"fail_minimum_memory" "Cannot allocate required video memory.\nThis may cause memory errors during the game.\nIf your video card meets the minimum requirements listed in the User Guide,\nanother application may be preventing the game from allocating enough video memory.\nDo you want to run the game anyway?"}
+	{"steam_overlay_warning" "Steam Overlay is enabled. It may cause game freeze on your system."}
+	{"steam_overlay_operation_warning" "This action require Steam Overlay enabled."}
+}

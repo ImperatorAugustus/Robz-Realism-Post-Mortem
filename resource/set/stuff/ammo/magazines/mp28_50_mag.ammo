@@ -1,0 +1,11 @@
+{bullet
+  {tag "bullet small stackable pierce 9_pistol"}
+  {inventory
+    {weight 2}
+    {block 50}
+    {size 1 2}
+    {fsm "belt"}
+  }
+  {mass 0.013}
+  {entity "mp28_50_mag"}
+}

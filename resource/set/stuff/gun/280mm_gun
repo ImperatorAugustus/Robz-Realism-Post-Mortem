@@ -1,0 +1,21 @@
+{from "pattern gun_art"		; BR-5 280mm	
+	{filling "bullet280"}
+	{fireSound "gun/howitzer/203mm"}
+	{reloadSound "tankgun_r02"}
+	("range_heavy_howitzer")
+	{speed 420}
+	{range 370 370}
+	{projectileDamage 1000}
+	{burst {min 1} {noaiming}}
+	{recoveryTime 120}
+	{rechargeTime 120}
+	{parameters "f674k"
+		{range 370 370}
+	}
+	{parameters "f674"
+		{range 320 320}
+	}
+
+	{cursor "cannon_on_fg"}
+	{cursorReloading "cannon_reload_fg"}
+}

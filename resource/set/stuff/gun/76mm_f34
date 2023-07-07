@@ -1,0 +1,29 @@
+{from "pattern gun"		; "t34_2"
+	{filling "bullet76 rus"}
+	{fireSound "gun/50to76_cal/76mm_l11"}
+	{reloadSound "gun_r01"}
+	{rechargeTime 8}
+	("range_short")
+	
+	{range 190 190}
+	("speed_all" ap(680) apcr(950) fg(680) heat(355))
+	("caliber_medium")
+	{projectileDamage 86}
+	("damage_170" a(86) b(74) c(67) d(57) e(38) range(190))
+	{parameters "br350b"
+		("damage_170" a(91) b(79) c(67) d(57) e(48) range(190))
+	}
+	{parameters "apbc"
+		("damage_170" a(92) b(77) c(73) d(64) e(55) range(190))
+	}
+	{parameters "apcr"
+		("damage_170" a(116) b(102) c(92) d(78) e(60) range(190))
+	}
+	{parameters "heat"
+		("damage_heat" a(87) range(190))
+	}
+	{parameters "fg"
+		{range 180 180}
+	}
+	("accuracy_medium_10m_he")
+}

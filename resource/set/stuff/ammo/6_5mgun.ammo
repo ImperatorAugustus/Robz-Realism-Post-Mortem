@@ -1,0 +1,21 @@
+{bullet
+	{tag "bullet stackable pierce 6_5mm"}
+	{inventory
+		{weight 1}
+		{block 100}
+		{size 2 1}
+		{fsm "belt"}
+	}
+	{mass 0.015}
+	{entity "mgun_cartridge"}
+	;{view "bullet"
+	;	{tail "tracer_green" "basis"}
+	;}
+	{trace
+		{view "/texture/fx/trace_apcr"
+			{ScaleY 0.22}
+			{Light 10}
+		}
+		{length 8}
+	}
+}

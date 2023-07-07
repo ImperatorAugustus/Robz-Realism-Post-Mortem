@@ -1,0 +1,9 @@
+{from "pattern gun2_art"		; "150mm_type38 indirect"
+	{filling "bullet150 jap" 3}
+	{fireSound "gun/howitzer/150mm_sfh18"}
+	{reloadSound "gun_r04"}
+	("range_heavy_howitzer")
+	{rechargeTime 20}
+	{range 290 290}
+	{speed 290}
+}

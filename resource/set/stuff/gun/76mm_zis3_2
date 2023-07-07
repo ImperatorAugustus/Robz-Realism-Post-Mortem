@@ -1,0 +1,14 @@
+{from "pattern gun2_art"		; "zis3 arty mode"
+	{filling "bullet76 rus art" 6}
+	{fireSound "gun/50to76_cal/76mm_zis3"}
+	{reloadSound "gun_r00"}
+	{rechargeTime 7}
+	{recoveryTime 7}
+	
+	("range_arty_lowarc_low")
+	("speed_lowarc" s(680))
+	{range 440 440}
+	{burst {min 6} {noaiming}}
+	{gravity 10}
+	("zeroing_6")
+}

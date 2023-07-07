@@ -1,0 +1,31 @@
+{from "pattern gun"    ; "jagtiger"
+	{filling "bullet128 ger"}
+	{fireSound "gun/howitzer/128mm_pak44"}
+	{reloadSound "tankgun_r04"}
+	{rechargeTime 20.0}
+	("range_maximum")	
+
+	{ZeroingAccuracy 0.7 0.4}
+	{range 250 250}
+	("speed_all" ap(930) apcr(930) fg(750) heat(750))
+	("caliber_maximum")
+	{projectileDamage 269}
+	("damage_215" a(269) b(253) c(237) d(222) e(208) range(250))
+	{parameters "apcr"
+		{range 240 240}
+	}
+	{parameters "fg"
+		{range 230 230}
+	}
+	
+	("accuracy_max")
+	{RicochetEnergyDamping 	; penetration energy damping after ricochet (angle - damping)	
+		{0 	1}	
+		{15	0.9}
+		{30	0.8}
+		{45 	0.5}
+		{60 	0.2}
+		{75	0}
+		{90	0}
+	}
+}

@@ -1,0 +1,26 @@
+{from "pattern gun"     ; "Pz4E"
+	{filling "bullet75 gers"}
+	{fireSound "gun/50to76_cal/75mm_kwk40"}
+	{reloadSound "gun_r03"}
+	("range_light_howitzer")
+	("caliber_medium")
+	("speed_all" ap(440) apcr(440) fg(570) heat(450))
+
+	{projectileDamage 52}
+	("damage_170" a(52) b(48) c(44) d(40) e(37) range(180))
+	{parameters "apc"
+		{cursorReloading "cannon_reload_apc"}
+	}
+	{parameters "heat"
+		("damage_heat" a(52) range(180))
+	}
+	{parameters "heata"
+		("damage_heat" a(81) range(180))
+	}
+	{parameters "heatb"
+		("damage_heat" a(87) range(180))
+	}
+	{parameters "heatc"
+		("damage_heat" a(100) range(180))
+	}
+}

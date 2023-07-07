@@ -1,0 +1,1087 @@
+﻿{tags
+	{"mp"
+		{"game_ffa" "Free for All"}
+		{"msg_starting" "Starting multiplayer..."}
+		{"msg_restarting" "Restarting multiplayer..."}
+		{"msg_processmods" "Processing mods..."}
+		{"msg_connecting" "Connecting..."}
+		{"msg_connecting_failed" "Connection failed"}
+		{"msg_steam_connecting_failed" "Connection failed"}
+		{"msg_access_denied" "Access denied"}
+		{"msg_lobby_full" "Lobby is full"}
+		{"msg_session_full" "Session is full"}
+		{"msg_host_banned" "Host is banned"}
+		{"msg_user_not_found" "User not found"}
+		{"msg_post_not_delivered" "Message to %1% was not delivered"}
+		{"msg_rank_unbalanced" "Unbalanced"}
+		{"msg_steam_offline" "Failed to connect to Steam servers, please check your internet settings."}
+		{"txt_disconnecting" "Disconnecting..."}
+		{"title_readystatus" "Ready to play"}
+		{"title_status" "Status"}
+		{"title_inet" "Internet"}
+		{"title_lan" "LAN"}
+		{"title_replay" "Replays"}
+		{"title_any" "Any"}
+		{"retry_btn" "Retry"}
+		{"ai_player_name" "AI Player"}
+		{"presets"
+			{"game"
+				{"standard" "<c(20a601)>Standard"}
+				{"custom" "<c(20a601)>Regular"}
+				{"custom_wavemode_500" "<c(ff9f00)>Wavemode 500mp start"}
+				{"custom_wavemode_1000" "<c(ff9f00)>Wavemode 1000mp start"}
+				{"custom_wavemode_1500" "<c(ff9f00)>Wavemode 1500mp start"}
+				{"custom_wavemode_2000" "<c(ff9f00)>Wavemode 2000mp start"}
+				{"custom_wavemode_3000" "<c(ff9f00)>Wavemode 3000mp start"}
+				{"custom_instant" "<c(a60101)>Instant max MP"}
+				{"test" "Test mode"}
+			}
+			{"unit"
+				{"all" "All"}
+				{"all180" "All 3 min timer"}
+				{"all300" "All 5 min timer"}
+				{"all420" "All 7 min timer"}
+				{"all600" "All 10 min timer"}
+				{"all_noart" "All No artillery"}
+				{"all_noartmort" "All No artillery/mortars"}
+				{"competitive" "Competitive"}
+				{"39" "1939"}
+				{"40" "1940"}
+				{"40180" "1940 3 min timer"}
+				{"40300" "1940 5 min timer"}
+				{"40420" "1940 7 min timer"}
+				{"40600" "1940 10 min timer"}
+				{"41" "1941"}
+				{"41180" "1941 3 min timer"}
+				{"41300" "1941 5 min timer"}
+				{"41420" "1941 7 min timer"}
+				{"41600" "1941 10 min timer"}
+				{"42" "1942"}
+				{"42180" "1942 3 min timer"}
+				{"42300" "1942 5 min timer"}
+				{"42420" "1942 7 min timer"}
+				{"42600" "1942 10 min timer"}
+				{"43" "1943"}
+				{"43180" "1943 3 min timer"}
+				{"43300" "1943 5 min timer"}
+				{"43420" "1943 7 min timer"}
+				{"43600" "1943 10 min timer"}
+				{"44" "1944"}
+				{"44180" "1944 3 min timer"}
+				{"44300" "1944 5 min timer"}
+				{"44420" "1944 7 min timer"}
+				{"44600" "1944 10 min timer"}
+				{"44-45" "1944-1945 <c(20a601)>Standard"}
+				{"44-45180" "1944-1945 3 min timer"}
+				{"44-45300" "1944-1945 5 min timer"}
+				{"44-45420" "1944-1945 7 min timer"}
+				{"44-45600" "1944-1945 10 min timer"}
+				{"45" "1945"}
+				{"45180" "1945 3 min timer"}
+				{"45300" "1945 5 min timer"}
+				{"45420" "1945 7 min timer"}
+				{"45600" "1945 10 min timer"}
+				{"45_post" "1945/Postwar"}
+				{"39_noart" "1939 No artillery"}
+				{"40_noart" "1940 No artillery"}
+				{"41_noart" "1941 No artillery"}
+				{"42_noart" "1942 No artillery"}
+				{"43_noart" "1943 No artillery"}
+				{"44_noart" "1944 No artillery"}
+				{"45_noart" "1945 No artillery"}
+				{"45_post_noart" "1945/Postwar No artillery"}
+				{"39_noartmort" "1939 No artillery/mortars"}
+				{"40_noartmort" "1940 No artillery/mortars"}
+				{"41_noartmort" "1941 No artillery/mortars"}
+				{"42_noartmort" "1942 No artillery/mortars"}
+				{"43_noartmort" "1943 No artillery/mortars"}
+				{"44_noartmort" "1944 No artillery/mortars"}
+				{"45_noartmort" "1945 No artillery/mortars"}
+				{"45_post_noartmort" "1945/Postwar No artillery/mortars"}
+				{"user" "User Defined Set"}
+				{"doc" "Doctrines"}
+			}
+			{"spec"
+				{"all_normal" "Normal"}
+				{"all_high" "High"}
+				{"competitive_normal" "Normal"}
+				{"competitive_high" "High"}
+				{"cp_50" "50 CP"}
+				{"cp_60" "60 CP"}
+				{"cp_80" "80 CP"}
+				{"cp_100" "100 CP <c(20a601)>Standard"}
+				{"cp_120" "120 CP"}
+				{"cp_140" "140 CP"}
+				{"cp_160" "160 CP"}
+				{"cp_180" "180 CP"}
+				{"cp_200" "200 CP"}
+				{"cp_300" "300 CP"}
+				{"cp_400" "400 CP"}
+				{"cp_600" "600 CP"}
+			}
+			{"browser"
+				{"title" "Unit Set Options"}
+				{"title_include" "Included Units"}
+				{"title_exclude" "Excluded Units"}
+				{"title_available" "Available Units"}
+				{"title_value" "<c(20a601)>Click to browse"}
+				{"tags"
+					{"all" "All"}
+					{"artillery" "Artillery"}
+					{"heavyart" "Heavy Artillery"}
+					{"cannon" "Emplacements"}
+					{"mediumcan" "Medium Emplacements"}
+					{"heavycan" "Heavy Emplacements"}
+					{"arcade" "Arcade"}
+					{"light" "Light Tanks"}
+					{"medium" "Medium Tanks"}
+					{"heavy" "Heavy Tanks"}
+					{"sheavy" "Super Heavy Tanks"}
+					{"hero" "Hero Units"}
+					{"inf_only" "Infantry"}
+					{"sniper_only" "Snipers"}
+					{"supply" "Supply"}
+					{"39" "1939"}
+					{"40" "1940"}
+					{"41" "1941"}
+					{"42" "1942"}
+					{"43" "1943"}
+					{"44" "1944"}
+					{"45" "1945"}
+					{"45_post" "1945/Postwar"}
+					{"doc" "Doctrines"}
+				}
+			}
+			{"chargeFactor" "x %1%"}
+			{"resourceSpeed" "%1% MP"}
+		}
+		{"game"
+			{"auto" "Auto-selection"}
+			{"deathmatch" "Deathmatch"}
+			{"cooperative" "Skirmish"}
+			{"cooperative"
+				{"rules" "Create a team (of up to 8 people) and battle the AI together."}
+			}
+			{"combat" "Combat"}
+			{"combat"
+				{"rules" "Combat\n\nIn Combat mode, your goal is simple: destroy as many enemy units as possible. Each kill earns points for your team, with each unit awarding points based on its value. The winner is determined by whichever team reaches the target score first.\n\n\n\"CP\"\n\nCommand Points determine the maximum number of troops a player can field at any point during the game.\n\n\n\"MP\"\n\nManpower is the resource used by players to call new troops onto the battlefield. The total amount of Manpower distributed throughout the game is determined by the host, and once the battle has begun, players will receive a steady income of Manpower until this limit has been reached. Units lost will have their purchase price refunded to the player over time, though again, the total amount of usable manpower will never exceed the limit set by the host."}
+				{"objective" "Destroy as many enemy infantry units and vehicles as possible."}
+			}
+			{"battle_zones" "Assault Zones"}
+			{"battle_zones"
+				{"rules" "Assault Zones\n\nIn Assault Zones, your goal is to capture and hold key positions on the map, marked by flags. Whichever team that currently holds the greater number of flags will gain points over time, and once a team reaches the target number of points, they will win the game. Flags can only be captured by infantry (excluding tank crew), within the circular boundary of a flag zone.\n\n\n\"CP\"\n\nCommand Points determine the maximum number of troops a player can field at any point during the game.\n\n\n\"MP\"\n\nManpower is the resource used by players to call new troops onto the battlefield. The total amount of Manpower distributed throughout the game is determined by the host, and once the battle has begun, players will receive a steady income of Manpower until this limit has been reached. Units lost will have their purchase price refunded to the player over time, though again, the total amount of usable manpower will never exceed the limit set by the host."}
+				{"objective" "Capture and hold territories marked by flags. The team with more flags receives points. The more flags a team captured, the more points they get."}
+			}
+			{"battle_zones_8x8" "Assault Zones Extreme"}
+			{"battle_zones_8x8"
+				{"rules" "Assault Zones Extreme\n\nIn Assault Zones Extreme, your goal is to capture and hold key positions on the map, marked by flags. Whichever team that currently holds the greater number of flags will gain points over time, and once a team reaches the target number of points, they will win the game. Flags can only be captured by infantry (excluding tank crew), within the circular boundary of a flag zone.\n\n\n\"CP\"\n\nCommand Points determine the maximum number of troops a player can field at any point during the game.\n\n\n\"MP\"\n\nManpower is the resource used by players to call new troops onto the battlefield. The total amount of Manpower distributed throughout the game is determined by the host, and once the battle has begun, players will receive a steady income of Manpower until this limit has been reached. Units lost will have their purchase price refunded to the player over time, though again, the total amount of usable manpower will never exceed the limit set by the host."}
+				{"objective" "Capture and hold territories marked by flags. The team with more flags receives points. The more flags a team captured, the more points they get."}
+			}
+			{"captureflag" "Day of Victory"}
+			{"captureflag"
+				{"rules" "Day of Victory\n\nIn Day of Victory, your goal is to capture and hold the fortified key position on the map, marked by a flag. The winner is determined by whichever team manages to size the flag first.\n\n\n\"CP\"\n\nCommand Points determine the maximum number of troops a player can field at any point during the game.\n\n\n\"MP\"\n\nManpower is the resource used by players to call new troops onto the battlefield. The total amount of Manpower distributed throughout the game is determined by the host, and once the battle has begun, players will receive a steady income of Manpower until this limit has been reached. Units lost will have their purchase price refunded to the player over time, though again, the total amount of usable manpower will never exceed the limit set by the host."}
+				{"objective" "Capture the central flag. The team that sizes the flag first, wins the match."}
+			}
+			{"frontline" "Frontlines"}
+			{"frontline"
+				{"rules" "Frontlines\n\nFrontlines is a two-round attack-and-defend scenario. In the first round, one team attacks and the other defends. In the second round, the roles of the teams are reversed. In the first round, the attacking team's goal is to capture all three lines of defense within the specified time limit. The defending team's goal is to hold these lines of defense against the attacking team. Each line of defense is indicated by a set of flags, and can only be captured by infantry. When all flags in a set are secured, that line of defense has fallen. The round ends when the time has expired or when all lines of defense have been captured by the attacking team. The roles are then reversed and a new round begins. The winning team is the one whose actions are most effective, based on their performance throughout both rounds."}
+				{"objective"
+					{"a" "Capture all three lines of enemy defense before time runs out."}
+					{"b" "Hold back the enemy at the defensive line, until the time expires."}
+				}
+			}
+			{"modifications" "Modded game"}
+			{"text"
+				{"unitlost" "Unit lost"}
+				{"frontline_preparetime" "Preparation time"}
+				{"frontline_ready" "Get ready! The attack will commence in %1% seconds."}
+				{"frontline_go_a" "Forward! Capture all the flags to take the front line."}
+				{"frontline_go_b" "They are attacking! Hold positions!"}
+				{"frontline_captured" "The front line has been captured!"}
+				{"frontline_flag_captured" "The flag has been captured!"}
+				{"frontline_retreat_hint" "Retreat to the next line."}
+				{"frontline_retreat_btn" "Retreat"}
+				{"frontline_phase_hint" "Front line"}
+				{"captureflag_preparetime" "Preparation time"}
+				{"combat_inactivity_lose_time" "You don't have any units left. You will lose in:"}
+			}
+		}
+		{"army"
+			{"ger" "Wehrmacht (1940-1945)"}
+			{"ger2" "Ostfront Veteranen (1944-1945)"}
+			{"ger_ss" "Waffen-SS (1941-1945)"}
+			{"rus" "Soviet army (1941-1945)"}
+			{"rus_guard" "Guards army (1943-1945)"}
+			{"usa" "USA (1942-1945)"}
+			{"jap" "Japan (1942-1945)"}
+			{"eng" "Commonwealth (1940-1945)"}
+			{"random" "Random"}
+			{"spectator" "Spectator"}
+			{"dummy" "Unknown"}
+			;doctrines------------------------
+			;rus
+			{"rus_doc_a" "Armor doctrine (Soviet)"}
+			{"rus_doc_art" "Artillery doctrine (Soviet)"}
+			{"rus_doc_as" "Armored support doctrine (Soviet)"}
+			{"rus_doc_d" "Defensive doctrine (Soviet)"}
+			{"rus_doc_db" "Deep battle doctrine (Soviet)"}
+			{"rus_doc_g" "Guards doctrine (Soviet)"}
+			{"rus_doc_ha" "Heavy armor doctrine (Soviet)"}
+			{"rus_doc_i" "Infantry doctrine (Soviet)"}
+			{"rus_doc_lis" "Light infantry support doctrine (Soviet)"}
+			{"rus_doc_s" "Shock doctrine (Soviet)"}
+			{"rus_doc_td" "Tank destroyer doctrine (Soviet)"}
+			{"rus_doc_uc" "Urban combat doctrine (Soviet)"}
+			;usa
+			{"usa_doc_a" "Armor doctrine (USA)"}
+			{"usa_doc_art" "Artillery doctrine (USA)"}
+			{"usa_doc_ca" "Combined arms doctrine (USA)"}
+			{"usa_doc_d" "Defensive doctrine (USA)"}
+			{"usa_doc_et" "Elite troops doctrine (USA)"}
+			{"usa_doc_hs" "Heavy Support doctrine (USA)"}
+			{"usa_doc_i" "Infantry doctrine (USA)"}
+			{"usa_doc_mc" "Mechanized Cavalry doctrine (USA)"}
+			{"usa_doc_para" "Paratrooper doctrine (USA)"}
+			{"usa_doc_ta" "Tank Assault doctrine (USA)"}
+			{"usa_doc_td" "Tank Destroyer doctrine (USA)"}
+			;wehr
+			{"ger_doc_a" "Artillery doctrine (Wehr)"}
+			{"ger_doc_ad" "Armored defense doctrine (Wehr)"}
+			{"ger_doc_am" "Ambush doctrine (Wehr)"}
+			{"ger_doc_bt" "Breakthrough doctrine (Wehr)"}
+			{"ger_doc_f" "Fortification doctrine (Wehr)"}
+			{"ger_doc_hp" "Heavy Panzer doctrine (Wehr)"}
+			{"ger_doc_i" "Infantry doctrine (Wehr)"}
+			{"ger_doc_luft" "Luftwaffe fallschirmjager doctrine (Wehr)"}
+			{"ger_doc_p" "Panzer doctrine (Wehr)"}
+			{"ger_doc_pj" "Panzerjager doctrine (Wehr)"}
+			{"ger_doc_ps" "Panzer support doctrine (Wehr)"}
+			{"ger_doc_r" "Recon doctrine (Wehr)"}
+			{"ger_doc_rt" "Reserve troops doctrine (Wehr)"}
+			{"ger_doc_sh" "Spearhead doctrine (Wehr)"}
+		}
+		{"team"
+			{"a" "Team A"}
+			{"b" "Team B"}
+			{"c" "Team C"}
+			{"d" "Team D"}
+			{"e" "Team E"}
+			{"f" "Team F"}
+			{"g" "Team G"}
+			{"h" "Team H"}
+		}
+		{"alliance"
+			{"axis" "AXIS"}
+			{"axis_realistic" "Germany (Wehrmacht/Waffen-SS/Ostfront)"}
+			{"axis_jap" "Japan"}
+			{"axis_ger" "Wehrmacht"}
+			{"axis_ger-ger2" "Germany (Wehrmacht/Ostfront)"}
+			{"axis_ger-ss" "Germany (Wehrmacht/Waffen-SS)"}
+			{"axis_ger2" "Ostfront veteranen"}
+			{"axis_ss" "Waffen-SS"}
+			{"axis_ss-ger2" "Germany (Waffen-SS/Ostfront)"}
+			{"axis_doctrines" "AXIS doctrines (Germany)"}
+			{"allies" "ALLIES"}
+			{"allies_rus" "Soviet union (Soviet army/Guards army)"}
+			{"allies_soviet" "Soviet army"}
+			{"allies_guards" "Guards army"}
+			{"allies_eng" "Commonwealth"}
+			{"allies_usa" "USA"}
+			{"allies_realistic" "Commonwealth / USA"}
+			{"allies_doctrines" "ALLIES doctrines"}
+		}
+		{"stage"
+			{"lobby" "In lobby"}
+			{"session" "Starting the game"}
+			{"game" "Playing the game"}
+			{"zone" "In lobby"}
+			{"gslobby" "Main room"}
+			{"gssession" "Game room"}
+		}
+		{"reason"
+			{"gone" "Player %1% is gone"}
+			{"game_gone" "Player %1% is gone"}
+			{"session_gone" "Player %1% is gone"}
+			{"mm_gone" "Player %1% is gone"}
+			{"outofsync" "Player %1% has been kicked due to 'Out of Sync' error."}
+			{"slow" "Player %1% has been kicked due to PC performance issues."}
+			{"kickoff" "Player %1% has been kicked by host!"}
+			{"timeout" "Player %1% timed out."}
+			{"disconnect" "Connection with player %1% has been lost."}
+			{"msg_outofsync" "Kicked from the game due to out of sync conditions."}
+			{"msg_slow" "Kicked from the game due to low performance of your PC."}
+			{"msg_kickoff" "You were kicked by server."}
+			{"msg_disconnect" "Connection lost"}
+			{"outofsync_client_cheat" "Player %1% disconnected for cheating."}
+			{"outofsync_server_cheat" "Master %1% was logged off for using cheats."}
+			{"msg_outofsync_client_cheat" "You were disconnected for cheating."}
+			{"msg_outofsync_server_cheat" "Cheats were used, all players offline."}
+		}
+		{"lobby"
+			{"title_quit_game" "Quit game?"}
+			{"title_close_game" "Close the game?"}
+			{"title_close_game_xp" "You will receive no XP!"}
+			{"title_surrender_game" "Do you really want to surrender? You will lose all XP collected during the match, gain a loss and weaken your ranked trust rating.\nStay in-game for fair-play."}
+			{"title_zone" "Select zone"}
+			{"title_session" "Game"}
+			{"title_selectmap" "Map"}
+			{"header"
+				{"host" "Host"}
+				{"game" "Game"}
+				{"map" "Map"}
+				{"players" "Players"}
+				{"ping" "Ping"}
+				{"version" "%1%"}
+			}
+			{"hdr_session" "# # # # # #Host [%1%]#Game#Map#Players#Ping#%2%#Mods"}
+			{"hdr_sessioncount" "%1% / %2%"}
+			{"hdr_lobby" "# #Host [%1%]#Users#Games#Ping"}
+			{"lbl_gametype" "Game type:"}
+			{"lbl_map" "Select map:"}
+			{"lbl_minplayers" "Minimum Players"}
+			{"lbl_maxplayers" "Maximum Players"}
+			{"lbl_info" "Additional info:"}
+			{"lbl_password" "Password:"}
+			{"lbl_passwordconfirm" "Retype:"}
+			{"lbl_password_enter" "Enter the password:"}
+			{"msg_password_invalid" "Incorrect password!"}
+			{"ping_ms" "%1%ms"}
+			{"ping_s" "%1%s"}
+			{"txt_players" "Players: %1%"}
+			{"txt_creatingsession" "Creating a game..."}
+			{"txt_creatingsession_failed" "Failed to create a game..."}
+			{"txt_closesession" "Do you wish to close the current session?"}
+			{"txt_mm_performance_warn" "One or more session members have low performance."}
+			{"txt_lookingforsessions" "Looking for games"}
+			{"txt_lookingforservers" "Looking for servers"}
+			{"lbl_army" "Army"}
+			{"ranked_game" "Ranked game"}
+			{"bots" "Bots"}
+			{"chat_officers" "<c(white)>Officers [%1%]"}
+			{"chat_friends" "<c(white)>Friends [%1%]"}
+			{"chat_others" "<c(white)>Users [%1%]"}
+			{"army_mode"
+				{"default" "Default"}
+				{"alliance" "Alliances"}
+				{"team" "Teams"}
+				{"player" "Players"}
+			}
+			{"setup"
+				{"player.name" "Player name"}
+				{"player.team" "Player team"}
+				{"player.army" "Player army"}
+				{"preset.gamemode" "Game settings"}
+				{"preset.unitmode" "Units"}
+				{"preset.specmode" "Resource settings"}
+				{"preset.customUnitSet" "Unit Set"}
+				{"preset.customChargeFactors" "Charge Factor"}
+				{"settings.fogofwar" "Fog of War"}
+				{"settings.gameduration" "Game duration"}
+				{"settings.tactics" "Tactics mode"}
+				{"settings.florarespawn" "Flora regeneration"}
+				{"settings.difficulty" "Difficulty"}
+				{"settings.finalscore" ""}
+				{"settings.gameendreason" "Reason to end the game"}
+				{"settings.gameendreason#"
+					{"time" "time is up"}
+					{"score" "score has been reached"}
+				}
+				{"tunes.traffic" "Bandwidth"}
+				{"tunes.traffic#"
+					{"minimum" "Minimum"}
+					{"optimal" "Optimal"}
+					{"maximum" "Maximum"}
+				}
+				{"team.a.army" "A Team"}
+				{"team.b.army" "B Team"}
+				{"team.c.army" "C Team"}
+				{"team.d.army" "D Team"}
+				{"team.e.army" "E Team"}
+				{"team.f.army" "F Team"}
+				{"team.g.army" "G Team"}
+				{"team.h.army" "H Team"}
+				{"team.a.alliance" "A Team"}
+				{"team.b.alliance" "B Team"}
+				{"team.c.alliance" "C Team"}
+				{"team.d.alliance" "D Team"}
+				{"team.e.alliance" "E Team"}
+				{"team.f.alliance" "F Team"}
+				{"team.g.alliance" "G Team"}
+				{"team.h.alliance" "H Team"}
+				{"settings.fogofwar#"
+					{"fog_off" "Disabled"}
+					{"fog_simple" "Simple"}
+					{"fog_realistic" "Realistic"}
+				}
+				{"settings.friendlyfire" "Friendly fire"}
+				{"settings.resourceamount" "Total Manpower <c(7b7b7b)>(MP)"}
+				{"settings.scorefinal" "Victory Points to win"}
+				{"settings.scorefinalPP" "Victory Points to win (per player)"}
+				{"settings.preparationtime" "Preparation time"}
+				{"settings.difficulty#"
+					{"easy" "Easy"}
+					{"normal" "Normal"}
+					{"hard" "Hard"}
+					{"heroic" "Heroic"}
+				}
+				{"settings.showpiercing" "Show armor penetration chances"}
+				{"settings.showdamagereports" "Show info messages"}
+				{"settings.useUnitLevelRestrictions" "Lock units by level"}
+				{"settings.enableSpectators" "Enable spectators"}
+				{"settings.armySelectionMode" "Army Selection Mode"}
+				{"settings.randomSpawnPoints" "Random Spawn Points"}
+				{"settings.minUserPerformance" "User Performance"}
+				{"settings.minUserPerformance#"
+					{"undefined" "Minimum"}
+					{"impossible" "Impossible"}
+					{"low" "Medium"}
+					{"normal" "Good"}
+					{"excellent" "Excellent"}
+					{"fast" "Fast"}
+				}
+				{"settings.veterancyMode" "Veterancy"}
+				{"settings.veterancyMode#"
+					{"all" "Free for All"}
+					{"beginners" "Beginners"}
+					{"veterans" "Veterans"}
+				}
+				{"mission_options" "Mission options"}
+			}
+			{"button"
+				{"back" "Back"}
+				{"join" "Join"}
+				{"enter_zone" "Change zone"}
+				{"leave_zone" "Leave zone"}
+				{"new_game" "New game"}
+				{"change_map" "Change map"}
+				{"replay_game" "Replays"}
+				{"create_session" "Create"}
+				{"refresh" "Refresh"}
+				{"ready" "Ready"}
+				{"start" "Start"}
+				{"stop" "Stop"}
+				{"apply" "Apply"}
+				{"details" "Details"}
+				{"desync" "Desync."}
+				{"kickoff" "Kick off"}
+				{"setmaster" "Set Host"}
+				{"download" "Download"}
+				{"select" "Select"}
+				{"result" "Results"}
+				{"rename" "Rename"}
+				{"delete" "Delete"}
+				{"upload" "Upload"}
+				{"browse" "Browse"}
+				{"rules" "Info"}
+				{"advanced" "Advanced settings"}
+				{"matchmaking" "Ranked match"}
+				{"match_making_start" "To the front"}
+				{"match_making_stop" "Retreat"}
+				{"invite" "Invite"}
+				{"replay_start" "Start"}
+				{"replay_delete" "Delete"}
+				{"replay_rename" "Rename"}
+				{"replay_rename_title" "Rename replay"}
+				{"filter" "Filter"}
+				{"info" "Info"}
+			}
+			{"slot"
+				{"empty_slot" "empty"}
+				{"closed_slot" "closed"}
+				{"reserved_slot" "reserved"}
+				{"reserved_slot_canjoin" "reserved"}
+				{"ai_slot" "AI Player"}
+				{"menu"
+					{"open" "Open slot"}
+					{"closed" "Close slot"}
+					{"reserved" "Reserve slot"}
+					{"ai_easy" "AI Player: Easy"}
+					{"ai_normal" "AI Player: Normal"}
+					{"ai_hard" "AI Player: Hard"}
+					{"ai_heroic" "AI Player: Heroic"}
+				}
+				{"hint"
+					{"open" "Slot is open. Double click to join."}
+					{"closed" "Slot is closed."}
+					{"reserved" "Slot is open to friends of host only."}
+					{"ai" "Slot is reserved for AI player."}
+				}
+			}
+			{"hint"
+				{"ready" "Ready"}
+				{"not_ready" "Not ready"}
+				{"desynced" "Desynchronised"}
+				{"password_protected" "Password protected"}
+				{"refresh" "Refresh"}
+				{"filter" "Filter"}
+				{"show_smileys" "Show emoticon menu"}
+				{"post_msg" "Send message"}
+				{"kickoff" "Kick the player"}
+				{"lockon" "Session closed. Click to open."}
+				{"lockoff" "Session opened. Click to close."}
+				{"setmaster" "Assign a new host"}
+				{"players" "Total/Available"}
+				{"game" "Opened/Total/Available"}
+				{"performance" "PC performance"}
+				{"add_player" "Add player to team"}
+				{"remove_player" "Remove player from team"}
+				{"session_info" "Detailed session information"}
+				{"search_options" "Session search options"}
+				{"join_team" "Double click to join team."}
+				{"unranked" "%1% Games played"}
+				{"ranked" "%1% Ranked games played"}
+				{"min_user_performance" "Minimum user performance"}
+				{"veterancy_mode" "Veterancy"}
+			}
+			{"title_rules" "Information"}
+			{"color_my_name" "<c(fece99)>"}
+			{"color_my_name_dark" "<c(c4935c)>"}
+			{"color_private" "<c(9adbf5)>"}
+			{"txt_advanced_on" "Improper use of advanced settings may negatively effect your gaming experience. Do you wish to continue?"}
+			{"txt_advanced_off" "Network game settings will be reset to default. Do you wish to continue?"}
+			{"txt_advanced" "<c(a60000)><x.>Advanced settings"}
+			{"color_lobby" "<c(4c4945)>"}
+			{"color_report" "<c(4c4945)>"}
+			{"txt_local_provider" "local host"}
+			{"txt_provider" "%1%.ds"}
+			{"session"
+				{"team_color" "<c(790505)>"}
+				{"title" "<f(impact)s(28)c(255 255 255)>%1%"}
+				{"common" "<y(+9)>Game"}
+				{"teams" "<y(+9)>Teams"}
+				{"mods" "<y(+9)>Mods"}
+				{"players" "Players:"}
+				{"game_type" "Game mode:"}
+				{"map" "Map:"}
+				{"server_state" "Server:"}
+				{"game_time" "Game time:"}
+				{"nat" "NAT"}
+				{"password" "password"}
+			}
+			{"matchmaking"
+				{"2x2" "2 x 2"}
+				{"3x3" "3 x 3"}
+				{"4x4" "4 x 4"}
+				{"rules" "The recruitment centre is where you can recruit other players for a rating-based game. First, hand-pick a team, or agree to auto-selection (where the player's ratings will be close to yours). Then click \"To the front\" and the system will find you a worthy adversary."}
+				{"autoselect" "Auto-selection"}
+				{"2_players" "2 players"}
+				{"3_players" "3 players"}
+				{"4_players" "4 players"}
+				{"random_bracket" "Random"}
+				{"waiting_time" "Waiting time:"}
+				{"time_to_wait" "Time to wait:"}
+				{"game_count" "Games:<x(150)>%1%"}
+				{"all_players_count" "Players:<x(150)>%1%"}
+				{"players_in_game" "Your game:<x(150)>%1% / %2%"}
+				{"stats_invalid" "Could not connect to the statistics server. \nCheck your internet connection and restart the game."}
+				{"need_drop_mods" "Disable all mods to enter matchmaking."}
+				{"client_have_no_linked_ds" "Couldn't connect to the dedicated server."}
+				{"leave_close_mm_session" "Exit the Recruitment centre and end the session."}
+				{"leave_mm_session" "Do you really want to leave matchmaking?"}
+				{"start_deny_reason"
+					{"unknow" "Unknown error while starting search for enemies."}
+					{"team_not_full" "Not enough players in team for the specified team size."}
+					{"team_have_no_master" "No team host."}
+					{"bad_org_rate" "Not all players have sufficient rank for the selected game type."}
+				}
+				{"wait_accept" "Waiting for player \"%1%\" to accept invitation."}
+				{"receive_invite" "Player \"%1%\" has invited you to join a team for a ranked game."}
+				{"wait_invite_params" "Waiting for dedicated server connection parameters."}
+				{"wait_connect" "Waiting for player \"%1%\" to connect to the team."}
+				{"decline_invite" "Player \"%1%\" has declined the invitation."}
+				{"decline_invite_busy" "Player \"%1%\" has already been invited to another team or is connecting to a game."}
+				{"decline_invite_timer" "Player \"%1%\" has not accepted the invitation. They may be away from their computer."}
+				{"player_cant_join" "Player \"%1%\" cannot connect to the dedicated server."}
+				{"players_more_then_game_type" "Team type cannot be lower than the number of players on the team."}
+				{"team_have_bad_rate_for_selected_game" "Player \"%1%\" has insufficient rank to play %2% with you."}
+				{"cancel_invite" "You have cancelled the invitation to the team."}
+				{"invitation_decline" "You have declined the invitation to the team."}
+			}
+			{"blocked"
+				{"permanent" "You have been permanently banned from from internet games due to violation of online rules."}
+				{"minutes" "You can't enter internet games for %1% minute(s), due to your ranked trust rating. Please make sure not to quit games in progress."}
+				{"performance" "You need at least 2 performance bars to run match-making."}
+				{"seconds" "You can't enter internet games for %1% second(s), due to your ranked trust rating. Please make sure not to quit games in progress."}
+			}
+			{"filter"
+				{"title" "Session search options"}
+				{"apply" "Apply"}
+				{"reset" "Reset"}
+				{"searchDistance" "Distance to host"}
+				{"searchDistance#"
+					{"close" "Closest"}
+					{"default" "Medium"}
+					{"far" "Far"}
+					{"worldwide" "Worldwide"}
+				}
+				{"searchOnlyOpen" "Only open sessions"}
+				{"searchOnlyFriends" "Only friend sessions"}
+				{"searchOnlyPublic" "Only public sessions"}
+				{"searchOnlySameVersion" "Only same version"}
+				{"searchOnlyNotFull" "Only with slots"}
+				{"searchGameType" "Game types"}
+			}
+			{"lbl_players_mine" "Your team:"}
+			{"lbl_players_total" "Number of players:"}
+			{"lbl_players_selected" "Team lineup:"}
+			{"lbl_players_to_selected" "Available players:"}
+			{"color_system" "<c(cccc00)>"}
+			{"chat_system_prefix" ">>>>>>"}
+			{"chat_private_message" "%1% to %2%"}
+			{"chat_user_banned" "You have been banned from this chat room."}
+			{"chat_user_kicked" "You have been kicked from this chat room."}
+			{"chat_unable_to_connect" "Unable to connect to game chat, please check your internet connection."}
+			{"replay"
+				{"column_name" "Name"}
+				{"column_map" "Map"}
+				{"column_date" "Date"}
+				{"column_version" "Version"}
+				{"column_mods" "Mods"}
+				{"column_desc" "Description"}
+				{"column_creator" "Creator"}
+				{"column_score" "Score"}
+				{"row_version" "Version: %1%"}
+				{"row_game" "%1%"}
+				{"row_players" "Players: %1% of %2%"}
+				{"row_duration" "Duration: %1%"}
+				{"row_team" "Team %1%:"}
+				{"title_delete_replay" "Delete selected replay?"}
+				{"leave_replay_session" "Do you really want to leave replays page?"}
+				{"load_incomplete_replay" "Replay is incomplete or corrupted. Try to load it anyway?"}
+				{"load_invalid_version" "Replay is from a different game version. Try to load it anyway?"}
+				{"load_invalid_version_failed" "This replay was created in a different game version. It cannot be loaded."}
+				{"title_upload_replay" "Do you really want to upload the selected replay to your Steam cloud?"}
+				{"error_incomplete_replay" "This replay wasn't recorded successfully or corrupted."}
+				{"visibility"
+					{"public" "Public"}
+					{"friends" "Friends"}
+					{"private" "Private"}
+				}
+				{"info"
+					{"upload_invalid_version" "Replays from different game versions can't be uploaded."}
+					{"cloud_not_available" "Steam cloud is not available."}
+					{"upload_not_a_player" "You can't upload replays of games you didn't play."}
+					{"publishing" "Publishing..."}
+					{"invalid_handle" "The item update handle was invalid, job might be finished."}
+					{"preparing_config" "Processing configuration data..."}
+					{"preparing_content" "Reading and processing content files..."}
+					{"uploading_content" "Uploading content changes to Steam..."}
+					{"uploading" "Uploading (%.0f%)"}
+					{"uploading_preview_file" "Uploading preview file image..."}
+					{"committing_changes" "Committing all changes..."}
+					{"commit_successful" "Replay successfully uploaded."}
+				}
+			}
+		}
+		{"persona_state"
+			{"offline" "Offline"}
+			{"online" "Online"}
+			{"busy" "Busy"}
+			{"away" "Away"}
+			{"snooze" "Snooze"}
+			{"looking_to_trade" "Looking to trade"}
+			{"looking_to_play" "Looking to play"}
+			{"in_game" "In-game"}
+			{"in_lobby" "In-game (open session)"}
+			{"in_matchmaking" "In-game (matchmaking)"}
+			{"in_match" "In-game (playing)"}
+			{"in_other_game" "In-game other"}
+		}
+		{"sync"
+			{"title_autojoin" "Join"}
+			{"title_download" "Download"}
+			{"title_resources" "Resources"}
+			{"lbl_mastermods" "Host MODs:"}
+			{"lbl_clientmods" "Installed mods:"}
+			{"lbl_requiredmods" "Required mods:"}
+			{"txt_prepare" "The system will attempt to prepare the game resources necessary to join the game."}
+			{"txt_notfound" "%s not found."}
+			{"txt_download" "The item(s) %s will be downloaded."}
+			{"txt_mapapply" "The map %s will be applied."}
+			{"txt_modapply" "The mod(s) %s will be applied."}
+			{"txt_missingmods" "Missing mods:"}
+			{"txt_desyncwarning" "Playing with desynchronised resources could lead to an Out-of-Sync error."}
+			{"txt_exedesync" "Desynchronisation of executable files detected."}
+			{"txt_resourcedesync" "Resource desynchronisation detected."}
+			{"txt_resourcedesyncfor" "Resources desynchronisation detected - %1%."}
+			{"txt_mapnotfound" "Map is not found."}
+			{"txt_mapdesync" "Map desynchronisation detected."}
+			{"txt_mapcompare" "Map %1% is installed, %2% is required."}
+			{"txt_nodesyncresfound" "No desynchronised resources found."}
+			{"txt_reschecking" "Checking resource..."}
+			{"txt_rescheckingfailed" "Failed to check resource!"}
+			{"msg_downloading" "Downloading files..."}
+			{"msg_downloadingfailed" "Failed to download files!"}
+		}
+		{"scene"
+			{"round" "Round %1% of %2%"}
+			{"title_transfer" "Unit transfer"}
+			{"hint_transfer" "Transfer units to another player."}
+			{"msg_quality_reducing" "Video settings have been reduced for better performance."}
+			{"msg_reinforcement_arrived" "Reinforcement of %1% units has arrived."}
+			{"msg_transfered" "%1% unit(s) are transferred to %2%"}
+			{"txt_waitingfor" "<f(bookman_hq)s(13)>Performance drop experienced by player"}
+			{"txt_comingup" "<f(bookman_hq)s(13)>Finding server"}
+			{"txt_winner" "%1% wins!"}
+			{"txt_draw" "Game draw"}
+			{"hint_cost"
+				{"command" "CP: %1%"}
+				{"default" "MP: %1%"}
+				{"special" "SP: %1%"}
+			}
+			{"hint_cost2"
+				{"command" "%1% CP"}
+				{"default" "%1% MP"}
+				{"special" "%1% SP"}
+			}
+			{"hint_level" "Level: %1%"}
+			{"hint_time" "Time: %1%"}
+			{"hint_score" "Score: %1%"}
+			{"chat"
+				{"say_all" "Say all"}
+				{"say_team" "Say team"}
+				{"prefix_all" "<c(d4d4d4)>(All) </c>"}
+				{"prefix_team" "<c(d4d4d4)>(Team) </c>"}
+				{"team" "<b+c(00FF00)>%s"}
+				{"all" "<b+c(FF8080)>%s"}
+				{"private" "<b+c(6DCFF6)>%s"}
+				{"default" "<b+c(CYAN)>%s"}
+			}
+			{"txt_waitingfor_master" "<f(bookman_hq)s(13)>Waiting for server"}
+			{"txt_cp" "<f(arial_narrow)s(16)c(96bbd9)><e(shadow)>%1% / %2% CP"}
+			{"txt_mp" "<f(arial_narrow)s(16)c(ee852f)><e(shadow)>%1% / %2% MP"}
+			{"txt_mp_rate" "<f(arial_hq)s(8)c(ee852f)p(0)e(shadow)>+ %1% MP"}
+			{"txt_payback_rate" "<f(arial_hq)s(8)c(f8cf91)p(0)e(shadow)>+ %1% MP"}
+			{"txt_level" "<f(arial_narrow)s(16)c(e5e1df)><e(shadow)>level %1%"}
+			{"txt_growspeed" "<f(arial_narrow)s(16)>%1%%"}
+			{"hint_cp" "Used CP / Total CP"}
+			{"hint_growspeed" "Point gain rate"}
+			{"hint_squad1" "Infantry squads"}
+			{"hint_squad2" "Specialized soldiers"}
+			{"hint_v1" "Transport and procurement"}
+			{"hint_v2" "Support weapons"}
+			{"hint_v22" "Artillery"}
+			{"hint_v3" "Light support vehicles"}
+			{"hint_v4" "Tank support"}
+			{"hint_v5" "Tank destroyers"}
+			{"hint_v6" "Veteran units"}
+			{"hint_sf" "Special formations"}
+			{"hint_hero" "Choose your special unit!"}
+		}
+		{"result"
+			{"title" "Game Result"}
+			{"hdr" "# # #Player#<x.>Victory Points#<x.>Infantry#<x.>Vehicles#<x.>Score#Ping#PC"}
+		}
+		{"statistics_xp"
+			{"value" "Mission XP: %1%"}
+			{"victory_bonus" "Victory Bonus (+%1%%): %2%"}
+			{"friend_bonus" "Friends Bonus (+%1%%): %2%"}
+			{"deluxe_bonus" "Deluxe Edition Bonus (+%1%%): %2%"}
+			{"total" "Total XP: %1%"}
+			{"rank" "Score: %1%"}
+			{"leave" "You get no XP because you didn't finish the game."}
+		}
+		{"statistics"
+			{"title" "<f(impact)s(28)c(255 255 255)>Game Statistics"}
+			{"player"
+				{"title" "<s(25)y(+9)>Personal Statistics"}
+				{"units_header" "# #Your top units#<x.>Infantry kills#<x.>Vehicle kills#<x.>Score#<x.>Effectiveness#"}
+				{"score" "Score:"}
+				{"man" "Infantry:"}
+				{"veh" "Vehicles:"}
+				{"experience" "Experience:"}
+				{"elo" "Ranked Score (ELO):"}
+				{"total" "+%1% XP <c(25 25 25)>(%2% XP + %3% XP *Victory + %4% XP *Friends + %5% XP *Deluxe)"}
+				{"ranked_score" "%1% <c(25 25 25)>(%2% *Total)"}
+				{"early_exit" "<c(25 25 25)> +1 Early Exit"}
+				{"btn_profile" "Your Profile"}
+				{"btn_replay" "Save Replay"}
+			}
+			{"result"
+				{"title" "<s(25)y(+9)>Game Result"}
+				{"header" "# #Player#<x.>Victory Points#<x.>Infantry#<x.>Vehicles#<x.>Score#<x.>Resources#"}
+				{"resources" "%1% / %2%"}
+			}
+			{"resources"
+				{"title" "<s(25)y(+9)>Resources"}
+			}
+			{"detail"
+				{"title" "<s(25)y(+9)>Detail"}
+				{"units_header" "# #Units#<x.>Infantry kills#<x.>Vehicle kills#<x.>Score#<x.>Effectiveness#"}
+			}
+			{"units"
+				{"title" "<s(25)y(+9)>Units"}
+				{"user" "%1%"}
+				{"cost"
+					{"default" "<c(30 30 30)>%.0f MP"}
+					{"special" "<c(30 30 30)>%.0f SP"}
+				}
+				{"hint" "Resources spent: %.0f / %.0f"}
+			}
+			{"history"
+				{"title" "<s(25)y(+9)>History"}
+				{"timestamp" "<f(arial_hq)s(8)c(ffffff)>%02d:%02d"}
+			}
+		}
+		{"search_replay"
+			{"title" "<f(impact)s(28)c(255 255 255)>Search Replays"}
+			{"search_all" "<s(25)y(+9)>All"}
+			{"search_friends" "<s(25)y(+9)>Friends"}
+			{"search_subscribed" "<s(25)y(+9)>Subscribed"}
+			{"search_published" "<s(25)y(+9)>Published"}
+			{"subscribe" "Subscribe"}
+			{"unsubscribe" "Unsubscribe"}
+		}
+		{"settings"
+			{"teama" "A Team"}
+			{"teamb" "B Team"}
+			{"disabled" "Disabled"}
+		}
+		{"gs"
+			{"quit_confirm" "Do you want to quit the Internet game?"}
+			{"login_input_name_pass" "• Enter unique username and password to log in to GameSpy."}
+			{"login_create_acc_if_have_no" "• If you have not yet registered on GameSpy, click the \"Create account\" button."}
+			{"login_pass_sensitive" "• Username and password are case-sensitive."}
+			{"login_name" "Username"}
+			{"login_password" "Password"}
+			{"login_remember_password" "Remember password"}
+			{"login_enter" "Login"}
+			{"login_create_acc_btn" "Create account"}
+			{"login_create_acc_dialog_title" "Account creation"}
+			{"login_complete_fields" "• To sign up for the new account, please complete all fields."}
+			{"login_choose_existing_or_create" "• Account is based on GameSpy ID. If you already have a GameSpy ID, you can use the email and password from it."}
+			{"login_unique_name" "• Username should be unique on GameSpy."}
+			{"login_email" "email"}
+			{"login_confirm_password" "Confirm password"}
+			{"login_create_btn" "Create"}
+			{"login_unique_name_dialog_title" "Select a unique name"}
+			{"login_name_is_in_use" "That username is already in use. Please enter another or choose from the available unique names."}
+			{"login_name_select_suggest" "Please type another name or select one of the available unique names."}
+			{"login_suggested_names" "Possible unique names"}
+			{"account_forced_disconnect" "Connection broke off, or a new connection from another IP with your login was established."}
+			{"cd_key_reg_path" "Software\\1C\\Men of War - Assault Squad"}
+			{"cd_key_dialog_title" "Enter CD-KEY"}
+			{"cd_key_disabled" "Your CD-KEY is blocked"}
+			{"cd_key_wrong" "Invalid CD-KEY"}
+			{"cd_key_verification" "Checking CD-KEY"}
+			{"cd_key_duplicated" "Another game using your CD-KEY is running."}
+			{"msg_connecting" "Connecting..."}
+			{"msg_connecting_failed" "Connection failed"}
+			{"game_unavailable" "Online services are not available."}
+			{"game_temporarily_unavailable" "Online services have been temporarily shut down for maintenance. Please try again later."}
+			{"patching_dialog_title" "Game patch"}
+			{"patching_available" "New patch is available (version %1%)."}
+			{"patching_mandatory" "Multiplayer games require this patch!"}
+			{"pathcing_download" "Download"}
+			{"pathcing_cancel" "Continue"}
+			{"patching_check_msg" "Checking game version"}
+			{"stats_unknow_error" "Unspecified error while interacting with stat server."}
+			{"cancel_session_question" "Close the current game session?"}
+			{"ranked_game" "Ranked game"}
+			{"vac_secured" "VAC Secured"}
+			{"vac_secured_hint" "Protected by Valve Anti-Cheat."}
+			{"xp_gain_lobby" "You will receive XP for playing this game."}
+			{"xp_gain" "XP gain (%1%%)"}
+			{"xp_gain_hint" "You will receive %1%% XP for playing a non-ranked game."}
+			{"xp_gain_ranked" "Ranked + XP gain (%1%%)"}
+			{"xp_gain_hint_ranked" "You will receive %1%% XP and ranked score for playing a ranked game."}
+			{"chat"
+				{"connect_fail" "Chat connection failed. Please check your internet and firewall settings."}
+				{"login_fail" "Login to chat failed. Please check your internet and firewall settings."}
+				{"bad_channel_name" "The chat channel name was invalid."}
+				{"bad_channel_pass" "The chat channel is at its user limit."}
+				{"channel_invite_only" "The chat channel is invite only."}
+				{"user_banned_by_channel" "User banned from this channel."}
+				{"bad_channel_mask" "Chat connection failed."}
+				{"undef_error" "Chat connection failed. Please check your internet and firewall settings."}
+				{"invalid_nick" "Invalid name"}
+				{"nik_too_long" "Name too long"}
+				{"main" "General chat"}
+				{"session" "Game room"}
+				{"select_type" "Select chatroom"}
+				{"txt_send_to" "Send to:"}
+				{"to_lobby" "General chat"}
+				{"to_lobby_hint" "Messages will be visible in both game and main rooms."}
+				{"to_session" "Game room"}
+				{"to_session_hint" "Messages will be visible in the game room only."}
+			}
+			{"qrwsockerror" "Winsock initialization error."}
+			{"qrbinderror" "Cannot find available host ports."}
+			{"qrdnserror" "Cannot establish connection to the main server."}
+			{"qrconnerror" "The server is behind a non-promiscuous NAT and does not support negotiation."}
+			{"qrnochallengeerror" "The main server is not responding. Possible reasons: firewall is blocking UDP packets or server is offline."}
+			{"account_uniquenick_inuse" "The specified name is already in use."}
+			{"account_bad_name_length" "Name must be MIN %1% and MAX %2% characters"}
+			{"acoount_bad_name_first_number" "Name cannot begin with a number."}
+			{"account_bad_password_length" "Password should be MIN %1% and MAX %2% characters."}
+			{"account_name_absent" "No user with this name is registered."}
+			{"account_bad_name" "Invalid name."}
+			{"account_passwords_mismatch" "Passwords do not match."}
+			{"account_bad_email" "Invalid email address."}
+			{"account_bad_password" "Password incorrect!"}
+			{"account_bad_profile" "Invalid profile."}
+			{"account_profile_deleted" "Profile not found."}
+			{"account_disconnect" "Online services are not available."}
+			{"change_sort_number" "Sort by total games."}
+			{"change_sort_picture" "Sort by global rank/ELO."}
+			{"change_sort_name" "Sort by username."}
+			{"change_rank_type" "Change statistics type"}
+			{"player_info" "Player information"}
+			{"player_stats" "Statistics"}
+			{"compare_player" "Compare"}
+			{"send_message" "Send message"}
+			{"invite" "Invite to lobby"}
+			{"join" "Join lobby"}
+			{"copy_text" "Copy text"}
+			{"paste_text" "Paste text"}
+			{"stats"
+				{"player_dialog_title" "<f(impact)s(28)c(255 255 255)>Stats \"%1%\""}
+				{"global_dialog_title" "<f(impact)s(28)c(255 255 255)>Hall of fame"}
+				{"common" "<y(+9)>General"}
+				{"games" "Games"}
+				{"armies" "<y(+9)>Armies"}
+				{"hdr_common" "#Games#Points#Rank games#Victories#Wins#Quits"}
+				{"hdr_games" "#Game#Points#Games#Victories#Wins"}
+				{"hdr_armies" "#Side#Games#Victories#Wins"}
+				{"select_game_type" "Select game type"}
+				{"hdr_toplist" "# #Name#Score#Games#Wins, %"}
+				{"ri_top_common" "Overall rating"}
+				{"ri_top_frontline" "Frontline"}
+				{"ri_top_captureflag" "Day of Victory"}
+				{"ri_top_heavyload" "Valuable Cargo"}
+				{"ri_top_battle_zones" "Assault Zones"}
+				{"ri_top_modification" "Modded game"}
+				{"ri_top_groundcontrol" "Ground control"}
+				{"ri_top_auto" "Automatic"}
+				{"init_msg" "Initializing rating system"}
+				{"common_page" "<y(+9)>Common"}
+				{"games_page" "<y(+9)>Games"}
+				{"armies_page" "<y(+9)>Armies"}
+				{"hdr_games_page" "#Game#Score#Games#Wins#Wins"}
+				{"hdr_armies_page" "#Party#Games#Wins#Wins"}
+				{"next" "Next page"}
+				{"prev" "Previous page"}
+				{"first" "Move to start"}
+				{"last" "Move to end"}
+				{"il_search_hint" "Enter full name to search for player"}
+				{"il_search_txt" "Search"}
+				{"btn_search" "Find"}
+				{"page" "Page"}
+				{"rank" "Score"}
+				{"position" "Rating position"}
+				{"disconnects" "Early exits"}
+				{"ranked_games" "Ranked games"}
+				{"wins" "Wins"}
+				{"winratio" "Win ratio"}
+				{"page_loading" "Page loading. Please wait."}
+				{"player_loading" "Data on player \"%1%\" loading. Please wait."}
+				{"looking_for_player" "Searching for player \"%1%\". Please wait."}
+				{"player_not_in_ladder" "Player \"%1%\" not found on this rating board."}
+				{"player_not_found" "Player \"%1%\" not found."}
+				{"loading_error" "Page failed to load."}
+				{"player_loading_error" "Player data failed to load."}
+				{"undef_error" "ERROR!"}
+			}
+			{"rejects_transfer" "File transfer is not supported."}
+			{"login_valid_email" "• Be sure to provide your real e-mail address. It will be used for password recovery purposes. Use CTRL + ALT + Q combintion for @."}
+			{"login_one_name_per_cdkey" "• It will be bound to the CD-KEY after the account is created. Only one account is allowed per CD-KEY."}
+			{"cd_key_obsolete" "Attention! When you click the 'Yes' button, your account will be bound to the provided CD-KEY! After that, you will be able to log into the game with this account only! Be sure to write down your account name and password, before you bind it to the CD-KEY. You won't be able to create a new account. If your password is lost, you can recover it from the e-mail address provided during registration."}
+			{"cd_key_already_set" "That profile is bound to another key. Enter the correct key."}
+			{"cd_key_already_taken" "This CD-KEY is bound to another account."}
+			{"cd_key_register_error" "Failed to bind CD-KEY to account."}
+			{"diff_lobby_version" "Different versions of server connection protocol."}
+			{"social"
+				{"color_online" "<c(000000)>"}
+				{"color_offline" "<c(100 100 100)>"}
+				{"color_friend" "<c(9ded90)>"}
+				{"color_neutral" "<c(25 25 25)>"}
+				{"color_ignore" "(Blocked) <c(bdbdbd)>"}
+				{"color_officer" "<c(ffcc00)>"}
+				{"color_officer_chat" "<c(ffcc00)>"}
+				{"color_friendlist_ingame" "<c(9ded90)>"}
+				{"color_friendlist_online" "<c(83 163 194)>"}
+				{"color_friendlist_offline" "<c(4c4945)>"}
+				{"friendlist_state" "<s(8)y(-2)>%1%"}
+				{"friend_del" "Remove from friends"}
+				{"friend_add" "Add to friends"}
+				{"ignore_del" "Remove from blocked"}
+				{"ignore_add" "Block"}
+				{"social" "Community"}
+				{"impossible_to_add_my_name" "Cannot add yourself"}
+				{"player_not_found" "Player \"%1%\" not found"}
+				{"btn_add" "Add"}
+				{"btn_info" "Info"}
+				{"dialog_title" "<f(impact)s(28)c(255 255 255)>Community"}
+				{"player_add_dialog_title" "<f(impact)s(28)c(255 255 255)>Add player"}
+				{"friends_page" "<y(+9)>Friends"}
+				{"ignore_page" "<y(+9)>Blocked"}
+				{"hdr_friends_page" "#Player name#Status"}
+				{"hdr_ignore_page" "#Player name"}
+				{"show_online" "Online"}
+				{"global_chat" "Global chat"}
+			}
+		}
+		{"unit_info"
+			{"speed" "Speed<x(70)>%1%"}
+			{"crew" "Crew<x(70)>%1%."}
+			{"armor" "Armor, mm.<x(175)>front<x(225)>side<x(275)>rear<x(325)>top"}
+			{"armor"
+				{"body" "<x(20)>body<x(175)>%1%<x(225)>%2%<x(275)>%3%<x(325)>%4%"}
+				{"turret" "<x(20)>turret<x(175)>%1%<x(225)>%2%<x(275)>%3%<x(325)>%4%"}
+			}
+			{"armor_angle" "Armor slope angles*"}
+			{"armor_angle_desc" "<s(8)c(20 20 20)f(arial_hq)>* - Slope angles are shown in degrees from a horizontal surface. The smaller <x(0)y(12)> the angle, the greater the chance of a projectile ricochet."}
+			{"gun" "Gun<x(75)>%1%"}
+			{"gun"
+				{"range" "range<x(175)>%1%<x(225)>%2%<x(275)>%3%<x(325)>%4%"}
+				{"piercing" "penetration (mm)<x(175)>%1%<x(225)>%2%<x(275)>%3%<x(325)>%4%"}
+				{"recharge_time" "reload time (s)<x(175)>%1%"}
+			}
+			{"mgun" "Machine gun<x(75)>%1%"}
+			{"mguns" "Machine guns"}
+			{"mguns"
+				{"text" "%1%<x(175)>%2%"}
+			}
+			{"btn_tech" "Specifications"}
+			{"btn_info" "Description"}
+		}
+		{"mow_config_getting_fail" "Failed to receive dedicated servers configuration"}
+		{"ds"
+			{"unknown" "-"}
+			{"btn_hint" "List of servers"}
+			{"btn" "List of servers"}
+			{"cfg_none" "Configuration unavailable"}
+			{"cfg_load" "Loading configuration..."}
+			{"cfg_load_complete" "#name#ip#status#games#ping#"}
+			{"dlg"
+				{"title" "<f(impact)s(28)c(255 255 255)> List of available servers"}
+				{"btn_close" "Close"}
+			}
+			{"s_avail" "available"}
+			{"s_closed" "no free space"}
+			{"s_offline" "unavailable"}
+			{"s_lobby_full" "too many users"}
+			{"s_diff_version" "another version"}
+			{"s_deny_connect" "access denied"}
+		}
+		{"button"
+			{"multiplayer_matchmaking" "Matchmaking"}
+			{"multiplayer_find_match" "Find Match"}
+			{"multiplayer_host_game" "Host Game"}
+			{"multiplayer_join_game" "Join Game"}
+		}
+		{"title_matchmaking" "Matchmaking"}
+		{"trust_rating"
+			{"great" "great"}
+			{"okay" "okay"}
+			{"bad" "bad"}
+			{"abysmal" "abysmal"}
+			{"banned" "banned"}
+			{"perm_banned" "permanently banned"}
+		}
+		{"chat"
+			{"steamlobby" "Lobby"}
+			{"steamclan" "Community"}
+		}
+	}
+}

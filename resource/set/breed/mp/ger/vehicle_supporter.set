@@ -1,0 +1,56 @@
+{breed
+	{skin "ger-arty-rfl"}
+	{portrait "ger_soldier2"}
+	{nationality ger}
+	{icon "smg"}
+	{icon_priority 1}
+	{armors
+		{head helmet_ger_m40}
+	}
+	{perks
+		{"health" "150%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "100%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" "mp_soldier"
+		}
+		{"speed" 0.9
+		}
+		{"tank"	0.85
+		}
+		{"vehicle" 1
+		}
+		{"cannon" 1.0
+		}
+		
+		{"pistol" lvl_2
+		}
+		{"smg" lvl_2
+		}
+		{"mgun" lvl_4
+		}
+		{"rifle" lvl_2
+		}
+		{"rocketlauncher" lvl_2
+		}
+		{"melee" lvl_4
+		}
+		{"tankgun" lvl_4
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_tankcrew")
+	}
+	{inventory
+		{item "mauzer" filled}
+		{item "ammo mauser_clip" 60}
+		{item "bandage" 3}
+		;{item "grenade m24"}
+		{in_hands 0}
+	}
+}

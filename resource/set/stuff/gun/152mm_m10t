@@ -1,0 +1,15 @@
+{from "pattern gun"		; "kv-2"  
+	{filling "bullet152 rus"}
+	{fireSound "gun/howitzer/152mm_ml20"}
+	{reloadSound "tankgun_r04"}
+	("range_grazing_howitzer_1")
+	{rechargeTime 25.3}
+	{speed 530}
+	{range 200 200}
+
+	{projectileDamage 125}
+	("damage_170" a(125) b(117) c(109) d(101) e(89) range(200))
+	{parameters "apcr"
+        ("damage_170" a(135) b(125) c(112) d(102) e(85) range(200))
+	}
+}

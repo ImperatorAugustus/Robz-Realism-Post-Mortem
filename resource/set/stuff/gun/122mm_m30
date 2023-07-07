@@ -1,0 +1,12 @@
+{from "pattern gun_art"		; "m30"
+	{filling "bullet122 rus" 4}
+	{fireSound "gun/howitzer/122mm_d25"}
+	{reloadSound "tankgun_r04"}
+	("range_medium_howitzer")
+
+
+	("caliber_maximum")
+	{rechargeTime 16}
+	{recoveryTime 16}
+	{range 390 390}
+}

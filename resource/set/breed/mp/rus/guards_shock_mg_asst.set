@@ -1,0 +1,57 @@
+{breed
+	{skin "rus-sco-late-rfl"}
+	{portrait "rus_elite3"}
+	{nationality rus}
+	{icon "smg3"}
+	{icon_priority 1}
+	{armors
+		{body body_armor}
+		{head helmet_rus_ssh40_cover_camo}
+	}
+	{perks
+		{"health" "200%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "150%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" "mp_soldier"
+		}
+		{"speed" 0.9
+		}
+		{"tank"	0.75
+		}
+		{"vehicle" 1
+		}
+		{"cannon" 0.8
+		}
+		
+		{"pistol" lvl_3
+		}
+		{"smg" lvl_2
+		}
+		{"mgun" lvl_4
+		}
+		{"rifle" lvl_4
+		}
+		{"rocketlauncher" lvl_2
+		}
+		{"melee" lvl_3
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_1_lvl3")
+	}
+	{inventory
+		{item "mosin_vet" filled}
+		{item "ammo mosin_clip" 60}
+		{item "ammo dp27_mag" 141}
+		{item "bandage" 3}
+		{item "grenade f1" 2}
+		{item "ru_backpack_meshok"}
+		{in_hands 0}
+	}
+}

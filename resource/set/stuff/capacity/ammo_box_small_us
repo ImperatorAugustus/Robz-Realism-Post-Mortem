@@ -1,0 +1,10 @@
+{item
+	{tag "itemin2hands"}
+	{entity "ammo_box_small_us"}
+	{inventory
+		{size 4 3}
+		{weight 100}
+		;{fsm "hand-only"}
+	}
+	{mass 50}
+}

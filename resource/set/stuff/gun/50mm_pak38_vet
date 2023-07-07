@@ -1,0 +1,22 @@
+{from "50mm_pak38"		; "pak38"
+	{rechargeTime 4}
+	
+	{range 200 200}
+	("damage_170" a(97) b(79) c(62) d(49) e(38) range(200))
+	{parameters "apc"
+		("damage_170" a(97) b(79) c(62) d(49) e(38) range(200))
+		{cursorReloading "cannon_reload_apc"}
+	}
+	{parameters "apcr"
+        	("damage_170" a(150) b(108) c(72) d(48) e(32) range(200))
+	}
+	{parameters "heat"
+		("damage_heat" a(180) range(100))
+		{range 100 100}
+		{rechargeTime 9.6}
+	}
+	{parameters "fg"
+		{range 180 180}
+	}
+	("accuracy_medium_200m")
+}

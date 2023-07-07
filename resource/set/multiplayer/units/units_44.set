@@ -1,0 +1,68 @@
+;SDL
+
+{units
+	(include "soldiers.set")
+	(include "squads.set")
+	(include "vehicles.set")
+	(include "/set/multiplayer/units/usa/squads_43-45.set")
+	(include "/set/multiplayer/units/usa/vehicles_43-45.set")
+
+	(include "/set/multiplayer/units/ger/squads_44.set")
+	(include "/set/multiplayer/units/ger/vehicles_44.set")
+	(include "/set/multiplayer/units/ger_ss/vehicles_44.set")
+	(include "/set/multiplayer/units/ger2/squads.set")
+	(include "/set/multiplayer/units/ger2/vehicles_all.set")
+
+	(include "/set/multiplayer/units/eng/squads_42-45.set")
+	(include "/set/multiplayer/units/eng/vehicles_43-44.set")
+
+	(include "/set/multiplayer/units/jap/squads_44-45.set")
+	(include "/set/multiplayer/units/jap/vehicles_all.set")
+
+	(include "/set/multiplayer/units/rus/squads_43-45.set")
+	(include "/set/multiplayer/units/rus/vehicles_44-45.set")
+	(include "/set/multiplayer/units/rus_guard/squads_43-45.set")
+	(include "/set/multiplayer/units/rus_guard/vehicles_43-45.set")
+	
+	;doctrines
+	(include "/set/multiplayer/units/ger_doc/ger_doc_a.set")
+	(include "/set/multiplayer/units/ger_doc/ger_doc_ad.set")
+	(include "/set/multiplayer/units/ger_doc/ger_doc_am.set")
+	(include "/set/multiplayer/units/ger_doc/ger_doc_bt.set")
+	(include "/set/multiplayer/units/ger_doc/ger_doc_f.set")
+	(include "/set/multiplayer/units/ger_doc/ger_doc_hp.set")
+	(include "/set/multiplayer/units/ger_doc/ger_doc_i.set")
+	(include "/set/multiplayer/units/ger_doc/ger_doc_luft.set")
+	(include "/set/multiplayer/units/ger_doc/ger_doc_p.set")
+	(include "/set/multiplayer/units/ger_doc/ger_doc_pj.set")
+	(include "/set/multiplayer/units/ger_doc/ger_doc_ps.set")
+	(include "/set/multiplayer/units/ger_doc/ger_doc_r.set")
+	(include "/set/multiplayer/units/ger_doc/ger_doc_rt.set")
+	(include "/set/multiplayer/units/ger_doc/ger_doc_sh.set")
+	
+	(include "/set/multiplayer/units/rus_doc/rus_doc_a.set")
+	(include "/set/multiplayer/units/rus_doc/rus_doc_art.set")
+	(include "/set/multiplayer/units/rus_doc/rus_doc_as.set")
+	(include "/set/multiplayer/units/rus_doc/rus_doc_d.set")
+	(include "/set/multiplayer/units/rus_doc/rus_doc_db.set")
+	(include "/set/multiplayer/units/rus_doc/rus_doc_g.set")
+	(include "/set/multiplayer/units/rus_doc/rus_doc_ha.set")
+	(include "/set/multiplayer/units/rus_doc/rus_doc_i.set")
+	(include "/set/multiplayer/units/rus_doc/rus_doc_lis.set")
+	(include "/set/multiplayer/units/rus_doc/rus_doc_s.set")
+	(include "/set/multiplayer/units/rus_doc/rus_doc_td.set")
+	(include "/set/multiplayer/units/rus_doc/rus_doc_uc.set")
+	
+	(include "/set/multiplayer/units/usa_doc/usa_doc_a.set")
+	(include "/set/multiplayer/units/usa_doc/usa_doc_art.set")
+	(include "/set/multiplayer/units/usa_doc/usa_doc_ca.set")
+	(include "/set/multiplayer/units/usa_doc/usa_doc_d.set")
+	(include "/set/multiplayer/units/usa_doc/usa_doc_et.set")
+	(include "/set/multiplayer/units/usa_doc/usa_doc_hs.set")
+	(include "/set/multiplayer/units/usa_doc/usa_doc_i.set")
+	(include "/set/multiplayer/units/usa_doc/usa_doc_mc.set")
+	(include "/set/multiplayer/units/usa_doc/usa_doc_para.set")
+	(include "/set/multiplayer/units/usa_doc/usa_doc_ta.set")
+	(include "/set/multiplayer/units/usa_doc/usa_doc_td.set")
+	(include "vehicles_x.set")
+}

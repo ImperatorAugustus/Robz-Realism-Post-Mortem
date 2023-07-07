@@ -1,0 +1,15 @@
+{from "90mm_m3"		; "m36 / b1"
+	{rechargeTime 8}
+	{range 240 240}
+	("damage_215" a(172) b(159) c(148) d(137) e(127) range(240))
+	{parameters "apc"
+		("damage_215" a(172) b(159) c(148) d(137) e(127) range(240))
+	}
+	{parameters "hvap"
+       		("damage_215" a(314) b(278) c(246) d(218) e(193) range(240))
+	}
+	{parameters "fg"
+		{range 230 230}
+	}
+	("accuracy_maximum_240m_10m_he")
+}

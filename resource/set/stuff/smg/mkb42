@@ -1,0 +1,22 @@
+{from "pattern smg"
+	{tag "assaultrifle"}
+	{filling "ammo stg44_mag" 30}
+	{mass 5}
+	{entity "mkb42"}
+	{fireSound	"smg/mkb42_burst/"}
+	{reloadSound "mp44"}	
+
+	{range 90 90}
+	{healthDamage 30}
+	{ProjectileDamage 6}
+	{ProjectileDamageClip 5}
+	{projectileDamageTable {30 6} {150 0}}
+	{rechargeTime 4.5}
+	("recoveryTime" r(500))
+	{burst
+		{short 2 0.5}
+		{long 5 0.5}
+	}
+	("accuracy_assault_rifle")
+ 	("speed" s(685))
+}

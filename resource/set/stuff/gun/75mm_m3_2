@@ -1,0 +1,13 @@
+{from "pattern gun2_art"		; "m4a3"
+	{filling "bullet75 us art" 6}
+	{fireSound "gun/50to76_cal/75mm_m3"}
+	{reloadSound "gun_r00"}
+	{rechargeTime 8}
+	{recoveryTime 8}
+	
+	("range_arty_lowarc_low")
+	("speed_lowarc" s(463))
+	{range 340 340}
+	{burst {min 6} {noaiming}}
+	("zeroing_6")
+}

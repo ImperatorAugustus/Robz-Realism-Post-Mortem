@@ -1,0 +1,57 @@
+{breed
+	{skin "ger-zelt-rfl"}
+	{portrait "ger2_elite1"}
+	{icon "rifleman"}
+	{icon_priority 1}
+	{nationality ger}
+	{armors
+		{body ammo_ger3}
+		{head helmet_ger_m40_camo_foliage}
+	}
+	{perks
+		{"health" "200%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "150%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" "mp_soldier"
+		}
+		{"speed" 0.9
+		}
+		{"tank"	0.75
+		}
+		{"vehicle" 1
+		}
+		{"cannon" 0.8
+		}
+		{"pistol" lvl_4
+		}
+		{"smg" lvl_3
+		}
+		{"mgun" lvl_2
+		}
+		{"rifle" lvl_5
+		}
+		{"rocketlauncher" lvl_5
+		}
+		{"melee" lvl_5
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_lvl2")
+	}
+	{inventory
+		{item "mauzer_vet" filled}
+		{item "ammo mauser_clip" 60}
+		{item "ammo mg_mauser drum" 50}
+		{item "bandage" 3}
+		{item "grenade m24" 2}
+		{item "grenade m24x5" 0 1}
+		{item "panzerfaust weapon" 0 1 filled}
+		{in_hands 0}
+	}
+}

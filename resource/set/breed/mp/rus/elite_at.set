@@ -1,0 +1,57 @@
+{breed
+	{skin "rus-mar2-smg"}
+	{portrait "rus_elite1"}
+	{nationality rus}
+	{icon "elite"}
+	{icon_priority 3}
+	{armors
+		{body mochila_urss}
+		{head cap2_rus}
+	}
+	{perks
+		{"health" "200%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "150%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" "mp_soldier"
+		}
+		{"speed" 0.9
+		}
+		{"tank"	0.85
+		}
+		{"vehicle" 1
+		}
+		{"cannon" 0.9
+		}
+		
+		{"pistol" lvl_3
+		}
+		{"smg" lvl_4
+		}
+		{"mgun" lvl_3
+		}
+		{"rifle" lvl_3
+		}
+		{"rocketlauncher" lvl_4
+		}
+		{"melee" lvl_3
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_1")
+	}
+	{inventory
+		{item "weapon bazooka" filled}
+		{item "ppsh" filled}
+		{item "ammo ppsh_mag" 142}
+		{item "bandage" 3}
+		{item "grenade rpg40" 1}
+		{item "ammo bazooka" 7}
+		{in_hands 0}
+	}
+}

@@ -1,0 +1,20 @@
+{from "pattern mgun"
+	{filling "ammo mg_mauser" 250}
+	{entity "mg42"}
+	{fireSound	"mgun/mg42_burst/"}
+	{rechargeTime 12.0}
+
+	{mass 11.5}
+	{traceFreq 5}
+	("recoveryTime" r(1200))
+
+
+	("burst_short")
+
+	("speed" s(740))
+	{Spreading 1
+		;{SpreadXYRatio	50};; over 1 = horizontal spread, under 1 = vertical spread
+		{SpreadPower	1}
+		{BurstAccuracy 100 96 92 88 84 80 75 70 50 30 10}
+	}
+}

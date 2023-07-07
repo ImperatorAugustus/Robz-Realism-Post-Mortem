@@ -1,0 +1,66 @@
+{environment
+	{light
+		{direction -0.313 0.344 -0.886}
+		{ambient 0xff2d2d37}
+		{diffuse 0xff282832}
+		{specular 0xffffffff}
+		{lightsIntensity 0.05}
+		{night_vision 1}
+		{color_correction
+			{brightness 1.1}
+			{contrast 1.2}
+			{saturation 0.7}
+			{tone 0xff000032}
+			{tone_strength 0.1}
+		}
+		{humans_light
+			{user_ambient 0xffffffff}
+			{user_diffuse 0xffffffff}
+			{ally_ambient 0xffffffff}
+			{ally_diffuse 0xffffffff}
+			{enemy_ambient 0xffffffff}
+			{enemy_diffuse 0xffffffff}
+		}
+		{vehicles_light
+			{user_ambient 0xffffffff}
+			{user_diffuse 0xffffffff}
+			{ally_ambient 0xffffffff}
+			{ally_diffuse 0xffffffff}
+			{enemy_ambient 0xffffffff}
+			{enemy_diffuse 0xffffffff}
+		}
+	}
+	{shadow
+		{alpha 0.8}
+		{color 0xff00000a}
+	}
+	{wind
+		{amplitude 2}
+	}
+	{haze
+		{enable}
+		{color 0xfff5ffff}
+		{start 0}
+		{end 5500}
+	}
+	{sky
+		{enable}
+		{texture "/texture/common/environment/morning_01"}
+		{size 1 1}
+		{globalEnvironment "/texture/common/environment/evening_01"}
+	}
+	{weather
+		{enable}
+		{density 50}
+		{fx "snow"}
+		{sound "world/winter/00"}
+	}
+	{thunder
+		{interval 40 15}
+		{color 0xff929292}
+		{sound "world/thunder"}
+	}
+	{video_overlay
+		{color 0xffffffff}
+	}
+}

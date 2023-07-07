@@ -1,0 +1,10 @@
+{from "pattern gun2"		; type96 direct fire
+    	{filling "bullet150 jap"}
+	{fireSound "gun/howitzer/150mm_sfh18"}
+	{reloadSound "gun_r04"}
+	("range_grazing_howitzer")
+	("caliber_maximum")
+	{rechargeTime 20}
+	("speed" s(540))
+}
+

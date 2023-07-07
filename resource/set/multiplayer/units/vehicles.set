@@ -1,0 +1,528 @@
+;----- Vehicles -----
+
+
+
+
+;같컂eneric같�
+
+(define "generic_v_sequence"
+    {charge %c}
+    {score %sc}
+    {tags "%t"}
+    {group "%g"}
+    {button "%b"}
+	{icon %i}
+    {cw %cw}
+    {cp %cp}
+)
+
+(define "generic_v"
+    {charge %c}
+    {score %sc}
+    {tags "%t"}
+    {group "%g"}
+    {button "%b"}
+    {cw %cw}
+    {cp %cp}
+)
+
+(define "generic_h"
+    {charge %c}
+    {tags "%t"}
+    {group "%g"}
+    {button "%b"}
+)
+
+(define "generic_x"
+    {score %sc}
+    {tags "%t"}
+    {cw %cw}
+    {cp %cp}
+)
+
+
+
+;같컂eneric_v같�
+
+
+(define "v_seq"
+    ("generic_v_sequence" c(%c) sc(%sc) t(%t %s) g(%g) b(%b) cw(%cw) cp(%cp) i(%i))
+    {content "* ( mp/%s/tankman:%n1 mp/%s/tankman2:%n2)"}
+)
+(define "v2_seq"
+    ("generic_v_sequence" c(%c) sc(%sc) t(%t %s) g(%g) b(%b) cw(%cw) cp(%cp) i(%i))
+    {content "%v1 ( mp/%s/tankman:%n1 mp/%s/tankman2:%n2) %v2 ( mp/%s/tankman:%n1 mp/%s/tankman2:%n2)"}
+)
+
+(define "v_seq_com"
+    ("generic_v_sequence" c(%c) sc(%sc) t(%t %s) g(%g) b(%b) cw(%cw) cp(%cp) i(%i))
+    {content "* ( mp/%s/tankman2:%n2 mp/%s/tankman:%n1)"}
+)
+(define "v2_seq_com"
+    ("generic_v_sequence" c(%c) sc(%sc) t(%t %s) g(%g) b(%b) cw(%cw) cp(%cp) i(%i))
+    {content "%v1 ( mp/%s/tankman2:%n2 mp/%s/tankman:%n1) %v2 ( mp/%s/tankman2:%n2 mp/%s/tankman:%n1)"}
+)
+
+(define "vs_seq"
+    ("generic_v_sequence" c(%c) sc(%sc) t(%t %s) g(%g) b(%b) cw(%cw) cp(%cp) i(%i))
+    {content "* ( mp/%s/vehicle_supporter:%n )"}
+)
+(define "vs2_seq"
+    ("generic_v_sequence" c(%c) sc(%sc) t(%t %s) g(%g) b(%b) cw(%cw) cp(%cp) i(%i))
+    {content "%v1 ( mp/%s/vehicle_supporter:%n ) %v2 ( mp/%s/vehicle_supporter:%n )"}
+)
+
+; 1 vehicle with tankmen
+(define "v"
+    ("generic_v" c(%c) sc(%sc) t(%t %s) g(%g) b(%b) cw(%cw) cp(%cp))
+    {content "* ( mp/%s/tankman:%n1 mp/%s/tankman2:%n2)"}
+)
+(define "v3_tank"
+    ("generic_v" c(%c) sc(%sc) t(%t %s) g(%g) b(%b) cw(%cw) cp(%cp))
+    {content "* ( mp/%s/%n3 mp/%s/%n1 mp/%s/%n2)"}
+)
+(define "v_com"
+    ("generic_v" c(%c) sc(%sc) t(%t %s) g(%g) b(%b) cw(%cw) cp(%cp))
+    {content "* ( mp/%s/tankman2:%n2 mp/%s/tankman:%n1)"}
+)
+(define "v_vet"
+    ("generic_v" c(%c) sc(%sc) t(%t %s) g(%g) b(%b) cw(%cw) cp(%cp))
+    {content "* ( mp/%s/vet_tankman:%n1 mp/%s/vet_tankman2:%n2)"}
+)
+(define "v_vet_com"
+    ("generic_v" c(%c) sc(%sc) t(%t %s) g(%g) b(%b) cw(%cw) cp(%cp))
+    {content "* ( mp/%s/vet_tankman2:%n2 mp/%s/vet_tankman:%n1)"}
+)
+(define "v_elite"
+    ("generic_v" c(%c) sc(%sc) t(%t %s) g(%g) b(%b) cw(%cw) cp(%cp))
+    {content "* ( mp/%s/elite_tankman:%n1 mp/%s/elite_tankman2:%n2)"}
+)
+; 1 vehicle with tankmen, soviet 1941-1942 define for tank crews
+(define "v_rus41"
+    ("generic_v" c(%c) sc(%sc) t(%t %s) g(%g) b(%b) cw(%cw) cp(%cp))
+    {content "* ( mp/%s/tankman_41:%n1 mp/%s/tankman2_41:%n2)"}
+)
+
+; 1 vehicle with 2 infantry types
+(define "v_1"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "%c1 ( mp/%s/%n1 mp/%s/%n2 )"}
+)
+
+;----------------------- nation doctrine defines ---------------------------
+;------------- RUS --------------
+(define "v_rus"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "%v1 ( mp/rus/tankman:%n1 mp/rus/tankman2:%n2 )"}
+    {info %v1}
+)
+(define "v_rus_guard"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "%v1 ( mp/rus/vet_tankman:%n1 mp/rus/vet_tankman2:%n2 )"}
+    {info %v1}
+)
+(define "vs_rus"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "%v1 ( mp/rus/vehicle_supporter:%n )"}
+    {info %v1}
+)
+(define "vs_rus_noinfo"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "%v1 ( mp/rus/vehicle_supporter:%n )"}
+)
+(define "vs_rus_guard"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "%v1 ( mp/rus/guard_vehicle_supporter:%n )"}
+    {info %v1}
+)
+
+;------------- RUS Guard --------------
+(define "v_rus_g"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "%v1 ( mp/rus_guard/tankman:%n1 mp/rus_guard/tankman2:%n2 )"}
+    {info %v1}
+)
+(define "vs_rus_g"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "%v1 ( mp/rus_guard/vehicle_supporter:%n )"}
+    {info %v1}
+)
+(define "vs_rus_g_noinfo"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "%v1 ( mp/rus_guard/vehicle_supporter:%n )"}
+)
+
+;------------- USA --------------
+(define "v_usa"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "%v1 ( mp/usa/tankman:%n1 mp/usa/tankman2:%n2 )"}
+    {info %v1}
+)
+(define "v_usa_5x"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "%v1 ( mp/usa/tankman:%n1 mp/usa/tankman2:%n2 ) %v2 ( mp/usa/tankman:%n1 mp/usa/tankman2:%n2 ) %v3 ( mp/usa/tankman:%n1 mp/usa/tankman2:%n2 ) %v4 ( mp/usa/tankman:%n1 mp/usa/tankman2:%n2 ) %v5 ( mp/usa/tankman:%n1 mp/usa/tankman2:%n2 )"}
+)
+(define "v_usa_vet"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "%v1 ( mp/usa/vet_tankman:%n1 mp/usa/vet_tankman2:%n2 )"}
+    {info %v1}
+)
+(define "v_usa_elite"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "%v1 ( mp/usa/elite_tankman:%n1 mp/usa/elite_tankman2:%n2 )"}
+    {info %v1}
+)
+(define "vs_usa"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "%v1 ( mp/usa/vehicle_supporter:%n )"}
+    {info %v1}
+)
+(define "vs_usa_noinfo"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "%v1 ( mp/usa/vehicle_supporter:%n )"}
+)
+(define "vs_usa_para"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "%v1 ( mp/usa/elite_101st_para:%n )"}
+    {info %v1}
+)
+(define "vs_usa_para_noinfo"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "%v1 ( mp/usa/elite_101st_para:%n )"}
+)
+(define "vs_usa_tow"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "%v1 ( mp/usa/vehicle_supporter:%n ) %v2 ( mp/usa/vehicle_supporter:2 )"}
+    {info %v2}
+)
+;------------- WEHRMACHT --------------
+; 1 vehicle with tankmen for wehrmacht, doctrines
+(define "v_ger"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "%v1 ( mp/ger/tankman:%n1 mp/ger/tankman2:%n2 )"}
+    {info %v1}
+)
+(define "v_ger_2x"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "%v1 ( mp/ger/tankman:%n1 mp/ger/tankman2:%n2 ) %v1 ( mp/ger/tankman:%n1 mp/ger/tankman2:%n2 )"}
+    {info %v1}
+)
+; 1 vehicle with veteran tankmen for wehrmacht, doctrines
+(define "v_ger_vet"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "%v1 ( mp/ger/vet_tankman:%n1 mp/ger/vet_tankman2:%n2 )"}
+    {info %v1}
+)
+; 1 vehicle with supporters for wehrmacht, doctrines
+(define "vs_ger"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "%v1 ( mp/ger/vehicle_supporter:%n )"}
+    {info %v1}
+)
+(define "vs_ger_luft"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "%v1 ( mp/ger/fallschirm_rifle:%n )"}
+    {info %v1}
+)
+(define "vs_ger_luft_noinfo"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "%v1 ( mp/ger/fallschirm_rifle:%n )"}
+)
+(define "vs_ger_noinfo"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "%v1 ( mp/ger/vehicle_supporter:%n )"}
+)
+; gun with tow vehicle for wehrmacht, doctrines
+(define "vs_ger_tow"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "%v1 ( mp/ger/vehicle_supporter:%n ) %v2 ( mp/ger/vehicle_supporter:2 )"}
+    {info %v2}
+)
+(define "vs_ger_tow_noinfo"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "%v1 ( mp/ger/vehicle_supporter:%n ) %v2 ( mp/ger/vehicle_supporter:2 )"}
+)
+
+;------------------------------------------------------------------------
+; 1 vehicle with tankmen, for SS nation due to copying of vehicles, works for other nations too
+(define "v_ss"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "%v1 ( mp/%s/tankman:%n1 mp/%s/tankman2:%n2 )"}
+    {info %v1}
+)
+(define "v_ss_helmetbois"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "%v1 ( mp/%s/vehicle_supporter:%n"}
+    {info %v1}
+)
+(define "v_ss_com"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "%v1 ( mp/%s/tankman2:%n2 mp/%s/tankman:%n1 )"}
+    {info %v1}
+)
+; 1 vehicle with supporters, russian 1941-1942 define for gun crews
+(define "vs_rus41"
+    ("generic_v" c(%c) sc(%sc) t(%t %s) g(%g) b(%b) cw(%cw) cp(%cp))
+    {content "* ( mp/%s/vehicle_supporter_41:%n )"}
+)
+; 1 vehicle with supporters, british 1940-1941 define for gun crews
+(define "vs_eng40"
+    ("generic_v" c(%c) sc(%sc) t(%t %s) g(%g) b(%b) cw(%cw) cp(%cp))
+    {content "* ( mp/%s/vehicle_supporter_40:%n )"}
+)
+
+; 1 vehicle with supporters
+(define "vs"
+    ("generic_v" c(%c) sc(%sc) t(%t %s) g(%g) b(%b) cw(%cw) cp(%cp))
+    {content "* ( mp/%s/vehicle_supporter:%n )"}
+)
+
+; 1 vehicle with supporters, for SS nation due to copying of vehicles
+(define "vs_ss"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "%v1 ( mp/%s/vehicle_supporter:%n )"}
+    {info %v1}
+)
+(define "light_mortar"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content " mp/%s/light_mortar:1 mp/%s/light_mortar2:2 "}
+)
+
+
+; 1 vehicle with supporters, for SS nation due to copying of vehicles, without info cus the game is gay
+(define "vs_ss_noinfo"				;starting entity name with number makes the game crash, ffs
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "%v1 ( mp/%s/vehicle_supporter:%n )"}
+)
+
+;같컂eneric_h같�
+
+; 1 infantry types
+(define "i1"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "mp/%s/%n1"}
+)
+
+; 2 infantry types
+(define "i2"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "mp/%s/%n1 mp/%s/%n2"}
+)
+
+; 3 infantry types
+(define "i3"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "mp/%s/%n1 mp/%s/%n2 mp/%s/%n3"}
+)
+
+(define "i4"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "mp/%s/%n1 mp/%s/%n2 mp/%s/%n3 mp/%s/%n4"}
+)
+
+; 1 vehicle - 0 infantry types
+(define "v0"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "%c1 ( mp/%s/%n1 )"}
+)
+
+; 5 vehicles - 1 infantry types
+(define "v51"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "%c1 ( mp/%s/%n1 ) %c1 ( mp/%s/%n1 ) %c2 ( mp/%s/%n1 ) %c2 ( mp/%s/%n1 ) %c3 ( mp/%s/%n1 )"}
+)
+
+; 4 vehicles - 1 infantry types
+(define "v41"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "%c1 ( mp/%s/%n1 ) %c1 ( mp/%s/%n1 ) %c2 ( mp/%s/%n1 ) %c2 ( mp/%s/%n1 )"}
+)
+
+; 2 vehicles - 2 infantry types
+(define "2v"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "%c1 ( mp/%s/%n1 ) %c2 ( mp/%s/%n2 )"}
+)
+
+; 1 vehicle - 2 infantry types
+(define "v1"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "%c1 ( mp/%s/%n1 mp/%s/%n2 )"}
+)
+
+; 2 vehicle - 2 infantry types
+(define "v2"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "%c1 ( mp/%s/%n1 mp/%s/%n2 ) %c1 ( mp/%s/%n1 mp/%s/%n2 )"}
+)
+
+; 2 vehicle - 3 infantry types
+(define "v23"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "%c1 ( mp/%s/%n1 mp/%s/%n2 mp/%s/%n3 ) %c1 ( mp/%s/%n1 mp/%s/%n2 mp/%s/%n3 )"}
+)
+
+; 3 vehicle - 1 infantry types
+(define "v31"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "%c1 ( mp/%s/%n ) %c1 ( mp/%s/%n ) %c1 ( mp/%s/%n )"}
+)
+
+; 3 vehicle - 2 infantry types
+(define "v32"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "%c1 ( mp/%s/%n1 mp/%s/%n2 ) %c1 ( mp/%s/%n1 mp/%s/%n2 ) %c1 ( mp/%s/%n1 mp/%s/%n2 )"}
+)
+
+; 3 different vehicle - 2 infantry types
+(define "v32_eng"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "%v1 ( mp/%s/%n1 mp/%s/%n2 ) %v2 ( mp/%s/%n1 mp/%s/%n2 ) %v3 ( mp/%s/%n1 mp/%s/%n2 )"}
+)
+
+; 1 vehicle - 3 infantry types
+(define "v3"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "%c1 ( mp/%s/%n1 mp/%s/%n2 mp/%s/%n3 )"}
+)
+
+; 1 vehicle - 4 infantry types
+(define "v4"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "%c1 ( mp/%s/%n1 mp/%s/%n2 mp/%s/%n3 mp/%s/%n4 )"}
+)
+
+
+; 6 vehicles, 2x3 types - 1 infantry types
+(define "v331"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "%c1 ( mp/%s/%n ) %c1 ( mp/%s/%n ) %c1 ( mp/%s/%n ) %c2 ( mp/%s/%n ) %c2 ( mp/%s/%n ) %c2 ( mp/%s/%n )"}
+)
+
+; 2 halftrack - guards squads
+(define "guard_mech"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "%v1 ( mp/%s/vehicle_supporter:1 mp/%s/%c1 mp/%s/%c2 mp/%s/%c3 mp/%s/%c4 mp/%s/%c5 mp/%s/%c6) %v1 ( mp/%s/vehicle_supporter:1 mp/%s/%c1 mp/%s/%c2 mp/%s/%c3 mp/%s/%c4 mp/%s/%c5 mp/%s/%c6)"}
+)
+
+;new formation defines---------------------------------------------------------------------------####################################################################
+; US mech platoon
+(define "arm_mech_us"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+					;rifle		;sl		;grenadier	;bar	;sniper														;rifle
+    {content "%v1 ( mp/%s/%n1 mp/%s/%n2 mp/%s/%n3 mp/%s/%n4 mp/%s/%n5 ) %v1 ( mp/%s/%n1 mp/%s/%n2 mp/%s/%n3 mp/%s/%n4 mp/%s/%n6 ) %v1 ( mp/%s/%n1 mp/%s/%n2 mp/%s/%n3 mp/%s/%n4 mp/%s/%n6 ) %c1 ( mp/%s/vehicle_supporter:2 ) %c1 ( mp/%s/vehicle_supporter:2 ) %c2 ( mp/%s/vehicle_supporter:1 )"}
+)
+; weapons platoon
+(define "us_weapon"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "%c1 ( mp/%s/%n:2 ) %c1 ( mp/%s/%n:2 ) %c2 ( mp/%s/%n:1 ) %c2 ( mp/%s/%n:1 ) %c2 ( mp/%s/%n:1 ) %c3 ( mp/%s/%n:2 ) %c3 ( mp/%s/%n:2 )"}
+)
+; 3 tanks - 2 infantry types
+(define "v3-tank"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "%v1 ( mp/%s/tankman:%n1 mp/%s/tankman2:%n2 ) %v1 ( mp/%s/tankman:%n1 mp/%s/tankman2:%n2 ) %v1 ( mp/%s/tankman:%n1 mp/%s/tankman2:%n2 )"}
+)
+; 4 tanks - 2 infantry types
+(define "v4-tank"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "%v1 ( mp/%s/tankman:%n1 mp/%s/tankman2:%n2 ) %v1 ( mp/%s/tankman:%n1 mp/%s/tankman2:%n2 ) %v1 ( mp/%s/tankman:%n1 mp/%s/tankman2:%n2 ) %v1 ( mp/%s/tankman:%n1 mp/%s/tankman2:%n2 )"}
+)
+; 5 tanks - 2 infantry types
+(define "v5-tank"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "%v1 ( mp/%s/tankman:%n1 mp/%s/tankman2:%n2 ) %v1 ( mp/%s/tankman:%n1 mp/%s/tankman2:%n2 ) %v1 ( mp/%s/tankman:%n1 mp/%s/tankman2:%n2 ) %v1 ( mp/%s/tankman:%n1 mp/%s/tankman2:%n2 ) %v1 ( mp/%s/tankman:%n1 mp/%s/tankman2:%n2 )"}
+)
+
+; mech AT, 2 vehicle/guns- 2 infantry types
+(define "mech_at-2"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "%v1 ( mp/%s/%n1 mp/%s/%n2 ) %v1 ( mp/%s/%n1 mp/%s/%n2 ) %v2 ( mp/%s/%n1 ) %v2 ( mp/%s/%n1 )"}
+)
+; mech AT, 3 vehicle/guns- 2 infantry types
+(define "mech_at-3"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "%v1 ( mp/%s/%n1 mp/%s/%n2 ) %v1 ( mp/%s/%n1 mp/%s/%n2 ) %v1 ( mp/%s/%n1 mp/%s/%n2 ) %v2 ( mp/%s/%n1 ) %v2 ( mp/%s/%n1 ) %v2 ( mp/%s/%n1 )"}
+)
+
+; arty btry 4 guns, 2 vehicles - 1 infantry types
+(define "battery22"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "%c1 ( mp/%s/vehicle_supporter:2 ) %c1 ( mp/%s/vehicle_supporter:2 ) %v1 ( mp/%s/vehicle_supporter:2 ) %v1 ( mp/%s/vehicle_supporter:2 )"}
+)
+; arty btry 4 guns, 2 vehicles - 1 infantry types
+(define "battery42"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "%c1 ( mp/%s/vehicle_supporter:2 ) %c1 ( mp/%s/vehicle_supporter:2 ) %c1 ( mp/%s/vehicle_supporter:2 ) %c1 ( mp/%s/vehicle_supporter:2 ) %v1 ( mp/%s/vehicle_supporter:2 ) %v1 ( mp/%s/vehicle_supporter:2 )"}
+)
+; arty btry 4 guns, 4 vehicles - 1 infantry types
+(define "battery44"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "%c1 ( mp/%s/vehicle_supporter:2 ) %c1 ( mp/%s/vehicle_supporter:2 ) %c1 ( mp/%s/vehicle_supporter:2 ) %c1 ( mp/%s/vehicle_supporter:2 ) %v1 ( mp/%s/vehicle_supporter:2 ) %v1 ( mp/%s/vehicle_supporter:2 ) %v1 ( mp/%s/vehicle_supporter:2 ) %v1 ( mp/%s/vehicle_supporter:2 )"}
+)
+; US TD platoon - 2 infantry types
+(define "us-td"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "%v1 ( mp/%s/tankman:%n1 mp/%s/tankman2:%n2 ) %v1 ( mp/%s/tankman:%n1 mp/%s/tankman2:%n2 ) %v1 ( mp/%s/tankman:%n1 mp/%s/tankman2:%n2 ) %v1 ( mp/%s/tankman:%n1 mp/%s/tankman2:%n2 ) %v2 ( mp/%s/vehicle_supporter:%n3 ) %v2 ( mp/%s/vehicle_supporter:%n3 )"}
+)
+
+; 5 4/1 tanks - 2 infantry types
+(define "v5_4-1-tank"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "%v1 ( mp/%s/tankman:%n1 mp/%s/tankman2:%n2 ) %v1 ( mp/%s/tankman:%n1 mp/%s/tankman2:%n2 ) %v1 ( mp/%s/tankman:%n1 mp/%s/tankman2:%n2 ) %v1 ( mp/%s/tankman:%n1 mp/%s/tankman2:%n2 ) %v2 ( mp/%s/tankman:%n1 mp/%s/tankman2:%n2 )"}
+)
+; 5 3/2 tanks - 2 infantry types
+(define "v5_3-2-tank"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "%v1 ( mp/%s/tankman:%n1 mp/%s/tankman2:%n2 ) %v1 ( mp/%s/tankman:%n1 mp/%s/tankman2:%n2 ) %v1 ( mp/%s/tankman:%n1 mp/%s/tankman2:%n2 ) %v2 ( mp/%s/tankman:%n1 mp/%s/tankman2:%n2 ) %v2 ( mp/%s/tankman:%n1 mp/%s/tankman2:%n2 )"}
+)
+; 10 tanks 7/3 - 2 infantry types
+(define "v15_10-5-tank"
+   ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+   {content "%v1 ( mp/%s/%n1:4 mp/%s/%n2:1 ) %v1 ( mp/%s/%n1:4 mp/%s/%n2:1 ) %v1 ( mp/%s/%n1:4 mp/%s/%n2:1 ) %v1 ( mp/%s/%n1:4 mp/%s/%n2:1 ) %v1 ( mp/%s/%n1:4 mp/%s/%n2:1 ) %v1 ( mp/%s/%n1:4 mp/%s/%n2:1 ) %v2 ( mp/%s/%n1:3 mp/%s/%n2:1 ) %v2 ( mp/%s/%n1:3 mp/%s/%n2:1 ) %v2 ( mp/%s/%n1:3 mp/%s/%n2:1 ) %v2 ( mp/%s/%n1:3 mp/%s/%n2:1 ) %v3 ( mp/%s/%n1:3 mp/%s/%n2:1 ) %v3 ( mp/%s/%n1:3 mp/%s/%n2:1 ) %v4 ( mp/%s/%n1:4 mp/%s/%n2:1 ) %v4 ( mp/%s/%n1:4 mp/%s/%n2:1 ) %v4 ( mp/%s/%n1:4 mp/%s/%n2:1 )"}
+)
+
+;(define "v10_7-3-tank"
+;   ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+;   {content "%v1 ( mp/%s/%n1 mp/%s/%n2 ) %v1 ( mp/%s/%n1 mp/%s/%n2 ) %v1 ( mp/%s/%n1 mp/%s/%n2 ) %v1 ( mp/%s/%n1 mp/%s/%n2 ) %v1 ( mp/%s/%n1 mp/%s/%n2 ) %v1 ( mp/%s/%n1 mp/%s/%n2 ) %v1 ( mp/%s/%n1 mp/%s/%n2 ) %v2 ( mp/%s/%n1 mp/%s/%n2 ) %v2 ( mp/%s/%n1 mp/%s/%n2 ) %v2 ( mp/%s/%n1 mp/%s/%n2 )"}
+;)
+
+;같컂eneric_x같�
+
+; extra unit
+(define "extra"
+    ("generic_x" sc(%sc) t(%t %s) cw(%cw) cp(%cp))
+)
+
+
+
+;같캦owitzer같�
+
+; 1 howitzer
+(define "how"
+	{"%name(%side)"
+   		{charge %c}
+		{content "%c2 ( mp/%side/vehicle_supporter:2 )"} ;%c1 ( mp/%side/vehicle_supporter:2 )
+		{tags "%side %t"}
+		{group "%g"}
+		{button "%b"}
+		{level %level}
+		{cost %cost}
+		{fore %f}
+		{info %c2}
+	}
+)
+
+; 2 howitzers
+(define "how2"
+	{"%name"
+   		{charge %c}
+		{content "%c1 ( mp/%side/vehicle_supporter:2 ) %c2 ( mp/%side/vehicle_supporter:2 ) %c1 ( mp/%side/vehicle_supporter:2 ) %c2 ( mp/%side/vehicle_supporter:2 )"}
+		{tags "%side %t"}
+		{group "%g"}
+		{button "%b"}
+		{level %level}
+		{cost %cost}
+		{fore %f}
+		{info %info}
+	}
+)

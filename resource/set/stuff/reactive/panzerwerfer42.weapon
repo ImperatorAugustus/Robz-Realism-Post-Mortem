@@ -1,0 +1,13 @@
+{weapon_bullet
+	{tag "gun"}
+	{filling "ammo nebel41" 10}
+	{fireSound "reactive/nebelwerfer_real"}
+
+	{recoveryTime 0.50}
+	("heavy_artillery")	
+	{aimtype direct}	
+	{gravity 3}
+	{range 310 310}
+	{burst {min 10} {noaiming}}
+	{rechargeTime 240}
+}

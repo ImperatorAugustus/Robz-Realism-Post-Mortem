@@ -1,0 +1,143 @@
+{"smg" from weapon
+	{item "smg"}
+	{level "lvl_1"
+		{stand
+			{accuracy 0.70}
+		}
+		{squat
+			{accuracy 0.80}
+		}
+		{crawl
+			{accuracy 0.90}
+		}
+		{cover
+			{accuracy 1.00}
+		}
+	}
+	{level "lvl_2"
+		{stand
+			{accuracy 0.80}
+		}
+		{squat
+			{accuracy 0.90}
+		}
+		{crawl
+			{accuracy 1.15}
+		}
+		{cover
+			{accuracy 1.25}
+		}
+	}
+	{level "lvl_3"
+		{stand
+			{accuracy 0.90}
+		}
+		{squat
+			{accuracy 1.05}
+		}
+		{crawl
+			{accuracy 1.275}
+		}
+		{cover
+			{accuracy 1.375}
+		}
+	}
+	{level "lvl_4"
+		{stand
+			{accuracy 1.00}
+		}
+		{squat
+			{accuracy 1.20}
+		}
+		{crawl
+			{accuracy 1.40}
+		}
+		{cover
+			{accuracy 1.50}
+		}
+	}
+	{level "lvl_5"
+		{stand
+			{accuracy 1.225}
+		}
+		{squat
+			{accuracy 1.425}
+		}
+		{crawl
+			{accuracy 1.625}
+		}
+		{cover
+			{accuracy 1.725}
+		}
+	}
+	{level "lvl_6"
+		{stand
+			{accuracy 1.36}
+		}
+		{squat
+			{accuracy 1.56}
+		}
+		{crawl
+			{accuracy 1.76}
+		}
+		{cover
+			{accuracy 1.86}
+		}
+	}
+	{level "lvl_7"
+		{stand
+			{accuracy 1.50}
+		}
+		{squat
+			{accuracy 1.70}
+		}
+		{crawl
+			{accuracy 1.90}
+		}
+		{cover
+			{accuracy 2.00}
+		}
+	}
+	{level "lvl_8"
+		{stand
+			{accuracy 1.63}
+		}
+		{squat
+			{accuracy 1.83}
+		}
+		{crawl
+			{accuracy 2.03}
+		}
+		{cover
+			{accuracy 2.13}
+		}
+	}
+	{level "lvl_9"
+		{stand
+			{accuracy 1.77}
+		}
+		{squat
+			{accuracy 1.97}
+		}
+		{crawl
+			{accuracy 2.17}
+		}
+		{cover
+			{accuracy 2.27}
+		}
+	}
+	{level "lvl_10"
+		{stand
+			{accuracy 1.90}
+		}
+		{squat
+			{accuracy 2.10}
+		}
+		{crawl
+			{accuracy 2.30}
+		}
+		{cover
+			{accuracy 2.40}
+		}
+	}
+}

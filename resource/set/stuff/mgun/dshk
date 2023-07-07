@@ -1,0 +1,36 @@
+{from "pattern mgun"
+	{tag "itemin2hands"}
+	{filling "ammo dshk_belt" 50}
+	{entity "dshk"}
+	{fireSound	"mgun/dshk_burst/"}
+	{reloadSound "ptrd"}
+	{inventory
+		{size 6 2 }
+	}
+	("burst_long")
+	{cursor "zenite_on"}
+	{cursorReloading "zenite_reload"}
+	{mass 34}	
+
+	{traceFreq 4}
+	{range 150 150}
+
+	("recoveryTime" r(600))
+	{rechargeTime 8.0}
+	
+	{healthDamage 75}
+	{projectileDamage 27}
+	{projectileDamageTable {0 21} {62.5 15} {125 9} {187.5 6} {250 5}}
+	{projectileDamageThreshold 1.1}
+	{calibre 12}
+	{parameters "ap"
+		{projectileDamageTable {0 27} {62.5 17} {125 11} {187.5 7} {250 6}}
+	}
+	
+	("accuracy_dshk")
+	("speed" s(850))
+	{Spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 95 90 85 80 70 55 40 10}
+	}
+}

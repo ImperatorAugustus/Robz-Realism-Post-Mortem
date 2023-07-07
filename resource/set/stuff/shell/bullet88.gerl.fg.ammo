@@ -1,0 +1,10 @@
+{from "pattern fg"
+	{tag "big" "size_small"}
+	{inventory
+		{size 6 1}
+	}
+	("fg" args 5.8)
+	("ger_he" args 0.9)
+	{mass 16}
+	{entity "shell_fg_88_kwk43"}
+}

@@ -1,0 +1,18 @@
+{from "75mm_pak39"		; "stug_3g"
+	{rechargeTime 4.9}
+	("accuracy_high_220m_vet")
+	{range 220 220}
+	("damage_215" a(135) b(123) c(109) d(97) e(86) range(220))
+	{parameters "apc"
+		("damage_215" a(135) b(123) c(109) d(97) e(86) range(220))
+	}
+	{parameters "heatb"
+		("damage_heat" a(87) range(220))
+	}
+	{parameters "heatc"
+		("damage_heat" a(100) range(220))
+	}
+	{parameters "apcr"
+        	("damage_215" a(176) b(154) c(130) d(109) e(92) range(220))
+	}
+}

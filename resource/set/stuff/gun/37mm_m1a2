@@ -1,0 +1,19 @@
+{from "pattern gun"			; 37mm_m1a2
+	{filling "bullet37 us zenite" 4}
+	{fireSound "gun/37mm_61-k"}
+	{RecoveryTime 0.303}
+	{RechargeTime 3}
+	{reloadSound "61k_reload"}
+	{Automatic}
+	{burst
+		{short 2.5 1}
+		{long 7 2}
+	}	
+	("speed" s(625))
+	("caliber_minimum")
+	("range_zenite_long")
+	{projectileDamage 45}
+	("damage_170" a(45) b(27) c(17) d(15) e(14) range(170))
+
+	{RelaxationTime 0}
+}

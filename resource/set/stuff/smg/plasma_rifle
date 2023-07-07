@@ -1,0 +1,20 @@
+{from "pattern smg"
+	{filling "ammo plasma" 42}
+	{mass 5}
+	{entity "plasma_rifle"}
+	{fireSound	"smg/plasma-rifle_burst/"}
+	{reloadSound "mp44"}
+
+	{traceFreq 1}
+	{projectileDamageTable {25 12} {100 5}}
+
+	{range 90 100}
+	{healthDamage 70}
+	("recoveryTime" r(650))
+	("burst_short")
+	("accuracy_carabine")
+ 	("speed" s(450))
+	{parameters "plasma laser"
+		{range 110 120}
+	}
+}

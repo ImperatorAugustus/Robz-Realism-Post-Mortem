@@ -1,0 +1,18 @@
+{from "pattern mgun"
+	{filling "ammo springfield_belt" 250}
+	{entity "browningm1919a4"}
+	{fireSound	"mgun/1919_burst/"}
+	{inventory 	{handle_bone "handle_box"}}
+	{range 150 150}
+	("spread_optic")
+	{rechargeTime 12}
+	{mass 14}
+	("recoveryTime" r(600))
+	("burst_long")
+	("speed" s(853))
+	("accuracy_mgun_tank")
+	{Spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 97 94 91 88 85 82 75 70 50 30}
+	}
+}

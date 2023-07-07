@@ -1,0 +1,16 @@
+{from "pattern mgun"
+	{filling "ammo type92_strip" 30}
+	{entity "type1hmg"}
+	{fireSound	"mgun/type_92_hmg_burst/"}
+
+	{rechargeTime 1.5}
+	("recoveryTime" r(450))
+	("burst_long")
+	("speed" s(790))
+	{Spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 97.5 95 92.5 90 85 80 70 50 20}
+	}
+	{range 150 150}
+	("accuracy_mgun_mount")
+}

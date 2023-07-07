@@ -1,0 +1,9 @@
+{from "pattern apc"
+	{tag "big" "size_small" "shell_medium_no_filler" "pierce"}
+	{inventory
+		{size 5 1}
+	}
+	{mass 12.2}
+	("us" args 0.8)
+	{entity "shell_eng_apc_76"}
+}

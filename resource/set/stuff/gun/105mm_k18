@@ -1,0 +1,23 @@
+{from "pattern gun"		; "dickermax"
+	{filling "bullet105 ger"}
+	{fireSound "gun/howitzer/105mm_k18"}
+	{rechargeTime 16}	    
+	("range_long")
+
+	{range 230 230}
+	("caliber_large")
+	("speed" s(835))
+	{projectileDamage 152}	
+	("damage_215" a(206) b(179) c(156) d(136) e(118) range(230))
+	{parameters "apc"
+        	("damage_215" a(206) b(179) c(156) d(136) e(118) range(230))
+	}
+	{parameters "heat"
+        	("damage_heat" a(110) range(210))
+		{range 210 210}
+	}
+	{parameters "fg"
+		{range 210 210}
+	}
+	("accuracy_maximum")
+}

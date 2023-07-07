@@ -1,0 +1,11 @@
+{from "pattern rpg_weapon"
+	{filling "ammo bazooka" 1}
+	{entity "bazooka"}
+    	{projectileDamageTable {0 100} {75 100} {80 0}}
+	{fireSound "reactive/bazooka_launch/"}
+	("speed" s(105))
+	{parameters "wp"
+		{cursor "cannon_on_sm"}
+		{cursorReloading "cannon_reload_wp"}
+	}
+}

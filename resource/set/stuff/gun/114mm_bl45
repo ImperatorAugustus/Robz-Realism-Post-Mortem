@@ -1,0 +1,11 @@
+{from "pattern gun_art"      ; bl45
+	{filling "bullet114 eng" 4}
+	{fireSound "gun/howitzer/105mm_m2a1"}
+	{reloadSound "tankgun_r04"}
+	("range_medium_howitzer")
+	("caliber_maximum")
+	{recoveryTime 14}
+	{rechargeTime 14}
+	; anti-personel
+	{range 600 600}
+}

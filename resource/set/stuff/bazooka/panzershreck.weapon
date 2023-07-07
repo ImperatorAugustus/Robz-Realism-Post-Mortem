@@ -1,0 +1,8 @@
+{from "pattern rpg_weapon"
+	{filling "ammo panzershreck" 1}
+	{entity "panzershreck"}
+    	{projectileDamageTable {0 160} {75 160} {80 0}}
+	{fireSound "reactive/bazooka_launch/"}
+	("speed" s(130))
+}
+

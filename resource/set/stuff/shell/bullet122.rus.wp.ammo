@@ -1,0 +1,21 @@
+{from "pattern wp"
+	{tag "wp_medium" "big" "size_medium" "shell_big"}
+	{inventory
+		{size 6 1}
+	}
+	{mass 24}
+	
+	{damage fire
+		{radius 10}
+		{heating 0.5}
+		{time 0.2}
+	}
+	{entity "shell_sm_122"}
+	{trace
+		{view "/texture/fx/trace"
+			{Light 0}
+			{ScaleY 0}
+		}		
+		{length 0}
+	}
+}

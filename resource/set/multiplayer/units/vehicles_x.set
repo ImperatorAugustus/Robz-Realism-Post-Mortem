@@ -1,0 +1,101 @@
+;----- Extra -----
+
+{"airborne_spawner" 		("extra" t() sc(0) cw(0) cp(0))}
+{"airborne_spawner_m1_57mm"	("extra" t() sc(0) cw(0) cp(0))}
+;같컃eroes같�													; 150 MP
+
+{"black_prince"  		("extra" t() sc(67.50) cw(0) cp(40))}	;9
+{"staghound_e1"  		("extra" t() sc(15.00) cw(0) cp(5))}	;9
+{"wasp"  				("extra" t() sc(5.00) cw(0) cp(5))}	;9
+
+
+{"sdkfz303"        		("extra" t() sc(0.00) cw(0) cp(0))}		;0
+{"veteran_tiger"        ("extra" t() sc(72.50) cw(0) cp(30))}	;7
+{"pz6e_ace"        		("extra" t() sc(80.00) cw(0) cp(30))}	;7
+{"pz5g_veteran"        	("extra" t() sc(85.00) cw(0) cp(30))}	;7
+{"pz5g_ace"        		("extra" t() sc(100.00) cw(0) cp(30))}	;7
+{"jagdpanther_vet"     	("extra" t() sc(100.00) cw(0) cp(30))}	;7
+{"sturmtiger"        	("extra" t() sc(80.00) cw(0) cp(30))}	;10
+{"pz6bh_ace"     		("extra" t() sc(175.00) cw(0) cp(70))}	;10
+
+{"ho-ni_3"        		("extra" t() sc(18.00) cw(0) cp(10))}	;2
+{"type_97_150mm"        ("extra" t() sc(29.50) cw(0) cp(15))}	;3
+{"chi-ha120"        	("extra" t() sc(25.00) cw(0) cp(15))}	;3
+{"type4_75mm_elite"     ("extra" t() sc(30.00) cw(0) cp(10))}	;5
+{"type4_200mm"        	("extra" t() sc(30.00) cw(0) cp(15))}	;5
+{"ho-ri"        		("extra" t() sc(50.00) cw(0) cp(25))}	;9
+{"chi_to_2"        		("extra" t() sc(28.75) cw(0) cp(20))}	;9
+
+{"m4a3e8_fury"      	("extra" t() sc(40.00) cw(0) cp(20))}	;6
+{"m36_vet"      		("extra" t() sc(52.50) cw(0) cp(20))}	;6
+{"m4a3e2_jumbo_76_vet"  ("extra" t() sc(70.00) cw(0) cp(30))}	;6
+{"m26_pershing_vet"     ("extra" t() sc(87.50) cw(0) cp(30))}	;6
+
+{"m4a4_firefly_tulip"   ("extra" t() sc(60.00) cw(0) cp(20))}	;6
+{"m4a4_firefly_vet"    	("extra" t() sc(50.00) cw(0) cp(20))}	;6
+
+{"pm_38_vet"    		("extra" t() sc(35.00) cw(0) cp(10))}	;13
+{"t34_3_elite"    		("extra" t() sc(40.00) cw(0) cp(15))}	;8
+{"is2_elite"    		("extra" t() sc(110.00) cw(0) cp(50))}	;20
+
+
+{"raketenwerfer"		("extra" t() sc(10.00) cw(0) cp(5))}
+{"np_sdkfz251_16"    	("extra" t() sc(10.00) cw(0) cp(5))}	;2
+{"sdkfz234_3"			("extra" t() sc(17.50) cw(0) cp(10))}	;2
+{"sdkfz250_11"			("extra" t() sc(7.50) cw(0) cp(5))}		;0
+{"sdkfz234_4"			("extra" t() sc(25.00) cw(0) cp(10))}	;3
+{"t34_3_ger2"			("extra" t() sc(30.00) cw(0) cp(15))}	;3
+{"swg41"				("extra" t() sc(45.00) cw(0) cp(15))}	;5
+{"sdkfz8"				("extra" t() sc(40.00) cw(0) cp(15))}	;7
+{"brummbar"				("extra" t() sc(50.00) cw(0) cp(30))}	;6
+{"jagdtiger_ger2"		("extra" t() sc(135.00) cw(0) cp(50))}	;10
+
+{"pz3_l"			("extra" t() sc(18.00) cw(0) cp(15))}
+{"stug4g_vet"		("extra" t() sc(40.00) cw(0) cp(15))}
+{"stug3g_ace"		("extra" t() sc(45.00) cw(0) cp(15))}
+;random shit
+
+
+;같캚rtillery같�
+
+{"vickers"  			("extra" t() sc(30.00) cw(0) cp(10))}
+{"pdr25"  			("extra" t() sc(20.00) cw(0) cp(15))}
+{"pdr25_vet"  			("extra" t() sc(20.00) cw(0) cp(15))}
+{"bl45"  			("extra" t() sc(32.50) cw(0) cp(15))}
+{"bl6"  			("extra" t() sc(32.50) cw(0) cp(20))}
+{"bl72"  			("extra" t() sc(55.00) cw(0) cp(25))}
+{"land_mattress"  		("extra" t() sc(37.50) cw(0) cp(20))}
+
+{"flak36a"  			("extra" t() sc(35) cw(0) cp(15))}
+{"lefh18"  			("extra" t() sc(25) cw(0) cp(15))}
+{"sfh18"  			("extra" t() sc(37.5) cw(0) cp(20))}
+{"morser18"  			("extra" t() sc(57.5) cw(0) cp(25))}
+{"steyr_rso"  			("extra" t() sc(1.00) cw(0) cp(0))}
+
+{"type4_75mm"  			("extra" t() sc(30.00) cw(0) cp(10))}
+{"t91_105m"  			("extra" t() sc(25.00) cw(0) cp(15))}
+{"type96_150mm"  		("extra" t() sc(35.00) cw(0) cp(20))}
+
+{"k61"  			("extra" t() sc(12.50) cw(0) cp(10))}
+{"m30_1938"  			("extra" t() sc(30.00) cw(0) cp(15))}
+{"d1"  				("extra" t() sc(36.25) cw(0) cp(20))}
+{"np_ml20"  			("extra" t() sc(43.75) cw(0) cp(25))}
+{"t20"  			("extra" t() sc(2.50) cw(0) cp(0))}
+
+{"bofors"  			("extra" t() sc(15.00) cw(0) cp(10))}
+{"m2a1l"  			("extra" t() sc(27.50) cw(0) cp(15))}
+{"m114"  			("extra" t() sc(40.00) cw(0) cp(20))}
+{"longtom_155mm"  		("extra" t() sc(50.00) cw(0) cp(25))}
+{"m115"  			("extra" t() sc(55.00) cw(0) cp(25))}
+{"m12gmc_vet"  			("extra" t() sc(71.25) cw(0) cp(20))}
+{"gmc_cckw"  			("extra" t() sc(1.00) cw(0) cp(0))}
+
+{"flak37_ger2"			("extra" t() sc(35) cw(0) cp(10))}
+{"lefh18_ger2"			("extra" t() sc(25) cw(0) cp(15))}
+{"sfh18_ger2"			("extra" t() sc(37.5) cw(0) cp(20))}
+{"sdkfz7"				("extra" t() sc(1.00) cw(0) cp(0))}
+
+{"pak36_ger2"			("extra" t() sc(7.5) cw(0) cp(10))}
+{"pak38_ger2"			("extra" t() sc(9.00) cw(0) cp(15))}
+{"pak40_ger2"			("extra" t() sc(21.00) cw(0) cp(20))}
+{"kfz15"				("extra" t() sc(1.00) cw(0) cp(0))}

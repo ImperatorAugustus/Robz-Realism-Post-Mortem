@@ -1,0 +1,9 @@
+{from "pattern overcoat"
+	{entity "barrel_case"}
+	{inventory
+		{size 2 1}
+		{weight 3}
+		{link_bone "IK_UpDown"}
+		{fsm "stuff"}
+	}
+}

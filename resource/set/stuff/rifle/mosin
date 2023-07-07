@@ -1,0 +1,11 @@
+{from "pattern rifle"
+	{filling "ammo mosin_rifle" 5}
+	{entity "mosin"}
+	{fireSound "rifle/mosin_shot/"}
+	{reloadSound "rifle_bolt_five"}
+	
+	("speed" s(850))
+	;("accuracy_boost")
+	{recoveryTime 2.8}
+	{rechargeTime 6.5}
+}

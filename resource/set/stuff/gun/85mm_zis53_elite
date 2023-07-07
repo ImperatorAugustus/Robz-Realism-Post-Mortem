@@ -1,0 +1,19 @@
+{from "85mm_zis53"		; "t34_3"
+
+	{rechargeTime 6.44}
+
+	{range 230 230}
+
+	("damage_215" a(145) b(125) c(107) d(92) e(78) range(230))
+	{parameters "aphe"
+		{cursorReloading "cannon_reload_aphe"}
+	}
+	{parameters "aphebc"
+		("damage_215" a(142) b(123) c(105) d(91) e(81) range(230))
+		{cursorReloading "cannon_reload_aphebc"}
+	}
+	{parameters "apcr"
+        	("damage_215" a(190) b(145) c(111) d(86) e(64) range(230))
+	}
+	("accuracy_maximum_230m_vet")
+}

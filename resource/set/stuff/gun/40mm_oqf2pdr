@@ -1,0 +1,24 @@
+{from "pattern gun"		; "mk7" "mk3", "mk2a", "mk2_daimler"
+	{filling "bullet40 eng"}
+	{fireSound "gun/45mm_oqf2pdr"}
+	{reloadSound "pak35"}
+	{rechargeTime 5}
+	("range_minimum")
+	
+	{range 170 170}
+	("speed" s(808))
+	("caliber_minimum")
+	{projectileDamage 76}
+	("damage_170" a(82) b(63) c(46) d(34) e(24) range(170))
+	{parameters "apcbc"
+        	("damage_170" a(73) b(65) c(57) d(49) e(43) range(170))
+	}
+	{parameters "apcr"
+        	("damage_100" a(101) b(78) c(55) d(39) e(26) range(160))
+		{range 160 160}
+	}
+	{parameters "fg"
+		{range 150 150}
+	}
+	("accuracy_minimum")
+}

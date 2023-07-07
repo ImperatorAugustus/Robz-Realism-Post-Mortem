@@ -1,0 +1,55 @@
+{breed
+	{skin "ger-cav2-mgun"}
+	{portrait "ger2_soldier2"}
+	{icon "mg"}
+	{icon_priority 2}
+	{nationality ger}
+	{armors
+		{head helmet_ger_m40_camo}
+	}
+	{perks
+		{"health" "150%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "100%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" "mp_soldier"
+		}
+		{"speed" 0.9
+		}
+		{"tank"	0.75
+		}
+		{"vehicle" 1
+		}
+		{"cannon" 0.8
+		}
+		{"pistol" lvl_3
+		}
+		{"smg" lvl_2
+		}
+		{"mgun" lvl_3
+		}
+		{"rifle" lvl_3
+		}
+		{"rocketlauncher" lvl_2
+		}
+		{"melee" lvl_3
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_1")
+	}
+	{inventory
+		{item "mg42_inf" filled}
+		{item "ammo mg_mauser drum" 300}
+		{item "valter" filled}
+		{item "ammo walther_mag" 16}
+		{item "bandage" 3}
+		{item "barrel_case"}
+		{in_hands 0}
+	}
+}

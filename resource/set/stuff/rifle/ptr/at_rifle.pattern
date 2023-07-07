@@ -1,0 +1,37 @@
+{from "pattern rifle"
+	{tag "weapon at_rifle bullet to_hand nokeep"}
+	{filling "ammo ptr" 1}
+	{inventory
+		{weight 100}
+		{size 6 2 }
+	}
+	{mass 18}
+	{cursor "zenite_on"}
+	{cursorReloading "zenite_reload"}
+	{fireSound	"rifle/ptr/ptrs"}
+	{reloadSound "ptrd"}
+	{special
+		{throw_off}
+	}
+
+	{range 120 120}
+	{speed 1000}
+
+	{spreading 1
+		{SpreadPower	1}
+		{SpreadRadius 0.5}
+	}
+	{rechargeTime 3.5}   
+	{recoveryTime 1.25}    
+	{calibre 14}
+	{curve "gun_light"}
+	{healthDamage 275}
+	{aimingTolerance 0.1}
+	                     
+   	{RelaxationTime 1}
+	{projectileDamageTable {20 30} {100 25} {170 20} {215 10} {250 5}}
+	{projectileDamageThreshold 1}
+	
+	("accuracy_ptr")
+	("accuracy_boost")
+}

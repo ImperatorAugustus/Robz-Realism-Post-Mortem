@@ -1,0 +1,10 @@
+{from "pattern rifle"
+	{entity "type44_carbine"}
+	{filling "ammo arisaka6-5_clip" 5}
+	{fireSound "rifle/type44_shot"}
+	{reloadSound "type38_reload"}
+	
+	("speed" s(750))
+	;("accuracy_boost")
+	{healthDamage 30}
+}

@@ -1,0 +1,16 @@
+{from "122mm_a19s"      ; "isu-122"
+
+	{rechargeTime 18.7}
+
+	{range 250 250}
+
+	("accuracy_max_vet")
+	("damage_215" a(201) b(179) c(158) d(141) e(125) range(250))
+	{parameters "aphebc"
+		("damage_215" a(206) b(183) c(162) d(144) e(129) range(250))
+		{cursorReloading "cannon_reload_aphebc"}
+	}
+	{parameters "fg"
+		{range 250 250}
+	}
+}

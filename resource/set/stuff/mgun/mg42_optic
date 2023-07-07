@@ -1,0 +1,12 @@
+{from "mg42"
+	{filling "ammo mg_mauser" 150}
+	{entity "mg42_t"}
+	{rechargeTime 12}
+	{range 150 150}
+	("spread_optic")
+	{Spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 97.5 95 92.5 90 85 80 70 50 30}
+	}
+	("accuracy_mgun_tank")
+}

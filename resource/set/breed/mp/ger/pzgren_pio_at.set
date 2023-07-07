@@ -1,0 +1,57 @@
+{breed
+	{skin "ger-reg2-rfl"}
+	{portrait "ger_soldier2"}
+	{nationality ger}
+	{icon "bazooker"}
+	{icon_priority 3}
+	{armors
+		{head helmet_ger_m40_fge}
+	}
+	{perks
+		{"health" "150%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "100%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" "mp_soldier"
+		}
+		{"speed" 0.9
+		}
+		{"tank"	0.75
+		}
+		{"vehicle" 1
+		}
+		{"cannon" 0.8
+		}
+		
+		{"pistol" lvl_4
+		}
+		{"smg" lvl_3
+		}
+		{"mgun" lvl_2
+		}
+		{"rifle" lvl_4
+		}
+		{"rocketlauncher" lvl_4
+		}
+		{"melee" lvl_4
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_1")
+	}
+	{inventory
+		{item "weapon panzershreck" filled}
+		{item "bandage" 3}
+		{item "hohlladung grenade"}
+		{item "ammo panzershreck" 5}
+		{item "valter" filled}
+		{item "ammo walther_mag" 16}
+		{item "sandbag_kit"}
+		{in_hands 0}
+	}
+}

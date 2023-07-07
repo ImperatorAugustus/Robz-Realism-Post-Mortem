@@ -1,0 +1,29 @@
+{weapon_bullet
+	{filling "ammo tulip" 4}
+	{fireSound "reactive/calliope_burst"}
+	("heavy_artillery")
+	{recoveryTime 0.50}
+
+	{aimtype direct}
+	{gravity 3.0}
+	{range 180 180}
+	{rechargeTime 120}
+	{speed 200}
+	{spreading
+		{SpreadRadius 2.5}
+		{SpreadPower 1}
+		{radiusFunction
+			0.0	0.1
+			0.2	0.3
+			0.5	0.6
+			0.8	1
+			1.00	1.2
+		}
+	}
+	{tag "prepare"}
+	{Special
+		{Mode aim}
+		{PrepareTime 0.1}
+		{PrepareCursor "cannon_shot"}
+	}
+}

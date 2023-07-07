@@ -1,0 +1,14 @@
+{from "pattern gun"		; "chi-ha 120mm"
+	{filling "bullet120 jap"}
+	{fireSound "gun/120mm_type97"}
+	{reloadSound "tankgun_r04"}
+	("range_grazing_howitzer_1")
+	
+	{parameters "heat"
+        	("damage_heat" a(140) range(190))
+	}
+	{range 190 190}
+	{rechargeTime 20.9}
+	{speed 290}
+	("caliber_maximum")
+}

@@ -1,0 +1,13 @@
+{from "76mm_m5"		; "M4A3E8 Fury"
+	{rechargeTime 5.95}
+	
+	{range 220 220}
+	("accuracy_high_220m_vet")
+	("damage_215" a(155) b(133) c(110) d(90) e(74) range(220))
+	{parameters "apcbc"
+		("damage_215" a(122) b(115) c(106) d(98) e(91) range(220))
+	}
+	{parameters "hvap" ;using the T4 HVAP ammunition
+        	("damage_215" a(223) b(182) c(149) d(122) e(99) range(220))
+	}
+}

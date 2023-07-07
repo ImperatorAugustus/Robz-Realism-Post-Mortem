@@ -1,0 +1,16 @@
+{from "pattern gun2_art"		; "m4 105mm"
+	{filling "bullet105 us" 4}
+	{fireSound "gun/howitzer/105mm_m2a1"}
+	{reloadSound "gun_r05"}
+	{rechargeTime 16}
+	{recoveryTime 16}
+	
+	("range_arty_lowarc_low")
+	("speed_lowarc" s(472))
+	{range 380 380}
+	{burst {min 4} {noaiming}}
+	{parameters "heat"
+		("damage_heat" a(115) range(380))
+	}
+	("zeroing_4")
+}

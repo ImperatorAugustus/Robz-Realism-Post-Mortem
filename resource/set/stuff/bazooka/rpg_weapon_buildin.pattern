@@ -1,0 +1,32 @@
+;SDL
+{weapon_bullet
+	{tag "gun rocketlauncher ap nokeep cumulative build_in weapon"}
+	{calibre 50}
+	{inventory
+		{size 6 2}
+		{weight 1000}
+	}
+	{mass 6.1}
+	{DisableRicochet}
+	{foresight "Foresight"}
+	{reactive 0}
+	{gravity 1}
+	{rechargeTime 6}
+	{curve "cumulative"}
+	{projectileDamageThreshold 1}
+    {projectileDamage 200}  
+	{speed 65}
+	{range 75 75}
+	{AimingTolerance 3}
+	{cursor "cannon_on"}
+	{spreading 4}
+	("accuracy_boost")
+	(mod "mp"
+		{tag "prepare"}
+		{Special
+			{Mode aim}
+			{PrepareTime 0.1}
+			{PrepareCursor "cannon_shot"}
+		}
+	)
+}

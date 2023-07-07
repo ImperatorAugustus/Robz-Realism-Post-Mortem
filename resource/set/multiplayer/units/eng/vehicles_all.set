@@ -1,0 +1,150 @@
+;----- Commonwealth -----
+
+
+
+
+;같캧nfantry only같�
+
+{"bedford_inf"      ("vs" c(60) t(inf_only) 	s(eng) n(2) g(a1) sc(2.50)  b(v1) cw(0) cp(0)) {level 1} {cost 50} {fore 1.0}}			;0sec
+
+
+
+
+;같캛utton 1같�
+
+{"willysmb_eng"     ("vs" c(30) t(all 42 43 44 45 inf_only) s(eng) n(3) g(b1) sc(6.25)  b(v1) cw(0) cp(0)) {level 1} {cost 125} {fore 0.0}}		;30sec
+{"dodgewc55"        ("vs" c(30) t(all 41 42 43 44 45) 	s(eng) n(4) g(b2) sc(11.00) b(v1) cw(0) cp(0)) {level 1} {cost 220} {fore -3.0}}		;120sec
+{"m3_eng"           ("vs" c(60) t(all 42 43 44 45) 	s(eng) n(2) g(b3) sc(10.00)  b(v1) cw(0) cp(0)) {level 1} {cost 200} {fore -3.0}}			;240sec
+{"universal_carrier" ("vs" c(10) t(all 40 41 42 43 44 45) 	s(eng) n(2) g(b11) sc(6.25)  b(v1) cw(0) cp(0)) {level 1} {cost 125} {fore -17.0}}	;180sec
+{"churchill_kangaroo" ("vs" c(540) t(all heavy 44 45) 	s(eng) n(2) g(b10) sc(22.50) b(v1) cw(0) cp(5)) {level 1} {cost 450} {fore 0.0}}		;540sec
+
+{"bedford"	    ("vs" c(0) t(all 40 41 42 43 44 45) 	s(eng) n(2) g(b4) sc(5.00)  b(v1) cw(0) cp(0)) {level 1} {cost 100} {fore 0.0}}			;0sec
+{"bedford_art"      ("vs" c(0) t(all 40 41 42 43 44 45) 	s(eng) n(2) g(b5) sc(15.00)  b(v1) cw(0) cp(0)) {level 1} {cost 300} {fore 0.0}}	;0sec
+{"bedford_eng"      ("vs" c(0) t(all 40 41 42 43 44 45) 	s(eng) n(2) g(b6) sc(12.50)  b(v1) cw(0) cp(0)) {level 1} {cost 250} {fore 0.0}}	;0sec
+{"ammo_box_eng_inf" ("vs" c(0) t(all 40 41 42 43 44 45) 	s(eng) n(2) g(b7) sc(1.25) b(v1) cw(0) cp(0)) {level 1} {cost 25} {fore 0.0}}		;0sec
+{"ammo_box_eng_art" ("vs" c(0) t(all 40 41 42 43 44 45) 	s(eng) n(2) g(b8) sc(3.75) b(v1) cw(0) cp(0)) {level 1} {cost 75} {fore 0.0}}		;0sec
+{"ammo_box_eng_special" ("vs" c(300) t(all 43 44 45) 		s(eng) n(2) g(b9) sc(5.00) b(v1) cw(0) cp(0)) {level 1} {cost 100} {fore 0.0}}		;0sec
+
+
+
+
+;같캛utton 2같�
+
+{"303_bren_tripod"  ("vs" c(10) t(all 40 41 42 43 44 45) s(eng) n(2) g(c1) sc(5.00)  b(v2) cw(2) cp(5)) {level 1} {cost 100} {fore -2.0}}		;30sec
+{"303_vickers_mkiv" ("vs" c(10) t(all 40 41 42 43 44 45) s(eng) n(2) g(c2) sc(6.25)  b(v2) cw(2) cp(5)) {level 1} {cost 125} {fore -2.0}}		;30sec
+{"oerlikon"         ("vs" c(30) t(all 40 41 42 43 44 45) s(eng) n(1) g(c3) sc(8.50) b(v2) cw(2) cp(5)) {level 1} {cost 170} {fore -4.0}}		;150sec
+{"light_mortar_eng" ("light_mortar" c(10) t(all 40 41 42 43 44 45 mortar) s(eng) g(c4) b(v2)) {level 1} {cost 170} {fore -2.0}}		;30sec
+{"ml_3_inch_mk_ii"  ("vs" c(10) t(all 40 41 42 43 44 45 mortar) s(eng) n(2) g(c5) sc(17.00) b(v2) cw(2) cp(5)) {level 1} {cost 340} {fore -2.0}}	;30sec
+{"4_2_inch_mk_ii"   ("vs" c(60) t(all 42 43 44 45 mortar) 	s(eng) n(2) g(c6) sc(31.00) b(v2) cw(2) cp(10)) {level 1} {cost 620} {fore -9.0}}		;600sec
+
+{"qf2_40"           ("vs" c(10) t(40 41 42) 		s(eng) n(2) g(c7) sc(11.25)  b(v2) cw(2) cp(5)) {level 1} {cost 225} {fore -2.0}}		;30sec
+{"qf2"       	    ("vs" c(10) t(all 43 44 45) 	s(eng) n(2) g(c7) sc(11.25)  b(v2) cw(2) cp(5)) {level 1} {cost 225} {fore -2.0}}		;30sec
+{"qf6_42"           ("vs" c(20) t(42) 			s(eng) n(2) g(c8) sc(17.50) b(v2) cw(2) cp(10)) {level 1} {cost 350} {fore -14.0}}		;300sec
+{"qf6_43"           ("vs" c(20) t(43) 			s(eng) n(2) g(c8) sc(17.50) b(v2) cw(2) cp(10)) {level 1} {cost 350} {fore -14.0}}		;300sec
+{"qf6"              ("vs" c(20) t(all 44 45) 		s(eng) n(2) g(c9) sc(17.50) b(v2) cw(2) cp(10)) {level 1} {cost 350} {fore -14.0}}		;300sec
+{"qf17_43"          ("vs" c(30) t(medium 43) 		s(eng) n(2) g(c9) sc(30.00) b(v2) cw(2) cp(15)) {level 1} {cost 600} {fore -29.0}}		;900sec
+{"qf17"             ("vs" c(30) t(all medium 44 45) 	s(eng) n(2) g(c10) sc(30.00) b(v2) cw(2) cp(15)) {level 1} {cost 600} {fore -29.0}}		;900sec
+
+("how" side(eng) name(how_aa) c(60) c1(universal_carrier) c2(vickers) 	t(heavyaa all medium 40 41 42 43 44 45) g(c11) b(v2) level(1) cost(600) f(-14.0))	;900sec
+
+
+
+("how" side(eng) name(how_b) c(60) c1(universal_carrier) c2(pdr25) 	t(all artillery 40 41 42 43 44 45) g(c12) b(v22) level(1) cost(400) f(-14.0))		;900sec
+("how" side(eng) name(bl45) c(60) c1(universal_carrier) c2(bl45) 	t(all artillery 41 42 43 44 45) g(c13) b(v22) level(1) cost(650) f(-14.0))		;900sec
+("how" side(eng) name(how_a) c(60) c1(universal_carrier) c2(bl6)   	t(all artillery heavyart heavy 40 41 42 43 44 45) g(c14) b(v22) level(1) cost(650) f(-14.0))	;900sec
+("how" side(eng) name(long_tom) c(60) c1(universal_carrier) c2(longtom_155mm)   t(all artillery heavyart heavy 43 44 45) g(c15) b(v22) level(1) cost(1000) f(-19.0))	;1200sec
+("how" side(eng) name(bl72) c(60) c1(universal_carrier) c2(bl72)   t(all artillery heavyart heavy 44 45) g(c183) b(v22) level(1) cost(1100) f(-19.0))	;1200sec
+
+{"gun_carrier_3_inch" ("vs" c(10) t(all 40 41 42 43 44 45 mortar) 	s(eng) n(4) g(c16) sc(19.50) b(v22) cw(0) cp(10)) {level 1} {cost 390} {fore -31.0}}	;320sec
+{"bishop"           ("v"  c(60) t(all artillery 42 43) 			s(eng) n1(3) n2(1) g(c17) sc(30.00) b(v22) cw(0) cp(15)) {level 1} {cost 600} {fore -14.0}}	;900sec
+{"m7_eng"           ("v" c(60) t(all artillery 42 43 44 45) 	s(eng) n1(3) n2(1) g(c18) sc(42.50) b(v22) cw(0) cp(15)) {level 1} {cost 850} {fore -14.0}}	;900sec
+("how" side(eng) name(land_mattress) c(60) c1(universal_carrier) c2(land_mattress)   t(all artillery heavyart rocket 44 45) g(c19) b(v22) level(1) cost(750) f(-19.0));1200sec
+
+
+
+
+;같캛utton 3같�
+
+{"mk7"    	    ("v" c(10) t(all 40 41 42 43 44 45) s(eng) n1(2) n2(1) g(d1) sc(11.50) b(v3) cw(0) cp(5)) {level 1} {cost 230} {fore -31.0}}	;320sec
+{"humber"	    ("v" c(10) t(all 41 42 43 44 45) 	s(eng) n1(3) n2(1) g(d2) sc(12.00) b(v3) cw(0) cp(5)) {level 1} {cost 240} {fore -37.0}}	;380sec
+{"mk2daimler"       ("v" c(10) t(all 41 42 43 44 45) 	s(eng) n1(2) n2(1) g(d3) sc(12.00) b(v3) cw(0) cp(5)) {level 1} {cost 240} {fore -41.0}}	;420sec
+{"staghound"       	("v" c(10) t(all 42 43 44 45) 	s(eng) n1(3) n2(1) g(d31) sc(15.00) b(v3) cw(0) cp(5)) {level 1} {cost 300} {fore -41.0}}	;420sec
+{"staghound_mk3"    ("v" c(10) t(all 45) 			s(eng) n1(3) n2(1) g(d32) sc(17.50) b(v3) cw(0) cp(5)) {level 1} {cost 350} {fore -45.0}}	;460sec
+{"cruisermk1"       ("v" c(10) t(all 40 41) 		s(eng) n1(3) n2(1) g(d4) sc(16.00) b(v3) cw(0) cp(5)) {level 1} {cost 320} {fore -45.0}}	;460sec
+{"cruisermk3"       ("v" c(10) t(all 40 41) 		s(eng) n1(2) n2(1) g(d5) sc(17.50) b(v3) cw(0) cp(5)) {level 1} {cost 350} {fore -45.0}}	;460sec
+{"matildamk1"       ("v" c(10) t(all 40) 		s(eng) n1(1) n2(1) g(d6) sc(15.00) b(v3) cw(0) cp(5)) {level 1} {cost 300} {fore -49.0}}	;500sec
+{"mk3"              ("v" c(10) t(all 40 41 42 43 44 45) s(eng) n1(3) n2(1) g(d7) sc(18.50) b(v3) cw(0) cp(5)) {level 1} {cost 370} {fore -53.0}}	;540sec
+
+{"m3stuart_eng"     ("v" c(10) t(all 42 43 44 45) 	s(eng) n1(3) n2(1) g(d8) sc(14.00) b(v3) cw(0) cp(5)) {level 1} {cost 280} {fore -45.0}}	;460sec
+{"m5a1_eng"         ("v" c(10) t(all 42 43 44 45) 	s(eng) n1(3) n2(1) g(d9) sc(15.00) b(v3) cw(0) cp(5)) {level 1} {cost 300} {fore -45.0}}	;460sec
+{"crusaderaa2"      ("v" c(30) t(all 43 44 45) 		s(eng) n1(2) n2(1) g(d10) sc(15.00) b(v3) cw(0) cp(10)) {level 1} {cost 300} {fore -16.3}}	;520sec
+{"crusaderaa1"      ("v" c(30) t(all 42 43 44 45) 	s(eng) n1(3) n2(1) g(d11) sc(19.00) b(v3) cw(0) cp(10)) {level 1} {cost 380} {fore -18.3}}	;580sec
+{"m4a3m_eng"        ("v" c(150) t(deminer) 		s(eng) n1(1) n2(1) g(d12) sc(12.50) b(v3) cw(0) cp(0)) {level 1} {cost 250} {fore 0}}
+
+
+
+
+;같캛utton 4같�
+
+{"m3grant"          ("v" c(10) t(all 41 42 43 medium arcade) s(eng) n1(3) n2(1) g(e0) sc(19.00) b(v4) cw(0) cp(15)) {level 1} {cost 380} {fore -59.0}}	;600sec
+{"mk6_42"           ("v" c(10) t(42 43) 		s(eng) n1(3) n2(1) g(e1) sc(17.50) b(v4) cw(0) cp(15)) {level 1} {cost 350} {fore -59.0}}	;600sec
+{"mk6"       	    ("v" c(10) t(all medium 44 45) 	s(eng) n1(3) n2(1) g(e1) sc(17.50) b(v4) cw(0) cp(15)) {level 1} {cost 350} {fore -59.0}}	;600sec
+{"cromwell_mk_iv"   ("v" c(10) t(all medium 44 45) 	s(eng) n1(3) n2(1) g(e2) sc(19.00) b(v4) cw(0) cp(15)) {level 1} {cost 380} {fore -63.0}}	;640sec
+{"cromwell_mk_vii"  ("v" c(10) t(all medium 44 45) 	s(eng) n1(3) n2(1) g(e2) sc(21.50) b(v4) cw(0) cp(15)) {level 1} {cost 430} {fore -63.0}}	;640sec
+{"cromwell_mk_vi"   ("v" c(10) t(all medium 44 45) 	s(eng) n1(3) n2(1) g(e3) sc(22.50) b(v4) cw(0) cp(15)) {level 1} {cost 450} {fore -63.0}}	;640sec
+{"cromwell_mk_viii" ("v" c(10) t(all medium 44 45) 	s(eng) n1(3) n2(1) g(e3) sc(25.00) b(v4) cw(0) cp(15)) {level 1} {cost 500} {fore -63.0}}	;640sec
+{"mk2a"             ("v" c(10) t(all medium 40 41 42 43 44 45) s(eng) n1(3) n2(1) g(e4) sc(19.00) b(v4) cw(0) cp(15)) {level 1} {cost 380} {fore -59.0}};600sec
+
+{"m4a1_eng"         ("v" c(10) t(all medium 42 43 44 45) s(eng) n1(3) n2(1) g(e5) sc(19.00) b(v4) cw(0) cp(15)) {level 1} {cost 380} {fore -63.0}}	;640sec
+{"m4a1_76w_eng"     ("v" c(60) t(all medium 44 45) s(eng) n1(3) n2(1) g(e6) sc(28.75) b(v4) cw(0) cp(15)) {level 1} {cost 575} {fore -14.0}}		;900sec
+{"m4a4"             ("v" c(10) t(all medium 42 43 44 45) s(eng) n1(4) n2(1) g(e7) sc(20.00) b(v4) cw(0) cp(15)) {level 1} {cost 400} {fore -63.0}}	;640sec
+{"m4a4_tulip"       ("v" c(60) t(all medium 45) 	s(eng) n1(4) n2(1) g(e8) sc(25.00) b(v4) cw(0) cp(15)) {level 1} {cost 500} {fore -11.0}}	;720sec
+{"mk4_42"           ("v" c(10) t(42 43)			s(eng) n1(3) n2(1) g(e9) sc(30.00) b(v4) cw(0) cp(15)) {level 1} {cost 600} {fore -65.0}} 	;660sec
+{"mk4"              ("v" c(10) t(all medium arcade 44 45) s(eng) n1(3) n2(1) g(e9) sc(30.00) b(v4) cw(0) cp(15)) {level 1} {cost 600} {fore -65.0}} 	;660sec
+{"cometa34"         ("v" c(60) t(all medium 44 45) 	s(eng) n1(3) n2(1) g(e10) sc(37.50) b(v4) cw(0) cp(15)) {level 1} {cost 750} {fore -14.0}}	;900sec
+{"cometa34_elite_gun" ("v3_tank" c(60) t(all medium 44 45) 	s(eng) n1(tankman:2) n2(tankman2:1) n3(elite_tankman:1) g(e101) sc(45.00) b(v4) cw(0) cp(15)) {level 1} {cost 950} {fore -17.0}}	;1080sec
+
+{"challenger_a30_43" ("v" c(60) t(43) 			s(eng) n1(4) n2(1) g(e11) sc(42.50) b(v4) cw(0) cp(15)) {level 1} {cost 850} {fore -17.0}}	;1080sec
+{"challenger_a30"   ("v" c(60) t(all medium 44 45) 	s(eng) n1(4) n2(1) g(e11) sc(42.50) b(v4) cw(0) cp(15)) {level 1} {cost 850} {fore -17.0}}	;1080sec
+{"m4a4_firefly"     ("v" c(60) t(all medium 44 45) 	s(eng) n1(4) n2(1) g(e11) sc(45.00) b(v4) cw(0) cp(15)) {level 1} {cost 900} {fore -17.0}}	;1080sec
+{"m4a4_firefly_elite_gun"     ("v3_tank" c(60) t(all medium 44 45) 	s(eng) n1(tankman:3) n2(tankman2:1) n3(elite_tankman:1) g(e111) sc(52.50) b(v4) cw(0) cp(15)) {level 1} {cost 1100} {fore -19.0}}	;1200sec
+{"churchill_mk_ix" ("v" c(60) t(all heavy 44 45) 	s(eng) n1(3) n2(1) g(e12) sc(32.50) b(v4) cw(0) cp(20)) {level 1} {cost 650} {fore -10.0}}	;660sec
+{"churchill_mk_vii" ("v" c(60) t(all heavy 44 45) 	s(eng) n1(3) n2(1) g(e12) sc(40.00) b(v4) cw(0) cp(25)) {level 1} {cost 800} {fore -15.0}}	;960sec
+{"churchill_mk_v_cs" ("v" c(60) t(all heavy 44 45) 	s(eng) n1(3) n2(1) g(e12) sc(40.00) b(v4) cw(0) cp(25)) {level 1} {cost 800} {fore -15.0}}	;960sec
+{"churchill_crocodile" ("v" c(60) t(all heavy 44 45) 	s(eng) n1(3) n2(1) g(e12) sc(42.50) b(v4) cw(0) cp(25)) {level 1} {cost 850} {fore -15.0}}	;960sec
+{"churchill_avre"   ("v" c(60) t(all heavy 44 45) 	s(eng) n1(3) n2(1) g(e12) sc(30.00) b(v4) cw(0) cp(20)) {level 1} {cost 600} {fore -15.0}}	;960sec
+{"centurion"        ("v" c(750) t(all postwar heavy) 	s(eng) n1(4) n2(1) g(e13) sc(100.00) b(v4) cw(0) cp(30)) {level 1} {cost 2000} {fore -1.0}} 	;1500sec
+
+
+
+;같캛utton 5같�
+
+{"archer"           ("v" c(60) t(all medium 43 44 45) 	s(eng) n1(3) n2(1) g(f1) sc(38.75) b(v5) cw(0) cp(10)) {level 1} {cost 775} {fore -14.0}} 	;900sec
+{"m10wolverine_eng"  ("v" c(10) t(all medium 42 43 44 45) s(eng) n1(4) n2(1) g(f2) sc(22.50) b(v5) cw(0) cp(15)) {level 1} {cost 450} {fore -65.0}} 	;660sec
+{"achilles"         ("v" c(60) t(all medium 44 45) 	s(eng) n1(4) n2(1) g(f3) sc(41.25) b(v5) cw(0) cp(15)) {level 1} {cost 825} {fore -14.0}}	;900sec
+{"achilles_elite_gun" ("v3_tank" c(60) t(all medium 44 45) 	s(eng) n1(tankman:3) n2(tankman2:1) n3(elite_tankman:1) g(f4) sc(48.75) b(v5) cw(0) cp(15)) {level 1} {cost 1025} {fore -16.0}}	;1020sec
+
+
+;같캛utton Hero같�
+
+{"hero2_eng"        ("v1" c(120) c1(dodge) 	t(all hero 41 42 43 44 45) s(eng) n1(saper2:3) n2(saper3:3) g(h1) b(hero)) {level 1} {cost 1.0} {fore -0.5}}
+{"hero_eng_wasp"    ("v1" c(120) c1(wasp) 	t(all hero 41 42 43 44 45) s(eng) n1(vehicle_supporter:2) n2(saper3:0) g(h2) b(hero)) {level 1} {cost 2.0} {fore -0.5}}
+
+{"hero_staghound_e1"("v1" c(300) c1(staghound_e1) t(all hero 44 45) s(eng) n1(tankman:3) n2(tankman2:1) g(h22) b(hero)) {level 1} {cost 4.0} {fore -0.5}}
+{"heronew3_eng"	    ("v1" c(600) c1(m4a4_tulip)	t(all hero 45) s(eng) n1(tankman:4) n2(tankman2:1) g(h5) b(hero)) {level 1} {cost 5.0} {fore -0.5}}
+{"heronew2_eng"     ("v1" c(480) c1(cromwell_mk_vi) t(all hero 44 45) s(eng) n1(tankman:3) n2(tankman2:1) g(h23) b(hero)) {level 1} {cost 4.0} {fore -0.5}}
+{"hero8_eng"        ("v1" c(720) c1(churchill_avre) t(all hero 44 45) s(eng) n1(tankman:3) n2(tankman2:1) g(h7) b(hero)) {level 1} {cost 5.0} {fore -0.5}}
+("squad_with5types" side(eng) name(hero_eng_para) c(330) g(h3) c1(para_cpl:3) c2(para_2ic:3) c3(para2:9) c4(para4:12) c5(para5:3) b(hero) t(all hero 40 41 42 43 44 45) level(1) cost(6) f(-0.5))
+{"hero6_eng"        ("v1" c(600) c1(churchill_crocodile) t(all hero 44 45) s(eng) n1(tankman:3) n2(tankman2:1) g(h4) b(hero)) {level 1} {cost 7.0} {fore -0.5}}
+
+
+{"hero7_eng"        ("v2" c(720) c1(pdr25_vet) 	t(all hero artillery 40 41 42 43 44 45) s(eng) n1(vehicle_supporter:2) n2(tankman2:0) g(h6) b(hero)) {level 1} {cost 7.0} {fore -0.5}}
+{"hero_firefly_eng" ("v1" c(720) c1(m4a4_firefly_tulip) t(all hero 44 45) s(eng) n1(vet_tankman:4) n2(vet_tankman2:1) g(h9) b(hero)) {level 1} {cost 10.0} {fore -0.5}}
+{"hero9_eng"        ("v1" c(1080) c1(black_prince)  t(all postwar hero) s(eng) n1(tankman:3) n2(tankman2:1) g(h8) b(hero)) {level 1} {cost 14.0} {fore -0.5}}
+{"hero_eng_churchill" ("v2" c(650) c1(churchill_mk_vii)  t(all 44 45 hero) s(eng) n1(tankman:3) n2(tankman2:1) g(h10) b(hero)) {level 1} {cost 11.0} {fore -0.5}}
+
+;{"hero1_eng"       ("i1" c(120)		t(all hero) s(eng) n1(scout:1) g(h1) b(hero)) {level 1} {cost 1.0} {fore -0.5}}
+;{"heronew1_eng"    ("i3" c(120)		t(all hero) s(eng) n1(rifle3:4) n2(smg3:3) n3(mgun2:1) g(h1) b(hero)) {level 1} {cost 1.0} {fore -0.5}}
+;{"hero3_eng"       ("i3" c(240)		t(all hero) s(eng) n1(elite4:4) n2(elite5:5) n3(elite6:1) g(h2) b(hero)) {level 1} {cost 2.0} {fore -0.5}}
+;{"hero4_eng"       ("v4" c(360) c1(m3_eng) 	t(all hero) s(eng) n1(elite:5) n2(elite2:2) n3(elite3:2) n4(elite_at:1) g(h2) b(hero)) {level 1} {cost 3.0} {fore -0.5}}
+;{"hero5_eng"       ("i2" c(480)		t(all hero) s(eng) n1(radioman:1) n2(smg:2) g(h3) b(hero)) {level 1} {cost 4.0} {fore -0.5}}

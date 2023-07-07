@@ -1,0 +1,14 @@
+{bullet
+	{tag "ammo small sm fg itemin2hands"}
+;	{detonationThickness 20}
+	{inventory
+		{size 2 1}
+		{weight 100}
+		{fsm "stuff"}
+	}
+	{mass 1.5}
+	{entity "grenade_smoke"}
+	{view "bazooka_ammo"
+		{tail "grenade_tail" "tail"}
+	}
+}

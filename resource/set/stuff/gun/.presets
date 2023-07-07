@@ -1,0 +1,1096 @@
+{curve "gun_std"}
+
+
+(define "speed"
+	{speed (* 1.0 %s)}
+)
+(define "speed_lowarc"
+	{speed (* 0.33 %s)}
+)
+
+(define "speed_all"
+	{speed (* 1.0 %ap)}
+	{parameters "apc"
+		{speed (* 1.0 %ap)}
+	}
+	{parameters "apbc"
+		{speed (* 1.0 %ap)}
+	}
+	{parameters "aphebc"
+		{speed (* 1.0 %ap)}
+	}
+	{parameters "apcbc"
+		{speed (* 1.0 %ap)}
+	}
+	{parameters "br350a"
+		{speed (* 1.0 %ap)}
+	}
+	{parameters "br350b"
+		{speed (* 1.0 %ap)}
+	}
+	{parameters "br350sp"
+		{speed (* 1.0 %ap)}
+	}
+	{parameters "heat_shell"
+		{speed (* 1.0 %heat)}
+	}
+	{parameters "heat"
+		{speed (* 1.0 %heat)}
+	}
+	{parameters "heata"
+		{speed (* 1.0 %heat)}
+	}
+	{parameters "heatb"
+		{speed (* 1.0 %heat)}
+	}
+	{parameters "heatc"
+		{speed (* 1.0 %heat)}
+	}
+	{parameters "apcr"
+		{speed (* 1.0 %apcr)}
+	}
+	{parameters "apds"
+		{speed (* 1.0 %apcr)}
+	}
+	{parameters "hvap"
+		{speed (* 1.0 %apcr)}
+	}
+	{parameters "fg"
+		{speed (* 1.0 %fg)}
+	}	
+	{parameters "wp"
+		{speed (* 1.0 %fg)}
+	}
+
+)
+
+(define "recoveryTime"   
+	{recoveryTime (/ 60 %r)}
+)
+
+
+(define "damage"            ;changed the scale to simulate close range tank combat where penetration remains high at shorter distances                                                              
+	{projectileDamageTable {20 %a} {100 %b} {170 %c} {215 %d} {250 %e} {255 0} }
+	;{projectileDamageTable {15 %a} {80 %b} {140 %c} {195 %d} {250 %e} {(* 250 2) (* %e 0.5)} {(* 250 4) (* %e 0)}}
+
+	;IRL range:					10m  - 500m  - 1000m - 1500m  - 2000m
+	;MOW range:		        	0m   - 62.5m - 125m  - 187.5m - 250m
+	;% of the curve				0%   - 25%   - 50%   - 75%    - 100%
+	;% of next meter measure:	0%   - 50%   - 66%   - 75%    - 100%
+)
+(define "damage_215"            ;changed the scale to simulate close range tank combat where penetration remains high at shorter distances                                                              
+	{projectileDamageTable {20 %a} {100 %b} {170 %c} {215 %d} {%range (+ (* (/ (- 250 %range) (- 250 215)) (- %d %e)) %e)} {(+ %range 5) 0} }
+)
+(define "damage_170"            ;changed the scale to simulate close range tank combat where penetration remains high at shorter distances                                                              
+	{projectileDamageTable {20 %a} {100 %b} {170 %c} {%range (+ (* (/ (- 215 %range) (- 215 170)) (- %c %d)) %d)} {(+ %range 5) 0} }
+)
+(define "damage_100"            ;changed the scale to simulate close range tank combat where penetration remains high at shorter distances                                                              
+	{projectileDamageTable {20 %a} {100 %b} {%range (+ (* (/ (- 170 %range) (- 170 100)) (- %b %c)) %c)} {(+ %range 5) 0} }
+)
+
+(define "damage_heat"                                                                                 
+	{projectileDamageTable {0 %a} {%range %a} {(+ %range 5) 0}}
+)
+
+
+
+
+(define "accuracy_curve_gun"
+	{spreading 
+		{radiusTable {0 0} {50 (* 0.50 %r1)} {90 (* 1.50 %r1)} {120 (* 2.00 %r1)} {150 (* 2.50 %r1)} {(+ %max_dist_ap 3) (* %ap_acc %r1)} {(+ %max_dist_ap 5) 40}}
+	}
+	{parameters "apc"
+		{spreading
+			{radiusTable {0 0} {50 (* 0.65 %r1)} {90 (* 1.65 %r1)} {120 (* 2.15 %r1)} {150 (* 2.65 %r1)} {(+ %max_dist_ap 3) (* %apc_acc %r1)} {(+ %max_dist_ap 5) 40}}
+		}
+	}
+	{parameters "apbc"
+		{spreading
+			{radiusTable {0 0} {50 (* 0.45 %r1)} {90 (* 1.45 %r1)} {120 (* 1.95 %r1)} {150 (* 2.45 %r1)} {(+ %max_dist_ap 3) (* %apcbc_acc %r1)} {(+ %max_dist_ap 5) 40}}
+		}
+	}
+	{parameters "aphebc"
+		{spreading
+			{radiusTable {0 0} {50 (* 0.45 %r1)} {90 (* 1.45 %r1)} {120 (* 1.95 %r1)} {150 (* 2.45 %r1)} {(+ %max_dist_ap 3) (* %apcbc_acc %r1)} {(+ %max_dist_ap 5) 40}}
+		}
+	}
+	{parameters "apcbc"
+		{spreading
+			{radiusTable {0 0} {50 (* 0.45 %r1)} {90 (* 1.45 %r1)} {120 (* 1.95 %r1)} {150 (* 2.45 %r1)} {(+ %max_dist_ap 3) (* %apcbc_acc %r1)} {(+ %max_dist_ap 5) 40}}
+		}
+	}
+	{parameters "br350a"
+		{spreading
+			{radiusTable {0 0} {50 (* 0.45 %r1)} {90 (* 1.45 %r1)} {120 (* 1.95 %r1)} {150 (* 2.45 %r1)} {(+ %max_dist_ap 3) (* %apcbc_acc %r1)} {(+ %max_dist_ap 5) 40}}
+		}
+	}
+	{parameters "br350b"
+		{spreading
+			{radiusTable {0 0} {50 (* 0.45 %r1)} {90 (* 1.45 %r1)} {120 (* 1.95 %r1)} {150 (* 2.45 %r1)} {(+ %max_dist_ap 3) (* %apcbc_acc %r1)} {(+ %max_dist_ap 5) 40}}
+		}
+	}
+	{parameters "br350sp"
+		{spreading
+			{radiusTable {0 0} {50 (* 0.45 %r1)} {90 (* 1.45 %r1)} {120 (* 1.95 %r1)} {150 (* 2.45 %r1)} {(+ %max_dist_ap 3) (* %apcbc_acc %r1)} {(+ %max_dist_ap 5) 40}}
+		}
+	}
+	{parameters "apcr"
+		{spreading
+			{radiusTable {0 0} {50 (* 0.50 %r1)} {90 (* 1.50 %r1)} {120 (* 2.00 %r1)} {150 (* 2.50 %r1)} {(+ %max_dist_ap 3) (* %apcr_acc %r1)} {(+ %max_dist_ap 5) 40}}
+		}
+	}
+	{parameters "hvap"
+		{spreading
+			{radiusTable {0 0} {50 (* 0.40 %r1)} {90 (* 1.40 %r1)} {120 (* 1.85 %r1)} {150 (* 2.35 %r1)} {(+ %max_dist_ap 3) (* %hvap_acc %r1)} {(+ %max_dist_ap 5) 40}}
+		}
+	}
+	{parameters "heat"
+		{spreading
+			{radiusTable {0 0} {50 (* 0.65 %r1)} {90 (* 1.65 %r1)} {120 (* 2.20 %r1)} {150 (* 2.80 %r1)} {(+ %max_dist_ap 3) (* %heat_acc %r1)} {(+ %max_dist_ap 5) 40}}
+		}
+	}
+	{parameters "heata"
+		{spreading
+			{radiusTable {0 0} {50 (* 0.65 %r1)} {90 (* 1.65 %r1)} {120 (* 2.20 %r1)} {150 (* 2.80 %r1)} {(+ %max_dist_ap 3) (* %heat_acc %r1)} {(+ %max_dist_ap 5) 40}}
+		}
+	}
+	{parameters "heatb"
+		{spreading
+			{radiusTable {0 0} {50 (* 0.65 %r1)} {90 (* 1.65 %r1)} {120 (* 2.20 %r1)} {150 (* 2.80 %r1)} {(+ %max_dist_ap 3) (* %heat_acc %r1)} {(+ %max_dist_ap 5) 40}}
+		}
+	}
+	{parameters "heatc"
+		{spreading
+			{radiusTable {0 0} {50 (* 0.65 %r1)} {90 (* 1.65 %r1)} {120 (* 2.20 %r1)} {150 (* 2.80 %r1)} {(+ %max_dist_ap 3) (* %heat_acc %r1)} {(+ %max_dist_ap 5) 40}}
+		}
+	}
+	{parameters "apds"
+		{spreading
+			{radiusTable {0 0} {50 (* 0.60 %r1)} {90 (* 1.60 %r1)} {120 (* 2.25 %r1)} {150 (* 2.90 %r1)} {(+ %max_dist_ap 3) (* %apds_acc %r1)} {(+ %max_dist_ap 5) 40}}
+		}
+	}
+	{parameters "fg"
+		{spreading
+			{radiusTable {0 0} {50 (* 0.65 %r1)} {90 (* 1.65 %r1)} {120 (* 2.10 %r1)} {150 (* 2.60 %r1)} {(+ %max_dist_fg 3) (* %fg_acc %r1)} {(+ %max_dist_fg 5) 40}}
+		}
+		{gravity 10}
+	}	
+	{parameters "wp"
+		{spreading
+			{radiusTable {0 0} {50 (* 0.65 %r1)} {90 (* 1.65 %r1)} {120 (* 2.10 %r1)} {150 (* 2.60 %r1)} {(+ %max_dist_fg 3) (* %fg_acc %r1)} {(+ %max_dist_fg 5) 40}}
+		}
+		{gravity 10}
+	}
+)
+(define "accuracy_curve_270m"
+	("accuracy_curve_gun"
+			max_dist_ap(270) max_dist_fg(270) r1(%r1) ap_acc(3.16) apc_acc(3.25) 		;*1.1,,, increase per 10m::: 0.055 ; 0.05
+			apcbc_acc(3.05) hvap_acc(3.00) apcr_acc(3.16) heat_acc(4.14) apds_acc(5.42) fg_acc(3.32)	;			0.05 ; 0.055 ; 0.07 ; 0.21 ; 0.06
+	)
+)
+(define "accuracy_curve_260m"
+	("accuracy_curve_gun"
+			max_dist_ap(260) max_dist_fg(240) r1(%r1) ap_acc(3.105) apc_acc(3.2) 		;*1.1,,, increase per 10m::: 0.055 ; 0.05
+			apcbc_acc(3.0) hvap_acc(2.95) apcr_acc(3.105) heat_acc(4.07) apds_acc(5.21) fg_acc(3.14)	;			0.05 ; 0.055 ; 0.07 ; 0.21 ; 0.06
+	)
+)
+(define "accuracy_curve_260m_10m_he"
+	("accuracy_curve_gun"
+			max_dist_ap(260) max_dist_fg(250) r1(%r1) ap_acc(3.105) apc_acc(3.2) 		;*1.1,,, increase per 10m::: 0.055 ; 0.05
+			apcbc_acc(3.0) hvap_acc(2.95) apcr_acc(3.105) heat_acc(4.07) apds_acc(5.21) fg_acc(3.20)	;			0.05 ; 0.055 ; 0.07 ; 0.21 ; 0.06
+	)
+)
+(define "accuracy_curve_250m_vet"	;this new system is to make accuracy after max range terrible while saving space in this file for less mess; farshooting exploit fix
+	("accuracy_curve_gun"
+			max_dist_ap(250) max_dist_fg(250) r1(%r1) ap_acc(3.05) apc_acc(3.15) 		;*1.0
+			apcbc_acc(2.95) hvap_acc(2.90) apcr_acc(3.05) heat_acc(4.00) apds_acc(5.00) fg_acc(3.20) ;old fg is 3.50 < calculate reduced HE range from this value and 250m
+	)
+)
+(define "accuracy_curve_250m"	;this new system is to make accuracy after max range terrible while saving space in this file for less mess; farshooting exploit fix
+	("accuracy_curve_gun"
+			max_dist_ap(250) max_dist_fg(230) r1(%r1) ap_acc(3.05) apc_acc(3.15) 		;*1.0
+			apcbc_acc(2.95) hvap_acc(2.90) apcr_acc(3.05) heat_acc(4.00) apds_acc(5.00) fg_acc(3.08) ;old fg is 3.50 < calculate reduced HE range from this value and 250m
+	)
+)
+(define "accuracy_curve_250m_17pdr"
+	("accuracy_curve_gun"
+			max_dist_ap(250) max_dist_fg(240) r1(%r1) ap_acc(3.05) apc_acc(3.15) 		;*1.0
+			apcbc_acc(2.95) hvap_acc(2.90) apcr_acc(3.05) heat_acc(4.00) apds_acc(8.00) fg_acc(3.14)
+	)
+)
+(define "accuracy_curve_250m_10m_he"
+	("accuracy_curve_gun"
+			max_dist_ap(250) max_dist_fg(240) r1(%r1) ap_acc(3.05) apc_acc(3.15) 		;*1.0
+			apcbc_acc(2.95) hvap_acc(2.90) apcr_acc(3.05) heat_acc(4.00) apds_acc(5.00) fg_acc(3.14)
+	)
+)
+(define "accuracy_curve_240m"
+	("accuracy_curve_gun"
+			max_dist_ap(240) max_dist_fg(220) r1(%r1) ap_acc(2.995) apc_acc(3.10)		;*0.9
+			apcbc_acc(2.90) hvap_acc(2.85) apcr_acc(2.995) heat_acc(3.93) apds_acc(4.79) fg_acc(3.02)
+	)
+)
+(define "accuracy_curve_240m_17pdr"
+	("accuracy_curve_gun"
+			max_dist_ap(240) max_dist_fg(230) r1(%r1) ap_acc(2.995) apc_acc(3.10)		;*0.9
+			apcbc_acc(2.90) hvap_acc(2.85) apcr_acc(2.995) heat_acc(3.93) apds_acc(7.53) fg_acc(3.08)
+	)
+)
+(define "accuracy_curve_240m_10m_he"
+	("accuracy_curve_gun"
+			max_dist_ap(240) max_dist_fg(230) r1(%r1) ap_acc(2.995) apc_acc(3.10)		;*0.9
+			apcbc_acc(2.90) hvap_acc(2.85) apcr_acc(2.995) heat_acc(3.93) apds_acc(4.79) fg_acc(3.08)
+	)
+)
+(define "accuracy_curve_240m_vet"
+	("accuracy_curve_gun"
+			max_dist_ap(240) max_dist_fg(240) r1(%r1) ap_acc(2.995) apc_acc(3.10)		;*0.9
+			apcbc_acc(2.90) hvap_acc(2.85) apcr_acc(2.995) heat_acc(3.93) apds_acc(4.79) fg_acc(3.14)
+	)
+)
+(define "accuracy_curve_230m"
+	("accuracy_curve_gun"
+			max_dist_ap(230) max_dist_fg(210) r1(%r1) ap_acc(2.94) apc_acc(3.05)		;*0.8
+			apcbc_acc(2.85) hvap_acc(2.80) apcr_acc(2.94) heat_acc(3.86) apds_acc(4.58) fg_acc(2.96)
+	)
+)
+(define "accuracy_curve_230m_17pdr"
+	("accuracy_curve_gun"
+			max_dist_ap(230) max_dist_fg(220) r1(%r1) ap_acc(2.94) apc_acc(3.05)		;*0.8
+			apcbc_acc(2.85) hvap_acc(2.80) apcr_acc(2.94) heat_acc(3.86) apds_acc(7.06) fg_acc(3.02)
+	)
+)
+(define "accuracy_curve_230m_10m_he"
+	("accuracy_curve_gun"
+			max_dist_ap(230) max_dist_fg(220) r1(%r1) ap_acc(2.94) apc_acc(3.05)		;*0.8
+			apcbc_acc(2.85) hvap_acc(2.80) apcr_acc(2.94) heat_acc(3.86) apds_acc(4.58) fg_acc(3.02)
+	)
+)
+(define "accuracy_curve_230m_vet"
+	("accuracy_curve_gun"
+			max_dist_ap(230) max_dist_fg(230) r1(%r1) ap_acc(2.94) apc_acc(3.05)		;*0.8
+			apcbc_acc(2.85) hvap_acc(2.80) apcr_acc(2.94) heat_acc(3.86) apds_acc(4.58) fg_acc(3.08)
+	)
+)
+(define "accuracy_curve_220m"
+	("accuracy_curve_gun"
+			max_dist_ap(220) max_dist_fg(200) r1(%r1) ap_acc(2.885) apc_acc(3.0) 		;*0.7
+			apcbc_acc(2.80) hvap_acc(2.75) apcr_acc(2.885) heat_acc(3.79) apds_acc(4.37) fg_acc(2.90)
+	)
+)
+(define "accuracy_curve_220m_10m_he"
+	("accuracy_curve_gun"
+			max_dist_ap(220) max_dist_fg(210) r1(%r1) ap_acc(2.885) apc_acc(3.0) 		;*0.7
+			apcbc_acc(2.80) hvap_acc(2.75) apcr_acc(2.885) heat_acc(3.79) apds_acc(4.37) fg_acc(2.96)
+	)
+)
+(define "accuracy_curve_220m_vet"
+	("accuracy_curve_gun"
+			max_dist_ap(220) max_dist_fg(220) r1(%r1) ap_acc(2.885) apc_acc(3.0) 		;*0.7
+			apcbc_acc(2.80) hvap_acc(2.75) apcr_acc(2.885) heat_acc(3.79) apds_acc(4.37) fg_acc(3.02)
+	)
+)
+(define "accuracy_curve_210m"
+	("accuracy_curve_gun"
+			max_dist_ap(210) max_dist_fg(190) r1(%r1) ap_acc(2.83) apc_acc(2.95) 		;*0.6
+            apcbc_acc(2.75) hvap_acc(2.70) apcr_acc(2.83) heat_acc(3.72) apds_acc(4.16) fg_acc(2.84)
+	)
+)
+(define "accuracy_curve_210m_10m_he"
+	("accuracy_curve_gun"
+			max_dist_ap(210) max_dist_fg(200) r1(%r1) ap_acc(2.83) apc_acc(2.95) 		;*0.6
+            apcbc_acc(2.75) hvap_acc(2.70) apcr_acc(2.83) heat_acc(3.72) apds_acc(4.16) fg_acc(2.90)
+	)
+)
+(define "accuracy_curve_210m_vet"
+	("accuracy_curve_gun"
+			max_dist_ap(210) max_dist_fg(210) r1(%r1) ap_acc(2.83) apc_acc(2.95) 		;*0.6
+            apcbc_acc(2.75) hvap_acc(2.70) apcr_acc(2.83) heat_acc(3.72) apds_acc(4.16) fg_acc(2.96)
+	)
+)
+(define "accuracy_curve_200m"
+	("accuracy_curve_gun"
+			max_dist_ap(200) max_dist_fg(180) r1(%r1) ap_acc(2.775) apc_acc(2.9) 		;*0.5
+			apcbc_acc(2.7) hvap_acc(2.65) apcr_acc(2.775) heat_acc(3.65) apds_acc(3.95) fg_acc(2.78)    	; 150 to 250 is 100. 150 to 180 is 30; 30/100 = 0.3, .50 is the accuracy diff
+	)												
+)
+(define "accuracy_curve_200m_10m_he"
+	("accuracy_curve_gun"
+			max_dist_ap(200) max_dist_fg(190) r1(%r1) ap_acc(2.775) apc_acc(2.9)
+			apcbc_acc(2.7) hvap_acc(2.65) apcr_acc(2.775) heat_acc(3.65) apds_acc(3.95) fg_acc(2.84)
+	)												
+)	
+(define "accuracy_curve_200m_vet"
+	("accuracy_curve_gun"
+			max_dist_ap(200) max_dist_fg(200) r1(%r1) ap_acc(2.775) apc_acc(2.9) 		;*0.5
+			apcbc_acc(2.7) hvap_acc(2.65) apcr_acc(2.775) heat_acc(3.65) apds_acc(3.95) fg_acc(2.90)    	; 150 to 250 is 100. 150 to 180 is 30; 30/100 = 0.3, .50 is the accuracy diff
+	)												;0.3*0.50 = fg_acc(3.15)
+)												;150 - 175 - 200 - 225 - 250 range
+												;0.0 - 0.25- 0.5 - 0.75- 1.0 % of range
+												;3.0 -3.125- 3.25-3.375- 3.5 fg_acc
+(define "accuracy_curve_190m"
+	("accuracy_curve_gun"
+			max_dist_ap(190) max_dist_fg(170) r1(%r1) ap_acc(2.72) apc_acc(2.85) 		;*0.4
+            		apcbc_acc(2.65) hvap_acc(2.60) apcr_acc(2.72) heat_acc(3.58) apds_acc(3.74) fg_acc(2.72)
+	)
+)
+(define "accuracy_curve_190m_10m_he"
+	("accuracy_curve_gun"
+			max_dist_ap(190) max_dist_fg(180) r1(%r1) ap_acc(2.72) apc_acc(2.85) 		;*0.4
+            		apcbc_acc(2.65) hvap_acc(2.60) apcr_acc(2.72) heat_acc(3.58) apds_acc(3.74) fg_acc(2.78)
+	)
+)
+
+
+
+(define "accuracy_curve_direct_howitz"
+	{spreading 
+		{radiusTable {0 0} {50 (* 0.45 %ap)} {90 (* 1.35 %ap)} {120 (* 1.80 %ap)} {150 (* 2.25 %ap)} {(+ %max_dist 3) (* %ap_acc %ap)} {(+ %max_dist 5) 60}}
+	}
+	{parameters "apc"
+		{spreading
+			{radiusTable {0 0} {50 (* 0.45 %ap)} {90 (* 1.35 %ap)} {120 (* 1.80 %ap)} {150 (* 2.25 %ap)} {(+ %max_dist 3) (* %ap_acc %ap)} {(+ %max_dist 5) 60}}
+		}
+	}
+	{parameters "apcr"
+		{spreading
+			{radiusTable {0 0} {50 (* 0.50 %r1)} {90 (* 1.50 %r1)} {120 (* 2.05 %r1)} {150 (* 2.50 %r1)} {(+ %max_dist 3) (* %fg_acc %r1)} {(+ %max_dist 5) 60}}
+		}
+	}
+	{parameters "heat"
+		{spreading
+			{radiusTable {0 0} {50 (* 0.50 %heat)} {90 (* 1.50 %heat)} {120 (* 2.05 %heat)} {150 (* 2.50 %heat)} {(+ %max_dist 3) (* %fg_acc %heat)} {(+ %max_dist 5) 60}}
+		}
+	}
+	{parameters "heata"
+		{spreading
+			{radiusTable {0 0} {50 (* 0.50 %heat)} {90 (* 1.50 %heat)} {120 (* 2.05 %heat)} {150 (* 2.50 %heat)} {(+ %max_dist 3) (* %fg_acc %heat)} {(+ %max_dist 5) 60}}
+		}
+	}
+	{parameters "heatb"
+		{spreading
+			{radiusTable {0 0} {50 (* 0.50 %heat)} {90 (* 1.50 %heat)} {120 (* 2.05 %heat)} {150 (* 2.50 %heat)} {(+ %max_dist 3) (* %fg_acc %heat)} {(+ %max_dist 5) 60}}
+		}
+	}
+	{parameters "heatc"
+		{spreading
+			{radiusTable {0 0} {50 (* 0.50 %heat)} {90 (* 1.50 %heat)} {120 (* 2.05 %heat)} {150 (* 2.50 %heat)} {(+ %max_dist 3) (* %fg_acc %heat)} {(+ %max_dist 5) 60}}
+		}
+	}
+	{parameters "fg"
+		{spreading
+			{radiusTable {0 0} {50 (* 0.50 %r1)} {90 (* 1.50 %r1)} {120 (* 2.05 %r1)} {150 (* 2.50 %r1)} {(+ %max_dist 3) (* %fg_acc %r1)} {(+ %max_dist 5) 60}}
+		}
+	}
+	{parameters "wp"
+		{spreading
+			{radiusTable {0 0} {50 (* 0.50 %r1)} {90 (* 1.50 %r1)} {120 (* 2.05 %r1)} {150 (* 2.50 %r1)} {(+ %max_dist 3) (* %fg_acc %r1)} {(+ %max_dist 5) 60}}
+		}
+	}	
+)
+
+(define "accuracy_curve_direct_howitz_180m"
+    ("accuracy_curve_direct_howitz"
+            max_dist(180) r1(%r1) ap(%ap) heat(%heat)
+            ap_acc(2.37) fg_acc(2.9)
+    )
+)
+(define "accuracy_curve_direct_howitz_190m"
+    ("accuracy_curve_direct_howitz"
+            max_dist(190) r1(%r1) ap(%ap) heat(%heat)
+            ap_acc(2.41) fg_acc(2.95)
+    )
+)
+
+(define "accuracy_curve_direct_howitz_200m"
+    ("accuracy_curve_direct_howitz"
+            max_dist(200) r1(%r1) ap(%ap) heat(%heat)
+            ap_acc(2.45) fg_acc(3.00)
+    )
+)
+
+(define "accuracy_curve_direct_howitz_210m"
+    ("accuracy_curve_direct_howitz"
+            max_dist(210) r1(%r1) ap(%ap) heat(%heat)
+            ap_acc(2.49) fg_acc(3.05)
+    )
+)
+(define "accuracy_curve_direct_howitz_220m"
+    ("accuracy_curve_direct_howitz"
+            max_dist(220) r1(%r1) ap(%ap) heat(%heat)
+            ap_acc(2.53) fg_acc(3.1)
+    )
+)
+
+
+(define "accuracy_curve_2" 
+	{spreading 
+		{radiusTable {0 0} {50 (* 0.50 %r1)} {90 (* 1.00 %r1)} {120 (* 2.00 %r1)} {150 (* 2.50 %r1)} {250 (* 3.50 %r1)}}
+	}		
+	{parameters "fg"
+		{spreading
+			{radiusTable {0 0} {50 (* 1.00 %r1)} {90 (* 2.00 %r1)} {120 (* 3.00 %r1)} {150 (* 3.50 %r1)} {250 (* 4.50 %r1)}}
+		}
+	}
+)
+
+(define "accuracy_curve_3"
+	{spreading
+		{radiusTable {0 0} {100 (* 0.50 %r1)} {200 (* 2.00 %r1)} {400 (* 2.50 %r1)} {800 (* 3.00 %r1)}}
+	}
+)
+
+
+(define "accuracy_zenite_low"		 ;orignal value before veterancy increase multiplied by 1.5
+	("accuracy_curve_190m" r1(1.30)) ;0,7 ;old 1.40
+)
+(define "accuracy_zenite_medium"
+	("accuracy_curve_190m" r1(1.15)) ;0,6 ;old 1.25
+)
+(define "accuracy_zenite_high"
+	("accuracy_curve_190m" r1(1.0)) ;0,5 ;old 1.10
+)
+(define "accuracy_minimum" 
+	("accuracy_curve_190m" r1(1.10)) ;0,8 ;old 1.20
+)	
+(define "accuracy_low" 
+	("accuracy_curve_190m" r1(1.05)) ;0,75 ;old 1.125
+)
+(define "accuracy_low_10m_he" 
+	("accuracy_curve_190m_10m_he" r1(1.05)) ;0,75 ;old 1.125
+)
+(define "accuracy_medium" 
+	("accuracy_curve_190m" r1(1.0)) ;0,70 ;old 1.05
+)
+(define "accuracy_medium_10m_he" 
+	("accuracy_curve_190m_10m_he" r1(1.0)) ;0,70 ;old 1.05
+)
+(define "accuracy_medium_200m" 
+	("accuracy_curve_200m" r1(1.0)) ;0,70 ;old 1.05
+)
+(define "accuracy_medium_200m_10m_he" 
+	("accuracy_curve_200m_10m_he" r1(1.0)) ;0,70 ;old 1.05
+)
+(define "accuracy_high" 
+	("accuracy_curve_200m" r1(0.95)) ;0,65
+)
+(define "accuracy_high_vet" 
+	("accuracy_curve_200m_vet" r1(0.95)) ;0,65
+)
+(define "accuracy_high_10m_he" 
+	("accuracy_curve_200m_10m_he" r1(0.95)) ;0,65
+)
+(define "accuracy_high_210m" 
+	("accuracy_curve_210m" r1(0.95)) ;0,65
+)
+(define "accuracy_high_210m_10m_he" 
+	("accuracy_curve_210m_10m_he" r1(0.95)) ;0,65
+)
+(define "accuracy_high_210m_vet" 
+	("accuracy_curve_210m_vet" r1(0.95)) ;0,65
+)
+(define "accuracy_high_220m_vet" 
+	("accuracy_curve_220m_vet" r1(0.95)) ;0,65
+)
+(define "accuracy_maximum_200m" 
+	("accuracy_curve_200m" r1(0.925)) ;0,6
+)
+(define "accuracy_maximum_210m" 
+	("accuracy_curve_210m" r1(0.925)) ;0,6
+)
+(define "accuracy_maximum_210m_10m_he" 
+	("accuracy_curve_210m_10m_he" r1(0.925)) ;0,6
+)
+(define "accuracy_maximum" 
+	("accuracy_curve_220m" r1(0.925)) ;0,6
+)
+(define "accuracy_maximum_vet" 
+	("accuracy_curve_220m_vet" r1(0.925)) ;0,6
+)
+(define "accuracy_maximum_10m_he" 
+	("accuracy_curve_220m_10m_he" r1(0.925)) ;0,6
+)
+(define "accuracy_maximum_230m" 
+	("accuracy_curve_230m" r1(0.925)) ;0,6
+)
+(define "accuracy_maximum_230m_10m_he" 
+	("accuracy_curve_230m_10m_he" r1(0.925)) ;0,6
+)
+(define "accuracy_maximum_230m_vet" 
+	("accuracy_curve_230m_vet" r1(0.925)) ;0,6
+)
+(define "accuracy_maximum_240m"
+	("accuracy_curve_240m" r1(0.925)) ;0,6
+)
+(define "accuracy_maximum_240m_10m_he"
+	("accuracy_curve_240m_10m_he" r1(0.925)) ;0,6
+)
+(define "accuracy_maximum_240m_vet" 
+	("accuracy_curve_240m_vet" r1(0.925)) ;0,6
+)
+(define "accuracy_maximum_250m_vet"
+	("accuracy_curve_250m_vet" r1(0.925)) ;0,6
+)
+(define "accuracy_max_high" 
+	("accuracy_curve_230m" r1(0.90)) ;0,55
+)
+(define "accuracy_max_high_10m_he" 
+	("accuracy_curve_230m_10m_he" r1(0.90)) ;0,55
+)
+(define "accuracy_max_high_17pdr" 
+	("accuracy_curve_230m_17pdr" r1(0.90)) ;0,55
+)
+(define "accuracy_max_high_240m" 
+	("accuracy_curve_240m" r1(0.90)) ;0,55
+)
+(define "accuracy_max_high_240m_10m_he" 
+	("accuracy_curve_240m_10m_he" r1(0.90)) ;0,55
+)
+(define "accuracy_max_high_240m_17pdr" 
+	("accuracy_curve_240m_17pdr" r1(0.90)) ;0,55
+)
+(define "accuracy_max_high_250m_vet" 
+	("accuracy_curve_250m_vet" r1(0.90)) ;0,55
+)
+(define "accuracy_max_high_250m_17pdr" 
+	("accuracy_curve_250m_17pdr" r1(0.90)) ;0,55
+)
+(define "accuracy_max" 
+	("accuracy_curve_250m" r1(0.875)) ;0,5
+	{parameters "fg"
+		{gravity 5}
+	}
+)
+(define "accuracy_max_10m_he" 
+	("accuracy_curve_250m_10m_he" r1(0.875)) ;0,5
+	{parameters "fg"
+		{gravity 5}
+	}
+)
+(define "accuracy_max_vet" 
+	("accuracy_curve_250m_vet" r1(0.875)) ;0,5
+	{parameters "fg"
+		{gravity 5}
+	}
+)
+(define "accuracy_max_260m" 
+	("accuracy_curve_260m" r1(0.875)) ;0,5
+	{parameters "fg"
+		{gravity 5}
+	}
+)
+(define "accuracy_max_260m_10m_he" 
+	("accuracy_curve_260m_10m_he" r1(0.875)) ;0,5
+	{parameters "fg"
+		{gravity 5}
+	}
+)
+(define "accuracy_max_270m_vet" 
+	("accuracy_curve_270m" r1(0.875)) ;0,5
+	{parameters "fg"
+		{gravity 5}
+	}
+)
+
+(define "accuracy_lighthowitzer_m8"	;for m8
+	("accuracy_curve_direct_howitz_180m" r1(0.975) heat(1.125) ap(1.05)) ;0,65 0,75 0,7
+)
+(define "accuracy_lighthowitzer_leig"	;for leig 18
+	("accuracy_curve_direct_howitz_180m" r1(1.125) heat(1.125) ap(1.05)) ;0,75 0,75 0,7
+)
+(define "accuracy_grazinghowitzer_sig"	;for sig33b
+	("accuracy_curve_direct_howitz_190m" r1(1.35) heat(1.35) ap(1.35)) ;0,9 0,9 0,9
+)
+(define "accuracy_lighthowitzer"	;for other 75mm direct howitzers
+	("accuracy_curve_direct_howitz_180m" r1(1.05) heat(1.125) ap(1.05)) ;0,7 0,75 0,7
+	{parameters "fg"
+		{gravity 10}
+	}
+)
+(define "accuracy_grazinghowitzer_190m"	;for low velocity direct howitzers
+	("accuracy_curve_direct_howitz_190m" r1(1.20) heat(1.20) ap(1.125)) ;0,8 0,8 0,75
+)
+(define "accuracy_grazinghowitzer"	;for 150mm direct howitzers
+	("accuracy_curve_direct_howitz_200m" r1(1.05) heat(1.05) ap(0.90)) ;0,7 0,7 0,6
+	{parameters "fg"
+		{gravity 10}
+	}
+)
+(define "accuracy_grazinghowitzer_210m"	;super large caliber or high velocity direct howitzers
+	("accuracy_curve_direct_howitz_210m" r1(0.975) heat(0.975) ap(0.825)) ;0,65 0,65 0,55
+	{parameters "fg"
+		{gravity 10}
+	}
+)
+(define "accuracy_grazinghowitzer_220m"	;super large caliber or high velocity direct howitzers
+	("accuracy_curve_direct_howitz_220m" r1(0.975) heat(0.975) ap(0.825)) ;0,65 0,65 0,55
+	{parameters "fg"
+		{gravity 10}
+	}
+)
+(define "accuracy_grazinghowitzer_high"	;for 105mm base direct howitzers
+	("accuracy_curve_direct_howitz_190m" r1(0.90) heat(1.05) ap(0.825)) ;0,6 0,7 0,55
+	{parameters "fg"
+		{gravity 10}
+	}
+)
+(define "accuracy_grazinghowitzer_high_200m" ;for 122mm base direct howitzers
+	("accuracy_curve_direct_howitz_200m" r1(0.90) heat(1.05) ap(0.825)) ;0,6 0,7 0,55
+	{parameters "fg"
+		{gravity 10}
+	}
+)
+
+(define "accuracy_howitzer" 
+	("accuracy_curve_3" r1(9.00))
+)
+(define "accuracy_howitzer_lowarc_low" 
+	("accuracy_curve_3" r1(12.00))
+)
+(define "accuracy_howitzer_lowarc" 
+	("accuracy_curve_3" r1(12.00))
+)
+
+
+(define "caliber_zenite"
+	{projectileDamageThreshold 1.10}
+)
+(define "caliber_minimum"
+	{projectileDamageThreshold 1.10}
+)
+(define "caliber_medium"
+	{projectileDamageThreshold 1.15}
+)
+(define "caliber_large"
+	{projectileDamageThreshold 1.20}
+)
+(define "caliber_maximum"
+	{projectileDamageThreshold 1.25}
+)
+(define "caliber_howitzer"
+	{projectileDamageThreshold 1.30}
+)
+
+(define "zeroing_6"
+	{ZeroingAccuracy 1 1 1 1 1 0.95 0.95 0.95 0.95 0.95 0.95 0.9 0.9 0.9 0.9 0.9 0.9 0.8 0.8 0.8 0.8 0.8 0.8 0.7 0.7 0.7 0.7 0.7 0.7 0.6 0.6 0.6 0.6 0.6 0.6}
+)
+(define "zeroing_4"
+	{ZeroingAccuracy 1 1 1 0.95 0.95 0.95 0.95 0.9 0.9 0.9 0.9 0.8 0.8 0.8 0.8 0.7 0.7 0.7 0.7 0.6 0.6 0.6 0.6}
+)
+(define "zeroing_3"
+	{ZeroingAccuracy 1 1 0.95 0.95 0.95 0.9 0.9 0.9 0.8 0.8 0.8 0.7 0.7 0.7 0.6 0.6 0.6}
+)
+(define "zeroing_us_vet"
+	{ZeroingAccuracy 1 1 0.9 0.85 0.75 0.7 0.65 0.65 0.65 0.6}
+)
+
+(define "range_autocannon"
+	("accuracy_zenite_high")
+	{spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 90 80 70 60 50 35}
+	}
+	{SpreadTolerance 0.6}
+	
+	{range 110 110}	
+	
+    {RelaxationTime 1}
+	{gravity 1.5}
+)
+
+(define "range_zenite"
+	("accuracy_zenite_low")
+	{spreading 1
+		{BurstRecoveryTime 0.6}
+		{SpreadPower	1}
+		{BurstAccuracy 100 90 80 70 60 50 35}
+	}
+	{SpreadTolerance 0.8}
+	
+	{range 160 160}
+	{cursor "zenite_on"}
+	{cursorReloading "zenite_reload"}
+	{parameters "fg"
+		{cursor "cannon_on_fg"}
+		{cursorReloading "cannon_reload_fg"}
+		{range 150 150}
+	}
+	
+    {RelaxationTime 1}
+	{gravity 1.5}
+)
+
+(define "range_zenite_long"
+	("accuracy_zenite_medium")
+	{spreading 1
+		{BurstRecoveryTime 0.6}
+		{SpreadPower	1}
+		{BurstAccuracy 100 90 80 70 60 50 35}
+	}
+	{SpreadTolerance 0.8}
+	
+	{range 170 170}
+	{cursor "zenite_on"}
+	{cursorReloading "zenite_reload"}
+	{parameters "fg"
+		{cursor "cannon_on_fg"}
+		{cursorReloading "cannon_reload_fg"}
+		{range 160 160}
+	}
+	
+    {RelaxationTime 1}
+	{gravity 1.5}
+)
+
+(define "range_minimum"
+	{spreading 1                
+		{SpreadPower	1}
+	}	
+	{SpreadTolerance 0.4}
+	{range 170 170}
+	{bullet_view "howitzer_shell"}
+
+	{ZeroingAccuracy 0.9 0.8 0.6}
+    {RelaxationTime 0.4}
+	{gravity 1.5}
+)
+
+(define "range_short"
+	{curve "gun_medium"}
+	{spreading 1
+		{SpreadPower	1}
+	}
+	{SpreadTolerance 0.4}		
+	{range 190 190}
+	{bullet_view "howitzer_shell"}
+
+	{ZeroingAccuracy 0.9 0.8 0.6}
+    {RelaxationTime 0.4}
+	{gravity 1.5}
+)
+ 
+(define "range_medium"
+	{curve "gun_heavy"}
+	{spreading 1 
+		{SpreadPower	1}
+	}
+	{SpreadTolerance 0.4}
+	{range 200 200}
+	{bullet_view "howitzer_shell"}
+
+	{ZeroingAccuracy 0.8 0.7 0.6}
+    {RelaxationTime 0.4}
+	{gravity 1.5}
+)
+
+(define "range_long"
+	{curve "gun_heavy"}
+	{spreading 1
+		{SpreadPower	1}
+	}
+	{SpreadTolerance 0.4}
+	{range 230 230}
+	{bullet_view "howitzer_shell"}
+
+	{ZeroingAccuracy 0.8 0.7 0.6}
+    {RelaxationTime 0.4}
+	{gravity 1.5}
+)
+
+(define "range_maximum"
+	{curve "gun_heavy"}
+	{spreading 1
+		{SpreadPower	1}
+	}
+	{SpreadTolerance 0.4}
+	{range 250 250}
+	{bullet_view "howitzer_shell"}
+
+	{ZeroingAccuracy 0.8 0.7 0.6}
+    {RelaxationTime 0.4}
+	{gravity 1.5}
+)
+
+(define "range_light_howitzer"
+	{curve "gun_medium"}
+	{spreading 1
+		{SpreadPower	1}
+	}
+
+	{rechargeTime 8}
+	
+	{bullet_view "howitzer_shell"}
+	
+	{SpreadTolerance 0.7}
+	{range 180 180}
+	
+	{ZeroingAccuracy 0.85 0.7}
+	
+    {RelaxationTime 0.4}
+	{speed 385}
+	{gravity 4.0}
+	("accuracy_lighthowitzer")
+)
+
+(define "range_grazing_howitzer"
+	{curve "gun_medium"}
+	{spreading 1
+		{SpreadPower	1}
+	}
+
+	{rechargeTime 16}
+
+	{bullet_view "howitzer_shell"}
+	
+	{SpreadTolerance 0.7}	
+	{DisableRicochet}
+	{range 200 200}
+
+	{ZeroingAccuracy 0.85 0.7}
+    {RelaxationTime 1}
+	{speed 450}
+	{gravity 4.0}
+	("accuracy_grazinghowitzer")
+	("caliber_howitzer")
+)
+
+(define "range_grazing_howitzer_1"
+	{curve "gun_medium"}
+	{spreading 1
+		{SpreadPower	1.25}
+	}
+	("accuracy_grazinghowitzer")
+	("caliber_howitzer")
+
+	{rechargeTime 16}
+
+	{bullet_view "howitzer_shell"}
+	
+	{SpreadTolerance 0.7}	
+	{DisableRicochet}
+	{range 200 200}
+
+	{ZeroingAccuracy 0.85 0.7}
+    {RelaxationTime 2}
+	{speed 450}
+	{gravity 4.0}
+)
+
+(define "range_small_howitzer"
+	{spreading 1
+		{SpreadPower	1}
+		{SpreadYadjust	0.5}
+	}
+	("accuracy_howitzer")
+	("caliber_howitzer")
+
+	{burst {min 6} {noaiming}}
+	{recoveryTime 8}
+	{rechargeTime 8}
+
+	{bullet_view "howitzer_shell"}
+	
+	{DisableRicochet}
+	{aimtype adaptive}
+	{traceFreq 0} 
+	{range 250 250}
+	{RelaxationTime 2}
+	("zeroing_6")
+	
+	{speed 210}
+	{gravity 5}
+
+	(mod "mp"
+		{tag "prepare"}
+		{Special
+			{Mode aim}
+			{PrepareTime 5}
+			{PrepareCursor "aimed_shot"}
+		}
+	)
+)
+
+(define "range_medium_howitzer"
+	{spreading 1
+		{SpreadPower	1}
+		{SpreadYadjust	0.5}
+	}
+	("accuracy_howitzer")
+	("caliber_howitzer")
+
+	{burst {min 4} {noaiming}}
+	{recoveryTime 12}
+	{rechargeTime 12}
+
+	{bullet_view "howitzer_shell"}
+	
+	{DisableRicochet}
+	{aimtype adaptive}
+	{traceFreq 0} 
+	{range 300 300}
+	{RelaxationTime 2}
+	("zeroing_4")
+	
+	{speed 450}
+	{gravity 5}
+	
+	(mod "mp"
+		{tag "prepare"}
+		{Special
+			{Mode aim}
+			{PrepareTime 5}
+			{PrepareCursor "aimed_shot"}
+		}
+	)
+)
+(define "range_medium_howitzer_us_vet"
+	{spreading 1
+		{SpreadPower	0.9}
+		{SpreadYadjust	0.5}
+	}
+	("accuracy_howitzer")
+	("caliber_howitzer")
+
+	{burst {min 4} {noaiming}}
+	{recoveryTime 16}
+	{rechargeTime 16}
+
+	{bullet_view "howitzer_shell"}
+	
+	{DisableRicochet}
+	{aimtype adaptive}
+	{traceFreq 0} 
+	{range 300 300}
+	{RelaxationTime 2}
+	("zeroing_us_vet")
+	
+	{speed 450}
+	{gravity 5}
+	
+	(mod "mp"
+		{tag "prepare"}
+		{Special
+			{Mode aim}
+			{PrepareTime 2.5}
+			{PrepareCursor "aimed_shot"}
+		}
+	)
+)
+
+
+(define "range_heavy_howitzer"
+	{spreading 1
+		{SpreadPower	1}
+		{SpreadYadjust	0.5}
+	}
+	("accuracy_howitzer")
+	("caliber_howitzer")
+
+	{burst {min 3} {noaiming}}
+	{recoveryTime 20}
+	{rechargeTime 20}
+
+	{bullet_view "howitzer_shell"}
+	
+	{DisableRicochet}
+	{aimtype adaptive}
+	{traceFreq 0} 
+	{range 400 400}
+	{RelaxationTime 2}
+	("zeroing_3")
+	
+	{speed 450}
+	{gravity 5}
+
+	(mod "mp"
+		{tag "prepare"}
+		{Special
+			{Mode aim}
+			{PrepareTime 5}
+			{PrepareCursor "aimed_shot"}
+		}
+	)
+)
+(define "range_arty_lowarc_low"
+	{curve "gun_heavy"}
+	{spreading 1
+		{SpreadPower	1}
+	}
+	("accuracy_howitzer_lowarc_low")
+
+
+	;{SpreadTolerance 0.4}
+	{range 400 400}
+	{bullet_view "howitzer_shell"}
+
+	;{aimtype adaptive}
+    	{RelaxationTime 1}
+	{gravity 6}
+
+	(mod "mp"
+		{tag "prepare"}
+		{Special
+			{Mode aim}
+			{PrepareTime 5}
+			{PrepareCursor "aimed_shot"}
+		}
+	)
+)
+(define "range_heavy_howitzer_us_vet"
+	{spreading 1
+		{SpreadPower	0.9}
+		{SpreadYadjust	0.5}
+	}
+	("accuracy_howitzer")
+	("caliber_howitzer")
+
+	{burst {min 3} {noaiming}}
+	{recoveryTime 23}
+	{rechargeTime 23}
+
+	{bullet_view "howitzer_shell"}
+	
+	{DisableRicochet}
+	{aimtype adaptive}
+	{traceFreq 0} 
+	{range 400 400}
+	{RelaxationTime 2}
+	("zeroing_us_vet")
+	
+	{speed 450}
+	{gravity 5}
+
+	(mod "mp"
+		{tag "prepare"}
+		{Special
+			{Mode aim}
+			{PrepareTime 2.5}
+			{PrepareCursor "aimed_shot"}
+		}
+	)
+)
+(define "range_arty_lowarc"
+	{curve "gun_heavy"}
+	{spreading 1
+		{SpreadPower	1}
+	}
+	("accuracy_howitzer_lowarc")
+
+
+	;{SpreadTolerance 0.4}
+	{range 400 400}
+	{bullet_view "howitzer_shell"}
+
+	;{aimtype adaptive}
+    	{RelaxationTime 1}
+	{gravity 8}
+
+	(mod "mp"
+		{tag "prepare"}
+		{Special
+			{Mode aim}
+			{PrepareTime 5}
+			{PrepareCursor "aimed_shot"}
+		}
+	)
+)

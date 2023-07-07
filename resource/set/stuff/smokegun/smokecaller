@@ -1,0 +1,28 @@
+{weapon_bullet	;прибор дымопуска ТДП-3
+	{tag "weapon mgun bullet"}
+	{filling "ammo smokecaller" 5}
+	{fireSound "reactive/grnd_launch"}
+	{inventory
+		{size 3 2 }
+		{weight 100}
+	}
+	{entity "balloon_g"}
+	{mass 50}
+	{AimingTolerance 1}
+	{aimRange 35}
+	{maxRange 35}
+
+	{ammoLocked}
+
+	{curve "gun_heavy"}
+	{traceFreq 1}
+	{speed 100}
+	{spreading 0.1}
+
+	{recoveryTime 35}
+	{rechargeTime 35}
+
+	{cursor "smg_on"}
+	{cursorReloading "smg_reload"}
+	{foresight "Foresight3"}
+}

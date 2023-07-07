@@ -1,0 +1,15 @@
+{from "pattern rifle"
+	{tag "autorifle"}
+	{filling "ammo mosin54r" 10}
+	{entity "svt40"}
+	{fireSound "rifle/svt40_shot/"}
+	{reloadSound "svt40"}
+	
+	{Automatic}
+	{rechargeTime 4.5}
+	{healthDamage 30}
+	{recoveryTime 0.4}
+	("accuracy_automatic_rifle")
+	("speed" s(840))
+	("sa_zeroing")
+}

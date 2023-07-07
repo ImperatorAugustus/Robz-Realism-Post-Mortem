@@ -1,0 +1,21 @@
+{from "75mm_pak39"		; "pz4h"
+	{rechargeTime 6.8}
+	("accuracy_high_210m")
+	{range 210 210}
+	("damage_170" a(135) b(123) c(109) d(97) e(86) range(210))
+	{parameters "apc"
+		("damage_170" a(135) b(123) c(109) d(97) e(86) range(210))
+	}
+	{parameters "heatb"
+		("damage_heat" a(87) range(210))
+	}
+	{parameters "heatc"
+		("damage_heat" a(100) range(210))
+	}
+	{parameters "apcr"
+        	("damage_170" a(176) b(154) c(130) d(109) e(92) range(210))
+	}
+	{parameters "fg"
+		{range 190 190}
+	}
+}

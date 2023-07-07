@@ -1,0 +1,8 @@
+{from "fieldcap_rus"
+	{desc "Hachimaki_HisShou"}
+	{entity "hachimaki_1"}
+	{inventory
+		{size 2 1}
+		{fsm "stuff"}
+	}
+}

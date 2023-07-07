@@ -1,0 +1,24 @@
+{from "pattern gun"		; "zis2"
+	{filling "bullet57 rus"}
+	{fireSound "gun/50to76_cal/50mm_kwk38"}
+	{reloadSound "gun_r00"}
+	{rechargeTime 5.5}
+	("range_short")
+	
+	{range 200 200}
+	("speed_all" ap(990) apcr(1270) fg(700) heat(700))
+	("caliber_minimum")
+	{projectileDamage 114}
+	("damage_170" a(121) b(106) c(91) d(79) e(68) range(200))
+	{parameters "aphebc"
+		{cursorReloading "cannon_reload_aphebc"}
+	}
+	{parameters "apcr"
+        	("damage_170" a(185) b(147) c(111) d(84) e(64) range(200))
+	}
+	{parameters "fg"
+		{range 180 180}
+	}
+	("accuracy_high")
+}
+

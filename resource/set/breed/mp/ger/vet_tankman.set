@@ -1,0 +1,54 @@
+{breed
+	{skin "ger_tankman1"}
+	{portrait "ger_tankman"}
+	{nationality ger}
+	{icon "tankman"}
+	{icon_priority 0}
+	{armors
+		{head tank_cap2_ger}
+	}
+	{perks
+		{"health" "100%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "100%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+        {"vision" "mp_soldier"
+		}
+		{"speed" 0.8
+		}
+		{"tank"	1.15
+		}
+		{"vehicle" 1.15
+		}
+		{"cannon" 1.0
+		}
+		
+		{"pistol" lvl_5
+		}
+		{"smg" lvl_5
+		}
+		{"mgun" lvl_4
+		}
+		{"rifle" lvl_3
+		}
+		{"rocketlauncher" lvl_2
+		}
+		{"melee" lvl_4
+		}
+		{"tankgun" lvl_5
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_tankcrew")
+	}
+	{inventory
+		{item "valter" filled}
+		{item "ammo walther_mag" 32}
+		{in_hands 0}
+	}
+}

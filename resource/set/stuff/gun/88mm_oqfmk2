@@ -1,0 +1,14 @@
+{from "pattern gun_art"		; "pdr25",  "bishop"
+    	{filling "bullet88 eng fg" 6}
+	{fireSound "gun/85to100_cal/OQF_25pdr"}
+	{reloadSound "tankgun_r03"}
+	("range_medium_howitzer")
+	{recoveryTime 9.5}
+	{rechargeTime 9.5}
+	{burst {min 6} {noaiming}}
+	
+	("caliber_large")
+	{range 410 410}
+	("zeroing_6")
+}
+

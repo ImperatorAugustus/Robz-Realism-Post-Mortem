@@ -1,0 +1,119 @@
+;같캳quads같�
+;------------------------------home guards | vet 1--------------------------------------------------------------
+
+("squad_with2types" side(rus) name(home_guards_41) c(15) g(squad_1) c1(home_guard:9) c2(home_guard2_39:2) b(squad1) t(41) level(1) cost(70) f(1.0))
+("squad_with2types" side(rus) name(home_guards_42) c(15) g(squad_1) c1(home_guard:7) c2(home_guard2:2) b(squad1) t(42) level(1) cost(58) f(1.0))
+("squad_with2types" side(rus) name(home_guards) c(15) g(squad_1) c1(home_guard:6) c2(home_guard2:5) b(squad1) t(all inf_only 43 44 45) level(1) cost(76) f(1.0))
+
+;------------------------------assault infantry || vet 2/3--------------------------------------------------------
+
+("squad_with2types" side(rus) name(smgs) c(0) g(squad_2) c1(squadleader2:1) c2(smg2:10) b(squad1) t(all inf_only 43 44 45) level(1) cost(135) f(1.0))
+
+;------------------------------regular squad || vet 2/3-----------------------------------------------------------
+
+("squad_with2types" side(rus) name(riflemans_only_41) c(0) g(squad_3) c1(squadleader_41:1) c2(rifle_41:10) b(squad1) t(41) level(1) cost(91) f(1.0))
+("squad_with2types" side(rus) name(riflemans_only_42) c(0) g(squad_3) c1(squadleader_41:1) c2(rifle_41:8) b(squad1) t(42) level(1) cost(75) f(1.0))
+("squad_with2types" side(rus) name(riflemans_only) c(0) g(squad_3) c1(squadleader:1) c2(rifle:10) b(squad1) t(all inf_only 43 44 45) level(1) cost(102) f(1.0))
+
+("squad_with4types" side(rus) name(riflemans_41) c(0) g(squad_3) c1(squadleader_41:1) c2(rifle_41:7) c3(smg_41:2) c4(mgun_41:1) b(squad1) t(41) level(1) cost(123) f(1.0))
+("squad_with4types" side(rus) name(riflemans_42) c(0) g(squad_3) c1(squadleader_41:1) c2(rifle_41:4) c3(smg_41:3) c4(mgun_41:1) b(squad1) t(42) level(1) cost(109) f(1.0))
+("squad_with4types" side(rus) name(riflemans) c(0) g(squad_3) c1(squadleader:1) c2(rifle:7) c3(smg:2) c4(mgun:1) b(squad1) t(all inf_only 43 44 45) level(1) cost(137) f(1.0))
+
+;------------------------------shock troops ||| vet 3-----------------------------------------------------------
+
+("squad_with2types" side(rus) name(smg3) c(0) g(squad_3) c1(smg3:7) c2(flamer3:1) b(squad1) t(all inf_only 42 43 44 45) level(1) cost(150) f(1.0))
+
+;------------------------------elite squads ||| vet 3/4-----------------------------------------------------------
+
+("squad_with3types" side(rus) name(elites_40) c(300) g(squad_5) c1(elite_40:7) c2(elite2_40:3) c3(elite3_40:1) b(squad1) t(40 41) level(1) cost(166) f(1.0))
+("squad_with3types" side(rus) name(elites_42) c(300) g(squad_5) c1(elite:5) c2(elite2:3) c3(elite3:1) b(squad1) t(42) level(1) cost(142) f(1.0))
+("squad_with3types" side(rus) name(elites) c(300) g(squad_5) c1(elite:7) c2(elite2:3) c3(elite3:1) b(squad1) t(all inf_only 43 44 45) level(1) cost(166) f(1.0))
+
+;------------------------------guards rifle |||| vet 5----------------------------------------------------------
+
+("squad_with3types" side(rus) name(specialinf_41) c(330) g(squad_5) c1(elite4_41:7) c2(elite5:2) c3(elite6:2) b(squad1) t(41) level(1) cost(248) f(1.0))
+("squad_with3types" side(rus) name(specialinf_42) c(330) g(squad_5) c1(elite4:5) c2(elite5:2) c3(elite6:2) b(squad1) t(42) level(1) cost(220) f(1.0))
+("squad_with3types" side(rus) name(specialinf) c(330) g(squad_5) c1(elite4:7) c2(elite5:2) c3(elite6:2) b(squad1) t(all inf_only 43 44 45) level(1) cost(248) f(1.0))
+
+;------------------------------stormtroopers |||| vet 6---------------------------------------------------------
+
+("squad_with4types" side(rus) name(stormtroopers_41) c(360) g(squad_5) c1(sturmovik_41:4) c2(sturmovik2_40:2) c3(sturmovik3_40:1) c4(sturmovik4b_40:4) b(squad1) t(41) level(1) cost(300) f(1.0))
+("squad_with4types" side(rus) name(stormtroopers_42) c(360) g(squad_5) c1(sturmovik_41:3) c2(sturmovik2_40:2) c3(sturmovik3_42:1) c4(sturmovik4b_40:3) b(squad1) t(42) level(1) cost(268) f(1.0))
+("squad_with4types" side(rus) name(stormtroopers_43) c(360) g(squad_5) c1(sturmovik:4) c2(sturmovik2:2) c3(sturmovik3_42:1) c4(sturmovik4b:4) b(squad1) t(43 44) level(1) cost(300) f(1.0))
+("squad_with4types" side(rus) name(stormtroopers) c(360) g(squad_5) c1(sturmovik:4) c2(sturmovik2:2) c3(sturmovik3:1) c4(sturmovik4b:4) b(squad1) t(all inf_only 45) level(1) cost(300) f(1.0))
+
+;------------------------------stormtrooper halftrack |||| vet 3/4----------------------------------------------
+
+{"storm_mech_rus"      ("vb3" c(380) c1(m3) 		t(all inf_only 45) 		     s(rus) n1(6) n2(2) n3(2) 		g(squad_5) b(squad1)) {level 1} {cost 400} {fore 1.0}}
+
+;------------------------------AP and AT miners, sappers || vet 2-----------------------------------------------
+
+("squad_with1types" side(rus) name(ap_miners) c(0) g(squad_7) c1(ap_miner:4) b(squad1) t(all inf_only engineers mines 39 40 41 42 43 44 45) level(20) cost(150) f(0))
+
+("squad_with1types" side(rus) name(at_miners) c(0) g(squad_8) c1(at_miner:4) b(squad1) t(all inf_only engineers mines 39 40 41 42 43 44 45) level(25) cost(200) f(0))
+
+("squad_with1types" side(rus) name(sappers) c(0) g(squad_9) c1(saper:2) b(squad1) t(all inf_only engineers 39 40 41 42 43 44 45) level(1) cost(50) f(0))
+
+;------------------------------tank and support crews || vet 2--------------------------------------------------
+
+("squad_with1types" side(rus) name(vehic_supporter) c(0) g(soldier_3) c1(vehicle_supporter:2) b(squad1) t(all inf_only 43 44 45) level(1) cost(20) f(-1.0))
+("squad_with1types" side(rus) name(vehic_supporter_41) c(0) g(soldier_3) c1(vehicle_supporter_41:2) b(squad1) t(39 40 41 42) level(1) cost(20) f(-1.0))
+
+("squad_with1types" side(rus) name(tankmans) c(0) g(soldier_3) c1(tankman:4) b(squad1) t(all inf_only tankmans 39 40 41 42 43 44 45) level(1) cost(40) f(-1.0))
+
+("squad_with2types" side(rus) name(elite_tankmans) c(0) g(soldier_3) c1(elite_tankman2:1) c2(elite_tankman:4) b(squad1) t(all inf_only tankmans 39 40 41 42 43 44 45) level(1) cost(100) f(-1.0))
+
+;같캳ingle Soldiers같�
+
+;------------------------------rifleman and smg || vet 2--------------------------------------------------------
+
+("squad_with1types" side(rus) name(riflemans2) c(0) g(soldier_1) c1(rifle_41:1) b(squad2) t(all inf_only 39 40 41 42 43 44 45) level(1) cost(8) f(1.0))
+
+("squad_with1types" side(rus) name(rifle_sa) c(30) g(soldier_sa) c1(rifle_sa:1) b(squad2) t(all inf_only 40 41 42 43 44 45) level(1) cost(9) f(1.0))
+
+("squad_with1types" side(rus) name(smgs2_39) c(0) g(soldier_2) c1(smg_39:1) b(squad2) t(39) level(1) cost(10) f(1.0))
+("squad_with1types" side(rus) name(smgs2_40) c(0) g(soldier_2) c1(smg_40:1) b(squad2) t(40) level(1) cost(10) f(1.0))
+("squad_with1types" side(rus) name(smgs2) c(0) g(soldier_2) c1(smg_41:1) b(squad2) t(all inf_only 41 42 43 44 45) level(1) cost(10) f(1.0))
+
+;------------------------------AT rifles and bazookas || vet 2--------------------------------------------------
+
+("squad_with2types" side(rus) name(at_rifles) c1(at_rifle:1) c2(at_rifle2:0) c(0) g(soldier_4) b(squad2) t(39 40) level(1) cost(50) f(1.0))
+("squad_with2types" side(rus) name(at_rifles) c1(at_rifle:1) c2(at_rifle2:1) c(0) g(soldier_4) b(squad2) t(all inf_only 41 42 43 44 45) level(1) cost(60) f(1.0))
+
+("squad_with2types" side(rus) name(bazookers) c1(bazooker:1) c2(bazooker2:1) c(0) g(soldier_5) b(squad2) t(all inf_only 42 43 44 45) level(1) cost(70) f(1.0))
+
+("squad_with2types" side(rus) name(stormtrooper5) c1(sturmovik5_42:1) c2(sturmovik5b_42:1) c(0) g(soldier_5) b(squad2) t(all inf_only 42 43 44 45) level(1) cost(130) f(1.0))
+
+;------------------------------MG infantry || vet 2-------------------------------------------------------------
+
+("squad_with1types" side(rus) name(mgs2) c(90) g(soldier_6) c1(mgun:1) b(squad2) t(all inf_only 43 44 45) level(1) cost(40) f(1.0))
+("squad_with1types" side(rus) name(mgs2_41) c(90) g(soldier_6) c1(mgun_41:1) b(squad2) t(39 40 41 42) level(1) cost(36) f(1.0))
+
+;------------------------------elite3
+("squad_with2types" side(rus) name(elite3_40) c(200) g(squad_4) c1(elite3_40:1) c2(elite_40:2) b(squad2) t(40 41) level(1) cost(67) f(1.0))
+("squad_with2types" side(rus) name(elite3) c(200) g(squad_4) c1(elite3:1) c2(elite:2) b(squad2) t(all inf_only 42 43 44 45) level(1) cost(67) f(1.0))
+
+("squad_with2types" side(rus) name(elite6) c(230) g(squad_4) c1(elite6:1) c2(elite5b:2) b(squad2) t(all inf_only 41 42 43 44 45) level(1) cost(78) f(1.0))
+
+;------------------------------------------------
+
+("squad_with2types" side(rus) name(stormtrooper2_40) c(260) g(squad_4) c1(sturmovik2_40:1) c2(sturmovik6b_40:2) b(squad2) t(40 41 42) level(1) cost(93) f(1.0))
+("squad_with2types" side(rus) name(stormtrooper2) c(260) g(squad_4) c1(sturmovik2:1) c2(sturmovik6b:2) b(squad2) t(all inf_only 43 44 45) level(1) cost(93) f(1.0))
+
+;------------------------------------------------
+
+("squad_with2types" side(rus) name(stormtrooper6_40) c(260) g(squad_4) c1(sturmovik6:1) c2(sturmovik6b_40:2) b(squad2) t(40 41 42) level(1) cost(89) f(1.0))
+("squad_with2types" side(rus) name(stormtrooper6) c(260) g(squad_4) c1(sturmovik6:1) c2(sturmovik6b:2) b(squad2) t(all inf_only 43 44 45) level(1) cost(89) f(1.0))
+
+;------------------------------flamer, sniper and officer || vet2/3/4----------------------------------------------
+
+("squad_with2types" side(rus) name(flamers) c(150) g(soldier_8) c1(flamer:1) c2(flamer2:1) b(squad2) t(all flamer inf_only 39 40 41 42 43 44 45) level(1) cost(75) f(0))
+
+("squad_with1types" side(rus) name(snipers) c(150) g(soldier_9) c1(sniper:1) b(squad2) t(all sniper inf_only 39 40 41 42 43 44 45) level(1) cost(69) f(0))
+("squad_with1types" side(rus) name(snipers3) c(150) g(soldier_9) c1(sniper3:1) b(squad2) t(all sniper inf_only 40 41 42 43 44 45) level(1) cost(75) f(0))
+
+("squad_with1types" side(rus) name(officers) c(150) g(soldier_10) c1(oficer:1) b(squad2) t(all officer inf_only 39 40 41 42 43 44 45) level(1) cost(200) f(0))
+
+("squad_with1types" side(rus) name(snipers_d) c(0) g(soldier_12) c1(sniper:1) b(squad2) t(sniper_duell) level(1) cost(100) f(0))
+
+("squad_with1types" side(rus) name(radioman_mortar) c(300) g(radio_1) c1(radioman_mortar:1) b(squad2) t(all mortar 39 40 41 42 43 44 45) level(1) cost(250) f(1.0))

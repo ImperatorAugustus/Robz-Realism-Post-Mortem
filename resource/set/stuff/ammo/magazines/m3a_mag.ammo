@@ -1,0 +1,11 @@
+{bullet
+  {tag "bullet small stackable pierce 45_pistol"}
+  {inventory
+    {weight 3.125}
+    {block 32}
+    {size 1 2}
+    {fsm "belt"}
+  }
+  {mass 0.020}
+  {entity "m3a_mag"}
+}

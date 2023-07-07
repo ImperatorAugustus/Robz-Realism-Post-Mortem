@@ -1,0 +1,14 @@
+{from "pattern grenade_smoke"
+	{tag "-missile wp fg"}
+	{inventory {size 2 1}}
+	{entity "grenade_m15_smoke"}
+	{mass 0.3}
+	{throw
+		{range 26}
+	}
+	{damage fire
+		{radius 6}
+		{heating 0.5}
+		{time 0.2}
+	}
+}

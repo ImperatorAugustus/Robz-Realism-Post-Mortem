@@ -1,0 +1,58 @@
+{breed
+	{skin "ger-regnco-smg"}
+	{portrait "ger_soldier3"}
+	{nationality ger}
+	{icon "squadleader"}
+	{icon_priority 2}
+	{armors
+		{head helmet_ger_m40_fge}
+	}
+	{perks
+		{"health" "200%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "100%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" "mp_soldier"
+		}
+		{"speed" 0.9
+		}
+		{"tank"	0.85
+		}
+		{"vehicle" 1
+		}
+		{"cannon" 0.9
+		}
+		
+		{"pistol" lvl_4
+		}
+		{"smg" lvl_5
+		}
+		{"mgun" lvl_3
+		}
+		{"rifle" lvl_4
+		}
+		{"rocketlauncher" lvl_2
+		}
+		{"melee" lvl_5
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_1")
+	}
+	{inventory
+		{item "mp40" filled}
+		{item "ammo mp40_mag" 192}
+		{item "bandage" 3}
+		{item "grenade m24" 2}
+		{item "grenade m24x5" 1}
+		{item "smoke grenade" 2}
+		{item "hohlladung grenade"}
+		{item "sandbag_kit" 2}
+		{in_hands 0}
+	}
+}

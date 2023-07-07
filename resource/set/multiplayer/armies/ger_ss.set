@@ -1,0 +1,7 @@
+{army
+	{id 5}
+	{title "mp/army/ger_ss"}
+	{icon "/interface/pages/multi/flag_ger_ss"}
+	{flag "/interface/scene/common/flag-germany-ss"}
+}
+

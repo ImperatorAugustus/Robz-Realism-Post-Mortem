@@ -1,0 +1,58 @@
+{breed
+	{skin "usa-ranger-carbine-ssgt"}
+	{portrait "usa_soldier5"}
+	{nationality usa}
+	{icon "stormtrooper"}
+	{icon_priority 5}
+	{armors
+		{head helmet_usa_ranger_nco}
+		{body us_haversack_shovel}
+	}
+	{perks
+		{"health" "400%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "200%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" "mp_soldier"
+		}
+		{"speed" 0.9
+		}
+		{"tank"	0.95
+		}
+		{"vehicle" 1
+		}
+		{"cannon" 1
+		}
+		
+		{"pistol" lvl_5
+		}
+		{"smg" lvl_5
+		}
+		{"mgun" lvl_5
+		}
+		{"rifle" lvl_6
+		}
+		{"rocketlauncher" lvl_5
+		}
+		{"melee" lvl_5
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_elite")
+	}
+	{inventory
+		{item "m1_carbine" filled}
+		{item "ammo m1carbine_mag" 90}
+		{item "bandage" 5}
+		{item "grenade m61" 2}
+		;{item "grenade n73at" 1}
+		{item "smoke grenade" 1.5 0.5}
+		{item "m15_smoke grenade" 0.5 0.5}
+		{in_hands 0}
+	}
+}

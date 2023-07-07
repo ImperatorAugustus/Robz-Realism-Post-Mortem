@@ -1,0 +1,175 @@
+{Patch
+	{id 1}
+	{delete "interface/font/main_10b.fnt"}
+	{delete "interface/font/main_10b.font"}
+	{delete "interface/font/main_10b_0.tga"}
+	{delete "interface/font/main_12.fnt"}
+	{delete "interface/font/main_12.font"}
+	{delete "interface/font/main_12b.fnt"}
+	{delete "interface/font/main_12b.font"}
+	{delete "interface/font/main_12b_0.tga"}
+	{delete "interface/font/main_12b_1.tga"}
+	{delete "interface/font/main_12_0.tga"}
+	{delete "interface/font/main_12_1.tga"}
+	{delete "interface/font/main_15.fnt"}
+	{delete "interface/font/main_15.font"}
+	{delete "interface/font/main_15_0.tga"}
+	{delete "interface/font/main_15_1.tga"}
+	{delete "interface/font/main_18.fnt"}
+	{delete "interface/font/main_18.font"}
+	{delete "interface/font/main_18_0.tga"}
+	{delete "interface/font/main_18_1.tga"}
+	{delete "interface/font/main_21.fnt"}
+	{delete "interface/font/main_21.font"}
+	{delete "interface/font/main_21_0.tga"}
+	{delete "interface/font/main_21_1.tga"}
+	{delete "interface/font/main_27.fnt"}
+	{delete "interface/font/main_27.font"}
+	{delete "interface/font/main_27_0.tga"}
+	{delete "interface/font/main_27_1.tga"}
+	{delete "interface/font/main_27_2.tga"}
+	{delete "interface/font/main_28.fnt"}
+	{delete "interface/font/main_28.font"}
+	{delete "interface/font/main_28_0.tga"}
+	{delete "interface/font/main_28_1.tga"}
+	{delete "interface/font/main_28_2.tga"}
+	{delete "interface/font/main_30.fnt"}
+	{delete "interface/font/main_30.font"}
+	{delete "interface/font/main_30_0.tga"}
+	{delete "interface/font/main_30_1.tga"}
+	{delete "interface/font/main_30_2.tga"}
+	{delete "interface/font/main_30_3.tga"}
+	{delete "interface/font/main_8.fnt"}
+	{delete "interface/font/main_8.font"}
+	{delete "interface/font/main_8b.fnt"}
+	{delete "interface/font/main_8b.font"}
+	{delete "interface/font/main_8b_0.tga"}
+	{delete "interface/font/main_8_0.tga"}
+	{delete "interface/font/main_9.fnt"}
+	{delete "interface/font/main_9.font"}
+	{delete "interface/font/main_9b.fnt"}
+	{delete "interface/font/main_9b.font"}
+	{delete "interface/font/main_9b_0.tga"}
+	{delete "interface/font/main_9_0.tga"}
+
+	{delete "map\multi\1v1_argentan\battle_zones.mi"}
+	{delete "map\multi\1v1_frozen_river\battle_zones.mi"}
+	{delete "map\multi\1v1_road\battle_zones.mi"}
+	{delete "map\multi\1v1_reloading_point\battle_zones.mi"}
+	{delete "map\multi\1v1_spring\battle_zones.mi"}
+	{delete "map\multi\1v1_vierville\battle_zones.mi"}
+	{delete "map\multi\1v1_winter_church\battle_zones.mi"}
+	{delete "map\multi\1v1_winter_fields\battle_zones.mi"}
+	{delete "map\multi\1v1_winter_harbor\battle_zones.mi"}
+	{delete "map\multi\1v1_winter_hills\battle_zones.mi"}
+	{delete "map\multi\1v1_winter_town\battle_zones.mi"}
+
+	{delete "map\multi\1v1_afro\battle_zones.mi"}
+	{delete "map\multi\1v1_boot_hill\battle_zones.mi"}
+	{delete "map\multi\1v1_Crossroad\battle_zones.mi"}
+	{delete "map\multi\1v1_highwayn13\battle_zones.mi"}
+	{delete "map\multi\1v1_pegasus-bridge\battle_zones.mi"}
+	{delete "map\multi\1v1_pegasus-bridge2\battle_zones.mi"}
+	{delete "map\multi\1v1_wake_island\battle_zones.mi"}
+
+	{delete "map\multi\2v2_bocage\battle_zones.mi"}
+	{delete "map\multi\2v2_canyon\battle_zones.mi"}
+	{delete "map\multi\2v2_cold_stream\battle_zones.mi"}
+	{delete "map\multi\2v2_colleville\battle_zones.mi"}
+	{delete "map\multi\2v2_crossroads\battle_zones.mi"}
+	{delete "map\multi\2v2_farmstead\battle_zones.mi"}
+	{delete "map\multi\2v2_heights\battle_zones.mi"}
+	{delete "map\multi\2v2_kanawa_mine\battle_zones.mi"}
+	{delete "map\multi\2v2_plateau\battle_zones.mi"}
+	{delete "map\multi\2v2_ramelle\battle_zones.mi"}
+	{delete "map\multi\2v2_redoctober\battle_zones.mi"}
+	{delete "map\multi\2v2_trainyard\battle_zones.mi"}
+	{delete "map\multi\2v2_tram_depot\battle_zones.mi"}
+	{delete "map\multi\2v2_urban_garden\battle_zones.mi"}
+	{delete "map\multi\2v2_warehouse\battle_zones.mi"}
+
+	{delete "map\multi\2v2_authie\battle_zones.mi"}
+	{delete "map\multi\2v2_avranches\battle_zones.mi"}
+	{delete "map\multi\2v2_beachlandia\battle_zones.mi"}
+	{delete "map\multi\2v2_bridges\battle_zones.mi"}
+	{delete "map\multi\2v2_castle\battle_zones.mi"}
+	{delete "map\multi\2v2_cold_day\battle_zones.mi"}
+	{delete "map\multi\2v2_coastal_railway_town\battle_zones.mi"}
+	{delete "map\multi\2v2_fareast\battle_zones.mi"}
+	{delete "map\multi\2v2_farm\battle_zones.mi"}
+	{delete "map\multi\2v2_farmlandia\battle_zones.mi"}
+	{delete "map\multi\2v2_koenigsplatz\battle_zones.mi"}
+	{delete "map\multi\2v2_La pointe du Hoc\battle_zones.mi"}
+	{delete "map\multi\2v2_meeting_engagement\battle_zones.mi"}
+	{delete "map\multi\2v2_river_town\battle_zones.mi"}
+	{delete "map\multi\2v2_route\battle_zones.mi"}
+	{delete "map\multi\2v2_singapore\battle_zones.mi"}
+	{delete "map\multi\2v2_sthilaire\battle_zones.mi"}
+	{delete "map\multi\2v2_winter_hill\battle_zones.mi"}
+	{delete "map\multi\2v2_winter_line\battle_zones.mi"}
+	{delete "map\multi\2x2_gsm_Bestland\battle_zones.mi"}
+	{delete "map\multi\2x2_gsm_fields_near_sherbourg\battle_zones.mi"}
+	{delete "map\multi\2x2_gsm_lumber\battle_zones.mi"}
+	{delete "map\multi\2x2_gsm_tattarby\battle_zones.mi"}
+	{delete "map\multi\2x2_gsm_theorchard\battle_zones.mi"}
+
+	{delete "map\multi\3v3_bog\battle_zones.mi"}
+	{delete "map\multi\3v3_crossing\battle_zones.mi"}
+	{delete "map\multi\3v3_deadriver\battle_zones.mi"}
+	{delete "map\multi\3v3_elalmein\battle_zones.mi"}
+	{delete "map\multi\3v3_farmland\battle_zones.mi"}
+	{delete "map\multi\3v3_frag_town\battle_zones.mi"}
+	{delete "map\multi\3v3_kasserine_pass\battle_zones.mi"}
+	{delete "map\multi\3v3_oasis\battle_zones.mi"}
+	{delete "map\multi\3v3_russy\battle_zones.mi"}
+	{delete "map\multi\3v3_saipan\battle_zones.mi"}
+	{delete "map\multi\3v3_shattered_town\battle_zones.mi"}
+	{delete "map\multi\3v3_westland\battle_zones.mi"}
+	{delete "map\multi\3v3_facility\battle_zones.mi"}
+	{delete "map\multi\3v3_foot_hills\battle_zones.mi"}
+	{delete "map\multi\3v3_frostbite\battle_zones.mi"}
+	{delete "map\multi\3v3_market\battle_zones.mi"}
+	{delete "map\multi\3v3_sands\battle_zones.mi"}
+
+	{delete "map\multi\3v3_atlantikwall\battle_zones.mi"}
+	{delete "map\multi\3x3_gsm_thebeach\battle_zones.mi"}
+	{delete "map\multi\3x3_gsm_moskow\battle_zones.mi"}
+	{delete "map\multi\3v3_Road to StVith\battle_zones.mi"}
+	{delete "map\multi\3v3_desertfields\battle_zones.mi"}
+	{delete "map\multi\3v3_elzas\battle_zones.mi"}
+	{delete "map\multi\3v3_falaise\battle_zones.mi"}
+	{delete "map\multi\3v3_outskirtscherbourg\battle_zones.mi"}
+	{delete "map\multi\3v3_uman\battle_zones.mi"}
+	{delete "map\multi\3v3_railway\battle_zones.mi"}
+	{delete "map\multi\3x3__gsm_west_front\battle_zones.mi"}
+	{delete "map\multi\3x3_gsm_winter_hills\battle_zones.mi"}
+
+	{delete "map\multi\4v4_advance2\battle_zones.mi"}
+	{delete "map\multi\4x4_gsm_bog\battle_zones.mi"}
+	{delete "map\multi\4v4_omaha-beach\battle_zones.mi"}
+	{delete "map\multi\4x4_gsm_seaside\battle_zones.mi"}
+	{delete "map\multi\4v4_alamo\battle_zones.mi"}
+	{delete "map\multi\4x4_gsm_foggy_wood\battle_zones.mi"}
+	{delete "map\multi\4x4_gsm_trun\battle_zones.mi"}
+	{delete "map\multi\4x4_gsm_Wetland\battle_zones.mi"}
+	{delete "map\multi\4v4_bazerville\battle_zones.mi"}
+	{delete "map\multi\4v4_Countryside\battle_zones.mi"}
+	{delete "map\multi\4v4_suburb\battle_zones.mi"}
+	{delete "map\multi\4x4_gsm_westland\battle_zones.mi"}
+	{delete "map\multi\4x4_gsm_Bog\battle_zones.mi"}
+
+	{delete "map\multi\5v5_derna\battle_zones.mi"}
+	{delete "map\multi\5x5_gsm_province\battle_zones.mi"}
+	{delete "map\multi\5x5_gsm_red_flag\battle_zones.mi"}
+	{delete "map\multi\5x5_gsm_rochefort\battle_zones.mi"}
+	{delete "map\multi\5x5_gsm_romanian_outpos\battle_zones.mi"}
+	{delete "map\multi\5v5_march\battle_zones.mi"}
+
+	{delete "map\multi\6x6_gsm_Minsk\battle_zones.mi"}
+
+	{delete "map\multi\8v8_coastal_town\battle_zones.mi"}
+
+	{delete "map\multi\4x4_gsm_Bog\battle_zones.mi"}
+	{delete "map\multi\4x4_gsm_westland\battle_zones.mi"}
+}
+

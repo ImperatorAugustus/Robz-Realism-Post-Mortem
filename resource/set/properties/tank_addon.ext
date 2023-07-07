@@ -1,0 +1,686 @@
+(include "tank.ext")
+(define "crew_5_human"
+	("crew_inside")
+	("crew_human" place(gunner)		door1(emit1) door2(emit2) visor(main))
+	("crew_human" place(driver)		door1(emit1) door2(emit2) visor(driver))
+	("crew_human" place(charger)	door1(emit1) door2(emit2) visor(main))
+	("crew_human" place(gunner1)		door1(emit1) door2(emit2) visor(driver))
+	("crew_human" place(commander)	door1(emit1) door2(emit2) visor(around))
+)
+(define "crew_6_human"
+	("crew_inside")
+	("crew_human" place(gunner)		door1(emit1) door2(emit2) visor(main))
+	("crew_human" place(driver)		door1(emit1) door2(emit2) visor(driver))
+	("crew_human" place(charger)	door1(emit1) door2(emit2) visor(main))
+	("crew_human" place(gunner1)		door1(emit1) door2(emit2) visor(driver))
+	("crew_human" place(charger1)		door1(emit1) door2(emit2) visor(driver))
+	("crew_human" place(commander)	door1(emit1) door2(emit2) visor(around))
+)
+(define "gunner_human_visible"
+	("crew_human_visible_anm" place(%place) door1(%door1) door2(%door2) visor(%visor) anm_left(left) anm_right(right))
+)
+(define "armor_wheel"
+	{props "armor_wheel"}
+	{armor
+        	{setting "track"
+            		{thickness %t}
+            		{durability
+                		{blast
+                    			{koef (* %t 0.4)}
+                		}
+                		{pierce
+                			{value 1000}
+                		}
+            		}
+            		{threshold
+                		{blast
+                    			{value (* %t 2)}
+                		}
+            		}
+            		{volumes "track*"}
+            		{whole_wound}
+        	}
+    	}
+)
+(define "armor_tank" ; armor system details you will find at "set/interaction_entity/tank.inc"
+	{props "cupola" "tank_shield"}
+	{armor
+        	{setting "track"
+            		{thickness %t}
+            		{durability
+                		{blast
+                    			{koef (* %dur 2.5)}
+                		}
+                		{pierce
+                			{value 1000}
+                		}
+            		}
+            		{threshold
+                		{blast
+                    			{value %track_b}
+                		}
+            		}
+            		{volumes "track*"}
+            		{whole_wound}
+        	}
+        	{setting "gun"
+            		{thickness %gun}
+            		{durability
+                		{blast  {koef 3}}
+                		{pierce {koef 3}}
+            		}
+            		{threshold
+                		{blast
+                			{value 15}
+                		}
+                		{pierce
+                    			{value 12}
+                		}
+            		}
+            		{volumes "gun*"}
+        	}
+        	{setting "turret"
+            		{thickness %tur}
+			{durability
+                		{pierce
+                    			{koef %pierce_dur}
+                		}
+            		}
+        
+            		{threshold
+                		{blast
+                    			{koef  %thr}
+                		}
+            		}
+            		{volumes "turret"}
+			{volumes "turret1"}
+			{volumes "turret01"}
+        	}
+        	{setting "turret2"
+            		{thickness %tur2}
+			{durability
+                		{pierce
+                    			{koef %pierce_dur}
+                		}
+            		}
+           		{threshold
+                		{blast
+                    			{koef  %thr}
+                		}
+            		}
+			{volumes "turret2"}
+			{volumes "turret02"}
+        	}
+        	{setting "turret3"
+            		{thickness %tur3}
+			{durability
+                		{pierce
+                    			{koef %pierce_dur}
+                		}
+            		}
+           		{threshold
+                		{blast
+                    			{koef  %thr}
+                		}
+            		}
+			{volumes "turret3"}
+			{volumes "turret03"}
+        	}
+        	{setting "turret4"
+            		{thickness %tur4}
+			{durability
+                		{pierce
+                    			{koef %pierce_dur}
+                		}
+            		}
+           		{threshold
+                		{blast
+                    			{koef  %thr}
+                		}
+            		}
+			{volumes "turret4"}
+			{volumes "turret04"}
+        	}
+        	{setting "turret5"
+            		{thickness %tur5}
+			{durability
+                		{pierce
+                    			{koef %pierce_dur}
+                		}
+            		}
+           		{threshold
+                		{blast
+                    			{koef  %thr}
+                		}
+            		}
+			{volumes "turret5"}
+			{volumes "turret05"}
+        	}
+        	{setting "turret6"
+            		{thickness %tur6}
+			{durability
+                		{pierce
+                    			{koef %pierce_dur}
+                		}
+            		}
+           		{threshold
+                		{blast
+                    			{koef  %thr}
+                		}
+            		}
+			{volumes "turret6"}
+			{volumes "turret06"}
+        	}
+        	{setting "turret7"
+            		{thickness %tur7}
+			{durability
+                		{pierce
+                    			{koef %pierce_dur}
+                		}
+            		}
+           		{threshold
+                		{blast
+                    			{koef  %thr}
+                		}
+            		}
+			{volumes "turret7"}
+			{volumes "turret07"}
+        	}
+        	{setting "body"
+            		{thickness %bod}
+            		{durability
+                		{blast
+                			{koef %dur}
+                		}
+        			{pierce
+                			{koef %pierce_dur}
+                		}
+            		}
+            		{threshold
+                		{blast
+                			{koef %thr}
+                		}
+            		}
+            		{volumes "body"}
+			{volumes "body1"}
+	    		{volumes "body01"}
+        	}
+		{setting "body2"
+            		{thickness %bod2}
+            		{durability
+                		{blast
+                			{koef %dur}
+                		}
+        			{pierce
+                			{koef %pierce_dur}
+				}
+			}
+            		{threshold
+                		{blast
+                    			{koef %thr}
+                		}
+            		}
+            		{volumes "body2"}
+	    		{volumes "body02"}
+        	}
+        	{setting "body3"
+        		{thickness %bod3}
+            		{durability
+                		{blast
+                    			{koef %dur}
+                		}
+        			{pierce
+                			{koef %pierce_dur}
+            			}
+           		}
+           		{threshold
+                		{blast
+                			{koef %thr}
+                		}
+            		}
+            		{volumes "body3"}
+	    		{volumes "body03"}
+        	}
+
+        	{setting "body4"
+            		{thickness %bod4}
+			{durability
+                		{blast
+                    			{koef %dur}
+                	}
+        			{pierce
+                			{koef %pierce_dur}
+                		}
+            		}
+            		{threshold
+                		{blast
+                 			{koef %thr}
+	                	}
+        		}
+			{volumes "body4"}
+			{volumes "body04"}
+        	}
+        
+		{setting "body5"
+			{thickness %bod5}
+            		{durability
+                		{blast
+                			{koef %dur}
+                		}
+        			{pierce
+                			{koef %pierce_dur}
+                		}
+            		}
+            		{threshold
+                		{blast
+               				{koef %thr}
+            			}
+            		}
+            		{volumes "body5"}
+			{volumes "body05"}
+        	}
+        	{setting "body6"
+            		{thickness %bod6}
+            		{durability
+                		{blast
+                			{koef %dur}
+                		}
+        			{pierce
+                			{koef %pierce_dur}
+            			}
+            		}
+            		{threshold
+                		{blast
+                			{koef %thr}
+            			}
+            		}
+            		{volumes "body6"}
+			{volumes "body06"}
+        	}
+        	{setting "body7"
+        		{thickness %bod7}
+        		{durability
+                		{blast
+                			{koef %dur}
+                		}
+        			{pierce
+                			{koef %pierce_dur}
+            			}
+            		}
+            		{threshold
+                		{blast
+                			{koef %thr}
+            			}
+            		}
+            		{volumes "body7"}
+			{volumes "body07"}
+        	}
+        	{setting "engine"
+        		{thickness %en}
+        		{durability
+                		{blast
+                			{koef %dur}
+            			}
+            		}
+            		{threshold
+                		{blast
+                			{koef %thr}
+            			}
+            		}
+        		{volumes "engine*"}
+		}
+	}
+)
+(define "armor_spa" ; armor system details you will find at "set/interaction_entity/tank.inc"
+	{volume "turret"
+		{component "turret"}
+		{tags "turret" "body"}
+	}
+	{armor
+        	{setting "track"
+            		{thickness %t}
+            		{durability
+                		{blast
+                			{koef (* %dur 2.5)}
+                		}
+                		{pierce
+                			{value 1000}
+                		}
+            		}
+            		{threshold
+                		{blast
+                			{value %track_b}
+                		}
+            		}
+            		{volumes "track*"}
+           		{whole_wound}
+        	}
+        	{setting "gun"
+        		{thickness %gun}
+            		{durability
+                		{blast  {koef 3}}
+                		{pierce {koef 3}}
+            		}
+            		{threshold
+                		{blast
+                			{value 15}
+                		}
+                		{pierce
+                			{value 15}
+                		}
+            		}
+            		{volumes "gun*"}
+        	}
+		{setting "body"
+			{thickness %bod}
+        	    	{durability
+                		{blast
+               				{koef %dur}
+                		}
+        			{pierce
+                			{koef %pierce_dur}
+                		}
+            		}
+            		{threshold
+                		{blast
+                	    		{koef %thr}
+                		}
+            		}
+            		{volumes "body"}
+			{volumes "body1"}		
+			{volumes "body01"}
+        	}
+        	{setting "body2"
+        	    	{thickness %bod2}
+        	    	{durability
+        	        	{blast
+        		       		{koef %dur}
+                		}
+        			{pierce
+                    			{koef %pierce_dur}
+                		}
+            		}
+            		{threshold
+                		{blast
+                			{koef %thr}
+                		}
+            		}
+            		{volumes "body2"}
+	    		{volumes "body02"}
+        	}
+        	{setting "body3"
+        		{thickness %bod3}
+        	    	{durability
+        	        	{blast
+		          		{koef %dur}
+                		}
+        			{pierce
+                	    		{koef %pierce_dur}
+                		}
+            		}
+            		{threshold
+                		{blast
+                			{koef %thr}
+                		}
+            		}
+            		{volumes "body3"}
+	    		{volumes "body03"}
+        	}
+        	{setting "body4"
+        		{thickness %bod4}
+           		{durability
+                		{blast
+                			{koef %dur}
+                		}
+        			{pierce
+                			{koef %pierce_dur}
+                		}
+            		}
+            		{threshold
+                		{blast
+                	    		{koef %thr}
+                		}
+            		}
+            		{volumes "body4"}
+	    		{volumes "body04"}
+        	}
+        	{setting "body5"
+        		{thickness %bod5}
+        		{durability
+        	        	{blast
+                			{koef %dur}
+                		}
+        			{pierce
+                			{koef %pierce_dur}
+                		}
+            		}
+            		{threshold
+            			{blast
+                			{koef %thr}
+                		}
+            		}
+            		{volumes "body5"}
+	    		{volumes "body05"}
+        	}
+        	{setting "body6"
+            		{thickness %bod6}
+            		{durability
+                		{blast
+                			{koef %dur}
+                		}
+        			{pierce
+                			{koef %pierce_dur}
+                		}
+            		}
+            		{threshold
+                		{blast
+                			{koef %thr}
+                		}
+            		}
+         	   	{volumes "body6"}
+	 	   	{volumes "body06"}
+        	}
+        	{setting "body7"
+            		{thickness %bod7}
+            		{durability
+                		{blast
+                			{koef %dur}
+                		}
+        			{pierce
+                			{koef %pierce_dur}
+                		}
+            		}
+            		{threshold
+                		{blast
+                    			{koef %thr}
+                		}
+            		}
+            		{volumes "body7"}
+	    		{volumes "body07"}
+        	}
+        	{setting "engine"
+        		{thickness %en}
+        		{durability
+                		{blast
+                			{koef %dur}
+                		}
+            		}
+            		{threshold
+                		{blast
+                			{koef %thr}
+                		}
+            		}
+            		{volumes "engine*"}
+        	}
+	}
+)
+(define "armor_light"
+	("armor_tank" t(7.5) track_b(15) bod(%body) bod1(%body1) bod2(%body2) bod3(%body3) bod4(%body4) bod5(%body5) bod6(%body6) bod7(%body7) tur(%turret) tur2(%turret2) tur3(%turret3) tur4(%turret4) tur5(%turret5) tur6(%turret6) tur7(%turret7) en(12) gun(15) dur(1) thr(1) pierce_dur(5000))
+	("components_tank" repair(1.5))
+
+	{sensor
+		{visor "view-around"
+			{vision "none"}
+			{bone "basis"}
+		}
+		{visor "main"
+			{vision "tank_main-l"}
+		}
+	}
+)
+
+(define "armor_medium"
+	("armor_tank" t(15) track_b(30) bod(%body) bod1(%body1) bod2(%body2) bod3(%body3) bod4(%body4) bod5(%body5) bod6(%body6) bod7(%body7) tur(%turret) tur2(%turret2) tur3(%turret3) tur4(%turret4) tur5(%turret5) tur6(%turret6) tur7(%turret7) en(25) gun(35) dur(1.5) thr(1.5) pierce_dur(10000))
+	("components_tank" repair(2.5))
+
+	{sensor
+        	{visor "view-around"
+        		{vision "none"}
+        		{bone "basis"}
+        	}
+        	{visor "main"
+        		{vision "tank_main-m"}
+    		}
+    	}
+	{Chassis "track"
+      		;left track must be first
+       		{FuelBag
+        		{volume 400 }   ; liters
+        		{rate   4 }    ; liters per kilometer
+        		{remain 400 }
+        		{fuel "fuel"}
+       		}
+       		{speed
+        		{Slow   15   }   ; km/h
+        		{Normal 25  }
+       			{Fast   35  }
+		}
+	}
+)
+
+(define "armor_heavy"
+	("armor_tank" t(25) track_b(50) bod(%body) bod1(%body1) bod2(%body2) bod3(%body3) bod4(%body4) bod5(%body5) bod6(%body6) bod7(%body7) tur(%turret) tur2(%turret2) tur3(%turret3) tur4(%turret4) tur5(%turret5) tur6(%turret6) tur7(%turret7) en(40) gun(45) dur(2) thr(2) pierce_dur(15000))
+	("components_tank" repair(3))
+
+	{sensor
+        	{visor "view-around"
+        		{vision "none"}
+        		{bone "basis"}
+        	}
+        	{visor "main"
+        		{vision "tank_main-h"}
+		}
+	}
+	{Chassis "track"
+      		;left track must be first
+		{FuelBag
+        		{volume 800 }   ; liters
+        		{rate   8 }    ; liters per kilometer
+        		{remain 800 }
+        		{fuel "fuel"}
+       		}
+       		{speed
+        		{Slow   15  }   ; km/h
+        		{Normal 20  }
+        		{Fast   25  }
+       		}
+    	}
+)
+(define "armor_spa_light"
+
+	("armor_spa" t(7.5) track_b(15) bod(%armor) bod2(%armor2) bod3(%armor3) bod4(%armor4) bod5(%armor5) bod6(%armor6) bod7(%armor7)en(12) gun(15) dur(1) thr(1) pierce_dur(5000))
+	("components_tank" repair(1.5))
+
+	{sensor
+		{visor "view-around"
+			{vision "none"}
+			{bone "basis"}
+		}
+		{visor "main"
+			{vision "tank_main-l"}
+		}
+	}
+)
+
+
+(define "armor_spa_medium"
+	{Chassis "track"
+      		;left track must be first
+       		{FuelBag
+        		{volume 400 }   ; liters
+        		{rate   8 }    ; liters per kilometer
+        		{remain 400 }
+       			{fuel "fuel"}
+       		}
+       		{speed
+        		{Slow   15   }   ; km/h
+        		{Normal 20  }
+        		{Fast   35  }
+		}
+    	}
+    	("armor_spa" t(15) track_b(30) bod(%armor) bod2(%armor2) bod3(%armor3) bod4(%armor4) bod5(%armor5) bod6(%armor6) bod7(%armor7) en(25) gun(35) dur(1.5) thr(1.5) pierce_dur(10000))
+    	("components_tank" repair(2.5))
+
+    	{sensor
+        	{visor "view-around"
+        		{vision "none"}
+        		{bone "basis"}
+        	}
+        	{visor "main"
+        		{vision "tank_main-m"}
+        	}
+    	}
+
+)
+(define "armor_spa_heavy"
+	{Chassis "track"
+      		;left track must be first
+       		{FuelBag
+          		{volume 800 }   ; liters
+          		{rate   8 }    ; liters per kilometer
+          		{remain 800 }
+          		{fuel "fuel"}
+       		}
+       		{speed
+          		{Slow   15   }   ; km/h
+          		{Normal 20  }
+          		{Fast   25  }
+    		}
+    	}
+	("armor_spa" t(25) track_b(50) bod(%armor) bod2(%armor2) bod3(%armor3) bod4(%armor4) bod5(%armor5) bod6(%armor6) bod7(%armor7) en(40) gun(45) dur(2.5) thr(2.5) pierce_dur(15000))
+	("components_tank" repair(3))
+
+
+	{sensor
+        	{visor "view-around"
+        		{vision "none"}
+            		{bone "basis"}
+        	}
+        	{visor "main"
+        		{vision "tank_main-h"}
+        	}
+    	}
+)
+
+
+{sensor
+	{Visor "around"
+		{vision "tank_back"}
+		{bone "around"}
+	}
+}
+
+(define "armor_spa_mantlet"
+    {volume "mantlet"
+        {tags "mantlet"}
+        {component "mantlet"}
+    }
+    {armor
+        {setting "mantlet"
+            {thickness %t}
+            {volumes "mantlet"}
+        }
+    }
+)
+
+	

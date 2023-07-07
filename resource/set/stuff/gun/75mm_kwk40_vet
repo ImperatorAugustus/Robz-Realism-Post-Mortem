@@ -1,0 +1,21 @@
+{from "75mm_kwk40"		; "pz4g_ger2"
+	{rechargeTime 6.8}
+	("accuracy_high_210m")
+	{range 210 210}
+	("damage_170" a(133) b(121) c(107) d(95) e(85) range(210))
+	{parameters "apcbc"
+		("damage_170" a(133) b(121) c(107) d(95) e(85) range(210))
+	}
+	{parameters "heatb"
+		("damage_heat" a(87) range(210))
+	}
+	{parameters "heatc"
+		("damage_heat" a(100) range(210))
+	}
+	{parameters "apcr"
+        	("damage_170" a(156) b(133) c(108) d(88) e(72) range(210))
+	}
+	{parameters "fg"
+		{range 190 190}
+	}
+}

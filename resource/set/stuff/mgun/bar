@@ -1,0 +1,18 @@
+{from "pattern mgun"
+	{tag "mgun_light"}
+	{filling "ammo bar_mag" 20}
+	{entity "bar"}
+	{fireSound	"mgun/bar_burst/"}
+	{reloadSound "bar"}
+
+	{mass 9}
+	{rechargeTime 4.5}
+	{range 120 120}
+	("recoveryTime" r(650))
+	("burst_short")
+	("speed" s(853))
+	{Spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 96 92 88 80 70 60}
+	}
+}

@@ -1,0 +1,16 @@
+{from "pattern mgun"
+	{tag "mgun_light"}
+	{filling "ammo lewis_mag" 47}
+	{entity "lewis_gun"}
+	{fireSound	"mgun/lewis_burst/"}
+	{reloadSound "bren"}
+	{rechargeTime 6}
+
+	("recoveryTime" r(550))
+	("burst_short")
+	("speed" s(740))
+	{Spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 96.5 93 89.5 86 82.5 79 75 55 35 15}
+	}
+}

@@ -1,0 +1,60 @@
+{breed
+	{skin "ger-para-rfl"}
+	{portrait "ger_elite1"}
+	{icon "elite"}
+	{icon_priority 4}
+	{nationality ger}
+	{armors
+		{head helmet_ger_m38_cover}
+	}
+	{perks
+		{"health" "400%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "200%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" mp_soldier
+		}
+		{"speed" 0.9
+		}
+		{"tank" 0.95
+		}
+		{"vehicle" 1
+		}
+		{"cannon" 1
+		}
+		{"pistol" lvl_7
+		}
+		{"smg" lvl_7
+		}
+		{"mgun" lvl_7
+		}
+		{"rifle" lvl_7
+		}
+		{"rocketlauncher" lvl_7
+		}
+		{"melee" lvl_7
+		}
+		{"avoidance" lvl_1
+		}
+		{"stealth"}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_lvl5")
+	}
+	{inventory
+		{item "mauzer_vet" filled}
+		{item "ammo mauser_clip" 120}
+		{item "bandage" 5}
+		{item "k98_gewehrgranat" filling "k98_grenade fg" 1}
+		{item "k98_grenade fg" 6 1}
+		{item "k98_grenade ap" 1 1}
+		{item "ammo mg_mauser drum" 50}
+		{item "panzerfaust_60 weapon" 0 1 filled}
+		{in_hands 3}
+	}
+}

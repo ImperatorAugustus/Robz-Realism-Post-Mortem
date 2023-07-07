@@ -1,0 +1,32 @@
+{bullet
+	{tag "ammo shell itemin2hands 203to600 60cm_heavy"}
+	{inventory
+		{size 6 3}
+		{weight 150}
+	}	
+	{mass 1500}
+	{entity "shell_ap_600"}
+	{detonationThickness 2}
+
+	{damage blastwave
+		{energy 65}
+		{area 18 25}
+	}
+	{damage add blastwave	; anti-building
+		{energy 20}
+		{area 30 38}
+	}
+	{damage add blastwave	; anti-infantry
+		{energy 1.5}
+		{area 85 100}
+	}
+	{damage add blastwave	; anti-infantry
+		{energy 0.1}
+		{area 120 120}
+	}
+	;{damage fire
+	;	{radius 20}
+	;	{heating 3}
+	;	{time 4}
+	;}
+}

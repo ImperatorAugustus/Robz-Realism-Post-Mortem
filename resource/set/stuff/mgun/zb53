@@ -1,0 +1,15 @@
+{from "pattern mgun"
+	{entity "zb53"}
+	{filling "ammo mg_mauser belt" 100}
+	{rechargeTime 8}
+	{fireSound "mgun/besa_burst/"}
+	{reloadSound "mgun"}
+	{recoveryTime 0.1}
+	("burst_long")
+	("speed" s(793))
+	{range 150 150}
+	{Spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 96.5 93 89.5 86 80 70 55 40 25}
+	}
+}

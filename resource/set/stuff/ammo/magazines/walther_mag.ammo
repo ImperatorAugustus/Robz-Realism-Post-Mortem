@@ -1,0 +1,11 @@
+{bullet
+  {tag "bullet small stackable pierce 9_pistol"}
+  {inventory
+    {weight 12.5}
+    {block 8}
+    {size 1 1}
+    {fsm "belt"}
+  }
+  {mass 0.013}
+  {entity "walther_mag"}
+}

@@ -1,0 +1,10 @@
+{bullet
+	{tag "dropboxed mortar smoke no_ricochet"}
+	{inventory
+		{size 2 1}
+		{weight 40}
+	}	{mass 2}
+	{entity "ammo_mortar50_2inchsm"}
+	{view "ammo_mortar50_2inchsm"}
+	{detonationThickness 2}
+}

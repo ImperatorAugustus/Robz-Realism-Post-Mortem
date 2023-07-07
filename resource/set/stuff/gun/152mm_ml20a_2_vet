@@ -1,0 +1,4 @@
+{from "152mm_ml20a_2"       ; ml20 isu-152 artillery used version
+	{rechargeTime 19.55}
+	{recoveryTime 19.55}
+}

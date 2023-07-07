@@ -1,0 +1,17 @@
+{from "pattern gun2"		; "105mm howitzer direct fire
+    	{filling "bullet105 us"}
+	{fireSound "gun/howitzer/105mm_m2a1"}
+	{reloadSound "gun_r05"}
+	("range_grazing_howitzer")
+
+	("caliber_maximum")
+	("speed_all" ap(472) apcr(472) fg(472) heat(381))
+	{range 190 190}
+	{projectileDamage 150}
+	{parameters "heat"
+		("damage_heat" a(115) range(190))
+	}
+	("accuracy_grazinghowitzer_190m")
+	{rechargeTime 12}
+}
+

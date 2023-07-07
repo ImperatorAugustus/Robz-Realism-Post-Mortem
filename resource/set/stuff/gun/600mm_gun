@@ -1,0 +1,30 @@
+{from "pattern gun_art"		; 	
+	{filling "bullet600"}
+	{fireSound "gun/howitzer/600mm"}
+
+	("range_heavy_howitzer")
+
+	{rechargeTime 400}
+
+	{DisableRicochet}
+
+	{range 310 310}
+	{aimtype adaptive}
+
+    	{RelaxationTime 2}
+
+	{cursor "cannon_on_fg"}
+	{cursorReloading "cannon_reload_fg"}
+
+	{speed 283}
+	{gravity 5}
+	{bullet_view "shell_ap_600"
+		{tail "shell_tail" "root"}
+	}
+	{parameters "60cm_light"
+		{range 310 310}
+	}
+	{parameters "60cm_heavy"
+		{range 260 260}
+	}
+}

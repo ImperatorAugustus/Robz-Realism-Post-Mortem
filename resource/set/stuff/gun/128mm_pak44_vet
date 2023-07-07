@@ -1,0 +1,10 @@
+{from "128mm_pak44"    ;
+	{range 250 250}
+	{rechargeTime 16}
+	("accuracy_max_10m_he")
+
+	("damage_215" a(269) b(253) c(237) d(222) e(208) range(250))
+	{parameters "fg"
+		{range 240 240}
+	}
+}

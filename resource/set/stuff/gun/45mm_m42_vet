@@ -1,0 +1,13 @@
+{from "45mm_m42"		; "m42_guard"
+	{rechargeTime 3.2}
+	{range 190 190}
+
+	("damage_170" a(74) b(54) c(40) d(32) e(28) range(190))
+	{parameters "apcr"
+        	("damage_170" a(118) b(74) c(46) d(29) e(18) range(190))
+	}
+	{parameters "fg"
+		{range 170 170}
+	}
+}
+

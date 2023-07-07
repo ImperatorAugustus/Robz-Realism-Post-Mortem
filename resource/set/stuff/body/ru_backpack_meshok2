@@ -1,0 +1,9 @@
+{from "pattern overcoat"
+	{entity "ru_backpack_meshok2"}
+	{inventory
+		{size 2 2}
+		{weight 3}
+		{link_bone "IK_UpDown"}
+		{fsm "stuff"}
+	}
+}

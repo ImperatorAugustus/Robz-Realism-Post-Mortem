@@ -1,0 +1,17 @@
+{from "pattern mgun"
+	{tag "mgun_light"}
+	{filling "ammo bren_mag" 28}
+	{entity "bren"}
+	{fireSound	"mgun/bren_burst/"}
+	{reloadSound "bren"}
+
+	{mass 10}
+	{rechargeTime 4.5}
+	("recoveryTime" r(520))
+	("burst_short")
+	("speed" s(744))
+	{Spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 97 94 91 88 85 80 70 60 40 20}
+	}
+}

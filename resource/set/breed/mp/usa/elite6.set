@@ -1,0 +1,55 @@
+{breed
+	{skin "usa-marine-pvt"}
+	{portrait "usa_elite2"}
+	{nationality usa}
+	{icon "elite6"}
+	{icon_priority 3}
+	{armors
+		{head helmet_marine_usa}
+	}
+	{perks
+		{"health" "200%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "150%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" "mp_soldier"
+		}
+		{"speed" 0.9
+		}
+		{"tank"	0.85
+		}
+		{"vehicle" 1
+		}
+		{"cannon" 0.9
+		}
+		
+		{"pistol" lvl_3
+		}
+		{"smg" lvl_3
+		}
+		{"mgun" lvl_4
+		}
+		{"rifle" lvl_4
+		}
+		{"rocketlauncher" lvl_3
+		}
+		{"melee" lvl_3
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_1")
+	}
+	{inventory
+		{item "bar_rifle" filled}
+		{item "ammo bar_mag" 240}
+		{item "bandage" 5}
+		{item "grenade m61" 2}
+		{item "sandbag_kit" 1}
+		{in_hands 0}
+	}
+}

@@ -1,0 +1,52 @@
+;SDL
+(include "car_crew.ext")
+(include "tank_crew.ext")
+;//////////////////////////////////////////////////////////////////////////////
+(define "gunner_visible_3"
+	("crew_human_gunner" place(gunner3) visorbone(mgun3))
+)
+;//////////////////////////////////////////////////////////////////////////////
+(define "crew_kangaroo_visible_anm"
+	{placer
+		{place "%place"
+			{group "crew"}
+			{linkbone "%place"}
+           		{attach squat_lie}
+			{visor "%visor"}
+			{openForCrush}
+		}
+	}
+	{boarder
+		{door "%door1"}
+		{door "%door2"}
+		{link "%door1" "%place" {anm "%anm_left"} {forward putoff} {reverse puton}}
+		{link "%door2" "%place" {anm "%anm_right"} {forward putoff} {reverse puton}}
+	}
+)
+(define "crew_kangaroo_visible"
+	("crew_kangaroo_visible_anm" place(%place) door1(%door1) door2(%door2) visor(%visor) anm_left(left) anm_right(right))
+)
+
+(define "kangaroo_4_passengers"
+	("seat_inside")
+	("passenger_invisible" place(seat10) bone(seat10)	door(emit4)	animation(passenger))
+	("passenger_invisible" place(seat11)	bone(seat11)	door(emit3) animation(passenger))
+	("passenger_invisible" place(seat12)	bone(seat12)	door(emit4)	animation(passenger))
+	("passenger_invisible" place(seat13)	bone(seat13)	door(emit3)	animation(passenger))
+)
+(define "kangaroo_6_passengers"
+	("kangaroo_4_passengers")
+	("passenger_invisible" place(seat14)	bone(seat14)	door(emit4)	animation(passenger))
+	("passenger_invisible" place(seat15)	bone(seat15)	door(emit3)	animation(passenger))
+)
+(define "kangaroo_8_passengers"
+	("kangaroo_6_passengers")
+	("passenger_invisible" place(seat16)	bone(seat16)	door(emit4)	animation(passenger))
+	("passenger_invisible" place(seat17)	bone(seat17)	door(emit3)	animation(passenger))
+)
+(define "kangaroo_10_passengers"
+	("kangaroo_8_passengers")
+	("passenger_invisible" place(seat18)	bone(seat18)	door(emit4)	animation(passenger))
+	("passenger_invisible" place(seat19)	bone(seat19)	door(emit3)	animation(passenger))
+)
+;//////////////////////////////////////////////////////////////////////////////

@@ -1,0 +1,15 @@
+{from "pattern mgun"
+	{filling "ammo vickersk_mag" 96}
+	{entity "vickers_k"}
+	{fireSound	"mgun/maxim_burst/"}
+	{reloadSound "bren"}
+	{rechargeTime 7}
+
+	("recoveryTime" r(950))
+	("burst_long")
+	("speed" s(745))
+	{Spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 95 90 85 80 75 70 65 60 55 45 35 15}
+	}
+}

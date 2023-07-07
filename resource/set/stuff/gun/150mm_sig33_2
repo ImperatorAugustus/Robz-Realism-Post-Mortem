@@ -1,0 +1,10 @@
+{from "pattern gun2_art"       ; grille, short range artillery
+	{filling "bullet150 gers" 3}
+	{fireSound "gun/howitzer/150mm_sfh18"}
+	{reloadSound "gun_r04"}
+	("range_heavy_howitzer")
+	("speed" s(240))
+	{range 280 280}
+	{burst {min 3} {noaiming}}
+	("zeroing_3")
+}

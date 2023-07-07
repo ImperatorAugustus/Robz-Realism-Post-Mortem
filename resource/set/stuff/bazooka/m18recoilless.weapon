@@ -1,0 +1,19 @@
+{from "pattern rpg_weapon"
+	{filling "ammo m18recoilless" 1}
+	{entity "m18rr"}
+    	{projectileDamageTable {0 76} {90 76} {95 0}}
+	{fireSound "reactive/launch03"}
+	{spreading 3}
+	{range 90 90}
+	("speed" s(370))
+	{cursor "cannon_on"}
+	{cursorReloading "cannon_reload_heat"}
+	{parameters "wp"
+		{cursor "cannon_on_sm"}
+		{cursorReloading "cannon_reload_wp"}
+	}
+	{parameters "fg"
+		{cursor "cannon_on_fg"}
+		{cursorReloading "cannon_reload_fg"}
+	}
+}

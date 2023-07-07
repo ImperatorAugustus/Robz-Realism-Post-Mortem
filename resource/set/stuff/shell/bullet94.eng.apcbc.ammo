@@ -1,0 +1,9 @@
+{from "pattern apcbc"
+	{tag "big" "size_small" "highvel_medium" "shell_big" "pierce"}
+	{inventory
+		{size 5 1}
+	}
+	("us" args 1)
+	{mass 17}
+	{entity "shell_ap_93"}
+}

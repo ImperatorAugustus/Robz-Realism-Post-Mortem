@@ -1,0 +1,57 @@
+{breed
+	{skin "jap_army_giretu"}
+	{portrait "jap_elite1"}
+	{nationality jap}
+	{icon "elite2"}
+	{icon_priority 3}
+	{armors
+		{head jap_army_helmet_para}
+	}
+	{perks
+		{"health" "400%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "200%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" "mp_soldier"
+		}
+		{"speed" 0.9
+		}
+		{"tank"	0.9
+		}
+		{"vehicle" 1.0
+		}
+		{"cannon" 1.0
+		}
+		
+		{"pistol" lvl_7
+		}
+		{"smg" lvl_7
+		}
+		{"mgun" lvl_7
+		}
+		{"rifle" lvl_7
+		}
+		{"rocketlauncher" lvl_7
+		}
+		{"melee" lvl_7
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_elite")
+	}
+	{inventory  
+		{item "type100_44" filled}
+		{item "ammo type100_mag" 240}
+		{item "bandage" 5}
+		{item "grenade type97" 2}
+		{item "grenade type3at_a" 1}
+		{item "smoke grenade" 1}
+		{item "mine antipersonnel" 5}
+		{in_hands 0}
+	}
+}

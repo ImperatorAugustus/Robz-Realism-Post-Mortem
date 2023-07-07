@@ -1,0 +1,221 @@
+;SDL
+(define "vehicles" 
+	{"cannon.small"		%cost }
+	{"cannon.large"		%cost }
+	{"cannon.carried"	%cost }
+	{"cannon.micro"		%cost }
+	{"vehicle.small"	%cost }
+	{"vehicle.large"	%cost }
+	{"armored"			%cost }
+	{"moto"				%cost }
+	{"tank"				%cost }
+	{"tank.light"		%cost }
+	{"amphibia"			%cost }
+	{"railway"			%cost }
+)
+(define "marines"
+	{"water"			%cost }
+	{"shallow_water"	%cost }
+	{"shallow_water_0"	%cost }
+	{"deep_water"		%cost }
+	{"deep_water_0"		%cost }
+)
+
+{obstacles
+	{nothing
+		{"human"			0	}
+		{"human_flying"		0	}
+		{"animal"			0	}
+		("vehicles"	   cost(0)	)
+		("marines"	   cost(0)	)
+		{"airborne"			0	}
+		{"airdrop"		0}
+    }
+	{fire
+		{flag_damage}
+		{"human"			-1	}
+		{"human_flying"		 0	}
+		{"animal"			-1	}
+		("vehicles"	  cost(200)	)
+		("marines"	  cost(200) )
+		{"airborne"			 0	}
+		{"airdrop"		0}
+    }
+	{human
+		{flag_human}
+		{flag_skip_impregnable}
+		{"human"			1	}
+		{"human_flying"		0	}
+		{"animal"			-1	}
+		("vehicles"	   cost(5)	)
+		("marines"	   cost(5)	)
+		{"airborne"			0	}
+		{"airdrop"		0}
+    }
+	{tank
+		{"human"			-1	}
+		{"human_flying"		-1	}
+		{"animal"			-1	}
+		("vehicles"	   cost(-1)	)
+		("marines"	   cost(0)	)
+		{"airborne"			0	}
+		{"airdrop"		0}
+    }
+	{marine
+		{"human"			-1	}
+		{"human_flying"		-1	}
+		{"animal"			-1	}
+		("vehicles"	   cost(-1)	)
+		("marines"	   cost(-1)	)
+		{"airborne"			0	}
+		{"airdrop"		0}
+    }
+	{trench_wall
+		{"human"			20	}
+		{"human_flying"		-1	}
+		{"animal"			-1	}
+		{"moto"				-1	}
+		{"vehicle.small"	-1	}
+		{"vehicle.large"	-1	}
+		{"armored"			30	}
+		{"cannon.micro"		50	}
+		{"cannon.carried"	50	}
+		{"cannon.small"		50	}
+		{"cannon.large"		50	}
+		{"tank.light"		30   }
+		{"tank"				15   }
+		{"amphibia"			30   }
+		{"railway"			0   }
+		{"airborne"			0	}
+		{"airdrop"		0}
+    }
+	{tree
+		{"human"			-1	}
+		{"human_flying"		-1	}
+		{"animal"			-1	}
+
+		{"moto"				-1	}
+		{"vehicle.small"	-1	}
+		{"vehicle.large"	-1	}
+		{"armored"			400	}
+		{"cannon.micro"		-1	}
+		{"cannon.carried"	-1	}
+		{"cannon.small"		-1	}
+		{"cannon.large"		-1	}
+		{"tank.light"		350   }
+		{"tank"				300   }
+		{"amphibia"			25  }
+		{"railway"			0   }
+
+		{"airborne"			0	}
+		{"airdrop"		0}
+    }
+	{unbreakable
+		{"human"			-1	}
+		{"human_flying"		-1	}
+		{"animal"			-1	}
+		("vehicles"	   cost(-1)	)
+		("marines"	   cost(-1)	)
+		{"airborne"			0	}
+		{"airdrop"		0}
+    }
+	{building
+		{flag_crush_in_battle}
+		{"human"			-1	}
+		{"human_flying"		-1	}
+		{"animal"			-1	}
+		("vehicles"	   cost(-1)	)
+		("marines"	   cost(0)	)
+		{"airborne"			0	}
+		{"airdrop"		0}
+    }
+	{small_building
+		{"human"			-1	}
+		{"human_flying"		-1	}
+		{"animal"			-1	}
+
+		{"moto"				-1	}
+		{"vehicle.small"	-1	}
+		{"vehicle.large"	-1	}
+		{"armored"			500	}
+		{"cannon.micro"		-1	}
+		{"cannon.carried"	-1	}
+		{"cannon.small"		-1	}
+		{"cannon.large"		-1	}
+		{"tank.light"		450   }
+		{"tank"				400   }
+		{"amphibia"			50   }
+		{"railway"			0   }
+
+		{"airborne"			0	}
+		("marines"	   cost(0)	)
+		{"airdrop"		0}
+    }
+	{small_hedgehog
+		{"human"		-1	}
+		{"human_flying"		-1	}
+		{"animal"		-1	}
+
+		{"moto"			-1	}
+		{"vehicle.small"	-1	}
+		{"vehicle.large"	-1	}
+		{"armored"		-1	}
+		{"cannon.micro"		-1	}
+		{"cannon.carried"	-1	}
+		{"cannon.small"		-1	}
+		{"cannon.large"		-1	}
+		{"tank.light"		-1   	}
+		{"tank"			50  	}
+		{"amphibia"		-1   	}
+		{"railway"		0   	}
+
+		{"airborne"		0	}
+		("marines"	   cost(0)	)
+		{"airdrop"		0}
+    	}
+	{construction
+		{"human"			-1	}
+		{"human_flying"		-1	}
+		{"animal"			-1	}
+
+		{"moto"				-1	}
+		{"vehicle.small"	60	}
+		{"vehicle.large"	60	}
+		{"armored"			50	}
+		{"cannon.micro"		-1	}
+		{"cannon.carried"	-1	}
+		{"cannon.small"		200	}
+		{"cannon.large"		200	}
+		{"tank.light"		50  }
+		{"tank"				30  }
+		{"amphibia"			50  }
+		{"railway"			0   }
+
+		{"airborne"			0	}
+		("marines"	   cost(0)	)
+		{"airdrop"		0}
+    }
+	{stuff
+		{flag_skip_impregnable}
+		{"human"			-1	}
+		{"human_flying"		0	}
+		{"animal"			-1	}
+
+		{"moto"				-1	}
+		{"vehicle.small"	40	}
+		{"vehicle.large"	40	}
+		{"armored"			40	}
+		{"cannon.micro"		-1	}
+		{"cannon.carried"	-1	}
+		{"cannon.small"		150	}
+		{"cannon.large"		150	}
+		{"tank.light"		35  }
+		{"tank"				15  }
+		{"amphibia"			35  }
+		{"railway"			0   }
+
+		{"airborne"			0	}
+		("marines"	   cost(0)	)
+		{"airdrop"		0}
+    }
+}

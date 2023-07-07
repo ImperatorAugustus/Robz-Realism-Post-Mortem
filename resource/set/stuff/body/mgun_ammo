@@ -1,0 +1,10 @@
+{from "pattern overcoat"
+	{tag "armor"}
+	{inventory
+		{size 2 2}
+		{weight 10}
+		{link_bone "IK_UpDown"}
+		{fsm "stuff"}
+	}
+	{entity "mgun_ammo"}
+}

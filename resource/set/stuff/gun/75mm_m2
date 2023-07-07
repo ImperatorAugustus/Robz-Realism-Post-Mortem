@@ -1,0 +1,19 @@
+{from "pattern gun"		; "lvt4", "m8"
+	{filling "bullet75 usm8"}
+	{fireSound "gun/50to76_cal/75mm_m3"}
+	{reloadSound "gun_r00"}
+	("range_light_howitzer")
+
+	{rechargeTime 8}
+	("caliber_medium")
+	{projectileDamage 25}
+	("speed_all" ap(380) apcr(380) fg(380) heat(304))
+	("damage_170" a(25) b(24) c(19) d(17) e(15) range(180))
+	{parameters "apcr"
+        ("damage_170" a(50) b(42) c(34) d(27) e(20) range(180))
+	}
+	{parameters "heat"
+        ("damage_heat" a(91) range(180))
+	}
+	("accuracy_lighthowitzer_m8")
+}

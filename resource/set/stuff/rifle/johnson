@@ -1,0 +1,14 @@
+{from "pattern rifle"
+	{tag "autorifle"}
+	{filling "ammo springfield_clip" 10}
+	{entity "johnsonrifle"}
+	{fireSound "rifle/johnson_shot"}
+	{reloadSound "garand/m1"}
+	
+	{Automatic}
+	{rechargeTime 7}	
+	{healthDamage 30}
+	{recoveryTime 0.60}
+	("accuracy_rifle")
+	("speed" s(866))
+}

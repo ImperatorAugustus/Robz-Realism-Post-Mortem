@@ -1,0 +1,16 @@
+{from "pattern aphe"
+	{tag "size_minimum" "shell_small" "pierce"}
+	{inventory
+		{size 4 1}
+	}
+	{mass 6.5}
+	("jap" args 0.4)
+	{entity "shell_ap_57"}
+	{trace
+		{view "/texture/fx/trace"
+			{Light 0}
+			{ScaleY 0}
+		}		
+		{length 0}
+	}
+}

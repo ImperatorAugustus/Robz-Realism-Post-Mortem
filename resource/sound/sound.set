@@ -1,0 +1,48 @@
+{sound
+	; percentage 	-- 	is the percentage share of buffers.
+	; max_buffers 	-- 	is the maximal number of buffers.
+	; Example		-- 	{percent "emotions" 15 2} means that 15% 
+	;					of the buffers, but maximal 2 buffers are used 
+	;					for sounds tagged with "emotions".
+	;-----------------------------------------------------------------------
+	;percent						percentage		max_buffers
+	{percent "effects" 				45					}
+	{percent "emotions" 			15 				2	}
+	{percent "speech" 				10 				1	}
+	{percent "environment" 			20					}
+	{percent "main_environment" 	10					}
+
+	; min_distance 	-- 	is the distance (in meter) at which the sound 
+	;					will be at maximum volume. That is, any sound 
+	;					that is this distance or closer to the listener 
+	;					will be at maximum volume.
+	; max_distance 	-- 	is the distance (in meter) at which further 
+	;					distance-based falloff will not be applied. 
+	;					The sound will be clipped to silence. 
+	;					Note that the sound is not clipped if max_distance
+	;					is set to zero.
+	;					Also note that this parameter does not affect the
+	;					volume falloff curve itself.
+	; priority 		--
+	;-----------------------------------------------------------------------
+	;loudness				min_distance 	max_distance	priority
+	{loudness "default" 			20 		0			}	
+	{loudness "local environment" 		15 		0			}
+	{loudness "footstep" 			10 		250 		0	}
+	{loudness "shoot muted" 		30 		0 		10	}
+	{loudness "shoot normal" 		30 		0 		20	}
+	{loudness "shoot loud" 			60 		0 		30	}
+	{loudness "reload" 			10 		250 		20	}
+	{loudness "whizz" 			10 		250 		20	}
+	{loudness "hit" 			25 		500 		15	}
+	{loudness "blast small" 		75 		0 		25	}
+	{loudness "blast big" 			100 		0 		40	}
+	{loudness "turret" 			10 		500			}	
+	{loudness "talk" 			30 		500			}
+	{loudness "talk2" 			30 		600			}
+   	{loudness "canonade" 			400 		0			}
+   	{loudness "air attack" 			300 		0			}
+   	{loudness "reactive" 			50 		0 		10	}
+   	{loudness "artillery" 			50 		0 		10	}
+   	{loudness "rain" 			20 		0			}
+}

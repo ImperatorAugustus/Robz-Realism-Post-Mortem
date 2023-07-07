@@ -1,0 +1,58 @@
+{breed
+	{skin "waffen-officer"}
+	{portrait "ger_officer"}
+	{nationality ger}
+	{icon "officer"}
+	{icon_priority 6}
+	{armors
+		{head cap_ger_off}
+	}
+	{tags "officer"}
+	{perks
+		{"health" "250%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "100%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" "mp_officer"
+		}
+		{"speed" 1.0
+		}
+		{"field_glass"
+		}
+		{"tank"	0.85
+		}
+		{"vehicle" 1
+		}
+		{"cannon" 0.9
+		}
+		
+		{"pistol" lvl_5
+		}
+		{"smg" lvl_5
+		}
+		{"mgun" lvl_5
+		}
+		{"rifle" lvl_5
+		}
+		{"rocketlauncher" lvl_5
+		}
+		{"melee" "lvl_5"
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_1")
+	}
+	{inventory
+		{item "luger" filled}
+		{item "ammo walther_mag" 32}
+		{item "smoke_paradrop_ammo_heavy grenade" 5}
+		{item "knife_ger"}
+		{item "binocular"}
+		{in_hands 0}
+	}
+}

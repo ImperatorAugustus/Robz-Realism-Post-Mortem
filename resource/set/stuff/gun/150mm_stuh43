@@ -1,0 +1,14 @@
+{from "pattern gun"      ; sturmpanzer IV
+	{filling "bullet150 gers"}
+	{fireSound "gun/howitzer/150mm_sfh18"}
+	{reloadSound "tankgun_r04"}
+	("range_grazing_howitzer_1")
+	("speed_all" ap(240) apcr(240) fg(240) heat(280)))
+	{range 190 190}
+	{rechargeTime 25.3}
+	{projectileDamage 140}
+	{parameters "heat"
+       		("damage_heat" a(185) range(190))
+	}
+	("accuracy_grazinghowitzer_190m")
+}

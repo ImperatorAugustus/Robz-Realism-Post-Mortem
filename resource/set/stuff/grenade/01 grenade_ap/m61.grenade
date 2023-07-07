@@ -1,0 +1,19 @@
+{from "pattern grenade_ap"
+	{tag "fg"}
+	{special
+		{PrepareTime 4.5}
+		{PrepareCursor "grenade"}
+		{mode detonate}
+	}
+	{throw
+		{range 22}
+		{startAngle 40}		
+		{spreading 3.5}
+	}	
+	{damage blastwave
+		{energy 1.1} ; kg
+		{area 4.3 7.8}
+	}
+	{inventory {size 1 1}}
+	{entity "grenade_mk2"}
+}

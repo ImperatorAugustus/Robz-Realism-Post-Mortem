@@ -1,0 +1,55 @@
+{breed
+	{skin "ger-smock2mix-mgun"}
+	{portrait "ger_soldier2"}
+	{icon "mg"}
+	{icon_priority 2}
+	{nationality ger}
+	{armors
+		{head helmet_heer_camo}
+	}
+	{perks
+		{"health" "100%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "75%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" "mp_soldier"
+		}
+		{"speed" 0.9
+		}
+		{"tank"	0.75
+		}
+		{"vehicle" 1
+		}
+		{"cannon" 0.8
+		}
+		{"pistol" lvl_2
+		}
+		{"smg" lvl_1
+		}
+		{"mgun" lvl_2
+		}
+		{"rifle" lvl_1
+		}
+		{"rocketlauncher" lvl_2
+		}
+		{"melee" lvl_2
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_1")
+	}
+	{inventory
+		{item "mg42_inf" filled}
+		{item "ammo mg_mauser drum" 300}
+		{item "valter" filled}
+		{item "ammo walther_mag" 16}
+		{item "bandage" 3}
+		{item "barrel_case"}
+		{in_hands 0}
+	}
+}

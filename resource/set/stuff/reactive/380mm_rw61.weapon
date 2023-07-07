@@ -1,0 +1,32 @@
+{weapon_bullet
+	{tag "mrl gun"}
+	{filling "ammo sturmtiger" 1}
+;	{fillingVisible "rocket"}
+
+	{fireSound "gun/sturmtiger_burst"}
+	{foresight "foresight"}
+	{spreading 
+		{SpreadRadius 5}
+		{radiusFunction
+			0	0
+			1	1
+			1.05	20
+		}
+	}         
+
+	{range 180 180}
+	{gravity 1.5}
+	{rechargeTime 180}
+	{RelaxationTime 1.5}
+
+	{speed 100}
+	{AimingTolerance 0.1}
+	{cursor "cannon_on_fg"}
+	{cursorReloading "cannon_reload_fg"}	
+	{tag "prepare"}
+	{Special
+		{Mode aim}
+		{PrepareTime 0.1}
+		{PrepareCursor "cannon_shot"}
+	}
+}

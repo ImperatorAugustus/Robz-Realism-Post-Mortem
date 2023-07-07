@@ -1,0 +1,22 @@
+{from "75mm_pak39"		; "pak40"
+	{filling "bullet75 gerp"}
+	{fireSound "gun/50to76_cal/75mm_pak40"}
+	{rechargeTime 7}
+
+	("speed_all" ap(792) apcr(990) fg(570) heat(450))
+	{projectileDamage 146}
+	("damage_170" a(146) b(133) c(118) d(105) e(93) range(200))
+	{parameters "apcbc"
+		("damage_170" a(146) b(133) c(118) d(105) e(93) range(200))
+	}
+	{parameters "heatb"
+		("damage_heat" a(87) range(200))
+	}
+	{parameters "heatc"
+		("damage_heat" a(100) range(200))
+	}
+	{parameters "apcr"
+        	("damage_170" a(195) b(170) c(144) d(121) e(102) range(200))
+	}
+}
+

@@ -1,0 +1,7 @@
+{from "76mm_m5"		; "m10_wolverine"
+	{filling "bullet76 us3inch"}
+	{rechargeTime 7}
+	{parameters "hvap" ;using the M93 HVAP ammunition
+        	("damage_170" a(239) b(208) c(175) d(147) e(124) range(200))
+	}
+}

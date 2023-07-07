@@ -1,0 +1,23 @@
+{from "pattern fg"
+	{tag "big" "size_medium" "shell_big"}
+	{inventory
+		{size 5 1}
+	}
+	("fg_medium" args 6.5)
+	("jap_he" args 1.1)
+	{mass 21}
+	
+	; anti-apc
+	{damage add blastwave
+		{energy 3.5}
+		{area 4 5}
+	}
+	{entity "shell_fg_105"}
+	{trace
+		{view "/texture/fx/trace"
+			{Light 0}
+			{ScaleY 0}
+		}		
+		{length 0}
+	}
+}

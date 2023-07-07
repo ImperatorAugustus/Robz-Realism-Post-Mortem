@@ -1,0 +1,7 @@
+{from "pattern gun_art"		; "lefh18"
+	{filling "bullet105 ger" 4}
+	{fireSound "gun/howitzer/105mm_m2a1"}
+	{reloadSound "gun_r05"}
+	("range_medium_howitzer")
+	{range 350 350}
+}

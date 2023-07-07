@@ -1,0 +1,29 @@
+{weapon_bullet
+	{tag "weapon build_in"}
+	{filling "ammo sturmtiger" 1}
+;	{fillingVisible "rocket"}
+
+	{fireSound "gun/sturmtiger_burst"}
+	{foresight "foresight"}          
+	("heavy_artillery")
+
+	{range 310 310}
+	{gravity 3}
+	{rechargeTime 180}
+	{aimtype direct}
+	{RelaxationTime 1.5}
+	{spreading
+		{SpreadRadius 30}
+	}
+	{AimingTolerance 1}
+	{cursor "cannon_on_fg"}
+	{cursorReloading "cannon_reload_fg"}
+	(mod "mp"
+		{tag "prepare"}
+		{Special
+			{Mode aim}
+			{PrepareTime 5}
+			{PrepareCursor "aimed_shot"}
+		}
+	)
+}

@@ -1,0 +1,65 @@
+{terms
+	{welrod 					firing "welrod"}
+	{nagan_pb					firing "nagan_pb"}
+	{delisle					firing "de_lisle"}
+	{hdm						firing "hdm"}
+	{sten_v_silencer			firing "sten_v_silencer"}
+	{knife_ger  				firing "knife_ger"}
+	{knife_rus   				firing "knife_rus"}
+	{knife_union   				firing "knife_union"}
+	{knife_japan   				firing "knife_japan"}
+	{axe  						firing "axe"}
+	{crow_bar  					firing "crow_bar"}
+	{smoke   					firing "smoke"}
+	{smoke_paradrop_ammo   		firing "smoke_paradrop_ammo"}
+	{smoke_paradrop_ammo_heavy  firing "smoke_paradrop_ammo_heavy"}
+	{f1   						firing "f1"}
+	{m24   						firing "m24"}
+	{m39   						firing "m39"}
+	{m61   						firing "m61"}
+	{mk1   						firing "mk1"}
+	{satchel  					firing "satchel"}
+	{type97   					firing "type97"}
+	{type99   					firing "type99"}
+	{m24x5   					firing "m24x5"}
+	{molotov_coctail   			firing "molotov_coctail"}
+	{n73at   					firing "n73at"}
+	{pwm1   					firing "pwm1"}
+	{rg42x3   					firing "rg42x3"}
+	{rpg40   					firing "rpg40"}
+	{rpg43   					firing "rpg43"}
+	{type3at   					firing "type3at"}
+	{type3at_a   				firing "type3at_a"}
+	{type99at   				firing "type99at"}
+
+	{actor_tank    				actor  "tank"  }
+	{actor_cannon  				actor  "cannon"}
+	{human 		   				actor  "human" }
+    {zero 		   				actor  "zero" }
+	{vehicle_01    				actor  "vision_vehicle_minimum"}
+	{vehicle_02  				actor  "vision_vehicle_low"}
+	{vehicle_03   				actor  "vision_vehicle_medium"}
+	{vehicle_04    				actor  "vision_vehicle_high"}
+	{vehicle_05    				actor  "vision_vehicle_maximum"}
+	{cannon_01     				actor  "vision_cannon_minimum"}
+	{cannon_02     				actor  "vision_cannon_low"}
+	{cannon_02_vet    			actor  "vision_cannon_low_vet"}
+	{cannon_03     				actor  "vision_cannon_medium"}
+	{cannon_03_vet     			actor  "vision_cannon_medium_vet"}
+	{cannon_04     				actor  "vision_cannon_high"}
+	{cannon_04_vet     			actor  "vision_cannon_high_vet"}
+	{cannon_05     				actor  "vision_cannon_maximum"}
+	{cannon_05_vet    			actor  "vision_cannon_maximum_vet"}
+	{paradrop_spawner			actor  "vision_vehicle_paradrop"}
+	
+	{sniper		   				breed   "sniper"}
+}
+
+{ranges
+	{human
+		{human}
+	}
+	{vehicle
+		{vehicle_03}
+	}
+}

@@ -1,0 +1,10 @@
+{from "pattern smoke1"
+      {filling "ammo smoke" 3}
+      {entity "3xsmokegun"}
+	{fireSound "reactive/mortar"}
+      {aimRange 30}
+	{maxRange 50}
+	{reloadSound "nagan"}
+      {rechargeTime 7}
+	{ammoLocked}
+}

@@ -1,0 +1,56 @@
+{breed
+	{skin "ger-smock2-g43"}
+	{portrait "ger_soldier4"}
+	{icon "smg"}
+	{icon_priority 1}
+	{nationality ger}
+	{armors
+		{body ammo_ger3}
+		{head helmet_heer_camo}
+	}
+	{perks
+		{"health" "300%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "200%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" "mp_soldier"
+		}
+		{"speed" 0.9
+		}
+		{"tank"	0.7
+		}
+		{"vehicle" 1
+		}
+		{"cannon" 0.95
+		}
+		{"pistol" lvl_4
+		}
+		{"smg" lvl_7
+		}
+		{"mgun" lvl_4
+		}
+		{"rifle" lvl_4
+		}
+		{"rocketlauncher" lvl_4
+		}
+		{"melee" lvl_4
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_1")
+	}
+	{inventory
+		{item "plasma_rifle" filled}
+		{item "ammo plasma" 500}
+		{item "bandage" 5}
+		{item "grenade m24" 2}
+		{item "grenade m24x5" 2}
+		{item "smoke grenade"}
+		{in_hands 0}
+	}
+}

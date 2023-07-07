@@ -1,0 +1,11 @@
+{item
+	{tag "itemin1hand armor"}
+	{entity "jelet_mac_gop_dark"}
+	{inventory
+		{size 2 2}
+		{weight 100}
+		{link_bone "gun_back"}
+		{fsm "stuff"}
+	}
+	{mass 1}
+}

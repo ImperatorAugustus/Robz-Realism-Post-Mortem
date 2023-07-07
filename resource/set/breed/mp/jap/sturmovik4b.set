@@ -1,0 +1,55 @@
+{breed
+	{skin "snlf_rifle_gear2"}
+	{portrait "jap_soldier5"}
+	{nationality jap}
+	{icon "stormtrooper4b"}
+	{icon_priority 4}
+	{armors
+		{head "helmet_japmc9"}
+	}
+	{perks
+		{"health" "400%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "200%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" "mp_soldier"
+		}
+		{"speed" 0.9
+		}
+		{"tank"	1.0
+		}
+		{"vehicle" 1.0
+		}
+		{"cannon" 1.0
+		}
+		
+		{"pistol" lvl_7
+		}
+		{"smg" lvl_7
+		}
+		{"mgun" lvl_7
+		}
+		{"rifle" lvl_7
+		}
+		{"rocketlauncher" lvl_7
+		}
+		{"melee" lvl_7
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_elite")
+	}
+	{inventory
+		{item "type2rifle" filled}		
+		{item "ammo arisaka7-7_clip" 60}
+		{item "bandage" 5}
+		{item "grenade type99" 2}
+		{item "grenade type3at_a" 1}
+		{in_hands 0}
+	}
+}

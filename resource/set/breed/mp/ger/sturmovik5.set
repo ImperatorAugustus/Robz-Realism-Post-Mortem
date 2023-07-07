@@ -1,0 +1,55 @@
+{breed
+	{skin "ger-smock2-smg"}
+	{portrait "ger_soldier3"}
+	{icon "stormtrooper5"}
+	{icon_priority 3}
+	{nationality ger}
+	{armors
+		{head helmet_heer_camo}
+	}
+	{perks
+		{"health" "200%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "150%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" "mp_soldier"
+		}
+		{"speed" 0.9
+		}
+		{"tank"	0.85
+		}
+		{"vehicle" 1
+		}
+		{"cannon" 0.9
+		}
+		{"pistol" lvl_5
+		}
+		{"smg" lvl_5
+		}
+		{"mgun" lvl_4
+		}
+		{"rifle" lvl_4
+		}
+		{"rocketlauncher" lvl_6
+		}
+		{"melee" lvl_5
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_1")
+	}
+	{inventory
+		{item "weapon panzershreck" filled}
+		{item "bandage" 5}
+		{item "grenade hohlladung"}
+		{item "ammo panzershreck" 7}
+		{item "valter" filled}
+		{item "ammo walther_mag" 16}
+		{in_hands 0}
+	}
+}

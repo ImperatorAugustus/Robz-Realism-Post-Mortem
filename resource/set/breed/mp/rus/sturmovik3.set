@@ -1,0 +1,59 @@
+{breed
+	{skin "rus-smguner"}
+	{portrait "rus_soldier5"}
+	{nationality rus}
+	{icon "stormtrooper3"}
+	{icon_priority 4}
+	{armors
+		{head fieldcap_rus}
+	}
+	{perks
+		{"health" "350%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "200%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" "mp_soldier"
+		}
+		{"speed" 0.9
+		}
+		{"tank"	0.95
+		}
+		{"vehicle" 1
+		}
+		{"cannon" 1
+		}
+		
+		{"pistol" lvl_5
+		}
+		{"smg" lvl_5
+		}
+		{"mgun" lvl_5
+		}
+		{"rifle" lvl_6
+		}
+		{"rocketlauncher" lvl_6
+		}
+		{"melee" lvl_5
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_elite")
+	}
+	{inventory
+		{item "sks" filled}
+		{item "ammo sks_clip" 80}
+		{item "bandage" 5}
+		{item "grenade f1" 2}
+		{item "smoke grenade"}
+		{item "dynamite" 1}
+		{item "weapon bazooka" filled}
+		{item "ammo bazooka" 5}
+		{item "jelet_mac_gop_dark"}
+		{in_hands 0}
+	}
+}

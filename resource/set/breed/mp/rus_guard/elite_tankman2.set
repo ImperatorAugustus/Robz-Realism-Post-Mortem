@@ -1,0 +1,57 @@
+{breed
+	{skin "rus_tankman_hp"}
+	{portrait "rus_tankman"}
+	{nationality rus}
+	{icon "tankman"}
+	{icon_priority 1}
+	{armors
+		{head rw_cap}
+	}
+	{perks
+		{"health" "400%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "200%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+        {"vision" "mp_officer"
+		}
+		{"speed" 1
+		}
+		{"tank"	1.2
+		}
+		{"vehicle" 1.2
+		}
+		{"cannon" 1.1
+		}
+		
+		{"pistol" lvl_4
+		}
+		{"smg" lvl_5
+		}
+		{"mgun" lvl_7
+		}
+		{"rifle" lvl_3
+		}
+		{"rocketlauncher" lvl_3
+		}
+		{"melee" lvl_4
+		}
+		{"tankgun" lvl_10
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_tankcrew")
+	}
+	{inventory               
+		{item "pps43" filling "ammo pps43_mag" 35}
+		{item "ammo pps43_mag" 210}
+		{item "bandage" 5}
+		{item "grenade f1" 2}
+		{item "grenade rpg43" 1}
+		{in_hands 0}
+	}
+}

@@ -1,0 +1,25 @@
+{weapon_flame
+	{tag "weapon build_in gun"}
+	{filling "fuel" 0}
+	{inventory
+		{size 4 2 }
+		{weight 100 }
+	}
+	{mass 30} ; kg
+	{entity "flame_thrower"}
+	{foresight "Foresight1"}
+	{fireSound "flame/shot"}
+	{Automatic}
+	{aimRange 40}
+	{maxRange 40}
+	{recoveryTime 0.2}
+    	{RelaxationTime 0.5}
+	{gravity 35}
+	{speed 150}
+    	{AimingTolerance 3}
+	{cursor "cannon_on"}
+	{burst
+		{short 1 0.1}
+		{long 2 1}
+	}
+}

@@ -1,0 +1,19 @@
+{from "pattern gun"		; "cromwell_mk_vi"
+	{filling "bullet95 eng"}
+	{fireSound "gun/howitzer/105mm_m2a1"}
+	("range_grazing_howitzer_1")
+	
+	("speed_all" ap(330) apcr(330) fg(330) heat(503))
+	("caliber_maximum")
+	{range 190 190}
+	{rechargeTime 17.6}
+	{projectileDamage 150}
+	{parameters "heat"
+		("damage_heat" a(110) range(190))
+	}
+	
+	("accuracy_grazinghowitzer_high")
+}
+
+
+

@@ -1,0 +1,7 @@
+{from "pattern pistol"
+	{filling "ammo webley_clip" 6}
+	{entity "mki_revolver"}
+	{fireSound	"pistol/tt"}
+	{reloadSound "webley"}
+	{healthDamage 30}
+}

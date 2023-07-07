@@ -1,0 +1,10 @@
+{from "pattern sniper_rifle"
+	{filling "ammo british303_clip" 10}
+	{entity "lee_enfield_mk3_s"}
+	{fireSound "rifle/enfield_s"}
+	{reloadSound "rifle_bolt_ten"}
+
+	{recoveryTime 2.0}
+	{rechargeTime 8.5}
+	("speed" s(744))
+}

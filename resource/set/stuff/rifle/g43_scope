@@ -1,0 +1,29 @@
+{from "pattern rifle"
+	{filling "ammo mauser" 10}
+	{entity "g43_scope"}
+	{fireSound "rifle/g43_shot/"}
+	{reloadSound "m1carbine"}
+
+	{tag "sniper"}
+	{special
+		{mode aim}
+		{PrepareTime 3.0}	
+		{PrepareCursor "aimed_shot"}
+		{accuracy 2.0}
+		{throw_off}
+	}
+
+
+	{Automatic}
+	{healthDamage 35}
+	{rechargeTime 4.5}
+	{recoveryTime 0.4}
+	{range 140 140}
+	("accuracy_scoped")
+	("speed" s(745))
+	("accuracy_boost")
+	("sa_zeroing")
+	{parameters "mauser_clip"
+		{rechargeTime 8.5}
+	}
+}

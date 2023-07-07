@@ -1,0 +1,25 @@
+;SDL
+
+{units
+	(include "soldiers.set")
+	(include "squads.set")
+	(include "vehicles.set")
+	(include "/set/multiplayer/units/usa/squads_43-45.set")
+	(include "/set/multiplayer/units/usa/vehicles_43-45.set")
+
+	(include "/set/multiplayer/units/ger/squads_43.set")
+	(include "/set/multiplayer/units/ger/vehicles_43.set")
+	(include "/set/multiplayer/units/ger_ss/vehicles_43.set")
+
+	(include "/set/multiplayer/units/eng/squads_42-45.set")
+	(include "/set/multiplayer/units/eng/vehicles_43-44.set")
+
+	(include "/set/multiplayer/units/jap/squads_42-43.set")
+	(include "/set/multiplayer/units/jap/vehicles_all.set")
+
+	(include "/set/multiplayer/units/rus/squads_43-45.set")
+	(include "/set/multiplayer/units/rus/vehicles_43.set")
+	(include "/set/multiplayer/units/rus_guard/squads_43-45.set")
+	(include "/set/multiplayer/units/rus_guard/vehicles_43-45.set")
+	(include "vehicles_x.set")
+}

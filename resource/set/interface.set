@@ -1,0 +1,81 @@
+{interface
+	{selection
+		{scale
+			{normal 1}
+			{squad_member 1}
+		}
+		{colors
+			{active		dyellow}
+			{examining	"0 128 90"}
+			{manual		dgreen}
+			{selectable	dblue}
+			{selected	white}
+			{senseless	red}
+
+		}
+	}
+	{inventory
+		{cell_size 31 35}
+	}
+	{aim_spot
+		{normal "/interface/cursor/sight"}
+		{ground "/interface/cursor/sight_gnd"}
+		{busy "/interface/cursor/wpn_busy"}
+		{target "/interface/cursor/target"}
+	}
+	{structure
+		{colors
+			{work white}
+			{repairing "190 35 35"}
+			{broken "190 35 35"}
+			{destroyed "80 80 80"}
+		}
+	}
+	{manual_targetting
+		{range
+			{show}
+			{offset 40 10}
+			{size 32 14}
+
+			{invalid red}
+			{satisfy yellow}
+			{optimal "220 220 220"}
+
+			{background}
+			{bkg_invalid "46 46 46 153"}
+			{bkg_satisfy "46 46 46 153"}
+			{bkg_optimal "46 46 46 153"}
+		}
+		{piercing
+			{show}
+			{offset 74 10}	
+			{size 26 14}
+
+			{invalid black}
+			{satisfy black}			
+			{optimal black}
+			{disabled black}
+
+			{background}
+			{bkg_invalid red}
+			{bkg_satisfy red}
+			{bkg_optimal red}
+			{bkg_disabled red}
+		}
+		{zeroing
+			{show}
+			{offset 10 10 0}
+			{size 0 20 20}
+		}
+		{radius
+			{show}
+			{invalid red}
+			{satisfy red}
+			{optimal red}
+		}
+		{hitmarker
+			{show}
+			{time 0.5} ; seconds
+		}
+	}
+}

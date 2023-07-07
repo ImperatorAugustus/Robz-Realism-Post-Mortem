@@ -1,0 +1,9 @@
+{from "pattern apcr"
+	{tag "big" "size_small" "shell_big_apcr" "pierce"}
+	{inventory
+		{size 6 1}
+	}
+	{mass 15.5}
+	("ger_apcr" args 0.9)
+	{entity "shell_apcr_88_kwk43"}
+}

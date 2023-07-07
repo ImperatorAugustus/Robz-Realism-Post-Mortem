@@ -1,0 +1,11 @@
+{bullet
+  {tag "bullet small stackable pierce 45_pistol"}
+  {inventory
+    {weight 2}
+    {block 50}
+    {size 2 2}
+    {fsm "belt"}
+  }
+  {mass 0.020}
+  {entity "thompson_drum"}
+}

@@ -1,0 +1,16 @@
+{from "pattern mgun"
+	{filling "ammo rus_mg_belt" 250}
+	{entity "sg43"}
+	{fireSound	"mgun/sg-43_burst/"}
+	{reloadSound "dt_reload"}
+	
+	{mass 14}
+	{rechargeTime 12}
+	("recoveryTime" r(800))
+	("burst_long")
+	("speed" s(800))
+	{Spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 97.5 95 92.5 90 85 80 70 50 30 10}
+	}
+}

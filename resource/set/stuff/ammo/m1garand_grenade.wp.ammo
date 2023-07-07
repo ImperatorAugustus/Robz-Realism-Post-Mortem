@@ -1,0 +1,22 @@
+{from "pattern riflegrenade_ammo"
+	{entity "garand_wp_ammo"}
+	{tag "wp grenade wp_small"}
+
+	{view "garand_wp_ammo"
+		;{tail "grenade_tail" "tail"}
+	}
+	{damage fire
+		{radius 3}
+		{heating 0.4}
+		{time 0.2}
+	}
+	{damage blastwave
+		{energy 0.5}
+		{area 0.5 1}
+	}
+	{inventory
+		{weight 20}
+		{size 2 1}
+	}
+  	{mass 0.025}
+}

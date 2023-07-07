@@ -1,0 +1,59 @@
+{breed
+	{skin "ger-para-rfl"}
+	{portrait "ger_elite1"}
+	{nationality ger}
+	{icon "elite2"}
+	{icon_priority 3}
+	{armors
+		{body ammo_ger2}
+		{head helmet_ger_m38_cover}
+	}
+	{perks
+		{"health" "350%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "150%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" "mp_soldier"
+		}
+		{"speed" 0.9
+		}
+		{"tank"	0.85
+		}
+		{"vehicle" 1
+		}
+		{"cannon" 0.9
+		}
+		
+		{"pistol" lvl_6
+		}
+		{"smg" lvl_6
+		}
+		{"mgun" lvl_6
+		}
+		{"rifle" lvl_6
+		}
+		{"rocketlauncher" lvl_6
+		}
+		{"melee" lvl_6
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_elite")
+	}
+	{inventory
+		{item "g43_scope" filling "ammo g43_mag" 10}
+		{item "ammo g43_mag" 20}
+		{item "ammo mauser_clip" 60}
+		{item "bandage" 5}
+		{item "grenade m24" 2}
+		{item "grenade pwm1" 1}
+		{item "smoke grenade" 1}
+		{item "dynamite" 1}
+		{in_hands 0}
+	}
+}

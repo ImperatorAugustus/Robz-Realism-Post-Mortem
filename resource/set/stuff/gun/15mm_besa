@@ -1,0 +1,29 @@
+{from "pattern gun"	;humber
+	{filling "ammo bullet15" 25}
+	{fireSound "mgun/dshk_burst/"}
+	{reloadSound "ptrd"}
+	{rechargeTime 4}
+	{Spreading	
+		{BurstRecoveryTime 0.6}
+		{BurstAccuracy 100 90 80 70 50 40}
+	}
+	{Automatic}
+	{burst
+		{short 2.5 1}
+		{long 7 2}
+	}	
+	{range 150 150}
+	{traceFreq 1}
+	("speed" s(818))
+	("caliber_zenite")
+	("recoveryTime" r(450))
+	{RelaxationTime 0}
+	{cursor "zenite_on"}
+	{cursorReloading "zenite_reload"}
+	{AimingTolerance 1}
+	{healthDamage 100}
+	{projectileDamage 20}
+	("damage" a(26) b(18) c(12) d(9) e(4))
+	{gravity 1.5}
+        ("accuracy_zenite_high")
+}

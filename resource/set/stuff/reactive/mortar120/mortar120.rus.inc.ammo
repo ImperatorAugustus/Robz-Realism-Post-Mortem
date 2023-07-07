@@ -1,0 +1,25 @@
+{bullet
+	{tag "size_small nebel incendiary_med small shell"}
+	{inventory
+		{size 3 1}
+		{weight 70}
+	}	{mass 2}
+	{entity "ammo_mortar120_tr843"}
+	{view "ammo_mortar120_tr843"}	
+	{detonationThickness 1}
+	{damage add blastwave
+		{energy 1.2}
+		{area 4 8}
+	}
+	{damage fire
+		{radius 12}
+		{heating 2}
+		{time 0.1}
+	}	
+	{damage add fire
+		{radius 8}
+		{heating 0.01}
+		{time 45}
+	}
+
+}

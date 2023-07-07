@@ -1,0 +1,33 @@
+{from "pattern gun"		; "churchill_avre"
+	{filling "bullet290" 1}
+	{fireSound "gun/203mm"}
+	{range 80 80}
+	{spreading 
+		{SpreadRadius 1}
+		{radiusFunction
+			0	0
+			1	1
+			1.05	20
+		}
+	} 
+	{RecoveryTime 2}
+	{RechargeTime 40}
+	{Automatic}
+	("speed" s(75))
+	("caliber_howitzer")
+
+	{RelaxationTime 1.5}
+	{projectileDamage 1000}
+	{gravity 2}
+	{cursor "cannon_on_fg"}
+	{cursorReloading "cannon_reload_fg"}
+	{tag "prepare"}
+	{Special
+		{Mode aim}
+		{PrepareTime 0.1}
+		{PrepareCursor "cannon_shot"}
+	}
+}
+
+
+

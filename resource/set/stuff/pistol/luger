@@ -1,0 +1,6 @@
+{from "pattern pistol"
+	{filling "ammo walther_mag" 8}
+	{entity "luger"}
+	{fireSound	"pistol/valter"}
+	{reloadSound "luger"}
+}

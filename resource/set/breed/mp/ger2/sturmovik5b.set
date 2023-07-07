@@ -1,0 +1,57 @@
+{breed
+	{skin "ger-geb-rfl"}
+	{portrait "ger2_soldier5"}
+	{nationality ger2}
+	{icon "stormtrooper5b"}
+	{icon_priority 4}
+	{armors
+		{head "fieldcap_ger_geb"}
+	}
+	{perks
+		{"health" "400%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "225%"
+		}
+		{"stamina_regeneration" "125%"
+		}
+		{"vision" "mp_soldier"
+		}
+		{"speed" 1
+		}
+		{"tank"	1.0
+		}
+		{"vehicle" 1.0
+		}
+		{"cannon" 1.0
+		}
+		
+		{"pistol" lvl_7
+		}
+		{"smg" lvl_7
+		}
+		{"mgun" lvl_7
+		}
+		{"rifle" lvl_7
+		}
+		{"rocketlauncher" lvl_7
+		}
+		{"melee" lvl_7
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_lvl2")
+	}
+	{inventory
+		{item "mauzer_vet" filled}
+		{item "ammo mauser_clip" 60}
+		{item "ammo mg_mauser drum" 50}
+		{item "bandage" 5}
+		{item "grenade m24" 2}
+		{item "panzerfaust weapon" filled}
+		{item "panzerfaust weapon" filled}
+		{in_hands 0}
+	}
+}

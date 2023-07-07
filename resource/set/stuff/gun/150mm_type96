@@ -1,0 +1,8 @@
+{from "pattern gun_art"		; "150mm_type96"
+	{filling "bullet150 jap" 3}
+	{fireSound "gun/howitzer/150mm_sfh18"}
+	{reloadSound "gun_r04"}
+	("range_heavy_howitzer")
+	{range 400 400}
+	{speed 540}		
+}

@@ -1,0 +1,14 @@
+{from "pattern fg"
+	{tag "size_small"}
+	{inventory
+		{size 5 1}
+	}
+	("fg_minimum" args 3.2)
+	{damage add blastwave		;to increase panther shell's energy level for explosive detection
+		{energy 1.5}
+		{area 0 0}
+	}
+	("ger_he" args 0.86)
+	{mass 12}
+	{entity "shell_fg_75_kwk42"}
+}

@@ -1,0 +1,11 @@
+{bullet
+	{tag "itemin2hands no_ricochet big_smoke"}
+	{detonationThickness 2}
+	{inventory
+		{size 6 1}
+		{weight 100}
+		{fsm "stuff"}
+	}
+	{mass 40}
+	{entity "shell_sm_150"}
+}

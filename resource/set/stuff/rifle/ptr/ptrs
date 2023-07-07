@@ -1,0 +1,11 @@
+{from "pattern at_rifle"
+	{filling "ammo ptr" 5}                                          
+	{entity "ptrs"}
+	{reloadSound "ptrs"}
+	
+	{Automatic}
+	{rechargeTime 6}   
+	{recoveryTime 1.25}
+	{projectileDamageTable {20 40} {100 35} {170 30} {215 20} {250 10}}
+	("speed" s(1000))
+}

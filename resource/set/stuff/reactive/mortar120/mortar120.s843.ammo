@@ -1,0 +1,10 @@
+{bullet
+	{tag "size_small dropboxed mortar_flare_heavy"}
+	{inventory
+                {size 3 1}
+		{weight 70}
+	}       {mass 2}
+	{entity "ammo_mortar120_s843"}
+	{view "ammo_mortar120_s843"}
+	{detonationThickness 1}
+}

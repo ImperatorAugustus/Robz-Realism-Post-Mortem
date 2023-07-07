@@ -1,0 +1,5 @@
+{from "40mm_oqf2pdr"		; "mk7" "mk3", "mk2a", "mk2_daimler"
+
+	{rechargeTime 3.7}
+
+}

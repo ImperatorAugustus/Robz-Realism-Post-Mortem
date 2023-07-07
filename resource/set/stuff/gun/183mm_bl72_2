@@ -1,0 +1,15 @@
+{from "pattern gun2"		; bl 7.2 direct fire
+    	{filling "bullet183"}
+	{fireSound "gun/howitzer/203mm"}
+	{reloadSound "tankgun_r02"}
+	("range_grazing_howitzer")
+	("caliber_maximum")
+	{rechargeTime 55}
+	{range 210 210}
+	("speed" s(517))
+
+	{cursor "cannon_on_fg"}
+	{cursorReloading "cannon_reload_fg"}
+	("accuracy_grazinghowitzer_210m")
+}
+

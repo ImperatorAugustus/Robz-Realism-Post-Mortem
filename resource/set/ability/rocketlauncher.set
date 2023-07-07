@@ -1,0 +1,173 @@
+{"rocketlauncher" from weapon
+    {item "rocketlauncher"}	
+    {level "lvl_1"
+        {stand
+            	{accuracy 0.80}
+        }
+        {squat
+            	{accuracy 1.10}
+        }
+	{crawl
+		{accuracy 1.20}
+	}
+        {cover
+           	{accuracy 1.40}
+        }
+	{vehicle
+		{accuracy 1.90}
+	}
+    }
+    {level "lvl_2"
+        {stand
+            	{accuracy 0.925}
+        }
+        {squat
+            	{accuracy 1.225}
+        }
+	{crawl
+		{accuracy 1.325}
+	}
+        {cover
+        	{accuracy 1.525}
+        }
+	{vehicle
+		{accuracy 2.025}
+	}
+    }
+    {level "lvl_3"
+        {stand
+            	{accuracy 0.9875}
+        }
+        {squat
+            	{accuracy 1.2875}
+        }
+	{crawl
+		{accuracy 1.3875}
+	}
+        {cover
+        	{accuracy 1.5875}
+        }
+	{vehicle
+		{accuracy 2.0875}
+	}
+    }
+    {level "lvl_4"
+        {stand
+            	{accuracy 1.05}
+        }
+        {squat
+            	{accuracy 1.35}
+        }
+	{crawl
+		{accuracy 1.45}
+	}
+        {cover
+        	{accuracy 1.65}
+        }
+	{vehicle
+		{accuracy 2.15}
+	}
+    }
+    {level "lvl_5"
+        {stand
+            	{accuracy 1.1875}
+        }
+        {squat
+            	{accuracy 1.4875}
+        }
+	{crawl
+		{accuracy 1.5875}
+	}
+        {cover
+            	{accuracy 1.7875}
+        }
+	{vehicle
+		{accuracy 2.2875}
+	}
+    }
+    {level "lvl_6"
+        {stand
+            	{accuracy 1.27}
+        }
+        {squat
+            	{accuracy 1.57}
+        }
+	{crawl
+		{accuracy 1.67}
+	}
+        {cover
+            	{accuracy 1.87}
+        }
+	{vehicle
+		{accuracy 2.37}
+	}
+    }
+    {level "lvl_7"
+        {stand
+            	{accuracy 1.35}
+        }
+        {squat
+            	{accuracy 1.65}
+        }
+	{crawl
+		{accuracy 1.75}
+	}
+        {cover
+            	{accuracy 1.95}
+        }
+	{vehicle
+		{accuracy 2.45}
+	}
+    }
+    {level "lvl_8"
+        {stand
+            	{accuracy 1.44}
+        }
+        {squat
+            	{accuracy 1.74}
+        }
+	{crawl
+		{accuracy 1.84}
+	}
+        {cover
+            	{accuracy 2.04}
+        }
+	{vehicle
+		{accuracy 2.54}
+	}
+    }
+    {level "lvl_9"
+        {stand
+            	{accuracy 1.52}
+        }
+        {squat
+            	{accuracy 1.82}
+        }
+	{crawl
+		{accuracy 1.92}
+	}
+        {cover
+            	{accuracy 2.12}
+        }
+	{vehicle
+		{accuracy 2.62}
+	}
+    }
+    {level "lvl_10"
+        {stand
+            	{accuracy 1.60}
+        }
+        {squat
+            	{accuracy 1.90}
+        }
+	{crawl
+		{accuracy 2.00}
+	}
+        {cover
+            	{accuracy 2.20}
+        }
+	{vehicle
+		{accuracy 2.70}
+	}
+    }
+}

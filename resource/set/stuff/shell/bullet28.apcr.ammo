@@ -1,0 +1,10 @@
+{from "pattern apcr"
+	{tag "size_minimum" "20mm" "pierce"}
+	{inventory
+		{weight 40}
+		{size 2 1}
+	}
+	("ger" args 0.24)
+	{mass 1.2}
+	{entity "shell_ap_28"}
+}

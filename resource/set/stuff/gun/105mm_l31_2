@@ -1,0 +1,17 @@
+{from "pattern gun2"		; "wespe direct"
+	{filling "bullet105 ger"}
+	{fireSound "gun/howitzer/105mm_m2a1"}
+	("range_grazing_howitzer")
+
+	("speed_all" ap(475) apcr(475) fg(472) heat(495))
+	("caliber_maximum")
+	{range 190 190}
+	{projectileDamage 78}
+	("damage_170" a(78) b(73) c(67) d(62) e(57) range(190))
+	{parameters "heat"
+		("damage_heat" a(115) range(190))
+	}
+	("accuracy_grazinghowitzer_190m")
+}
+
+

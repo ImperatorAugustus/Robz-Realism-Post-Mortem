@@ -1,0 +1,21 @@
+{bullet
+	{tag "ammo small stackable shell_minimum pierce shell"}
+	{inventory
+		{weight 25}
+		{size 3 1}
+		{block 5}
+	}
+	{mass 1.2}
+	{entity "shell_ap_37_flak36"}
+	{trace
+		{view "/texture/fx/trace_apcr"
+			{ScaleY 0.35}
+			{Light 2}
+		}
+		{length 14}
+	}
+	;{damage blastwave    
+	;	{energy 0.5}
+	;	{area 3 4}
+	;}		
+}

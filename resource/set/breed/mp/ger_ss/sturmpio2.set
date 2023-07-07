@@ -1,0 +1,63 @@
+{breed
+	{skin "waffen-pioneer"}
+	{portrait "ger_soldier7"}
+	{nationality ger}
+	{icon "sapper"}
+	{icon_priority 3}
+	{armors
+		{head waffen_helmet_camo}
+	}
+	{perks
+		{"health" "150%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "100%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" "mp_soldier"
+		}
+		{"speed" 0.9
+		}
+		{"tank"	0.85
+		}
+		{"vehicle" 1
+		}
+		{"cannon" 0.9
+		}
+		
+		{"pistol" lvl_4
+		}
+		{"smg" lvl_3
+		}
+		{"mgun" lvl_2
+		}
+		{"rifle" lvl_4
+		}
+		{"rocketlauncher" lvl_2
+		}
+		{"melee" lvl_4
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_1")
+	}
+	{inventory
+		{item "mauzer" filled}
+		{item "ammo mauser_clip" 60}
+		{item "bandage" 3}
+		{item "hedgehog_kit" 1}
+		{item "dynamite_ladung" 2}
+		{item "trench_spade"}
+		{item "mine antitank" 2}
+		{item "grenade m24" 2}
+		{item "mine antitank" 2}
+		;{item "dynamite_ladung" 4}
+		;{item "hohlladung grenade"}
+		;{item "hedgehog_kit" 1}
+		;{item "trench_spade"}
+		{in_hands 0}
+	}
+}

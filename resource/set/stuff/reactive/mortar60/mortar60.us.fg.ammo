@@ -1,0 +1,19 @@
+{bullet
+	{tag "dropboxed grenade small mortar"}
+	{inventory
+		{size 2 1}
+		{weight 40}
+	}	{mass 2}
+	{entity "ammo_mortar60_fg"}
+	{view "ammo_mortar60_fg"}
+	{detonationThickness 1}
+	
+	{damage blastwave
+		{energy 1.2}
+		{area 2.5 5.5}
+	}
+	{damage add blastwave
+		{energy 0.1}
+		{area 6.5 6.5}
+	}
+}

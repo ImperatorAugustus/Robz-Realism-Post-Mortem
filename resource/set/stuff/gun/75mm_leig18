@@ -1,0 +1,24 @@
+{from "75mm_kwk37"     ; "Leig18"
+	{filling "bullet75 gerlg"}
+	{fireSound "gun/50to76_cal/75mm_kwk40"}
+	{reloadSound "gun_r03"}
+	("caliber_medium")
+	("speed" s(210))
+	{projectileDamage 52}
+	("damage" a(52) b(48) c(44) d(40) e(37))
+	{parameters "heat"
+		("damage_heat" a(52) range(180))
+	}
+	{parameters "heata"
+		("damage_heat" a(81) range(180))
+	}
+	{parameters "heatb"
+		("damage_heat" a(87) range(180))
+	}
+	{parameters "heatc"
+		("damage_heat" a(115) range(180))
+	}
+	("accuracy_lighthowitzer_leig")
+	{ZeroingAccuracy 0.90 0.85}
+}
+

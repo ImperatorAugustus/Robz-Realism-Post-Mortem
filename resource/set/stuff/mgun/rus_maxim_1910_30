@@ -1,0 +1,17 @@
+{from "pattern mgun"
+	{filling "ammo rus_mg_belt" 250}
+	{entity "maxim_1910-30"}
+	{fireSound	"mgun/maxim_burst/"}
+	{reloadSound "cal30_reload"}
+
+	{range 150 150}
+	{rechargeTime 9}
+	("recoveryTime" r(600))
+	("burst_long")
+	("speed" s(744))
+	{Spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 97.5 95 92.5 90 85 80 70 50 20}
+	}
+	("accuracy_mgun_mount")
+}

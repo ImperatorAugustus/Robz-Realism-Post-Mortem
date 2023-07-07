@@ -1,0 +1,15 @@
+{from "pattern gun2_art"		; "type41 arty mode"
+	{filling "bullet75 japs" 6}
+	{fireSound "gun/75mm_type41"}
+	{reloadSound "gun_r03"}
+	{recoveryTime 8}
+	{rechargeTime 8}
+
+	("range_arty_lowarc_low")
+	("speed_lowarc" s(435))
+	{range 300 300}
+	{burst {min 6} {noaiming}}
+	{gravity 5}
+	("zeroing_6")
+}
+

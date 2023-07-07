@@ -1,0 +1,56 @@
+{breed
+	{skin "us_bazooker"}
+	{portrait "usa_soldier2"}
+	{nationality usa}
+	{icon "bazooker"}
+	{icon_priority 3}
+	{armors
+		{head helmet4_usa}
+	}
+	{perks
+		{"health" "150%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "100%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" "mp_soldier"
+		}
+		{"speed" 0.9
+		}
+		{"tank"	0.75
+		}
+		{"vehicle" 1
+		}
+		{"cannon" 0.8
+		}
+		
+		{"pistol" lvl_2
+		}
+		{"smg" lvl_2
+		}
+		{"mgun" lvl_2
+		}
+		{"rifle" lvl_3
+		}
+		{"rocketlauncher" lvl_4
+		}
+		{"melee" lvl_3
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_1")
+	}
+	{inventory
+		{item "weapon bazooka" filled}
+		{item "garand" filled}
+		{item "ammo garand_clip" 80}
+		{item "bandage" 3}
+		{item "ammo bazooka" 7}
+		{item "ammo bazooka wp" 1 1}
+		{in_hands 0}
+	}
+}

@@ -1,0 +1,13 @@
+{from "pattern rpg_weapon_buildin"
+	{filling "ammo panzershreck" 1}
+	{inventory {noView}}
+	{foresight "foresight1"}
+    	{projectileDamageTable {0 160} {120 160} {125 0}}
+	{fireSound "reactive/bazooka_launch/"}
+	{mass 15}
+	{rechargeTime 5}
+	{spreading 4}
+	{range 120 120}
+	("speed" s(130))
+}
+

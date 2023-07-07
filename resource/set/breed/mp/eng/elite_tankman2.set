@@ -1,0 +1,54 @@
+{breed
+	{skin "eng-tankcom"}
+	{portrait "eng_tankman"}
+	{nationality eng}
+	{icon "tankman"}
+	{icon_priority 1}
+	{armors
+		{head "beret_eng1"}
+	}
+	{perks
+		{"health" "150%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "100%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" "mp_soldier"
+		}
+		{"speed" 0.8
+		}
+		{"tank"	1.20
+		}
+		{"vehicle" 1.20
+		}
+		{"cannon" 1.0
+		}
+		
+		{"pistol" lvl_4
+		}
+		{"smg" lvl_4
+		}
+		{"mgun" lvl_7
+		}
+		{"rifle" lvl_2
+		}
+		{"rocketlauncher" lvl_1
+		}
+		{"melee" lvl_3
+		}
+		{"tankgun" lvl_10
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_tankcrew")
+	}
+	{inventory
+		{item "sten_mk2" filled}
+		{item "ammo sten_mag" 128}
+		{in_hands 0}
+	}
+}

@@ -1,0 +1,125 @@
+;SDL
+(define "distance_1" 
+	{spreading 
+		{radiusTable {0 0} {10 %r1} {35 %r2} {70 %r3}}
+	}		
+)
+(define "distance_flaer"
+	{spreading
+		{radiusTable {0 0} {20 %r1} {40 %r2} {80 %r3} {120 %r4}}
+	}
+)
+(define "distance_bonic_callin"
+	{spreading
+		{radiusTable {0 0} {1000 0}}
+	}
+)
+(define "distance_rifle"
+	{spreading
+		{radiusTable {0 0} {15 %r1} {35 %r2} {70 %r3} {100 %r4} {130 %r5}}
+	}
+)
+(define "distance_rifle_scope"
+	{spreading
+		{radiusTable {0 0} {15 %r1} {35 %r2} {70 %r3} {100 %r4} {150 %r5}}
+	}
+)
+(define "distance_mg"
+	{spreading
+		{radiusTable {0 0} {20 %r1} {40 %r2} {75 %r3} {110 %r4} {130 %r5} {150 %r6}}
+	}
+)
+(define "distance_at"
+	{spreading
+		{radiusTable {0 0} {20 %r1} {40 %r2} {80 %r3} {120 %r4}}
+	}
+)
+(define "distance_2" 
+	{spreading 
+		{radiusTable {0 0} {15 %r1} {40 %r2} {80 %r3}}
+	}		
+)
+(define "distance_3" 
+	{spreading 
+		{radiusTable {0 0} {30 %r1} {60 %r2} {90 %r3}}
+	}		
+)
+(define "accuracy_flaer"
+	("distance_flaer" r1(1.00) r2(3.00) r3(5.00) r4(7.00))
+)
+
+(define "accuracy_flaer_240"
+	("distance_bonic_callin")
+)
+
+(define "accuracy_pistol"
+	("distance_1" r1(0.20) r2(0.80) r3(2.50))
+)
+
+(define "accuracy_smg_low"
+	("distance_1" r1(0.385) r2(1.925) r3(4.40)) 		;old r1(0.35) r2(1.75) r3(4.00)
+)
+(define "accuracy_smg"
+	("distance_1" r1(0.33) r2(1.65) r3(3.85)) 		;old r1(0.30) r2(1.50) r3(3.50)
+)
+(define "accuracy_smg_high"
+	("distance_1" r1(0.275) r2(1.375) r3(3.575)) 		;old r1(0.25) r2(1.25) r3(3.25)
+)
+(define "accuracy_smg_veryhigh"
+	("distance_1" r1(0.2) r2(1.2) r3(3.1))
+)
+
+(define "accuracy_scoped"
+	("distance_rifle_scope" r1(0.45) r2(0.60) r3(1.25) r4(1.70) r5(2.00))
+)
+
+(define "accuracy_rifle"
+	("distance_rifle" r1(0.35) r2(0.60) r3(1.25) r4(1.75) r5(2.25))		;old r1(0.35) r2(0.60) r3(1.30) r4(1.80)
+)									;oldnew r1(0.385) r2(0.66) r3(1.43) r4(1.98))
+
+(define "accuracy_automatic_rifle"
+	("distance_rifle" r1(0.40) r2(0.70) r3(1.50) r4(2.00) r5(2.50))		;old r1(0.40) r2(0.65) r3(1.40) r4(2.00)
+)
+
+(define "accuracy_carabine"
+	("distance_rifle" r1(0.45) r2(0.80) r3(1.60) r4(2.25) r5(2.75))		;old r1(0.45) r2(0.95) r3(1.80) r4(2.75)
+)
+
+(define "accuracy_assault_rifle"
+	("distance_rifle" r1(0.825) r2(1.10) r3(2.20) r4(3.50) r5(4.00))		;old r1(0.75) r2(1.00) r3(2.10) r4(3.50)
+)
+
+(define "accuracy_assault_rifle_scoped"
+	("distance_rifle" r1(0.77) r2(1.045) r3(1.98) r4(3.19) r5(3.50))		;old r1(0.70) r2(0.95) r3(1.80) r4(2.90)
+)
+
+(define "accuracy_mgun"
+	("distance_mg" r1(0.60) r2(0.96) r3(1.80) r4(2.95) r5(4.5) r6(6.0)) ;old r1(0.50) r2(0.80) r3(1.50) r4(2.40) r5(2.75)
+)
+(define "accuracy_mgun_mount"
+	("distance_mg" r1(0.60) r2(0.96) r3(1.80) r4(2.90) r5(4.0) r6(5.0)) ;old r1(0.50) r2(0.80) r3(1.50) r4(2.40) r5(2.75)
+)
+(define "accuracy_mgun_hull"
+	("distance_mg" r1(0.60) r2(0.96) r3(1.80) r4(2.90) r5(4.25) r6(5.5)) ;old r1(0.50) r2(0.80) r3(1.50) r4(2.40) r5(2.75)
+)
+(define "accuracy_mgun_tank"
+	("distance_mg" r1(0.60) r2(0.96) r3(1.80) r4(2.85) r5(3.5) r6(4.5)) ;old r1(0.50) r2(0.80) r3(1.50) r4(2.40) r5(2.75)
+)
+
+(define "accuracy_ptr"
+	("distance_at" r1(0.30) r2(0.60) r3(1.20) r4(1.90))
+)
+(define "accuracy_ptr_bolt"
+	("distance_at" r1(0.25) r2(0.50) r3(1.00) r4(1.50))
+)
+
+(define "accuracy_sniper_rifle"
+	("distance_rifle_scope" r1(0.30) r2(0.45) r3(1.15) r4(1.55) r5(1.85))
+)
+
+(define "accuracy_dshk"
+	("distance_mg" r1(0.60) r2(0.90) r3(1.74) r4(2.76) r5(3.5) r6(4.8))	;old r1(0.50) r2(0.75) r3(1.45) r4(2.30) r5(2.60)
+)
+(define "accuracy_beam_rifle"
+	("distance_3" r1(0.10) r2(0.10) r3(0.10))
+)

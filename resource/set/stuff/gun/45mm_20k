@@ -1,0 +1,24 @@
+{from "pattern gun"		; "ba11", "m37", "t26", "t70"
+	{filling "bullet45 rus"}
+	{fireSound "gun/45mm_20k"}
+	{reloadSound "gun_r02"}
+	{rechargeTime 5}
+	("range_minimum")
+	
+	{range 170 170}
+	("speed_all" ap(760) apcr(985) fg(343) heat(343))
+	("caliber_minimum")
+	{projectileDamage 50}
+	("damage_170" a(62) b(45) c(35) d(29) e(26) range(170))
+	{parameters "aphebc"
+		{cursorReloading "cannon_reload_aphebc"}
+	}
+	{parameters "apcr"
+        	("damage_170" a(103) b(64) c(40) d(21) e(17) range(170))
+	}
+	{parameters "fg"
+		{range 150 150}
+	}
+	("accuracy_minimum")	
+}
+

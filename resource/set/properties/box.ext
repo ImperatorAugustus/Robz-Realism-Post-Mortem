@@ -1,0 +1,24 @@
+;SDL
+game_entity
+
+{volume "body"
+	{able clear {visible} {bullet} {select} {contact_ground} {touch} {contact} {blast} {obstacle}}
+	{thickness 1}
+}
+{volume "select"
+	{able clear {select}}
+	{density 0}
+}
+{props "steel" "stuff" "collectable"}
+
+{obstacleID "construction"}
+{collider "particle.small"}
+
+{simulation {able 1}}
+{constrain ground}
+
+;{extender "stuff"
+;	{item "barrel"}
+;}
+
+{lodclass "decor_small"}

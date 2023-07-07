@@ -1,0 +1,9 @@
+{from "pattern aphe"
+	{tag "big" "size_big" "highvel_verybig" "shell_verybig" "pierce"}
+	{inventory
+		{size 6 1}
+	}	
+	{mass 22}
+	("rus" args 1.37)
+	{entity "shell_ap_122"}
+}

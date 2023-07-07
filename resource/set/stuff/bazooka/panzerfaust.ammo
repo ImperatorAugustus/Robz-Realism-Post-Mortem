@@ -1,0 +1,9 @@
+{from "pattern rpg_ammo"
+	{entity "panzerfaust_ammo"}
+	{tag "pierce cumulative_big"} 
+	{view "panzerfaust_ammo"}
+	{damage blastwave
+		{energy 1}
+		{area 2 4}
+	}
+}

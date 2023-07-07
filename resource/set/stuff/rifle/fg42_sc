@@ -1,0 +1,23 @@
+{from "pattern rifle"
+	{tag "assaultrifle"}
+	{filling "ammo fg42_mag" 20}
+	{entity "fg42_sc"}
+	{fireSound "mgun/fg42_shot"}
+	{reloadSound "fg42"}
+	{burst
+		{short 1 0.3}
+		{long 3 1}
+	}
+	{range 130 130}
+	{Automatic}
+	{rechargeTime 5}
+	{recoveryTime 0.08}
+	;("recoveryTime" r(750))
+	;("burst_short")
+	("speed" s(740))
+	("accuracy_scoped")
+	{Spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 90 80 70 60 50 40}
+	}
+}

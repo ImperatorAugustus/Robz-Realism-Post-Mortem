@@ -1,0 +1,15 @@
+{from "pattern gun"     ; "m43"
+	{filling "bullet76 rus"}
+	{rechargeTime 7}
+	{fireSound "gun/50to76_cal/76mm_kt26"}
+	{reloadSound "gun_r03"}
+	("range_light_howitzer")
+	("caliber_medium")
+	("speed_all" ap(262) apcr(262) fg(262) heat(311))
+	{parameters "heat"
+		("damage_heat" a(87) range(180))
+	}
+	("accuracy_lighthowitzer_leig")
+	{ZeroingAccuracy 0.90 0.85}
+}
+

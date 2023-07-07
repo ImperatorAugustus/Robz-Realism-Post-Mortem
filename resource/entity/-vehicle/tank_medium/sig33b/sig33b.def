@@ -1,0 +1,96 @@
+{entity
+	(include "/properties/tank.ext")
+	(include "/properties/selection/vehicle.inc"  scale(1.2))
+	{props "medium" "-turret" "vision_vehicle_high" "muzzle_maximum"}
+
+	{volume "body1"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "body2"
+		{tags "body"}
+		{component "body"}
+	}
+	
+	("armor_spa_heavy" armor(80 30 30 22))
+	("armor_mantlet" t(30))
+	("armor_engine"  t(10 30 30 12))
+	("shield" args 10)
+	
+	("crew_52_human")
+
+	{boarder
+		{anm "left"
+			{forward	{begin	"board_tank_left"} {end "seat_armor"}}
+			{reverse 	{end	"emit_tank_1"}}
+		}
+		{anm "right"
+			{forward	{begin	"board_tank_right"} {end "pose_mgun_pz6"}}
+			{reverse 	{end	"emit_tank_2_hold"}}
+		}
+	}
+	{extender "inventory"
+		{weapon "mgun"
+			{mask "weapon mgun"}
+		}
+		{box
+			{item "bullet150 gers fg" 20}
+			{item "bullet150 gers sm" 4}
+			{item "bullet150 gers heat" 6}
+			{item  "ammo mg_mauser belt" 600}
+		}
+	}
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "150mm_sig33b" filling "bullet150 gers fg" 1}	
+			("abm_direct_how")
+		}
+		{place "mgun1"
+			{type "mgun_hull"}
+			{weapon "mg34_optic" filled}
+			{foresight "foresight4"}
+			{gunner "gunner3"}
+			{charger "gunner3"}
+			{basic}
+		}
+	}
+	
+	{mass 21000}
+	{Chassis
+		("tank_trace" fx("tracks_mid") step(0.52) len(0.21))
+		{Locomotion ("locomotion")
+			{MaxSpeed   30}
+			{maxSpeedAtMaxTurn 6}
+			{StartTime 	 37}
+			{TurnTime  	 15}
+    			{TurnStart 1.4}
+     			{BrakeTime   1} 
+    			{StopTime    2}
+     			{TurnRadius  8} 
+    			{TurnStop   0.7}
+     			{Gears  0.1 0.2 0.3 1}
+     			{RearGears 0.28}
+		}
+		{FuelBag
+			{volume 310 }	
+			{rate	24 }
+			{remain 310 }
+			{fuel "fuel"}
+		}
+		{speed
+        			{Normal  10}
+        			{Slow  16}
+    		}
+	}
+	
+	{Extension "Sig33b.mdl"}
+	{bone "gun_rot1"
+		{speed 0.001}
+	}
+	{bone "gun_rot"
+		{speed 0.001}
+	}
+}
+

@@ -1,0 +1,22 @@
+{from "pattern throwable"
+	{tag "fg"}
+	{special
+		{PrepareTime 4.5}
+		{PrepareCursor "grenade"}
+		{mode detonate}
+	}
+	{throw
+		{range 25}
+		{startAngle 40}		
+		{spreading 3.5}
+	}	
+	{damage blastwave
+		{energy 1.0} ; kg
+		{area 3.25 6.5}
+	}
+	{damage add blastwave
+		{energy 0.1}
+		{area 8 8}
+	}
+	{possibleDamageRadius 4} ;minimum range
+}

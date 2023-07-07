@@ -1,0 +1,14 @@
+{from "pattern gun2_art"		; "m4 76mm"
+	{filling "bullet76 us fg" 6}
+	{fireSound "gun/50to76_cal/76mm_mk4"}
+	{reloadSound "gun_r05"}
+	{rechargeTime 8.5}
+	{recoveryTime 8.5}
+	
+	("range_arty_lowarc")
+	("speed_lowarc" s(800))
+	{gravity 12}
+	{range 450 450}
+	{burst {min 6} {noaiming}}
+	("zeroing_6")
+}

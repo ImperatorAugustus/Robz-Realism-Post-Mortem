@@ -1,0 +1,17 @@
+{from "pattern fg"
+	{tag "size_minimum"}
+	{inventory
+		{size 4 1}
+	}
+	("fg_minimum_low" args 2.4)
+	("jap_he" args 0.5)
+	{mass 8}
+	{entity "shell_fg_57"}
+	{trace
+		{view "/texture/fx/trace"
+			{Light 0}
+			{ScaleY 0}
+		}		
+		{length 0}
+	}
+}

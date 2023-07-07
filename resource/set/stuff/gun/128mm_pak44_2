@@ -1,0 +1,12 @@
+{from "pattern gun2_art"       ; pak44 artillery used version
+	{filling "bullet128 ger fg" 3}
+	{fireSound "gun/howitzer/128mm_pak44"}
+	{reloadSound "tankgun_r04"}
+	{rechargeTime 20}
+	{recoveryTime 20}
+	("range_arty_lowarc")
+	("speed_lowarc" s(880))
+	{range 800 800}
+	{burst {min 3} {noaiming}}
+	("zeroing_3")
+}

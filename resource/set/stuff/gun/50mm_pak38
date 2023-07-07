@@ -1,0 +1,29 @@
+{from "pattern gun"		; "pak38"
+	{filling "bullet50 gerl"}
+	{fireSound "gun/50to76_cal/50mm_kwk38"}
+	{reloadSound "gun_r02"}
+	{rechargeTime 5}
+	("range_short")
+	
+	{range 190 190}
+	("speed_all" ap(835) apcr(1180) fg(550) heat(110))
+	("caliber_minimum")
+	{projectileDamage 86}
+	("damage_170" a(97) b(79) c(62) d(49) e(38) range(190))
+	{parameters "apc"
+		("damage_170" a(97) b(79) c(62) d(49) e(38) range(190))
+		{cursorReloading "cannon_reload_apc"}
+	}
+	{parameters "apcr"
+        	("damage_170" a(150) b(108) c(72) d(48) e(32) range(190))
+	}
+	{parameters "heat"
+		("damage_heat" a(180) range(100))
+		{range 100 100}
+		{rechargeTime 12}
+	}
+	{parameters "fg"
+		{range 170 170}
+	}
+	("accuracy_medium")
+}

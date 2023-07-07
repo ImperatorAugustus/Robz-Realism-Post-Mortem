@@ -1,0 +1,11 @@
+{bullet
+  {tag "bullet small stackable pierce 7-62_pistol"}
+  {inventory
+    {weight 14.2857}
+    {block 7}
+    {size 1 1}
+    {fsm "belt"}
+  }
+  {mass 0.013}
+  {entity "revolver_clip"}
+}

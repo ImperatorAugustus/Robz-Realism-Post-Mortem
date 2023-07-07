@@ -1,0 +1,12 @@
+{from "pattern gun2_art"       ; ml20 su-122 artillery used version
+	{filling "bullet122 rus" 4}
+	{fireSound "gun/howitzer/152mm_ml20"}
+	{reloadSound "tankgun_r04"}
+	{rechargeTime 18}
+	{recoveryTime 18}
+	("range_arty_lowarc")
+	("speed_lowarc" s(515))
+	{range 390 390}
+	{burst {min 4} {noaiming}}
+	("zeroing_4")
+}

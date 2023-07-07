@@ -1,0 +1,55 @@
+{breed
+	{skin "rus-medic"}
+	{portrait "rus_medic"}
+	{nationality rus}
+	{icon "medics"}
+	{icon_priority 1}
+	{armors
+		{body medsumka}
+		{head helmet1_rus_w}
+	}
+	{perks
+		{"health" "150%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "100%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" "mp_soldier"
+		}
+		{"speed" 0.9
+		}
+		{"tank"	0.75
+		}
+		{"vehicle" 1
+		}
+		{"cannon" 0.8
+		}
+		
+		{"pistol" lvl_2
+		}
+		{"smg" lvl_1
+		}
+		{"mgun" lvl_1
+		}
+		{"rifle" lvl_2
+		}
+		{"rocketlauncher" lvl_1
+		}
+		{"melee" lvl_2
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_1")
+	}
+	{inventory
+		{item "mosin" filled}
+		{item "ammo mosin_clip" 60}
+		{item "bandage" 25}
+		{item "morphine" 1}
+		{in_hands 0}
+	}
+}

@@ -1,0 +1,57 @@
+{breed
+	{skin "waffen-tk2-rfl"}
+	{portrait "ger_soldier6"}
+	{icon "rifleman"}
+	{icon_priority 3}
+	{nationality ger}
+	{armors
+		{head waffen_helmet_totenkopf}
+	}
+	{perks
+		{"health" "200%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "150%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" "mp_soldier"
+		}
+		{"speed" 0.9
+		}
+		{"tank"	0.85
+		}
+		{"vehicle" 1
+		}
+		{"cannon" 0.9
+		}
+		{"pistol" lvl_4
+		}
+		{"smg" lvl_3
+		}
+		{"mgun" lvl_3
+		}
+		{"rifle" lvl_5
+		}
+		{"rocketlauncher" lvl_4
+		}
+		{"melee" lvl_4
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_1_lvl2")
+	}
+	{inventory
+		{item "g41" filled}
+		{item "ammo mauser_clip" 80}
+		{item "ammo mg_mauser drum" 50}
+		{item "bandage" 5}
+		{item "grenade m24" 2}
+		{item "smoke grenade" 1}
+		{item "m24x5 grenade"}
+		{item "sandbag_kit"}
+		{in_hands 0}
+	}
+}

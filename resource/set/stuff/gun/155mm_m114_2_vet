@@ -1,0 +1,11 @@
+{from "pattern gun2"		; m114 direct fire
+    	{filling "bullet155 us"}
+	{fireSound "gun/howitzer/155mm_gpf"}
+	{reloadSound "gun_r04"}
+	("range_grazing_howitzer")
+	("caliber_maximum")
+	{rechargeTime 12}
+	("speed" s(564))
+	("damage_170" a(133) b(127) c(122) d(116) e(111) range(200))
+}
+

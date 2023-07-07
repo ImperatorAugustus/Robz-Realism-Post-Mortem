@@ -1,0 +1,16 @@
+{from "pattern fg"
+	{tag "size_small"}
+	{inventory
+		{size 5 1}
+	}
+	("fg_minimum" args 3.8)
+	{mass 13}
+	{entity "shell_eng_fg_76"}
+	{trace
+		{view "/texture/fx/trace"
+			{Light 0}
+			{ScaleY 0}
+		}		
+		{length 0}
+	}
+}

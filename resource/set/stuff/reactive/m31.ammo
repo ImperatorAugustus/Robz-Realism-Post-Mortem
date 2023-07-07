@@ -1,0 +1,30 @@
+{bullet
+	{tag "big shell fg size_big"}
+	{inventory
+		{size 6 1}
+		{weight 100}
+	}	
+	{mass 42}
+	{entity "m31_ammo"}
+	{view "m31_ammo"
+		{tail "rocket_smoke" "tail"}
+	}
+	{detonationThickness 1}
+	{applyProjectile}
+	{damage blastwave
+		{energy 23}
+		{area 3 8}
+	}	
+	{damage add blastwave
+		{energy 10}
+		{area 8 12}
+	}
+	{damage add blastwave
+		{energy 1.2}
+		{area 15 25}
+	}
+	{damage add blastwave
+		{energy 0.1}
+		{area 30 30}
+	}
+}

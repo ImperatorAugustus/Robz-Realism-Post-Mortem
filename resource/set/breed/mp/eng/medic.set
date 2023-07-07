@@ -1,0 +1,54 @@
+{breed
+	{skin "eng-medic"}
+	{portrait "eng_medic"}
+	{nationality eng}
+	{icon "medics"}
+	{icon_priority 1}
+	{armors
+		{head "helmet_eng_medic"}
+	}
+	{perks
+		{"health" "150%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "100%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" "mp_soldier"
+		}
+		{"speed" 0.9
+		}
+		{"tank"	0.8
+		}
+		{"vehicle" 1.0
+		}
+		{"cannon" 1.0
+		}
+		
+		{"pistol" lvl_2
+		}
+		{"smg" lvl_2
+		}
+		{"mgun" lvl_2
+		}
+		{"rifle" lvl_3
+		}
+		{"rocketlauncher" lvl_1
+		}
+		{"melee" lvl_3
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_1")
+	}
+	{inventory
+		{item "em3" filled}
+		{item "ammo british303_clip" 50}
+		{item "bandage" 25}
+		{item "morphine" 1}
+		{in_hands 0}
+	}
+}

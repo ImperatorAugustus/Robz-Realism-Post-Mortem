@@ -1,0 +1,37 @@
+{from "pattern ap"
+	{tag "big" "size_maximum" "fg"}
+	{tag "itemin2hands"}
+	{tag "no_ricochet"}
+	{inventory
+		{size 4 2}
+		{weight 150}
+	}	
+	{mass 120}
+	
+	{detonationThickness 1}
+	{applyProjectile}			
+	; anti-tank
+	{damage blastwave
+			{energy 25}
+			{area 1 2}
+	}
+	{damage add blastwave
+			{energy 10}
+			{area 7 12}
+	}
+	; anti-personel
+	{damage add blastwave
+		{energy 1}
+		{area 15 20}
+	}	
+	
+	{trace
+		{view "/texture/fx/trace"
+			{Light 0}
+			{ScaleY 0}
+		}		
+		{length 0}
+	}
+	{entity "mortar_shell"}
+	{view "howitzer_shell"}
+}

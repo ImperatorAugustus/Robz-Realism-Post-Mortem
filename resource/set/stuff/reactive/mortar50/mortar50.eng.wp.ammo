@@ -1,0 +1,17 @@
+{bullet
+	{tag "dropboxed mortar wp_small no_ricochet"}
+	{inventory
+		{size 2 1}
+		{weight 40}
+	}	{mass 2}
+	{entity "ammo_mortar50_2inchsm"}
+	{view "ammo_mortar50_2inchsm"}
+	{detonationThickness 2}
+	
+	{damage fire
+		{radius 2}
+		{heating 0.3}
+		{time 0.2}
+	}
+
+}

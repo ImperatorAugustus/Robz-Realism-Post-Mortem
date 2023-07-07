@@ -1,0 +1,16 @@
+{from "pattern gun2_art"		; "leig arty mode"
+	{filling "bullet75 gerlg fg" 6}
+	{fireSound "gun/50to76_cal/75mm_kwk40"}
+	{reloadSound "gun_r03"}
+	("range_medium_howitzer")
+	{recoveryTime 8}
+	{rechargeTime 8}
+	{burst {min 6} {noaiming}}
+
+	("speed" s(210))
+	("caliber_large")
+	{range 250 250}
+	{gravity 6}
+	("zeroing_6")
+}
+

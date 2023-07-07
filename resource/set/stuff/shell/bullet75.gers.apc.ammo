@@ -1,0 +1,9 @@
+{from "pattern apc"
+	{tag "big" "size_small" "shell_medium" "pierce"}
+	{inventory
+		{size 5 1}
+	}
+	{mass 11.9}
+	("ger" args 0.78)
+	{entity "shell_ap_75kwk37"}
+}

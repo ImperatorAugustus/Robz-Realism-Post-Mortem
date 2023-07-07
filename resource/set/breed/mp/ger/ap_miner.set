@@ -1,0 +1,55 @@
+{breed
+	{skin "ger-reg-pioneer"}
+	{portrait "ger_soldier2"}
+	{nationality ger}
+	{icon "ap_miner"}
+	{icon_priority 3}
+	{armors
+		{head helmet_ger_m40_fge}
+	}
+	{perks
+		{"health" "150%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "100%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" "mp_soldier"
+		}
+		{"speed" 0.9
+		}
+		{"tank"	0.75
+		}
+		{"vehicle" 1
+		}
+		{"cannon" 0.8
+		}
+		
+		{"pistol" lvl_4
+		}
+		{"smg" lvl_4
+		}
+		{"mgun" lvl_2
+		}
+		{"rifle" lvl_3
+		}
+		{"rocketlauncher" lvl_2
+		}
+		{"melee" lvl_4
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_1")
+	}
+	{inventory
+		{item "mp40" filled}
+		{item "ammo mp40_mag" 192}
+		{item "mine s_mine" 15}
+		{item "barbwire_kit" 1}
+		{item "hohlladung grenade"}
+		{in_hands 0}
+	}
+}

@@ -1,0 +1,23 @@
+{from "pattern rifle"
+	{tag "assaultrifle"}
+	{filling "ammo m1941lmg_mag" 20}
+	{entity "m1941lmg"}
+	{fireSound "mgun/johnson_m1941_burst/"}
+	{reloadSound "bar"}
+
+	{burst
+		{short 2 0.3}
+		{long 4 1}
+	}
+	{range 120 120}
+	{Automatic}
+	{mass 6}
+	{rechargeTime 5}
+	("recoveryTime" r(900))
+	("speed" s(854))
+	("accuracy_automatic_rifle")
+	{Spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 92 84 76 68 60 50 40}
+	}
+}

@@ -1,0 +1,40 @@
+(include "\set\small.firearms.accuracy")
+
+(define "speed"   
+	{speed (* 1.0 %s)}
+)
+
+(define "recoveryTime"   
+	{recoveryTime (/ 60 %r)}
+)
+
+(define "burst_short"
+	{burst
+		{short 3 0.1}
+		{long 5 1}
+	}	
+)
+
+(define "burst_medium"
+	{burst
+		{short 4 0.1}
+		{long 7 1}
+	}	
+)
+
+(define "burst_long"
+	{burst
+		{short 5 0.1}
+		{long 10 1}
+	}	
+)
+(define "spread_optic"
+	{Spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 97.5 95 92.5 90 85 80 70 60 50}
+	}
+)
+(define "mg_zeroing"
+	{ZeroingAccuracy 1 1 1 1 0.95 0.95 0.95 0.95 0.95 0.90 0.90 0.90 0.90 0.90 0.80 0.80 0.80 0.80 0.80 0.70}
+)
+

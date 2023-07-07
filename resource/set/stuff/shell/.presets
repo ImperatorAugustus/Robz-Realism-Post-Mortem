@@ -1,0 +1,304 @@
+; heavy : 4-6, [2-3, 4-6]
+; medium: 3-4  [2, 3-4]
+; light : 1-2  [1, 2-3]
+
+(define "_tr"
+	{trace
+		{view "/texture/fx/trace"
+			{Light 8}
+			{ScaleY 0.4}
+		}
+		{length (* %0 12)}
+	}
+)
+(define "_tr2"
+	{trace
+		{view "/texture/fx/trace_apcr"
+			{Light 8}
+			{ScaleY 0.3}
+		}
+		{length (* %0 12)}
+	}
+)
+
+(define "_tr_us"
+	{trace
+		{view "/texture/fx/trace_mg_red"
+			{Light 8}
+			{ScaleY (* %0 0.8)}
+		}
+		{length (* %0 12)}
+	}
+)
+
+(define "_tr_rus"
+	{trace
+		{view "/texture/fx/trace_mg_green"
+			{Light 8}
+			{ScaleY (* %0 0.7)}
+		}
+		{length (* %0 12)}
+	}
+)
+
+(define "_tr_ger"
+	{trace
+		{view "/texture/fx/trace_apcr"
+			{Light 8}
+			{ScaleY (* %0 0.8)}
+		}
+		{length (* %0 14)}
+	}
+)
+
+(define "fg_minimum_low"
+		; anti-tank
+		{damage blastwave
+			{energy (* %0 0.8)}
+			{area 0.1 0.2}
+		}
+		; anti-personel
+		{damage add blastwave
+			{energy 1}
+			{area (* 0.4 (+ %0 4)) (* 0.8 (+ %0 4))}
+		}
+		{damage add blastwave
+			{energy 0.1}
+			{area (* 1 (+ %0 4)) (* 1 (+ %0 4))}
+		}
+		;("_tr" args (* %0 5))
+)
+
+(define "fg_minimum"
+		; anti-tank
+		{damage blastwave
+			{energy (* %0 1.15)}
+			{area 0.1 0.2}
+		}
+		; anti-personel
+		{damage add blastwave
+			{energy 1.2}
+			{area (* 0.5 (+ %0 5)) (* 0.9 (+ %0 5))}
+		}
+		{damage add blastwave
+			{energy 0.1}
+			{area (* 1.1 (+ %0 5)) (* 1.1 (+ %0 5))}
+		}
+		;("_tr" args (* %0 6))
+)
+
+(define "fg"
+		; anti-tank
+		{damage blastwave
+			{energy (* %0 1.15)}
+			{area 0.4 0.5}
+		}
+		; anti-personel
+		{damage add blastwave
+			{energy 3.6}
+			{area 1.5 2}
+		}
+		; anti-personel
+		{damage add blastwave
+			{energy 1.2}
+			{area (* 0.5 (+ %0 5)) (* 0.9 (+ %0 5))}
+		}
+		{damage add blastwave
+			{energy 0.1}
+			{area (* 1.2 (+ %0 5)) (* 1.2 (+ %0 5))}
+		}
+		;("_tr" args (* %0 6))
+)
+
+(define "fg_medium"
+		; anti-tank
+		{damage blastwave
+			{energy (* %0 1.15)}
+			{area 0.8 1.0}
+		}
+		; anti-personel
+		{damage add blastwave
+			{energy 3.6}
+			{area 2.5 3}
+		}
+		; anti-personel
+		{damage add blastwave
+			{energy 1.5}
+			{area (* 0.7 (+ %0 5)) (* 1.1 (+ %0 5))}
+		}
+		{damage add blastwave
+			{energy 0.1}
+			{area (* 1.3 (+ %0 5)) (* 1.3 (+ %0 5))}
+		}
+		;("_tr" args (* %0 6))
+)
+
+(define "fg_heavy"
+		; anti-tank
+		{damage blastwave
+			{energy %0}
+			{area 1 2}
+		}
+		; anti-apc
+		{damage add blastwave
+			{energy (* %0 0.2)}
+			{area 5.5 6}
+		}
+		; anti-personel
+		{damage add blastwave
+			{energy 1.5}
+			{area (* 0.7 (+ %0 5)) (* 1.1 (+ %0 5))}
+		}
+		{damage add blastwave
+			{energy 0.1}
+			{area (* 1.3 (+ %0 5)) (* 1.3 (+ %0 5))}
+		}
+		;("_tr" args (* %0 6))
+)
+
+(define "fg_maximum"
+		; anti-tank
+		{damage blastwave
+			{energy %0}
+			{area (* %0 0.075) (* %0 0.2)}
+		}
+		; anti-apc
+		{damage add blastwave
+			{energy (* %0 0.45)}
+			{area (* %0 0.3) (* %0 0.5)}
+		}
+		; anti-personel
+		{damage add blastwave
+			{energy 1.5}
+			{area (* 0.65 (+ %0 5)) (* 0.95 (+ %0 5))}
+		}
+		{damage add blastwave
+			{energy 0.1}
+			{area (* 1.2 (+ %0 5)) (* 1.2 (+ %0 5))}
+		}
+		;("_tr" args (* %0 6))
+)
+
+(define "heat_dmg"
+		; anti-tank
+		{damage blastwave
+			{energy %0}
+			{area 0.1 0.2}
+		}
+		; anti-personel
+		{damage add blastwave
+			{energy 1.2}
+			{area (* 0.4 (+ %0 5)) (* 0.8 (+ %0 5))}
+		}
+)
+
+(define "ap"
+	{damage blastwave
+		{energy (* %0 2)}
+		{area 0 0}
+	}
+	{damage add blastwave
+		{energy 1.2}
+		{area (* %0 1.5) (* %0 3)}
+	}
+	("_tr" args (* %0 6))
+)
+
+(define "us"
+	{damage blastwave
+		{energy (* %0 2)}
+		{area 0 0}
+	}
+	{damage add blastwave
+		{energy 1.2}
+		{area (* %0 1.5) (* %0 3)}
+	}
+	("_tr_us" args (* %0 6))
+)
+
+(define "rus"
+	{damage blastwave
+		{energy (* %0 2)}
+		{area 0 0}
+	}
+	{damage add blastwave
+		{energy 1.2}
+		{area (* %0 1.5) (* %0 3)}
+	}
+	("_tr_rus" args (* %0 6))
+)
+
+(define "ger"
+	{damage blastwave
+		{energy (* %0 2)}
+		{area 0 0}
+	}
+	{damage add blastwave
+		{energy 1.2}
+		{area (* %0 1.5) (* %0 3)}
+	}
+	("_tr_ger" args (* %0 6))
+)
+(define "jap"
+	{damage blastwave
+		{energy (* %0 2)}
+		{area 0 0}
+	}
+	{damage add blastwave
+		{energy 1.2}
+		{area (* %0 1.5) (* %0 3)}
+	}
+	("_tr_ger" args (* %0 6))
+)
+(define "us_he"
+	;("_tr_us" args (* %0 6))
+)
+(define "rus_he"
+	;("_tr_rus" args (* %0 6))
+)
+(define "ger_he"
+	;("_tr_ger" args (* %0 6))
+)
+(define "jap_he"
+	;("_tr_ger" args (* %0 6))
+)
+(define "us_apcr"
+	{damage blastwave
+		{energy (* %0 1)}
+		{area 0 0}
+	}
+	{damage blastwave
+		{energy 1}
+		{area (* %0 1.3) (* %0 2.8)}
+	}
+	("_tr_us" args (* %0 6))
+)
+(define "rus_apcr"
+	{damage blastwave
+		{energy (* %0 1)}
+		{area 0 0}
+	}
+	{damage blastwave
+		{energy 1}
+		{area (* %0 1.3) (* %0 2.8)}
+	}
+	("_tr_rus" args (* %0 6))
+)
+(define "ger_apcr"
+	{damage blastwave
+		{energy (* %0 1)}
+		{area 0 0}
+	}
+	{damage blastwave
+		{energy 1}
+		{area (* %0 1.3) (* %0 2.8)}
+	}
+	("_tr_ger" args (* %0 6))
+)
+(define "apcr"
+	{damage blastwave
+		{energy 1}
+		{area (* %0 1.3) (* %0 2.8)}
+	}
+	("_tr2" args (* %0 6))
+)

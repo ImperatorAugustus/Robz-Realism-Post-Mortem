@@ -1,0 +1,17 @@
+{from "pattern smg"
+	{filling "ammo beam" 1000}
+	{mass 5}
+	{entity "beam_rifle"}
+	{fireSound	"smg/beam-rifle_burst/"}
+	{reloadSound "mp44"}
+
+	{traceFreq 1}
+	{projectileDamageTable {25 20} {100 20}}
+
+	{range 90 100}
+	{healthDamage 20}
+	("recoveryTime" r(2300))
+	("burst_short")
+	("accuracy_beam_rifle")
+ 	("speed" s(350))
+}

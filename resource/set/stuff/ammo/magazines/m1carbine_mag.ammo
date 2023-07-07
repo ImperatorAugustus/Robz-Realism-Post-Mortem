@@ -1,0 +1,18 @@
+{bullet
+  {tag "bullet small stackable pierce 30_carbine"}
+  {inventory
+    {weight 6.666666}
+    {block 15}
+    {size 1 1}
+    {fsm "belt"}
+  }
+  {mass 0.013}
+  {entity "m1carbine_mag"}
+  ;{trace
+	;	{view "/texture/fx/trace2"
+	;		{ScaleY 0.125}
+	; 		{Light 1}
+	;	}
+	;	{length 1.5}
+	;}
+}

@@ -1,0 +1,11 @@
+{bullet
+	{tag "ammo shell itemin2hands no_ricochet pierce heat_shell"}
+	;{detonationThickness 1}
+	{inventory
+		{size 4 1}
+		{weight 100}
+		{fsm "stuff"}
+	}
+	{entity "shell_fg_med"}
+	{cumulative 1}
+}

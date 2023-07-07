@@ -1,0 +1,57 @@
+{weapon_bullet
+	{tag "weapon rifle bullet to_hand"}
+	{entity "mortar_mk_vii"}
+	{fireSound "reactive/mortar_light"}
+	{filling "mortar50 eng" 1}
+	{inventory
+		{size 3 4}
+		{link_bone "gun_back"}
+		{weight 10}
+		{fsm "smg"}
+	}
+	{burst
+		{short 1}
+		{Long 1}
+	}	
+	{preloaded}
+	{mass 4.8}
+	
+	{spreading 18
+	}
+	{aimRange 130}
+	{maxRange 130}
+	{states
+		{reload		"reload1"}
+		{unload		"unload1"}
+		{fire		"fire1"}
+		{aim 		"aim1"}
+		{can_aim	"can-aim1"}
+	}
+	{gravity 1}
+	{rechargeTime 4}
+	{curve "cumulative"}
+	{DisableRicochet}
+	{foresight "Foresight3"}
+
+       	{projectileDamage 10}
+	{AimingTolerance 0.1}
+	{projectileDamageTable {90 10}}
+	{projectileDamageThreshold 1}
+	{AimingTolerance 3}
+	{speed 75}
+	{reloadAnimBonus 7.5}
+
+	{aimtype curved}
+	{parameters "fg"
+		{cursor "cannon_on_fg"}
+		{cursorReloading "cannon_reload_fg"}
+	}
+	{parameters "wp"
+		{cursor "cannon_on_sm"}
+		{cursorReloading "cannon_reload_wp"}
+	}
+	{parameters "sm"
+		{cursor "cannon_on_sm"}
+		{cursorReloading "cannon_reload_sm"}
+	}
+}

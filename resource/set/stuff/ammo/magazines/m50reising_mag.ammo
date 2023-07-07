@@ -1,0 +1,11 @@
+{bullet
+  {tag "bullet small stackable pierce 45_pistol"}
+  {inventory
+    {weight 5}
+    {block 20}
+    {size 1 2}
+    {fsm "belt"}
+  }
+  {mass 0.013}
+  {entity "m50reising_mag"}
+}

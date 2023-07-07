@@ -1,0 +1,21 @@
+{from "76mm_f34"	; "t34_2"
+	{rechargeTime 6.8}
+	{range 200 200}
+	("damage_170" a(86) b(74) c(67) d(57) e(38) range(200))
+	{parameters "br350b"
+		("damage_170" a(91) b(79) c(67) d(57) e(48) range(200))
+	}
+	{parameters "apbc"
+		("damage_170" a(92) b(77) c(73) d(64) e(55) range(200))
+	}
+	{parameters "apcr"
+		("damage_170" a(116) b(102) c(92) d(78) e(60) range(200))
+	}
+	{parameters "heat"
+		("damage_heat" a(87) range(200))
+	}
+	{parameters "fg"
+		{range 190 190}
+	}
+	("accuracy_medium_200m_10m_he")
+}

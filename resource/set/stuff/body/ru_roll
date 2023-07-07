@@ -1,0 +1,9 @@
+{from "pattern overcoat"
+	{entity "ru_roll"}
+	{inventory
+		{size 2 2}
+		{weight 1}
+		{link_bone "IK_UpDown"}
+		{fsm "stuff"}
+	}
+}

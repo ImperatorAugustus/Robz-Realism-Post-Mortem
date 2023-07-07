@@ -1,0 +1,15 @@
+{from "pattern gun2"		; m115 direct fire
+    	{filling "bullet203 us"}
+	{fireSound "gun/howitzer/203mm"}
+	{reloadSound "tankgun_r02"}
+	("range_grazing_howitzer")
+	("caliber_maximum")
+	{rechargeTime 60}
+	{range 210 210}
+	("speed" s(587))
+
+	{cursor "cannon_on_fg"}
+	{cursorReloading "cannon_reload_fg"}
+	("accuracy_grazinghowitzer_210m")
+}
+

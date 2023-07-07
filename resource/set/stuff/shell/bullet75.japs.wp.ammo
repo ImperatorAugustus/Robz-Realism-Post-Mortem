@@ -1,0 +1,21 @@
+{from "pattern wp"
+	{tag "size_small"}
+	{inventory
+		{size 5 1}
+	}
+	{damage fire
+		{radius 6}
+		{heating 0.5}
+		{time 0.2}
+	}
+	("jap_he" args 0.78)
+	{mass 12}
+	{entity "shell_wp_75"}
+	{trace
+		{view "/texture/fx/trace"
+			{Light 0}
+			{ScaleY 0}
+		}		
+		{length 0}
+	}
+}

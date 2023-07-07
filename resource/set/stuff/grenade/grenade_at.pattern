@@ -1,0 +1,22 @@
+{from "pattern throwable"
+	{tag "ap big cumulative pierce"}
+	{damage blastwave
+		{energy 5.0}
+		{area 0.2 0.4}
+	}
+	{damage add blastwave
+		{energy 2.0}
+		{area 2.0 8.0}
+	}
+	{throw
+		{range 14}
+		{startAngle 40}
+		{spreading 0.2}	
+		{constantSpeed 10.5}
+	}
+	{damage cumulative
+		{damage 20}
+		{distance 0.5}
+	}
+	{possibleDamageRadius 5}
+}

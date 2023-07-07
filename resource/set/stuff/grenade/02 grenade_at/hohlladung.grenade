@@ -1,0 +1,24 @@
+{from "pattern throwable"
+	{tag "ap big cumulative pierce"}
+	{damage blastwave
+		{energy 4.0}
+		{area 0.4 0.8}
+	}
+	{damage add blastwave
+		{energy 2.0}
+		{area 2.0 7.0}
+	}
+	{throw
+		{range 8}
+		{startAngle 40}
+		;{spreading 1.0}				
+		;{constantSpeed 10.5}
+	}
+	{damage cumulative
+		{damage 140}
+		{distance 1}
+	}
+	{possibleDamageRadius 5}
+	{inventory {size 2 2}}	
+	{entity "grenade_hohlladung"}
+}

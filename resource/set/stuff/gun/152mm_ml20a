@@ -1,0 +1,22 @@
+{from "pattern gun"		; "isu-152"
+	{filling "bullet152 rusl"}
+	{fireSound "gun/howitzer/152mm_ml20"}
+	{reloadSound "tankgun_r04"}
+	("range_grazing_howitzer_1")
+	{rechargeTime 25.3}
+	{speed 655}
+	{range 210 210}
+	{projectileDamage 140}
+	("damage" a(140) b(125) c(117) d(100) e(93))
+	{parameters "aphebc"
+       		("damage" a(140) b(125) c(117) d(100) e(93))
+		{cursorReloading "cannon_reload_aphebc"}
+	}
+	{parameters "heat"
+       		("damage_heat" a(190) range(210))
+	}
+	{parameters "apcr"
+        	("damage" a(175) b(162) c(149) d(138) e(125) range(210))
+	}
+	("accuracy_grazinghowitzer_210m")
+}

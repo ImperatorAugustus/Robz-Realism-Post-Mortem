@@ -1,0 +1,24 @@
+{from "pattern gun"		; "m42"
+	{filling "bullet45 rus"}
+	{fireSound "gun/45mm_20k"}
+	{reloadSound "gun_r02"}
+	{rechargeTime 4}
+	("range_minimum")
+	
+	{range 180 180}
+	("speed_all" ap(870) apcr(985) fg(343) heat(343))
+	("caliber_minimum")
+	{projectileDamage 50}
+	("damage_170" a(74) b(54) c(40) d(32) e(28) range(180))
+	{parameters "aphebc"
+		{cursorReloading "cannon_reload_aphebc"}
+	}
+	{parameters "apcr"
+        	("damage_170" a(118) b(74) c(46) d(29) e(18) range(180))
+	}
+	{parameters "fg"
+		{range 160 160}
+	}
+	("accuracy_low")	
+}
+

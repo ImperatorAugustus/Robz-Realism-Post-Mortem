@@ -1,0 +1,13 @@
+{from "pattern pistol"
+	{filling "ammo nagant_clip" 7}
+	{inventory
+		{weight 100 }
+		{size 3 1}
+	}
+	{mass 2.5}
+	{entity "nagan_pb"}
+	{fireSound	"pistol/silent/welrod"}
+	
+	{spreading 0.5}
+	{reloadSound "nagan"}
+}

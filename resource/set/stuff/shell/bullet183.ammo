@@ -1,0 +1,25 @@
+{from "pattern ap"
+	{tag "big" "size_maximum" "fg"}
+	{tag "itemin2hands"}
+	{tag "no_ricochet"}
+	{inventory
+		{size 4 2}
+		{weight 150}
+	}	
+	{mass 50}
+	{entity "mortar_shell"}
+	
+	{detonationThickness 1}
+	{applyProjectile}
+
+	("fg_maximum" args 21)
+	
+	{trace
+		{view "/texture/fx/trace"
+			{Light 0.5}
+			{ScaleX 2}
+			{ScaleY 0.2}
+		}
+		{length 3}
+	}
+}

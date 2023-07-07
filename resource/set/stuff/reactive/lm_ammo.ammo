@@ -1,0 +1,15 @@
+{bullet
+	{tag "small_deep_fx size_small small shell fg"}
+	{inventory
+		{size 5 1}
+		{weight 100}
+	}	
+	{entity "lm_ammo"}
+	{mass 36.05}
+	{view "lm_ammo"
+		{tail "rocket_smoke_norm" "tail"}
+	}
+	{detonationThickness 1}
+	{applyProjectile}
+	("fg_rocket_medium" args 8.0)
+}

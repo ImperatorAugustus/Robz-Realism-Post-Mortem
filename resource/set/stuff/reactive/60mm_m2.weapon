@@ -1,0 +1,40 @@
+{weapon_bullet
+	{tag "mrl gun"}
+	{filling "mortar60 us"}
+    {fillingVisible "rocket"}
+
+	{fireSound "reactive/mortar_light"}
+	{foresight "foresight"}
+	
+	{spreading 
+		{SpreadRadius 30}
+		{radiusFunction
+			0	0.6
+			0.5	0.6
+			2.5	2.5
+		}
+	}
+	{aimRange 245}
+	{maxRange 245}
+	;{recoveryTime 3}
+	{rechargeTime 4}
+	;{burst {min 6} {noaiming}}
+	{gravity 6}
+
+	{projectileDamage 10}
+	{speed 250}
+	{AimingTolerance 0.1}
+	{projectileDamageTable {90 10}}
+	
+	{aimtype curved}
+	{parameters "fg"
+		{cursor "cannon_on_fg"}
+		{cursorReloading "cannon_reload_fg"}
+	}
+	{parameters "wp"
+		{cursor "cannon_on_sm"}
+		{cursorReloading "cannon_reload_wp"}
+	}
+	
+}
+  

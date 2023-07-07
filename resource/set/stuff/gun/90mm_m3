@@ -1,0 +1,23 @@
+{from "pattern gun"		; "m26"
+	{filling "bullet90 us"}
+	{fireSound "gun/85to100_cal/90mm_m3"}
+	{reloadSound "tankgun_r02"}
+	{rechargeTime 11.5}
+	("range_long")
+
+	{range 230 230}
+	("speed_all" ap(853) apcr(1021) fg(823) heat(823))
+	("caliber_large")            
+	{projectileDamage 158}
+	("damage_215" a(172) b(159) c(148) d(137) e(127) range(230))
+	{parameters "apc"
+		("damage_215" a(172) b(159) c(148) d(137) e(127) range(230))
+	}
+	{parameters "hvap"
+       		("damage_215" a(314) b(278) c(246) d(218) e(193) range(230))
+	}
+	{parameters "fg"
+		{range 220 220}
+	}
+	("accuracy_maximum_230m_10m_he")
+}

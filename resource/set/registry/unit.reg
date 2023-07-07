@@ -1,0 +1,931 @@
+;SDL
+{units
+; almost no differences
+	{"raketenwerfer"
+		{structure "lg_40"}
+	}
+	{"chi-to_2"
+		{structure "chi-to"}
+	}
+	{"np_52k_43_guard"
+		{structure "np_52k_43"}
+	}
+	{"bm_37_guard"
+		{structure "sgrw42"}
+	}
+	{"m36_vet"
+		{structure "m36"}
+	}
+	{"m42"
+		{structure "m37"}
+	}
+	{"m42_guard"
+		{structure "m37"}
+	}
+	{"m43"
+		{structure "m37"}
+	}
+	{"browning_30cal"
+		{structure "30_browning_m1919a4"}
+	}
+	{"browning_m2hb"
+		{structure "50_browning_m2hb"}
+	}
+	{"t70_guard"
+		{structure "t70"}
+	}
+	{"pm_38_vet"
+		{structure "pm_38"}
+	}
+	{"isu122_guard"
+		{structure "isu152"}
+	}
+	{"isu152_guard"
+		{structure "isu152"}
+	}
+	{"su76_guard"
+		{structure "su76"}
+	}
+	{"su85_guard"
+		{structure "su85"}
+	}
+	{"su100_guard"
+		{structure "su85"}
+	}
+	{"pdr25_vet"
+		{structure "pdr25"}
+	}
+	{"kv1_guard"
+		{structure "kv1"}
+	}
+	{"kv1s_guard"
+		{structure "kv1"}
+	}
+	{"kv85_guard"
+		{structure "kv85"}
+	}
+	{"is1_guard"
+		{structure "is1"}
+	}
+	{"is122_guard"
+		{structure "is2"}
+	}
+	{"is2_guard"
+		{structure "is2"}
+	}
+	{"is2_elite"
+		{structure "is2"}
+	}
+	{"bm8-48"
+		{structure "np_bm31"}
+	}
+	{"staghound_e1"
+		{structure "staghound"}
+	}
+	{"staghound_mk3"
+		{structure "staghound"}
+	}
+	{"t34_2_ger"
+		{structure "t34_2"}
+	}
+	{"t34_2_guard"
+		{structure "t34_2"}
+	}
+	{"t34_3_43"
+		{structure "t34_3"}
+	}
+	{"t34_3_guard"
+		{structure "t34_3"}
+	}
+	{"t34_3_elite"
+		{structure "t34_3"}
+	}
+	{"pzkpfw756"
+		{structure "kv1"}
+	}
+	{"sdkfz138_1"
+		{structure "hummel"}
+	}
+	{"t34_3_ger"
+		{structure "t34_3"}
+	}
+	{"pz1_ger2"
+		{structure "pz1"}
+	}
+	{"pz1b_ger2"
+		{structure "pz1b"}
+	}
+	{"pz3m_ger2"
+		{structure "pz3m"}
+	}
+	{"pz3_ger2"
+		{structure "pz3"}
+	}
+	{"pz3f_ger2"
+		{structure "pz4g"}
+	}
+	{"pz4g_ger2"
+		{structure "pz4g"}
+	}
+	{"pz4h_ger2"
+		{structure "pz4g"}
+	}
+	{"blitz3_6_ger2"
+		{structure "truck4"}
+	}
+	{"blitz3_6art_ger2"
+		{structure "truck4"}
+	}
+	{"blitz3_6eng_ger2"
+		{structure "truck4"}
+	}
+	{"kfz15"
+		{structure "kubel"}
+	}
+	{"kfz15_gun"
+		{structure "kubel"}
+	}
+	{"r12_ger2"
+		{structure "moto"}
+	}
+	{"sdkfz234_ger2"
+		{structure "sdkfz234"}
+	}
+	{"sdkfz234_1"
+		{structure "sdkfz234"}
+	}
+	{"sdkfz234_3"
+		{structure "sdkfz234"}
+	}
+	{"sdkfz234_4"
+		{structure "sdkfz234"}
+	}
+	{"sdkfz250_1"
+		{structure "sdkfz251"}
+	}
+	{"sdkfz250_11"
+		{structure "sdkfz251"}
+	}
+	{"sdkfz251_1_late"
+		{structure "sdkfz251"}
+	}
+	{"sdkfz7"
+		{structure "sdkfz251"}
+	}
+	{"sdkfz7_2"
+		{structure "sdkfz251_17"}
+	}
+	{"sdkfz8"
+		{structure "sdkfz251_17"}
+	}
+	{"sdkfz251_1_stuka"
+		{structure "sdkfz251"}
+	}
+	{"sgrw42_ger2"
+		{structure "sgrw42"}
+	}
+	{"sgrw_34_vet"
+		{structure "sgrw42"}
+	}
+	{"sgrw_42_vet"
+		{structure "sgrw42"}
+	}
+	{"flak38_wheeled_ger2"
+		{structure "flak38_wheeled"}
+	}
+	{"flak38_ger2"
+		{structure "flak38"}
+	}
+	{"pak36_ger2"
+		{structure "pak36"}
+	}
+	{"pak38_ger2"
+		{structure "pak40"}
+	}
+	{"pak40_ger2"
+		{structure "pak40"}
+	}
+	{"sfh18_ger2"
+		{structure "sfh18"}
+	}
+	{"lefh18_ger2"
+		{structure "sfh18"}
+	}
+	{"wespe_ger2"
+		{structure "hummel"}
+	}
+	{"flak37_ger2"
+		{structure "flak18"}
+	}
+	{"pz6e_ger2"
+		{structure "pz6e"}	
+	}
+	{"pz6bh_ger2"
+		{structure "pz6bh"}	
+	}
+	{"pz5g_ger2"
+		{structure "pz5g"}	
+	}
+	{"swg41"
+		{structure "nebelwerfer42"}
+	}
+	{"brummbar_early"
+		{structure "brummbar"}
+	}
+	{"ostwind_ger2"
+		{structure "welberwind"}
+	}
+	{"crusaderaa1"
+		{structure "crusaderaa2"}
+	}
+	{"hetzer_ger2"
+		{structure "hetzer"}
+	}
+	{"nashorn_ger2"
+		{structure "nashorn"}
+	}
+	{"elefant_ger2"
+		{structure "elefant"}
+	}
+	{"jagdtiger_ger2"
+		{structure "jagdtiger"}
+	}
+
+	{"np_sdkfz251_1"
+		{structure "sdkfz251"}
+	}
+	{"np_sdkfz251_1_late"
+		{structure "sdkfz251"}
+	}
+	{"np_sdkfz251_4"
+		{structure "sdkfz251"}
+	}
+	{"jagdpanzer_iv_vet"
+		{structure "jagdpanzer_iv"}
+	}
+	{"stug3g_vet"
+		{structure "stug4g"}
+	}
+	{"stug3g_ace"
+		{structure "stug4g"}
+	}
+	{"jagdpanther_vet"
+		{structure "jagdpanther"}
+	}
+	{"pz4j_vet"
+		{structure "pz4g"}
+	}
+	{"pz4h_vet"
+		{structure "pz4g"}
+	}
+	{"pz6bh_vet"
+		{structure "pz6bh"}
+	}
+	{"pz6bh_ace"
+		{structure "pz6bh"}
+	}
+	{"zb53_stan"
+		{structure "mg42_lafette"}
+	}
+	{"besa_stan"
+		{structure "mg42_lafette"}
+	}
+	{"280br5"
+		{structure "203b4"}
+	}
+	{"pz3n_42"
+		{structure "pz3n"}
+	}
+	{"churchill_mk_v_cs"
+		{structure "mk4"}
+	}
+	{"churchill_mk_ix"
+		{structure "mk4"}
+	}
+	{"churchill_kangaroo"
+		{structure "mk4"}
+	}
+	{"stug3f_8"
+		{structure "stug3f"}
+	}
+	{"crusaderics"
+		{structure "crusaderi"}
+	}
+	{"m4a4_firefly_tulip"
+		{structure "m4a2"}
+	}
+	{"m4a4_firefly_vet"
+		{structure "m4a2"}
+	}
+	{"m4a4_firefly_elite_gun"
+		{structure "m4a2"}
+	}
+	{"5_cm_granatwerfer_36"
+		{structure "sgrw42"}
+	}
+	{"m115"
+       		 {structure "longtom_155mm"}
+  	}
+	{"m115_vet"
+       		 {structure "longtom_155mm"}
+  	}
+	{"longtom_155mm_vet"
+       		 {structure "longtom_155mm"}
+  	}
+	{"bl45" 
+		{structure "np_ml20"}
+	}
+	{"emil"
+		{structure "nashorn"}
+	}
+	{"wasp"
+	        {structure "universal_carrier"}
+	}
+	{"gun_carrier_3_inch"
+	        {structure "universal_carrier"}
+	}
+	{"m2halftrack_2"
+		{structure "m2halftrack"}
+	}
+	{"m4halftrack"
+		{structure "m2halftrack"}
+	}
+	{"m5a1_eng"
+		{structure "m5a1"}
+	}
+	{"np_m5cannon_43"
+		{structure "np_m5cannon"}
+	}
+	{"challenger_a30_43"
+		{structure "challenger_a30"}
+	}
+	{"m10wolverine_eng"
+		{structure "achilles"}
+	}
+	{"m10wolverine_42"
+		{structure "achilles"}
+	}
+	{"mk4_42"
+		{structure "mk4"}
+	}
+	{"mk6_42"
+		{structure "mk6"}
+	}
+	{"m4a1_eng"
+		{structure "m4a1"}
+	}
+	{"m4a1_76w_eng"
+		{structure "m4a1_76w"}
+	}
+	{"m3grant"
+		{structure "grant_m3"}
+	}
+	{"flammpz38"
+		{structure "hetzer"}
+	}
+	{"ot34_2"
+		{structure "t34_2"}
+	}
+	{"gazaaa4m" 
+		{structure "truck6"}
+	}
+	{"Humber"
+		{structure "mk2daimler"}
+        }
+	{"303_bren_tripod"
+		{structure "mgun_stan"}
+	}
+	{"303_bren_tripod_aa"
+		{structure "mgun_stan"}
+	}
+	{"303_vickers_mki"
+		{structure "vickers_mgun"}
+	}
+	{"303_vickers_mkiv"
+		{structure "vickers_mgun"}
+	}
+	{"2_inch_mk_ii"
+		{structure "sgrw42"}
+	}
+	{"ml_3_inch_mk_ii"
+		{structure "sgrw42"}
+	}
+	{"4_2_inch_mk_ii"
+		{structure "sgrw42"}
+	}
+	{"4_2_inch_mortar_m_2"
+		{structure "sgrw42"}
+	}
+	{"sdkfz182b"
+		{structure "pz6bh"}
+	}
+	{"qf6_42"
+		{structure "qf6"}
+	}
+	{"qf6_43"
+		{structure "qf6"}
+	}
+	{"qf17_43"
+		{structure "qf17"}
+	}
+	{"zis3_42"
+		{structure "zis3"}
+	}
+	{"zis2_guard"
+		{structure "zis2"}
+	}
+	{"zis3_guard"
+		{structure "zis3"}
+	}
+	{"zis3_41"
+		{structure "zis3"}
+	}
+	{"bt7_35"
+		{structure "bt7a"}
+	}
+	{"bt7_35k"
+		{structure "bt7a"}
+	}
+	{"bt7_37_0"
+		{structure "bt7a"}
+	}
+	{"bt7_37_1"
+		{structure "bt7a"}
+	}
+	{"15_cm_sig33"
+		{structure "75mm_leig18"}
+	}
+	{"pz5d"
+		{structure "pz5g"}
+	}
+	{"pz5g_veteran"
+		{structure "pz5g"}
+	}
+	{"pz5g_ace"
+		{structure "pz5g"}
+	}
+	{"pz3"
+		{structure "pz3"}
+	}
+	{"pz3_l"
+		{structure "pz3"}
+	}
+	{"pz3f"
+		{structure "pz3"}
+	}
+	{"pz4e"
+		{structure "pz4e"}
+	}
+	{"pz4g_42"
+		{structure "pz4g"}
+	}
+	{"pz4h"
+		{structure "pz4g"}
+	}
+	{"pz4j"
+		{structure "pz4g"}
+	}
+	{"stug3g"
+		{structure "stug4g"}
+	}
+	{"stuh42"
+		{structure "stug4g"}
+	}
+	{"stuh42_vet"
+		{structure "stug4g"}
+	}
+	{"m4a3m_eng"
+		{structure "m4a3m"}
+	}
+	{"m4a4"
+		{structure "m4a2"}
+	}
+	{"m4a4_tulip"
+		{structure "m4a2"}
+	}
+	{"m4a4_firefly"
+		{structure "m4a2"}
+	}
+	{"m4a3e8"
+		{structure "m4a2_76w"}
+	}
+	{"m4a3e8_fury"
+		{structure "m4a2_76w"}
+	}
+	{"m4a3e2_jumbo"
+		{structure "m4a3e2"}
+	}
+	{"m4a3e2_jumbo_76"
+		{structure "m4a2_76w"}
+	}
+	{"m4a3e2_jumbo_76_vet"
+		{structure "m4a2_76w"}
+	}
+	{"m4a3_75"
+		{structure "m4a2"}
+	}
+	{"m4a3_105"
+		{structure "m4a2"}
+	}
+	{"m4a3_zippo"
+		{structure "m4a2"}
+	}
+	{"t34_0"
+		{structure "t34_2"}
+	}
+	{"t34_1"
+		{structure "t34_2"}
+	}
+	{"bedford_art"
+		{structure "bedford"}
+	}
+	{"bedford_inf"
+		{structure "bedford"}
+	}
+	{"bedford_eng"
+		{structure "bedford"}
+	}
+	{"gmc"
+		{structure "truck6"}
+	}
+	{"gmc_arm"
+		{structure "truck6"}
+	}
+	{"gmc_art"
+		{structure "truck6"}
+	}
+	{"gmc_inf"
+		{structure "truck6"}
+	}
+	{"gmc_cckw"
+		{structure "truck6"}
+	}
+	{"gmc_eng"
+		{structure "truck6"}
+	}
+	{"blitz3_6"
+		{structure "truck4"}
+	}
+	{"blitz3_6arm"
+		{structure "truck4"}
+	}
+	{"blitz3_6art"
+		{structure "truck4"}
+	}
+	{"blitz3_6inf"
+		{structure "truck4"}
+	}
+	{"blitz3_6m"
+		{structure "truck4"}
+	}
+	{"blitz3_6eng"
+		{structure "truck4"}
+	}
+	{"zis5"
+		{structure "truck4"}
+	}
+	{"zis5arm"
+		{structure "truck4"}
+	}
+	{"zis5art"
+		{structure "truck4"}
+	}
+	{"zis5inf"
+		{structure "truck4"}
+	}
+	{"zis5eng"
+		{structure "truck4"}
+	}
+	{"zis42_maxim"
+		{structure "zis42"}
+	}
+ 	{"universal"
+		{structure "traktor"}
+	}
+	{"gaz67b"
+		{structure "gaz67"}
+	}
+	{"kubel_mgun"
+		{structure "kubel"}
+	}
+	{"kubel_mgun_34"
+		{structure "kubel"}
+	}
+	{"np_willysmb"
+		{structure "willysmb"}
+	}
+	{"np_willysmb_50"
+		{structure "willysmb"}
+	}
+	{"np_willys50"
+		{structure "willysmb"}
+	}
+	{"np_willysat"
+		{structure "willysmb"}
+	}
+	{"willysat"
+		{structure "willysmb"}
+	}
+	{"willysmb_eng"
+		{structure "willysmb"}
+	}	
+	{"hd"
+		{structure "moto"}
+	}
+	{"m72"
+		{structure "moto"}
+	}
+	{"r12"
+		{structure "moto"}
+	}
+	{"r12_34"
+		{structure "moto"}
+	}
+	{"sdkfz223"
+		{structure "sdkfz222"}
+	}
+	{"sdkfz232"
+		{structure "sdkfz232"}
+	}
+	{"np_sdkfz251_16"
+		{structure "sdkfz251"}
+	}
+	{"sdkfz251_1"
+		{structure "sdkfz251"}
+	}
+	{"m3"
+		{structure "m3"}
+	}
+	{"m3_usa"
+		{structure "m3"}
+	}
+	{"m3_eng"
+		{structure "m3"}
+	}
+	{"mg34_stan"
+		{structure "mgun_stan"}
+	}
+	{"browning_stan"
+		{structure "mgun_stan"}
+	}
+	{"browning_stan_fix"
+		{structure "mgun_stan"}
+	}
+	{"degtyarev_stan"
+		{structure "mgun_stan"}
+	}
+	{"degtyarev_stan_fix"
+		{structure "mgun_stan"}
+	}
+	{"mg42_stan"
+		{structure "mgun_stan"}
+	}
+	{"mg42_stan_fix"
+		{structure "mgun_stan"}
+	}
+	{"vickers_stan"
+		{structure "mgun_stan"}
+	}
+	{"vickers_stan_fix"
+		{structure "mgun_stan"}
+	}
+	{"type1hmg_stan"
+		{structure "mgun_stan"}
+	}
+	{"type1hmg_stan_fix"
+		{structure "mgun_stan"}
+	}
+	{"maxson_fix"
+		{structure "maxson"}
+	}
+	{"mg34_tower"
+		{structure "mgun_stan"}
+	}
+	{"type1hmg_stan_fix"
+		{structure "mgun_stan"}
+	}
+	{"bm37"
+		{structure "sgrw42"}
+	}
+	{"m1mortar"
+		{structure "sgrw42"}
+	}
+	{"ml3"
+		{structure "sgrw42"}
+	}
+	{"type_97_150mm"
+		{structure "sgrw42"}
+	}
+	{"ho-ni_3"
+		{structure "ho-ni1"}
+	}
+	{"bedford_eng"
+		{structure "bedford"}
+	}
+	{"universal_carrier_usa"
+		{structure "universal_carrier"}
+	}
+	{"isuzutx40art"
+		{structure "isuzutx40"}
+	}
+	{"isuzutx40_aa"
+		{structure "isuzutx40"}
+	}
+	{"isuzutx40_eng"
+		{structure "isuzutx40"}
+	}
+	{"isuzutx40_mort"
+		{structure "isuzutx40"}
+	}
+	{"isuzutx40_inf"
+		{structure "isuzutx40"}
+	}
+	{"type2_20mm"
+		{structure "flak38_wheeled"}
+	}
+	{"type2_20mm_stand"
+		{structure "flak38"}
+	}
+	{"m1_57mm"
+		{structure "qf6"}
+	}
+	{"pak38"
+		{structure "pak40"}
+	}
+	{"pak43"
+		{structure "pak40"}
+	}
+	{"pak43_vet"
+		{structure "pak40"}
+	}
+	{"lefh18"
+		{structure "sfh18"}
+	}
+	{"type96_150mm"
+		{structure "sfh18"}
+	}
+	{"m114_vet"
+		{structure "m114"}
+	}
+	{"m2a1l"
+		{structure "m114"}
+	}
+	{"m2a1l_vet"
+		{structure "m114"}
+	}
+	{"m12gmc"
+		{structure "m7"}
+	}
+	{"m12gmc_vet"
+		{structure "m7"}
+	}
+	{"m7_eng"
+		{structure "m7"}
+	}
+	{"wespe"
+		{structure "hummel"}
+	}
+	{"marder_3h"
+		{structure "hummel"}
+	}
+	{"flak36a_vet"
+		{structure "flak18"}
+	}
+	{"flak37"
+		{structure "flak18"}
+	}
+	{"type4_75mm"
+		{structure "flak18"}
+	}
+	{"type4_75mm_elite"
+		{structure "flak18"}
+	}
+	{"bofors"
+		{structure "61k"}	
+	}
+	{"k61"
+		{structure "61k"}	
+	}
+	{"k61_fix"
+		{structure "61k"}	
+	}
+	{"veteran_tiger"
+		{structure "pz6e"}	
+	}
+	{"pz6e_ace"
+		{structure "pz6e"}	
+	}
+	{"nebelwerfer41"
+		{structure "nebelwerfer42"}
+	}
+	{"cometa34"
+		{structure "centurion"}
+	}
+	{"cometa34_elite_gun"
+		{structure "centurion"}
+	}
+	{"m10wolverine"
+		{structure "achilles"}
+	}
+	{"achilles_elite_gun"
+		{structure "achilles"}
+	}
+	{"churchill_mk_vii"
+		{structure "mk4"}
+	}
+	{"churchill_avre"
+		{structure "mk4"}
+	}
+	{"churchill_crocodile"
+		{structure "mk4"}
+	}
+	{"black_prince"
+		{structure "mk4"}
+	}
+	{"m26_pershing"
+		{structure "m26"}
+	}
+	{"m26_pershing_vet"
+		{structure "m26"}
+	}
+	{"m26e4"
+		{structure "m26"}
+	}
+	{"m30_1938"
+		{structure "d1"}
+	}
+	{"bs3"
+		{structure "zis3"}
+	}
+	{"bs3_guard"
+		{structure "zis3"}
+	}
+	{"ho-ri_1"
+		{structure "ho-ri"}
+	}
+	{"isu122"
+		{structure "isu152"}
+	}
+	{"bm_8_24"
+		{structure "t60"}
+	}
+	{"cromwell_mk_iv"
+		{structure "mk8"}
+	}
+	{"cromwell_mk_vi"
+		{structure "mk8"}
+	}
+	{"cromwell_mk_vii"
+		{structure "mk8"}
+	}
+	{"cromwell_mk_viii"
+		{structure "mk8"}
+	}
+	{"ostwind"
+		{structure "welberwind"}
+	}
+	{"crusaderaa1"
+		{structure "crusaderaa2"}
+	}
+
+; substitute
+	{"lci(l)"
+		{structure "ship"}
+	}
+	{"cistern"
+		{structure "platform"}
+	}
+	{"crane_m"
+		{structure "platform"}
+	}
+	{"crane_rail"
+		{structure "platform"}
+	}
+	{"passengervan"
+		{structure "platform"}
+	}
+	{"tendor"
+		{structure "platform"}
+	}
+	{"tradevan"
+		{structure "platform"}
+	}
+	{"tradevan_big"
+		{structure "platform"}
+	}
+	{"tradevan_explosive"
+		{structure "platform"}
+	}
+	{"platform_can"
+		{structure "platform"}
+	}
+	{"platform_gun"
+		{structure "platform"}
+	}
+	{"searchlight2"
+		{structure "searchlight"}
+	}
+	{"armored_locomotive"
+		{structure "steam_locomotive"}
+	}
+}

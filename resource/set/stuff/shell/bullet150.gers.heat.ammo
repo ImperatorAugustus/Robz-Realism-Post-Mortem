@@ -1,0 +1,9 @@
+{from "pattern heat"
+	{tag "big" "size_big" "heat_big"}
+	{inventory
+		{size 6 1}
+	}
+	{mass 32.1}
+	{entity "shell_ap_150"}
+	("heat_dmg" args 18)
+}

@@ -1,0 +1,18 @@
+{from "browning_m19"
+	{filling "ammo mg_mauser belt" 225}
+	{entity "besa"}
+	{fireSound	"mgun/besa_burst/"}
+	
+	{range 150 150}
+	("spread_optic")
+
+	{rechargeTime 11}
+	("recoveryTime" r(800))
+	("burst_long")
+	("speed" s(793))
+	("accuracy_mgun_tank")
+	{Spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 97 94 91 88 85 82 75 70 50 30}
+	}
+}

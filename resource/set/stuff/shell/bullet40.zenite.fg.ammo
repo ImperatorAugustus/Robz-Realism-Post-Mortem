@@ -1,0 +1,26 @@
+{from "pattern fg"
+	{tag "ammo small stackable size_minimum"}
+	{inventory
+		{weight 25}
+		{size 2 2}
+		{block 5}
+	}
+	{mass 1.2}
+	{entity "fg_20mm_zenite"}
+	{damage blastwave  
+		{energy 1.2}
+		{area 0.2 0.4}
+	}
+	{damage add blastwave  
+		{energy 0.2}
+		{area 2.8 4.5}
+	}
+
+	{trace
+		{view "/texture/fx/trace_mg_red"
+			{ScaleY 0.40}
+			{Light 2}
+		}
+		{length 14}
+	}
+}

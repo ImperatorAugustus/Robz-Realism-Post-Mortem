@@ -1,0 +1,8 @@
+{from "pattern overcoat"
+	{entity "ammo_ger_rifle"}
+	{inventory
+		{size 1 1}
+		{weight 0}
+		{link_bone "IK_UpDown"}
+	}
+}

@@ -1,0 +1,56 @@
+{weapon_bullet ;;;{from "pattern bullet"
+	{tag "weapon mrl rifle bullet to_hand"}
+	{entity "mortar_legrw_36"}
+	{fireSound "reactive/mortar_light"}
+	{filling "mortar50 ger" 1}
+	{inventory
+		{size 3 4}
+		{link_bone "gun_back"}
+		{weight 10}
+		{fsm "smg"}
+	}
+	{burst
+		{short 1}
+		{Long 1}
+	}	
+	{preloaded}
+	{mass 14}
+	
+	{spreading 18
+		;{SpreadRadius 15}
+		;{SpreadPower 1}
+		;{radiusFunction
+		;	0	0.1
+		;	0.5	0.6
+		;	1.0	1.0
+		;}
+	}
+	{aimRange 130}
+	{maxRange 130}
+	{states
+		{reload		"reload1"}
+		{unload		"unload1"}
+		{fire		"fire1"}
+		{aim 		"aim1"}
+		{can_aim	"can-aim1"}
+	}
+	{gravity 2}
+	{rechargeTime 4}
+	{curve "cumulative"}
+	{DisableRicochet}
+	{foresight "Foresight3"}
+
+       	{projectileDamage 10}
+	{AimingTolerance 0.1}
+	{projectileDamageTable {90 10}}
+	{projectileDamageThreshold 1}
+	{AimingTolerance 3}
+	{speed 75}
+	{reloadAnimBonus 7.5}
+
+	{aimtype curved}
+	{parameters "fg"
+		{cursor "cannon_on_fg"}
+		{cursorReloading "cannon_reload_fg"}
+	}
+}

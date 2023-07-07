@@ -1,0 +1,10 @@
+{bullet
+	{tag "dropboxed big smoke"}
+	{inventory
+		{size 2 1}
+		{weight 70}
+	}
+	{mass 2}
+	{entity "ammo_mortar76_sm"}
+	{detonationThickness 1}
+}

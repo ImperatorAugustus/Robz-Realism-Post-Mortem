@@ -1,0 +1,12 @@
+{from "pattern heat"
+	{tag "size_minimum" "heat_medium" "pierce" "no_ricochet"}
+	{inventory
+		{size 3 2}
+	}
+	{mass 7}
+	{entity "mortar_ammo"}
+	{damage blastwave
+		{energy 1.2}
+		{area 4 6}
+	}
+}

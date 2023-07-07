@@ -1,0 +1,58 @@
+{breed
+	{skin "usa-82nd-rfl"}
+	{portrait "usa_elite1"}
+	{nationality usa}
+	{icon "elite"}
+	{icon_priority 3}
+	{armors
+		{head helmet_usa_para}
+	}
+	{perks
+		{"health" "250%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "150%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" "mp_soldier"
+		}
+		{"speed" 0.9
+		}
+		{"tank"	0.85
+		}
+		{"vehicle" 1
+		}
+		{"cannon" 0.9
+		}
+		
+		{"pistol" lvl_4
+		}
+		{"smg" lvl_4
+		}
+		{"mgun" lvl_4
+		}
+		{"rifle" lvl_5
+		}
+		{"rocketlauncher" lvl_4
+		}
+		{"melee" lvl_4
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_1")
+	}
+	{inventory
+		{item "garand" filled}
+		{item "ammo garand_clip" 80}
+		{item "bandage" 5}
+		{item "grenade m61" 2}
+		;{item "grenade n73at" 1}
+		{item "grenade satchel" 1}
+		{item "smoke grenade" 1.5 0.5}
+		{item "m15_smoke grenade" 0.5 0.5}
+		{in_hands 0}
+	}
+}

@@ -1,0 +1,8 @@
+{from "pattern at_rifle"
+	{entity "ptrd"}
+	{reloadSound "rifle_at"}
+	("accuracy_ptr_bolt")
+	
+	{projectileDamageTable {20 45} {100 40} {170 35} {215 20} {250 10}}
+	("speed" s(1010))
+}

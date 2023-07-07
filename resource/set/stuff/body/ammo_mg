@@ -1,0 +1,4 @@
+{from "pattern overcoat"
+	{desc "MG ammo vest"}
+	{entity "ammo_mg"}
+}

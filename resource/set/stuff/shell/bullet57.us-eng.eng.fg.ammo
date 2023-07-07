@@ -1,0 +1,10 @@
+{from "pattern fg"
+	{tag "size_minimum"}
+	{inventory
+		{size 4 1}
+	}
+	("fg_minimum_low" args 2.4)
+	("us_he" args 0.5)
+	{mass 8}
+	{entity "shell_eng_fg_57"}
+}

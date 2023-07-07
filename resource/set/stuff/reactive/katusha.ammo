@@ -1,0 +1,15 @@
+{bullet
+	{tag "medium_deep_fx big shell fg bomb"}
+	{inventory
+		{size 6 1}
+		{weight 100}
+	}	
+	{mass 42}
+	{entity "katusha_ammo"}
+	{view "katusha_ammo"
+		{tail "rocket_smoke" "tail"}
+	}
+	{detonationThickness 1}
+	{applyProjectile}
+	("fg_rocket_heavy" args 11.8)
+}

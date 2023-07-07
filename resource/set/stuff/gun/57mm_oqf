@@ -1,0 +1,29 @@
+{from "pattern gun"		; "mk6", "mk4"
+	{filling "bullet57 us-eng"}
+	{fireSound "gun/50to76_cal/50mm_kwk38"}
+	{reloadSound "gun_r02"}
+	{rechargeTime 6.5}
+	("range_short")
+	
+	{range 190 190}
+	("speed_all" ap(830) apcr(1220) fg(807) heat(807))
+	("caliber_minimum")
+	{projectileDamage 134}
+	("damage_170" a(135) b(112) c(89) d(70) e(55) range(190))
+	{parameters "apc"
+        	("damage_170" a(94) b(83) c(72) d(63) e(52) range(190))
+	}
+	{parameters "apcbc"
+        	("damage_170" a(115) b(103) c(90) d(78) e(68) range(190))
+	}
+	{parameters "apcr"
+        	("damage_170" a(153) b(134) c(117) d(102) e(89) range(190))
+	}
+	{parameters "apds"
+        	("damage_170" a(193) b(169) c(148) d(129) e(112) range(190))
+	}
+	{parameters "fg"
+		{range 180 180}
+	}
+	("accuracy_medium_10m_he")
+}

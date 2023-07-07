@@ -1,0 +1,9 @@
+{from "pattern sniper_rifle"
+	{entity "type97sniper"}
+	{filling "ammo arisaka6-5_clip" 5}
+	{fireSound "rifle/type97sniper_shot"}
+	{reloadSound "type38_reload"}
+	
+	("speed" s(750))
+	("accuracy_boost")
+}

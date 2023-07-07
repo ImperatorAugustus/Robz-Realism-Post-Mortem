@@ -1,0 +1,15 @@
+{from "88mm_kwk36"		; "pz6e_veteran"
+	{rechargeTime 9.35}
+	{range 240 240}
+	("accuracy_maximum_230m_vet")
+	("damage_215" a(162) b(151) c(138) d(126) e(116) range(240))
+	{parameters "apcr"
+        	("damage_215" a(220) b(200) c(179) d(160) e(143) range(240))
+	}
+	{parameters "heat"
+        	("damage_heat" a(110) range(240))
+	}
+	{parameters "fg"
+		{range 240 240}
+	}
+}

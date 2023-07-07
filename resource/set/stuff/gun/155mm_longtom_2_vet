@@ -1,0 +1,13 @@
+{from "pattern gun2"		; longtom direct fire
+    	{filling "bullet155 us"}
+	{fireSound "gun/howitzer/155mm_gpf"}
+	{reloadSound "gun_r04"}
+	("range_grazing_howitzer")
+	("caliber_maximum")
+	{rechargeTime 12}
+	{range 210 210}
+	("speed" s(853))
+	("accuracy_grazinghowitzer_210m")
+	("damage_170" a(198) b(193) c(187) d(182) e(176) range(210))
+}
+

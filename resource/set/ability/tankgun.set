@@ -1,0 +1,258 @@
+{"tankgun" from weapon
+	{item "tankgun"}	
+	{level "lvl_1"
+		{stand
+			{accuracy 0.35}
+		}
+		{squat
+			{accuracy 0.45}
+		}
+		{crawl
+			{accuracy 0.70}
+		}
+		{cover
+			{accuracy 0.70}
+		}
+		{vehicle
+			{accuracy 1.00}
+		}
+	}
+	{level "lvl_2"
+		{stand
+			{accuracy 0.40}
+		}
+		{squat
+			{accuracy 0.50}
+		}
+		{crawl
+			{accuracy 0.90}
+		}
+		{cover
+			{accuracy 0.90}
+		}
+		{vehicle
+			{accuracy 1.20}
+		}
+	}
+	{level "lvl_3"
+		{stand
+			{accuracy 0.425}
+		}
+		{squat
+			{accuracy 0.525}
+		}
+		{crawl
+			{accuracy 0.95}
+		}
+		{cover
+			{accuracy 0.95}
+		}
+		{vehicle
+			{accuracy 1.35}
+		}
+	}
+	{level "lvl_4"
+		{stand
+			{accuracy 0.45}
+		}
+		{squat
+			{accuracy 0.55}
+		}
+		{crawl
+			{accuracy 1.00}
+		}
+		{cover
+			{accuracy 1.00}
+		}
+		{vehicle
+			{accuracy 1.50}
+		}
+	}
+	{level "lvl_5"
+		{stand
+			{accuracy 0.50}
+		}
+		{squat
+			{accuracy 0.60}
+		}
+		{crawl
+			{accuracy 1.15}
+		}
+		{cover
+			{accuracy 1.15}
+		}
+		{vehicle
+			{accuracy 1.65}
+		}
+	}
+	{level "lvl_6"
+		{stand
+			{accuracy 0.55}
+		}
+		{squat
+			{accuracy 0.65}
+		}
+		{crawl
+			{accuracy 1.30}
+		}
+		{cover
+			{accuracy 1.30}
+		}
+		{vehicle
+			{accuracy 1.80}
+		}
+	}
+	{level "lvl_7"
+		{stand
+			{accuracy 0.60}
+		}
+		{squat
+			{accuracy 0.70}
+		}
+		{crawl
+			{accuracy 1.45}
+		}
+		{cover
+			{accuracy 1.45}
+		}
+		{vehicle
+			{accuracy 1.90}
+		}
+	}
+	{level "lvl_8"
+		{stand
+			{accuracy 0.65}
+		}
+		{squat
+			{accuracy 0.75}
+		}
+		{crawl
+			{accuracy 1.60}
+		}
+		{cover
+			{accuracy 1.60}
+		}
+		{vehicle
+			{accuracy 2.00}
+		}
+	}
+	{level "lvl_9"
+		{stand
+			{accuracy 0.70}
+		}
+		{squat
+			{accuracy 0.80}
+		}
+		{crawl
+			{accuracy 1.75}
+		}
+		{cover
+			{accuracy 1.75}
+		}
+		{vehicle
+			{accuracy 2.10}
+		}
+	}
+	{level "lvl_10"
+		{stand
+			{accuracy 0.75}
+		}
+		{squat
+			{accuracy 0.85}
+		}
+		{crawl
+			{accuracy 1.90}
+		}
+		{cover
+			{accuracy 1.90}
+		}
+		{vehicle
+			{accuracy 2.20}
+		}
+	}
+	{level "lvl_11"
+		{stand
+			{accuracy 0.75}
+		}
+		{squat
+			{accuracy 0.85}
+		}
+		{crawl
+			{accuracy 1.90}
+		}
+		{cover
+			{accuracy 1.90}
+		}
+		{vehicle
+			{accuracy 2.30}
+		}
+	}
+	{level "lvl_12"
+		{stand
+			{accuracy 0.75}
+		}
+		{squat
+			{accuracy 0.85}
+		}
+		{crawl
+			{accuracy 1.90}
+		}
+		{cover
+			{accuracy 1.90}
+		}
+		{vehicle
+			{accuracy 2.35}
+		}
+	}
+	{level "lvl_13"
+		{stand
+			{accuracy 0.75}
+		}
+		{squat
+			{accuracy 0.85}
+		}
+		{crawl
+			{accuracy 1.90}
+		}
+		{cover
+			{accuracy 1.90}
+		}
+		{vehicle
+			{accuracy 2.40}
+		}
+	}
+	{level "lvl_14"
+		{stand
+			{accuracy 0.75}
+		}
+		{squat
+			{accuracy 0.85}
+		}
+		{crawl
+			{accuracy 1.90}
+		}
+		{cover
+			{accuracy 1.90}
+		}
+		{vehicle
+			{accuracy 2.45}
+		}
+	}
+	{level "lvl_15"
+		{stand
+			{accuracy 0.75}
+		}
+		{squat
+			{accuracy 0.85}
+		}
+		{crawl
+			{accuracy 1.90}
+		}
+		{cover
+			{accuracy 1.90}
+		}
+		{vehicle
+			{accuracy 2.50}
+		}
+	}
+}

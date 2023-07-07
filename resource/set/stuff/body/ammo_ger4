@@ -1,0 +1,4 @@
+{from "pattern overcoat"
+	{desc "Belt with grenades and holdster"}
+	{entity "ammo_ger4"}
+}

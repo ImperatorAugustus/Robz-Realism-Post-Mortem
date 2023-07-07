@@ -1,0 +1,11 @@
+{bullet
+  {tag "bullet stackable pierce 7-92_rifle"}
+  {inventory
+    {weight 5}
+    {block 20}
+    {size 1 2}
+    {fsm "belt"}
+  }
+  {mass 0.027}
+  {entity "fg42_mag"}
+}

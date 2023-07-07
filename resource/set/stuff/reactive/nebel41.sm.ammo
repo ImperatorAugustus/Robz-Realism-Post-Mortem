@@ -1,0 +1,14 @@
+{bullet
+	{tag "no_ricochet medium_smoke"}
+	{inventory
+		{size 5 1}
+		{weight 100}
+	}	
+	{entity "nebelwerfer41_sm_ammo"}
+	{mass 36.05}
+	{view "nebelwerfer41_sm_ammo"
+		{tail "rocket_smoke_norm" "tail"}
+	}
+	{detonationThickness 2}
+	{applyProjectile}
+}

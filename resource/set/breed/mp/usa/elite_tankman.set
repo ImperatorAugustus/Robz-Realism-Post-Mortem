@@ -1,0 +1,54 @@
+{breed
+	{skin "usa-tank-cpl"}
+	{portrait "usa_tankman"}
+	{nationality usa}
+	{icon "tankman"}
+	{icon_priority 0}
+	{armors
+		{head tankhelmet_usa}
+	}
+	{perks
+		{"health" "100%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "100%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+        {"vision" "mp_soldier"
+		}
+		{"speed" 0.8
+		}
+		{"tank"	1.15
+		}
+		{"vehicle" 1.15
+		}
+		{"cannon" 1.05
+		}
+		
+		{"pistol" lvl_4
+		}
+		{"smg" lvl_4
+		}
+		{"mgun" lvl_5
+		}
+		{"rifle" lvl_3
+		}
+		{"rocketlauncher" lvl_3
+		}
+		{"melee" lvl_3
+		}
+		{"tankgun" lvl_8
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_tankcrew")
+	}
+	{inventory
+		{item "colt" filled}
+		{item "ammo colt_mag" 21}
+		{in_hands 0}
+	}
+}

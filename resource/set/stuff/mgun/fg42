@@ -1,0 +1,19 @@
+{from "pattern mgun"
+	{filling "ammo fg42_mag" 20}
+	{entity "fg42_mg"}                   
+	{fireSound "mgun/fg42_shot"}
+	{reloadSound "fg42"}
+	{inventory
+		{size 4 2 }
+	}
+	{Spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 96 92 88 84 80 75 70 50 20}
+	}
+	{mass 4}
+	{range 120 120}
+	{rechargeTime 5}
+	("recoveryTime" r(750))
+	("burst_short")
+	("speed" s(740))
+}

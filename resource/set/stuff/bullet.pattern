@@ -1,0 +1,26 @@
+{weapon_bullet
+	{inventory
+		{fsm "smg"}
+	}
+	{states
+		{reload		"reload"}
+		{unload		"unload"}
+		{fire		"fire"	}
+		{aim 		"aim"	}
+		{can_aim	"can-aim"}
+	}
+	{Spreading
+		{BurstRecoveryTime 0.6}
+		{BurstAccuracy 100}
+		{SpreadRadius 5}
+	}
+	{reloadSound "reload.smg"}
+	{reloadAnimBonus 0.5}
+	{foresight "Foresight3"}
+	{speed 60}
+	{calibre 7.62}
+    {AimingTolerance 1}
+	{cursor "smg_on"}
+	{cursorReloading "smg_reload"}
+	{curve "bullet"}
+}

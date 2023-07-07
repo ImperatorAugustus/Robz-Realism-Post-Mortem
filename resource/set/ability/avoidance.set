@@ -1,0 +1,11 @@
+{avoidance
+	{level "lvl_1"
+		{fire 0.1}
+	}
+}
+
+;{drop_weapon 0.97}
+;{knockdown_melee 0.97}
+;{fire 0.25}
+;{explosive 0.1}
+;{aimed_shot 0.9}

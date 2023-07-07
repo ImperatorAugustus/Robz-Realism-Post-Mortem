@@ -1,0 +1,28 @@
+{from "pattern gun"		; "pz3f"
+	{filling "bullet50 ger"}
+	{fireSound "gun/50to76_cal/50mm_kwk38"}
+	{reloadSound "gun_r02"}
+	{rechargeTime 6}
+	("range_short")
+
+	{range 180 180}
+	("speed_all" ap(685) apcr(1050) fg(550) heat(110))
+	("caliber_minimum")
+	{projectileDamage 68}
+	("damage_170" a(74) b(59) c(45) d(34) e(26) range(180))
+	{parameters "apc"
+		("damage_170" a(74) b(59) c(45) d(34) e(26) range(180))
+		{cursorReloading "cannon_reload_apc"}
+	}
+	{parameters "apcr"
+        	("damage_170" a(132) b(94) c(63) d(42) e(28) range(180))
+	}
+	{parameters "heat"
+		("damage" a(0) b(0) c(0) d(0) e(0))
+		{range 0 0}
+	}
+	{parameters "fg"
+		{range 160 160}
+	}
+	("accuracy_medium")               
+}

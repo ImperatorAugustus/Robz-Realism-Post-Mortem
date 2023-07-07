@@ -1,0 +1,18 @@
+{from "air_bomb"
+	{inventory
+		{noView}
+	}
+	{damage blastwave
+		{energy 15}
+		{area 10 12}
+	}
+	{damage add blastwave	; anti-building
+		{energy 15}
+		{area 18 23}
+	}
+	{damage add blastwave	; anti-infantry
+		{energy 1.5}
+		{area 32 32}
+	}
+	{entity "artillery_explosion_mega"}
+}

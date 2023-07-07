@@ -1,0 +1,17 @@
+{from "pattern gun2"		; "105mm type 91 direct fire
+    	{filling "bullet105 jap"}
+	{fireSound "gun/105mm_type91"}
+	{reloadSound "tankgun_r04"}
+	("range_grazing_howitzer")
+
+	("caliber_maximum")
+	("speed" s(546))
+	{range 190 190}
+	{projectileDamage 150}
+	{parameters "heat"
+        	("damage_heat" a(120) range(190))
+	}
+	("accuracy_grazinghowitzer_190m")
+	{rechargeTime 12}
+}
+

@@ -1,0 +1,27 @@
+{from "pattern smg"
+	{tag "assaultrifle"}
+	{filling "ammo stg44_mag" 30}
+	{mass 5}
+	{entity "stg44_scope"}
+	{fireSound	"smg/mp44_burst/"}
+	{reloadSound "mp44"}	
+
+	{spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 92 84 76 68 60 50}
+	}
+	{range 120 120}
+
+	{healthDamage 30}
+	{ProjectileDamage 6}
+	{ProjectileDamageClip 5}
+	{projectileDamageTable {30 6} {150 0}}
+	{rechargeTime 4.5}
+	{burst
+		{short 1 0.5}
+		{long 3 1}
+	}
+	("recoveryTime" r(500))
+	("accuracy_assault_rifle_scoped")
+ 	("speed" s(685))
+}

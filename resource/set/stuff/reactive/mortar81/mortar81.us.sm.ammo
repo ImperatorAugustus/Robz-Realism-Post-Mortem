@@ -1,0 +1,12 @@
+{bullet
+	{tag "dropboxed big smoke no_ricochet"}
+	{inventory
+		{size 2 1}
+		{weight 70}
+	}
+	{mass 2}
+	{entity "ammo_mortar81_sm"}
+	{view "mortar_ammo"
+	}
+	{detonationThickness 2}
+}

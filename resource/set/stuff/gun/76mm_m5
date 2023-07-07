@@ -1,0 +1,26 @@
+{from "pattern gun"		; "m5"
+	{filling "bullet76 us"}
+	{fireSound "gun/50to76_cal/76mm_mk4"}
+	{reloadSound "gun_r05"}
+	{rechargeTime 7}
+	("range_medium")
+	
+	{range 200 200}
+	("speed_all" ap(792) apcr(1036) fg(800) heat(800))
+	("caliber_medium")
+	{projectileDamage 155}
+	("damage_170" a(155) b(133) c(110) d(90) e(74) range(200))
+	{parameters "apcbc"
+		("damage_170" a(122) b(115) c(106) d(98) e(91) range(200))
+	}
+	{parameters "hvap" ;using the T4 HVAP ammunition
+        	("damage_170" a(223) b(182) c(149) d(122) e(99) range(200))
+	}
+	{parameters "fg"
+		{range 190 190}
+	}
+	{parameters "wp"
+		{range 190 190}
+	}
+	("accuracy_high_10m_he")
+}

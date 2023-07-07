@@ -1,0 +1,3 @@
+{from "75mm_kwk42"		; "jagdpanzer_iv"
+	{rechargeTime 8.5}
+}

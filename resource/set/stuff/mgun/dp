@@ -1,0 +1,16 @@
+{from "pattern mgun"
+	{filling "ammo dp27_mag" 47}
+	{entity "dp27"}
+	{fireSound	"mgun/dt_burst/"}
+	{reloadSound "dt"}
+	{rechargeTime 5.5}	
+
+	{mass 9}
+	("recoveryTime" r(550))
+	("burst_medium")
+	("speed" s(840))
+	{Spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 96.5 93 89.5 86 82.5 79 70 55 35 15}
+	}
+}

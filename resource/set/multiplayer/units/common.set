@@ -1,0 +1,12 @@
+;SDL
+{units
+	;(include "units_44-45.set")
+	;(include "squads.set")
+	;(include "vehicles.set")
+	;(include "vehicles_ger.set")
+	;(include "vehicles_eng.set")
+	;(include "vehicles_usa.set")
+	;(include "vehicles_rus.set")
+	;(include "vehicles_jap.set")
+	;(include "vehicles_x.set")
+}

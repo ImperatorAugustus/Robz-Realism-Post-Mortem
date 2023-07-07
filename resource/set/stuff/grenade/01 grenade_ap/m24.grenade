@@ -1,0 +1,23 @@
+{from "pattern throwable"
+	{tag "fg"}
+	{special
+		{PrepareTime 4.5}
+		{PrepareCursor "grenade"}
+		{mode detonate}
+	}
+	{throw
+		{range 27}
+		{startAngle 40}
+		{spreading 3.5}
+	}
+	{damage blastwave
+		{energy 1.3} ; kg
+		{area 2 4.5}
+	}
+	{damage add blastwave
+		{energy 0.5}
+		{area 3.5 8.5}
+	}
+	{inventory {size 2 1}}
+	{entity "grenade_m24"}
+}

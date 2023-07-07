@@ -1,0 +1,8 @@
+{from "browning_m19"
+	{rechargeTime 12}
+	{Spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 97 94 91 88 85 82 75 70 50 30 10}
+	}
+	("accuracy_mgun_hull")
+}

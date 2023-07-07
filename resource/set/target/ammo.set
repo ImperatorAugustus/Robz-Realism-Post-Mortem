@@ -1,0 +1,340 @@
+;;; Select best weapon and ammo ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;{ready_for_shot}	- ammo charged (shell in the breech & gun ready for shot)
+;;{charging} 		- ammo is charging (gun is`t ready for shot)
+
+{select_ammo
+	{human in_bush
+		{"m1garand_grenade fg" {ground}}
+		{"m1garand_grenade fg"}
+		{"m1garand_grenade wp" {ground}}
+		{"m1garand_grenade wp"}
+		{"k98_grenade fg" {ground}}
+		{"k98_grenade fg"}
+		{"grenade ic" {ready_for_shot}}
+		{"5cm_grenade fg" {ground}}
+		{"fg light" {ground}}
+		{"mortar fg" {ground}}
+		{"grenade fg" {check_grenade}}
+		{"shell fg" {ground} {ready_for_shot}}
+		{"shell fg" {ready_for_shot}}
+		{"shell wp" {ready_for_shot}}
+		{"shell fg"}
+;		{"ptr" {enable_for_human_user 0}}
+		{"zenite fg"}
+		{"zenite" {enable_for_human_user 0}}
+		{"hmgun inc"}
+		{"hmgun"}
+		{"flame"}
+		{"fuel"}
+		{"rifle_fg"}
+		{"bullet"}
+		{"grenade fg" {ground}}
+		{"grenade ap"}
+		{"wp" {ground}}
+		{"sm" {ground}}
+		{"light"}
+	}
+	{human in_cover
+		{"m1garand_grenade fg" {ground}}
+		{"m1garand_grenade fg"}
+		{"m1garand_grenade wp" {ground}}
+		{"m1garand_grenade wp"}
+		{"k98_grenade fg" {ground}}
+		{"k98_grenade fg"}
+		{"grenade ic" {ready_for_shot}}
+		{"5cm_grenade fg" {ground}}
+		{"fg light" {ground}}
+		{"mortar fg" {ground}}
+		{"grenade fg" {check_grenade}}
+		{"grenade ap" {enable_for_ai 0} {check_grenade}}
+		{"shell fg" {ground} {ready_for_shot}}
+		{"shell fg" {ready_for_shot}}
+		{"shell wp" {ready_for_shot}}
+		{"shell fg"}
+;		{"ptr" {enable_for_human_user 0}}
+		{"zenite fg"}
+		{"zenite" {enable_for_human_user 0}}
+		{"hmgun inc"}
+		{"hmgun"}
+		{"flame"}
+		{"fuel"}   
+		{"rifle_fg"}
+		{"bullet"}
+		{"ammo rocketlauncher" {enable_for_user 0}}
+		{"grenade fg" {ground}}
+		{"grenade ap" {enable_for_ai 0}}
+		{"grenade ic" {enable_for_ai 0}}
+		{"shell fg"}
+		{"dynamite" {ground}}
+		{"wp" {ground}}
+		{"sm" {ground}}
+		{"light"}
+	}
+	{human
+		{"m1garand_grenade fg" {ground}}
+		{"m1garand_grenade fg"}
+		{"m1garand_grenade wp" {ground}}
+		{"m1garand_grenade wp"}
+		{"k98_grenade fg" {ground}}
+		{"k98_grenade fg"}
+		{"fg light" {ground}}
+		{"grenade ic" {ready_for_shot}}
+		{"shell fg" {ground} {ready_for_shot}}
+		{"shell fg" {ready_for_shot}}
+		{"shell wp" {ready_for_shot}}
+		{"shell fg"}
+		{"5cm_grenade fg" {ground}}
+		{"mortar fg" {ground}}
+;		{"ptr" {enable_for_human_user 0}}
+		{"zenite fg"}
+		{"zenite" {enable_for_human_user 0}} ; prohibit the usage (for player infantry)
+		{"hmgun inc"}
+		{"hmgun"}
+		{"flame"}
+		{"fuel"}    
+		{"rifle_fg"}
+		{"bullet"}
+		{"sharp_edge"}
+		{"grenade fg"}
+		{"grenade ap"}
+		{"wp" {ground}}
+		{"sm" {ground}}
+		{"ammo rocketlauncher" {enable_for_user 0}}
+		{"light"}
+	}
+	{car
+		{"m1garand_grenade fg"}
+		{"m1garand_grenade wp"}
+		{"m1garand_grenade ap"}
+		{"k98_grenade fg"}
+		{"fg heavy" {ground}}
+		{"mortar fg" {ground}}
+		{"5cm_grenade fg" {ground}}
+		{"grenade fg"	{ground}}
+		{"grenade ap"}
+		{"grenade ic"}
+		{"zenite fg"}
+		{"zenite"}
+		{"shell fg" {ready_for_shot}}
+		{"hmgun inc"}
+		{"hmgun ap"}
+		{"hmgun"}
+		{"shell fg"}
+		{"shell ap"}	; for training
+		{"fuel"}
+		{"bullet"}
+		{"light"}
+	}
+	{cannon
+		{"m1garand_grenade fg"}
+		{"m1garand_grenade wp"}
+		{"k98_grenade fg"}
+		{"mortar81 us fg" {ready_for_shot}}
+		{"mortar81 us fg heavy" {ready_for_shot}}
+		{"mortar81 us fg" {charging}}
+		{"mortar81 us fg heavy" {charging}}
+		{"sm" {ground}}
+       	{"mortar fg" {ground}}
+		{"grenade ic" {ready_for_shot}}
+		{"zenite fg"}
+		{"shell fg"}
+		{"fuel"}
+		{"grenade fg" {ground}}
+		{"grenade ap"}
+		{"grenade ic"}
+		{"shell ap"}
+		{"wp" {ground}}
+		{"sm" {ground}}
+		{"ammo rocketlauncher" {enable_for_user 0}}
+		{"light"}
+	}
+	{airborne
+		{"zenite"}
+		{"shell fg"}
+		{"shell ap"}
+		{"hmgun inc"}
+		{"hmgun ap"}
+		{"hmgun"}
+		{"light"}
+	}
+	{armoredcar
+		{"m1garand_grenade ap" {ready_for_shot}}
+		{"m1garand_grenade ap"}
+		{"m1garand_grenade wp"}
+		{"k98_grenade ap3"}
+		{"k98_grenade ap2"}
+		{"k98_grenade ap" {ready_for_shot}}
+		{"k98_grenade ap"}
+		{"calliope" {ready_for_shot}}
+		{"size_big fg" {volume "body"} {ready_for_shot}}
+		{"shell apcbc" {volume "body"} {ready_for_shot}}
+		{"shell aphebc" {volume "body"} {ready_for_shot}}
+		{"shell br350b" {volume "body"} {ready_for_shot}}
+		{"shell br350a" {volume "body"} {ready_for_shot}}
+		{"shell apbc" {volume "body"} {ready_for_shot}}
+		{"shell br350sp" {volume "body"} {ready_for_shot}}
+		{"shell aphe3" {volume "body"} {ready_for_shot}}
+		{"shell aphe2" {volume "body"} {ready_for_shot}}
+		{"shell aphe" {volume "body"} {ready_for_shot}}
+		{"shell apc" {volume "body"} {ready_for_shot}}
+		{"shell ap" {volume "body"} {ready_for_shot}}
+		{"zenite ap" {volume "body"}}
+		{"zenite" {volume "body"}}
+		{"hmgun ap" {volume "body"}}
+		{"hmgun" {volume "body"}}
+		{"size_big fg" {volume "body"} {charging}}
+		{"size_medium fg" {volume "body"} {ready_for_shot}}
+		{"shell apcbc" {volume "body"}}
+		{"shell aphebc" {volume "body"}}
+		{"shell br350b" {volume "body"}}
+		{"shell br350a" {volume "body"}}
+		{"shell apbc" {volume "body"}}
+		{"shell br350sp" {volume "body"}}
+		{"shell aphe3" {volume "body"}}
+		{"shell aphe2" {volume "body"}}
+		{"shell aphe" {volume "body"}}
+		{"shell apc" {volume "body"}}
+		{"shell ap" {volume "body"}}
+		{"size_medium fg" {volume "body"} {charging}}
+		{"grenade ic" {ready_for_shot}}
+		{"grenade ap" {volume "body"}}
+		{"fuel" {volume "engine"}}
+		{"grenade fg" {volume "grenade_fg_target"}}
+		{"grenade ic" {volume "engine"}}
+		{"shell apcbc"}
+		{"shell aphebc"}
+		{"shell br350b"}
+		{"shell br350a"}
+		{"shell apbc"}
+		{"shell br350sp"}
+		{"shell aphe3"}
+		{"shell aphe2"}
+		{"shell aphe"}
+		{"shell apc"}
+		{"shell ap"}
+		{"shell fg"}
+		{"m1garand_grenade fg"}
+		{"dynamite" {ground}}
+		{"sm" {ground}}
+		{"light"}
+	}
+	{light_tank
+		{"m1garand_grenade ap" {ready_for_shot}}
+		{"m1garand_grenade ap"}
+		{"k98_grenade ap3"}
+		{"k98_grenade ap2"}
+		{"k98_grenade ap" {ready_for_shot}}
+		{"k98_grenade ap"}
+		{"calliope" {ready_for_shot}}
+		{"size_big fg" {volume "body"} {ready_for_shot}}
+		{"shell apcbc" {volume "body"} {ready_for_shot}}
+		{"shell aphebc" {volume "body"} {ready_for_shot}}
+		{"shell br350b" {volume "body"} {ready_for_shot}}
+		{"shell br350a" {volume "body"} {ready_for_shot}}
+		{"shell apbc" {volume "body"} {ready_for_shot}}
+		{"shell br350sp" {volume "body"} {ready_for_shot}}
+		{"shell aphe3" {volume "body"} {ready_for_shot}}
+		{"shell aphe2" {volume "body"} {ready_for_shot}}
+		{"shell aphe" {volume "body"} {ready_for_shot}}
+		{"shell apc" {volume "body"} {ready_for_shot}}
+		{"shell ap" {volume "body"} {ready_for_shot}}
+		{"hmgun ap" {volume "body"}}
+		{"hmgun" {volume "body"}}
+		{"size_big fg" {volume "body"} {charging}}
+		{"size_medium fg" {volume "body"} {ready_for_shot}}
+		{"shell apcbc" {volume "body"}}
+		{"shell aphebc" {volume "body"}}
+		{"shell br350b" {volume "body"}}
+		{"shell br350a" {volume "body"}}
+		{"shell apbc" {volume "body"}}
+		{"shell br350sp" {volume "body"}}
+		{"shell aphe3" {volume "body"}}
+		{"shell aphe2" {volume "body"}}
+		{"shell aphe" {volume "body"}}
+		{"shell apc" {volume "body"}}
+		{"shell ap" {volume "body"}}
+		{"zenite ap" {volume "body"}}
+		{"zenite" {volume "body"}}
+		{"grenade ic" {volume "engine"} {ready_for_shot}}
+		{"grenade ap" {volume "body"}}
+		{"fuel" {volume "engine"}}
+		{"grenade fg" {volume "grenade_fg_target"}}
+		{"grenade ic" {volume "engine"}}
+		{"shell apcbc"}
+		{"shell aphebc"}
+		{"shell br350b"}
+		{"shell br350a"}
+		{"shell apbc"}
+		{"shell br350sp"}
+		{"shell aphe3"}
+		{"shell aphe2"}
+		{"shell aphe"}
+		{"shell apc"}
+		{"shell ap"}
+		{"shell fg"}
+		{"m1garand_grenade fg"}
+		{"dynamite" {ground}}
+		{"sm" {ground}}
+		{"light"}
+	}
+	{tank
+		{"m1garand_grenade ap" {ready_for_shot}}
+		{"m1garand_grenade ap"}
+		{"k98_grenade ap2"}
+		{"k98_grenade ap3"}
+		{"k98_grenade ap" {ready_for_shot}}
+		{"k98_grenade ap"}
+		{"calliope" {ready_for_shot}}
+		{"shell_maximum fg" {volume "body"} {ready_for_shot}}
+		{"shell_maximum fg" {volume "body"} {charging}}
+		{"shell apcbc" {volume "body"}}
+		{"shell apcbc"}
+		{"shell aphebc" {volume "body"}}
+		{"shell aphebc"}
+		{"shell br350b" {volume "body"}}
+		{"shell br350b"}
+		{"shell br350a" {volume "body"}}
+		{"shell br350a"}
+		{"shell apbc" {volume "body"}}
+		{"shell apbc"}
+		{"shell br350sp" {volume "body"}}
+		{"shell br350sp"}
+		{"shell aphe3" {volume "body"}}
+		{"shell aphe3"}
+		{"shell aphe2" {volume "body"}}
+		{"shell aphe2"}
+		{"shell aphe" {volume "body"}}
+		{"shell aphe"}
+		{"shell heatc" {volume "body"}}
+		{"shell heatc"}
+		{"shell heatb" {volume "body"}}
+		{"shell heatb"}
+		{"shell heata" {volume "body"}}
+		{"shell heata"}
+		{"shell apc" {volume "body"}}
+		{"shell apc"}
+		{"shell ap" {volume "body"}}
+		{"shell ap"}
+		{"shell heat" {volume "body"}}
+		{"shell heat"}
+		{"zenite ap" {volume "mover"}}
+		{"zenite" {volume "mover"}}
+		{"grenade ic" {volume "engine"} {ready_for_shot}}
+		{"grenade ap" {volume "body"}}
+		{"fuel" {volume "engine"}}
+		{"grenade fg" {volume "grenade_fg_target"}}
+		{"grenade ic" {volume "engine"}}
+		{"shell apds"}
+		{"shell hvap"}
+		{"shell apcr"}		
+		{"shell fg"}
+		{"m1garand_grenade fg"}
+		{"dynamite" {ground}}
+		{"sm" {ground}}
+		{"light"}
+	}
+
+;	{unknown
+;	}
+}

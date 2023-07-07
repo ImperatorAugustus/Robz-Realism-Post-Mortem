@@ -1,0 +1,11 @@
+{from "pattern gun"		; "ho-ro"
+	{filling "bullet150 jap"}
+	{fireSound "gun/howitzer/150mm_sfh18"}
+	{reloadSound "gun_r04"}
+	("range_grazing_howitzer")
+	("speed" s(290))
+	{range 190 190}
+	{rechargeTime 20}
+	{projectileDamage 140}	
+	("accuracy_grazinghowitzer_190m")
+}

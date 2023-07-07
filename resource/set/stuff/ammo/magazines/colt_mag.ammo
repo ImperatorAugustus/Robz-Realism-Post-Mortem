@@ -1,0 +1,11 @@
+{bullet
+  {tag "bullet small stackable pierce 45_pistol"}
+  {inventory
+    {weight 14.2857}
+    {block 7}
+    {size 1 1}
+    {fsm "belt"}
+  }
+  {mass 0.020}
+  {entity "colt_mag"}
+}

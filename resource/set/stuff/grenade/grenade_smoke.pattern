@@ -1,0 +1,5 @@
+{from "pattern throwable"
+	{throw	
+		{spreading 3.5}
+	}
+}

@@ -1,0 +1,264 @@
+;SDL
+{PatherID  "vehicle.large"}
+{obstacleID "tank"}
+{Simulation {Able 1}}
+{props "steel" "vehicle" "obstacle_ignore_height"}
+{able "emit_passangers_on_enemy" "repaired" "minimap"}
+{lodclass "vehicle_small"}
+{collider "vehicle"}
+
+{sensor
+	{Visor "main"
+		{vision "vehicle_main"}
+		{bone "visor"}
+	}
+	{RecognizeTime 1.0}
+	{InformRange 100 100}		;first - AI ;second - USER
+
+}
+
+{boarder}
+{placer {crew}}
+
+(define "brain_vehicle"
+	{brain "vehicle"
+		{state "vehicle"}
+		{const "crush/min_danger_zone_time" 	1}
+		{const "crush/min_danger_zone_length"	1}
+	}
+)
+
+{## extender "detail"
+	{random}
+}
+
+(define "chassis_defaults"
+	{FuelBag
+		{volume 200 }	; liters
+		{rate	20 }   	; liters per kilometer
+		{remain 200 }
+		{fuel "fuel"}
+	}
+	{speed
+		{Slow	10	}	; km/h
+		{Normal	17	}
+		{Fast	30	}
+	}
+)
+
+(define "wheel"
+	{volume %0
+		{thickness 0.5}
+		{tags "wheel"}
+		{component %0}
+		{able {NoWoundDecal}}
+	}
+	{component %0
+		{RepairTime 10}
+		{tags "wheel"}
+	}
+)
+
+(define "tracks"
+	{volume "trackleft"
+		{thickness 20}
+		{tags "mover" "track"}
+		{able {NoWoundDecal}}
+	}
+	{volume "trackright"
+		{thickness 20}
+		{tags "mover" "track"}
+		{able {NoWoundDecal}}
+	}
+	{component "trackleft"
+		{RepairTime 10}
+		{tags "mover" "track"}
+	}
+	{component "trackright"
+		{RepairTime 10}
+		{tags "mover" "track"}
+	}
+)
+
+(define "car_trace"
+    {Track %wheell
+	    {Tracer
+    		{View %fx}
+    		{Bone %bonel}
+	    	{Step %step}
+    	}
+    }
+    {Track %wheelr
+    	{Tracer 
+	    	{View %fx}
+    		{Bone %boner}
+    		{Step %step}
+	    }
+    }
+)
+
+(define "tank_trace_ex"
+    {Track "left"
+	    {Tracer
+    		{View %fx} ; "tracks"
+    		{Bone %boneleft}
+	    	{Step %step}			; 0.7 meters
+    	}
+		{TextureScroller
+	    	{Bone "TrackL"}
+    		{Length %len}		; 0.6 meters per animation
+    	}
+    }
+    {Track "right"
+    	{Tracer 
+	    	{View %fx}
+    		{Bone %boneright}
+    		{Step %step}			; in meters
+	    }
+		{TextureScroller
+	    	{Bone "TrackR"}
+    		{Length %len}		; meters per animation
+    	}
+    }
+)
+
+(define "tank_trace"
+	("tank_trace_ex" fx(%fx) step(%step) len(%len) boneleft("FXtraceL1") boneright("FXtraceR1"))
+)
+
+{able "ally_crew"}
+
+(define "shield"
+	{armor
+		{setting "shield"
+			{thickness %0}
+			{volumes "shield*"}
+		}
+	}
+)
+(define "shield_pz3"
+	{armor
+		{setting "shield"
+			{thickness %0}
+			{volumes "shield*"}
+		}
+		{setting "shieldr8"
+			{thickness %1}
+			{volumes "shieldr8*"}
+		}
+		{setting "shieldl9"
+			{thickness %2}
+			{volumes "shieldl9*"}
+		}
+	}
+)
+
+;\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ Gun Sights ////////////////////////////////////////
+
+(define "ger_1x11_sight"
+    {sensor
+    	{visor "main"
+        	{vision "tank_main_ger_1x11"}
+        	{bone "visor1"}
+   	}
+    }
+)
+
+(define "ger_3x8_sight"
+    {sensor
+    	{visor "main"
+        	{vision "tank_main_ger_3x8"}
+        	{bone "visor1"}
+   	}
+    }
+)
+
+(define "ger_5x8_sight"
+    {sensor
+    	{visor "main"
+        	{vision "tank_main_ger_5x8"}
+        	{bone "visor1"}
+   	}
+    }
+)
+
+(define "ger_2-5x_sight"
+    {sensor
+    	{visor "main"
+        	{vision "tank_main_ger_2-5x"}
+        	{bone "visor1"}
+   	}
+    }
+)
+
+(define "ger_5x_sight"
+    {sensor
+    	{visor "main2"
+        	{vision "tank_main_ger_5x"}
+        	{bone "visor1"}
+   	}
+    }
+)
+
+(define "rus_2-5x_sight"
+    {sensor
+    	{visor "main"
+        	{vision "tank_main_rus_2-5x"}
+        	{bone "visor1"}
+   	}
+    }
+)
+
+(define "rus_4x_sight"
+    {sensor
+    	{visor "main"
+        	{vision "tank_main_rus_4x"}
+        	{bone "visor1"}
+   	}
+    }
+)
+
+(define "us_3x_sight"
+    {sensor
+    	{visor "main"
+        	{vision "tank_main_us_3x"}
+        	{bone "visor1"}
+   	}
+    }
+)
+
+(define "us_5x_sight"
+    {sensor
+    	{visor "main"
+        	{vision "tank_main_us_5x"}
+        	{bone "visor1"}
+   	}
+    }
+)
+
+(define "eng_1-9x_sight"
+    {sensor
+    	{visor "main"
+        	{vision "tank_main_eng_1-9x"}
+        	{bone "visor1"}
+   	}
+    }
+)
+
+(define "eng_3x_sight"
+    {sensor
+    	{visor "main"
+        	{vision "tank_main_us_3x"}
+        	{bone "visor1"}
+   	}
+    }
+)
+
+(define "eng_6x_sight"
+    {sensor
+    	{visor "main"
+        	{vision "tank_main_eng_6x"}
+        	{bone "visor1"}
+   	}
+    }
+)

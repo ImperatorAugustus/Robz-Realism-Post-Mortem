@@ -1,0 +1,15 @@
+{bullet
+	{tag "small_deep_fx size_small small shell fg"}
+	{inventory
+		{size 4 1}
+		{weight 100}
+	}	
+	{entity "bm8_ammo"}
+	{mass 36.05}
+	{view "bm8_ammo"
+		{tail "rocket_smoke_norm" "tail"}
+	}
+	{detonationThickness 1}
+	{applyProjectile}
+	("fg_minimum" args 3.0)
+}

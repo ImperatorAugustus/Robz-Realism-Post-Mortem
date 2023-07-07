@@ -1,0 +1,319 @@
+			V 1.28.7
+		General Changes
+
+
+
+ADDED/INTEGRATED:
+-----
+Immersive sound sub mod for robz ; not all sounds are yet integrated
+
+
+
+PERFORMANCE:
+-----
+Limit the number of useless entity objects like broken parts and body parts to 0
+
+
+
+PATHING:
+-----
+Allowed 'cannons' to climb any height at speed cost ; This should prevent units from getting stuck most of the time, and allow for more strategic uses with less micro -!Need to add NoPath zones to map to prevent stupid shit!
+Allowed airborne to climb anything to prevent the dropper getting stuck
+
+
+
+
+RICOCHET, PIERCING, AND VELOCITY LOSS:
+-----
+Increased velocity dumping from ricochet off of hard surfaces
+'straw' no longer slows shells down
+Massively increased ricochet chance off water
+Increased ricochet off of ground
+Reduced Ricochet slightly off of steel
+
+
+
+AI:
+-----
+Added the following Automatic AI targeting
+
+	These will now target 'Human in Cover'
+		{"dynamite"}
+
+	These will now target 'Cannon'
+		{"sm"}
+
+	These will now target 'Airborne'
+		{"hmgun inc"}
+		{"hmgun"}
+		{"light"}
+
+	These will now target 'Armored Car'
+		{"m1garand_grenade wp"}
+
+	These will now target 'Light Tank'
+		{"dynamite"}
+		{"sm"}
+
+	These will now target 'Tank'
+		{"dynamite"}
+		{"sm"}
+
+
+
+Maps:
+-----
+Removed maps that are substatnially unbalanced or too small.
+Increased maximum zoom to engine max of 1500 on all maps.
+
+
+
+RANGE:
+-----
+Increased smoke grenade range from 25 to 32 for all normal smoke grenades and ammo drops
+
+
+
+Faction/Balance:
+-----
+Increased effect of equipment weight on stamina regen
+Decreased lower scale (0-20kg) rate of stamina reduction 
+Units can sprint longer, but recover slower ; may need fine tuned
+Special Ammo crate cost raised from 100 to 150
+All flame tanks limited to 3 in AZ.
+Most heavily armored Flame tanks now come in to play 15 minutes in and have a 15 minute cooldown, chuchill crocodile comes in at 18 min but has 15 min cooldown, OT 34 keeps 10 minute cooldown, SS halftrack, SSD, and Wasp come at 6 minutes ; These tanks were meant to break fortified lines not bully 2 squads on infantry. They were also quite rare.
+Decreased accuracy of assault guns by 25% and reload nerfed reload by 10% ; helps prevents them from being op unkillable over hill snipers due to mow limitations (Stuh 42, Brumbar, Sig 33b, KV2, SU 152, SU122, Sherman 105, Chuchill CS, Cromwell CS, Chi Ha 120)
+Flak 88 and KwK 36 all have a base range of 230 now.
+
+
+USA
+-----
+	Vehicles
+-Removed M19
+-Removed Super Persh MP buy
+-Willies 50 cal 175 to 135mp
+-Willies armoed 50 cal 200 to 150 mp
+-M2 Halftrack 200mp to 185mp
+-M3 Halftrack 200mp to 175mp
+-US Heavy Ammo truck 270 to 200mp
+-US heavy ammo crate 75 to 50mp
+-US trans truck 90 to 50 mp
+-US Vet Arty increased in price by ~10% across the board except 203 receiving only 30mp increase
+-US Vet Arty now aims in 2x as fast and has 10% less initial dispersion and zeroes on target 33% faster
+-m26 pershing - 1350 mp
+-sherman m4a3(76) - 550 mp
+-veteran pershing - 14sp
+-veteran slugger - 11sp
+-tank platoon - 7sp 
+-m36 jackson - 1000mp
+-m36 slugger - 950 mp
+-m18 hellcat - 450 mp
+-m18 timer reduced to same as m10 (660 sec)
+	Infantry
+-Shotguns are single infantry at 15mp each
+-US Bazooka single buy reduced from 100 to 80mp
+-US Ranger Bazooka single buy reduced from 150 to 130mp
+-US Ranger Recoiless single buy reduced from 150 to 130mp
+-Added a shotgun to marine rifle squad and now have a 1 minute startup timer
+-Added boys at rifle to paramarines
+
+
+
+		United Kingdom:
+----
+	Vehicles
+-Humber cooldown increased from 10 to 380
+- 75mm Cromwell varients, Matlida, and Crusaders had mp cost reduced by 10%
+-veteran firefly - 9sp
+-heavy tank troop - 10 sp - 100 second increase in startup timer
+-churchill crocodile - 5sp
+
+
+
+		Red Army:
+-----
+	Infantry
+Removed conscripts.
+SMG squad is sequentialed into the following price; 125, 112, 100, 100, 100.
+Rifle squad is sequentialed into the following price; 140, 126, 112, 112, 112.
+Rifle Assault squad is sequentialed into the following price; 150, 135, 120, 120, 120.
+Added Motorized SMG squad for 165mp
+Added Mechanized Assault SMG for 280mp
+BSF reduce by 20mp.
+Grounded Paras reduced by 20mp.
+DP single buy reduced by 5mp.
+DP Marine single buy reduced by 7mp.
+Bazooka reduced by 10mp.
+Reduced PTRD cost by 20 mp.
+Added sequential buy that reduces every 2nd PTRD buy to 40 mp.
+Added hero AT squad for 2 SP. 2 Guards equivelant PTRS, 1 regular PTRD, 1 AT Rifle support.
+Updated charge to reflect an assault rifle squad without lmgs.
+	Vehicles
+Reduced DS 39 cost by 20mp
+Reduced all other HMGs by 10mp.
+Added sequential maxim buy.
+Reduced M42 price by 15mp.
+Reduced M43 price by 20mp.
+Reduced BS3 cost by 25mp.
+Given M3 Lee
+BT Series reintroduced
+Removed zsu 37
+Reduced SU122 price by 50mp.
+Reduced SU152 price by 150mp.
+isu152 - 900 mp
+isu152 - 6sp
+Reduced M30 price by 100mp.
+Increased price of BR4 and BR5 by 100mp
+Increased price of Andyusha by 200mp
+Reduced BA64 price by 60mp.
+t 34 76 1942 - 330 mp
+t 34 57 - 450 mp
+t 34 76 mod 43 -350mp
+Reduced SU 85 price by 25mp.
+Reduced price of t34-85 by 75mp.
+Reduced price of 2x t34-85 sequence buy by 50mp.
+Reduced t34-85 startup cooldown by 60 seconds - 840 seconds.
+Reduced all KV series tanks by 100mp.
+Reduced price of IS1 by 100mp.
+IS 1 startup cooldown reduced by 120 seconds.
+is2 mod 1943 1750 mp
+is2 mod 1944 1800 mp
+Increased price of ISU 122 by 200mp
+Increased price of SU100 by 100mp
+
+
+
+		Guards:
+-----
+	Infantry
+guards smg squad - 175mp
+guards rifle squad - 200mp 
+guards rifle assault squad - 205mp
+elite guards smg squad - 215 mp
+guards shock smg squad 225 mp
+	Vehicles
+Reduced M30 price by 100mp.
+Reenabled BR5
+Increased price of BR4 and BR5 by 100mp
+Increased price of Andyusha by 200mp
+Removed zsu 37
+Reduced all KV series tanks by 100mp.
+Reduced price of IS1 by 100mp
+Increased price of is2 mod 1943 by 100 mp
+Increased price of is2 mod 1944 by 100 mp
+Increased price of ISU 122 by 200mp
+Increased price of SU100 by 100mp
+isu152 guards - 1000mp
+ba64 - 140 mp
+t 34 76 - 430 mp
+kv1 guards - 575 mp
+kv1s guards - 575 mp
+t 34 85 guards - 675 mp
+lend lease sherman - 8 sp
+bm31-12 - 13 sp
+dual guards kv85 - 10sp
+
+
+
+		Wher:
+-----
+	Infantry
+elite panzergrenadiers grossdeutschland - 320mp
+gebirgsjagers - 275 mp
+at rifle - 70mp
+grossdeutschland single buy mg42 - 110mp
+fallshirmjager mg42 single buy - 125mp
+	Vehicles
+Removed Karl Thor
+stuig33b - 850mp
+brumbar 1050mp
+28/32 - 1200mp
+stuka zu fuss - 1600mp
+pak puma aka 234/4 - 550mp
+234/3 - 325mp
+pz3m - 350mp
+pz3n 370mp
+pz4g - 480mp
+pz4h - 525mp
+Tiger 1425 and 1450
+panther A - 1350mp
+panther g - 1375mp
+king tiger henschell - 2450mp
+marder3m - 450mp
+hetzer - 600mp
+jagdpanther - 1750mp
+nashorne - 1300mp
+jagdtiger - 2750 mp(should probably receive 260 at least for now, since we arent compressing ranges to 230 or smth yet)
+pz4j battlegroup - 6sp
+two flak88 - 7sp
+sturmtiger - 15sp
+
+
+
+		SS:
+-----
+	Infantry
+ss at rifle - 70mp
+	Vehicles
+brumbar - 1075mp
+heavy nebel 1200mp,
+stuka zu fuss - 1600mp
+pz3m - 350mp
+pz3n - 380mp
+pz4g - 475 mp
+pz4h - 550mp
+pz4j - 525mp
+panther A - 1450mp
+panther G- 1475mp
+Tiger 1350 and 1375
+king tiger henschell - 2550mp
+marder3m - 425mp
+nashorn - 1350mp
+jagdpanther - 1800mp
+stug veteran - 775mp
+tiger veteran - 1550mp(due to new 240 range)
+veteran pz4j - 650mp
+veteran pz4h - 625mp
+king tiger veteran - 2750mp
+brumbar - 10sp
+veteran jagdpanther - 18sp
+stuka zo fuss - 16sp
+doublet hetzer - 8sp
+double 105 - 6sp
+
+
+
+		Ost:
+-----
+	Infantry
+Fixed miner timers to be in line with the rest of the factions
+veteran grenadiers - 215mp
+veteran jagers - 235mp
+veteran gebirgsjagers - 290mp
+elite fallshirmjagers - 475mp
+at rifle - 80mp
+ptrd- 110mp
+officer - 150mp
+	Vehicles
+horch - 130mp
+stuh veteran - 700mp
+pz4j veteran - 675mp
+kv1c - 675mp(only 200 range)
+panther veteran - 1500mp(maybe 1550)
+king tiger veteran - 2550mp
+hetzer veteran - 700mp
+nashorn veteran - 1450mp
+jagdpanther veteran - 1900mp
+stolen 85 - 5dp
+veteran jagdtiger - 20sp(especially if 260)
+double tiger 1- 16sp
+double tiger 1- startup cooldown reduced by 200 seconds
+
+
+
+		Jap:
+-----
+	Infantry
+
+	Vehicles
+Reduced 105 and 150 howitzer by 50mp

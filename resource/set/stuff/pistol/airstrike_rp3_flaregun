@@ -1,0 +1,30 @@
+{from "pattern pistol"
+	{tag "prepare"}
+	{Special
+		{Mode aim}
+		{PrepareTime 3}
+		{PrepareCursor "aimed_shot"}
+	}
+	{filling "ammo airstrike_rp3_flare" 1}
+	{entity "flaergun"}
+	{fireSound	"pistol/flaer"}
+	{range 250 250}
+	{gravity 0}
+	{curve "cumulative"}
+    	{projectileDamage 12}
+	{projectileDamageThreshold 1}
+	{AimingTolerance 3}
+	{Automatic}
+
+	;{aimtype curved}
+
+	{spreading 1
+		{SpreadPower	1}
+	}
+	{recoveryTime 0}
+	{reloadSound "nagan"}
+	{rechargeTime 90}
+	{reloadAnimBonus 500}
+ 	("speed" s(500))
+	("accuracy_flaer_240")
+}

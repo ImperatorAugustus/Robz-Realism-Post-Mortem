@@ -1,0 +1,24 @@
+{weapon_flame
+	{tag "weapon flame_thrower bullet nokeep"}
+	{filling "fuel" 0}
+	{inventory
+		{size 4 2 }
+		{weight 100 }
+	}
+	{entity "flame_thrower"}
+	{mass 100} ; kg
+	{fireSound "flame/shot"}
+	{Automatic}
+	{aimRange 70}
+	{maxRange 70}
+	{recoveryTime 0.2}
+    	{RelaxationTime 0.1}
+	{gravity 35}
+	{speed 230}
+    	{AimingTolerance 3}
+	{cursor "cannon_on"}
+	{burst
+		{short 1 0.1}
+		{long 2 1}
+	}
+}

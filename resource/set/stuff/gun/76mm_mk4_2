@@ -1,0 +1,4 @@
+{from "76mm_mk4"		; 17pdr, achilles, archer, TDs
+	{rechargeTime 8.0}
+}
+

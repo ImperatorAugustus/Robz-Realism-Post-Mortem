@@ -1,0 +1,19 @@
+{from "pattern gun2"		; "ml20"
+	{filling "bullet152 rusl"}
+	{fireSound "gun/howitzer/152mm_ml20"}
+	{reloadSound "gun_r04"}
+	("range_grazing_howitzer")
+	{rechargeTime 20}
+	{speed 655}
+	{range 210 210}
+	{projectileDamage 140}
+	("damage_170" a(140) b(125) c(117) d(100) e(93) range(210))
+	{parameters "aphebc"
+       		("damage_170" a(140) b(125) c(117) d(100) e(93) range(210))
+		{cursorReloading "cannon_reload_aphebc"}
+	}
+	{parameters "heat"
+       		("damage_heat" a(190) range(210))
+	}
+	("accuracy_grazinghowitzer_210m")
+}

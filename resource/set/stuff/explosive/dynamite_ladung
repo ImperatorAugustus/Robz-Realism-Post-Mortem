@@ -1,0 +1,26 @@
+{from "pattern throwable"
+	{tag "smallitemin1hand" "grenade" "dynamite"}
+	{special
+		{PrepareTime 10}
+		{PrepareCursor "grenade"}
+		{mode detonate}
+	}
+	{throw
+		{range 1.5}
+		{startAngle 50}
+	}		
+	{entity "ladung_3kg"}
+	{inventory
+		{weight 100}
+		{fsm "belt"}
+	}
+	{mass 3}
+	{damage blastwave
+		{energy 30}
+		{area 3 8}
+	}
+	{damage add blastwave
+		{energy 1}
+		{area 15 20}
+	}
+}

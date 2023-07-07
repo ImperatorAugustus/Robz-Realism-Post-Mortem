@@ -1,0 +1,11 @@
+{from "mosin_s"
+	{special
+		{mode aim}
+		{PrepareTime 1.5}	
+		{PrepareCursor "aimed_shot"}
+		{accuracy 2.5}
+		{throw_off}
+	}
+	{recoveryTime 1.8}
+	{range 150 150}
+}

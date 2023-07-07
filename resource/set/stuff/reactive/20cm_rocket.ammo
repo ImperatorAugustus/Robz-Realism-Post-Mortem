@@ -1,0 +1,30 @@
+{bullet
+	{tag "big size_maximum shell fg bomb"}
+	{inventory
+		{size 5 1}
+		{weight 60}
+	}	
+	{mass 10}
+	{entity "20cm_rocket_ammo"}
+	{view "20cm_rocket_ammo"
+		{tail "rocket_smoke" "tail"}
+	}
+	{detonationThickness 1}
+	{applyProjectile}	
+	{damage blastwave	 ; anti-tank
+		{energy 25}
+		{area 1.875 2.5}
+	}
+	{damage add blastwave	 ; anti-apc
+		{energy 12.5}
+		{area 7.4 12.5}
+	}	
+	{damage add blastwave	 ; anti-personel
+		{energy 1.2}
+		{area 19.25 28.5}
+	}	
+	{damage add blastwave	; anti-infantry
+		{energy 0.1}
+		{area 35 35}
+	}
+}

@@ -1,0 +1,32 @@
+{from "pattern throwable"
+	{tag "ap big cumulative pierce"}
+	{special
+		{PrepareTime 4}
+		{PrepareCursor "grenade"}
+		{mode detonate}
+	}
+	{damage blastwave
+		{energy 5.0}
+		{area 0.4 0.8}
+	}
+	{damage add blastwave
+		{energy 2.0}
+		{area 4.0 10.0}
+	}
+	{damage add blastwave
+		{energy 0.1}
+		{area 10 10}
+	}
+	{throw
+		{range 12}
+		{startAngle 40}
+		;{spreading 1.0}				
+		{constantSpeed 10.5}
+	}
+	{inventory {size 2 1}}
+	{entity "grenade_rg42x3"}
+	{damage cumulative
+		{damage 15}
+		{distance 1}
+	}
+}

@@ -1,0 +1,223 @@
+{tags
+	{"multi"
+		{"a_frontlines"
+			{"1v1_icy_village"
+				{"name" "Das Winterdorf <e(shadow)><c(bebebe)>1x1</c>"}
+			}
+			{"2v2_moskow"
+				{"name" "Moskau <e(shadow)><c(bebebe)>2x2</c>"}
+			}
+			{"2v2_silent_town"
+				{"name" "Geisterstadt <e(shadow)><c(bebebe)>2x2</c>"}
+			}
+			{"3v3_jungle"
+				{"name" "Schlacht im Dschungel <e(shadow)><c(bebebe)>3x3</c>"}
+			}
+			{"3v3_sevastopol"
+				{"name" "Sewastopol <e(shadow)><c(bebebe)>3x3</c>"}
+			}
+		}
+		{"1v1_snowfields"
+			{"name" "Verschneite Felder <e(shadow)><c(bebebe)>1x1</c>"}
+		}
+		{"1v1_frozen_river"
+			{"name" "Vereister Fluss <e(shadow)><c(bebebe)>1x1</c>"}
+		}
+		{"1v1_reloading_point"
+			{"name" "Versorgungspunkt <e(shadow)><c(bebebe)>1x1</c>"}
+		}
+		{"1v1_winter_hills"
+			{"name" "Verschneite Hügel <e(shadow)><c(bebebe)>1x1</c>"}
+		}
+		{"1v1_winter_church"
+			{"name" "Kirche im Winter <e(shadow)><c(bebebe)>1x1</c>"}
+		}
+		{"1v1_road"
+			{"name" "Straße <e(shadow)><c(bebebe)>1x1</c>"}
+		}
+		{"2v2_bocage"
+			{"name" "Bocage <e(shadow)><c(bebebe)>2x2</c>"}
+		}
+		{"2v2_tram_depot"
+			{"name" "Straßenbahndepot <e(shadow)><c(bebebe)>2x2</c>"}
+		}
+		{"2v2_farmstead"
+			{"name" "Gehöft <e(shadow)><c(bebebe)>2x2</c>"}
+		}
+		{"2v2_heights"
+			{"name" "Hügel <e(shadow)><c(bebebe)>2x2</c>"}
+		}
+		{"2v2_kanawa_mine"
+			{"name" "Die Minen von Kanawy <e(shadow)><c(bebebe)>2x2</c>"}
+		}
+		{"2v2_trainyard"
+			{"name" "Rangierbahnhof <e(shadow)><c(bebebe)>2x2</c>"}
+		}
+		{"2v2_warehouse"
+			{"name" "Werkhalle <e(shadow)><c(bebebe)>2x2</c>"}
+		}
+		{"2v2_canyon"
+			{"name" "Canyon <e(shadow)><c(bebebe)>2x2</c>"}
+		}
+		{"3v3_farmland"
+			{"name" "Ackerland <e(shadow)><c(bebebe)>3x3</c>"}
+		}
+		{"3v3_frag_town"
+			{"name" "Stadt der Toten <e(shadow)><c(bebebe)>3x3</c>"}
+		}
+		{"3v3_deadriver"
+			{"name" "Der tote Fluss <e(shadow)><c(bebebe)>3x3</c>"}
+		}
+		{"3v3_kasserine_pass"
+			{"name" "Der Kasserinpass <e(shadow)><c(bebebe)>3x3</c>"}
+		}
+		{"3v3_westland"
+			{"name" "Im Westen <e(shadow)><c(bebebe)>3x3</c>"}
+		}
+		{"4v4_bazerville"
+			{"name" "Bazerville<e(shadow)><c(bebebe)>4x4</c>"}
+		}
+		{"4v4_town"
+			{"name" "Stadt <e(shadow)><c(bebebe)>4x4</c>"}
+		}
+		{"4v4_lakeland"
+			{"name" "Seenlandschaft <e(shadow)><c(bebebe)>4x4</c>"}
+		}
+		{"4v4_langres"
+			{"name" "Die Straße nach Langres <e(shadow)><c(bebebe)>4x4</c>"}
+		}
+		{"4v4_suburb"
+			{"name" "Vorstadt 2 <e(shadow)><c(bebebe)>4x4</c>"}
+		}
+		{"4v4_nijmegen"
+			{"name" "Nimwegen <e(shadow)><c(bebebe)>4x4</c>"}
+		}
+		{"4v4_village"
+			{"name" "Dorf <e(shadow)><c(bebebe)>4x4</c>"}
+		}
+		{"5v5_suburb_3"
+			{"name" "Großer Vorort <e(shadow)><c(bebebe)>5x5</c>"}
+		}
+		{"5v5_forest"
+			{"name" "Wald <e(shadow)><c(bebebe)>5x5</c>"}
+		}
+		{"5v5_fields"
+			{"name" "Felder <e(shadow)><c(bebebe)>5x5</c>"}
+		}
+		{"5v5_rustle_of_sands"
+			{"name" "Das Rascheln des Sandes <e(shadow)><c(bebebe)>5x5</c>"}
+		}
+		{"5v5_march"
+			{"name" "Sumpf <e(shadow)><c(bebebe)>5x5</c>"}
+		}
+		{"6v6_station"
+			{"name" "Hügel<e(shadow)><c(bebebe)>6x6</c>"}
+		}
+		{"6v6_hunting"
+			{"name" "Die Jagd <e(shadow)><c(bebebe)>6x6</c>"}
+		}
+		{"6v6_dubovka"
+			{"name" "Dubowka <e(shadow)><c(bebebe)>6x6</c>"}
+		}
+		{"6v6_glubinka"
+			{"name" "Glubinka <e(shadow)><c(bebebe)>6x6</c>"}
+		}
+		{"8v8_desert_walk"
+			{"name" "Wüstenspaziergang <e(shadow)><c(bebebe)>8x8</c>"}
+		}
+		{"1v1_winter_fields"
+			{"name" "Verschneite Felder <e(shadow)><c(bebebe)>1x1</c>"}
+		}
+		{"2v2_plateau"
+			{"name" "Hochebene <e(shadow)><c(bebebe)>2x2</c>"}
+		}
+		{"3v3_crossing"
+			{"name" "Übergang <e(shadow)><c(bebebe)>3x3</c>"}
+		}
+		{"3v3_saipan"
+			{"name" "Saipan <e(shadow)><c(bebebe)>3x3</c>"}
+		}
+		{"5v5_railway_station"
+			{"name" "Bahnhof <e(shadow)><c(bebebe)>5x5</c>"}
+		}
+		{"1v1_argentan"
+			{"name" "Argentan <e(shadow)><c(bebebe)>1x1</c>"}
+		}
+		{"1v1_winter_town"
+			{"name" "Verschneiter Ort <e(shadow)><c(bebebe)>1x1</c>"}
+		}
+		{"3v3_river_bank"
+			{"name" "Flussufer <e(shadow)><c(bebebe)>3x3</c>"}
+		}
+		{"4v4_depot"
+			{"name" "Magazin <e(shadow)><c(bebebe)>4x4</c>"}
+		}
+		{"5v5_normandy"
+			{"name" "Normandie <e(shadow)><c(bebebe)>5x5</c>"}
+		}
+		{"1v1_winter_harbor"
+			{"name" "Verschneiter Hafen <e(shadow)><c(bebebe)>1x1</c>"}
+		}
+		{"2v2_crossroads"
+			{"name" "Kreuzung <e(shadow)><c(bebebe)>2x2</c>"}
+		}
+		{"2v2_redoctober"
+			{"name" "Roter Oktober <e(shadow)><c(bebebe)>2x2</c>"}
+		}
+		{"4v4_hutor"
+			{"name" "Hutor <e(shadow)><c(bebebe)>4x4</c>"}
+		}
+		{"5v5_port"
+			{"name" "Hafen <e(shadow)><c(bebebe)>5x5</c>"}
+		}
+		{"1v1_spring"
+			{"name" "Quelle <e(shadow)><c(bebebe)>1x1</c>"}
+		}
+		{"2v2_urban_garden"
+			{"name" "Stadtgarten<e(shadow)><c(bebebe)>2x2</c>"}
+		}
+		{"3v3_bog"
+			{"name" "Hochmoor<e(shadow)><c(bebebe)>3x3</c>"}
+		}
+		{"2v2_cold_stream"
+			{"name" "Coldstream<e(shadow)><c(bebebe)>2x2</c>"}
+		}
+		{"3v3_oasis"
+			{"name" "Oase<e(shadow)><c(bebebe)>3x3</c>"}
+		}
+		{"8v8_facility"
+			{"name" "Anlage<e(shadow)><c(bebebe)>8x8</c>"}
+		}
+		{"8v8_foothills"
+			{"name" "Vorgebirge<e(shadow)><c(bebebe)>8x8</c>"}
+		}
+		{"8v8_frostbite"
+			{"name" "Erfrierung<e(shadow)><c(bebebe)>8x8</c>"}
+		}
+		{"8v8_market"
+			{"name" "Markt<e(shadow)><c(bebebe)>8x8</c>"}
+		}
+		{"8v8_sands"
+			{"name" "Sandbank<e(shadow)><c(bebebe)>8x8</c>"}
+		}
+		{"2v2_ramelle"
+			{"name" "Ramelle <e(shadow)><c(bebebe)>2x2</c>"}
+		}
+		{"3v3_elalamein"
+			{"name" "El Alamein <e(shadow)><c(bebebe)>3x3</c>"}
+		}
+		{"3v3_shattered"
+			{"name" "Zerschlagung <e(shadow)><c(bebebe)>3x3</c>"}
+		}
+		{"5v5_docks"
+			{"name" "Docks <e(shadow)><c(bebebe)>5x5</c>"}
+		}
+		{"8v8_ostwind"
+			{"name" "Ostwind <e(shadow)><c(bebebe)>8x8</c>"}
+		}
+		{"heilshoop"
+			{"name" "Heilshoop <e(shadow)><c(bebebe)>8x8</c>"}
+		}
+		
+	}
+}

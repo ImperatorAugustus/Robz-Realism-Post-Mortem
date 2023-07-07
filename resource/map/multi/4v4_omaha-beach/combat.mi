@@ -1,0 +1,260 @@
+{mission
+	{Entity "map_point" 0xc001
+		{Position -5175.66 -690.04 18.82}
+		{xform zl 93.85}
+		{Extender "map_point"
+			{name b1}
+			{team b}
+			{zoneA 0}
+			{zoneB 0}
+			{phase 0}
+			{order 1}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 26}
+	}
+	{Entity "map_point" 0xc002
+		{Position -3073.02 -732.77}
+		{xform zl 93.85}
+		{Extender "map_point"
+			{name b2}
+			{team b}
+			{zoneA 0}
+			{zoneB 0}
+			{phase 0}
+			{order 2}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 27}
+	}
+	{Entity "map_point" 0xc003
+		{Position -549.8 -296.27}
+		{xform zl 93.85}
+		{Extender "map_point"
+			{name b3}
+			{team b}
+			{zoneA 0}
+			{zoneB 0}
+			{phase 0}
+			{order 3}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 28}
+	}
+	{Entity "map_point" 0xc004
+		{Position 2200.99 -350.51}
+		{xform zl 93.85}
+		{Extender "map_point"
+			{name b4}
+			{team b}
+			{zoneA 0}
+			{zoneB 0}
+			{phase 0}
+			{order 4}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 29}
+	}
+	{Entity "map_point" 0xc009
+		{Position 1443.96 16820.4}
+		{xform zl -103.75}
+		{Extender "map_point"
+			{name a1}
+			{team a}
+			{zoneA 0}
+			{zoneB 0}
+			{phase 0}
+			{order 1}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 34}
+	}
+	{Entity "map_point" 0xc00a
+		{Position -711.93 16869.5}
+		{xform zl -89.48}
+		{Extender "map_point"
+			{name a2}
+			{team a}
+			{zoneA 0}
+			{zoneB 0}
+			{phase 0}
+			{order 2}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 35}
+	}
+	{Entity "map_point" 0xc00b
+		{Position -3144 16832.2}
+		{xform zl -89.48}
+		{Extender "map_point"
+			{name a3}
+			{team a}
+			{zoneA 0}
+			{zoneB 0}
+			{phase 0}
+			{order 3}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 36}
+	}
+	{Entity "map_point" 0xc00c
+		{Position -6043 16594.7}
+		{xform zl -89.48}
+		{Extender "map_point"
+			{name a4}
+			{team a}
+			{zoneA 0}
+			{zoneB 0}
+			{phase 0}
+			{order 4}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 37}
+	}
+	{Tags "keep_places_without_door" 0x7172}
+	{Tags "keep_places_without_door" 0xab7}
+	{Tags "keep_places_without_door" 0x49a8}
+	{Tags "keep_places_without_door" 0x26b8}
+	{Tags "keep_places_without_door" 0x2713}
+	{Tags "keep_places_without_door" 0x275b}
+	{Tags "keep_places_without_door" 0x2776}
+	{Tags "keep_places_without_door" 0x2636}
+	{Tags "keep_places_without_door" 0xbc6}
+	{Tags "keep_places_without_door" 0xbe2}
+	{Tags "keep_places_without_door" 0x48f4}
+	{Tags "keep_places_without_door" 0x4910}
+	{Tags "keep_places_without_door" 0x141a}
+	{Tags "mine_planted" 0x154f}
+	{Tags "mine_planted" 0x4048}
+	{Tags "mine_planted" 0x4ac4}
+	{Tags "mine_planted" 0x4ac6}
+	{Tags "mine_planted" 0x4aca}
+	{Tags "mine_planted" 0x4acc}
+	{Tags "mine_planted" 0x4ace}
+	{Tags "mine_planted" 0x4ad0}
+	{Tags "mine_planted" 0x4ad2}
+	{Tags "mine_planted" 0x4ad4}
+	{Tags "mine_planted" 0x4ad6}
+	{Tags "mine_planted" 0x4ad8}
+	{Tags "mine_planted" 0x4ada}
+	{Tags "mine_planted" 0x4adc}
+	{Tags "mine_planted" 0x4ade}
+	{Tags "mine_planted" 0x7023}
+	{Tags "mine_planted" 0x7054}
+	{Tags "mine_planted" 0x70c2}
+	{Tags "mine_planted" 0x70c3}
+	{Tags "mine_planted" 0x547}
+	{Tags "mine_planted" 0x995}
+	{Tags "mine_planted" 0x996}
+	{Tags "mine_planted" 0x683c}
+	{Tags "mine_planted" 0x683d}
+	{Tags "mine_planted" 0x683e}
+	{Tags "mine_planted" 0x6840}
+	{Tags "mine_planted" 0x6842}
+	{Tags "mine_planted" 0x6845}
+	{Tags "mine_planted" 0x6847}
+	{Tags "mine_planted" 0x6849}
+	{Tags "keep_places_without_door" 0x4383}
+	{Tags "keep_places_without_door" 0x439f}
+	{Tags "keep_places_without_door" 0x463a}
+	{Tags "keep_places_without_door" 0x47b7}
+	{Tags "keep_places_without_door" 0x1c0c}
+	{Tags "keep_places_without_door" 0x18ea}
+	{Tags "keep_places_without_door" 0x55ce}
+	{Tags "keep_places_without_door" 0x16d7}
+	{Tags "keep_places_without_door" 0x16f3}
+	{Tags "keep_places_without_door" 0x170f}
+	{Tags "keep_places_without_door" 0x4752}
+	{Tags "keep_places_without_door" 0x2be5}
+	{Tags "keep_places_without_door" 0x2be6}
+	{Tags "keep_places_without_door" 0x2c09}
+	{Tags "keep_places_without_door" 0x2c22}
+	{Tags "keep_places_without_door" 0xd6b}
+	{Tags "keep_places_without_door" 0x655d}
+	{Tags "keep_places_without_door" 0x68af}
+	{Tags "keep_places_without_door" 0x6a2b}
+	{Tags "keep_places_without_door" 0x2208}
+	{Tags "mine_planted" 0x1a2b}
+	{Tags "mine_planted" 0x1a2f}
+	{Tags "mine_planted" 0x27ac}
+	{Tags "keep_places_without_door" 0x2982}
+	{Tags "keep_places_without_door" 0x2aaf}
+	{Tags "keep_places_without_door" 0x2bc8}
+	{Tags "mine_planted" 0x4170}
+	{Tags "mine_planted" 0x4171}
+	{Tags "mine_planted" 0x4172}
+	{Tags "mine_planted" 0x4173}
+	{Tags "mine_planted" 0x4174}
+	{Tags "mine_planted" 0x4175}
+	{Tags "mine_planted" 0x4176}
+	{Tags "mine_planted" 0x4177}
+	{Tags "mine_planted" 0x4178}
+	{Tags "mine_planted" 0x4179}
+	{Tags "mine_planted" 0x417a}
+	{Tags "mine_planted" 0x417b}
+	{Tags "keep_places_without_door" 0x60a6}
+	{Tags "keep_places_without_door" 0x60a7}
+	{Tags "keep_places_without_door" 0x60d4}
+	{Tags "keep_places_without_door" 0x6875}
+	{Tags "keep_places_without_door" 0x70c1}
+	{Tags "keep_places_without_door" 0x5476}
+	{Tags "keep_places_without_door" 0x5477}
+	{Tags "keep_places_without_door" 0x155}
+	{Tags "keep_places_without_door" 0x782}
+	{Tags "keep_places_without_door" 0x68a2}
+	{Tags "keep_places_without_door" 0x2128}
+	{Tags "keep_places_without_door" 0x784f}
+	{Tags "keep_places_without_door" 0x641}
+	{Tags "keep_places_without_door" 0x3894}
+	{Tags "keep_places_without_door" 0x24b}
+	{Tags "keep_places_without_door" 0x4234}
+	{Tags "keep_places_without_door" 0x610e}
+	{Environment "skirmish/usa-omaha"}
+	{Helpers
+		{reinforcements
+			{scoreTotal 0}
+			{scoreCurrent 0}
+		}
+	}
+	{Fog 1}
+}

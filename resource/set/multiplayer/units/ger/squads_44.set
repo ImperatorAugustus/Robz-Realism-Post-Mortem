@@ -13,9 +13,9 @@
 
 ;------------------------------german sturm-infantry || vet 4---------------------------------------------------
 
-("squad_with4types" side(ger) name(sturmgrens_44) c(180) g(squad_22) c1(squadleader2:1) c2(sturmgren_sl_asst:1) c3(sturmgren_sg44:4) c4(sturmgren_sg44_pzfst:2) b(squad1) t(all inf_only 44 45) level(1) cost(152) f(1.0))
+("squad_with4types" side(ger) name(sturmgrens_44) c(180) g(squad_22) c1(squadleader2:1) c2(sturmgren_sl_asst:1) c3(sturmgren_sg44:4) c4(sturmgren_sg44_pzfst:2) b(squad1) t(all inf_only 44 45) level(1) cost(165) f(1.0))
 
-("squad_with5types_vehicle" side(ger) name(sturmgrens_44_mech) c(180) g(squad_22) v1(sdkfz251_1_late) c1(vehicle_supporter:2) c2(squadleader2:1) c3(sturmgren_sl_asst:1) c4(sturmgren_sg44:4) c5(sturmgren_sg44_pzfst:2) b(squad1) t(all inf_only 44 45) level(1) cost(252) f(0.0))
+("squad_with5types_vehicle" side(ger) name(sturmgrens_44_mech) c(180) g(squad_22) v1(sdkfz251_1_late) c1(vehicle_supporter:2) c2(squadleader2:1) c3(sturmgren_sl_asst:1) c4(sturmgren_sg44:4) c5(sturmgren_sg44_pzfst:2) b(squad1) t(all inf_only 44 45) level(1) cost(265) f(0.0))
 
 ;------------------------------regular/veteran squad || vet 4/5-----------------------------------------------------------
 

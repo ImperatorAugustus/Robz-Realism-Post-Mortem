@@ -39,7 +39,7 @@
 {"pak43_vet"		("vs" c(60) t(all 43 44 45)	s(ger2) n(2) g(c111) sc(47.50) b(v2) cw(0) cp(20)) {level 1} {cost 950} {fore -19.0}}	;1200sec
 
 
-{"flak36a_vet"	    ("vs" c(60) t(artillery heavy 44 45)    s(ger2) n(2) g(c11) sc(40) b(v2) cw(2) cp(15)) {level 1} {cost 800} {fore -14.0}}		;900sec
+{"flak36a_vet"	    ("vs" c(60) t(artillery heavy 44 45)    s(ger2) n(2) g(c11) sc(40) b(v2) cw(2) cp(15)) {level 1} {cost 900} {fore -14.0}}		;900sec
 ("how" side(ger2) name(how_b)	c(60) c1(sdkfz7) c2(lefh18_ger2)	t(all 44 45 artillery)				g(c12) b(v2) level(1) cost(500) f(-14.0));900sec
 ("how" side(ger2) name(how_a)	c(60) c1(sdkfz7) c2(sfh18_ger2)	t(all 44 45 artillery heavyart)		g(c13) b(v2) level(1) cost(750) f(-19.0));1200sec
 
@@ -114,9 +114,9 @@
 {"hero7_ost"		("i2" c(480)					t(all 44 45 hero) s(ger2) n1(radioman:1) n2(smg:2) g(h8) b(hero)) {level 1} {cost 2.0} {fore -0.5}}
 {"hero8_ost"		("v3" c(600) c1(t34_3_ger2)		t(all 44 45 hero) s(ger2) n1(tankman:3) n2(tankman2:1) n3(rifle:4) g(h9) b(hero)) {level 1} {cost 5.0} {fore -0.5}}
 {"hero_ost_stug"	("v1" c(720) c1(stug3g_ace)		t(all 44 45 hero) s(ger2) n1(elite_tankman2:1) n2(elite_tankman:3) g(h10) b(hero)) {level 1} {cost 7.0} {fore -0.5}}
-{"hero10_ost"		("v1" c(600) c1(sdkfz8)			t(all 44 45 hero) s(ger2) n1(tankman:3) n2(tankman2:1) g(h11) b(hero)) {level 1} {cost 7.0} {fore -0.5}}
+{"hero10_ost"		("v1" c(600) c1(sdkfz8)			t(all 44 45 hero) s(ger2) n1(tankman:3) n2(tankman2:1) g(h11) b(hero)) {level 1} {cost 8.0} {fore -0.5}}
 
-{"hero9_ost"		("v1" c(720) c1(swg41)			t(all 44 45 artillery hero) s(ger2) n1(vehicle_supporter:2) n2(tankman2:0) g(h12) b(hero)) {level 1} {cost 11.0} {fore -0.5}}
+{"hero9_ost"		("v1" c(720) c1(swg41)			t(all 44 45 artillery hero) s(ger2) n1(vehicle_supporter:2) n2(tankman2:0) g(h12) b(hero)) {level 1} {cost 13.0} {fore -0.5}}
 {"hero11_ost"		("v1" c(720) c1(brummbar)		t(all 44 45 hero) s(ger2) n1(tankman:3) n2(tankman2:1) g(h13) b(hero)) {level 1} {cost 10.0} {fore -0.5}}  
 {"hero12_ost"		("v1" c(1400) c1(jagdtiger_ger2)t(all 44 45 hero) s(ger2) n1(tankman:3) n2(tankman2:1) g(h14) b(hero)) {level 1} {cost 20.0} {fore -0.5}}
 {"hero_ost_tigers"  ("v2" c(1000) c1(pz6e_ger2) 	t(all hero 44 45) s(ger2) n1(tankman:4) n2(tankman2:1) g(h15) b(hero)) {level 1} {cost 16.0} {fore -0.5}}

@@ -1,0 +1,968 @@
+{mission
+	{Entity "map_point" 0x8000
+		{Position -6799.33 -3506.96}
+		{xform zl 31.74}
+		{Extender "map_point"
+			{name b5}
+			{team b}
+			{zoneA 0}
+			{zoneB 0}
+			{phase 0}
+			{order 5}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 1}
+	}
+	{Entity "map_point" 0x8001
+		{Position -6865.59 -3259.89 85.56}
+		{xform zl 29.02}
+		{Extender "map_point"
+			{name b6}
+			{team b}
+			{zoneA 0}
+			{zoneB 0}
+			{phase 0}
+			{order 6}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 2}
+	}
+	{Entity "map_point" 0x8004
+		{Position -6461.01 -4157.1 118.99}
+		{xform zl 47.94}
+		{Extender "map_point"
+			{name b2}
+			{team b}
+			{zoneA 0}
+			{zoneB 0}
+			{phase 0}
+			{order 2}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 5}
+	}
+	{Entity "map_point" 0x8005
+		{Position -6191.43 -4307.76}
+		{xform zl 47.3}
+		{Extender "map_point"
+			{name b1}
+			{team b}
+			{zoneA 0}
+			{zoneB 0}
+			{phase 0}
+			{order 1}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 6}
+	}
+	{Entity "map_point" 0x8006
+		{Position -6708.07 -3727.31 100.02}
+		{xform zl 40.12}
+		{Extender "map_point"
+			{name b4}
+			{team b}
+			{zoneA 0}
+			{zoneB 0}
+			{phase 0}
+			{order 4}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 7}
+	}
+	{Entity "map_point" 0x8007
+		{Position -6612.5 -3903.76}
+		{xform zl 42.11}
+		{Extender "map_point"
+			{name b3}
+			{team b}
+			{zoneA 0}
+			{zoneB 0}
+			{phase 0}
+			{order 3}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 8}
+	}
+	{Entity "map_point" 0x8009
+		{Position 8490.14 3600.48 101.03}
+		{xform zl -139.56}
+		{Extender "map_point"
+			{name a5}
+			{team a}
+			{zoneA 0}
+			{zoneB 0}
+			{phase 0}
+			{order 5}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 10}
+	}
+	{Entity "map_point" 0x800b
+		{Position 8245.78 3660.65 99.98}
+		{xform zl -140.01}
+		{Extender "map_point"
+			{name a6}
+			{team a}
+			{zoneA 0}
+			{zoneB 0}
+			{phase 0}
+			{order 6}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 12}
+	}
+	{Entity "map_point" 0x800c
+		{Position 8874.44 2790.64 107.02}
+		{xform zl -142.09}
+		{Extender "map_point"
+			{name a1}
+			{team a}
+			{zoneA 0}
+			{zoneB 0}
+			{phase 0}
+			{order 1}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 13}
+	}
+	{Entity "map_point" 0x800d
+		{Position 8827.17 3018.07 107}
+		{xform zl -144.71}
+		{Extender "map_point"
+			{name a2}
+			{team a}
+			{zoneA 0}
+			{zoneB 0}
+			{phase 0}
+			{order 2}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 14}
+	}
+	{Entity "map_point" 0x800e
+		{Position 8682.86 3242.58 107.03}
+		{xform zl -146.12}
+		{Extender "map_point"
+			{name a3}
+			{team a}
+			{zoneA 0}
+			{zoneB 0}
+			{phase 0}
+			{order 3}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 15}
+	}
+	{Entity "map_point" 0x800f
+		{Position 8729.86 3520.87 102.92}
+		{xform zl -142.05}
+		{Extender "map_point"
+			{name a4}
+			{team a}
+			{zoneA 0}
+			{zoneB 0}
+			{phase 0}
+			{order 4}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 16}
+	}
+	{Entity "flag_point_1" 0x8010
+		{Position 419.8 -404.34}
+		{xform zl -21.53}
+		{Skeleton
+			{MtlParams
+				{"specular color" "e6e6e6ff"}
+			}
+		}
+		{Extender "map_point"
+			{name f1}
+			{zoneA 20}
+			{zoneB 20}
+			{phase 0}
+			{order 1}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{capture "b" "a"}
+				{enableCapture}
+				{release "b" "a"}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 17}
+	}
+	{Entity "flag_point_2" 0x8011
+		{Position 6841.47 -3181.15}
+		{Skeleton
+			{MtlParams
+				{"specular color" "e6e6e6ff"}
+			}
+		}
+		{Extender "map_point"
+			{name f2}
+			{zoneA 20}
+			{zoneB 20}
+			{phase 0}
+			{order 2}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{capture "b" "a"}
+				{enableCapture}
+				{release "b" "a"}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 18}
+	}
+	{Entity "flag_point_3" 0x8012
+		{Position -4925.25 2068.83}
+		{xform zl -16.84}
+		{Skeleton
+			{MtlParams
+				{"specular color" "e6e6e6ff"}
+			}
+		}
+		{Extender "map_point"
+			{name f3}
+			{zoneA 20}
+			{zoneB 20}
+			{phase 0}
+			{order 3}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{capture "b" "a"}
+				{enableCapture}
+				{release "b" "a"}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 19}
+	}
+	{Entity "flag_point_4" 0xa000
+		{Position 6039.69 -371.94}
+		{Skeleton
+			{MtlParams
+				{"specular color" "e6e6e6ff"}
+			}
+		}
+		{Extender "map_point"
+			{name f4}
+			{zoneA 20}
+			{zoneB 20}
+			{phase 0}
+			{order 4}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{capture "b" "a"}
+				{enableCapture}
+				{release "b" "a"}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 3}
+	}
+	{Entity "flag_point_5" 0xa001
+		{Position -5055.44 -62.87}
+		{Skeleton
+			{MtlParams
+				{"specular color" "e6e6e6ff"}
+			}
+		}
+		{Extender "map_point"
+			{name f5}
+			{zoneA 20}
+			{zoneB 20}
+			{phase 0}
+			{order 5}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{capture "b" "a"}
+				{enableCapture}
+				{release "b" "a"}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 4}
+	}
+	{Entity "flag_point_6" 0xa002
+		{Position 1437.08 -3173.37}
+		{Skeleton
+			{MtlParams
+				{"specular color" "e6e6e6ff"}
+			}
+		}
+		{Extender "map_point"
+			{name f6}
+			{zoneA 20}
+			{zoneB 20}
+			{phase 0}
+			{order 6}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{capture "b" "a"}
+				{enableCapture}
+				{release "b" "a"}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 9}
+	}
+	{Entity "flag_point_7" 0xa003
+		{Position -1354.83 2294.35 73.18}
+		{Skeleton
+			{MtlParams
+				{"specular color" "e6e6e6ff"}
+			}
+		}
+		{Extender "map_point"
+			{name f7}
+			{zoneA 20}
+			{zoneB 20}
+			{phase 0}
+			{order 7}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{capture "b" "a"}
+				{enableCapture}
+				{release "b" "a"}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 11}
+	}
+	{Entity "flag_point_8" 0xa004
+		{Position 2988.92 1337.32}
+		{Skeleton
+			{MtlParams
+				{"specular color" "e6e6e6ff"}
+			}
+		}
+		{Extender "map_point"
+			{name f8}
+			{zoneA 20}
+			{zoneB 20}
+			{phase 0}
+			{order 8}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{capture "b" "a"}
+				{enableCapture}
+				{release "b" "a"}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 20}
+	}
+	{Entity "flag_point_9" 0xa005
+		{Position -2788.96 -1978.88 212.85}
+		{Skeleton
+			{MtlParams
+				{"specular color" "e6e6e6ff"}
+			}
+		}
+		{Extender "map_point"
+			{name f9}
+			{zoneA 20}
+			{zoneB 20}
+			{phase 0}
+			{order 9}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{capture "b" "a"}
+				{enableCapture}
+				{release "b" "a"}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 21}
+	}
+	{Tags "keep_places_without_door" 0x5800}
+	{Tags "keep_places_without_door" 0x580a}
+	{Tags "keep_places_without_door" 0x3853}
+	{Tags "keep_places_without_door" 0x78bf}
+	{Tags "keep_places_without_door" 0x25e9}
+	{Tags "keep_places_without_door" 0x5004}
+	{Tags "keep_places_without_door" 0x601a}
+	{Tags "keep_places_without_door" 0x603d}
+	{Tags "keep_places_without_door" 0x20d4}
+	{Tags "keep_places_without_door" 0x60ad}
+	{Tags "keep_places_without_door" 0x1010}
+	{Tags "keep_places_without_door" 0x60c8}
+	{Tags "keep_places_without_door" 0x60cf}
+	{Tags "keep_places_without_door" 0x60d5}
+	{Tags "keep_places_without_door" 0x4c0}
+	{Tags "keep_places_without_door" 0x60c5}
+	{Tags "keep_places_without_door" 0x60ef}
+	{Tags "keep_places_without_door" 0x60f4}
+	{Tags "keep_places_without_door" 0x3081}
+	{Tags "keep_places_without_door" 0x7027}
+	{Tags "keep_places_without_door" 0x4134}
+	{Tags "keep_places_without_door" 0x4143}
+	{Tags "keep_places_without_door" 0x102d}
+	{Tags "keep_places_without_door" 0x7037}
+	{Tags "keep_places_without_door" 0x5cf}
+	{Tags "keep_places_without_door" 0x10d3}
+	{Tags "keep_places_without_door" 0x7057}
+	{Tags "keep_places_without_door" 0x4136}
+	{Tags "keep_places_without_door" 0x41a4}
+	{Tags "keep_places_without_door" 0x41a9}
+	{Tags "keep_places_without_door" 0x41cd}
+	{Tags "keep_places_without_door" 0x41d8}
+	{Tags "keep_places_without_door" 0x41ce}
+	{Tags "keep_places_without_door" 0x791}
+	{Tags "keep_places_without_door" 0x2114}
+	{Tags "keep_places_without_door" 0x6212}
+	{Tags "keep_places_without_door" 0x621b}
+	{Tags "keep_places_without_door" 0x756}
+	{Tags "keep_places_without_door" 0x427a}
+	{Tags "keep_places_without_door" 0x4299}
+	{Tags "keep_places_without_door" 0x312c}
+	{Tags "keep_places_without_door" 0x4835}
+	{Tags "keep_places_without_door" 0x484e}
+	{Tags "keep_places_without_door" 0x7400}
+	{Tags "keep_places_without_door" 0x85c}
+	{Tags "keep_places_without_door" 0x869}
+	{Tags "keep_places_without_door" 0x872}
+	{Tags "keep_places_without_door" 0x42f4}
+	{Tags "keep_places_without_door" 0x200a}
+	{Tags "keep_places_without_door" 0x2151}
+	{Tags "keep_places_without_door" 0x5048}
+	{Tags "keep_places_without_door" 0x5053}
+	{Tags "keep_places_without_door" 0x1212}
+	{Tags "keep_places_without_door" 0x682e}
+	{Tags "keep_places_without_door" 0x6835}
+	{Tags "keep_places_without_door" 0x683e}
+	{Tags "keep_places_without_door" 0x1221}
+	{Tags "keep_places_without_door" 0x70cd}
+	{Tags "keep_places_without_door" 0x438b}
+	{Tags "keep_places_without_door" 0x224b}
+	{Tags "keep_places_without_door" 0x2252}
+	{Tags "keep_places_without_door" 0x2261}
+	{Tags "keep_places_without_door" 0x70fe}
+	{Tags "keep_places_without_door" 0x7107}
+	{Tags "keep_places_without_door" 0x7130}
+	{Tags "keep_places_without_door" 0x226a}
+	{Tags "keep_places_without_door" 0x7837}
+	{Tags "keep_places_without_door" 0xac7}
+	{Tags "keep_places_without_door" 0x63a2}
+	{Tags "keep_places_without_door" 0x228f}
+	{Tags "keep_places_without_door" 0x7189}
+	{Tags "keep_places_without_door" 0x71a5}
+	{Tags "keep_places_without_door" 0x71ae}
+	{Tags "keep_places_without_door" 0x63d1}
+	{Tags "keep_places_without_door" 0xab7}
+	{Tags "keep_places_without_door" 0xab8}
+	{Tags "keep_places_without_door" 0xb80}
+	{Tags "keep_places_without_door" 0xb81}
+	{Tags "keep_places_without_door" 0xb82}
+	{Tags "keep_places_without_door" 0xbba}
+	{Tags "keep_places_without_door" 0xbbc}
+	{Tags "keep_places_without_door" 0x2316}
+	{Tags "keep_places_without_door" 0x1844}
+	{Tags "keep_places_without_door" 0xd75}
+	{Tags "keep_places_without_door" 0x45c3}
+	{Tags "keep_places_without_door" 0x45f6}
+	{Tags "keep_places_without_door" 0x2332}
+	{Tags "keep_places_without_door" 0x45bc}
+	{Tags "keep_places_without_door" 0x236e}
+	{Tags "keep_places_without_door" 0x239d}
+	{Tags "keep_places_without_door" 0x23aa}
+	{Tags "keep_places_without_door" 0x23b1}
+	{Tags "keep_places_without_door" 0x23c2}
+	{Tags "keep_places_without_door" 0x23cf}
+	{Tags "keep_places_without_door" 0x3347}
+	{Tags "keep_places_without_door" 0x645f}
+	{Tags "keep_places_without_door" 0x23d8}
+	{Tags "keep_places_without_door" 0x2420}
+	{Tags "keep_places_without_door" 0x2421}
+	{Tags "keep_places_without_door" 0x5237}
+	{Tags "keep_places_without_door" 0x5238}
+	{Tags "keep_places_without_door" 0x5239}
+	{Tags "keep_places_without_door" 0x523a}
+	{Tags "keep_places_without_door" 0xfb4}
+	{Tags "keep_places_without_door" 0x46a7}
+	{Tags "keep_places_without_door" 0x2464}
+	{Tags "keep_places_without_door" 0x2465}
+	{Tags "keep_places_without_door" 0x246e}
+	{Tags "keep_places_without_door" 0x23f6}
+	{Tags "keep_places_without_door" 0x247e}
+	{Tags "keep_places_without_door" 0x247f}
+	{Tags "keep_places_without_door" 0x2480}
+	{Tags "keep_places_without_door" 0x2481}
+	{Tags "keep_places_without_door" 0x64bf}
+	{Tags "keep_places_without_door" 0x24d2}
+	{Tags "keep_places_without_door" 0x2518}
+	{Tags "keep_places_without_door" 0x2533}
+	{Tags "keep_places_without_door" 0x726c}
+	{Tags "keep_places_without_door" 0x6488}
+	{Tags "keep_places_without_door" 0x48cc}
+	{Tags "keep_places_without_door" 0x18a2}
+	{Tags "keep_places_without_door" 0x25e3}
+	{Tags "keep_places_without_door" 0x48e6}
+	{Tags "keep_places_without_door" 0x5273}
+	{Tags "keep_places_without_door" 0x527e}
+	{Tags "keep_places_without_door" 0x5295}
+	{Tags "keep_places_without_door" 0x1c07}
+	{Tags "keep_places_without_door" 0x1c0c}
+	{Tags "keep_places_without_door" 0x7874}
+	{Tags "keep_places_without_door" 0x4953}
+	{Tags "keep_places_without_door" 0x66e7}
+	{Tags "keep_places_without_door" 0x66ec}
+	{Tags "keep_places_without_door" 0x66f6}
+	{Tags "keep_places_without_door" 0x16a6}
+	{Tags "keep_places_without_door" 0x16bf}
+	{Tags "keep_places_without_door" 0x4c49}
+	{Tags "keep_places_without_door" 0x1a88}
+	{Tags "keep_places_without_door" 0x4a7b}
+	{Tags "opened" 0x694c}
+	{Tags "keep_places_without_door" 0x1c98}
+	{Tags "keep_places_without_door" 0x739b}
+	{Tags "keep_places_without_door" 0x1e53}
+	{Tags "keep_places_without_door" 0x1e54}
+	{Tags "keep_places_without_door" 0x1e55}
+	{Tags "keep_places_without_door" 0x61f6}
+	{Tags "keep_places_without_door" 0x61f7}
+	{Tags "keep_places_without_door" 0x54b6}
+	{Tags "keep_places_without_door" 0x54b7}
+	{Tags "keep_places_without_door" 0x54b8}
+	{Tags "keep_places_without_door" {0x6663 "2"}}
+	{Environment "multi/multi_01"}
+	{Helpers
+		{reinforcements
+			{scoreTotal 0}
+			{scoreCurrent 0}
+		}
+		{triggers
+			{"environment"
+				{condition
+				}
+				{actions
+					{"switch"
+						{"case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"environment"
+								{name "multi/multi_10"}
+								{time -1}
+								{apply}
+							}
+							{"delete"
+								{selector
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"environment"
+								{name "multi/multi_09"}
+								{time -1}
+								{apply}
+							}
+							{"delete"
+								{selector
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{amount 1
+									}
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"environment"
+								{name "multi/multi_08"}
+								{time -1}
+								{apply}
+							}
+							{"delete"
+								{selector
+									{amount 2
+									}
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"environment"
+								{name "multi/multi_07"}
+								{time -1}
+								{apply}
+							}
+							{"delete"
+								{selector
+									{amount 2
+									}
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"environment"
+								{name "multi/multi_06"}
+								{time -1}
+								{apply}
+							}
+							{"delete"
+								{selector
+									{amount 2
+									}
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"environment"
+								{name "multi/multi_05"}
+								{time -1}
+								{apply}
+							}
+							{"delete"
+								{selector
+									{amount 2
+									}
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"environment"
+								{name "multi/multi_04"}
+								{time -1}
+								{apply}
+							}
+							{"delete"
+								{selector
+									{amount 2
+									}
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"environment"
+								{name "multi/multi_03"}
+								{time -1}
+								{apply}
+							}
+							{"delete"
+								{selector
+									{amount 2
+									}
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"environment"
+								{name "multi/multi_02"}
+								{time -1}
+								{apply}
+							}
+							{"delete"
+								{selector
+									{amount 2
+									}
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+						}
+						{"default"
+							{"environment"
+								{name "multi/multi_01"}
+								{time -1}
+								{apply}
+							}
+							{"delete"
+								{selector
+									{amount 2
+									}
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+						}
+					}
+				}
+			}
+			{"music"
+				{condition
+				}
+				{actions
+					{"music"
+						{start "/music/skirmish_background_01.mp3"}
+						{stop_all}
+						{volume game}
+						{fade 5}
+						{loop}
+					}
+					{"delay"
+						{time 480}
+					}
+					{"music"
+						{start "/music/skirmish_background_02.mp3"}
+						{stop_all}
+						{volume game}
+						{fade 5}
+						{loop}
+					}
+					{"delay"
+						{time 120}
+					}
+					{"music"
+						{start "/music/skirmish_background_01.mp3"}
+						{stop_all}
+						{volume game}
+						{fade 5}
+						{loop}
+					}
+					{"delay"
+						{time 480}
+					}
+					{"music"
+						{start "/music/skirmish_background_02.mp3"}
+						{stop_all}
+						{volume game}
+						{fade 5}
+						{loop}
+					}
+					{"delay"
+						{time 120}
+					}
+					{"trigger"
+						{name "music"}
+					}
+				}
+			}
+		}
+	}
+	{Players
+		{count 17}
+		{diplomacy
+			1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+		}
+	}
+	{Fog 1}
+	{EntityManager {Enabled}
+		{CountScale "x0.5"}
+	}
+}

@@ -1,0 +1,676 @@
+{mission
+	{Entity "flag_point_2" 0xe005
+		{Position 2027.78 -2770.55}
+		{xform zl 179.64 scale 0.75}
+		{Extender "map_point"
+			{name f2}
+			{zoneA 12}
+			{zoneB 12}
+			{phase 0}
+			{order 2}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{capture "b" "a"}
+				{release "b" "a"}
+			}
+		}
+		{Player 0}
+		{MID 9}
+	}
+	{Entity "flag_point_5" 0xe00a
+		{Position -2025.31 -1124.43}
+		{xform zl -179.31 scale 0.75}
+		{Extender "map_point"
+			{name f5}
+			{zoneA 12}
+			{zoneB 12}
+			{phase 0}
+			{order 5}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{capture "b" "a"}
+				{release "b" "a"}
+			}
+		}
+		{Player 0}
+		{MID 14}
+	}
+	{Entity "flag_point_4" 0x8008
+		{Position 5925.14 -1122.44}
+		{xform zl -179.58 scale 0.75}
+		{Extender "map_point"
+			{name f4}
+			{zoneA 12}
+			{zoneB 12}
+			{phase 0}
+			{order 4}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{capture "b" "a"}
+				{release "b" "a"}
+			}
+		}
+		{Player 0}
+		{MID 3}
+	}
+	{Entity "flag_point_3" 0x8012
+		{Position 2022.74 523.73}
+		{xform zl 177.96 scale 0.75}
+		{Extender "map_point"
+			{name f3}
+			{zoneA 12}
+			{zoneB 12}
+			{phase 0}
+			{order 3}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{capture "b" "a"}
+				{release "b" "a"}
+			}
+		}
+		{Player 0}
+		{MID 10}
+	}
+	{Entity "flag_point_6" 0x8014
+		{Position 3983.43 527.9}
+		{xform zl 179.34 scale 0.75}
+		{Extender "map_point"
+			{name f6}
+			{zoneA 12}
+			{zoneB 12}
+			{phase 0}
+			{order 6}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{capture "b" "a"}
+				{release "b" "a"}
+			}
+		}
+		{Player 0}
+		{MID 12}
+	}
+	{Entity "flag_point_7" 0x800a
+		{Position -78.09 -2777.23}
+		{xform zl -176.53 scale 0.75}
+		{Extender "map_point"
+			{name f7}
+			{zoneA 12}
+			{zoneB 12}
+			{phase 0}
+			{order 7}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{capture "b" "a"}
+				{release "b" "a"}
+			}
+		}
+		{Player 0}
+		{MID 5}
+	}
+	{Entity "map_point" 0xc009
+		{Position -69.61 3677.66}
+		{xform zl -86.83}
+		{Extender "map_point"
+			{name b3}
+			{team b}
+			{phase 0}
+			{order 3}
+			{visor SpawnPoint}
+		}
+		{Player 0}
+		{MID 17}
+	}
+	{Entity "map_point" 0xc00a
+		{Position 2374.04 3679.77}
+		{xform zl -89.9}
+		{Extender "map_point"
+			{name b2}
+			{team b}
+			{phase 0}
+			{order 2}
+			{visor SpawnPoint}
+		}
+		{Player 0}
+		{MID 18}
+	}
+	{Entity "map_point" 0x8002
+		{Position 3574.06 3702.87}
+		{xform zl -90.84}
+		{Extender "map_point"
+			{name b1}
+			{team b}
+			{phase 0}
+			{order 1}
+			{visor SpawnPoint}
+		}
+		{Player 0}
+		{MID 19}
+	}
+	{Entity "map_point" 0xc005
+		{Position -75.35 -5925.97}
+		{xform zl 89.48}
+		{Extender "map_point"
+			{name a1}
+			{team a}
+			{phase 0}
+			{order 1}
+			{visor SpawnPoint}
+		}
+		{Player 0}
+		{MID 29}
+	}
+	{Entity "map_point" 0xc010
+		{Position 3524.35 -5926.06}
+		{xform zl 86.49}
+		{Extender "map_point"
+			{name a3}
+			{team a}
+			{phase 0}
+			{order 3}
+			{visor SpawnPoint}
+		}
+		{Player 0}
+		{MID 34}
+	}
+	{Entity "map_point" 0xc011
+		{Position 2399.71 -5939.47}
+		{xform zl 88.77}
+		{Extender "map_point"
+			{name a2}
+			{team a}
+			{phase 0}
+			{order 2}
+			{visor SpawnPoint}
+		}
+		{Player 0}
+		{MID 35}
+	}
+	{Entity "battle" 0x8003
+		{Position 1244.41 -1136.02}
+		{xform zl -42.71}
+		{Extender "speaker"
+			{SoundName "world/skirmish_environment/open_ground_night2"}
+		}
+	}
+	{Entity "battle" 0xe000
+		{Position 1188.7 -1144.09}
+		{xform zl -42.71}
+		{Extender "speaker"
+			{SoundName "world/skirmish_environment/open_ground_day2"}
+		}
+	}
+	{Entity "battle" 0xe001
+		{Position 1153.02 -1101.57}
+		{xform zl -42.71}
+		{Extender "speaker"
+			{SoundName "world/skirmish_environment/open_ground_day1"}
+		}
+	}
+	{Entity "battle" 0x8005
+		{Position 1264.62 -1090.22}
+		{xform zl -42.71}
+		{Extender "speaker"
+			{SoundName "world/rain/00"}
+		}
+	}
+	{Entity "battle" 0x8006
+		{Position 1220.49 -1185.58}
+		{xform zl -42.71}
+		{Extender "speaker"
+			{SoundName "world/skirmish_environment/light_jungle_night2"}
+		}
+	}
+	{Entity "battle" 0x800c
+		{Position 1210.85 -1096.39}
+		{xform zl -42.71}
+		{Extender "speaker"
+			{SoundName "world/skirmish_environment/open_ground_night1"}
+		}
+	}
+	{Entity "flag_point_8" 0xb000
+		{Position -74.98 531.76}
+		{xform zl 179 scale 0.75}
+		{Extender "map_point"
+			{name f8}
+			{zoneA 12}
+			{zoneB 12}
+			{phase 0}
+			{order 8}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{capture "b" "a"}
+				{release "b" "a"}
+			}
+		}
+		{Player 0}
+		{MID 1}
+	}
+	{Entity "flag_point_9" 0xb001
+		{Position 3974.96 -2774.89}
+		{xform zl -179.99 scale 0.75}
+		{Extender "map_point"
+			{name f9}
+			{zoneA 12}
+			{zoneB 12}
+			{phase 0}
+			{order 9}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{capture "b" "a"}
+				{release "b" "a"}
+			}
+		}
+		{Player 0}
+		{MID 2}
+	}
+	{Entity "flag_point_1" 0xa000
+		{Position 1501.45 -1124.09}
+		{xform zl 179.34 scale 0.75}
+		{Extender "map_point"
+			{name f1}
+			{zoneA 12}
+			{zoneB 12}
+			{phase 0}
+			{order 1}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{capture "b" "a"}
+				{release "b" "a"}
+			}
+		}
+		{Player 0}
+		{MID 6}
+	}
+	{Tags "switch_right" 0x7136}
+	{Tags "switch_right" 0x7137}
+	{Tags "switch_right" 0x7138}
+	{Tags "switch_right" 0x3171}
+	{Tags "switch_right" 0x2802}
+	{Tags "switch_left" 0x3827}
+	{Tags "switch_right" 0x2000}
+	{Tags "switch_right" 0x5001}
+	{Tags "switch_right" 0x380b}
+	{Tags "switch_right" 0x4005}
+	{Tags "keep_places_without_door" 0x6060}
+	{Tags "switch_right" 0x2001}
+	{Tags "keep_places_without_door" 0x19c}
+	{Tags "keep_places_without_door" 0x4f5}
+	{Tags "keep_places_without_door" 0xd87}
+	{Tags "keep_places_without_door" 0xd89}
+	{Tags "keep_places_without_door" 0xd8a}
+	{Tags "keep_places_without_door" 0xd8b}
+	{Tags "keep_places_without_door" 0x943}
+	{Tags "keep_places_without_door" 0x28a4}
+	{Tags "switch_right" 0x4103}
+	{Tags "keep_places_without_door" 0x2281}
+	{Tags "keep_places_without_door" 0x2282}
+	{Tags "keep_places_without_door" 0x4090}
+	{Tags "keep_places_without_door" 0x5819}
+	{Tags "keep_places_without_door" 0x112b}
+	{Tags "keep_places_without_door" 0x514d}
+	{Tags "switch_right" {0x381c "07"}}
+	{Tags "keep_places_without_door" {0x20a5 "ladder17"}}
+	{Tags "keep_places_without_door" {0x20a5 "wall02"}}
+	{Tags "keep_places_without_door" {0x20a5 "wall07"}}
+	{Tags "night" 0x8003}
+	{Tags "day" 0xe000}
+	{Tags "day" 0xe001}
+	{Tags "rain" 0x8005}
+	{Tags "day" 0x8006}
+	{Tags "night" 0x800c}
+	{Brain 0x3b5
+		{Properties
+			{fire_mode hold}
+		}
+	}
+	{Environment "multi/multi_01"}
+	{Helpers
+		{reinforcements
+			{scoreTotal 0}
+			{scoreCurrent 0}
+		}
+		{triggers
+			{"environment"
+				{condition
+				}
+				{actions
+					{"switch"
+						{"case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"environment"
+								{name "multi/multi_10"}
+							}
+							{"delete"
+								{selector
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"environment"
+								{name "multi/multi_09"}
+							}
+							{"delete"
+								{selector
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{amount 1
+									}
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"environment"
+								{name "multi/multi_08"}
+							}
+							{"delete"
+								{selector
+									{amount 2
+									}
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"environment"
+								{name "multi/multi_07"}
+							}
+							{"delete"
+								{selector
+									{amount 2
+									}
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"environment"
+								{name "multi/multi_06"}
+							}
+							{"delete"
+								{selector
+									{amount 2
+									}
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"environment"
+								{name "multi/multi_05"}
+							}
+							{"delete"
+								{selector
+									{amount 2
+									}
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"environment"
+								{name "multi/multi_04"}
+							}
+							{"delete"
+								{selector
+									{amount 2
+									}
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"environment"
+								{name "multi/multi_03"}
+							}
+							{"delete"
+								{selector
+									{amount 2
+									}
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"environment"
+								{name "multi/multi_02"}
+							}
+							{"delete"
+								{selector
+									{amount 2
+									}
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+						}
+						{"default"
+							{"environment"
+								{name "multi/multi_01"}
+							}
+							{"delete"
+								{selector
+									{amount 2
+									}
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+						}
+					}
+				}
+			}
+			{"music"
+				{condition
+				}
+				{actions
+					{"music"
+						{start "/music/skirmish_background_01.mp3"}
+						{stop_all}
+						{volume game}
+						{fade 5}
+						{loop}
+					}
+					{"delay"
+						{time 480}
+					}
+					{"music"
+						{start "/music/skirmish_background_02.mp3"}
+						{stop_all}
+						{volume game}
+						{fade 5}
+						{loop}
+					}
+					{"delay"
+						{time 120}
+					}
+					{"music"
+						{start "/music/skirmish_background_01.mp3"}
+						{stop_all}
+						{volume game}
+						{fade 5}
+						{loop}
+					}
+					{"delay"
+						{time 480}
+					}
+					{"music"
+						{start "/music/skirmish_background_02.mp3"}
+						{stop_all}
+						{volume game}
+						{fade 5}
+						{loop}
+					}
+					{"delay"
+						{time 120}
+					}
+					{"trigger"
+						{name "music"}
+					}
+				}
+			}
+		}
+	}
+	{Players
+		{count 17}
+		{diplomacy
+			1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+		}
+	}
+	{Fog 1}
+	{EntityManager {Enabled}
+		{CountScale "x0.5"}
+	}
+}

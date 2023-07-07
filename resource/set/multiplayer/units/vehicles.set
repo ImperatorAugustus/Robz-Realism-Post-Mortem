@@ -404,6 +404,16 @@
     ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
     {content "%v1 ( mp/%s/vehicle_supporter:1 mp/%s/%c1 mp/%s/%c2 mp/%s/%c3 mp/%s/%c4 mp/%s/%c5 mp/%s/%c6) %v1 ( mp/%s/vehicle_supporter:1 mp/%s/%c1 mp/%s/%c2 mp/%s/%c3 mp/%s/%c4 mp/%s/%c5 mp/%s/%c6)"}
 )
+; 2 different vehicle x 2 - 9 infantry types - Wher double mech sturms
+(define "v229"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "%c1 ( mp/%s/%n1) %c1 ( mp/%s/%n1) %c2 ( mp/%s/%n2 mp/%s/%n3 mp/%s/%n4 mp/%s/%n5 mp/%s/%n6 mp/%s/%n7 mp/%s/%n8 mp/%s/%9) %c2 ( mp/%s/%n2 mp/%s/%n3 mp/%s/%n4 mp/%s/%n5 mp/%s/%n6 mp/%s/%n7 mp/%s/%n8 mp/%s/%9)"}
+)
+; 3 different vehicles, 1x3 types - 1 infantry types
+(define "v1111"
+    ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
+    {content "%c1 ( mp/%s/%n1 ) %c2 ( mp/%s/%n1) %c3 ( mp/%s/%n1 )" }
+)
 
 ;new formation defines---------------------------------------------------------------------------####################################################################
 ; US mech platoon

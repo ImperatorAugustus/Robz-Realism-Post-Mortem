@@ -23,9 +23,9 @@
 ;같캛utton 2같�
 
 {"30_browning_m1919a4"	("vs" c(10) t(all 42 43 44 45) 	s(usa) n(2) g(c1) sc(5.50) b(v2) cw(2) cp(5)) {level 1} {cost 110} {fore -2.0}}			;30sec
-{"50_browning_m2hb"		("vs" c(10) t(all 42 43 44 45) 	s(usa) n(2) g(c1) sc(8.00) b(v2) cw(2) cp(5)) {level 1} {cost 160} {fore -2.0}}			;30sec
-{"browning_30cal"		("vs" c(10) t(all 42 43 44 45) 	s(usa) n(2) g(c1) sc(6.50) b(v2) cw(2) cp(5)) {level 1} {cost 130} {fore -2.0}}			;30sec
-{"browning_m2hb"		("vs" c(10) t(all 42 43 44 45) 	s(usa) n(2) g(c1) sc(9.00) b(v2) cw(2) cp(5)) {level 1} {cost 180} {fore -2.0}}			;30sec
+{"50_browning_m2hb"		("vs" c(10) t(all 42 43 44 45) 	s(usa) n(2) g(c1) sc(8.00) b(v2) cw(2) cp(5)) {level 1} {cost 150} {fore -2.0}}			;30sec
+{"browning_30cal"		("vs" c(10) t(all 42 43 44 45) 	s(usa) n(2) g(c1) sc(6.50) b(v2) cw(2) cp(5)) {level 1} {cost 110} {fore -2.0}}			;30sec
+{"browning_m2hb"		("vs" c(10) t(all 42 43 44 45) 	s(usa) n(2) g(c1) sc(9.00) b(v2) cw(2) cp(5)) {level 1} {cost 150} {fore -2.0}}			;30sec
 {"maxson"           	("vs" c(30) t(all 43 44 45) 	s(usa) n(1) g(c2) sc(10.00) b(v2) cw(2) cp(5)) {level 1} {cost 200} {fore -4.0}}			;150sec
 {"60mm_brandt_usa"      ("vs" c(10) t(all 42 43 44 45 mortar) 	s(usa) n(1) g(c14) sc(11.00) b(v2) cw(2) cp(5)) {level 1} {cost 220} {fore -2.0}}		;30sec
 {"81mm_brandt_usa"      ("vs" c(10) t(all 42 43 44 45 mortar) 	s(usa) n(2) g(c3) sc(19.25) b(v2) cw(2) cp(5)) {level 1} {cost 385} {fore -2.0}}		;30sec
@@ -142,6 +142,7 @@
 
 ;같캛utton Hero같�
 
+{"hero_log"        ("v1111" c(180) c1(gmc) c2(ammo_box_us_inf) c3(ammo_box_us_art) 	t(all 42 43 44 45 hero) s(usa) n1(vehicle_supporter:2) g(h1) b(hero)) {level 1} {cost 1.0} {fore -0.5}}
 {"hero1_usa"        ("v0" c(120) c1(m8_howitzer) 	t(all 42 43 44 45 hero) s(usa) n1(elite:2) g(h1) b(hero)) {level 1} {cost 2.0} {fore -0.5}}
 ;{"willys50_hero"     ("v0" c(120) c1(np_willys50) 	t(all 42 43 44 45 hero) s(usa) n1(vehicle_supporter:2) g(h1) b(hero)) {level 1} {cost 1.0} {fore -0.5}}
 ;{"heronew1_usa"     ("i2" c(120)			t(all 42 43 44 45 hero) s(usa) n1(rifle:5) n2(mgun2:1) g(h1) b(hero)) {level 1} {cost 1.0} {fore -0.5}}

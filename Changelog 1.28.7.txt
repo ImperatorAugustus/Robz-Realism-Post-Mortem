@@ -89,6 +89,8 @@ Flak 88 and KwK 36 all have a base range of 230 now.
 USA
 -----
 	Vehicles
+-Both 30 cals made to 110.
+-Both 50 cals made to 150
 -Removed M19
 -Removed Super Persh MP buy
 -Willies 50 cal 175 to 135mp
@@ -109,6 +111,7 @@ USA
 -m36 slugger - 950 mp
 -m18 hellcat - 450 mp
 -m18 timer reduced to same as m10 (660 sec)
+Added US logistics SP buy. 1sp for a normal truck and an inf and art ammo crate
 	Infantry
 -Shotguns are single infantry at 15mp each
 -US Bazooka single buy reduced from 100 to 80mp
@@ -223,7 +226,11 @@ gebirgsjagers - 275 mp
 at rifle - 70mp
 grossdeutschland single buy mg42 - 110mp
 fallshirmjager mg42 single buy - 125mp
+Sturm Grens and Sturm Gren Mech increased by 13 mp.
 	Vehicles
+Changed Pak 43 SP buy to SP
+Removed Pak 44 from mp
+Increased Flak 88 cost by 100mp
 Removed Karl Thor
 stuig33b - 850mp
 brumbar 1050mp
@@ -247,6 +254,9 @@ jagdtiger - 2750 mp(should probably receive 260 at least for now, since we arent
 pz4j battlegroup - 6sp
 two flak88 - 7sp
 sturmtiger - 15sp
+Panther and Tiger Veteran to 14 sp
+Sniper SP buy replaced by 42 Lafette
+Replaced double nebelwerfer buy with an 11sp double mechanized sturm pioneer with 2 nebelwerfers loaded with smoke
 
 
 
@@ -255,6 +265,7 @@ sturmtiger - 15sp
 	Infantry
 ss at rifle - 70mp
 	Vehicles
+Increased Flak 88 cost by 100mp
 brumbar - 1075mp
 heavy nebel 1200mp,
 stuka zu fuss - 1600mp
@@ -280,6 +291,7 @@ veteran jagdpanther - 18sp
 stuka zo fuss - 16sp
 doublet hetzer - 8sp
 double 105 - 6sp
+Tiger and Panther Ace to 16 sp
 
 
 
@@ -295,6 +307,7 @@ at rifle - 80mp
 ptrd- 110mp
 officer - 150mp
 	Vehicles
+Increased Flak 88 cost by 100mp
 horch - 130mp
 stuh veteran - 700mp
 pz4j veteran - 675mp
@@ -308,6 +321,8 @@ stolen 85 - 5dp
 veteran jagdtiger - 20sp(especially if 260)
 double tiger 1- 16sp
 double tiger 1- startup cooldown reduced by 200 seconds
+sdfkz 8 increased sp cost by 1
+swg 41 increased by 2 sp
 
 
 

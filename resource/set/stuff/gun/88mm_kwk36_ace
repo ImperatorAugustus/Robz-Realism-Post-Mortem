@@ -8,5 +8,5 @@
 	{parameters "heat"
         	("damage_heat" a(110) range(250))
 	}
-	("accuracy_maximum_240m_vet")
+	("accuracy_maximum_250m_vet")
 }

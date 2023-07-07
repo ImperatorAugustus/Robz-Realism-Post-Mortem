@@ -19,5 +19,5 @@
 	{parameters "fg"
 		{range 230 230}
 	}
-	("accuracy_maximum_vet")
+	("accuracy_maximum_230m_vet")
 }

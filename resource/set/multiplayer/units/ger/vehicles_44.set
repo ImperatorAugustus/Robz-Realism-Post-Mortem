@@ -147,7 +147,7 @@
 {"flak18_hero"      ("v2" c(600) c1(flak18a) 		t(hero artillery 44) s(ger) n1(vehicle_supporter:2) n2(tankman2:0) g(h8) b(hero)) {level 1} {cost 7.0} {fore -0.5}}
 {"heronew3_ger"	    ("2v" c(900) c1(steyr_rso) c2(pak44) t(hero 44) s(ger) n1(vehicle_supporter:2) n2(vehicle_supporter:2) g(h7) b(hero)) {level 1} {cost 9.0} {fore -0.5}}
 {"hero7_ger"        ("v229" c(540) c1(nebelwerfer41_2) c2(sdkfz251_1_late) n1(vehicle_supporter:2) n2(pzgren_pio_sl:1) n3(pzgren_pio1:1) n4(pzgren_pio2:1) n5(pzgren_pio3:1) n6(pzgren_pio_flamer:1) n7(pzgren_pio_mg:2) n8(pzgren_pio_mg_asst:2) n9(pzgren_pio_at:1)	t(hero artillery rocket 44) s(ger) g(h4) b(hero)) {level 1} {cost 11.0} {fore -0.5}}
-{"hero8_ger"        ("v1" c(950) c1(veteran_tiger) 	t(hero 44) s(ger) n1(vet_tankman:4) n2(vet_tankman2:1) g(h10) b(hero)) {level 1} {cost 14.0} {fore -0.5}}
-{"panther_hero"     ("v1" c(1100) c1(pz5g_veteran) 	t(hero 44) s(ger) n1(vet_tankman:4) n2(vet_tankman2:1) g(h11) b(hero)) {level 1} {cost 14.0} {fore -0.5}}
+{"hero8_ger"        ("v1" c(950) c1(veteran_tiger) 	t(hero 44) s(ger) n1(vet_tankman:4) n2(vet_tankman2:1) g(h10) b(hero)) {level 1} {cost 15.0} {fore -0.5}}
+{"panther_hero"     ("v1" c(1100) c1(pz5g_veteran) 	t(hero 44) s(ger) n1(vet_tankman:4) n2(vet_tankman2:1) g(h11) b(hero)) {level 1} {cost 15.0} {fore -0.5}}
 {"hero9_ger"        ("v1" c(1000) c1(sturmtiger) 	t(hero 44) s(ger) n1(tankman:3) n2(tankman2:1) g(h12) b(hero)) {level 1} {cost 15.0} {fore -0.5}}
 {"hero_ger_tiger2_ace"     ("v1" c(1600) c1(pz6bh_ace) 	t(hero 44) s(ger) n1(elite_tankman:4) n2(elite_tankman2:1) g(h13) b(hero)) {level 1} {cost 20.0} {fore -0.5}}

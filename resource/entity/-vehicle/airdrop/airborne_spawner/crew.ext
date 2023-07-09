@@ -1,0 +1,54 @@
+	{boarder
+		{anm "driver"
+			{forward	{begin	"paratruper_flight"} {end "paratruper_flight"} {base "1"}}
+			{reverse 	{end	"paratruper_flight" -1} {base "open1" -1}}
+		}
+		{anm "2"
+			{forward	{begin	"paratruper_flight"} {end "paratruper_flight"} {base "2"}}
+			{reverse 	{end	"paratruper_flight" -1} {base "open1" -1}}
+		}
+		{anm "3"
+			{forward	{begin	"paratruper_flight"} {end "paratruper_flight"} {base "3"}}
+			{reverse 	{end	"paratruper_flight" -1} {base "open1" -1}}
+		}
+		{anm "4"
+			{forward	{begin	"paratruper_flight"} {end "paratruper_flight"} {base "4"}}
+			{reverse 	{end	"paratruper_flight" -1} {base "open1" -1}}
+		}
+		{anm "5"
+			{forward	{begin	"paratruper_flight"} {end "paratruper_flight"} {base "5"}}
+			{reverse 	{end	"paratruper_flight" -1} {base "open1" -1}}
+		}
+		{anm "6"
+			{forward	{begin	"paratruper_flight"} {end "paratruper_flight"} {base "6"}}
+			{reverse 	{end	"paratruper_flight" -1} {base "open1" -1}}
+		}
+		{anm "7"
+			{forward	{begin	"paratruper_flight"} {end "paratruper_flight"} {base "7"}}
+			{reverse 	{end	"paratruper_flight" -1} {base "open1" -1}}
+		}
+		{anm "8"
+			{forward	{begin	"paratruper_flight"} {end "paratruper_flight"} {base "8"}}
+			{reverse 	{end	"paratruper_flight" -1} {base "open1" -1}}
+		}
+	}
+(define "crew_human"
+	{placer
+		{place "%place" {group "%group"} {linkbone "%bone"}}
+	}
+	{boarder
+		{door "%door"}
+		{link "%door" "%place" {anm "%animation"} {forward putoff} {reverse puton}}
+	}
+)
+
+	("crew_human" place(driver) bone(human) door(human) animation(driver))
+	("crew_human" place(gunner2) bone(human01) door(human01) animation(2))
+	("crew_human" place(gunner3) bone(human02) door(human02) animation(3))
+	("crew_human" place(gunner4) bone(human03) door(human03) animation(4))
+	("crew_human" place(gunner5) bone(human04) door(human04) animation(5))
+	("crew_human" place(gunner6) bone(human05) door(human05) animation(6))
+	("crew_human" place(gunner7) bone(human06) door(human06) animation(7))
+	("crew_human" place(gunner8) bone(human07) door(human07) animation(8))
+	("crew_human" place(gunner9) bone(human08) door(human08) animation(2))
+	("crew_human" place(gunner10) bone(human09) door(human09) animation(6))

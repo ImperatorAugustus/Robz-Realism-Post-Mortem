@@ -1,0 +1,148 @@
+{entity
+	(include "/properties/spawner.ext")
+	(include "/properties/selection/airdrop.inc" scale(4))
+	{collider "tank.light"}
+	{props "airborne_spawner" "amphibia" "vision_vehicle_paradrop"}
+	{targetClass "unknown"}
+	{targetSelector "tank_bullet"}
+	{patherId "airdrop"}
+	
+	("armor_light" turret(1) body(1))
+	("armor_engine"  t(1))
+	
+	{boarder
+		{anm "driver"
+			{forward	{begin	"paratruper_flight" 0.219} {end "paratruper_flight"} {base "1" -1000}}
+			{reverse 	{begin	"paratruper_flight" 0.219} {base "1"  }}
+		}
+		{anm "2"
+			{forward	{begin	"paratruper_flight" 0.219} {end "paratruper_flight"} {base "2" -1000}}
+			{reverse 	{begin	"paratruper_flight" 0.219} {base "2"  }}
+		}
+		{anm "3"
+			{forward	{begin	"paratruper_flight" 0.219} {end "paratruper_flight"} {base "3" -1000}}
+			{reverse 	{begin	"paratruper_flight" 0.219} {base "3"  }}
+		}
+		{anm "4"
+			{forward	{begin	"paratruper_flight" 0.219} {end "paratruper_flight"} {base "4" -1000}}
+			{reverse 	{begin	"paratruper_flight" 0.219} {base "4"  }}
+		}
+		{anm "5"
+			{forward	{begin	"paratruper_flight" 0.219} {end "paratruper_flight"} {base "5" -1000}}
+			{reverse 	{begin	"paratruper_flight" 0.219} {base "5"  }}
+		}
+		{anm "6"
+			{forward	{begin	"paratruper_flight" 0.219} {end "paratruper_flight"} {base "6" -1000}}
+			{reverse 	{begin	"paratruper_flight" 0.219} {base "6"}}
+		}
+		{anm "7"
+			{forward	{begin	"paratruper_flight" 0.219} {end "paratruper_flight"} {base "7" -1000}}
+			{reverse 	{begin	"paratruper_flight" 0.219} {base "7"}}
+		}
+		{anm "8"
+			{forward	{begin	"paratruper_flight" 0.219} {end "paratruper_flight"} {base "8" -1000}}
+			{reverse 	{begin	"paratruper_flight" 0.219} {base "8"}}
+		}
+		{anm "9"
+			{forward	{begin	"paratruper_flight" 0.219} {end "paratruper_flight"} {base "9" -1000}}
+			{reverse 	{begin	"paratruper_flight" 0.219} {base "9"}}
+		}
+		{anm "10"
+			{forward	{begin	"paratruper_flight" 0.219} {end "paratruper_flight"} {base "10" -1000}}
+			{reverse 	{begin	"paratruper_flight" 0.219} {base "10"}}
+		}
+		{anm "11"
+			{forward	{begin	"paratruper_flight" 0.219} {end "paratruper_flight"} {base "11" -1000}}
+			{reverse 	{begin	"paratruper_flight" 0.219} {base "11"}}
+		}
+		{anm "12"
+			{forward	{begin	"paratruper_flight" 0.219} {end "paratruper_flight"} {base "12" -1000}}
+			{reverse 	{begin	"paratruper_flight" 0.219} {base "12"}}
+		}
+		{anm "13"
+			{forward	{begin	"paratruper_flight" 0.219} {end "paratruper_flight"} {base "13" -1000}}
+			{reverse 	{begin	"paratruper_flight" 0.219} {base "13"}}
+		}
+	}
+(define "crew_human"
+	{placer
+		{place "%place" {group "%group"} {linkbone "%bone"}}
+	}
+	{boarder
+		{door "%door"}
+		{link "%door" "%place" {anm "%animation"} {forward putoff} {reverse puton}}
+	}
+)
+	{extender "inventory"
+             {box
+		{size 1 1}
+		{clear}
+              }
+        }
+
+	("crew_human" place(driver) bone(human) door(human) animation(driver))
+	("crew_human" place(passenger2) bone(human01) door(human01) animation(2))
+	("crew_human" place(passenger3) bone(human02) door(human02) animation(3))
+	("crew_human" place(passenger4) bone(human03) door(human03) animation(4))
+	("crew_human" place(passenger5) bone(human04) door(human04) animation(5))
+	("crew_human" place(passenger6) bone(human05) door(human05) animation(6))
+	("crew_human" place(passenger7) bone(human06) door(human06) animation(7))
+	("crew_human" place(passenger8) bone(human07) door(human07) animation(8))
+	("crew_human" place(passenger9) bone(human08) door(human08) animation(9))
+	("crew_human" place(passenger10) bone(human09) door(human09) animation(10))
+	("crew_human" place(passenger11) bone(human10) door(human10) animation(11))
+	("crew_human" place(passenger12) bone(human11) door(human11) animation(12))
+	("crew_human" place(passenger13) bone(human12) door(human12) animation(13))
+	("crew_human" place(passenger14) bone(human13) door(human13) animation(2))
+	("crew_human" place(passenger15) bone(human14) door(human14) animation(3))
+	("crew_human" place(passenger16) bone(human15) door(human15) animation(4))
+
+       ;{placer
+       ;  {crew 0}
+       ;  {place "driver" remove}
+       ;}
+	{mass 100}
+	{Chassis
+		("tank_trace_ex" fx("tracks_sm2") step(0.15) len(0.4) boneleft("wheels_l") boneright("wheels_r"))
+		{Locomotion ("locomotion")
+				{maxspeed   2000}
+				{maxSpeedAtMaxTurn 2000}
+				{StartTime   1}
+				{TurnTime    1}
+				{TurnStart   0.1}			
+				{TurnRadius  30} 
+	    		        {TurnStop    0.1}
+				{BrakeTime   0.1}
+				{StopTime    0.1}
+     			        {Gears       0.2 0.4 1}
+				{RearGears   0.2 0.4 1}
+		}
+		;{switch
+		;	{exitFromWater}
+		;	{terrain not "water" "deep_water"}
+		;}
+	}
+
+	;{chassis "water"
+	;	{Locomotion ("locomotion")
+	;			{maxspeed   2000}
+	;			{maxSpeedAtMaxTurn 2000}
+	;			{StartTime   1}
+	;			{TurnTime    1}
+	;			{TurnStart   0.1}			
+	;			{TurnRadius  30} 
+	;    		        {TurnStop    0.1}
+	;			{BrakeTime   0.1}
+	;			{StopTime    0.1}
+     	;		        {Gears       0.2 0.4 1}
+	;			{RearGears   0.2 0.4 1}
+	;	}
+	;	{ignorePatherBounds}
+	;	{waterline 1.25}
+	;	{switch
+	;		{terrain "water" "deep_water"}
+	;	}	
+	;}
+	{Extension "airborne_spawner.mdl"}
+	{texmod "3"}
+}

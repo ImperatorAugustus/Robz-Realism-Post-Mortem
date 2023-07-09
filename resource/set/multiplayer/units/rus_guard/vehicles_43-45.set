@@ -119,6 +119,6 @@
 {"hero_guard_bm31"  	("v1" c(900) c1(np_bm31) 	t(all hero artillery rocket 44 45) s(rus_guard) n1(vehicle_supporter:2) n2(vehicle_supporter:0) g(h7) b(hero)) {level 1} {cost 13.0} {fore -0.5}}
 ;{"hero_guard_m4platoon" ("v32" c(400) c1(m4a2) 	t(all hero 44 45) s(rus_guard) n1(tankman:4) n2(tankman2:1) g(h8) b(hero)) {level 1} {cost 9.0} {fore -0.5}}
 {"hero_guard_m4_76"     ("v32" c(750) c1(m4a2_76w) 	t(all hero 44 45) s(rus_guard) n1(tankman:4) n2(tankman2:1) g(h9) b(hero)) {level 1} {cost 8.0} {fore -0.5}}
-{"hero_guard_t34_3"  	("v1" c(700) c1(t34_3_elite) 	t(all hero 44 45) s(rus_guard) n1(elite_tankman:3) n2(elite_tankman2:1) g(h10) b(hero)) {level 1} {cost 8.0} {fore -0.5}}
+{"hero_guard_t34_3"  	("v1" c(700) c1(t34_3_elite) 	t(all hero 44 45) s(rus_guard) n1(elite_tankman:3) n2(elite_tankman2:1) g(h10) b(hero)) {level 1} {cost 9.0} {fore -0.5}}
 {"hero_guard_kv85"      ("v2" c(900) c1(kv85_guard) 	t(all hero 44 45) s(rus_guard) n1(tankman:3) n2(tankman2:1) g(h11) b(hero)) {level 1} {cost 10.0} {fore -0.5}}
 {"hero_guard_is2"  	    ("v1" c(1500) c1(is2_elite) 	t(all hero 44 45) s(rus_guard) n1(elite_tankman:4) n2(elite_tankman2:1) g(h12) b(hero)) {level 1} {cost 20.0} {fore -0.5}}

@@ -1,0 +1,309 @@
+;Exported by: Dock
+;Date:        Sat May 28 17:03:38 2011
+;File:        E:\3d_work\Десант.max
+{Skeleton
+	{animation
+		{sequence "1" {speed 0.0088}}
+		{sequence "2" {speed 0.0088}}
+		{sequence "3" {speed 0.0088}}
+		{sequence "4" {speed 0.0088}}
+		{sequence "5" {speed 0.0088}}
+		{sequence "6" {speed 0.0088}}
+		{sequence "7" {speed 0.0088}}
+		{sequence "8" {speed 0.0088}}
+		{sequence "9" {speed 0.0088}}
+		{sequence "10" {speed 0.0088}}
+		{sequence "11" {speed 0.0088}}
+		{sequence "12" {speed 0.0088}}
+		{sequence "13" {speed 0.0088}}
+	}
+	{bone "basis"
+		{matrix34
+			1	0	0
+			0	-1	0
+			0	0	1
+			0	0	0
+		}
+		{bone "parachute16"
+			{Position -183.748	-790.16	9052.95}
+			{VolumeView "parachute07.ply"}
+			{bone "ropes02"
+				{Position 0.618744	0.0499268	-74.5996}
+				{visibility 0}
+				{VolumeView "ropes07.ply"}
+				{bone "human16"
+					{Position 39.9288	0.229004	-101.479}
+
+				}
+			}
+		}
+		{bone "parachute15"
+			{Position 	-89.7039	-934.81	9662.05}
+			{VolumeView "parachute07.ply"}
+			{bone "ropes07"
+				{Position 0.618744	0.0499268	-74.5996}
+				{visibility 0}
+				{VolumeView "ropes07.ply"}
+				{bone "human15"
+					{Position 39.9288	0.229126	-101.479}
+
+				}
+			}
+		}
+		{bone "parachute14"
+			{Position 85.7841	-814.63	10846.2}
+			{VolumeView "parachute07.ply"}
+			{bone "ropes06"
+				{Position 0.618744	0.0499268	-74.5996}
+				{visibility 0}
+				{VolumeView "ropes07.ply"}
+				{bone "human14"
+					{Position 39.9288	0.229126	-101.479}
+
+				}
+			}
+		}
+		{bone "parachute13"
+			{Position 56.4355	-764.83	10221}
+			{VolumeView "parachute07.ply"}
+			{bone "ropes04"
+				{Position 0.618752	0.0499268	-74.5996}
+				{visibility 0}
+				{VolumeView "ropes07.ply"}
+				{bone "human13"
+					{Position 39.9288	0.229126	-101.479}
+
+				}
+			}
+		}
+		{bone "parachute12"
+			{Position -183.748	-790.16	9052.95}
+			{VolumeView "parachute07.ply"}
+			{bone "ropes03"
+				{Position 0.618752	0.0500488	-74.5996}
+				{visibility 0}
+				{VolumeView "ropes07.ply"}
+				{bone "human12"
+					{Position 39.9288	0.229004	-101.479}
+
+				}
+			}
+		}
+		{bone "parachute11"
+			{Position -157.164	-749.78	10328}
+			{VolumeView "parachute07.ply"}
+			{bone "ropes02"
+				{Position 0.618744	0.0499268	-74.5996}
+				{visibility 0}
+				{VolumeView "ropes07.ply"}
+				{bone "human11"
+					{Position 39.9288	0.229126	-101.479}
+
+				}
+			}
+		}
+		{bone "parachute10"
+			{Position -112.53	-799.25	9366.28}
+			{VolumeView "parachute07.ply"}
+			{bone "ropes01"
+				{Position 0.618744	0.0499268	-74.5996}
+				{visibility 0}
+				{VolumeView "ropes07.ply"}
+				{bone "human10"
+					{Position 39.9288	0.229126	-101.479}
+
+				}
+			}
+		}
+		{bone "parachute09"
+			{Position 56.4355	-764.83	10221}
+			{VolumeView "parachute07.ply"}
+			{bone "ropes06"
+				{Position 0.618744	0.0499268	-74.5996}
+				{visibility 0}
+				{VolumeView "ropes07.ply"}
+				{bone "human09"
+					{Position 39.9288	0.229126	-101.479}
+
+				}
+			}
+		}
+		{bone "parachute08"
+			{Position -183.748	-790.16	9052.95}
+			{VolumeView "parachute07.ply"}
+			{bone "ropes02"
+				{Position 0.618744	0.0499268	-74.5996}
+				{visibility 0}
+				{VolumeView "ropes07.ply"}
+				{bone "human08"
+					{Position 39.9288	0.229004	-101.479}
+
+				}
+			}
+		}
+		{bone "parachute07"
+			{Position 	-89.7039	-934.81	9662.05}
+			{VolumeView "parachute07.ply"}
+			{bone "ropes07"
+				{Position 0.618744	0.0499268	-74.5996}
+				{visibility 0}
+				{VolumeView "ropes07.ply"}
+				{bone "human07"
+					{Position 39.9288	0.229126	-101.479}
+
+				}
+			}
+		}
+		{bone "parachute06"
+			{Position 85.7841	-814.63	10846.2}
+			{VolumeView "parachute07.ply"}
+			{bone "ropes06"
+				{Position 0.618744	0.0499268	-74.5996}
+				{visibility 0}
+				{VolumeView "ropes07.ply"}
+				{bone "human06"
+					{Position 39.9288	0.229126	-101.479}
+
+				}
+			}
+		}
+		{bone "parachute05"
+			{Position -78.732	-750.74	9811.92}
+			{VolumeView "parachute07.ply"}
+			{bone "ropes05"
+				{Position 0.618752	0.0499268	-74.5996}
+				{visibility 0}
+				{VolumeView "ropes07.ply"}
+				{bone "human05"
+					{Position 39.9288	0.229065	-101.479}
+
+				}
+			}
+		}
+		{bone "parachute04"
+			{Position 56.4355	-764.83	10221}
+			{VolumeView "parachute07.ply"}
+			{bone "ropes04"
+				{Position 0.618752	0.0499268	-74.5996}
+				{visibility 0}
+				{VolumeView "ropes07.ply"}
+				{bone "human04"
+					{Position 39.9288	0.229126	-101.479}
+
+				}
+			}
+		}
+		{bone "parachute03"
+			{Position -183.748	-790.16	9052.95}
+			{VolumeView "parachute07.ply"}
+			{bone "ropes03"
+				{Position 0.618752	0.0500488	-74.5996}
+				{visibility 0}
+				{VolumeView "ropes07.ply"}
+				{bone "human03"
+					{Position 39.9288	0.229004	-101.479}
+
+				}
+			}
+		}
+		{bone "parachute02"
+			{Position -157.164	-749.78	10328}
+			{VolumeView "parachute07.ply"}
+			{bone "ropes02"
+				{Position 0.618744	0.0499268	-74.5996}
+				{visibility 0}
+				{VolumeView "ropes07.ply"}
+				{bone "human02"
+					{Position 39.9288	0.229126	-101.479}
+
+				}
+			}
+		}
+		{bone "parachute01"
+			{Position -112.53	-799.25	9366.28}
+			{VolumeView "parachute07.ply"}
+			{bone "ropes01"
+				{Position 0.618744	0.0499268	-74.5996}
+				{visibility 0}
+				{VolumeView "ropes07.ply"}
+				{bone "human01"
+					{Position 39.9288	0.229126	-101.479}
+
+				}
+			}
+		}
+		{bone "parachute"
+			{Position -12.7938	-793.8	10731.2}
+			{VolumeView "parachute07.ply"}
+			{bone "ropes"
+				{Position 0.61875	0.0499268	-74.5996}
+				{visibility 0}
+				{VolumeView "ropes07.ply"}
+				{bone "human"
+					{Position 39.9288	0.229126	-101.479}
+
+				}
+			}
+		}
+		{bone "emit1"
+			{Position 19.8963	-51.2793	0}
+		}
+		{bone "emit2"
+			{Position -154.952	254.204	0}
+		}
+		{bone "emit3"
+			{Position -258.011	-216.842	0}
+		}
+		{bone "emit4"
+			{Position -7.89951	-312.704	0}
+		}
+		{bone "emit5"
+			{Position 115.819	139.768	0}
+		}
+		{bone "emit6"
+			{Position -24.5422	358.685	0}
+		}
+		{bone "emit7"
+			{Position 294.015	-290.884	0}
+		}
+		{bone "emit8"
+			{Position 269.456	329.361	0}
+		}
+		{bone "emit9"
+			{Position 19.8963	-51.2793	0}
+		}
+		{bone "emit10"
+			{Position -154.952	254.204	0}
+		}
+		{bone "emit11"
+			{Position -258.011	-216.842	0}
+		}
+		{bone "emit12"
+			{Position -7.89951	-312.704	0}
+		}
+		{bone "emit13"
+			{Position 115.819	139.768	0}
+		}
+		{bone "emit14"
+			{Position 115.819	139.768	0}
+		}
+		{bone "emit15"
+			{Position -24.5422	358.685	0}
+		}
+		{bone "emit16"
+			{Position 294.015	-290.884	0}
+		}
+		{bone "body"
+		}
+	}
+}
+{Volume "body"
+     {Box 0.01 0.01 0.01}
+     {Bone "body"}
+     {Matrix34
+         1       0       0
+         0       1       0
+         0       0       1
+         0       0       2000
+ }
+}

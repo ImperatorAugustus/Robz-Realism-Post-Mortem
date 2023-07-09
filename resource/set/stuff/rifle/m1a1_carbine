@@ -1,5 +1,4 @@
 {from "pattern rifle"
-	{tag "autorifle"}
 	{filling "ammo m1carbine_mag" 15}
 	{entity "m1_carbine"}
 	{fireSound "rifle/m1carbine_shot"}
@@ -11,9 +10,9 @@
 	}
 	{spreading 1
 		{SpreadPower	1}
-		{BurstAccuracy 100 95 90 80 70}
+		{BurstAccuracy 100 96 92 84 78}
 	}
-	{range 100 100}
+	{range 95 95}
 	{Automatic}
 	{ProjectileDamage 4.5}
 	{ProjectileDamageClip 4.5}
@@ -22,7 +21,7 @@
 	{calibre 7.62}
 	{rechargeTime 4.5}
 	{healthDamage 26}
-	("recoveryTime" r(400))
+	("recoveryTime" r(500))
 	("accuracy_carabine")
 	("speed" s(590))
 }

@@ -30,12 +30,12 @@
 ;------------------------------paramarines |||| vet 6-----------------------------------------------------------
 
 ("squad_with8types" side(usa) name(paramarines) c(360) g(squad_5) c1(paramarine_sgt:1) c2(paramarine2:1) c3(paramarine:1) c4(paramarineb:3) c5(paramarine_grenadier:1) c6(paramarine3:2) c7(paramarine3_asst:2) c8(paramarineb_boys_at:1) b(squad1) t(all inf_only 42 43 44) level(1) cost(251) f(1.0))
-("squad_with7types_vehicle" side(usa) name(paramarines_drop) c(900) g(squad_5) v1(airborne_spawner) c1(paramarine_sgt:1) c2(paramarine2:1) c3(paramarine:1) c4(paramarineb:4) c5(paramarine_grenadier:1) c6(paramarine3:2) c7(paramarine3_asst:2) b(squad1) t(all inf_only 42 43 44 only-one) level(1) cost(351) f(1.0))
+("squad_with7types_vehicle" side(usa) name(paramarines_drop) c(900) g(squad_5) v1(airborne_spawner) c1(paramarine_sgt:1) c2(paramarine2:1) c3(paramarine:1) c4(paramarineb:3) c5(paramarine_grenadier:1) c6(paramarine3:2) c7(paramarine3_asst:2) c8(paramarineb_boys_at:1) b(squad1) t(all inf_only 42 43 44 only-one) level(1) cost(351) f(1.0))
 
 ;------------------------------stormtroopers |||| vet 6---------------------------------------------------------
 
-("squad_with8types" side(usa) name(stormtroopers) c(360) g(squad_5) c1(sturmovik_sgt:1) c2(sturmovik:1) c3(sturmovik2:2) c4(sturmovik2_asst:2) c5(sturmovik5:1) c6(sturmovik4:2) c7(sturmovik_grenadier:1) c8(sturmovik4b:2) b(squad1) t(all inf_only 42 43 44 45) level(1) cost(245) f(1.0))
-("squad_with8types" side(usa) name(stormtroopers_heavy) c(360) g(squad_5) c1(sturmovik_sgt:1) c2(sturmovik:2) c3(sturmovik2:2) c4(sturmovik3:1) c5(sturmovik4:3) c6(sturmovik_grenadier:1) c7(sturmovik4b:1) c8(sturmovik_sniper:1) b(squad1) t(all inf_only 43 44 45) level(1) cost(300) f(1.0))
+("squad_with8types" side(usa) name(stormtroopers) c(360) g(squad_5) c1(sturmovik_sgt:1) c2(sturmovik:1) c3(sturmovik2:2) c4(sturmovik2_asst:2) c5(sturmovik5:1) c6(sturmovik4:2) c7(sturmovik_grenadier:1) c8(sturmovik4b:2) b(squad1) t(all inf_only 42 43 44 45) level(1) cost(260) f(1.0))
+("squad_with8types" side(usa) name(stormtroopers_heavy) c(360) g(squad_5) c1(sturmovik_sgt:1) c2(sturmovik:2) c3(sturmovik2:2) c4(sturmovik3:1) c5(sturmovik4:3) c6(sturmovik_grenadier:1) c7(sturmovik4b:1) c8(sturmovik_sniper:1) b(squad1) t(all inf_only 43 44 45) level(1) cost(315) f(1.0))
 ("squad_with7types" side(usa) name(stormtroopers_assault) c(360) g(squad_5) c1(sturmovik_sgt:1) c2(sturmovik1:2) c3(sturmovik2:1) c4(sturmovik4:5) c5(sturmovik_grenadier:1) c6(sturmovik6_mg:1) c7(sturmovik6b:1) b(squad1) t(all inf_only 43 44 45) level(1) cost(275) f(1.0))
 
 ;------------------------------devil's brigade |||| vet 6-------------------------------------------------------

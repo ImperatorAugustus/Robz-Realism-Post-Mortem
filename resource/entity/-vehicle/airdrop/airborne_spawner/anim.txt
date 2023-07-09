@@ -1,0 +1,702 @@
+-= Animation: 13, Node parachute04 =-
+	Frame 7 {
+		Visibility 1
+		Position	56.4355	-740.986	5702.9
+		Orientation	0 -0.14831 0 0.988941
+	}
+	Frame 8 {
+		Position	56.4355	-580.398	4700.53
+	}
+	Frame 9 {
+		Position	56.4355	-422.669	3716
+	}
+	Frame 10 {
+		Position	56.4355	-273.517	2785.01
+	}
+	Frame 11 {
+		Position	56.4355	-138.661	1943.26
+	}
+	Frame 12 {
+		Position	56.4355	-23.8185	1226.43
+	}
+	Frame 13 {
+		Position	56.4355	65.2914	670.212
+	}
+	Frame 14 {
+		Position	56.4355	122.951	310.309
+	}
+	Frame 15 {
+		Visibility 0
+		Position	56.4355	143.441	182.409
+		Orientation	0 -0.14831 0 0.988941
+	}
+-= Animation: 13, Node ropes04 =-
+	Frame 7 {
+		Visibility 1
+		Position	0.618774	0.0499268	-74.6001
+		Orientation	0 0 0 1
+	}
+	Frame 15 {
+		Visibility 0
+		Position	0.618744	0.0499573	-74.5997
+		Orientation	0 0 0 1
+	}
+-= Animation: 13, Node human04 =-
+	Frame 7 {
+		Visibility 1
+		Position	39.9288	0.229065	-101.479
+		Orientation	0 0 0 1
+	}
+	Frame 15 {
+		Visibility 0
+		Position	39.9288	0.22908	-101.48
+		Orientation	0 0 0 1
+	}
+-= Animation: 12, Node parachute03 =-
+	Frame 7 {
+		Visibility 1
+		Position	-183.748	-966.323	5060.55
+		Orientation	0 -0.14831 0 0.988941
+	}
+	Frame 8 {
+		Position	-183.748	-805.735	4174.81
+	}
+	Frame 9 {
+		Position	-183.748	-648.005	3304.84
+	}
+	Frame 10 {
+		Position	-183.748	-498.854	2482.18
+	}
+	Frame 11 {
+		Position	-183.748	-363.997	1738.37
+	}
+	Frame 12 {
+		Position	-183.748	-249.155	1104.95
+	}
+	Frame 13 {
+		Position	-183.748	-160.045	613.452
+	}
+	Frame 14 {
+		Position	-183.748	-102.386	295.427
+	}
+	Frame 15 {
+		Visibility 0
+		Position	-183.748	-81.8956	182.409
+		Orientation	0 -0.14831 0 0.988941
+	}
+-= Animation: 12, Node ropes03 =-
+	Frame 7 {
+		Visibility 1
+		Position	0.618774	0.0499268	-74.6001
+		Orientation	0 0 0 1
+	}
+	Frame 15 {
+		Visibility 0
+		Position	0.618729	0.0499496	-74.5997
+		Orientation	0 0 0 1
+	}
+-= Animation: 12, Node human03 =-
+	Frame 7 {
+		Visibility 1
+		Position	39.9288	0.229065	-101.48
+		Orientation	0 0 0 1
+	}
+	Frame 15 {
+		Visibility 0
+		Position	39.9288	0.22908	-101.48
+		Orientation	0 0 0 1
+	}
+-= Animation: 11, Node parachute02 =-
+	Frame 7 {
+		Visibility 1
+		Position	-257.164	-825.937	5761.71
+		Orientation	0 -0.14831 0 0.988941
+	}
+	Frame 8 {
+		Position	-257.164	-665.349	4748.66
+	}
+	Frame 9 {
+		Position	-257.164	-507.62	3753.64
+	}
+	Frame 10 {
+		Position	-257.164	-358.468	2812.74
+	}
+	Frame 11 {
+		Position	-257.164	-223.612	1962.01
+	}
+	Frame 12 {
+		Position	-257.164	-108.77	1237.55
+	}
+	Frame 13 {
+		Position	-257.164	-19.6598	675.408
+	}
+	Frame 14 {
+		Position	-257.164	37.9995	311.671
+	}
+	Frame 15 {
+		Visibility 0
+		Position	-257.164	58.4901	182.409
+		Orientation	0 -0.14831 0 0.988941
+	}
+-= Animation: 11, Node ropes02 =-
+	Frame 7 {
+		Visibility 1
+		Position	0.618774	0.0499268	-74.5996
+		Orientation	0 0 0 1
+	}
+	Frame 15 {
+		Visibility 0
+		Position	0.618744	0.0499496	-74.5997
+		Orientation	0 0 0 1
+	}
+-= Animation: 11, Node human02 =-
+	Frame 7 {
+		Visibility 1
+		Position	39.9288	0.229065	-101.479
+		Orientation	0 0 0 1
+	}
+	Frame 15 {
+		Visibility 0
+		Position	39.9288	0.229076	-101.48
+		Orientation	0 0 0 1
+	}
+-= Animation: 10, Node parachute01 =-
+	Frame 7 {
+		Visibility 1
+		Position	-212.53	-675.411	5232.86
+		Orientation	0 -0.14831 0 0.988941
+	}
+	Frame 8 {
+		Position	-212.53	-514.822	4315.83
+	}
+	Frame 9 {
+		Position	-212.53	-357.093	3415.13
+	}
+	Frame 10 {
+		Position	-212.53	-207.941	2563.41
+	}
+	Frame 11 {
+		Position	-212.53	-73.0852	1793.33
+	}
+	Frame 12 {
+		Position	-212.53	41.7569	1137.53
+	}
+	Frame 13 {
+		Position	-212.53	130.867	628.677
+	}
+	Frame 14 {
+		Position	-212.53	188.526	299.419
+	}
+	Frame 15 {
+		Visibility 0
+		Position	-212.53	209.017	182.409
+		Orientation	0 -0.14831 0 0.988941
+	}
+-= Animation: 10, Node ropes01 =-
+	Frame 7 {
+		Visibility 1
+		Position	0.618774	0.0499268	-74.6001
+		Orientation	0 0 0 1
+	}
+	Frame 15 {
+		Visibility 0
+		Position	0.618744	0.0499573	-74.5997
+		Orientation	0 0 0 1
+	}
+-= Animation: 10, Node human01 =-
+	Frame 7 {
+		Visibility 1
+		Position	39.9288	0.229065	-101.479
+		Orientation	0 0 0 1
+	}
+	Frame 15 {
+		Visibility 0
+		Position	39.9288	0.22908	-101.48
+		Orientation	0 0 0 1
+	}
+-= Animation: 9, Node parachute =-
+	Frame 7 {
+		Visibility 1
+		Position	-42.7938	-969.956	5983.56
+		Orientation	0 -0.14831 0 0.988941
+	}
+	Frame 8 {
+		Position	-42.7938	-809.368	4930.26
+	}
+	Frame 9 {
+		Position	-42.7938	-651.639	3895.71
+	}
+	Frame 10 {
+		Position	-42.7938	-502.487	2917.43
+	}
+	Frame 11 {
+		Position	-42.7938	-367.631	2032.91
+	}
+	Frame 12 {
+		Position	-42.7938	-252.789	1279.66
+	}
+	Frame 13 {
+		Position	-42.7938	-163.679	695.184
+	}
+	Frame 14 {
+		Position	-42.7938	-106.019	316.997
+	}
+	Frame 15 {
+		Visibility 0
+		Position	-42.7938	-85.5289	182.6
+		Orientation	0 -0.14831 0 0.988941
+	}
+-= Animation: 9, Node ropes =-
+	Frame 7 {
+		Visibility 1
+		Position	0.618774	0.0499268	-74.5996
+		Orientation	0 0 0 1
+	}
+	Frame 15 {
+		Visibility 0
+		Position	0.618752	0.0499496	-74.5997
+		Orientation	0 0 0 1
+	}
+-= Animation: 9, Node human =-
+	Frame 7 {
+		Visibility 1
+		Position	39.9288	0.229065	-101.479
+		Orientation	0 0 0 1
+	}
+	Frame 15 {
+		Visibility 0
+		Position	39.9288	0.22908	-101.48
+		Orientation	0 0 0 1
+	}
+-= Animation: 8, Node parachute07 =-
+	Frame 7 {
+		Visibility 1
+		Position	-89.7039	-810.972	5395.51
+		Orientation	0 -0.14831 0 0.988941
+	}
+	Frame 8 {
+		Position	-89.7039	-650.384	4448.95
+	}
+	Frame 9 {
+		Position	-89.7039	-492.655	3519.24
+	}
+	Frame 10 {
+		Position	-89.7039	-343.503	2640.09
+	}
+	Frame 11 {
+		Position	-89.7039	-208.647	1845.21
+	}
+	Frame 12 {
+		Position	-89.7039	-93.8045	1168.29
+	}
+	Frame 13 {
+		Position	-89.7039	-4.69458	643.05
+	}
+	Frame 14 {
+		Position	-89.7039	52.9647	303.187
+	}
+	Frame 15 {
+		Visibility 0
+		Position	-89.7039	73.4553	182.409
+		Orientation	0 -0.14831 0 0.988941
+	}
+-= Animation: 8, Node ropes07 =-
+	Frame 7 {
+		Visibility 1
+		Position	0.618896	0.0499268	-74.5996
+		Orientation	0 0 0 1
+	}
+	Frame 15 {
+		Visibility 0
+		Position	0.618744	0.0499496	-74.5997
+		Orientation	0 0 0 1
+	}
+-= Animation: 8, Node human07 =-
+	Frame 7 {
+		Visibility 1
+		Position	39.9287	0.229065	-101.479
+		Orientation	0 0 0 1
+	}
+	Frame 15 {
+		Visibility 0
+		Position	39.9288	0.22908	-101.48
+		Orientation	0 0 0 1
+	}
+-= Animation: 7, Node parachute06 =-
+	Frame 7 {
+		Visibility 1
+		Position	85.7841	-890.792	6046.7
+		Orientation	0 -0.14831 0 0.988941
+	}
+	Frame 8 {
+		Position	85.7841	-730.204	4981.9
+	}
+	Frame 9 {
+		Position	85.7841	-572.475	3936.06
+	}
+	Frame 10 {
+		Position	85.7841	-423.323	2947.09
+	}
+	Frame 11 {
+		Position	85.7841	-288.467	2052.92
+	}
+	Frame 12 {
+		Position	85.7841	-173.624	1291.44
+	}
+	Frame 13 {
+		Position	85.7841	-84.5146	700.59
+	}
+	Frame 14 {
+		Position	85.7841	-26.8553	318.274
+	}
+	Frame 15 {
+		Visibility 0
+		Position	85.7841	-6.36478	182.409
+		Orientation	0 -0.14831 0 0.988941
+	}
+-= Animation: 7, Node ropes06 =-
+	Frame 7 {
+		Visibility 1
+		Position	0.618774	0.0499268	-74.5996
+		Orientation	0 0 0 1
+	}
+	Frame 15 {
+		Visibility 0
+		Position	0.618748	0.0499511	-74.5997
+		Orientation	0 0 0 1
+	}
+-= Animation: 7, Node human06 =-
+	Frame 7 {
+		Visibility 1
+		Position	39.9288	0.229065	-101.479
+		Orientation	0 0 0 1
+	}
+	Frame 15 {
+		Visibility 0
+		Position	39.9288	0.229077	-101.48
+		Orientation	0 0 0 1
+	}
+-= Animation: 6, Node parachute05 =-
+	Frame 7 {
+		Visibility 1
+		Position	-78.732	-626.906	5478.61
+		Orientation	0 -0.14831 0 0.988941
+	}
+	Frame 8 {
+		Position	-78.732	-466.317	4517.23
+	}
+	Frame 9 {
+		Position	-78.732	-308.588	3572.97
+	}
+	Frame 10 {
+		Position	-78.732	-159.436	2680.07
+	}
+	Frame 11 {
+		Position	-78.732	-24.5799	1872.74
+	}
+	Frame 12 {
+		Position	-78.732	90.2622	1185.23
+	}
+	Frame 13 {
+		Position	-78.732	179.372	651.769
+	}
+	Frame 14 {
+		Position	-78.732	237.031	306.587
+	}
+	Frame 15 {
+		Visibility 0
+		Position	-78.732	257.522	183.919
+		Orientation	0 -0.14831 0 0.988941
+	}
+-= Animation: 6, Node ropes05 =-
+	Frame 7 {
+		Visibility 1
+		Position	0.618774	0.0499268	-74.5996
+		Orientation	0 0 0 1
+	}
+	Frame 15 {
+		Visibility 0
+		Position	0.618744	0.0499573	-74.5997
+		Orientation	0 0 0 1
+	}
+-= Animation: 6, Node human05 =-
+	Frame 7 {
+		Visibility 1
+		Position	39.9288	0.229065	-101.48
+		Orientation	0 0 0 1
+	}
+	Frame 15 {
+		Visibility 0
+		Position	39.9288	0.229065	-101.48
+		Orientation	0 0 0 1
+	}
+-= Animation: 5, Node parachute04 =-
+	Frame 7 {
+		Visibility 1
+		Position	56.4355	-740.986	5702.9
+		Orientation	0 -0.14831 0 0.988941
+	}
+	Frame 8 {
+		Position	56.4355	-580.398	4700.53
+	}
+	Frame 9 {
+		Position	56.4355	-422.669	3716
+	}
+	Frame 10 {
+		Position	56.4355	-273.517	2785.01
+	}
+	Frame 11 {
+		Position	56.4355	-138.661	1943.26
+	}
+	Frame 12 {
+		Position	56.4355	-23.8185	1226.43
+	}
+	Frame 13 {
+		Position	56.4355	65.2914	670.212
+	}
+	Frame 14 {
+		Position	56.4355	122.951	310.309
+	}
+	Frame 15 {
+		Visibility 0
+		Position	56.4355	143.441	182.409
+		Orientation	0 -0.14831 0 0.988941
+	}
+-= Animation: 5, Node ropes04 =-
+	Frame 7 {
+		Visibility 1
+		Position	0.618774	0.0499268	-74.6001
+		Orientation	0 0 0 1
+	}
+	Frame 15 {
+		Visibility 0
+		Position	0.618744	0.0499573	-74.5997
+		Orientation	0 0 0 1
+	}
+-= Animation: 5, Node human04 =-
+	Frame 7 {
+		Visibility 1
+		Position	39.9288	0.229065	-101.479
+		Orientation	0 0 0 1
+	}
+	Frame 15 {
+		Visibility 0
+		Position	39.9288	0.22908	-101.48
+		Orientation	0 0 0 1
+	}
+-= Animation: 4, Node parachute03 =-
+	Frame 7 {
+		Visibility 1
+		Position	-183.748	-966.323	5060.55
+		Orientation	0 -0.14831 0 0.988941
+	}
+	Frame 8 {
+		Position	-183.748	-805.735	4174.81
+	}
+	Frame 9 {
+		Position	-183.748	-648.005	3304.84
+	}
+	Frame 10 {
+		Position	-183.748	-498.854	2482.18
+	}
+	Frame 11 {
+		Position	-183.748	-363.997	1738.37
+	}
+	Frame 12 {
+		Position	-183.748	-249.155	1104.95
+	}
+	Frame 13 {
+		Position	-183.748	-160.045	613.452
+	}
+	Frame 14 {
+		Position	-183.748	-102.386	295.427
+	}
+	Frame 15 {
+		Visibility 0
+		Position	-183.748	-81.8956	182.409
+		Orientation	0 -0.14831 0 0.988941
+	}
+-= Animation: 4, Node ropes03 =-
+	Frame 7 {
+		Visibility 1
+		Position	0.618774	0.0499268	-74.6001
+		Orientation	0 0 0 1
+	}
+	Frame 15 {
+		Visibility 0
+		Position	0.618729	0.0499496	-74.5997
+		Orientation	0 0 0 1
+	}
+-= Animation: 4, Node human03 =-
+	Frame 7 {
+		Visibility 1
+		Position	39.9288	0.229065	-101.48
+		Orientation	0 0 0 1
+	}
+	Frame 15 {
+		Visibility 0
+		Position	39.9288	0.22908	-101.48
+		Orientation	0 0 0 1
+	}
+-= Animation: 3, Node parachute02 =-
+	Frame 7 {
+		Visibility 1
+		Position	-257.164	-825.937	5761.71
+		Orientation	0 -0.14831 0 0.988941
+	}
+	Frame 8 {
+		Position	-257.164	-665.349	4748.66
+	}
+	Frame 9 {
+		Position	-257.164	-507.62	3753.64
+	}
+	Frame 10 {
+		Position	-257.164	-358.468	2812.74
+	}
+	Frame 11 {
+		Position	-257.164	-223.612	1962.01
+	}
+	Frame 12 {
+		Position	-257.164	-108.77	1237.55
+	}
+	Frame 13 {
+		Position	-257.164	-19.6598	675.408
+	}
+	Frame 14 {
+		Position	-257.164	37.9995	311.671
+	}
+	Frame 15 {
+		Visibility 0
+		Position	-257.164	58.4901	182.409
+		Orientation	0 -0.14831 0 0.988941
+	}
+-= Animation: 3, Node ropes02 =-
+	Frame 7 {
+		Visibility 1
+		Position	0.618774	0.0499268	-74.5996
+		Orientation	0 0 0 1
+	}
+	Frame 15 {
+		Visibility 0
+		Position	0.618744	0.0499496	-74.5997
+		Orientation	0 0 0 1
+	}
+-= Animation: 3, Node human02 =-
+	Frame 7 {
+		Visibility 1
+		Position	39.9288	0.229065	-101.479
+		Orientation	0 0 0 1
+	}
+	Frame 15 {
+		Visibility 0
+		Position	39.9288	0.229076	-101.48
+		Orientation	0 0 0 1
+	}
+-= Animation: 2, Node parachute01 =-
+	Frame 7 {
+		Visibility 1
+		Position	-212.53	-675.411	5232.86
+		Orientation	0 -0.14831 0 0.988941
+	}
+	Frame 8 {
+		Position	-212.53	-514.822	4315.83
+	}
+	Frame 9 {
+		Position	-212.53	-357.093	3415.13
+	}
+	Frame 10 {
+		Position	-212.53	-207.941	2563.41
+	}
+	Frame 11 {
+		Position	-212.53	-73.0852	1793.33
+	}
+	Frame 12 {
+		Position	-212.53	41.7569	1137.53
+	}
+	Frame 13 {
+		Position	-212.53	130.867	628.677
+	}
+	Frame 14 {
+		Position	-212.53	188.526	299.419
+	}
+	Frame 15 {
+		Visibility 0
+		Position	-212.53	209.017	182.409
+		Orientation	0 -0.14831 0 0.988941
+	}
+-= Animation: 2, Node ropes01 =-
+	Frame 7 {
+		Visibility 1
+		Position	0.618774	0.0499268	-74.6001
+		Orientation	0 0 0 1
+	}
+	Frame 15 {
+		Visibility 0
+		Position	0.618744	0.0499573	-74.5997
+		Orientation	0 0 0 1
+	}
+-= Animation: 2, Node human01 =-
+	Frame 7 {
+		Visibility 1
+		Position	39.9288	0.229065	-101.479
+		Orientation	0 0 0 1
+	}
+	Frame 15 {
+		Visibility 0
+		Position	39.9288	0.22908	-101.48
+		Orientation	0 0 0 1
+	}
+-= Animation: 1, Node parachute =-
+	Frame 7 {
+		Visibility 1
+		Position	-42.7938	-969.956	5983.56
+		Orientation	0 -0.14831 0 0.988941
+	}
+	Frame 8 {
+		Position	-42.7938	-809.368	4930.26
+	}
+	Frame 9 {
+		Position	-42.7938	-651.639	3895.71
+	}
+	Frame 10 {
+		Position	-42.7938	-502.487	2917.43
+	}
+	Frame 11 {
+		Position	-42.7938	-367.631	2032.91
+	}
+	Frame 12 {
+		Position	-42.7938	-252.789	1279.66
+	}
+	Frame 13 {
+		Position	-42.7938	-163.679	695.184
+	}
+	Frame 14 {
+		Position	-42.7938	-106.019	316.997
+	}
+	Frame 15 {
+		Visibility 0
+		Position	-42.7938	-85.5289	182.6
+		Orientation	0 -0.14831 0 0.988941
+	}
+-= Animation: 1, Node ropes =-
+	Frame 7 {
+		Visibility 1
+		Position	0.618774	0.0499268	-74.5996
+		Orientation	0 0 0 1
+	}
+	Frame 15 {
+		Visibility 0
+		Position	0.618752	0.0499496	-74.5997
+		Orientation	0 0 0 1
+	}
+-= Animation: 1, Node human =-
+	Frame 7 {
+		Visibility 1
+		Position	39.9288	0.229065	-101.479
+		Orientation	0 0 0 1
+	}
+	Frame 15 {
+		Visibility 0
+		Position	39.9288	0.22908	-101.48
+		Orientation	0 0 0 1
+	}

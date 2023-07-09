@@ -5,7 +5,7 @@
 
 ADDED/INTEGRATED:
 -----
-Immersive sound sub mod for robz ; not all sounds are yet integrated
+Integrated various sounds
 
 
 
@@ -88,6 +88,7 @@ Adjusted various halftrack and light carrier prices
 Reduced German 5cm mortar price by 40mp
 Reduced Panzerfaust single buy cost by 10mp, Ost elite by 20mp
 Reduced Wespe cost by 125
+10m increase in range before STGs go to long burst mode
 
 
 USA
@@ -116,6 +117,9 @@ USA
 -m18 hellcat - 450 mp
 -m18 timer reduced to same as m10 (660 sec)
 Added US logistics SP buy. 1sp for a normal truck and an inf and art ammo crate
+{Not yet implemented
+US M8 howtizer sp buy raised to 3sp. Paradropped.
+Added M1 57 paradrop 3 sp.}
 	Infantry
 -Buffed M1, M1A1, and M2 Carbine
 -Shotguns are single infantry at 15mp each
@@ -124,6 +128,7 @@ Added US logistics SP buy. 1sp for a normal truck and an inf and art ammo crate
 -US Ranger Recoiless single buy reduced from 150 to 130mp
 -Added a shotgun to marine rifle squad and now have a 1 minute startup timer
 -Added boys at rifle to paramarines
+-Added m3 carbine sp buy. Two teams of three for 1sp. 75m range but with advanced sniper scope.
 
 
 
@@ -220,6 +225,7 @@ t 34 85 guards - 675 mp
 lend lease sherman - 8 sp
 bm31-12 - 13 sp
 dual guards kv85 - 10sp
+increased ace t34 85 to 9sp
 
 
 
@@ -259,7 +265,7 @@ jagdtiger - 2750 mp
 pz4j battlegroup - 6sp
 two flak88 - 7sp
 sturmtiger - 15sp
-Panther and Tiger Veteran to 14 sp
+Panther and Tiger Veteran to 15 sp
 Sniper SP buy replaced by 42 Lafette
 Replaced double nebelwerfer buy with an 11sp double mechanized sturm pioneer with 2 nebelwerfers loaded with smoke
 
@@ -297,7 +303,8 @@ veteran jagdpanther - 18sp
 stuka zo fuss - 16sp
 doublet hetzer - 8sp
 double 105 - 6sp
-Tiger and Panther Ace to 16 sp
+Tiger and Panther Ace to 17 sp
+Vet Jagdpanther to 19sp
 
 
 
@@ -329,6 +336,8 @@ double tiger 1- 16sp
 double tiger 1- startup cooldown reduced by 200 seconds
 sdfkz 8 increased sp cost by 1
 swg 41 increased by 2 sp
+Raketen Werfer to 1sp
+Stug 3 Ace price increased by 1 sp
 
 
 

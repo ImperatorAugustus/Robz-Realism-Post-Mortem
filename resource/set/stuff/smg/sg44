@@ -19,7 +19,7 @@
 	{rechargeTime 4.5}
 	{burst
 		{short 2 0.5}
-		{long 5 0.5}
+		{long 5 0.6}
 	}
 	("recoveryTime" r(500))
 	("accuracy_assault_rifle")

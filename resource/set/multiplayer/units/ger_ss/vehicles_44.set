@@ -153,6 +153,6 @@
 {"hero_ss_pak40"    ("v331" c(300) c1(np_sdkfz8) c2(pak40) t(all hero 42 43 44 45) s(ger_ss) n(vehicle_supporter:2) g(h11) b(hero)) {level 1} {cost 8.0} {fore -0.5}}
 {"hero_ss_lefh18"   ("v2" c(650) c1(lefh18) 		t(all hero artillery 39 40 41 42 43 44 45) s(ger_ss) n1(vehicle_supporter:2) n2(tankman2:0) g(h12) b(hero)) {level 1} {cost 6.0} {fore -0.5}}
 {"hero_ss_brummbar" ("v1" c(900) c1(brummbar_early) 		t(all hero 44 45) s(ger_ss) n1(tankman:3) n2(tankman2:1) g(h13) b(hero)) {level 1} {cost 10.0} {fore -0.5}}
-{"tiger_ace"        ("v1" c(1050) c1(pz6e_ace) 		t(all hero 44 45) s(ger_ss) n1(elite_tankman:4) n2(elite_tankman2:1) g(h14) b(hero)) {level 1} {cost 16.0} {fore -0.5}}
-{"hero_ss_panther_ace" ("v1" c(1200) c1(pz5g_ace) 		t(all hero 44 45) s(ger_ss) n1(elite_tankman:4) n2(elite_tankman2:1) g(h16) b(hero)) {level 1} {cost 16.0} {fore -0.5}}
-{"hero_ss_jagdpanther" ("v1" c(1400) c1(jagdpanther_vet) t(all hero 44 45) s(ger_ss) n1(vet_tankman:3) n2(vet_tankman2:1) g(h15) b(hero)) {level 1} {cost 18.0} {fore -0.5}}
+{"tiger_ace"        ("v1" c(1050) c1(pz6e_ace) 		t(all hero 44 45) s(ger_ss) n1(elite_tankman:4) n2(elite_tankman2:1) g(h14) b(hero)) {level 1} {cost 17.0} {fore -0.5}}
+{"hero_ss_panther_ace" ("v1" c(1200) c1(pz5g_ace) 		t(all hero 44 45) s(ger_ss) n1(elite_tankman:4) n2(elite_tankman2:1) g(h16) b(hero)) {level 1} {cost 17.0} {fore -0.5}}
+{"hero_ss_jagdpanther" ("v1" c(1400) c1(jagdpanther_vet) t(all hero 44 45) s(ger_ss) n1(vet_tankman:3) n2(vet_tankman2:1) g(h15) b(hero)) {level 1} {cost 19.0} {fore -0.5}}

@@ -2,6 +2,7 @@
 
 {"airborne_spawner" 		("extra" t() sc(0) cw(0) cp(0))}
 {"airborne_spawner_m1_57mm"	("extra" t() sc(0) cw(0) cp(0))}
+{"airborne_spawner_m8_howitzer"	("extra" t() sc(0) cw(0) cp(0))}
 ;°°°heroes°°°													; 150 MP
 
 {"black_prince"  		("extra" t() sc(67.50) cw(0) cp(40))}	;9

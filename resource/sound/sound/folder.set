@@ -1,0 +1,14 @@
+{sound
+	;tag		--  specifies to which volume group the sounds are belong to.
+	;				Possible groups: "effects", "emotions", "speech",
+	;				"environment" and "default"
+	;-----------------------------------------------------------------------
+	;loudness	tag
+	{loudness 	"default"}
+	
+	;value		--	adjust the sound volume.
+	;Example		{volume 0.5} means only 50% volume.
+	;-----------------------------------------------------------------------
+	;volume		value
+	{volume		1.0}
+}

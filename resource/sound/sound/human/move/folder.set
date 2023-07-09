@@ -1,0 +1,7 @@
+{sound
+	{loudness "footstep"}
+	{tag effects}
+	{signal movement 8}
+	{SignalPeriod 0.5}
+	{volume	0.75}
+}

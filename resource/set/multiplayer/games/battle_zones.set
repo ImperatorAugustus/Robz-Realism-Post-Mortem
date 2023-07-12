@@ -13,7 +13,7 @@
 		{difficulty 		multiplayer}
 		{scoreMin			25}
 		{scoreMax			1000}
-		{scoreFinal			150}
+		{scoreFinal			125}
 		{preparationTimeMin	0}
 		{preparationTimeMax	60}
 		{preparationTime	15}

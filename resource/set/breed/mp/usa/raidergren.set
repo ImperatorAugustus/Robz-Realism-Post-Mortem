@@ -1,0 +1,66 @@
+{breed
+	{skin "usa-camo-carbine"}
+	{portrait usa_elite2}
+	{icon elite5}
+	{icon_priority 3}
+	{nationality usa}
+	{armors
+		{body us_marine_haversack}
+		{head helmet_marine_usa}
+	}
+	{perks
+		{"health" "200%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "150%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" mp_soldier
+		}
+		{"speed" 0.9
+		}
+		{"tank" 0.85
+		}
+		{"vehicle" 1
+		}
+		{"cannon" 0.9
+		}
+		{"pistol" lvl_3
+		}
+		{"smg" lvl_3
+		}
+		{"mgun" lvl_3
+		}
+		{"rifle" lvl_5
+		}
+		{"rocketlauncher" lvl_3
+		}
+		{"melee" lvl_3
+		}
+	}
+	{veterancy
+		{"lvl_1" 2
+		}
+		{"lvl_2" 5
+		}
+		{"lvl_3" 9
+		}
+		{"lvl_4" 14
+		}
+		{"lvl_5" 20
+		}
+	}
+	{inventory
+		{item "garand" filled}
+		{item "ammo garand_clip" 80}
+		{item "bandage" 5}
+		{item "garand_grenade" filling "ammo m1garand_grenade fg" 1}
+		{item "m1garand_grenade fg" 5 1}
+		{item "m1garand_grenade ap" 1 1}
+		{item "m1garand_grenade wp" 0.2 1}
+		{item "sandbag_kit"}
+		{in_hands 3}
+	}
+}

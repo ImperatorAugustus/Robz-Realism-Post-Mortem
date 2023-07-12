@@ -115,31 +115,7 @@
 {"m36b1"       	    ("v" c(240) t(all 44 45 medium) 	s(usa) n1(4) n2(1) g(f3) sc(47.50) b(v5) cw(0) cp(15)) {level 1} {cost 1000} {fore -4.5}}	;1320sec
 	
 	
-;같캛utton SF같�
-
-;("squad_with7types" side(usa) name(rifle_platoon) c(0) g(sf1) c1(squadleader:3) c2(rifle:14) c3(rifle_grenadier:3) c4(mgun:6) c5(mgun_asst:6) c6(sniper:2) c7(bazooker:2) b(sf) t(sf) level(1) cost(440) f(-1.2)) ;30% discount
-;{"armored_rifle_platoon"  ("arm_mech_us" c(0) t(sf) v1(m3_usa) c1(30_browning_m1919a4) c2(60mm_brandt_usa) s(usa) n1(a_r:6) n2(a_sl:1) n3(a_r_g:1) n4(a_ar:1) n5(sniper:1) n6(a_r:1) g(sf1) b(sf)) {level 1} {cost 1085} {fore -1.2}} ;1320sec,30% discount
-;{"us_weapons_platoon"  ("us_weapon" c(0) t(sf) c1(30_browning_m1919a4) c2(60mm_brandt_usa) c3(ammo_box_us_inf) s(usa) n(vehicle_supporter) g(sf1) b(sf)) {level 1} {cost 650} {fore -1.2}} ;1320sec,30% discount
-
-;{"m1_57mm_platoon"  ("mech_at-3" c(0) t(sf medium) v1(m3_usa) v2(m1_57mm) s(usa) n1(vehicle_supporter:2) n2(ammo_bearer_57mm:3) g(sf1) b(sf)) {level 1} {cost 1050} {fore -1.2}} ;1320sec,30% discount
-;{"m5_76mm_platoon"  ("mech_at-2" c(0) t(sf medium) v1(m3_usa) v2(np_m5cannon) s(usa) n1(vehicle_supporter:2) n2(ammo_bearer_76mm:3) g(sf1) b(sf)) {level 1} {cost 840} {fore -1.2}} ;1320sec,30% discount
-
-;{"mortar_81mm_platoon" ("battery44" c(0) t(sf medium) c1(81mm_brandt_usa) v1(ammo_box_us_inf) s(usa) g(sf1) b(sf)) {level 1} {cost 984} {fore -1.2}} ;1320sec,40% discount
-;{"mortar_4_2_platoon"  ("battery22" c(0) t(sf medium) c1(4_2_inch_mortar_m_2) v1(ammo_box_us_art) s(usa) g(sf1) b(sf)) {level 1} {cost 810} {fore -1.2}} ;1320sec,40% discount
-
-;{"m2a1l_battery"  	("battery42" c(0) t(sf medium) c1(m2a1l) v1(gmc_art) s(usa) g(sf1) b(sf)) {level 1} {cost 1680} {fore -1.2}} ;1320sec,40% discount
-;{"m114_battery"  	("battery42" c(0) t(sf medium) c1(m114) v1(gmc_art) s(usa) g(sf1) b(sf)) {level 1} {cost 2280} {fore -1.2}} ;1320sec,40% discount
-
-;{"m5a1_platoon"  	("v5-tank" c(0) t(sf light) v1(m5a1) s(usa) n1(3) n2(1) g(sf1) b(sf)) {level 1} {cost 900} {fore -1.2}}  	;1320sec,40% discount
-;{"m24_platoon"  	("v5-tank" c(0) t(sf light) v1(m24) s(usa) n1(3) n2(1) g(sf1) b(sf)) {level 1} {cost 1120} {fore -1.2}}  	;1320sec,30% discount
-
-;{"sherman_platoon"  ("v5_4-1-tank" c(0) t(sf medium) v1(m4a3_75) v2(m4a3e8) s(usa) n1(4) n2(1) g(sf1) b(sf)) {level 1} {cost 1540} {fore -1.2}}  	;1320sec,30% discount
-;{"sherman_company" ("v15_10-5-tank" c(0) t(sf medium) v1(m4a3_75) v2(m4a1) v3(m4a1_76w) v4(m4a3e8) s(usa) n1(t) n2(t2) g(sf2) b(sf)) {level 1} {cost 3410} {fore -1.2}}  	;1320sec,60% discount;6820 original cost
-
-;{"m10_platoon"   	("us-td" c(0) t(sf medium) v1(m10wolverine) v2(m20) s(usa) n1(4) n2(1) n3(2) g(sf1) b(sf)) {level 1} {cost 1400} {fore -1.2}}  	;1320sec,30% discount
-;{"m18_platoon"   	("us-td" c(0) t(sf medium) v1(m18) v2(m20) s(usa) n1(4) n2(1) n3(2) g(sf1) b(sf)) {level 1} {cost 1610} {fore -1.2}}  	;1320sec,30% discount
-;{"m36_platoon"   	("us-td" c(0) t(sf medium) v1(m36) v2(m20) s(usa) n1(4) n2(1) n3(2) g(sf1) b(sf)) {level 1} {cost 2380} {fore -1.2}}  	;1320sec,30% discount
-
+	
 ;같캛utton Hero같�
 
 {"hero_log"        ("v1111" c(180) c1(gmc) c2(ammo_box_us_inf) c3(ammo_box_us_art) 	t(all 42 43 44 45 hero) s(usa) n1(vehicle_supporter:2) g(h1) b(hero)) {level 1} {cost 1.0} {fore -0.5}}
@@ -154,7 +130,7 @@
 
 {"hero4_usa"        ("v1" c(450) c1(m4a3_zippo) 	t(all 44 45 hero flamethrower) s(usa) n1(tankman:4) n2(tankman2:1) g(h3) b(hero)) {level 1} {cost 4.0} {fore -0.5}}
 
-{"hero11_usa"	    ("i4" c(340)			t(all 42 43 44 45 hero) s(usa) n1(rifle:24) n2(rifle_grenadier:3) n3(mgun:6) n4(squadleader:3) g(h5) b(hero)) {level 1} {cost 4.0} {fore -0.5}}
+{"hero_raiders" 	("v28" c(340) c1(lvt4) t(all inf_only 42 43 44 45) s(usa) n1(tankman:3) n2(tankman2:1) n3(raiderchad:1) n4(raider:3) n5(raidergren:1) n6(raiderbar:3) n7(raiderasst:3) n8(raiderdemo:1)  g(h5) b(hero)) level(1) {cost 7.0} f(-0.5)}
 {"hero6_usa"  	    ("v1" c(500) c1(m4a3_105) 		t(all 44 45 hero) s(usa) n1(tankman:4) n2(tankman2:1) g(h6) b(hero)) {level 1} {cost 5.0} {fore -0.5}}
 {"hero10_usa"	    ("v51" c(380) c1(81mm_brandt_usa) c2(m1_57mm) c3(30_browning_m1919a4) t(all 42 43 44 45 hero) s(usa) n1(vehicle_supporter:2) g(h7) b(hero)) {level 1} {cost 6.0} {fore -0.5}}
 

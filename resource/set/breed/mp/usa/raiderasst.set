@@ -1,0 +1,67 @@
+{breed
+	{skin "usa-camo-carbine"}
+	{portrait usa_elite2}
+	{icon elite}
+	{icon_priority 3}
+	{nationality usa}
+	{armors
+		{body us_marine_haversack}
+		{head helmet_marine_usa}
+	}
+	{perks
+		{"health" "250%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "150%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" mp_soldier
+		}
+		{"speed" 0.9
+		}
+		{"tank" 0.85
+		}
+		{"vehicle" 1
+		}
+		{"cannon" 0.9
+		}
+		{"pistol" lvl_4
+		}
+		{"smg" lvl_4
+		}
+		{"mgun" lvl_4
+		}
+		{"rifle" lvl_5
+		}
+		{"rocketlauncher" lvl_4
+		}
+		{"melee" lvl_4
+		}
+		{"tankgun" lvl_4
+		}
+	}
+	{veterancy
+		{"lvl_1" 2
+		}
+		{"lvl_2" 5
+		}
+		{"lvl_3" 9
+		}
+		{"lvl_4" 14
+		}
+		{"lvl_5" 20
+		}
+	}
+	{inventory
+		{item "bandage" 5}
+		{item "grenade m61" 2}
+		{item "smoke grenade" 1.5 0.5}
+		{item "m15_smoke grenade" 0.5 0.5}
+		{item "garand" filling "garand_clip ammo" 8}
+		{item "garand_clip ammo" 88}
+		{item "bar_mag ammo" 180}
+		{in_hands 4}
+	}
+}

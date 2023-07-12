@@ -1,0 +1,184 @@
+{Entity
+	(include "/properties/tank.ext")
+	(include "/properties/selection/vehicle.inc"  scale(1.2))
+	{props "medium"  "turret_rotator" "vision_vehicle_medium" "muzzle_medium"}
+ 	
+	("armor_medium_custom" turret(76 51 51 32) body(51 38 38 51))
+	("armor_engine"  t(40 38 38 25))
+	("armor_mantlet" t(76))
+	("us_3x_sight")
+
+	{volume "body"
+		{component "body"}
+		{thickness 51}
+		{tags "body"}
+	}
+	{volume "gun"
+		{component "gun"}
+		{thickness 10}
+	}
+	{volume "gun2"
+		{component "gun2"}
+		{thickness 10}
+	}
+	{component "gun2"
+		{RepairTime 10}
+	}
+	{volume "engine"
+		{component "engine"}
+		{thickness 38}
+	}
+
+	("crew_61_human")
+
+	{extender "enumerator"}
+
+	{sensor
+		{visor "driver"
+			{vision "tank_driver"}
+			{bone "visor1"}
+		}
+		{visor "main"
+			{vision "tank_main-m"}
+			{bone "visor2"}
+		}
+		{visor "main-l"
+			{vision "tank_main-l"}
+			{bone "visor3"}
+		}
+		{visor "mgun"
+			{vision "mg_hull"}
+			{bone "visor4"}
+		}
+		{visor "view-around"
+			{vision "none"}
+			{bone "turret"}
+		}
+	}
+
+	{boarder
+		{anm "left"
+			{forward	{begin	"board_tank_left"} {base "close_driver"}}
+			{reverse 	{end	"emit_tank_2_hold"} {base "close_driver" -1}}
+		}
+		{anm "right"
+			{forward	{begin	"board_tank_right"} {base "close_gunner"}}
+			{reverse 	{end	"emit_tank_2_hold"} {base "close_gunner" -1}}
+		}
+		{anm "armor"
+			{forward	{begin	"board_HighArmor"} 	{end "seat_armor"}}
+			{reverse 	{end	"emit_tank_2"}}
+		}
+		{anm "armor1"
+			{forward	{begin	"board_HighArmor"} {end "seat_armor"}}
+			{reverse 	{end	"emit_body"}}
+		}
+	}
+
+	("seat_human" place(seat1) bone(seat01) door(emit3)  animation(armor1))
+	("seat_human" place(seat2) bone(seat02) door(emit4)  animation(armor))
+	("seat_human" place(seat3) bone(seat03) door(emit5)  animation(armor))
+	("seat_human" place(seat4) bone(seat04) door(emit6)  animation(armor1))
+
+	{extender "inventory"
+		{box
+			{item "ammo bullet75 us ap" 50}
+			{item "ammo bullet75 us fg" 27}
+			{item "bullet37 us ap" 30}
+			{item "bullet37 us fg" 27}
+			{item "ammo springfield_belt" 2400}
+		}
+	}
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "75mm_m3" filling "ammo bullet75 us ap" 1}
+			{foresight "foresight1"}
+			{gunner "commander"}
+			{charger "commander"}
+			("abm_stabilized")
+			{rotate}
+			{basic}
+		}
+		{place "gun2"
+			{RestoreIKAfterAim}
+			{weapon "37mm_m5" filling "bullet37 us ap" 1}
+			{foresight "foresight11"}
+			("abm_stabilized")
+			{basic}
+		}
+		{place "mgun"
+			{RestoreIKAfterAim}
+			{type "mgun_hull"}
+			{weapon "browning_m19" filled}
+			{foresight "foresight3"}
+			{gunner "commander"}
+		}
+		{place "mgun2"
+			{RestoreIKAfterAim}
+			{type "mgun_coaxial"}
+			{weapon "browning_m19_optic" filled}
+			{foresight "foresight4"}
+			{gunner "commander"}
+			{basic}
+		}
+        	}
+
+	{mass 28600}
+	{Chassis
+		("tank_trace" fx("tracks_sm") step(0.3) len(0.65))
+		{Locomotion ("locomotion")
+			{maxspeed   26}
+			{maxSpeedAtMaxTurn 5}
+			{StartTime  40}
+			{TurnTime   19}
+			{TurnStart  1.8}			
+			{TurnRadius 10} 
+    		{TurnStop   0.8}
+			{BrakeTime  1.5}
+			{StopTime   2.5}
+			{Gears   0.1 0.2 0.3 1}
+			{RearGears  0.3}
+		}
+		{FuelBag
+			{volume 660 }	
+			{rate	33 }   
+			{remain 660 }
+			{fuel "fuel"}
+		}
+		{speed
+        	{Normal  10}
+        	{Slow  16}
+    	}
+	}
+
+	{Extension "m3grant.mdl"}
+
+	{bone "turret"
+		{speed 0.003}
+	}
+	{bone "turret2"
+		{speed 0.001}
+		{limits -8 8}
+	}
+	{bone "gun_rot2"
+		{limits -9 9}
+		{speed 0.001}
+	}				
+	{bone "gun_rot"
+		{limits -20 9}
+		{speed 0.001}
+	}
+	{bone "mgun"
+		{limits -10 10}
+	}
+	{bone "mgun2"
+		{limits -10 10}
+	}
+	{bone "mgun_turret"
+		{limits 0 0}
+		{speed 0.005}
+	}
+	
+}

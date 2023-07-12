@@ -83,7 +83,7 @@
 
 ;°°°Button 4°°°
 
-{"grant_m3r"         ("v" c(10) t(all 44 45 medium) s(rus) n1(3) n2(1) g(e1) sc(19.00) b(v4) cw(0) cp(15)) {level 1} {cost 330} {fore -53.0}}	;540sec
+{"m3grantr"       ("v" c(10) t(all 44 45 medium) s(rus) n1(3) n2(1) g(e1) sc(19.00) b(v4) cw(0) cp(15)) {level 1} {cost 330} {fore -53.0}}	;540sec
 {"t34_42"          ("v" c(10) t(all medium 44) 		s(rus) n1(3) n2(1) g(e4) sc(18.00) b(v4) cw(0) cp(10)) {level 1} {cost 330} {fore -53.0}}	;540sec
 
 {"t34_2"           ("v_seq" c(10) t(all medium 44 45) 	s(rus) n1(3) n2(1) g(e4) i(3) sc(18.50) b(v4) cw(0) cp(10)) {level 1} {cost 350} {fore -59.0}}	;600sec

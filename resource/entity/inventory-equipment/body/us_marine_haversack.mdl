@@ -1,0 +1,57 @@
+;Exported by: Kalinski
+;Date:        Sun Jun 11 16:19:56 2017
+;File:        C:\Users\Kalinski\Desktop\us marine\haversack.max
+{Skeleton
+	{bone "us_marine_haversack"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "us_marine_haversack.ply"}
+	}
+}
+{Volume "body"
+	{Box 2.63281 7.70747 6.54145}
+	{Bone "us_marine_haversack"}
+	{Matrix34
+		1.0387	0	0
+		0	1.0387	0
+		0	0	1.0387
+		-3.67826	4.22183	0.141224
+	}
+}
+{Volume "select"
+	{Box 7.12156 10.0843 8.94763}
+	{Bone "us_marine_haversack"}
+	{Matrix34
+		1.0387	0	0
+		0	1.0387	0
+		0	0	1.0387
+		-2.0357	3.27836	0.109252
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -14.7501	-3.37221	-0.0698996}
+			{lookat -2.53753	-3.25843	0.0746722}
+			{fov 45}
+			{horizon -90.2265}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -7.11839	-7.16879	-3.11654}
+			}
+			{"1"
+				{type point}
+				{position -6.7257	0.5801	2.65881}
+			}
+			{"2"
+				{type directional}
+				{direction 0.499997	-0.00070763	-0.00145834}
+			}
+		}
+	}
+}

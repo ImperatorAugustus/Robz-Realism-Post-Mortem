@@ -7,9 +7,9 @@
 	
 	{special
 		{mode aim}
-		{PrepareTime 0.5}	
+		{PrepareTime 0.8}	
 		{PrepareCursor "aimed_shot"}
-		{accuracy 2.5}
+		{accuracy 1.7}
 		{throw_off}
 	}
 	
@@ -22,7 +22,7 @@
 		{BurstAccuracy 100 96 92 84 78}
 	}
 
-	{range 75 75}
+	{range 60 60}
 	{Automatic}
 	{ProjectileDamage 4.5}
 	{ProjectileDamageClip 4.5}
@@ -31,6 +31,7 @@
 	{calibre 7.62}
 	{rechargeTime 4.5}
 	{healthDamage 26}
-	("recoveryTime" r(750))
+	("recoveryTime" r(775))
+	("accuracy_carabine")
 	("speed" s(590))
 }

@@ -1,0 +1,9 @@
+{from "pattern overcoat"
+	{entity "us_marine_haversack"}
+	{inventory
+		{size 2 3}
+		{weight 3}
+		{link_bone "IK_UpDown"}
+		{fsm "stuff"}
+	}
+}

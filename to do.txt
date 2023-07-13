@@ -1,0 +1,13 @@
+Not fully implemented
+US M8 howtizer sp buy raised to 3sp. Paradropped.
+Added M1 57 paradrop 3 sp.
+
+Remove
+Visor for airborne and goliaths
+
+Add
+deminers/fix model
+m4dd
+
+fix
+vet tiger for ost gun

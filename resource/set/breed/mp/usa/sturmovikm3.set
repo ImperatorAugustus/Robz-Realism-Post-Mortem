@@ -53,10 +53,8 @@
 		{item "m3_carbine" filled}
 		{item "ammo m2carbine_mag" 240}
 		{item "bandage" 5}
-		{item "grenade m61" 2}
-		;{item "grenade n73at" 1}
+		{item "grenade m61" 1}
 		{item "smoke grenade" 2}
-		{item "m15_smoke grenade" 1}
 		{in_hands 0}
 	}
 }

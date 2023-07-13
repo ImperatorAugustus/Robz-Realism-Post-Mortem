@@ -1,0 +1,2507 @@
+{mission
+	{Entity "flag_point_1" 0x802f
+		{Position 1012.47 1391.28}
+		{xform zl -89.46 scale 0.75}
+		{Skeleton
+			{MtlParams
+				{"specular color" "e6e6e6ff"}
+			}
+		}
+		{Extender "map_point"
+			{name f1}
+			{zoneA 40}
+			{zoneB 40}
+			{phase 0}
+			{order 1}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 2}
+	}
+	{Entity "flag_point_4" 0x8001
+		{Position 389.85 3674.77}
+		{xform zl -89.46 scale 0.75}
+		{Skeleton
+			{MtlParams
+				{"specular color" "e6e6e6ff"}
+			}
+		}
+		{Extender "map_point"
+			{name f4}
+			{zoneA 12}
+			{zoneB 12}
+			{phase 0}
+			{order 4}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 1}
+	}
+	{Entity "flag_point_2" 0x8003
+		{Position 3731.26 1662.6}
+		{xform zl -89.46 scale 0.75}
+		{Skeleton
+			{MtlParams
+				{"specular color" "e6e6e6ff"}
+			}
+		}
+		{Extender "map_point"
+			{name f2}
+			{zoneA 12}
+			{zoneB 12}
+			{phase 0}
+			{order 2}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 3}
+	}
+	{Entity "flag_point_3" 0x8005
+		{Position -1226.36 1261.1}
+		{xform zl -89.46 scale 0.75}
+		{Skeleton
+			{MtlParams
+				{"specular color" "e6e6e6ff"}
+			}
+		}
+		{Extender "map_point"
+			{name f3}
+			{zoneA 12}
+			{zoneB 12}
+			{phase 0}
+			{order 3}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 4}
+	}
+	{Entity "flag_point_6" 0x800b
+		{Position -2497.47 -949.2}
+		{xform zl -89.46 scale 0.75}
+		{Skeleton
+			{MtlParams
+				{"specular color" "e6e6e6ff"}
+			}
+		}
+		{Extender "map_point"
+			{name f6}
+			{zoneA 12}
+			{zoneB 12}
+			{phase 0}
+			{order 6}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 5}
+	}
+	{Entity "flag_point_5" 0x8007
+		{Position 867.91 -600.74}
+		{xform zl -89.46 scale 0.75}
+		{Skeleton
+			{MtlParams
+				{"specular color" "e6e6e6ff"}
+			}
+		}
+		{Extender "map_point"
+			{name f5}
+			{zoneA 12}
+			{zoneB 12}
+			{phase 0}
+			{order 5}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 7}
+	}
+	{Entity "map_point" 0xc001
+		{Position -1468.51 10023.8}
+		{xform zl -95.28}
+		{Extender "map_point"
+			{name a3}
+			{team a}
+			{zoneA 0}
+			{zoneB 0}
+			{phase 0}
+			{order 3}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 15}
+	}
+	{Entity "map_point" 0xc002
+		{Position 1869.02 10030.6}
+		{xform zl -96.05}
+		{Extender "map_point"
+			{name a2}
+			{team a}
+			{zoneA 0}
+			{zoneB 0}
+			{phase 0}
+			{order 2}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 16}
+	}
+	{Entity "map_point" 0xc003
+		{Position 34.07 10047}
+		{xform zl -73.21}
+		{Extender "map_point"
+			{name a1}
+			{team a}
+			{zoneA 0}
+			{zoneB 0}
+			{phase 0}
+			{order 1}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 17}
+	}
+	{Entity "map_point" 0xa000
+		{Position 1404.01 -8160.4}
+		{xform zl 88.58}
+		{Extender "map_point"
+			{name b1}
+			{team b}
+			{zoneA 0}
+			{zoneB 0}
+			{phase 0}
+			{order 1}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 19}
+	}
+	{Entity "map_point" 0xa002
+		{Position -330.34 -8159.26}
+		{xform zl 90.36}
+		{Extender "map_point"
+			{name b2}
+			{team b}
+			{zoneA 0}
+			{zoneB 0}
+			{phase 0}
+			{order 2}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 21}
+	}
+	{Entity "map_point" 0xa003
+		{Position 3430.27 -8159.66}
+		{xform zl 103.68}
+		{Extender "map_point"
+			{name b3}
+			{team b}
+			{zoneA 0}
+			{zoneB 0}
+			{phase 0}
+			{order 3}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 22}
+	}
+	{Entity "flag_point_7" 0xd000
+		{Position -2898.39 3680.15}
+		{Skeleton
+			{MtlParams
+				{"specular color" "e6e6e6ff"}
+			}
+		}
+		{Extender "map_point"
+			{name f7}
+			{zoneA 12}
+			{zoneB 12}
+			{phase 0}
+			{order 7}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 6}
+	}
+	{Entity "map_point" 0x8000
+		{Position 3300.11 10028.1}
+		{xform zl -105.7}
+		{Extender "map_point"
+			{name a4}
+			{team a}
+			{zoneA 0}
+			{zoneB 0}
+			{phase 0}
+			{order 4}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 8}
+	}
+	{Entity "map_point" 0x8002
+		{Position -1801.36 -8162.97 150.03}
+		{xform zl 67.77}
+		{Extender "map_point"
+			{name b4}
+			{team b}
+			{zoneA 0}
+			{zoneB 0}
+			{phase 0}
+			{order 4}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 9}
+	}
+	{Entity "flag_point_8" 0x8004
+		{Position 4565.63 -158.32}
+		{Skeleton
+			{MtlParams
+				{"specular color" "e6e6e6ff"}
+			}
+		}
+		{Extender "map_point"
+			{name f8}
+			{zoneA 12}
+			{zoneB 12}
+			{phase 0}
+			{order 8}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 10}
+	}
+	{Entity "flag_point_9" 0x8006
+		{Position 4337.05 3816.06}
+		{Skeleton
+			{MtlParams
+				{"specular color" "e6e6e6ff"}
+			}
+		}
+		{Extender "map_point"
+			{name f9}
+			{zoneA 12}
+			{zoneB 12}
+			{phase 0}
+			{order 9}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 11}
+	}
+	{Entity "birds" 0xc008
+		{Position 3834.74 492.41 163.86}
+	}
+	{Entity "battle" 0xc009
+		{Position 3248.84 -5986.05}
+		{Extender "speaker"
+			{SoundName "world/village/00"}
+		}
+	}
+	{Entity "battle" 0xc00a
+		{Position -2224.3 364.74}
+		{Extender "speaker"
+			{SoundName "world/village/00"}
+		}
+	}
+	{Entity "birds" 0xc00c
+		{Position 2481.46 7052.6 0.09}
+	}
+	{Entity "birds" 0xc00d
+		{Position -2985.73 2394.7}
+	}
+	{Entity "birds" 0xc00e
+		{Position -1238.05 -5943.44}
+		{Extender "speaker"
+			{SoundName "world/village/00"}
+		}
+	}
+	{Entity "map_point" 0x8008
+		{Position -3355.63 10031.5}
+		{xform zl -94.3}
+		{Extender "map_point"
+			{name a5}
+			{team a}
+			{zoneA 0}
+			{zoneB 0}
+			{phase 0}
+			{order 5}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 12}
+	}
+	{Entity "map_point" 0x8009
+		{Position 4721.56 8864.64}
+		{xform zl -153.21}
+		{Extender "map_point"
+			{name a6}
+			{team a}
+			{zoneA 0}
+			{zoneB 0}
+			{phase 0}
+			{order 6}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 13}
+	}
+	{Entity "map_point" 0x800a
+		{Position 4390.83 -8152.41}
+		{xform zl 111.72}
+		{Extender "map_point"
+			{name b5}
+			{team b}
+			{zoneA 0}
+			{zoneB 0}
+			{phase 0}
+			{order 5}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 14}
+	}
+	{Entity "map_point" 0x800c
+		{Position -3607.07 -7183.49}
+		{xform zl 3.65}
+		{Extender "map_point"
+			{name b6}
+			{team b}
+			{zoneA 0}
+			{zoneB 0}
+			{phase 0}
+			{order 6}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 18}
+	}
+	{Entity "flag_point_10" 0xa01e
+		{Position 3122.27 -593.05}
+		{Skeleton
+			{MtlParams
+				{"specular color" "e6e6e6ff"}
+			}
+		}
+		{Extender "map_point"
+			{name f10}
+			{zoneA 12}
+			{zoneB 12}
+			{phase 0}
+			{order 10}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 24}
+	}
+	{Entity "flag_point_11" 0xa01f
+		{Position 2756.43 3800.34}
+		{Skeleton
+			{MtlParams
+				{"specular color" "e6e6e6ff"}
+			}
+		}
+		{Extender "map_point"
+			{name f11}
+			{zoneA 12}
+			{zoneB 12}
+			{phase 0}
+			{order 11}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 25}
+	}
+	{Entity "flag_point_12" 0xa020
+		{Position -3685.31 1262.64}
+		{Skeleton
+			{MtlParams
+				{"specular color" "e6e6e6ff"}
+			}
+		}
+		{Extender "map_point"
+			{name f12}
+			{zoneA 12}
+			{zoneB 12}
+			{phase 0}
+			{order 12}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 26}
+	}
+	{Entity "flag_point_13" 0xa021
+		{Position -2555.51 1282.62}
+		{Skeleton
+			{MtlParams
+				{"specular color" "e6e6e6ff"}
+			}
+		}
+		{Extender "map_point"
+			{name f13}
+			{zoneA 12}
+			{zoneB 12}
+			{phase 0}
+			{order 13}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 27}
+	}
+	{Entity "birds" 0x800d
+		{Position -2768.1 8429.46 23.58}
+	}
+	{Entity "flag_point_15" 0x800f
+		{Position -131.06 1385.28}
+		{Skeleton
+			{MtlParams
+				{"specular color" "e6e6e6ff"}
+			}
+		}
+		{Extender "map_point"
+			{name f15}
+			{zoneA 20}
+			{zoneB 20}
+			{phase 0}
+			{order 15}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 23}
+	}
+	{Entity "flag_point_16" 0x8010
+		{Position 2587.54 1671.23}
+		{Skeleton
+			{MtlParams
+				{"specular color" "e6e6e6ff"}
+			}
+		}
+		{Extender "map_point"
+			{name f16}
+			{zoneA 20}
+			{zoneB 20}
+			{phase 0}
+			{order 16}
+			{show All}
+			{visor MapPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 28}
+	}
+	{Tags "keep_places_without_door" 0x1000}
+	{Tags "keep_places_without_door" 0x200f}
+	{Tags "keep_places_without_door" 0x2011}
+	{Tags "keep_places_without_door" 0x600a}
+	{Tags "keep_places_without_door" 0x3f}
+	{Tags "keep_places_without_door" 0x502b}
+	{Tags "keep_places_without_door" 0x1029}
+	{Tags "keep_places_without_door" 0x106c}
+	{Tags "keep_places_without_door" 0x1085}
+	{Tags "keep_places_without_door" 0x409d}
+	{Tags "keep_places_without_door" 0x40a1}
+	{Tags "keep_places_without_door" 0x380b}
+	{Tags "keep_places_without_door" 0x3006}
+	{Tags "keep_places_without_door" {0x20ae "fen5"}}
+	{Tags "keep_places_without_door" {0x20ae "fen7"}}
+	{Tags "keep_places_without_door" 0x20ae}
+	{Tags "keep_places_without_door" 0x3095}
+	{Tags "keep_places_without_door" 0x4034}
+	{Tags "keep_places_without_door" 0x10fa}
+	{Tags "keep_places_without_door" 0x6050}
+	{Tags "keep_places_without_door" 0x5025}
+	{Tags "keep_places_without_door" 0x381c}
+	{Tags "keep_places_without_door" 0x60eb}
+	{Tags "keep_places_without_door" 0x6120}
+	{Tags "keep_places_without_door" 0x616c}
+	{Tags "keep_places_without_door" 0x182d}
+	{Tags "keep_places_without_door" 0x4079}
+	{Tags "keep_places_without_door" 0x2014}
+	{Tags "keep_places_without_door" 0x5013}
+	{Tags "keep_places_without_door" 0x382e}
+	{Tags "keep_places_without_door" 0x401}
+	{Tags "keep_places_without_door" 0x5c0d}
+	{Tags "keep_places_without_door" 0x20cf}
+	{Tags "keep_places_without_door" 0x416e}
+	{Tags "keep_places_without_door" 0x3d0}
+	{Tags "keep_places_without_door" 0x41d2}
+	{Tags "keep_places_without_door" 0x41f6}
+	{Tags "keep_places_without_door" 0x421d}
+	{Tags "keep_places_without_door" 0x535}
+	{Tags "keep_places_without_door" 0x217d}
+	{Tags "keep_places_without_door" 0x568}
+	{Tags "keep_places_without_door" 0x21d5}
+	{Tags "keep_places_without_door" 0x22b5}
+	{Tags "keep_places_without_door" 0x5030}
+	{Tags "keep_places_without_door" {0x5030 "115"}}
+	{Tags "keep_places_without_door" {0x5030 "97"}}
+	{Tags "keep_places_without_door" {0x5030 "107"}}
+	{Tags "keep_places_without_door" 0x519e}
+	{Tags "keep_places_without_door" 0x1025}
+	{Tags "keep_places_without_door" 0x114d}
+	{Tags "keep_places_without_door" 0x1204}
+	{Tags "keep_places_without_door" {0x786b "120_f3w1"}}
+	{Tags "keep_places_without_door" 0x786b}
+	{Tags "keep_places_without_door" 0x4302}
+	{Tags "keep_places_without_door" 0x434}
+	{Tags "keep_places_without_door" 0x3457}
+	{Tags "keep_places_without_door" 0x43ff}
+	{Tags "keep_places_without_door" 0x469d}
+	{Tags "keep_places_without_door" 0x469e}
+	{Tags "keep_places_without_door" 0x46ba}
+	{Tags "keep_places_without_door" 0x4728}
+	{Tags "keep_places_without_door" 0x4729}
+	{Tags "keep_places_without_door" 0x3875}
+	{Tags "keep_places_without_door" 0x7860}
+	{Tags "keep_places_without_door" 0xc10}
+	{Tags "keep_places_without_door" 0x6823}
+	{Tags "keep_places_without_door" 0x6824}
+	{Tags "keep_places_without_door" 0x6846}
+	{Tags "keep_places_without_door" 0x688f}
+	{Tags "keep_places_without_door" 0x9bf}
+	{Tags "keep_places_without_door" 0xc77}
+	{Tags "keep_places_without_door" 0xb04}
+	{Tags "keep_places_without_door" 0xb06}
+	{Tags "heavy_tow" 0xb07}
+	{Tags "keep_places_without_door" 0x7257}
+	{Tags "keep_places_without_door" 0x7258}
+	{Tags "keep_places_without_door" 0x725a}
+	{Tags "keep_places_without_door" {0x5190 "120_f2addition2"}}
+	{Tags "keep_places_without_door" 0x5190}
+	{Tags "keep_places_without_door" 0x189d}
+	{Tags "keep_places_without_door" 0x189e}
+	{Tags "keep_places_without_door" 0x18da}
+	{Tags "keep_places_without_door" 0x18de}
+	{Tags "keep_places_without_door" 0x191e}
+	{Tags "keep_places_without_door" 0x191f}
+	{Tags "keep_places_without_door" {0x48f7 "door1"}}
+	{Tags "keep_places_without_door" 0x48f7}
+	{Tags "keep_places_without_door" 0xae7}
+	{Tags "keep_places_without_door" 0xaed}
+	{Tags "keep_places_without_door" 0xcc4}
+	{Tags "keep_places_without_door" 0x2400}
+	{Tags "keep_places_without_door" 0x2401}
+	{Tags "keep_places_without_door" 0x5822}
+	{Tags "keep_places_without_door" 0x3c3e}
+	{Tags "keep_places_without_door" 0x3c4d}
+	{Tags "keep_places_without_door" 0x3c51}
+	{Tags "keep_places_without_door" 0x3c80}
+	{Tags "keep_places_without_door" 0x3cb4}
+	{Tags "keep_places_without_door" 0x3cdb}
+	{Tags "keep_places_without_door" 0x3ce3}
+	{Tags "keep_places_without_door" 0x7442}
+	{Tags "keep_places_without_door" 0x747b}
+	{Tags "keep_places_without_door" 0x50ff}
+	{Tags "keep_places_without_door" 0x31a9}
+	{Tags "keep_places_without_door" 0x1945}
+	{Tags "keep_places_without_door" 0x78be}
+	{Tags "keep_places_without_door" 0x78c3}
+	{Tags "keep_places_without_door" 0xda9}
+	{Tags "keep_places_without_door" 0xd7d}
+	{Tags "keep_places_without_door" 0xf1b}
+	{Tags "keep_places_without_door" 0x48b6}
+	{Tags "keep_places_without_door" 0x400}
+	{Tags "keep_places_without_door" 0x10ec}
+	{Tags "keep_places_without_door" 0x1070}
+	{Tags "keep_places_without_door" 0x110c}
+	{Tags "keep_places_without_door" 0x327}
+	{Tags "keep_places_without_door" 0x689c}
+	{Tags "keep_places_without_door" 0x4301}
+	{Tags "keep_places_without_door" 0x43fa}
+	{Tags "keep_places_without_door" 0x384b}
+	{Tags "keep_places_without_door" 0x1303}
+	{Tags "keep_places_without_door" 0x1800}
+	{Tags "keep_places_without_door" 0x1358}
+	{Tags "keep_places_without_door" 0x1885}
+	{Tags "keep_places_without_door" 0x2038}
+	{Tags "keep_places_without_door" 0x6809}
+	{Tags "keep_places_without_door" 0x176}
+	{Tags "keep_places_without_door" 0x4049}
+	{Tags "keep_places_without_door" 0x35}
+	{Tags "keep_places_without_door" 0x6172}
+	{Tags "keep_places_without_door" 0x6178}
+	{Tags "keep_places_without_door" {0x8eb "p15"}}
+	{Tags "keep_places_without_door" {0x709d "p19"}}
+	{Tags "keep_places_without_door" {0x709d "p20"}}
+	{Tags "keep_places_without_door" 0x709d}
+	{Tags "keep_places_without_door" 0x120}
+	{Tags "keep_places_without_door" {0x3006 "10_in"}}
+	{Tags "keep_places_without_door" {0x50ff "7"}}
+	{Tags "day" 0xc008}
+	{Tags "day" 0xc009}
+	{Tags "day" 0xc00a}
+	{Tags "day" 0xc00c}
+	{Tags "day" 0xc00d}
+	{Tags "day" 0xc00e}
+	{Tags "day" 0x800d}
+	{Brain 0xb07
+		{Properties
+			{fire_mode hold}
+		}
+	}
+	{Environment "multi/multi_01"}
+	{Helpers
+		{event "sequence_blizzard/00"}
+		{event "sequence_blizzard/01"}
+		{event "sequence_blizzard/02"}
+		{event "sequence_blizzard/03"}
+		{event "sequence_blizzard/04"}
+		{event "sequence_blizzard/05"}
+		{event "sequence_blizzard/06"}
+		{event "sequence_blizzard/07"}
+		{event "sequence_blizzard/08"}
+		{event "sequence_blizzard/09"}
+		{event "sequence_blizzard/10"}
+		{event "sequence_blizzard/11"}
+		{event "sequence_blizzard/12"}
+		{event "sequence_blizzard/13"}
+		{event "sequence_blizzard/14"}
+		{event "sequence_blizzard/15"}
+		{event "sequence_blizzard/16"}
+		{event "sequence_blizzard/17"}
+		{event "sequence_blizzard/18"}
+		{event "sequence_blizzard/19"}
+		{event "sequence_blizzard/20"}
+		{event "sequence_blizzard/21"}
+		{event "sequence_blizzard/22"}
+		{event "sequence_blizzard/23"}
+		{event "sequence_blizzard/24"}
+		{event "sequence_blizzard/25"}
+		{event "sequence_blizzard/26"}
+		{event "sequence_blizzard/27"}
+		{event "sequence_blizzard/28"}
+		{event "sequence_blizzard/29"}
+		{event "sequence_blizzard/30"}
+		{event "sequence_blizzard/31"}
+		{event "sequence_blizzard/start"}
+		{reinforcements
+			{scoreTotal 0}
+			{scoreCurrent 0}
+		}
+		{triggers
+			{"environment/environment"
+				{condition
+				}
+				{actions
+					{"switch"
+						{"case"
+							{condition
+								{type rand}
+								{value 1}
+							}
+							{"delete"
+								{selector
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+							{"event"
+								{event "sequence_blizzard/start"}
+								{mode set}
+								{delay 0}
+							}
+						}
+						{## "case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"environment"
+								{name "multi/multi_09"}
+								{time -1}
+								{apply}
+							}
+							{"delete"
+								{selector
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+						}
+						{## "case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"environment"
+								{name "multi/multi_08"}
+								{time -1}
+								{apply}
+							}
+							{"delete"
+								{selector
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+						}
+						{## "case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"environment"
+								{name "multi/multi_07"}
+								{time -1}
+								{apply}
+							}
+							{"delete"
+								{selector
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+						}
+						{## "case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"environment"
+								{name "multi/multi_06"}
+								{time -1}
+								{apply}
+							}
+							{"delete"
+								{selector
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+						}
+						{## "case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"environment"
+								{name "multi/multi_05"}
+								{time -1}
+								{apply}
+							}
+							{"delete"
+								{selector
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+						}
+						{## "case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"environment"
+								{name "multi/multi_04"}
+								{time -1}
+								{apply}
+							}
+							{"delete"
+								{selector
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+						}
+						{## "case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"environment"
+								{name "multi/multi_03"}
+								{time -1}
+								{apply}
+							}
+							{"delete"
+								{selector
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+						}
+						{## "case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"environment"
+								{name "multi/multi_02"}
+								{time -1}
+								{apply}
+							}
+							{"delete"
+								{selector
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+						}
+						{## "default"
+							{"environment"
+								{name "multi/multi_01"}
+								{time -1}
+								{apply}
+							}
+							{"delete"
+								{selector
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+						}
+					}
+				}
+			}
+			{"environment/sequence_blizzard/rand"
+				{condition
+					{terms
+						{"1.event"
+							{id "sequence_blizzard/start"}
+						}
+					}
+				}
+				{actions
+					{"switch"
+						{"case"
+							{condition
+								{type rand}
+								{value 0.16}
+							}
+							{"event"
+								{event "sequence_blizzard/05"}
+								{mode set}
+								{delay 0}
+							}
+							{"environment"
+								{name "multi/sequence_blizzard/04"}
+								{time -1}
+								{apply}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.2}
+							}
+							{"event"
+								{event "sequence_blizzard/09"}
+								{mode set}
+								{delay 0}
+							}
+							{"environment"
+								{name "multi/sequence_blizzard/08"}
+								{time -1}
+								{apply}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.12}
+							}
+							{"event"
+								{event "sequence_blizzard/13"}
+								{mode set}
+								{delay 0}
+							}
+							{"environment"
+								{name "multi/sequence_blizzard/12"}
+								{time -1}
+								{apply}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.16}
+							}
+							{"event"
+								{event "sequence_blizzard/17"}
+								{mode set}
+								{delay 0}
+							}
+							{"environment"
+								{name "multi/sequence_blizzard/16"}
+								{time -1}
+								{apply}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.2}
+							}
+							{"event"
+								{event "sequence_blizzard/21"}
+								{mode set}
+								{delay 0}
+							}
+							{"environment"
+								{name "multi/sequence_blizzard/20"}
+								{time -1}
+								{apply}
+							}
+						}
+						{"default"
+							{"event"
+								{event "sequence_blizzard/01"}
+								{mode set}
+								{delay 0}
+							}
+							{"environment"
+								{name "multi/sequence_blizzard/00"}
+								{time -1}
+								{apply}
+							}
+						}
+					}
+				}
+			}
+			{"environment/sequence_blizzard/phase_00"
+				{condition
+					{terms
+						{"1.event"
+							{id "sequence_blizzard/00"}
+						}
+					}
+				}
+				{actions
+					{"environment"
+						{name "multi/sequence_blizzard/00"}
+						{time 300}
+						{apply}
+					}
+					{"event"
+						{event "sequence_blizzard/00"}
+						{mode reset}
+						{delay 0}
+					}
+					{"delay"
+						{time 300.5}
+					}
+					{"event"
+						{event "sequence_blizzard/01"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "environment/sequence_blizzard/phase_00"}
+					}
+				}
+			}
+			{"environment/sequence_blizzard/phase_01"
+				{condition
+					{terms
+						{"1.event"
+							{id "sequence_blizzard/01"}
+						}
+					}
+				}
+				{actions
+					{"environment"
+						{name "multi/sequence_blizzard/01"}
+						{time 300}
+						{apply}
+					}
+					{"event"
+						{event "sequence_blizzard/01"}
+						{mode reset}
+						{delay 0}
+					}
+					{"delay"
+						{time 300.5}
+					}
+					{"event"
+						{event "sequence_blizzard/02"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "environment/sequence_blizzard/phase_01"}
+					}
+				}
+			}
+			{"environment/sequence_blizzard/phase_02"
+				{condition
+					{terms
+						{"1.event"
+							{id "sequence_blizzard/02"}
+						}
+					}
+				}
+				{actions
+					{"environment"
+						{name "multi/sequence_blizzard/02"}
+						{time 300}
+						{apply}
+					}
+					{"event"
+						{event "sequence_blizzard/02"}
+						{mode reset}
+						{delay 0}
+					}
+					{"delay"
+						{time 300.5}
+					}
+					{"event"
+						{event "sequence_blizzard/03"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "environment/sequence_blizzard/phase_02"}
+					}
+				}
+			}
+			{"environment/sequence_blizzard/phase_03"
+				{condition
+					{terms
+						{"1.event"
+							{id "sequence_blizzard/03"}
+						}
+					}
+				}
+				{actions
+					{"environment"
+						{name "multi/sequence_blizzard/03"}
+						{time 300}
+						{apply}
+					}
+					{"event"
+						{event "sequence_blizzard/03"}
+						{mode reset}
+						{delay 0}
+					}
+					{"delay"
+						{time 300.5}
+					}
+					{"event"
+						{event "sequence_blizzard/04"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "environment/sequence_blizzard/phase_03"}
+					}
+				}
+			}
+			{"environment/sequence_blizzard/phase_04"
+				{condition
+					{terms
+						{"1.event"
+							{id "sequence_blizzard/04"}
+						}
+					}
+				}
+				{actions
+					{"environment"
+						{name "multi/sequence_blizzard/04"}
+						{time 300}
+						{apply}
+					}
+					{"event"
+						{event "sequence_blizzard/04"}
+						{mode reset}
+						{delay 0}
+					}
+					{"delay"
+						{time 300.5}
+					}
+					{"event"
+						{event "sequence_blizzard/05"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "environment/sequence_blizzard/phase_04"}
+					}
+				}
+			}
+			{"environment/sequence_blizzard/phase_05"
+				{condition
+					{terms
+						{"1.event"
+							{id "sequence_blizzard/05"}
+						}
+					}
+				}
+				{actions
+					{"environment"
+						{name "multi/sequence_blizzard/05"}
+						{time 300}
+						{apply}
+					}
+					{"event"
+						{event "sequence_blizzard/05"}
+						{mode reset}
+						{delay 0}
+					}
+					{"delay"
+						{time 300.5}
+					}
+					{"event"
+						{event "sequence_blizzard/06"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "environment/sequence_blizzard/phase_05"}
+					}
+				}
+			}
+			{"environment/sequence_blizzard/phase_06"
+				{condition
+					{terms
+						{"1.event"
+							{id "sequence_blizzard/06"}
+						}
+					}
+				}
+				{actions
+					{"environment"
+						{name "multi/sequence_blizzard/06"}
+						{time 300}
+						{apply}
+					}
+					{"event"
+						{event "sequence_blizzard/06"}
+						{mode reset}
+						{delay 0}
+					}
+					{"delay"
+						{time 300.5}
+					}
+					{"event"
+						{event "sequence_blizzard/07"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "environment/sequence_blizzard/phase_06"}
+					}
+				}
+			}
+			{"environment/sequence_blizzard/phase_07"
+				{condition
+					{terms
+						{"1.event"
+							{id "sequence_blizzard/07"}
+						}
+					}
+				}
+				{actions
+					{"environment"
+						{name "multi/sequence_blizzard/07"}
+						{time 300}
+						{apply}
+					}
+					{"event"
+						{event "sequence_blizzard/07"}
+						{mode reset}
+						{delay 0}
+					}
+					{"delay"
+						{time 300.5}
+					}
+					{"event"
+						{event "sequence_blizzard/08"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "environment/sequence_blizzard/phase_07"}
+					}
+				}
+			}
+			{"environment/sequence_blizzard/phase_08"
+				{condition
+					{terms
+						{"1.event"
+							{id "sequence_blizzard/08"}
+						}
+					}
+				}
+				{actions
+					{"environment"
+						{name "multi/sequence_blizzard/08"}
+						{time 300}
+						{apply}
+					}
+					{"event"
+						{event "sequence_blizzard/08"}
+						{mode reset}
+						{delay 0}
+					}
+					{"delay"
+						{time 300.5}
+					}
+					{"event"
+						{event "sequence_blizzard/09"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "environment/sequence_blizzard/phase_08"}
+					}
+				}
+			}
+			{"environment/sequence_blizzard/phase_09"
+				{condition
+					{terms
+						{"1.event"
+							{id "sequence_blizzard/09"}
+						}
+					}
+				}
+				{actions
+					{"environment"
+						{name "multi/sequence_blizzard/09"}
+						{time 300}
+						{apply}
+					}
+					{"event"
+						{event "sequence_blizzard/09"}
+						{mode reset}
+						{delay 0}
+					}
+					{"delay"
+						{time 300.5}
+					}
+					{"event"
+						{event "sequence_blizzard/10"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "environment/sequence_blizzard/phase_09"}
+					}
+				}
+			}
+			{"environment/sequence_blizzard/phase_10"
+				{condition
+					{terms
+						{"1.event"
+							{id "sequence_blizzard/10"}
+						}
+					}
+				}
+				{actions
+					{"environment"
+						{name "multi/sequence_blizzard/10"}
+						{time 300}
+						{apply}
+					}
+					{"event"
+						{event "sequence_blizzard/10"}
+						{mode reset}
+						{delay 0}
+					}
+					{"delay"
+						{time 300.5}
+					}
+					{"event"
+						{event "sequence_blizzard/11"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "environment/sequence_blizzard/phase_10"}
+					}
+				}
+			}
+			{"environment/sequence_blizzard/phase_11"
+				{condition
+					{terms
+						{"1.event"
+							{id "sequence_blizzard/11"}
+						}
+					}
+				}
+				{actions
+					{"environment"
+						{name "multi/sequence_blizzard/11"}
+						{time 300}
+						{apply}
+					}
+					{"event"
+						{event "sequence_blizzard/11"}
+						{mode reset}
+						{delay 0}
+					}
+					{"delay"
+						{time 300.5}
+					}
+					{"event"
+						{event "sequence_blizzard/12"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "environment/sequence_blizzard/phase_11"}
+					}
+				}
+			}
+			{"environment/sequence_blizzard/phase_12"
+				{condition
+					{terms
+						{"1.event"
+							{id "sequence_blizzard/12"}
+						}
+					}
+				}
+				{actions
+					{"environment"
+						{name "multi/sequence_blizzard/12"}
+						{time 300}
+						{apply}
+					}
+					{"event"
+						{event "sequence_blizzard/12"}
+						{mode reset}
+						{delay 0}
+					}
+					{"delay"
+						{time 300.5}
+					}
+					{"event"
+						{event "sequence_blizzard/13"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "environment/sequence_blizzard/phase_12"}
+					}
+				}
+			}
+			{"environment/sequence_blizzard/phase_13"
+				{condition
+					{terms
+						{"1.event"
+							{id "sequence_blizzard/13"}
+						}
+					}
+				}
+				{actions
+					{"environment"
+						{name "multi/sequence_blizzard/13"}
+						{time 300}
+						{apply}
+					}
+					{"event"
+						{event "sequence_blizzard/13"}
+						{mode reset}
+						{delay 0}
+					}
+					{"delay"
+						{time 300.5}
+					}
+					{"event"
+						{event "sequence_blizzard/14"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "environment/sequence_blizzard/phase_13"}
+					}
+				}
+			}
+			{"environment/sequence_blizzard/phase_14"
+				{condition
+					{terms
+						{"1.event"
+							{id "sequence_blizzard/14"}
+						}
+					}
+				}
+				{actions
+					{"environment"
+						{name "multi/sequence_blizzard/14"}
+						{time 300}
+						{apply}
+					}
+					{"event"
+						{event "sequence_blizzard/14"}
+						{mode reset}
+						{delay 0}
+					}
+					{"delay"
+						{time 300.5}
+					}
+					{"event"
+						{event "sequence_blizzard/15"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "environment/sequence_blizzard/phase_14"}
+					}
+				}
+			}
+			{"environment/sequence_blizzard/phase_15"
+				{condition
+					{terms
+						{"1.event"
+							{id "sequence_blizzard/15"}
+						}
+					}
+				}
+				{actions
+					{"environment"
+						{name "multi/sequence_blizzard/15"}
+						{time 300}
+						{apply}
+					}
+					{"event"
+						{event "sequence_blizzard/15"}
+						{mode reset}
+						{delay 0}
+					}
+					{"delay"
+						{time 300.5}
+					}
+					{"event"
+						{event "sequence_blizzard/16"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "environment/sequence_blizzard/phase_15"}
+					}
+				}
+			}
+			{"environment/sequence_blizzard/phase_16"
+				{condition
+					{terms
+						{"1.event"
+							{id "sequence_blizzard/16"}
+						}
+					}
+				}
+				{actions
+					{"environment"
+						{name "multi/sequence_blizzard/16"}
+						{time 300}
+						{apply}
+					}
+					{"event"
+						{event "sequence_blizzard/16"}
+						{mode reset}
+						{delay 0}
+					}
+					{"delay"
+						{time 300.5}
+					}
+					{"event"
+						{event "sequence_blizzard/17"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "environment/sequence_blizzard/phase_16"}
+					}
+				}
+			}
+			{"environment/sequence_blizzard/phase_17"
+				{condition
+					{terms
+						{"1.event"
+							{id "sequence_blizzard/17"}
+						}
+					}
+				}
+				{actions
+					{"environment"
+						{name "multi/sequence_blizzard/17"}
+						{time 300}
+						{apply}
+					}
+					{"event"
+						{event "sequence_blizzard/17"}
+						{mode reset}
+						{delay 0}
+					}
+					{"delay"
+						{time 300.5}
+					}
+					{"event"
+						{event "sequence_blizzard/18"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "environment/sequence_blizzard/phase_17"}
+					}
+				}
+			}
+			{"environment/sequence_blizzard/phase_18"
+				{condition
+					{terms
+						{"1.event"
+							{id "sequence_blizzard/18"}
+						}
+					}
+				}
+				{actions
+					{"environment"
+						{name "multi/sequence_blizzard/18"}
+						{time 300}
+						{apply}
+					}
+					{"event"
+						{event "sequence_blizzard/18"}
+						{mode reset}
+						{delay 0}
+					}
+					{"delay"
+						{time 300.5}
+					}
+					{"event"
+						{event "sequence_blizzard/19"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "environment/sequence_blizzard/phase_18"}
+					}
+				}
+			}
+			{"environment/sequence_blizzard/phase_19"
+				{condition
+					{terms
+						{"1.event"
+							{id "sequence_blizzard/19"}
+						}
+					}
+				}
+				{actions
+					{"environment"
+						{name "multi/sequence_blizzard/19"}
+						{time 300}
+						{apply}
+					}
+					{"event"
+						{event "sequence_blizzard/19"}
+						{mode reset}
+						{delay 0}
+					}
+					{"delay"
+						{time 300.5}
+					}
+					{"event"
+						{event "sequence_blizzard/20"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "environment/sequence_blizzard/phase_19"}
+					}
+				}
+			}
+			{"environment/sequence_blizzard/phase_20"
+				{condition
+					{terms
+						{"1.event"
+							{id "sequence_blizzard/20"}
+						}
+					}
+				}
+				{actions
+					{"environment"
+						{name "multi/sequence_blizzard/20"}
+						{time 300}
+						{apply}
+					}
+					{"event"
+						{event "sequence_blizzard/20"}
+						{mode reset}
+						{delay 0}
+					}
+					{"delay"
+						{time 300.5}
+					}
+					{"event"
+						{event "sequence_blizzard/21"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "environment/sequence_blizzard/phase_20"}
+					}
+				}
+			}
+			{"environment/sequence_blizzard/phase_21"
+				{condition
+					{terms
+						{"1.event"
+							{id "sequence_blizzard/21"}
+						}
+					}
+				}
+				{actions
+					{"environment"
+						{name "multi/sequence_blizzard/21"}
+						{time 300}
+						{apply}
+					}
+					{"event"
+						{event "sequence_blizzard/21"}
+						{mode reset}
+						{delay 0}
+					}
+					{"delay"
+						{time 300.5}
+					}
+					{"event"
+						{event "sequence_blizzard/22"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "environment/sequence_blizzard/phase_21"}
+					}
+				}
+			}
+			{"environment/sequence_blizzard/phase_22"
+				{condition
+					{terms
+						{"1.event"
+							{id "sequence_blizzard/22"}
+						}
+					}
+				}
+				{actions
+					{"environment"
+						{name "multi/sequence_blizzard/22"}
+						{time 300}
+						{apply}
+					}
+					{"event"
+						{event "sequence_blizzard/22"}
+						{mode reset}
+						{delay 0}
+					}
+					{"delay"
+						{time 300.5}
+					}
+					{"event"
+						{event "sequence_blizzard/23"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "environment/sequence_blizzard/phase_22"}
+					}
+				}
+			}
+			{"environment/sequence_blizzard/phase_23"
+				{condition
+					{terms
+						{"1.event"
+							{id "sequence_blizzard/23"}
+						}
+					}
+				}
+				{actions
+					{"environment"
+						{name "multi/sequence_blizzard/23"}
+						{time 300}
+						{apply}
+					}
+					{"event"
+						{event "sequence_blizzard/23"}
+						{mode reset}
+						{delay 0}
+					}
+					{"delay"
+						{time 300.5}
+					}
+					{"event"
+						{event "sequence_blizzard/24"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "environment/sequence_blizzard/phase_23"}
+					}
+				}
+			}
+			{"environment/sequence_blizzard/phase_24"
+				{condition
+					{terms
+						{"1.event"
+							{id "sequence_blizzard/24"}
+						}
+					}
+				}
+				{actions
+					{"environment"
+						{name "multi/sequence_blizzard/24"}
+						{time 300}
+						{apply}
+					}
+					{"event"
+						{event "sequence_blizzard/24"}
+						{mode reset}
+						{delay 0}
+					}
+					{"delay"
+						{time 300.5}
+					}
+					{"event"
+						{event "sequence_blizzard/25"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "environment/sequence_blizzard/phase_24"}
+					}
+				}
+			}
+			{"environment/sequence_blizzard/phase_25"
+				{condition
+					{terms
+						{"1.event"
+							{id "sequence_blizzard/25"}
+						}
+					}
+				}
+				{actions
+					{"environment"
+						{name "multi/sequence_blizzard/25"}
+						{time 300}
+						{apply}
+					}
+					{"event"
+						{event "sequence_blizzard/25"}
+						{mode reset}
+						{delay 0}
+					}
+					{"delay"
+						{time 300.5}
+					}
+					{"event"
+						{event "sequence_blizzard/26"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "environment/sequence_blizzard/phase_25"}
+					}
+				}
+			}
+			{"environment/sequence_blizzard/phase_26"
+				{condition
+					{terms
+						{"1.event"
+							{id "sequence_blizzard/26"}
+						}
+					}
+				}
+				{actions
+					{"environment"
+						{name "multi/sequence_blizzard/26"}
+						{time 300}
+						{apply}
+					}
+					{"event"
+						{event "sequence_blizzard/26"}
+						{mode reset}
+						{delay 0}
+					}
+					{"delay"
+						{time 300.5}
+					}
+					{"event"
+						{event "sequence_blizzard/27"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "environment/sequence_blizzard/phase_26"}
+					}
+				}
+			}
+			{"environment/sequence_blizzard/phase_27"
+				{condition
+					{terms
+						{"1.event"
+							{id "sequence_blizzard/27"}
+						}
+					}
+				}
+				{actions
+					{"environment"
+						{name "multi/sequence_blizzard/27"}
+						{time 300}
+						{apply}
+					}
+					{"event"
+						{event "sequence_blizzard/27"}
+						{mode reset}
+						{delay 0}
+					}
+					{"delay"
+						{time 300.5}
+					}
+					{"event"
+						{event "sequence_blizzard/28"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "environment/sequence_blizzard/phase_27"}
+					}
+				}
+			}
+			{"environment/sequence_blizzard/phase_28"
+				{condition
+					{terms
+						{"1.event"
+							{id "sequence_blizzard/28"}
+						}
+					}
+				}
+				{actions
+					{"environment"
+						{name "multi/sequence_blizzard/28"}
+						{time 300}
+						{apply}
+					}
+					{"event"
+						{event "sequence_blizzard/28"}
+						{mode reset}
+						{delay 0}
+					}
+					{"delay"
+						{time 300.5}
+					}
+					{"event"
+						{event "sequence_blizzard/29"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "environment/sequence_blizzard/phase_28"}
+					}
+				}
+			}
+			{"environment/sequence_blizzard/phase_29"
+				{condition
+					{terms
+						{"1.event"
+							{id "sequence_blizzard/29"}
+						}
+					}
+				}
+				{actions
+					{"environment"
+						{name "multi/sequence_blizzard/29"}
+						{time 300}
+						{apply}
+					}
+					{"event"
+						{event "sequence_blizzard/29"}
+						{mode reset}
+						{delay 0}
+					}
+					{"delay"
+						{time 300.5}
+					}
+					{"event"
+						{event "sequence_blizzard/30"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "environment/sequence_blizzard/phase_29"}
+					}
+				}
+			}
+			{"environment/sequence_blizzard/phase_30"
+				{condition
+					{terms
+						{"1.event"
+							{id "sequence_blizzard/30"}
+						}
+					}
+				}
+				{actions
+					{"environment"
+						{name "multi/sequence_blizzard/30"}
+						{time 300}
+						{apply}
+					}
+					{"event"
+						{event "sequence_blizzard/30"}
+						{mode reset}
+						{delay 0}
+					}
+					{"delay"
+						{time 300.5}
+					}
+					{"event"
+						{event "sequence_blizzard/31"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "environment/sequence_blizzard/phase_30"}
+					}
+				}
+			}
+			{"environment/sequence_blizzard/phase_31"
+				{condition
+					{terms
+						{"1.event"
+							{id "sequence_blizzard/31"}
+						}
+					}
+				}
+				{actions
+					{"environment"
+						{name "multi/sequence_blizzard/31"}
+						{time 300}
+						{apply}
+					}
+					{"event"
+						{event "sequence_blizzard/31"}
+						{mode reset}
+						{delay 0}
+					}
+					{"delay"
+						{time 300.5}
+					}
+					{"event"
+						{event "sequence_blizzard/00"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "environment/sequence_blizzard/phase_31"}
+					}
+				}
+			}
+			{"engine/hover"
+				{condition
+				}
+				{actions
+					{"entity_state"
+						{selector
+							{tag hover_on}
+						}
+						{tag_add hover_on_trigger}
+						{tag_remove hover_on}
+					}
+					{"entity_state"
+						{selector
+							{tag hover_off}
+						}
+						{tag_add hover_off_trigger}
+						{tag_remove hover_off}
+					}
+					{"delay"
+						{time 1.01}
+					}
+					{"trigger"
+						{name "engine/hover"}
+					}
+				}
+			}
+			{"engine/fauna_melee"
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{tag fauna_melee}
+								{state "not dead"}
+							}
+						}
+					}
+				}
+				{actions
+					{"actor_state"
+						{selector
+							{tag fauna_melee}
+						}
+						{control AI}
+						{fire_mode open}
+						{move_mode zone}
+						{move_radius 100}
+					}
+					{"delay"
+						{time 0.1}
+					}
+					{"entity_state"
+						{selector
+							{tag fauna_melee}
+						}
+						{tag_remove fauna_melee}
+					}
+					{"trigger"
+						{name "engine/fauna_melee"}
+					}
+				}
+			}
+			{"hover/speed_max"
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{tag hover_off_trigger}
+								{state "not dead"}
+							}
+							{count
+								{op "=="}
+								{value 1}
+							}
+						}
+					}
+				}
+				{actions
+					{"actor_state"
+						{selector
+							{tag hover_off_trigger}
+						}
+						{movement
+							{max_speed_kph -1}
+						}
+					}
+					{"entity_state"
+						{selector
+							{tag hover_off_trigger}
+						}
+						{tag_remove hover_off_trigger}
+					}
+					{"delay"
+						{time 1}
+					}
+					{"trigger"
+						{name "hover/speed_max"}
+					}
+				}
+			}
+			{"hover/speed_min"
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{tag hover_on_trigger}
+								{state "not dead"}
+							}
+							{count
+								{op "=="}
+								{value 1}
+							}
+						}
+					}
+				}
+				{actions
+					{"actor_state"
+						{selector
+							{tag hover_on_trigger}
+						}
+						{movement
+							{max_speed_kph 50}
+						}
+					}
+					{"delay"
+						{time 0.2}
+					}
+					{"actor_state"
+						{selector
+							{tag hover_on_trigger}
+						}
+						{movement
+							{max_speed_kph 45}
+						}
+					}
+					{"delay"
+						{time 0.2}
+					}
+					{"actor_state"
+						{selector
+							{tag hover_on_trigger}
+						}
+						{movement
+							{max_speed_kph 40}
+						}
+					}
+					{"delay"
+						{time 0.2}
+					}
+					{"actor_state"
+						{selector
+							{tag hover_on_trigger}
+						}
+						{movement
+							{max_speed_kph 35}
+						}
+					}
+					{"delay"
+						{time 0.2}
+					}
+					{"actor_state"
+						{selector
+							{tag hover_on_trigger}
+						}
+						{movement
+							{max_speed_kph 30}
+						}
+					}
+					{"delay"
+						{time 0.2}
+					}
+					{"actor_state"
+						{selector
+							{tag hover_on_trigger}
+						}
+						{movement
+							{max_speed_kph 25}
+						}
+					}
+					{"entity_state"
+						{selector
+							{tag hover_on_trigger}
+						}
+						{tag_remove hover_on_trigger}
+					}
+					{"trigger"
+						{name "hover/speed_min"}
+					}
+				}
+			}
+		}
+	}
+	{Players
+		{count 17}
+		{diplomacy
+			1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+		}
+	}
+	{Fog 1}
+	{EntityManager {Enabled}
+		{CountScale "x0.5"}
+	}
+}

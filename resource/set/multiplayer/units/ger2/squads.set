@@ -47,9 +47,7 @@
 
 
 
-("squad_with2types" side(ger2) name(stormtroopers1) c(60) g(soldier_7) c1(sturmovik4:3) c2(sturmovik4b:2) b(squad2) t(all 44 45 inf_only) level(7) cost(130) f(1.0))
-
-("squad_with2types" side(ger2) name(stormtroopers2) c(60) g(soldier_5) c1(sturmovik5:1) c2(sturmovik5b:1) b(squad2) t(all 44 45 inf_only) level(14) cost(150) f(1.0))
+("squad_with2types" side(ger2) name(stormtroopers2) c(60) g(soldier_5) c1(sturmovik5:1) c2(sturmovik5b:1) b(squad2) t(all 44 45 inf_only) level(14) cost(130) f(1.0))
 
 ("squad_with2types" side(ger2) name(stormtroopers3) c(300) g(soldier_6) c1(sturmovik6:1) c2(sturmovik6b:2) b(squad2) t(all 44 45 inf_only) level(21) cost(110) f(0.9))
 

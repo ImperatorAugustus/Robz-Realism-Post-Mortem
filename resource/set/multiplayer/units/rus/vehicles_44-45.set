@@ -20,13 +20,12 @@
 
 ;같캛utton 2같�
 
-;{"degtyarev_stan"  ("vs" c(10) t(all 44 45) 	s(rus) n(2) g(c1) sc(5.50) b(v2) cw(2) cp(5)) {level 1} {cost 110} {fore -2.0}}		;30sec
+{"degtyarev_stan"  ("vs" c(10) t(all 44 45) 	s(rus) n(2) g(c1) sc(5.50) b(v2) cw(2) cp(5)) {level 1} {cost 95} {fore -2.0}}		;30sec
 {"ds39_degtyaryov"  ("vs" c(10) t(all 44 45) 	s(rus) n(2) g(c2) sc(5.75) b(v2) cw(2) cp(5)) {level 1} {cost 95} {fore -2.0}}		;30sec
 
 {"maxim_1910_30"    ("vs_seq" c(10) t(all 44 45) 	s(rus) n(2) g(c3) i(5) sc(6.50) b(v2) cw(2) cp(5)) {level 1} {cost 120} {fore -2.0}}		;30sec
 {"maxim_1910_30x2"  ("vs2_seq"c(10) t(all 44 45)	v1(maxim_1910_30) v2(maxim_1910_30) s(rus) n(2) g(c3) i(5) sc(6.50) b(v2) cw(2) cp(5)) {level 1} {cost 120} {fore -2.0}}	;30sec
 
-{"sg43_goryunov"    ("vs" c(10) t(all 44 45) 	s(rus) n(2) g(c4) sc(6.50) b(v2) cw(2) cp(5)) {level 1} {cost 130} {fore -2.0}}		;30sec
 {"dshk_stank"       ("vs" c(10) t(all 44 45) 	s(rus) n(2) g(c5) sc(10.00) b(v2) cw(2) cp(5)) {level 1} {cost 190} {fore -2.0}}		;30sec
 {"dshk_zenit"       ("vs" c(10) t(all 44 45) 	s(rus) n(2) g(c6) sc(10.00) b(v2) cw(2) cp(5)) {level 1} {cost 190} {fore -2.0}}		;30sec
 
@@ -48,10 +47,10 @@
 {"np_52k_43"        ("vs" c(30) t(all medium 44 45) 	s(rus) n(2) g(c12) sc(20.00) b(v2) cw(2) cp(15)) {level 1} {cost 400} {fore -19.0}}	;600sec
 {"bs3"              ("vs" c(60) t(all heavy 44 45) 	s(rus) n(2) g(c13) sc(37.50) b(v2) cw(2) cp(20)) {level 1} {cost 725} {fore -19.0}}	;1200sec
 
-{"su122"            ("v" c(60) t(artillery all 44 45) 		s(rus) n1(3) n2(1) g(c18) sc(30.00) b(v2) cw(0) cp(10)) {level 1} {cost 550} {fore -14.0}}	;900sec
-{"su152"            ("v" c(120) t(artillery all heavy 44 45) 	s(rus) n1(3) n2(1) g(c19) sc(45.00) b(v2) cw(0) cp(15)) {level 1} {cost 750} {fore -6.5}}	;900sec
-{"isu152"           ("v" c(120) t(artillery all heavy 44 45) 	s(rus) n1(4) n2(1) g(c20) sc(50.00) b(v2) cw(0) cp(20)) {level 1} {cost 900} {fore -6.5}}	;900sec
-{"kv2"              ("v" c(120) t(all heavy 44 45) s(rus) n1(3) n2(1) g(c21) sc(32.50) b(v2) cw(0) cp(15)) {level 1} {cost 650} {fore -4.5}}	;660sec
+{"su122"            ("v" c(60) t(artillery all 44 45) 		s(rus) n1(3) n2(1) g(c18) sc(30.00) b(v2) cw(0) cp(10)) {level 1} {cost 550} {fore -19.33}}	;1220sec
+{"kv2"              ("v" c(120) t(all heavy 44 45) s(rus) n1(3) n2(1) g(c21) sc(32.50) b(v2) cw(0) cp(15)) {level 1} {cost 650} {fore -9.167}}	;1220sec
+{"su152"            ("v" c(120) t(artillery all heavy 44 45) 	s(rus) n1(3) n2(1) g(c19) sc(45.00) b(v2) cw(0) cp(15)) {level 1} {cost 750} {fore -9.167}}	;1220sec
+{"isu152"           ("v" c(120) t(artillery all heavy 44 45) 	s(rus) n1(4) n2(1) g(c20) sc(50.00) b(v2) cw(0) cp(20)) {level 1} {cost 900} {fore -9.167}}	;1220sec
 
 
 ("how" side(rus) name(how_b) c(60) c1(zis5art) c2(m30_1938) t(all artillery 44 45) g(c15) b(v22) level(1) cost(500) f(-14.0))			;900sec
@@ -70,33 +69,32 @@
 ;같캛utton 3같�
 
 {"gazaaa4m"         ("vs" c(30) t(all 44 45) 	s(rus) n(3) g(d1) sc(9.00)  b(v3) cw(0) cp(5)) {level 1} {cost 180} {fore -2.0}}	;90sec
-{"ba64"             ("v" c(10) t(all 44 45) 	s(rus) n1(1) n2(1) g(d2) sc(9.00)  b(v3) cw(0) cp(5)) {level 1} {cost 120} {fore -31}}	;320sec
-;{"t-38"             ("v" c(10) t(all 44 45) 	s(rus) n1(1) n2(1) g(d4) sc(9.00) b(v3) cw(0) cp(5)) {level 1} {cost 180} {fore -31}}	;320sec
-{"t26"              ("v" c(10) t(all 44 45) 	s(rus) n1(2) n2(1) g(d5) sc(10.00) b(v3) cw(0) cp(5)) {level 1} {cost 200} {fore -37}};380sec
 
-{"bt5"         	    ("v" c(10) t(all 44 45) 	s(rus) n1(2) n2(1) g(d6) sc(10.50) b(v3) cw(0) cp(5)) {level 1} {cost 210} {fore -37}}	;380sec
-{"bt7a"             ("v" c(10) t(all 44 45) 	s(rus) n1(2) n2(1) g(d7) sc(16.00) b(v3) cw(0) cp(10)) {level 1} {cost 320} {fore -43.0}} ;440sec
-{"bt7_37_1"         ("v" c(10) t(all 44 45) 	s(rus) n1(2) n2(1) g(d8) sc(11.00) b(v3) cw(0) cp(5)) {level 1} {cost 220} {fore -37}}	;380sec
+{"ba64"             ("v" c(10) t(all 44 45) 	s(rus) n1(1) n2(1) g(d2) sc(9.00)  b(v3) cw(0) cp(5)) {level 1} {cost 120} {fore -31}}	;320sec
+
+{"t26"              ("v" c(10) t(all 44 45) 	s(rus) n1(2) n2(1) g(d5) sc(10.00) b(v3) cw(0) cp(5)) {level 1} {cost 200} {fore -43}}  ;440sec
+
+{"bt5"         	    ("v" c(10) t(all 44 45) 	s(rus) n1(2) n2(1) g(d6) sc(10.50) b(v3) cw(0) cp(5)) {level 1} {cost 210} {fore -43}}	;440sec
+
 {"t60"              ("v" c(10) t(all 44 45) 	s(rus) n1(1) n2(1) g(d9) sc(13.00) b(v3) cw(0) cp(5)) {level 1} {cost 260} {fore -41}}	;420sec
 {"t70"              ("v" c(10) t(all 44 45) 	s(rus) n1(1) n2(1) g(d10) sc(14.00) b(v3) cw(0) cp(5)) {level 1} {cost 280} {fore -43}}	;440sec
-;{"zsu37"            ("v" c(10) t(all 44 45) 	s(rus) n1(3) n2(1) g(d11) sc(12.50) b(v3) cw(0) cp(5)) {level 1} {cost 250} {fore -45}}	;460sec
+
+{"bt7a"             ("v" c(10) t(all 44 45) 	s(rus) n1(2) n2(1) g(d7) sc(16.00) b(v3) cw(0) cp(10)) {level 1} {cost 320} {fore -52.0}} ;530sec
 
 ;같캛utton 4같�
 
-{"m3grantr"       ("v" c(10) t(all 44 45 medium) s(rus) n1(3) n2(1) g(e1) sc(19.00) b(v4) cw(0) cp(15)) {level 1} {cost 330} {fore -53.0}}	;540sec
-{"t34_42"          ("v" c(10) t(all medium 44) 		s(rus) n1(3) n2(1) g(e4) sc(18.00) b(v4) cw(0) cp(10)) {level 1} {cost 330} {fore -53.0}}	;540sec
+{"m3grantr"       ("v" c(10) t(all 44 45 medium) s(rus) n1(3) n2(1) g(e1) sc(19.00) b(v4) cw(0) cp(15)) {level 1} {cost 330} {fore -67.0}}	;680sec
 
-{"t34_2"           ("v_seq" c(10) t(all medium 44 45) 	s(rus) n1(3) n2(1) g(e4) i(3) sc(18.50) b(v4) cw(0) cp(10)) {level 1} {cost 350} {fore -59.0}}	;600sec
-{"t34_2x2"         ("v2_seq" c(10) t(all medium 44 45) v1(t34_2) v2(t34_2) s(rus) n1(3) n2(1) g(e4) i(3) sc(18.50) b(v4) cw(0) cp(10)) {level 1} {cost 350} {fore -59.0}}	;600sec
+{"t34_2"           ("v_seq" c(10) t(all medium 44 45) 	s(rus) n1(3) n2(1) g(e4) i(3) sc(18.50) b(v4) cw(0) cp(10)) {level 1} {cost 350} {fore -74.0}}	;750sec
+{"t34_2x2"         ("v2_seq" c(10) t(all medium 44 45) v1(t34_2) v2(t34_2) s(rus) n1(3) n2(1) g(e4) i(3) sc(18.50) b(v4) cw(0) cp(10)) {level 1} {cost 350} {fore -74.0}}	;750sec
 
-{"ot34_2"          ("v" c(600) t(all medium 44 45 flamethrower) 	s(rus) n1(3) n2(1) g(e4) sc(26.00) b(v4) cw(0) cp(10)) {level 1} {cost 520} {fore 0.0}}		;600sec
-{"t34_1"           ("v" c(600) t(all medium 44 45) 	s(rus) n1(3) n2(1) g(e5) sc(25.00) b(v4) cw(0) cp(10)) {level 1} {cost 450} {fore 0.0}}		;600sec
+{"ot34_2"          ("v" c(750) t(all medium 44 45 flamethrower) 	s(rus) n1(3) n2(1) g(e4) sc(26.00) b(v4) cw(0) cp(10)) {level 1} {cost 520} {fore 0.0}}		;750sec
 
-{"t34_3"           ("v_seq" c(60) t(all medium 44 45) 	s(rus) n1(3) n2(1) g(e6) i(4) sc(30.00) b(v4) cw(0) cp(10)) {level 1} {cost 525} {fore -13.0}}	;840sec
-{"t34_3x2"         ("v2_seq" c(60) t(all medium 44 45) v1(t34_3) v2(t34_3) 	s(rus) n1(3) n2(1) g(e6) i(4) sc(30.00) b(v4) cw(0) cp(10)) {level 1} {cost 550} {fore -13.0}}	;840sec
+{"t34_3"           ("v_seq" c(60) t(all medium 44 45) 	s(rus) n1(3) n2(1) g(e6) i(4) sc(30.00) b(v4) cw(0) cp(10)) {level 1} {cost 525} {fore -16.5}}	;1050sec
+{"t34_3x2"         ("v2_seq" c(60) t(all medium 44 45) v1(t34_3) v2(t34_3) 	s(rus) n1(3) n2(1) g(e6) i(4) sc(30.00) b(v4) cw(0) cp(10)) {level 1} {cost 550} {fore -16.5}}	;1050sec
 
-{"kv1"             ("v" c(60) t(all heavy 44 45) 	s(rus) n1(4) n2(1) g(e9) sc(31.25) b(v4) cw(0) cp(15)) {level 1} {cost 525} {fore -9.0}}	;600sec
-{"kv1s"            ("v" c(60) t(all heavy 44 45) 	s(rus) n1(3) n2(1) g(e10) sc(31.25) b(v4) cw(0) cp(15)) {level 1} {cost 525} {fore -9.0}}	;600sec
+{"kv1"             ("v" c(60) t(all heavy 44 45) 	s(rus) n1(4) n2(1) g(e9) sc(31.25) b(v4) cw(0) cp(15)) {level 1} {cost 525} {fore -12.5}}	;810sec
+
 {"kv8_41"          ("v" c(900) t(all heavy 44 45 flamethrower) 	s(rus) n1(3) n2(1) g(e11) sc(30.00) b(v4) cw(0) cp(15)) {level 1} {cost 550} {fore 0.0}}	;900sec
 	
 {"kv85"            ("v" c(300) t(all heavy 44 45) 	s(rus) n1(3) n2(1) g(e12) sc(42.50) b(v4) cw(0) cp(25)) {level 1} {cost 750} {fore -2.0}}	;900sec

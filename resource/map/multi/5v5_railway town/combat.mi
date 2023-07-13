@@ -1,0 +1,2257 @@
+{mission
+	{Entity "birds" 0x800c
+		{Position -4999.09 -2626.46 151.74}
+	}
+	{Entity "night" 0x8009
+		{Position -1956.32 -2435.28 25.87}
+	}
+	{Entity "animal_dog3" 0x800a
+		{Position -1948.02 -2389.47 0.16}
+	}
+	{Entity "animal_dog3" 0x800d
+		{Position -1940.32 -2339.97 -8.98}
+		{Extender "speaker"
+			{SoundName "world/lake"}
+		}
+	}
+	{Entity "birds" 0xc003
+		{Position -1962.66 -2489.76 49}
+		{Extender "speaker"
+			{SoundName "world/village/01"}
+		}
+	}
+	{Entity "birds" 0x800e
+		{Position -2010.25 -2454.86 13.36}
+		{Extender "speaker"
+			{SoundName "world/village/00"}
+		}
+	}
+	{Entity "birds" 0x8006
+		{Position 1107.49 -2861.39 170.15}
+	}
+	{Entity "birds" 0x8005
+		{Position 1081.48 5994.45 232.04}
+	}
+	{Entity "night" 0x8011
+		{Position -1899.18 6388.04 85.04}
+	}
+	{Entity "animal_dog3" 0x8012
+		{Position -1893.25 6437.18 66.06}
+	}
+	{Entity "birds" 0x8016
+		{Position -1907.89 6336.89 100.02}
+		{Extender "speaker"
+			{SoundName "world/village/01"}
+		}
+	}
+	{Entity "birds" 0x8017
+		{Position -1955.48 6371.78 70.56}
+		{Extender "speaker"
+			{SoundName "world/village/00"}
+		}
+	}
+	{Entity "birds" 0x8014
+		{Position -4530.77 6462.03 220.76}
+	}
+	{Entity "map_point" 0x800b
+		{Position -4069.2 7110.83}
+		{xform zl -92.43}
+		{Extender "map_point"
+			{name a2}
+			{team a}
+			{zoneA 0}
+			{zoneB 0}
+			{phase 0}
+			{order 2}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 2}
+	}
+	{Entity "map_point" 0xa000
+		{Position -1717.49 7117.43}
+		{xform zl -96.55}
+		{Extender "map_point"
+			{name a1}
+			{team a}
+			{zoneA 0}
+			{zoneB 0}
+			{phase 0}
+			{order 1}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 3}
+	}
+	{Entity "map_point" 0xa001
+		{Position 270.96 7119.89}
+		{xform zl -95.39}
+		{Extender "map_point"
+			{name a3}
+			{team a}
+			{zoneA 0}
+			{zoneB 0}
+			{phase 0}
+			{order 3}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 8}
+	}
+	{Entity "map_point" 0x8008
+		{Position -5672.51 7111.45}
+		{xform zl -92.43}
+		{Extender "map_point"
+			{name a4}
+			{team a}
+			{zoneA 0}
+			{zoneB 0}
+			{phase 0}
+			{order 4}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 15}
+	}
+	{Entity "map_point" 0xa002
+		{Position 2492.66 6114.86}
+		{xform zl -133.67}
+		{Extender "map_point"
+			{name a5}
+			{team a}
+			{zoneA 0}
+			{zoneB 0}
+			{phase 0}
+			{order 5}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 16}
+	}
+	{Entity "map_point" 0xa003
+		{Position -908.34 -4640.21}
+		{xform zl 90.36}
+		{Extender "map_point"
+			{name b1}
+			{team b}
+			{zoneA 0}
+			{zoneB 0}
+			{phase 0}
+			{order 1}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 5}
+	}
+	{Entity "map_point" 0x800f
+		{Position -3033.22 -4625.92}
+		{xform zl 70.1}
+		{Extender "map_point"
+			{name b2}
+			{team b}
+			{zoneA 0}
+			{zoneB 0}
+			{phase 0}
+			{order 2}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 6}
+	}
+	{Entity "map_point" 0x8007
+		{Position -5406.81 -4632.56}
+		{xform zl 86.42}
+		{Extender "map_point"
+			{name b4}
+			{team b}
+			{zoneA 0}
+			{zoneB 0}
+			{phase 0}
+			{order 4}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 14}
+	}
+	{Entity "map_point" 0xa004
+		{Position 1534.97 -4625.77}
+		{xform zl 87.69}
+		{Extender "map_point"
+			{name b3}
+			{team b}
+			{zoneA 0}
+			{zoneB 0}
+			{phase 0}
+			{order 3}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 9}
+	}
+	{Entity "map_point" 0x8013
+		{Position -6757.77 -3373.58}
+		{xform zl 33.57}
+		{Extender "map_point"
+			{name b5}
+			{team b}
+			{zoneA 0}
+			{zoneB 0}
+			{phase 0}
+			{order 5}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 17}
+	}
+	{Tags "keep_places_without_door" 0x4001}
+	{Tags "keep_places_without_door" 0xd7e}
+	{Tags "keep_places_without_door" 0x410a}
+	{Tags "keep_places_without_door" 0xd23}
+	{Tags "keep_places_without_door" 0xd25}
+	{Tags "keep_places_without_door" 0x4187}
+	{Tags "keep_places_without_door" 0xf0c}
+	{Tags "keep_places_without_door" 0xfd3}
+	{Tags "keep_places_without_door" 0xfd4}
+	{Tags "keep_places_without_door" 0xfd5}
+	{Tags "keep_places_without_door" 0xfd6}
+	{Tags "keep_places_without_door" 0x4800}
+	{Tags "keep_places_without_door" 0xe38}
+	{Tags "keep_places_without_door" 0xe39}
+	{Tags "keep_places_without_door" 0xe3a}
+	{Tags "keep_places_without_door" 0xe6d}
+	{Tags "keep_places_without_door" 0xe47}
+	{Tags "keep_places_without_door" 0xe48}
+	{Tags "keep_places_without_door" 0x1155}
+	{Tags "keep_places_without_door" 0x1156}
+	{Tags "keep_places_without_door" 0x1157}
+	{Tags "keep_places_without_door" 0x1158}
+	{Tags "keep_places_without_door" 0x1159}
+	{Tags "keep_places_without_door" 0x1163}
+	{Tags "keep_places_without_door" 0x11bc}
+	{Tags "keep_places_without_door" 0x10de}
+	{Tags "keep_places_without_door" 0x102b}
+	{Tags "keep_places_without_door" 0x102c}
+	{Tags "keep_places_without_door" 0x41ec}
+	{Tags "keep_places_without_door" 0x1053}
+	{Tags "keep_places_without_door" 0x1054}
+	{Tags "keep_places_without_door" 0x1057}
+	{Tags "keep_places_without_door" 0x105b}
+	{Tags "keep_places_without_door" 0x105c}
+	{Tags "keep_places_without_door" 0x1308}
+	{Tags "keep_places_without_door" 0x419d}
+	{Tags "keep_places_without_door" 0x419e}
+	{Tags "keep_places_without_door" 0x41bd}
+	{Tags "keep_places_without_door" 0x41d5}
+	{Tags "keep_places_without_door" 0x136b}
+	{Tags "keep_places_without_door" 0x13c7}
+	{Tags "keep_places_without_door" 0x13c8}
+	{Tags "keep_places_without_door" 0x12e6}
+	{Tags "keep_places_without_door" 0x12dd}
+	{Tags "keep_places_without_door" 0x12df}
+	{Tags "keep_places_without_door" 0x1281}
+	{Tags "keep_places_without_door" 0x1282}
+	{Tags "keep_places_without_door" 0x1285}
+	{Tags "keep_places_without_door" 0x1603}
+	{Tags "keep_places_without_door" 0x160f}
+	{Tags "keep_places_without_door" 0x161f}
+	{Tags "keep_places_without_door" 0x1643}
+	{Tags "keep_places_without_door" 0x1644}
+	{Tags "keep_places_without_door" 0x3000}
+	{Tags "keep_places_without_door" 0x7081}
+	{Tags "keep_places_without_door" 0x1660}
+	{Tags "keep_places_without_door" 0x1667}
+	{Tags "keep_places_without_door" 0x5800}
+	{Tags "keep_places_without_door" 0x580a}
+	{Tags "keep_places_without_door" 0x2069}
+	{Tags "keep_places_without_door" 0x736}
+	{Tags "keep_places_without_door" 0x7022}
+	{Tags "keep_places_without_door" 0x802}
+	{Tags "keep_places_without_door" 0x403a}
+	{Tags "keep_places_without_door" 0x803}
+	{Tags "keep_places_without_door" 0x806}
+	{Tags "keep_places_without_door" 0x2042}
+	{Tags "keep_places_without_door" 0x125d}
+	{Tags "keep_places_without_door" 0x2078}
+	{Tags "keep_places_without_door" 0x3a6}
+	{Tags "keep_places_without_door" 0x3a7}
+	{Tags "keep_places_without_door" 0x3a8}
+	{Tags "keep_places_without_door" 0x3aa}
+	{Tags "keep_places_without_door" 0x1800}
+	{Tags "keep_places_without_door" 0x181b}
+	{Tags "keep_places_without_door" 0x6098}
+	{Tags "keep_places_without_door" 0x6099}
+	{Tags "keep_places_without_door" 0x60d7}
+	{Tags "keep_places_without_door" 0x2800}
+	{Tags "keep_places_without_door" 0x285b}
+	{Tags "keep_places_without_door" 0x6116}
+	{Tags "keep_places_without_door" 0x6117}
+	{Tags "keep_places_without_door" 0x2814}
+	{Tags "keep_places_without_door" 0x4127}
+	{Tags "keep_places_without_door" 0x207c}
+	{Tags "keep_places_without_door" 0x879}
+	{Tags "keep_places_without_door" 0x4028}
+	{Tags "keep_places_without_door" 0x8e1}
+	{Tags "keep_places_without_door" 0xa6c}
+	{Tags "keep_places_without_door" 0xa6d}
+	{Tags "keep_places_without_door" 0xa6e}
+	{Tags "keep_places_without_door" 0xa6f}
+	{Tags "keep_places_without_door" 0xa70}
+	{Tags "keep_places_without_door" 0xa72}
+	{Tags "keep_places_without_door" 0xaa4}
+	{Tags "keep_places_without_door" 0xaab}
+	{Tags "keep_places_without_door" 0xae6}
+	{Tags "keep_places_without_door" 0x40b7}
+	{Tags "keep_places_without_door" 0x40b8}
+	{Tags "keep_places_without_door" 0x40b9}
+	{Tags "keep_places_without_door" 0x4163}
+	{Tags "keep_places_without_door" 0x42bb}
+	{Tags "keep_places_without_door" 0x42bc}
+	{Tags "keep_places_without_door" 0x42bd}
+	{Tags "keep_places_without_door" 0x42be}
+	{Tags "keep_places_without_door" 0x42bf}
+	{Tags "keep_places_without_door" 0x4318}
+	{Tags "keep_places_without_door" {0x6048 "15"}}
+	{Tags "keep_places_without_door" 0x6048}
+	{Tags "keep_places_without_door" 0x6049}
+	{Tags "keep_places_without_door" 0x604a}
+	{Tags "keep_places_without_door" 0x20d3}
+	{Tags "keep_places_without_door" 0x20e5}
+	{Tags "keep_places_without_door" 0x60e5}
+	{Tags "keep_places_without_door" 0x206d}
+	{Tags "keep_places_without_door" 0x483a}
+	{Tags "keep_places_without_door" 0x483b}
+	{Tags "keep_places_without_door" 0x4889}
+	{Tags "keep_places_without_door" 0x382c}
+	{Tags "keep_places_without_door" 0x3833}
+	{Tags "keep_places_without_door" 0x3863}
+	{Tags "keep_places_without_door" 0x38c6}
+	{Tags "keep_places_without_door" 0x302a}
+	{Tags "keep_places_without_door" 0x5043}
+	{Tags "keep_places_without_door" 0x5044}
+	{Tags "keep_places_without_door" 0x5045}
+	{Tags "keep_places_without_door" 0x284b}
+	{Tags "keep_places_without_door" 0x2852}
+	{Tags "keep_places_without_door" 0x1401}
+	{Tags "keep_places_without_door" 0x1403}
+	{Tags "keep_places_without_door" 0x1404}
+	{Tags "keep_places_without_door" 0x1407}
+	{Tags "keep_places_without_door" 0x1409}
+	{Tags "keep_places_without_door" 0x140a}
+	{Tags "keep_places_without_door" 0x175b}
+	{Tags "keep_places_without_door" 0x153b}
+	{Tags "keep_places_without_door" 0x409e}
+	{Tags "keep_places_without_door" 0x4230}
+	{Tags "keep_places_without_door" 0x15ae}
+	{Tags "keep_places_without_door" 0x1819}
+	{Tags "keep_places_without_door" 0x610f}
+	{Tags "keep_places_without_door" 0x614b}
+	{Tags "keep_places_without_door" 0x2086}
+	{Tags "keep_places_without_door" 0x615e}
+	{Tags "keep_places_without_door" 0x5129}
+	{Tags "keep_places_without_door" 0x512a}
+	{Tags "keep_places_without_door" 0x5161}
+	{Tags "keep_places_without_door" 0x30a6}
+	{Tags "keep_places_without_door" 0x20b3}
+	{Tags "keep_places_without_door" 0x20ce}
+	{Tags "keep_places_without_door" 0x20f3}
+	{Tags "keep_places_without_door" 0x485e}
+	{Tags "keep_places_without_door" {0x438f "121_f2w6"}}
+	{Tags "keep_places_without_door" 0x438f}
+	{Tags "keep_places_without_door" 0x4390}
+	{Tags "keep_places_without_door" 0x4391}
+	{Tags "keep_places_without_door" 0x43a5}
+	{Tags "keep_places_without_door" 0x43e9}
+	{Tags "keep_places_without_door" 0x43ea}
+	{Tags "keep_places_without_door" 0x6114}
+	{Tags "keep_places_without_door" 0x6115}
+	{Tags "keep_places_without_door" 0x6166}
+	{Tags "keep_places_without_door" 0x6167}
+	{Tags "keep_places_without_door" 0x61aa}
+	{Tags "keep_places_without_door" 0x61ab}
+	{Tags "keep_places_without_door" 0x212c}
+	{Tags "keep_places_without_door" 0x212d}
+	{Tags "keep_places_without_door" 0x215b}
+	{Tags "keep_places_without_door" 0x215c}
+	{Tags "keep_places_without_door" 0x2175}
+	{Tags "keep_places_without_door" 0x519c}
+	{Tags "keep_places_without_door" 0x519d}
+	{Tags "keep_places_without_door" 0x519e}
+	{Tags "keep_places_without_door" 0x30ca}
+	{Tags "keep_places_without_door" 0x30cb}
+	{Tags "keep_places_without_door" 0x30cc}
+	{Tags "keep_places_without_door" 0x30e0}
+	{Tags "keep_places_without_door" 0x702a}
+	{Tags "keep_places_without_door" 0x7040}
+	{Tags "keep_places_without_door" 0x7055}
+	{Tags "keep_places_without_door" 0x7066}
+	{Tags "keep_places_without_door" 0x709d}
+	{Tags "keep_places_without_door" 0x61ce}
+	{Tags "keep_places_without_door" 0x30ed}
+	{Tags "keep_places_without_door" 0x137e}
+	{Tags "keep_places_without_door" 0x518d}
+	{Tags "keep_places_without_door" 0x70aa}
+	{Tags "keep_places_without_door" 0x70ab}
+	{Tags "keep_places_without_door" 0x4c1e}
+	{Tags "keep_places_without_door" 0x4c1f}
+	{Tags "keep_places_without_door" 0x4c3e}
+	{Tags "keep_places_without_door" 0x4c3f}
+	{Tags "keep_places_without_door" 0x6c12}
+	{Tags "keep_places_without_door" 0x177d}
+	{Tags "keep_places_without_door" 0x6238}
+	{Tags "keep_places_without_door" 0x5831}
+	{Tags "keep_places_without_door" 0x488c}
+	{Tags "keep_places_without_door" 0x48be}
+	{Tags "keep_places_without_door" 0x48c5}
+	{Tags "keep_places_without_door" 0x48cb}
+	{Tags "keep_places_without_door" 0x48e8}
+	{Tags "keep_places_without_door" 0x4400}
+	{Tags "keep_places_without_door" 0x1c10}
+	{Tags "keep_places_without_door" 0x179a}
+	{Tags "keep_places_without_door" 0x30d0}
+	{Tags "keep_places_without_door" 0x1c1d}
+	{Tags "keep_places_without_door" 0x1c1e}
+	{Tags "keep_places_without_door" 0x1c2b}
+	{Tags "keep_places_without_door" 0x624a}
+	{Tags "keep_places_without_door" 0x283f}
+	{Tags "keep_places_without_door" 0x585a}
+	{Tags "keep_places_without_door" 0x585b}
+	{Tags "keep_places_without_door" 0x6869}
+	{Tags "keep_places_without_door" 0x686e}
+	{Tags "keep_places_without_door" 0x6876}
+	{Tags "keep_places_without_door" 0x2c0c}
+	{Tags "keep_places_without_door" 0x587d}
+	{Tags "keep_places_without_door" 0x5885}
+	{Tags "keep_places_without_door" 0x1851}
+	{Tags "keep_places_without_door" 0x7c09}
+	{Tags "keep_places_without_door" 0x3411}
+	{Tags "keep_places_without_door" 0x342b}
+	{Tags "keep_places_without_door" 0x4c60}
+	{Tags "keep_places_without_door" 0x4c7a}
+	{Tags "keep_places_without_door" 0x6429}
+	{Tags "keep_places_without_door" 0x642a}
+	{Tags "keep_places_without_door" 0x21f1}
+	{Tags "keep_places_without_door" 0x610d}
+	{Tags "keep_places_without_door" 0x408c}
+	{Tags "keep_places_without_door" 0x684b}
+	{Tags "keep_places_without_door" 0x6884}
+	{Tags "keep_places_without_door" 0x642d}
+	{Tags "keep_places_without_door" 0x5867}
+	{Tags "keep_places_without_door" 0x58a5}
+	{Tags "keep_places_without_door" 0x48e7}
+	{Tags "keep_places_without_door" 0x7121}
+	{Tags "keep_places_without_door" 0x1857}
+	{Tags "keep_places_without_door" 0x1864}
+	{Tags "keep_places_without_door" 0x186d}
+	{Tags "keep_places_without_door" 0x187d}
+	{Tags "keep_places_without_door" 0x189c}
+	{Tags "keep_places_without_door" 0x3125}
+	{Tags "keep_places_without_door" 0x7112}
+	{Tags "keep_places_without_door" 0x7113}
+	{Tags "keep_places_without_door" 0x711a}
+	{Tags "keep_places_without_door" {0x711a "5"}}
+	{Tags "smgw" "jammable" {0x44ce "1"}}
+	{Tags "keep_places_without_door" 0x44eb}
+	{Tags "keep_places_without_door" 0x60b8}
+	{Tags "keep_places_without_door" 0x136a}
+	{Tags "keep_places_without_door" 0x121c}
+	{Tags "keep_places_without_door" 0x14a7}
+	{Tags "day" 0x800c}
+	{Tags "night" 0x8009}
+	{Tags "night" 0x800a}
+	{Tags "night" 0x800d}
+	{Tags "night" 0xc003}
+	{Tags "day" 0x800e}
+	{Tags "day" 0x8006}
+	{Tags "day" 0x8005}
+	{Tags "night" 0x8011}
+	{Tags "night" 0x8012}
+	{Tags "night" 0x8016}
+	{Tags "day" 0x8017}
+	{Tags "day" 0x8014}
+	{Environment "multi/multi_07"}
+	{Helpers
+		{event "sequence_sunny/00"}
+		{event "sequence_sunny/01"}
+		{event "sequence_sunny/02"}
+		{event "sequence_sunny/03"}
+		{event "sequence_sunny/04"}
+		{event "sequence_sunny/05"}
+		{event "sequence_sunny/06"}
+		{event "sequence_sunny/07"}
+		{event "sequence_sunny/08"}
+		{event "sequence_sunny/09"}
+		{event "sequence_sunny/10"}
+		{event "sequence_sunny/11"}
+		{event "sequence_sunny/12"}
+		{event "sequence_sunny/13"}
+		{event "sequence_sunny/14"}
+		{event "sequence_sunny/15"}
+		{event "sequence_sunny/16"}
+		{event "sequence_sunny/17"}
+		{event "sequence_sunny/18"}
+		{event "sequence_sunny/19"}
+		{event "sequence_sunny/20"}
+		{event "sequence_sunny/21"}
+		{event "sequence_sunny/22"}
+		{event "sequence_sunny/23"}
+		{event "sequence_sunny/24"}
+		{event "sequence_sunny/25"}
+		{event "sequence_sunny/26"}
+		{event "sequence_sunny/27"}
+		{event "sequence_sunny/28"}
+		{event "sequence_sunny/29"}
+		{event "sequence_sunny/30"}
+		{event "sequence_sunny/31"}
+		{event "sequence_sunny/start"}
+		{reinforcements
+			{scoreTotal 0}
+			{scoreCurrent 0}
+		}		
+		{triggers
+			{"environment/environment"
+				{condition
+				}
+				{actions
+					{"switch"
+						{"case"
+							{condition
+								{type rand}
+								{value 1}
+							}
+							{"delete"
+								{selector
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+							{"event"
+								{event "sequence_sunny/start"}
+								{mode set}
+								{delay 0}
+							}
+						}
+						{## "case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"environment"
+								{name "multi/multi_09"}
+								{time -1}
+								{apply}
+							}
+							{"delete"
+								{selector
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+						}
+						{## "case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"environment"
+								{name "multi/multi_08"}
+								{time -1}
+								{apply}
+							}
+							{"delete"
+								{selector
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+						}
+						{## "case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"environment"
+								{name "multi/multi_07"}
+								{time -1}
+								{apply}
+							}
+							{"delete"
+								{selector
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+						}
+						{## "case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"environment"
+								{name "multi/multi_06"}
+								{time -1}
+								{apply}
+							}
+							{"delete"
+								{selector
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+						}
+						{## "case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"environment"
+								{name "multi/multi_05"}
+								{time -1}
+								{apply}
+							}
+							{"delete"
+								{selector
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+						}
+						{## "case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"environment"
+								{name "multi/multi_04"}
+								{time -1}
+								{apply}
+							}
+							{"delete"
+								{selector
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+						}
+						{## "case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"environment"
+								{name "multi/multi_03"}
+								{time -1}
+								{apply}
+							}
+							{"delete"
+								{selector
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+						}
+						{## "case"
+							{condition
+								{type rand}
+								{value 0.1}
+							}
+							{"environment"
+								{name "multi/multi_02"}
+								{time -1}
+								{apply}
+							}
+							{"delete"
+								{selector
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+						}
+						{## "default"
+							{"environment"
+								{name "multi/multi_01"}
+								{time -1}
+								{apply}
+							}
+							{"delete"
+								{selector
+									{tag day}
+								}
+							}
+							{"delete"
+								{selector
+									{tag night}
+								}
+							}
+							{"delete"
+								{selector
+									{tag rain}
+								}
+							}
+						}
+					}
+				}
+			}
+			{"environment/sequence_sunny/rand"
+				{condition
+					{terms
+						{"1.event"
+							{id "sequence_sunny/start"}
+						}
+					}
+				}
+				{actions
+					{"switch"
+						{"case"
+							{condition
+								{type rand}
+								{value 0.16}
+							}
+							{"event"
+								{event "sequence_sunny/05"}
+								{mode set}
+								{delay 0}
+							}
+							{"environment"
+								{name "multi/sequence_sunny/04"}
+								{time -1}
+								{apply}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.2}
+							}
+							{"event"
+								{event "sequence_sunny/09"}
+								{mode set}
+								{delay 0}
+							}
+							{"environment"
+								{name "multi/sequence_sunny/08"}
+								{time -1}
+								{apply}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.12}
+							}
+							{"event"
+								{event "sequence_sunny/13"}
+								{mode set}
+								{delay 0}
+							}
+							{"environment"
+								{name "multi/sequence_sunny/12"}
+								{time -1}
+								{apply}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.16}
+							}
+							{"event"
+								{event "sequence_sunny/17"}
+								{mode set}
+								{delay 0}
+							}
+							{"environment"
+								{name "multi/sequence_sunny/16"}
+								{time -1}
+								{apply}
+							}
+						}
+						{"case"
+							{condition
+								{type rand}
+								{value 0.2}
+							}
+							{"event"
+								{event "sequence_sunny/21"}
+								{mode set}
+								{delay 0}
+							}
+							{"environment"
+								{name "multi/sequence_sunny/20"}
+								{time -1}
+								{apply}
+							}
+						}
+						{"default"
+							{"event"
+								{event "sequence_sunny/01"}
+								{mode set}
+								{delay 0}
+							}
+							{"environment"
+								{name "multi/sequence_sunny/00"}
+								{time -1}
+								{apply}
+							}
+						}
+					}
+				}
+			}
+			{"environment/sequence_sunny/phase_00"
+				{condition
+					{terms
+						{"1.event"
+							{id "sequence_sunny/00"}
+						}
+					}
+				}
+				{actions
+					{"environment"
+						{name "multi/sequence_sunny/00"}
+						{time 300}
+						{apply}
+					}
+					{"event"
+						{event "sequence_sunny/00"}
+						{mode reset}
+						{delay 0}
+					}
+					{"delay"
+						{time 300.5}
+					}
+					{"event"
+						{event "sequence_sunny/01"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "environment/sequence_sunny/phase_00"}
+					}
+				}
+			}
+			{"environment/sequence_sunny/phase_01"
+				{condition
+					{terms
+						{"1.event"
+							{id "sequence_sunny/01"}
+						}
+					}
+				}
+				{actions
+					{"environment"
+						{name "multi/sequence_sunny/01"}
+						{time 300}
+						{apply}
+					}
+					{"event"
+						{event "sequence_sunny/01"}
+						{mode reset}
+						{delay 0}
+					}
+					{"delay"
+						{time 300.5}
+					}
+					{"event"
+						{event "sequence_sunny/02"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "environment/sequence_sunny/phase_01"}
+					}
+				}
+			}
+			{"environment/sequence_sunny/phase_02"
+				{condition
+					{terms
+						{"1.event"
+							{id "sequence_sunny/02"}
+						}
+					}
+				}
+				{actions
+					{"environment"
+						{name "multi/sequence_sunny/02"}
+						{time 300}
+						{apply}
+					}
+					{"event"
+						{event "sequence_sunny/02"}
+						{mode reset}
+						{delay 0}
+					}
+					{"delay"
+						{time 300.5}
+					}
+					{"event"
+						{event "sequence_sunny/03"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "environment/sequence_sunny/phase_02"}
+					}
+				}
+			}
+			{"environment/sequence_sunny/phase_03"
+				{condition
+					{terms
+						{"1.event"
+							{id "sequence_sunny/03"}
+						}
+					}
+				}
+				{actions
+					{"environment"
+						{name "multi/sequence_sunny/03"}
+						{time 300}
+						{apply}
+					}
+					{"event"
+						{event "sequence_sunny/03"}
+						{mode reset}
+						{delay 0}
+					}
+					{"delay"
+						{time 300.5}
+					}
+					{"event"
+						{event "sequence_sunny/04"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "environment/sequence_sunny/phase_03"}
+					}
+				}
+			}
+			{"environment/sequence_sunny/phase_04"
+				{condition
+					{terms
+						{"1.event"
+							{id "sequence_sunny/04"}
+						}
+					}
+				}
+				{actions
+					{"environment"
+						{name "multi/sequence_sunny/04"}
+						{time 300}
+						{apply}
+					}
+					{"event"
+						{event "sequence_sunny/04"}
+						{mode reset}
+						{delay 0}
+					}
+					{"delay"
+						{time 300.5}
+					}
+					{"event"
+						{event "sequence_sunny/05"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "environment/sequence_sunny/phase_04"}
+					}
+				}
+			}
+			{"environment/sequence_sunny/phase_05"
+				{condition
+					{terms
+						{"1.event"
+							{id "sequence_sunny/05"}
+						}
+					}
+				}
+				{actions
+					{"environment"
+						{name "multi/sequence_sunny/05"}
+						{time 300}
+						{apply}
+					}
+					{"event"
+						{event "sequence_sunny/05"}
+						{mode reset}
+						{delay 0}
+					}
+					{"delay"
+						{time 300.5}
+					}
+					{"event"
+						{event "sequence_sunny/06"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "environment/sequence_sunny/phase_05"}
+					}
+				}
+			}
+			{"environment/sequence_sunny/phase_06"
+				{condition
+					{terms
+						{"1.event"
+							{id "sequence_sunny/06"}
+						}
+					}
+				}
+				{actions
+					{"environment"
+						{name "multi/sequence_sunny/06"}
+						{time 300}
+						{apply}
+					}
+					{"event"
+						{event "sequence_sunny/06"}
+						{mode reset}
+						{delay 0}
+					}
+					{"delay"
+						{time 300.5}
+					}
+					{"event"
+						{event "sequence_sunny/07"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "environment/sequence_sunny/phase_06"}
+					}
+				}
+			}
+			{"environment/sequence_sunny/phase_07"
+				{condition
+					{terms
+						{"1.event"
+							{id "sequence_sunny/07"}
+						}
+					}
+				}
+				{actions
+					{"environment"
+						{name "multi/sequence_sunny/07"}
+						{time 300}
+						{apply}
+					}
+					{"event"
+						{event "sequence_sunny/07"}
+						{mode reset}
+						{delay 0}
+					}
+					{"delay"
+						{time 300.5}
+					}
+					{"event"
+						{event "sequence_sunny/08"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "environment/sequence_sunny/phase_07"}
+					}
+				}
+			}
+			{"environment/sequence_sunny/phase_08"
+				{condition
+					{terms
+						{"1.event"
+							{id "sequence_sunny/08"}
+						}
+					}
+				}
+				{actions
+					{"environment"
+						{name "multi/sequence_sunny/08"}
+						{time 300}
+						{apply}
+					}
+					{"event"
+						{event "sequence_sunny/08"}
+						{mode reset}
+						{delay 0}
+					}
+					{"delay"
+						{time 300.5}
+					}
+					{"event"
+						{event "sequence_sunny/09"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "environment/sequence_sunny/phase_08"}
+					}
+				}
+			}
+			{"environment/sequence_sunny/phase_09"
+				{condition
+					{terms
+						{"1.event"
+							{id "sequence_sunny/09"}
+						}
+					}
+				}
+				{actions
+					{"environment"
+						{name "multi/sequence_sunny/09"}
+						{time 300}
+						{apply}
+					}
+					{"event"
+						{event "sequence_sunny/09"}
+						{mode reset}
+						{delay 0}
+					}
+					{"delay"
+						{time 300.5}
+					}
+					{"event"
+						{event "sequence_sunny/10"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "environment/sequence_sunny/phase_09"}
+					}
+				}
+			}
+			{"environment/sequence_sunny/phase_10"
+				{condition
+					{terms
+						{"1.event"
+							{id "sequence_sunny/10"}
+						}
+					}
+				}
+				{actions
+					{"environment"
+						{name "multi/sequence_sunny/10"}
+						{time 300}
+						{apply}
+					}
+					{"event"
+						{event "sequence_sunny/10"}
+						{mode reset}
+						{delay 0}
+					}
+					{"delay"
+						{time 300.5}
+					}
+					{"event"
+						{event "sequence_sunny/11"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "environment/sequence_sunny/phase_10"}
+					}
+				}
+			}
+			{"environment/sequence_sunny/phase_11"
+				{condition
+					{terms
+						{"1.event"
+							{id "sequence_sunny/11"}
+						}
+					}
+				}
+				{actions
+					{"environment"
+						{name "multi/sequence_sunny/11"}
+						{time 300}
+						{apply}
+					}
+					{"event"
+						{event "sequence_sunny/11"}
+						{mode reset}
+						{delay 0}
+					}
+					{"delay"
+						{time 300.5}
+					}
+					{"event"
+						{event "sequence_sunny/12"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "environment/sequence_sunny/phase_11"}
+					}
+				}
+			}
+			{"environment/sequence_sunny/phase_12"
+				{condition
+					{terms
+						{"1.event"
+							{id "sequence_sunny/12"}
+						}
+					}
+				}
+				{actions
+					{"environment"
+						{name "multi/sequence_sunny/12"}
+						{time 300}
+						{apply}
+					}
+					{"event"
+						{event "sequence_sunny/12"}
+						{mode reset}
+						{delay 0}
+					}
+					{"delay"
+						{time 300.5}
+					}
+					{"event"
+						{event "sequence_sunny/13"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "environment/sequence_sunny/phase_12"}
+					}
+				}
+			}
+			{"environment/sequence_sunny/phase_13"
+				{condition
+					{terms
+						{"1.event"
+							{id "sequence_sunny/13"}
+						}
+					}
+				}
+				{actions
+					{"environment"
+						{name "multi/sequence_sunny/13"}
+						{time 300}
+						{apply}
+					}
+					{"event"
+						{event "sequence_sunny/13"}
+						{mode reset}
+						{delay 0}
+					}
+					{"delay"
+						{time 300.5}
+					}
+					{"event"
+						{event "sequence_sunny/14"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "environment/sequence_sunny/phase_13"}
+					}
+				}
+			}
+			{"environment/sequence_sunny/phase_14"
+				{condition
+					{terms
+						{"1.event"
+							{id "sequence_sunny/14"}
+						}
+					}
+				}
+				{actions
+					{"environment"
+						{name "multi/sequence_sunny/14"}
+						{time 300}
+						{apply}
+					}
+					{"event"
+						{event "sequence_sunny/14"}
+						{mode reset}
+						{delay 0}
+					}
+					{"delay"
+						{time 300.5}
+					}
+					{"event"
+						{event "sequence_sunny/15"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "environment/sequence_sunny/phase_14"}
+					}
+				}
+			}
+			{"environment/sequence_sunny/phase_15"
+				{condition
+					{terms
+						{"1.event"
+							{id "sequence_sunny/15"}
+						}
+					}
+				}
+				{actions
+					{"environment"
+						{name "multi/sequence_sunny/15"}
+						{time 300}
+						{apply}
+					}
+					{"event"
+						{event "sequence_sunny/15"}
+						{mode reset}
+						{delay 0}
+					}
+					{"delay"
+						{time 300.5}
+					}
+					{"event"
+						{event "sequence_sunny/16"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "environment/sequence_sunny/phase_15"}
+					}
+				}
+			}
+			{"environment/sequence_sunny/phase_16"
+				{condition
+					{terms
+						{"1.event"
+							{id "sequence_sunny/16"}
+						}
+					}
+				}
+				{actions
+					{"environment"
+						{name "multi/sequence_sunny/16"}
+						{time 300}
+						{apply}
+					}
+					{"event"
+						{event "sequence_sunny/16"}
+						{mode reset}
+						{delay 0}
+					}
+					{"delay"
+						{time 300.5}
+					}
+					{"event"
+						{event "sequence_sunny/17"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "environment/sequence_sunny/phase_16"}
+					}
+				}
+			}
+			{"environment/sequence_sunny/phase_17"
+				{condition
+					{terms
+						{"1.event"
+							{id "sequence_sunny/17"}
+						}
+					}
+				}
+				{actions
+					{"environment"
+						{name "multi/sequence_sunny/17"}
+						{time 300}
+						{apply}
+					}
+					{"event"
+						{event "sequence_sunny/17"}
+						{mode reset}
+						{delay 0}
+					}
+					{"delay"
+						{time 300.5}
+					}
+					{"event"
+						{event "sequence_sunny/18"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "environment/sequence_sunny/phase_17"}
+					}
+				}
+			}
+			{"environment/sequence_sunny/phase_18"
+				{condition
+					{terms
+						{"1.event"
+							{id "sequence_sunny/18"}
+						}
+					}
+				}
+				{actions
+					{"environment"
+						{name "multi/sequence_sunny/18"}
+						{time 300}
+						{apply}
+					}
+					{"event"
+						{event "sequence_sunny/18"}
+						{mode reset}
+						{delay 0}
+					}
+					{"delay"
+						{time 300.5}
+					}
+					{"event"
+						{event "sequence_sunny/19"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "environment/sequence_sunny/phase_18"}
+					}
+				}
+			}
+			{"environment/sequence_sunny/phase_19"
+				{condition
+					{terms
+						{"1.event"
+							{id "sequence_sunny/19"}
+						}
+					}
+				}
+				{actions
+					{"environment"
+						{name "multi/sequence_sunny/19"}
+						{time 300}
+						{apply}
+					}
+					{"event"
+						{event "sequence_sunny/19"}
+						{mode reset}
+						{delay 0}
+					}
+					{"delay"
+						{time 300.5}
+					}
+					{"event"
+						{event "sequence_sunny/20"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "environment/sequence_sunny/phase_19"}
+					}
+				}
+			}
+			{"environment/sequence_sunny/phase_20"
+				{condition
+					{terms
+						{"1.event"
+							{id "sequence_sunny/20"}
+						}
+					}
+				}
+				{actions
+					{"environment"
+						{name "multi/sequence_sunny/20"}
+						{time 300}
+						{apply}
+					}
+					{"event"
+						{event "sequence_sunny/20"}
+						{mode reset}
+						{delay 0}
+					}
+					{"delay"
+						{time 300.5}
+					}
+					{"event"
+						{event "sequence_sunny/21"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "environment/sequence_sunny/phase_20"}
+					}
+				}
+			}
+			{"environment/sequence_sunny/phase_21"
+				{condition
+					{terms
+						{"1.event"
+							{id "sequence_sunny/21"}
+						}
+					}
+				}
+				{actions
+					{"environment"
+						{name "multi/sequence_sunny/21"}
+						{time 300}
+						{apply}
+					}
+					{"event"
+						{event "sequence_sunny/21"}
+						{mode reset}
+						{delay 0}
+					}
+					{"delay"
+						{time 300.5}
+					}
+					{"event"
+						{event "sequence_sunny/22"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "environment/sequence_sunny/phase_21"}
+					}
+				}
+			}
+			{"environment/sequence_sunny/phase_22"
+				{condition
+					{terms
+						{"1.event"
+							{id "sequence_sunny/22"}
+						}
+					}
+				}
+				{actions
+					{"environment"
+						{name "multi/sequence_sunny/22"}
+						{time 300}
+						{apply}
+					}
+					{"event"
+						{event "sequence_sunny/22"}
+						{mode reset}
+						{delay 0}
+					}
+					{"delay"
+						{time 300.5}
+					}
+					{"event"
+						{event "sequence_sunny/23"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "environment/sequence_sunny/phase_22"}
+					}
+				}
+			}
+			{"environment/sequence_sunny/phase_23"
+				{condition
+					{terms
+						{"1.event"
+							{id "sequence_sunny/23"}
+						}
+					}
+				}
+				{actions
+					{"environment"
+						{name "multi/sequence_sunny/23"}
+						{time 300}
+						{apply}
+					}
+					{"event"
+						{event "sequence_sunny/23"}
+						{mode reset}
+						{delay 0}
+					}
+					{"delay"
+						{time 300.5}
+					}
+					{"event"
+						{event "sequence_sunny/24"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "environment/sequence_sunny/phase_23"}
+					}
+				}
+			}
+			{"environment/sequence_sunny/phase_24"
+				{condition
+					{terms
+						{"1.event"
+							{id "sequence_sunny/24"}
+						}
+					}
+				}
+				{actions
+					{"environment"
+						{name "multi/sequence_sunny/24"}
+						{time 300}
+						{apply}
+					}
+					{"event"
+						{event "sequence_sunny/24"}
+						{mode reset}
+						{delay 0}
+					}
+					{"delay"
+						{time 300.5}
+					}
+					{"event"
+						{event "sequence_sunny/25"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "environment/sequence_sunny/phase_24"}
+					}
+				}
+			}
+			{"environment/sequence_sunny/phase_25"
+				{condition
+					{terms
+						{"1.event"
+							{id "sequence_sunny/25"}
+						}
+					}
+				}
+				{actions
+					{"environment"
+						{name "multi/sequence_sunny/25"}
+						{time 300}
+						{apply}
+					}
+					{"event"
+						{event "sequence_sunny/25"}
+						{mode reset}
+						{delay 0}
+					}
+					{"delay"
+						{time 300.5}
+					}
+					{"event"
+						{event "sequence_sunny/26"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "environment/sequence_sunny/phase_25"}
+					}
+				}
+			}
+			{"environment/sequence_sunny/phase_26"
+				{condition
+					{terms
+						{"1.event"
+							{id "sequence_sunny/26"}
+						}
+					}
+				}
+				{actions
+					{"environment"
+						{name "multi/sequence_sunny/26"}
+						{time 300}
+						{apply}
+					}
+					{"event"
+						{event "sequence_sunny/26"}
+						{mode reset}
+						{delay 0}
+					}
+					{"delay"
+						{time 300.5}
+					}
+					{"event"
+						{event "sequence_sunny/27"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "environment/sequence_sunny/phase_26"}
+					}
+				}
+			}
+			{"environment/sequence_sunny/phase_27"
+				{condition
+					{terms
+						{"1.event"
+							{id "sequence_sunny/27"}
+						}
+					}
+				}
+				{actions
+					{"environment"
+						{name "multi/sequence_sunny/27"}
+						{time 300}
+						{apply}
+					}
+					{"event"
+						{event "sequence_sunny/27"}
+						{mode reset}
+						{delay 0}
+					}
+					{"delay"
+						{time 300.5}
+					}
+					{"event"
+						{event "sequence_sunny/28"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "environment/sequence_sunny/phase_27"}
+					}
+				}
+			}
+			{"environment/sequence_sunny/phase_28"
+				{condition
+					{terms
+						{"1.event"
+							{id "sequence_sunny/28"}
+						}
+					}
+				}
+				{actions
+					{"environment"
+						{name "multi/sequence_sunny/28"}
+						{time 300}
+						{apply}
+					}
+					{"event"
+						{event "sequence_sunny/28"}
+						{mode reset}
+						{delay 0}
+					}
+					{"delay"
+						{time 300.5}
+					}
+					{"event"
+						{event "sequence_sunny/29"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "environment/sequence_sunny/phase_28"}
+					}
+				}
+			}
+			{"environment/sequence_sunny/phase_29"
+				{condition
+					{terms
+						{"1.event"
+							{id "sequence_sunny/29"}
+						}
+					}
+				}
+				{actions
+					{"environment"
+						{name "multi/sequence_sunny/29"}
+						{time 300}
+						{apply}
+					}
+					{"event"
+						{event "sequence_sunny/29"}
+						{mode reset}
+						{delay 0}
+					}
+					{"delay"
+						{time 300.5}
+					}
+					{"event"
+						{event "sequence_sunny/30"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "environment/sequence_sunny/phase_29"}
+					}
+				}
+			}
+			{"environment/sequence_sunny/phase_30"
+				{condition
+					{terms
+						{"1.event"
+							{id "sequence_sunny/30"}
+						}
+					}
+				}
+				{actions
+					{"environment"
+						{name "multi/sequence_sunny/30"}
+						{time 300}
+						{apply}
+					}
+					{"event"
+						{event "sequence_sunny/30"}
+						{mode reset}
+						{delay 0}
+					}
+					{"delay"
+						{time 300.5}
+					}
+					{"event"
+						{event "sequence_sunny/31"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "environment/sequence_sunny/phase_30"}
+					}
+				}
+			}
+			{"environment/sequence_sunny/phase_31"
+				{condition
+					{terms
+						{"1.event"
+							{id "sequence_sunny/31"}
+						}
+					}
+				}
+				{actions
+					{"environment"
+						{name "multi/sequence_sunny/31"}
+						{time 300}
+						{apply}
+					}
+					{"event"
+						{event "sequence_sunny/31"}
+						{mode reset}
+						{delay 0}
+					}
+					{"delay"
+						{time 300.5}
+					}
+					{"event"
+						{event "sequence_sunny/00"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 0.5}
+					}
+					{"trigger"
+						{name "environment/sequence_sunny/phase_31"}
+					}
+				}
+			}
+			{"engine/hover"
+				{condition
+				}
+				{actions
+					{"entity_state"
+						{selector
+							{tag hover_on}
+						}
+						{tag_add hover_on_trigger}
+						{tag_remove hover_on}
+					}
+					{"entity_state"
+						{selector
+							{tag hover_off}
+						}
+						{tag_add hover_off_trigger}
+						{tag_remove hover_off}
+					}
+					{"delay"
+						{time 1.01}
+					}
+					{"trigger"
+						{name "engine/hover"}
+					}
+				}
+			}
+			{"engine/fauna_melee"
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{tag fauna_melee}
+								{state "not dead"}
+							}
+						}
+					}
+				}
+				{actions
+					{"actor_state"
+						{selector
+							{tag fauna_melee}
+						}
+						{control AI}
+						{fire_mode open}
+						{move_mode zone}
+						{move_radius 100}
+					}
+					{"delay"
+						{time 0.1}
+					}
+					{"entity_state"
+						{selector
+							{tag fauna_melee}
+						}
+						{tag_remove fauna_melee}
+					}
+					{"trigger"
+						{name "engine/fauna_melee"}
+					}
+				}
+			}
+			{"hover/speed_max"
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{tag hover_off_trigger}
+								{state "not dead"}
+							}
+							{count
+								{op "=="}
+								{value 1}
+							}
+						}
+					}
+				}
+				{actions
+					{"actor_state"
+						{selector
+							{tag hover_off_trigger}
+						}
+						{movement
+							{max_speed_kph -1}
+						}
+					}
+					{"entity_state"
+						{selector
+							{tag hover_off_trigger}
+						}
+						{tag_remove hover_off_trigger}
+					}
+					{"delay"
+						{time 1}
+					}
+					{"trigger"
+						{name "hover/speed_max"}
+					}
+				}
+			}
+			{"hover/speed_min"
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{tag hover_on_trigger}
+								{state "not dead"}
+							}
+							{count
+								{op "=="}
+								{value 1}
+							}
+						}
+					}
+				}
+				{actions
+					{"actor_state"
+						{selector
+							{tag hover_on_trigger}
+						}
+						{movement
+							{max_speed_kph 50}
+						}
+					}
+					{"delay"
+						{time 0.2}
+					}
+					{"actor_state"
+						{selector
+							{tag hover_on_trigger}
+						}
+						{movement
+							{max_speed_kph 45}
+						}
+					}
+					{"delay"
+						{time 0.2}
+					}
+					{"actor_state"
+						{selector
+							{tag hover_on_trigger}
+						}
+						{movement
+							{max_speed_kph 40}
+						}
+					}
+					{"delay"
+						{time 0.2}
+					}
+					{"actor_state"
+						{selector
+							{tag hover_on_trigger}
+						}
+						{movement
+							{max_speed_kph 35}
+						}
+					}
+					{"delay"
+						{time 0.2}
+					}
+					{"actor_state"
+						{selector
+							{tag hover_on_trigger}
+						}
+						{movement
+							{max_speed_kph 30}
+						}
+					}
+					{"delay"
+						{time 0.2}
+					}
+					{"actor_state"
+						{selector
+							{tag hover_on_trigger}
+						}
+						{movement
+							{max_speed_kph 25}
+						}
+					}
+					{"entity_state"
+						{selector
+							{tag hover_on_trigger}
+						}
+						{tag_remove hover_on_trigger}
+					}
+					{"trigger"
+						{name "hover/speed_min"}
+					}
+				}
+			}
+		}
+	}
+	{Players
+		{count 17}
+		{diplomacy
+			1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+		}
+	}
+	{Fog 1}
+	{EntityManager {Enabled}
+		{CountScale "x0.5"}
+	}
+}

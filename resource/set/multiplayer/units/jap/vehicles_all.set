@@ -99,7 +99,7 @@
 
 {"hero7_jap"        ("v1" c(600) c1(type4_200mm) 	t(all hero artillery 43 44 45) s(jap) n1(vehicle_supporter:2) n2(tankman2:0) g(h8) b(hero)) {level 1} {cost 6.0} {fore -0.5}}
 
-{"hero_jap_chi_to"  ("v1" c(720) c1(chi-to_2) 		t(all hero 44 45) s(jap) n1(tankman:4) n2(tankman2:1) g(h10) b(hero)) {level 1} {cost 8.0} {fore -0.833}		;1320sec
+{"hero_jap_chi_to"  ("v1" c(720) c1(chi-to_2) 		t(all hero 44 45) s(jap) n1(tankman:4) n2(tankman2:1) g(h10) b(hero)) {level 1} {cost 8.0} {fore -0.833}}		;1320sec
 
 {"hero_jap_elite_aa"("v2" c(800) c1(type4_75mm_elite) t(all hero 44 45) s(jap) n1(elite_vehicle_supporter:2) n2(elite2:0) g(h5) b(hero)) {level 1} {cost 10.0} {fore -0.5}}
 

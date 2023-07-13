@@ -126,7 +126,7 @@
 ("squad_with8types" side(ger_ss) name(hero_ss_grenadier) c(90) g(h1) c1(grenadier_sl:1) c2(grenadier_sl_asst:1) c3(grenadier_stg:1) c4(grenadier_rifle_grenadier:2) c5(grenadier_sa:0) c6(grenadier_rifle_grenadier2:2) c7(grenadier_mg:1) c8(grenadier_mg_asst:1) b(hero) t(all hero 44 45) level(1) cost(2) f(-0.5))
 
 {"hero_ss_sdkfz251_16" ("v1" c(360) c1(np_sdkfz251_16) 	t(all hero 43 44 45 flamethrower) s(ger_ss) n1(vehicle_supporter:5) n2(tankman2:0) g(h2) b(hero)) {level 1} {cost 2.0} {fore 0.0}}
-{"hero_ss_2cmflak"   ("2v" c(120) c1(sdkfz251_1) c2(2cm_flak38) t(all hero 41 42 43 44 45) s(ger_ss) n1(vehicle_supporter:4) n2(vehicle_supporter:0) g(h3) b(hero))) {level 1} {cost 2.0} {fore -0.5}}
+{"hero_ss_2cmflak"   ("2v" c(120) c1(sdkfz251_1) c2(2cm_flak38) t(all hero 41 42 43 44 45) s(ger_ss) n1(vehicle_supporter:4) n2(vehicle_supporter:0) g(h3) b(hero)) {level 1} {cost 2.0} {fore -0.5}}
 
 {"hero_ss_stuka"    ("v1" c(800) c1(np_sdkfz251_1w) 	t(all hero artillery rocket 41 42 43 44 45) s(ger_ss) n1(vehicle_supporter:3) n2(tankman2:0) g(h8) b(hero)) {level 1} {cost 16.0} {fore -0.5}}
 

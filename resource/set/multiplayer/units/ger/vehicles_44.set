@@ -118,7 +118,7 @@
 
 ;°°°Button Hero°°°
 {"hero_mg42"        ("v1" c(120) c1(mg42_lafette)		t(hero 44) s(ger) n1(vehicle_supporter:2) g(h1) b(hero)) {level 1} {cost 1.0} {fore -0.5}}
-{"hero3_ger"        ("v1" c(120) c1(sdkfz303) 		t(hero 44) s(ger) n1(tankman:0) n2(tankman2:0) g(h1) b(hero))) {level 1} {cost 1.0} {fore -0.5}}
+{"hero3_ger"        ("v1" c(120) c1(sdkfz303) 		t(hero 44) s(ger) n1(tankman:0) n2(tankman2:0) g(h1) b(hero)) {level 1} {cost 1.0} {fore -0.5}}
 ("squad_with14types" side(ger) name(hero_ger_volks) c(260) g(h22) c1(volksgren_sl_stg:2) c2(volksgren_sl_smg:1) c3(volksgren_sl_asst:3) c4(volksgren_stg44:5) c5(volksgren_pzfst2:2) c6(volksgren_smg:1) c7(volksgren_sa:3) c8(volksgren_rifle:6) c9(volksgren_mg:2) c10(volksgren_mg_asst:1) c11(volksgren_mg_asst3:1) c12(volksgren_grenadier:3) c13(volksgren_at:1) c14(volksgren_at2:1) b(hero) t(all hero 44 45) level(1) cost(4) f(-0.5))
 {"heronew2_ger"	    ("v1" c(345) c1(marder_3m)		t(hero 44) s(ger) n1(tankman:3) n2(tankman2:1) g(h2) b(hero)) {level 1} {cost 4.0} {fore -1.0}} ;690sec
 

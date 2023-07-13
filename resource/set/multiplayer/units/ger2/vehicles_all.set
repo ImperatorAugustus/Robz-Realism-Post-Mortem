@@ -76,11 +76,11 @@
 ;°°°Button 5°°°
 
 {"hetzer_ger2"			("v" c(10) t(all 44 45 medium)	s(ger2) n1(3) n2(1) g(f1) sc(37.50) b(v5) cw(0) cp(15)) {level 1} {cost 750} {fore -69.0}}	;700sec ;vetted
-{"stug3g_ger2"			("v_ss_com" c(10) v1(stug3g_vet) t(medium all 43 44 45)	s(ger2) n1(3) n2(1) g(f2) b(v5)) {level 1} {cost 700} {fore -75.0}}	;760sec
-{"stug4g_ger2"			("v_ss_com" c(10) v1(stug4g_vet) t(medium all 44 45)	s(ger2) n1(3) n2(1) g(f3) b(v5)) {level 1} {cost 700} {fore -75.0}}	;760sec
+{"stug3g_ger2"			("v_ss_com" c(10) v1(stug3g_vet) t(medium all 43 44 45)	s(ger2) n1(3) n2(1) g(f2) b(v5)) {level 1} {cost 700} {fore -75.0}}	;760sec  ;vetted
+{"stug4g_ger2"			("v_ss_com" c(10) v1(stug4g_vet) t(medium all 44 45)	s(ger2) n1(3) n2(1) g(f3) b(v5)) {level 1} {cost 700} {fore -75.0}}	;760sec  ;vetted
 {"nashorn_ger2"			("v" c(60) t(all 44 45 heavy)	s(ger2) n1(3) n2(1) g(f4) sc(77.50) b(v5) cw(0) cp(30)) {level 1} {cost 1450} {fore -26.0}}	;1620sec ;vetted
 {"jagdpanther_vet"      ("v" c(850) t(all heavy 44 45) 	s(ger2) n1(3) n2(1) g(f5) sc(105.0) b(v5) cw(0) cp(30)) {level 1} {cost 1900} {fore -1.0}} 	;1700sec ;vetted
-{"elefant_ger2"			("v" c(850) t(all 44 45 sheavy)s(ger2) n1(3) n2(1) g(f6) sc(105.00) b(v5) cw(0) cp(40)) {level 1} {cost 2100} {fore -1.0}}	;1700sec
+{"elefant_ger2"			("v" c(850) t(all 44 45 sheavy)s(ger2) n1(3) n2(1) g(f6) sc(105.00) b(v5) cw(0) cp(40)) {level 1} {cost 2100} {fore -1.0}}	;1700sec  ;vetted
 
 
 

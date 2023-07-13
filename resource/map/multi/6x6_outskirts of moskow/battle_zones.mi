@@ -608,6 +608,33 @@
 		{Player 0}
 		{MID 28}
 	}
+	{Human "mp/ger/at_rifle" 0x800e
+		{Position 592.93 1338.61}
+		{TexMod "heer_splitter"}
+		{Player 0}
+		{MID 20}
+		{NameId 90 52}
+		{FsmState "stand"}
+	}
+	{Entity "pzb39" 0x8011
+		{Extender "stuff"
+			{Item "pzb39" filled}
+		}
+	}
+	{Human "mp/ger/at_rifle" 0x8012
+		{Position -1152.95 1445.23}
+		{xform zl -25.26}
+		{TexMod "heer_splitter"}
+		{Player 0}
+		{MID 29}
+		{NameId 90 53}
+		{FsmState "squat"}
+	}
+	{Entity "pzb39" 0x8013
+		{Extender "stuff"
+			{Item "pzb39" filled}
+		}
+	}
 	{Tags "keep_places_without_door" 0x1000}
 	{Tags "keep_places_without_door" 0x200f}
 	{Tags "keep_places_without_door" 0x2011}
@@ -744,8 +771,6 @@
 	{Tags "keep_places_without_door" {0x709d "p20"}}
 	{Tags "keep_places_without_door" 0x709d}
 	{Tags "keep_places_without_door" 0x120}
-	{Tags "keep_places_without_door" {0x3006 "10_in"}}
-	{Tags "keep_places_without_door" {0x50ff "7"}}
 	{Tags "day" 0xc008}
 	{Tags "day" 0xc009}
 	{Tags "day" 0xc00a}
@@ -753,6 +778,42 @@
 	{Tags "day" 0xc00d}
 	{Tags "day" 0xc00e}
 	{Tags "day" 0x800d}
+	{Tags "riflew" "jammable" 0x800e}
+	{Tags "keep_places_without_door" {0x3006 "10_in"}}
+	{Tags "keep_places_without_door" {0x50ff "7"}}
+	{Tags "riflew" "jammable" 0x8012}
+	{Inventory 0x800e
+		{box
+			{clear}
+			{item 0x8011 {cell 0 0}{user "hand_right"}}
+			{item "bandage" 3 {cell 0 2}}
+			{item "hohlladung" "grenade" {cell 2 2}}
+			{item "ptr" "ammo" 5 {cell 4 2}}
+			{item "ptr" "ammo" 5 {cell 0 3}}
+			{item "ptr" "ammo" 5 {cell 4 3}}
+			{item "ptr" "ammo" 5 {cell 0 4}}
+			{item "ptr" "ammo" 5 {cell 2 4}}
+			{item "ptr" "ammo" 5 {cell 4 4}}
+			{item "ptr" "ammo" 5 {cell 0 5}}
+			{item "helmet_ger_m40" {cell 2 5}{user "head"}}
+		}
+	}
+	{Inventory 0x8012
+		{box
+			{clear}
+			{item 0x8013 {cell 0 0}{user "hand_right"}}
+			{item "bandage" 3 {cell 0 2}}
+			{item "hohlladung" "grenade" {cell 2 2}}
+			{item "ptr" "ammo" 5 {cell 4 2}}
+			{item "ptr" "ammo" 5 {cell 0 3}}
+			{item "ptr" "ammo" 5 {cell 4 3}}
+			{item "ptr" "ammo" 5 {cell 0 4}}
+			{item "ptr" "ammo" 5 {cell 2 4}}
+			{item "ptr" "ammo" 5 {cell 4 4}}
+			{item "ptr" "ammo" 5 {cell 0 5}}
+			{item "helmet_ger_m40" {cell 2 5}{user "head"}}
+		}
+	}
 	{Brain 0xb07
 		{Properties
 			{fire_mode hold}
@@ -2503,5 +2564,129 @@
 	{Fog 1}
 	{EntityManager {Enabled}
 		{CountScale "x0.5"}
+	}
+	{Covers
+		{Sector
+			{Automatic 0x4e 41.6266 6.67527}
+			{Name "1"}
+		}
+		{Sector
+			{Automatic 0x4e 38.4578 20.9773}
+			{Name "1"}
+		}
+		{Sector
+			{Name "1"}
+			{Type "squat_lie"}
+			{Position -1164.53 1036.12}
+			{Orientation -1.61597}
+		}
+		{Sector
+			{Name "1"}
+			{Type "squat_lie"}
+			{Position -1164.44 1059.87}
+			{Orientation -1.5909}
+		}
+		{Sector
+			{Name "1"}
+			{Type "squat_lie"}
+			{Position -1150.46 1454.34}
+			{Orientation -1.7373}
+		}
+		{Sector
+			{Name "1"}
+			{Type "squat_lie"}
+			{Position -1150.72 1432.28}
+			{Orientation -1.56492}
+		}
+		{Sector
+			{Name "1"}
+			{Type "squat_lie"}
+			{Position -1153.66 1410.15}
+			{Orientation -1.56492}
+		}
+		{Sector
+			{Name "1"}
+			{Type "squat_lie"}
+			{Position -1153.15 1388.95}
+			{Orientation -1.56492}
+		}
+		{Sector
+			{Name "1"}
+			{Type "squat_lie"}
+			{Position -1153.37 1365.72}
+			{Orientation -1.56492}
+		}
+		{Sector
+			{Name "1"}
+			{Type "squat_lie"}
+			{Position -1163.82 1079.04}
+			{Orientation -1.56492}
+		}
+		{Sector
+			{Name "1"}
+			{Type "squat_lie"}
+			{Position -1164.66 1097.3}
+			{Orientation -1.56492}
+		}
+		{Sector
+			{Name "1"}
+			{Type "squat_lie"}
+			{Position -1162.28 1117.36}
+			{Orientation -1.56492}
+		}
+		{Sector
+			{Name "1"}
+			{Type "squat_lie"}
+			{Position -1160.83 1142.26}
+			{Orientation -1.56492}
+		}
+		{Sector
+			{Name "1"}
+			{Type "squat_lie"}
+			{Position -1162.02 1166.54}
+			{Orientation -1.56492}
+		}
+		{Sector
+			{Name "1"}
+			{Type "squat_lie"}
+			{Position -1161.37 1188.67}
+			{Orientation -1.56492}
+		}
+		{Sector
+			{Name "1"}
+			{Type "squat_lie"}
+			{Position -1160.1 1210.61}
+			{Orientation -1.56492}
+		}
+		{Sector
+			{Name "1"}
+			{Type "squat_lie"}
+			{Position -1160.53 1234.31}
+			{Orientation -1.56492}
+		}
+		{Sector
+			{Name "1"}
+			{Type "squat_lie"}
+			{Position -1156.91 1260.31}
+			{Orientation -1.56492}
+		}
+		{Sector
+			{Name "1"}
+			{Type "squat_lie"}
+			{Position -1157.12 1286.06}
+			{Orientation -1.56492}
+		}
+		{Sector
+			{Name "1"}
+			{Type "squat_lie"}
+			{Position -1156.99 1312.13}
+			{Orientation -1.56492}
+		}
+		{Sector
+			{Name "1"}
+			{Type "squat_lie"}
+			{Position -1155.37 1341.2}
+			{Orientation -1.56492}
+		}
 	}
 }

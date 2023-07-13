@@ -1,0 +1,13 @@
+;SDL
+game_entity
+
+	{simulation {able 1} {state 1}}
+        {volume "body"
+		{Able {obstacle 0}}
+	}
+	{obstacleID "human"}
+	{collider "human.part"}
+	{props "flesh" "part"}
+	{lodclass "stuff_small"}
+	{constrain ground}
+

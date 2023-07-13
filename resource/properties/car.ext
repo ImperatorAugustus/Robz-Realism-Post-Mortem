@@ -1,0 +1,276 @@
+;SDL
+actor
+
+(include "vehicle.ext")
+(include "car_crew.ext")
+
+("brain_vehicle")
+
+(define "accuracy_by_motion" ; 	spreading depending on the speed of "body", "gun" volumes
+	{AccuracyByMotion
+		{MaxLinearSpeed %max_linear}               ;km/h
+		{ByLinearSpeed %accuracy_by_linear}
+		{MaxAngularSpeed %max_angular}             ;deg/s
+		{ByAngularSpeed %accuracy_by_angular}
+		{DisorderTime %disorder_time}              ;s
+		{OrderTime %order_time}                    ;s
+	}
+)
+(define "abm_low"
+	("accuracy_by_motion"
+		max_linear(14) accuracy_by_linear(0.2)
+		max_angular(4) accuracy_by_angular(0.6)
+		disorder_time(1.2) order_time(2)
+	)
+)
+(define "abm_mgun"
+	("accuracy_by_motion"
+		max_linear(18) accuracy_by_linear(0.5)
+		max_angular(4) accuracy_by_angular(0.8)
+		disorder_time(1.2) order_time(2)
+	)
+)
+(define "abm_zenite"
+    ("accuracy_by_motion"
+        max_linear(10) accuracy_by_linear(0.5)
+        max_angular(4) accuracy_by_angular(0.8)
+        disorder_time(1.2) order_time(1.4)
+    )
+)
+
+{hearingBias 4.5} ; in meters
+{collider "car"}
+{props "car" "wheeled" "emit_on_sink" "tractor"}
+{targetClass "car"}
+{targetSelector "tank_bullet"}
+
+{able "ally_crew"}
+
+{placer
+	{place "driver"
+		{visor "main"}
+		{UseVision 0}
+	}
+}
+
+{extender "inventory"
+	{box
+		{Size 6 10}
+		{weight 10000}
+        {item "repair_kit"}
+		{item "can" filling "fuel" 60}
+	}
+}
+
+{volume "cabin"
+	{thickness hollow 1}
+}
+{volume "body"
+	{thickness 8}
+}
+{volume "bodyback"
+	{thickness 5}
+	{whole_wound}
+}
+{volume "glass"
+	{thickness 0.1}
+}
+{volume "engine"
+	{thickness 10}
+}
+{volume "inventory"
+	{tags "explosive"}
+	{thickness 0.2}
+}
+{volume "fuel"
+	{tags "explosive"}
+	{thickness 1}
+}
+(define "glass_volume"
+	{volume %0
+		{thickness 0.1}
+		{tags "glass"}
+	}
+)	
+	
+{component "body"
+	{RepairTime 25}
+	{tags "mover"}
+}
+{component "bodyback"
+	{RepairTime 25}
+}
+{component "cabin"
+	{RepairTime 15}
+}
+{component "engine"
+	{RepairTime 15}
+}
+{component "fuel"
+}
+
+{Chassis "wheel"
+	("chassis_defaults")
+	{speed
+		{Slow	10	}	; km/h
+		{Normal	20	}
+		{Fast	25	}
+	}
+}
+
+(define "locomotion"
+	{MaxSpeed	25	}		; максимальная скорость, kmph
+	{StartTime	15	}		; время разгона до макс. скорости с 0, seconds
+	{maxSpeedAtMaxTurn 15}
+	{BrakeTime	2	}		; время торможения с макс. скорости до 0, seconds
+	{StopTime	4	}		; время остановки после отключения двигателя с макс. скорости до 0, seconds
+	{TurnRadius	8	}		; мин. радиус разворота, meter
+	{Gears		0.1 0.5 0.8 1.0} ; передаточные коэф-ты коробки передач
+	{RearGears	0.35}	; передаточные коэф-ты коробки передач
+	{SteerOn	20}			; скорость поворота колес, градусов в секунду
+	{SteerOff	40}         ; скорость возврата колес в исх. состояние, градусов в секунду
+	{SplineRadius 1}		; ограничение радиуса поворота на сплайнах, метров
+)
+
+(define "armor_car"
+	{armor
+		{setting "body"
+			;{thickness (* %b %k)}
+			{threshold
+				{blast 					
+					{value 5}
+				}								
+				{pierce 
+					{value 3}
+				}
+			}						
+			{durability 
+				{blast 					
+					{value 10}
+				}			
+				{pierce
+					{value 60}
+				}
+			}				
+			{volumes "body*"}
+		}
+		{setting "body_back"
+			;{thickness %bb}
+			{threshold
+				{blast 					
+					{value 5}
+				}								
+				{pierce 
+					{value 1}
+				}
+			}						
+			{durability 
+				{blast 					
+					{value 10}
+				}			
+				{pierce
+					{value 50}
+				}
+			}				
+			{volumes "bodyback*"}
+		}
+		{setting "engine"
+			;{thickness (* 2.5 %b)}
+			{threshold								
+				{blast 					
+					{value 5}
+				}								
+				{pierce 
+					{value 3}
+				}
+			}						
+			{durability 		
+				{blast 					
+					{value 10}
+				}							
+				{pierce
+					{value 75}				
+				}
+			}		
+			{whole_wound}		
+			{volumes "engine*"}
+		}
+		{setting "wheel"
+			{thickness 5}
+			{threshold
+				{blast 
+					{value 10}
+				}				
+				{pierce 
+					{value 1}
+				}
+			}			
+			{durability 
+				{blast 
+					{value 10}
+				}				
+				{pierce 
+					{value 10}
+				}
+			}			
+			{whole_wound}
+			{volumes "wheel*"}
+		}
+		{setting "cabin"
+			{thickness 5}
+			{threshold
+				{blast 
+					{value 1}
+				}
+			}
+			{durability 
+				{blast 					
+					{value 10}
+				}			
+				{pierce					
+					{value 15}
+				}			
+			}
+			{volumes "cabin*"}
+		}
+			{setting "shields"
+				{thickness 5}
+				{threshold
+					{blast 					
+						{value 8}
+					}								
+					{pierce 
+						{value 7}
+					}
+				}
+				{durability 
+					{blast 					
+						{value 17}
+					}			
+					{pierce
+						{value 22}
+					}
+				}				
+				{volumes "shield1*" "shiel2*" "shield3*"}
+			}
+		}
+		{sensor
+			{visor "view-around"
+                {vision "moto_around"}
+				{bone "basis"}
+			}		
+			{visor "main"
+				{vision "vehicle_main"}
+			}		
+		}
+)
+
+(define "armor_light"
+	("armor_car" b(10) k(%0) bb(0.5))
+)
+(define "armor_medium"
+	("armor_car" b(15) k(%0) bb(0.5))
+)
+(define "armor_fuel"
+	("armor_car" b(10) k(%0) bb(6))
+)

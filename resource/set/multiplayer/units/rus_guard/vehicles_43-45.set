@@ -66,7 +66,7 @@
 
 {"t34_2_guard"           ("v" c(10) t(all medium 43 44 45) 	s(rus_guard) n1(3) n2(1) g(e3) sc(23.50) b(v4) cw(0) cp(15)) {level 1} {cost 430} {fore -74.0}}	;750sec
 
-{"t34_3_guard"           ("v" c(60) t(all medium 44 45) 	s(rus_guard) n1(3) n2(1) g(e4) sc(35.00) b(v4) cw(0) cp(15)) {level 1} {cost 675} {fore -16.5}}	;1050sec
+{"t34_3_guard"           ("v" c(60) t(all medium 44 45) 	s(rus_guard) n1(3) n2(1) g(e4) sc(35.00) b(v4) cw(0) cp(15)) {level 1} {cost 750} {fore -16.5}}	;1050sec
 
 {"kv1s_guard"            ("v" c(60) t(all heavy 43 44 45) 	s(rus_guard) n1(3) n2(1) g(e6) sc(35.00) b(v4) cw(0) cp(20)) {level 1} {cost 600} {fore -12.5}}	;810sec
 	
@@ -77,7 +77,7 @@
 ;°°°Button 5°°°
 
 {"su76_guard"             ("v" c(10) t(all medium 44 45) 	s(rus_guard) n1(3) n2(1) g(f1) sc(19.00) b(v5) cw(0) cp(10)) {level 1} {cost 330} {fore -57.0}}	;580
-{"su85_guard"             ("v" c(60) t(all medium 44 45) 	s(rus_guard) n1(3) n2(1) g(f2) sc(30.00) b(v5) cw(0) cp(15)) {level 1} {cost 600} {fore -15.33}}	;980
+{"su85_guard"             ("v" c(60) t(all medium 44 45) 	s(rus_guard) n1(3) n2(1) g(f2) sc(30.00) b(v5) cw(0) cp(15)) {level 1} {cost 620} {fore -15.33}}	;980
 
 {"isu122_guard"           ("v"  c(850) t(all heavy 44 45) 	s(rus_guard) n1(3) n2(1) g(f3) sc(65.00) b(v5) cw(0) cp(30)) {level 1} {cost 1500} {fore -1.7}}	;2160
 {"su100_guard"            ("v"  c(900) t(all heavy 44 45) 	s(rus_guard) n1(3) n2(1) g(f4) sc(80.00) b(v5) cw(0) cp(30)) {level 1} {cost 1700} {fore -1.706}}	;2300

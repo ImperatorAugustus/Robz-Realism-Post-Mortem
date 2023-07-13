@@ -36,6 +36,7 @@
 	{actor_cannon  				actor  "cannon"}
 	{human 		   				actor  "human" }
     {zero 		   				actor  "zero" }
+	{vehicle_0    				actor  "vision_vehicle_none"}
 	{vehicle_01    				actor  "vision_vehicle_minimum"}
 	{vehicle_02  				actor  "vision_vehicle_low"}
 	{vehicle_03   				actor  "vision_vehicle_medium"}

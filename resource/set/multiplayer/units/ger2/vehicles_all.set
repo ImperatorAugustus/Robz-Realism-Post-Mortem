@@ -98,17 +98,19 @@
 
 
 ;°°°Button Hero°°°
-{"hero4_ost"		("i3" c(90)						t(all 44 45 hero) s(ger2) n1(elite4:2) n2(elite5:6) n3(elite6:2) g(h3) b(hero)) {level 1} {cost 1.0} {fore -0.5}}
 
 {"hero2_ost"		("i2" c(120)					t(all 44 45 hero) s(ger2) n1(bazooker3:2) n2(bazooker2:2) g(h2) b(hero)) {level 1} {cost 1.0} {fore -0.5}}
 {"hero_ost_raketenwerfer" ("v1" c(180) c1(raketenwerfer) t(all 44 45 hero) s(ger2) n1(vehicle_supporter:2) n2(tankman2:0) g(h4) b(hero)) {level 1} {cost 1.0} {fore -0.5}}
 
+{"hero4_ost"		("i3" c(90)						t(all 44 45 hero) s(ger2) n1(elite4:6) n2(elite5:18) n3(elite6:6) g(h3) b(hero)) {level 1} {cost 2.0} {fore -0.5}}
+
 {"hero1_ost"		("i2" c(120)					t(all 44 45 hero officer1) s(ger2) n1(oficer2:1) n2(rifle:2) g(h1) b(hero)) {level 1} {cost 2.0} {fore -0.5}}
 
-{"hero5_ost"		("v4" c(180) c1(sdkfz250_11)	t(all 44 45 hero) s(ger2) n1(sturmovik:2) n2(sturmovik2:2) n3(sturmovik3:1) n4(sturmovik6:1) g(h6) b(hero)) {level 1} {cost 2.0} {fore -0.5}}
-{"hero3_ost"		("v1" c(280) c1(sdkfz234_3)		t(all 44 45 hero) s(ger2) n1(tankman:2) n2(tankman2:1) g(h5) b(hero)) {level 1} {cost 2.0} {fore -0.68}} ;470sec
-
 {"hero7_ost"		("i2" c(480)					t(all 44 45 hero) s(ger2) n1(radioman:1) n2(smg:2) g(h8) b(hero)) {level 1} {cost 2.0} {fore -0.5}}
+
+{"hero5_ost"		("v24" c(180) c1(sdkfz250_11)	t(all 44 45 hero) s(ger2) n1(sturmovik:2) n2(sturmovik2:2) n3(sturmovik3:1) n4(sturmovik6:1) g(h6) b(hero)) {level 1} {cost 3.0} {fore -0.5}}
+
+{"hero3_ost"		("v1" c(280) c1(sdkfz234_3)		t(all 44 45 hero) s(ger2) n1(tankman:2) n2(tankman2:1) g(h5) b(hero)) {level 1} {cost 3.0} {fore -0.68}} ;470sec
 
 {"hero6_ost"		("v1" c(360) c1(sdkfz234_4)		t(all 45 hero) s(ger2) n1(tankman:2) n2(tankman2:1) g(h7) b(hero)) {level 1} {cost 5.0} {fore -0.583}} ;570sec
 

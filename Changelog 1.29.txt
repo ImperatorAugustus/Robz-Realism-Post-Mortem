@@ -191,8 +191,8 @@ t 34 76 1942 - 330 mp
 t 34 57 - 450 mp
 t 34 76 mod 43 -350mp
 Reduced SU 85 price by 25mp.
-Reduced price of t34-85 by 75mp.
-Reduced price of 2x t34-85 sequence buy by 50mp.
+t 34 85 guards - 625 mp
+su 85 guards - 500 mp
 Reduced t34-85 startup cooldown by 60 seconds - 840 seconds.
 Reduced all KV series tanks by 100mp.
 Reduced price of IS1 by 100mp.
@@ -229,7 +229,8 @@ ba64 - 140 mp
 t 34 76 - 430 mp
 kv1 guards - 575 mp
 kv1s guards - 575 mp
-t 34 85 guards - 675 mp
+t 34 85 guards - 750 mp
+su 85 guards - 620 mp
 lend lease sherman - 8 sp
 bm31-12 - 13 sp
 dual guards kv85 - 10sp
@@ -342,6 +343,9 @@ nashorn veteran - 1450mp
 jagdpanther veteran - 1900mp
 Puma increased cost by 15mp
 37mm halftrack cost reduced by 25mp
+Increased leig puma cost by 1 sp
+Double strostrup and increased price by 1
+Trippled penal squad increased price by 1
 stolen 85 - 5dp
 veteran jagdtiger - 20sp(especially if 260)
 double tiger 1- 16sp
@@ -363,6 +367,7 @@ Reduced basic rifle squads by 15mp
 Reduced all elite infantry squads except Imperial guard by 20mp
 Added 50% more minners to each respective squad
 	Vehicles
+Fixed 200m AT gun and TD range scaling so its accurate to max
 Reduced 105 and 150 howitzer by 50mp
 Increased price of HoHa to 135mp
 Type 92 HMG reduced by 10 mp

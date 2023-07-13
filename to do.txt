@@ -10,6 +10,5 @@ deminers/fix model
 m4dd
 
 fix
-vet tiger for ost gun 
-same for flak 88 half
+sdkfz8 gun range misreading on label
 change m3 rus model

@@ -5,7 +5,7 @@
 	{rechargeTime 8}
 	
 	("speed" s(680))
-	("range_short")
+	("range_medium")
 	{range 200 200}
 	{projectileDamage 101}
 	("damage_170" a(101) b(92) c(83) d(76) e(69) range(200))
@@ -16,6 +16,6 @@
 		{range 180 180}
 	}
 	
-	("accuracy_medium")
+	("accuracy_medium_200m")
 }
 

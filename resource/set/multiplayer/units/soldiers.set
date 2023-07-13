@@ -673,6 +673,8 @@
 {"mp/usa/sturmovik6" 		("vet_6" side(usa))}
 {"mp/usa/sturmovik6_mg" 	("vet_6" side(usa))}
 {"mp/usa/sturmovik6b" 		("vet_6" side(usa))}
+{"mp/usa/sturmovikm3" 		("vet_6" side(usa))}
+{"mp/usa/sturmovikm3_leader" 		("vet_6" side(usa))}
 {"mp/usa/pathfinder_sl" 	("vet_6" side(usa))}
 
 {"mp/rus/sturmovik" 		("vet_6" side(rus))}
@@ -833,6 +835,13 @@
 {"mp/usa/elite_101st_para3b" 		("vet_7" side(usa))}
 {"mp/usa/elite_101st_para3b_asst" 	("vet_7" side(usa))}
 {"mp/usa/elite_101st_para4" 		("vet_7" side(usa))}
+{"mp/usa/raider" 					("vet_7" side(usa))}
+{"mp/usa/raiderasst" 				("vet_7" side(usa))}
+{"mp/usa/raiderbar" 				("vet_7" side(usa))}
+{"mp/usa/raiderchad" 				("vet_7" side(usa))}
+{"mp/usa/raiderdemo" 				("vet_7" side(usa))}
+{"mp/usa/raidergren" 				("vet_7" side(usa))}
+{"mp/usa/raiderleader" 				("vet_7" side(usa))}
 
 {"mp/ger/fallschirm_at" 		("vet_7" side(ger))}
 {"mp/ger/fallschirm_at2" 		("vet_7" side(ger))}

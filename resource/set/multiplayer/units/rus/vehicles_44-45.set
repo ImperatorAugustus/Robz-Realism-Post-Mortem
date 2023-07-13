@@ -83,15 +83,15 @@
 
 ;°°°Button 4°°°
 
-{"m3grantr"       ("v" c(10) t(all 44 45 medium) s(rus) n1(3) n2(1) g(e1) sc(19.00) b(v4) cw(0) cp(15)) {level 1} {cost 330} {fore -67.0}}	;680sec
+{"grant_m3r"       ("v" c(10) t(all 44 45 medium) s(rus) n1(3) n2(1) g(e1) sc(19.00) b(v4) cw(0) cp(15)) {level 1} {cost 330} {fore -67.0}}	;680sec
 
 {"t34_2"           ("v_seq" c(10) t(all medium 44 45) 	s(rus) n1(3) n2(1) g(e4) i(3) sc(18.50) b(v4) cw(0) cp(10)) {level 1} {cost 350} {fore -74.0}}	;750sec
 {"t34_2x2"         ("v2_seq" c(10) t(all medium 44 45) v1(t34_2) v2(t34_2) s(rus) n1(3) n2(1) g(e4) i(3) sc(18.50) b(v4) cw(0) cp(10)) {level 1} {cost 350} {fore -74.0}}	;750sec
 
 {"ot34_2"          ("v" c(750) t(all medium 44 45 flamethrower) 	s(rus) n1(3) n2(1) g(e4) sc(26.00) b(v4) cw(0) cp(10)) {level 1} {cost 520} {fore 0.0}}		;750sec
 
-{"t34_3"           ("v_seq" c(60) t(all medium 44 45) 	s(rus) n1(3) n2(1) g(e6) i(4) sc(30.00) b(v4) cw(0) cp(10)) {level 1} {cost 525} {fore -16.5}}	;1050sec
-{"t34_3x2"         ("v2_seq" c(60) t(all medium 44 45) v1(t34_3) v2(t34_3) 	s(rus) n1(3) n2(1) g(e6) i(4) sc(30.00) b(v4) cw(0) cp(10)) {level 1} {cost 550} {fore -16.5}}	;1050sec
+{"t34_3"           ("v_seq" c(60) t(all medium 44 45) 	s(rus) n1(3) n2(1) g(e6) i(4) sc(30.00) b(v4) cw(0) cp(10)) {level 1} {cost 625} {fore -16.5}}	;1050sec
+{"t34_3x2"         ("v2_seq" c(60) t(all medium 44 45) v1(t34_3) v2(t34_3) 	s(rus) n1(3) n2(1) g(e6) i(4) sc(30.00) b(v4) cw(0) cp(10)) {level 1} {cost 625} {fore -16.5}}	;1050sec
 
 {"kv1"             ("v" c(60) t(all heavy 44 45) 	s(rus) n1(4) n2(1) g(e9) sc(31.25) b(v4) cw(0) cp(15)) {level 1} {cost 525} {fore -12.5}}	;810sec
 
@@ -105,7 +105,7 @@
 
 {"su76"             ("v" c(10) t(all medium 44 45) 	s(rus) n1(3) n2(1) g(f1) sc(14.00) b(v5) cw(0) cp(5)) {level 1} {cost 280} {fore -57.0}}	;580
 {"zis_30"           ("v" c(750) t(all medium 44 45) s(rus) n1(3) n2(1) g(f2) sc(17.50) b(v5) cw(0) cp(5)) {level 1} {cost 350} {fore 0.0}}		;750
-{"su85"             ("v" c(60) t(all medium 44 45) 	s(rus) n1(3) n2(1) g(f3) sc(25.00) b(v5) cw(0) cp(10)) {level 1} {cost 475} {fore -15.33}}	;980
+{"su85"             ("v" c(60) t(all medium 44 45) 	s(rus) n1(3) n2(1) g(f3) sc(25.00) b(v5) cw(0) cp(10)) {level 1} {cost 500} {fore -15.33}}	;980
 
 {"isu122"           ("v"  c(800) t(all heavy 44 45) 	s(rus) n1(3) n2(1) g(f4) sc(55.00) b(v5) cw(0) cp(25)) {level 1} {cost 1300} {fore -1.7}}	;2160
 {"su100"            ("v"  c(850) t(all heavy 44 45) 	s(rus) n1(3) n2(1) g(f5) sc(70.00) b(v5) cw(0) cp(25)) {level 1} {cost 1500} {fore -1.706}}	;2300

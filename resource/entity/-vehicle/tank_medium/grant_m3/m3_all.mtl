@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "grant_m3"}
+	{bump "$/model/m3g_bp"}
+	{specular "$/model/spec_x"}
+	{color "229 229 229 25"}
+	{blend test}
+}

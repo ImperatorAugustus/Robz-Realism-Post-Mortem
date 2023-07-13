@@ -5,7 +5,7 @@
 
 ;°°°Button 1°°°
 
-{"r12_ger2"				("vs" c(0) t(all 44 45)			s(ger2) n(2) g(b1) sc(6.50) b(v1) cw(0) cp(0)) {level 1} {cost 115} {fore 0.0}}		;0sec
+{"r12_ger2"				("vs" c(0) t(all 44 45)			s(ger2) n(2) g(b1) sc(6.50) b(v1) cw(0) cp(0)) {level 1} {cost 105} {fore 0.0}}		;0sec
 {"kfz15_gun"			("vs" c(30) t(all 44 45)		s(ger2) n(3) g(b2) sc(8.00) b(v1) cw(0) cp(0)) {level 1} {cost 125} {fore 0.0}}		;30sec
 {"sdkfz250_1"			("vs" c(10) t(all 44 45)		s(ger2) n(2) g(b3) sc(6.50) b(v1) cw(0) cp(0)) {level 1} {cost 140} {fore -17.0}} 	;180sec
 

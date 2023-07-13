@@ -3,7 +3,7 @@
 
 ;°°°Button 1°°°
 
-{"m72_guard"              ("vs_rus_g" c(0) v1(m72) t(all 43 44 45) 	s(rus_guard) n(2) g(b1) sc(4.00) b(v1) cw(0) cp(0)) {level 1} {cost 125} {fore 0.0}}		;0sec
+{"m72_guard"              ("vs_rus_g" c(0) v1(m72) t(all 43 44 45) 	s(rus_guard) n(2) g(b1) sc(4.00) b(v1) cw(0) cp(0)) {level 1} {cost 105} {fore 0.0}}		;0sec
 {"gaz67b_guard"           ("vs_rus_g" c(30) v1(gaz67b) t(all 43 44 45)	s(rus_guard) n(3) g(b2) sc(5.50) b(v1) cw(0) cp(0)) {level 1} {cost 135} {fore 0.0}}		;30sec
 {"m3a1scout_guard"        ("vs_rus_g" c(10) v1(m3a1scout) t(all 43 44 45) 	s(rus_guard) n(2) g(b3) sc(7.50) b(v1) cw(0) cp(0)) {level 1} {cost 185} {fore -23.0}}		;240sec
 {"m3_guard"               ("vs_rus_g" c(10) v1(m3) t(all 43 44 45) 	s(rus_guard) n(2) g(b3) sc(7.50) b(v1) cw(0) cp(0)) {level 1} {cost 195} {fore -23.0}}		;240sec

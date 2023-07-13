@@ -125,11 +125,6 @@
 {"hero4_usa"        ("v1" c(450) c1(m4a3_zippo) 	t(all 44 45 hero flamethrower) s(usa) n1(tankman:4) n2(tankman2:1) g(h3) b(hero)) {level 1} {cost 4.0} {fore -0.84}} ;830sec
 {"hero6_usa"  	    ("v1" c(500) c1(m4a3_105) 		t(all 44 45 hero) s(usa) n1(tankman:4) n2(tankman2:1) g(h6) b(hero)) {level 1} {cost 5.0} {fore -0.66}} ;830sec
 
-<<<<<<< Updated upstream
-{"hero_raiders" 	("v28" c(340) c1(lvt4) t(all inf_only 42 43 44 45) s(usa) n1(tankman:3) n2(tankman2:1) n3(raiderchad:1) n4(raider:3) n5(raidergren:1) n6(raiderbar:3) n7(raiderasst:3) n8(raiderdemo:1)  g(h5) b(hero)) level(1) {cost 7.0} f(-0.5)}
-{"hero6_usa"  	    ("v1" c(500) c1(m4a3_105) 		t(all 44 45 hero) s(usa) n1(tankman:4) n2(tankman2:1) g(h6) b(hero)) {level 1} {cost 5.0} {fore -0.5}}
-=======
->>>>>>> Stashed changes
 {"hero10_usa"	    ("v51" c(380) c1(81mm_brandt_usa) c2(m1_57mm) c3(30_browning_m1919a4) t(all 42 43 44 45 hero) s(usa) n1(vehicle_supporter:2) g(h7) b(hero)) {level 1} {cost 6.0} {fore -0.5}}
 
 {"hero_raiders"		("v28" c(460) c1(lvt4)			t(all 44 45 hero) s(usa) n1(tankman:3) n2(tankman2:1) n3(raiderchad:1) n4(raider:3) n5(raidergren:1) n6(raiderbar:3) n7(raiderasst:3) n8(raiderdemo:1) g(h5) b(hero)) {level 1} {cost 7.0} {fore 0.0}} ;460sec

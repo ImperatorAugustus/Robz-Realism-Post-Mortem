@@ -36,8 +36,8 @@
 
 ("how" side(rus_guard) name(how_aa) c(30) c1(t20) c2(k61)  	t(medium 43 44 45) g(c14) b(v2) level(1) cost(250) f(-6.0))				;210sec
 
-{"su122_guard"          ("v_rus_g" c(60) v1(su122) t(artillery all 43 44 45) 		s(rus_guard) n1(3) n2(1) g(c18) sc(40.00) b(v2) cw(0) cp(15)) {level 1} {cost 650} {fore -14.0}}	;900sec
-{"isu152_guard"         ("v" c(120) t(artillery all heavy 43 44 45) 	s(rus_guard) n1(4) n2(1) g(c20) sc(55.00) b(v2) cw(0) cp(25)) {level 1} {cost 1000} {fore -6.5}}				;900sec
+{"su122_guard"          ("v_rus_g" c(60) v1(su122) t(artillery all 43 44 45) 		s(rus_guard) n1(3) n2(1) g(c18) sc(40.00) b(v2) cw(0) cp(15)) {level 1} {cost 650} {fore -9.167}}	;1220sec
+{"isu152_guard"         ("v" c(120) t(artillery all heavy 43 44 45) 	s(rus_guard) n1(4) n2(1) g(c20) sc(55.00) b(v2) cw(0) cp(25)) {level 1} {cost 1000} {fore -9.167}}	;1220sec
 
 ("how" side(rus_guard) name(how_b) c(60) c1(zis5art) c2(m30_1938) t(artillery 43 44 45) g(c15) b(v22) level(1) cost(500) f(-14.0))			;900sec
 ("how" side(rus_guard) name(np_ml20) c(60) c1(zis5art) c2(np_ml20) t(artillery heavyart heavy 43 44 45) g(c22) b(v22) level(1) cost(875) f(-19.0))	;1200sec
@@ -61,29 +61,26 @@
 
 ;같캛utton 4같�
 
-{"m4a2"          		 ("v" c(10) t(all medium 43 44 45) 	s(rus_guard) n1(4) n2(1) g(e1) sc(21.00) b(v4) cw(0) cp(15)) {level 1} {cost 420} {fore -59.0}}	;600sec
-{"m4a2_76w"       		 ("v" c(60) t(all medium 44 45) 	s(rus_guard) n1(4) n2(1) g(e2) sc(32.50) b(v4) cw(0) cp(15)) {level 1} {cost 650} {fore -14.0}}	;900sec
-{"t34_2_guard"           ("v" c(10) t(all medium 43 44 45) 	s(rus_guard) n1(3) n2(1) g(e3) sc(23.50) b(v4) cw(0) cp(15)) {level 1} {cost 430} {fore -65.0}}	;660sec
-{"t34_3_43"           	 ("v" c(60) t(medium 43) 			s(rus_guard) n1(3) n2(1) g(e4) sc(35.00) b(v4) cw(0) cp(15)) {level 1} {cost 675} {fore -15.0}}	;960sec
-{"t34_3_guard"           ("v" c(60) t(all medium 44 45) 	s(rus_guard) n1(3) n2(1) g(e4) sc(35.00) b(v4) cw(0) cp(15)) {level 1} {cost 675} {fore -15.0}}	;960sec
+{"m4a2"          		 ("v" c(10) t(all medium 43 44 45) 	s(rus_guard) n1(4) n2(1) g(e1) sc(21.00) b(v4) cw(0) cp(15)) {level 1} {cost 420} {fore -74.0}}	;750sec
+{"m4a2_76w"       		 ("v" c(60) t(all medium 44 45) 	s(rus_guard) n1(4) n2(1) g(e2) sc(32.50) b(v4) cw(0) cp(15)) {level 1} {cost 650} {fore -17.5}}	;1120sec
 
-{"kv1_guard"             ("v" c(60) t(all heavy 43 44 45) 	s(rus_guard) n1(4) n2(1) g(e5) sc(35.00) b(v4) cw(0) cp(20)) {level 1} {cost 600} {fore -10.0}}	;660sec
-{"kv1s_guard"            ("v" c(60) t(all heavy 43 44 45) 	s(rus_guard) n1(3) n2(1) g(e6) sc(35.00) b(v4) cw(0) cp(20)) {level 1} {cost 600} {fore -10.0}}	;660sec
-	
-{"kv85_guard"            ("v" c(320) t(all heavy 43 44 45) 	s(rus_guard) n1(3) n2(1) g(e7) sc(47.50) b(v4) cw(0) cp(30)) {level 1} {cost 850} {fore -2.0}}		;960sec
-{"is1_guard"             ("v" c(630) t(all heavy 43 44 45) 	s(rus_guard) n1(3) n2(1) g(e8) sc(57.50) b(v4) cw(0) cp(30)) {level 1} {cost 1050} {fore -1.0}}		;1260sec
-{"is122_guard"           ("v" c(880) t(all heavy 43 44 45) 	s(rus_guard) n1(3) n2(1) g(e9) sc(90.00) b(v4) cw(0) cp(30)) {level 1} {cost 1900} {fore -1.0}}		;1760sec	
-{"is2_guard"             ("v" c(910) t(all heavy 44 45) 	s(rus_guard) n1(4) n2(1) g(e10) sc(100.00) b(v4) cw(0) cp(30)) {level 1} {cost 2100} {fore -1.0}}	;1820sec
-	
-{"is3_guard"             ("v_rus_g" c(900) v1(is3) t(all sheavy arcade postwar) 	s(rus_guard) n1(4) n2(1) g(e11) sc(135.00) b(v4) cw(0) cp(40)) {level 1} {cost 2700} {fore -1.0}}	;1800sec
+{"t34_2_guard"           ("v" c(10) t(all medium 43 44 45) 	s(rus_guard) n1(3) n2(1) g(e3) sc(23.50) b(v4) cw(0) cp(15)) {level 1} {cost 430} {fore -74.0}}	;750sec
 
+{"t34_3_guard"           ("v" c(60) t(all medium 44 45) 	s(rus_guard) n1(3) n2(1) g(e4) sc(35.00) b(v4) cw(0) cp(15)) {level 1} {cost 675} {fore -16.5}}	;1050sec
+
+{"kv1s_guard"            ("v" c(60) t(all heavy 43 44 45) 	s(rus_guard) n1(3) n2(1) g(e6) sc(35.00) b(v4) cw(0) cp(20)) {level 1} {cost 600} {fore -12.5}}	;810sec
+	
+{"kv85_guard"            ("v" c(320) t(all heavy 43 44 45) 	s(rus_guard) n1(3) n2(1) g(e7) sc(47.50) b(v4) cw(0) cp(30)) {level 1} {cost 850} {fore -3.067}}	;1220sec
+{"is1_guard"             ("v" c(630) t(all heavy 43 44 45) 	s(rus_guard) n1(3) n2(1) g(e8) sc(57.50) b(v4) cw(0) cp(30)) {level 1} {cost 1050} {fore -1.7}}	;1460sec
+{"is2_guard"             ("v" c(910) t(all heavy 44 45) 	s(rus_guard) n1(4) n2(1) g(e10) sc(100.00) b(v4) cw(0) cp(30)) {level 1} {cost 2100} {fore -1.706}}	;2300sec
+	
 ;같캛utton 5같�
 
-{"su76_guard"             ("v" c(10) t(all medium 44 45) 	s(rus_guard) n1(3) n2(1) g(f1) sc(19.00) b(v5) cw(0) cp(10)) {level 1} {cost 330} {fore -45.0}}	;460
-{"su85_guard"             ("v" c(60) t(all medium 44 45) 	s(rus_guard) n1(3) n2(1) g(f2) sc(30.00) b(v5) cw(0) cp(15)) {level 1} {cost 600} {fore -13.0}}	;840
+{"su76_guard"             ("v" c(10) t(all medium 44 45) 	s(rus_guard) n1(3) n2(1) g(f1) sc(19.00) b(v5) cw(0) cp(10)) {level 1} {cost 330} {fore -57.0}}	;580
+{"su85_guard"             ("v" c(60) t(all medium 44 45) 	s(rus_guard) n1(3) n2(1) g(f2) sc(30.00) b(v5) cw(0) cp(15)) {level 1} {cost 600} {fore -15.33}}	;980
 
-{"isu122_guard"           ("v"  c(850) t(all heavy 44 45) 	s(rus_guard) n1(3) n2(1) g(f3) sc(65.00) b(v5) cw(0) cp(30)) {level 1} {cost 1500} {fore -1.0}}	;1700
-{"su100_guard"            ("v"  c(900) t(all heavy 44 45) 	s(rus_guard) n1(3) n2(1) g(f4) sc(80.00) b(v5) cw(0) cp(30)) {level 1} {cost 1700} {fore -1.0}}	;1800
+{"isu122_guard"           ("v"  c(850) t(all heavy 44 45) 	s(rus_guard) n1(3) n2(1) g(f3) sc(65.00) b(v5) cw(0) cp(30)) {level 1} {cost 1500} {fore -1.7}}	;2160
+{"su100_guard"            ("v"  c(900) t(all heavy 44 45) 	s(rus_guard) n1(3) n2(1) g(f4) sc(80.00) b(v5) cw(0) cp(30)) {level 1} {cost 1700} {fore -1.706}}	;2300
 
 
 
@@ -91,15 +88,22 @@
 ;같캛utton Hero같�
 
 ("squad_with4types" side(rus_guard) name(hero_guard_recon) c(60) g(h1) c1(recon_sl:1) c2(recon_smg2:1) c3(recon_smg:3) c4(recon_rifle:1) b(hero) t(all hero 43 44 45) level(1) cost(1) f(-0.5))
+
 {"hero_guard1"        	("v1" c(120) c1(gaz67)   	t(all hero 44 45) s(rus_guard) n1(sniper2:2) n2(tankman2:0) g(h2) b(hero)) {level 1} {cost 2.0} {fore -0.5}}
 
 {"hero_guard_sg43"     ("v2" c(60) c1(sg43_goryunov) 	t(all hero 44 45) s(rus_guard) n1(vehicle_supporter:2) n2(tankman:0) g(h3) b(hero)) {level 1} {cost 3.0} {fore -0.5}}
+
 {"hero_guard_mech"     ("guard_mech" c(180) v1(m3) c1(guard_sl:1) c2(guard_smg:2) c3(guard_smg2:1) c4(guard_sa:1) c5(guard_mg:2) c6(guard_mg_asst:2) t(all hero 44 45) s(rus_guard) g(h4) b(hero)) {level 1} {cost 4.0} {fore -0.5}}
+
+{"hero_guard_m4_76"     ("v32" c(750) c1(m4a2_76w) 	t(all hero 44 45) s(rus_guard) n1(tankman:4) n2(tankman2:1) g(h9) b(hero)) {level 1} {cost 8.0} {fore -0.493}}	;1120sec
+{"hero_guard_t34_3"  	("v1" c(700) c1(t34_3_elite) 	t(all hero 44 45) s(rus_guard) n1(elite_tankman:3) n2(elite_tankman2:1) g(h10) b(hero)) {level 1} {cost 9.0} {fore -1.157}}	;1510sec
+
 {"hero_guard_defensive"  ("v41" c(300) c1(zis2) c2(dshk_stank) 	t(all hero 44 45) s(rus_guard) n1(vehicle_supporter:2) g(h5) b(hero)) {level 1} {cost 9.0} {fore -0.5}}
+
+{"hero_guard_kv85"      ("v2" c(900) c1(kv85_guard) 	t(all hero 44 45) s(rus_guard) n1(tankman:3) n2(tankman2:1) g(h11) b(hero)) {level 1} {cost 10.0} {fore -0.356}}	;1220sec
+
 {"hero_guard_pm38"     ("v2" c(600) c1(pm_38_vet) 	t(all hero 44 45) s(rus_guard) n1(vehicle_supporter:2) n2(tankman:0) g(h6) b(hero)) {level 1} {cost 13.0} {fore -0.5}}
 
 {"hero_guard_bm31"  	("v1" c(900) c1(np_bm31) 	t(all hero artillery rocket 44 45) s(rus_guard) n1(vehicle_supporter:2) n2(vehicle_supporter:0) g(h7) b(hero)) {level 1} {cost 13.0} {fore -0.5}}
-{"hero_guard_m4_76"     ("v32" c(750) c1(m4a2_76w) 	t(all hero 44 45) s(rus_guard) n1(tankman:4) n2(tankman2:1) g(h9) b(hero)) {level 1} {cost 8.0} {fore -0.5}}
-{"hero_guard_t34_3"  	("v1" c(700) c1(t34_3_elite) 	t(all hero 44 45) s(rus_guard) n1(elite_tankman:3) n2(elite_tankman2:1) g(h10) b(hero)) {level 1} {cost 9.0} {fore -0.5}}
-{"hero_guard_kv85"      ("v2" c(900) c1(kv85_guard) 	t(all hero 44 45) s(rus_guard) n1(tankman:3) n2(tankman2:1) g(h11) b(hero)) {level 1} {cost 10.0} {fore -0.5}}
-{"hero_guard_is2"  	    ("v1" c(1500) c1(is2_elite) 	t(all hero 44 45) s(rus_guard) n1(elite_tankman:4) n2(elite_tankman2:1) g(h12) b(hero)) {level 1} {cost 20.0} {fore -0.5}}
+
+{"hero_guard_is2"  	    ("v1" c(1500) c1(is2_elite) 	t(all hero 44 45) s(rus_guard) n1(elite_tankman:4) n2(elite_tankman2:1) g(h12) b(hero)) {level 1} {cost 20.0} {fore -0.76}} ;2640sec

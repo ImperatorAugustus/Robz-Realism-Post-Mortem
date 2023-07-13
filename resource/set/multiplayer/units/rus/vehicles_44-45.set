@@ -70,7 +70,7 @@
 
 {"gazaaa4m"         ("vs" c(30) t(all 44 45) 	s(rus) n(3) g(d1) sc(9.00)  b(v3) cw(0) cp(5)) {level 1} {cost 180} {fore -2.0}}	;90sec
 
-{"ba64"             ("v" c(10) t(all 44 45) 	s(rus) n1(1) n2(1) g(d2) sc(9.00)  b(v3) cw(0) cp(5)) {level 1} {cost 120} {fore -31}}	;320sec
+{"ba64"             ("v" c(10) t(all 44 45) 	s(rus) n1(1) n2(1) g(d2) sc(9.00)  b(v3) cw(0) cp(5)) {level 1} {cost 130} {fore -31}}	;320sec
 
 {"t26"              ("v" c(10) t(all 44 45) 	s(rus) n1(2) n2(1) g(d5) sc(10.00) b(v3) cw(0) cp(5)) {level 1} {cost 200} {fore -43}}  ;440sec
 
@@ -97,21 +97,18 @@
 
 {"kv8_41"          ("v" c(900) t(all heavy 44 45 flamethrower) 	s(rus) n1(3) n2(1) g(e11) sc(30.00) b(v4) cw(0) cp(15)) {level 1} {cost 550} {fore 0.0}}	;900sec
 	
-{"kv85"            ("v" c(300) t(all heavy 44 45) 	s(rus) n1(3) n2(1) g(e12) sc(42.50) b(v4) cw(0) cp(25)) {level 1} {cost 750} {fore -2.0}}	;900sec
-{"is1"             ("v" c(540) t(all heavy 44 45) 	s(rus) n1(3) n2(1) g(e13) sc(50.00) b(v4) cw(0) cp(25)) {level 1} {cost 900} {fore -1.0}}	;1080sec
-{"is122"           ("v" c(850) t(all heavy 44 45) 	s(rus) n1(3) n2(1) g(e14) sc(82.50) b(v4) cw(0) cp(25)) {level 1} {cost 1750} {fore -1.0}}	;1700sec	
-{"is2"             ("v" c(880) t(all heavy 44 45) 	s(rus) n1(4) n2(1) g(e15) sc(85.00) b(v4) cw(0) cp(25)) {level 1} {cost 1800} {fore -1.0}}	;1760sec
-	
-{"is3"             ("v" c(900) t(all sheavy arcade postwar) 	s(rus) n1(4) n2(1) g(e16) sc(130.00) b(v4) cw(0) cp(35)) {level 1} {cost 2600} {fore -1.0}}	;1800sec
+{"kv85"            ("v" c(300) t(all heavy 44 45) 	s(rus) n1(3) n2(1) g(e12) sc(42.50) b(v4) cw(0) cp(25)) {level 1} {cost 750} {fore -3.067}}	;1220sec
+{"is1"             ("v" c(540) t(all heavy 44 45) 	s(rus) n1(3) n2(1) g(e13) sc(50.00) b(v4) cw(0) cp(25)) {level 1} {cost 900} {fore -1.7}}	;1460sec
+{"is122"           ("v" c(850) t(all heavy 44 45) 	s(rus) n1(3) n2(1) g(e14) sc(82.50) b(v4) cw(0) cp(25)) {level 1} {cost 1750} {fore -1.706}}	;2300sec	
 
 ;°°°Button 5°°°
 
-{"su76"             ("v" c(10) t(all medium 44 45) 	s(rus) n1(3) n2(1) g(f1) sc(14.00) b(v5) cw(0) cp(5)) {level 1} {cost 280} {fore -45.0}}	;460
-{"zis_30"           ("v" c(600) t(all medium 44 45) s(rus) n1(3) n2(1) g(f2) sc(17.50) b(v5) cw(0) cp(5)) {level 1} {cost 350} {fore 0.0}}		;600
-{"su85"             ("v" c(60) t(all medium 44 45) 	s(rus) n1(3) n2(1) g(f3) sc(25.00) b(v5) cw(0) cp(10)) {level 1} {cost 475} {fore -12.0}}	;780
+{"su76"             ("v" c(10) t(all medium 44 45) 	s(rus) n1(3) n2(1) g(f1) sc(14.00) b(v5) cw(0) cp(5)) {level 1} {cost 280} {fore -57.0}}	;580
+{"zis_30"           ("v" c(750) t(all medium 44 45) s(rus) n1(3) n2(1) g(f2) sc(17.50) b(v5) cw(0) cp(5)) {level 1} {cost 350} {fore 0.0}}		;750
+{"su85"             ("v" c(60) t(all medium 44 45) 	s(rus) n1(3) n2(1) g(f3) sc(25.00) b(v5) cw(0) cp(10)) {level 1} {cost 475} {fore -15.33}}	;980
 
-{"isu122"           ("v"  c(800) t(all heavy 44 45) 	s(rus) n1(3) n2(1) g(f4) sc(55.00) b(v5) cw(0) cp(25)) {level 1} {cost 1300} {fore -1.0}}	;1600
-{"su100"            ("v"  c(850) t(all heavy 44 45) 	s(rus) n1(3) n2(1) g(f5) sc(70.00) b(v5) cw(0) cp(25)) {level 1} {cost 1500} {fore -1.0}}	;1700
+{"isu122"           ("v"  c(800) t(all heavy 44 45) 	s(rus) n1(3) n2(1) g(f4) sc(55.00) b(v5) cw(0) cp(25)) {level 1} {cost 1300} {fore -1.7}}	;2160
+{"su100"            ("v"  c(850) t(all heavy 44 45) 	s(rus) n1(3) n2(1) g(f5) sc(70.00) b(v5) cw(0) cp(25)) {level 1} {cost 1500} {fore -1.706}}	;2300
 
 
 
@@ -121,16 +118,18 @@
 {"hero5_rus"        ("i4" c(120)		t(all hero 44 45) s(rus) n1(squadleader_smg:3) n2(rifle_sa:6) n3(rifle:12) n4(smg:9) g(h2) b(hero)) {level 1} {cost 2.0} {fore -0.5}}
 {"at_squad"        ("i3" c(120)		t(all hero 44 45) s(rus) n1(guard_at_rifle:2) n2(at_rifle::1) n3(at_rifle2:1) g(h9) b(hero)) {level 1} {cost 2.0} {fore -1.5}}
 
-{"hero_rus_t34"     ("v1" c(600) c1(t34_3)   	t(all hero 44 45) s(rus) n1(tankman:3) n2(tankman2:1) g(h3) b(hero)) {level 1} {cost 5.0} {fore -0.5}}
+{"hero_rus_t34"     ("v1" c(600) c1(t34_3)   	t(all hero 44 45) s(rus) n1(tankman:3) n2(tankman2:1) g(h3) b(hero)) {level 1} {cost 5.0} {fore -0.65}} ;990sec
+
+{"hero_rus_isu152"        ("v1" c(600) c1(isu152) 	t(all hero 44 45) s(rus) n1(tankman:4) n2(tankman2:1) g(h5) b(hero)) {level 1} {cost 6.0} {fore -0.933}} ;1160 sec
+
+{"hero_t34platoon"  ("v32" c(400) c1(t34_2) 	t(all hero 44 45) s(rus) n1(tankman:3) n2(tankman2:1) g(h6) b(hero)) {level 1} {cost 5.0} {fore -0.875}} ;1050 sec
 
 {"heronew2_rus"     ("2v" c(900) c1(zis5) c2(bs3) t(all hero 44 45) s(rus) n1(vehicle_supporter:2) n2(vehicle_supporter:2) g(h4) b(hero)) {level 1} {cost 8.0} {fore -0.5}}
-{"hero_rus_isu152"        ("v1" c(600) c1(isu152) 	t(all hero 44 45) s(rus) n1(tankman:4) n2(tankman2:1) g(h5) b(hero)) {level 1} {cost 6.0} {fore -0.5}}
 
-{"hero_t34platoon"  ("v32" c(400) c1(t34_2) 	t(all hero 44 45) s(rus) n1(tankman:3) n2(tankman2:1) g(h6) b(hero)) {level 1} {cost 5.0} {fore -0.5}}
 {"hero7_rus"        ("v23" c(750) c1(t34_3) 	t(all hero 44 45) s(rus) n1(tankman:3) n2(tankman:1) n3(smg4:4) g(h7) b(hero)) {level 1} {cost 10.0} {fore -0.5}}
 
 {"hero_rus_d1"   	("v41" c(800) c1(d1) c2(zis5art)	t(all hero 44 45) s(rus) n1(vehicle_supporter:2) g(h8) b(hero)) {level 1} {cost 12.0} {fore -0.5}}
-{"hero_rus_is1"  	("v2" c(800) c1(is1) 	t(all hero 44 45) s(rus) n1(tankman:3) n2(tankman2:1) g(h9) b(hero)) {level 1} {cost 12.0} {fore -0.5}}
+{"hero_rus_is1"  	("v2" c(800) c1(is1) 	t(all hero 44 45) s(rus) n1(tankman:3) n2(tankman2:1) g(h9) b(hero)) {level 1} {cost 12.0} {fore -0.75}} ;1400 sec
 
 {"hero_orgel"  	    ("v31" c(960) c1(bm13) 	t(all hero artillery rocket 44 45) s(rus) n(vehicle_supporter:2) g(h10) b(hero)) {level 1} {cost 16.0} {fore -0.5}}
 {"hero9_rus"  	    ("v2" c(1200) c1(203b4) 	t(all hero artillery heavyart 44 45) s(rus) n1(vehicle_supporter:2) n2(tankman2:0) g(h11) b(hero)) {level 1} {cost 20.0} {fore -0.5}}

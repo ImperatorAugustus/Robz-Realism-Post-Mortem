@@ -1,0 +1,23 @@
+{fx
+	{particleview "105 shells"
+		{entitygenerator
+			{totalparticles 3}
+			{particlesinblock 1}
+			{emissionarea
+				{radius 500 500}
+				{alpha0 0}
+				{alpha1 0}
+				{## distributionlaw disk}
+				{speed 0.05}
+			}
+			{particleinit
+				{speed -25}
+				{lifetime 5}
+			}
+			{entity "105_shell_dropping"}
+			{axisz}
+			{timetolive 0.1}
+		}
+		{offset 0 0 1500}
+	}
+}

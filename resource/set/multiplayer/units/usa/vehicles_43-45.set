@@ -13,7 +13,7 @@
 {"gmc"   	    	("vs" c(0) t(all 42 43 44 45)	s(usa) n(2) g(b8) sc(5.00) b(v1) cw(0) cp(0)) {level 1} {cost 50} {fore 0.0}}		;0sec
 {"gmc_art"          	("vs" c(0) t(all 42 43 44 45) 	s(usa) n(2) g(b9) sc(15.00) b(v1) cw(0) cp(0)) {level 1} {cost 200} {fore 0.0}}		;0sec
 {"gmc_eng"          	("vs" c(0) t(all 42 43 44 45) 	s(usa) n(2) g(b10) sc(12.50) b(v1) cw(0) cp(0)) {level 1} {cost 250} {fore 0.0}}	;0sec
-{"ammo_box_us_inf"  	("vs" c(0) t(all 42 43 44 45)	s(usa) n(2) g(b11) sc(1.25) b(v1) cw(0) cp(0)) {level 1} {cost 25} {fore 0.0}}		;0sec
+{"ammo_box_us_inf"  	("vs" c(0) t(all 42 43 44 45)	s(usa) n(2) g(b11) sc(1.25) b(v1) cw(0) cp(0)) {level 1} {cost 30} {fore 0.0}}		;0sec
 {"ammo_box_us_art"  	("vs" c(0) t(all 42 43 44 45)	s(usa) n(2) g(b12) sc(3.75) b(v1) cw(0) cp(0)) {level 1} {cost 50} {fore 0.0}}		;0sec
 {"ammo_box_us_special"  ("vs" c(300) t(all 42 43 44 45)	s(usa) n(2) g(b13) sc(5.00) b(v1) cw(0) cp(0)) {level 1} {cost 150} {fore 0.0}}		;0sec
 

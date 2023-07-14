@@ -11,7 +11,7 @@
 {"zis5"             ("vs" c(0) t(all 44 45) 	s(rus) n(2) g(b5) sc(5.00) b(v1) cw(0) cp(0)) {level 1} {cost 100} {fore 0.0}}		;0sec
 {"zis5art"          ("vs" c(0) t(all 44 45) 	s(rus) n(2) g(b6) sc(15.00) b(v1) cw(0) cp(0)) {level 1} {cost 300} {fore 0.0}}		;0sec
 {"zis5eng"          ("vs" c(0) t(all 44 45) 	s(rus) n(2) g(b7) sc(12.50) b(v1) cw(0) cp(0)) {level 1} {cost 250} {fore 0.0}}		;0sec
-{"ammo_box_rus_inf" ("vs" c(0) t(all 44 45) 	s(rus) n(2) g(b8) sc(1.25) b(v1) cw(0) cp(0)) {level 1} {cost 25} {fore 0.0}}		;0sec
+{"ammo_box_rus_inf" ("vs" c(0) t(all 44 45) 	s(rus) n(2) g(b8) sc(1.25) b(v1) cw(0) cp(0)) {level 1} {cost 30} {fore 0.0}}		;0sec
 {"ammo_box_rus_art" ("vs" c(0) t(all 44 45) 	s(rus) n(2) g(b9) sc(3.75) b(v1) cw(0) cp(0)) {level 1} {cost 75} {fore 0.0}}		;0sec
 {"ammo_box_rus_special" ("vs" c(300) t(all 44 45) s(rus) n(2) g(b10) sc(5.00) b(v1) cw(0) cp(0)) {level 1} {cost 150} {fore 0.0}}		;0sec
 

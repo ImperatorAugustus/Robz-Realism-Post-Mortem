@@ -1,0 +1,67 @@
+{fx
+	{#+ particleview
+		{generator
+			{totalparticles 10}
+			{emissionarea
+				{radius 0.1 0.1}
+				{alpha0 0}
+				{alpha1 90}
+			}
+			{particleinit
+				{speed 0.5 0.5}
+				{lifetime 0.8 0.2}
+			}
+			{axisz}
+			{timetolive 0.1}
+			{particlesinblock 10}
+		}
+		{mover
+			{gravity
+				{value 0.1}
+			}
+			{damping 0.5}
+			{nodependonwind}
+		}
+		{visualizer
+			{stage 
+				{sprite "$/particle/bloodspot03"
+					{scale 1
+						{linear
+							{min 0.01 0.03}
+							{max 0.03 0.05}
+						}
+					}
+					{visibility 1
+						{linear
+							{min 0.7}
+							{max 0}
+						}
+					}
+					{timer
+						{mode play }
+						{duration -1}
+					}
+				}
+				{sprite "$/particle/bloodspot01"
+					{scale 1
+						{linear
+							{min 0.02 0.05}
+							{max 0.03 0.05}
+						}
+					}
+					{visibility 1
+						{linear
+							{min 0.7}
+							{max 0}
+						}
+					}
+					{timer
+						{mode play }
+						{duration -1}
+					}
+				}
+			}
+		}
+		{notifyowner}
+	}
+}

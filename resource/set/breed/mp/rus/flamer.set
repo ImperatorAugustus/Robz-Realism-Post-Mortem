@@ -1,11 +1,11 @@
 {breed
-	{skin "rus_flamer"}
+	{skin "rus-smg"}
 	{portrait "rus_soldier2"}
 	{nationality rus}
 	{icon "flamer"}
 	{icon_priority 3}
 	{armors
-		{head helmet1_rus}
+		{head fieldcap1_rus}
 	}
 	{perks
 		{"health" "150%"
@@ -27,49 +27,28 @@
 		{"cannon" 0.8
 		}
 		
-		{"pistol" lvl_3
+		{"pistol" lvl_2
 		}
-		{"smg" lvl_3
+		{"smg" lvl_2
 		}
-		{"mgun" lvl_2
+		{"mgun" lvl_1
 		}
-		{"rifle" lvl_3
+		{"rifle" lvl_2
 		}
-		{"rocketlauncher" lvl_3
+		{"rocketlauncher" lvl_1
 		}
-		{"melee" lvl_3
+		{"melee" lvl_2
 		}
 		{"avoidance" lvl_1
 		}
 	}
 	{veterancy
-		{"lvl_1" 2
-		}
-		{"lvl_2" 5
-		}
-		{"lvl_3" 9
-		}
-		{"lvl_4" 14
-		}
-		{"lvl_5" 20
-		}
-		{"lvl_6" 28
-		}
-		{"lvl_7" 38
-		}
-		{"lvl_8" 50
-		}
-		{"lvl_9" 64
-		}
-		{"lvl_10" 80
-		}
+		(include "veterancy_generic.inc")
+		("veterancy_1")
 	}
 	{inventory
-		{item "flame_thrower_rus"}
-		{item "balloon_roks2" filled}
-		{item "nagan" filled}
-		{item "ammo nagant_clip" 28}
-		{item "bandage" 3}
+		{item "flame_thrower"}
+		{item "balloon" filled}
 		{in_hands 0}
 	}
 }

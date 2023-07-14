@@ -1,75 +1,54 @@
 {breed
-	{skin "ger_t2"}
-	{portrait ger2_elite2}
-	{icon elite4}
+	{skin "ger-straf-rfl"}
+	{portrait "ger2_elite2"}
+	{nationality ger2}
+	{icon "elite4"}
 	{icon_priority 3}
-	{nationality ger}
 	{armors
-		{head helmet1_ger}
+		{head "fieldcap_ger"}
 	}
 	{perks
-		{"health" "250%"
+		{"health" "100%"
 		}
 		{"health_regeneration" "100%"
 		}
-		{"stamina" "200%"
+		{"stamina" "100%"
 		}
-		{"stamina_regeneration" "125%"
+		{"stamina_regeneration" "100%"
 		}
-		{"vision" mp_soldier
+		{"vision" "mp_soldier"
 		}
-		{"speed" 0.95
+		{"speed" 0.9
 		}
-		{"tank" 0.75
+		{"tank"	0.9
 		}
-		{"vehicle" 1
+		{"vehicle" 1.0
 		}
-		{"cannon" 0.8
+		{"cannon" 1.0
 		}
-		{"pistol" lvl_4
+		
+		{"pistol" lvl_1
 		}
-		{"smg" lvl_4
+		{"smg" lvl_1
 		}
-		{"mgun" lvl_4
+		{"mgun" lvl_1
 		}
-		{"rifle" lvl_4
+		{"rifle" lvl_1
 		}
-		{"rocketlauncher" lvl_5
+		{"rocketlauncher" lvl_1
 		}
-		{"melee" lvl_5
-		}
-		{"at_rifle" lvl_4
+		{"melee" lvl_1
 		}
 	}
 	{veterancy
-		{"lvl_1" 2
-		}
-		{"lvl_2" 5
-		}
-		{"lvl_3" 9
-		}
-		{"lvl_4" 14
-		}
-		{"lvl_5" 20
-		}
-		{"lvl_6" 28
-		}
-		{"lvl_7" 38
-		}
-		{"lvl_8" 50
-		}
-		{"lvl_9" 64
-		}
-		{"lvl_10" 80
-		}
+		(include "veterancy_generic.inc")
+		("veterancy_1")
 	}
 	{inventory
-		{item "ppsh" filling "ammo ppsh_mag" 71}
-		{item "ammo ppsh_mag" 284}
-		{item "bandage" 5}
-		{item "grenade m24" 2}
-		{item "rpg40 grenade"}
-		{item "grenade molotov_coctail"}
+		{item "ppsh" filled}
+		{item "ammo ppsh_mag" 142}
+		{item "bandage" 3}
+		{item "dynamite_ladung" 1}
 		{in_hands 0}
 	}
 }

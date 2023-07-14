@@ -1,80 +1,62 @@
 {breed
-	{skin "rus_sniper"}
-	{portrait rus_soldier4}
-	{icon sniper}
-	{icon_priority 5}
+	{skin "rus-smguner"}
+	{portrait "rus_soldier4"}
 	{nationality rus}
+	{icon "sniper"}
+	{icon_priority 5}
 	{armors
-		{head helmet1_rus}
+		{head fieldcap1_rus}
 	}
 	{perks
-		{"health" "400%"
+		{"health" "350%"
 		}
 		{"health_regeneration" "100%"
 		}
-		{"stamina" "200%"
+		{"stamina" "150%"
 		}
 		{"stamina_regeneration" "100%"
 		}
-		{"vision" mp_sniper
+		{"vision" "mp_sniper"
 		}
-		{"speed" 1
+		{"speed" 1.0
 		}
-		{"stealth"}
-		{"telescope"}
-		{"tank" 0.75
+		{"stealth"
+		}
+		{"telescope"
+		}
+		{"tank"	0.75
 		}
 		{"vehicle" 1
 		}
 		{"cannon" 0.8
 		}
-		{"pistol" lvl_7
+		
+		{"pistol" lvl_2
 		}
-		{"smg" lvl_7
+		{"smg" lvl_2
 		}
-		{"mgun" lvl_7
+		{"mgun" lvl_1
 		}
-		{"rifle" lvl_7
+		{"rifle" lvl_4
 		}
-		{"rocketlauncher" lvl_7
+		{"rocketlauncher" lvl_1
 		}
-		{"melee" lvl_7
+		{"melee" lvl_2
 		}
 		{"aimedshot"}
 	}
 	{veterancy
-		{"lvl_1" 5
-		}
-		{"lvl_2" 11
-		}
-		{"lvl_3" 18
-		}
-		{"lvl_4" 26
-		}
-		{"lvl_5" 35
-		}
-		{"lvl_6" 45
-		}
-		{"lvl_7" 56
-		}
-		{"lvl_8" 68
-		}
-		{"lvl_9" 80
-		}
-		{"lvl_10" 93
-		}
+		(include "veterancy_generic.inc")
+		("veterancy_1_lvl3")
 	}
 	{inventory
-		{item "svt40_s_vet" filling "mosin_clip 7-62_rus mosin_rifle ammo" 10}
-		{item "ammo mosin_clip" 80}
-		{item "ammo mosin_clip ap" 20}
-		{item "ammo mosin_clip fg" 20}
+		{item "svt40_s_vet" filled}
+		{item "ammo svt40_mag" 20}
+		{item "ammo mosin_clip" 100}
 		{item "bandage" 5}
-		{item "smoke_paradrop_ammo grenade"}
-		{item "grenade f1" 2}
-		{item "smoke grenade"}
+		;{item "smoke_paradrop_ammo grenade" 1}
+		{item "plant" 3}
 		{item "knife_rus"}
-		{item "jelet_mac_gop_dark"}
 		{in_hands 0}
 	}
 }

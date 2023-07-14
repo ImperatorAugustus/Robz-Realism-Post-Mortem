@@ -1,12 +1,12 @@
 {breed
-	{skin "rus_t3"}
+	{skin "rus-mar2-mgun"}
 	{portrait "rus_elite1"}
 	{nationality rus}
 	{icon "elite"}
 	{icon_priority 3}
 	{armors
 		{body mochila_urss}
-		{head helmet1_rus}
+		{head cap2_rus}
 	}
 	{perks
 		{"health" "350%"

@@ -1,33 +1,32 @@
 {breed
-	{skin "rus_partizan2"}
-	{portrait rus_soldier1}
-	{icon home_guard}
-	{icon_priority 0}
+	{skin "rus-partisan2"}
+	{portrait "rus_soldier1"}
 	{nationality rus}
+	{icon "home_guard"}
+	{icon_priority 0}
 	{armors
-		{head helmet1_rus}
+		{head "cap_rus_partisan2"}
 	}
 	{perks
 		{"health" "100%"
 		}
 		{"health_regeneration" "100%"
 		}
-		{"stamina" "100%"
+		{"stamina" "75%"
 		}
 		{"stamina_regeneration" "100%"
 		}
-		{"vision" mp_soldier
+		{"vision" "mp_soldier"
 		}
 		{"speed" 0.9
 		}
-		{"tank" 0.75
+		{"tank"	0.75
 		}
 		{"vehicle" 0.8
 		}
 		{"cannon" 0.8
 		}
-		{"stealth"}
-		{"field_glass"}
+		
 		{"pistol" lvl_1
 		}
 		{"smg" lvl_1
@@ -42,33 +41,13 @@
 		}
 	}
 	{veterancy
-		{"lvl_1" 2
-		}
-		{"lvl_2" 5
-		}
-		{"lvl_3" 9
-		}
-		{"lvl_4" 14
-		}
-		{"lvl_5" 20
-		}
-		{"lvl_6" 28
-		}
-		{"lvl_7" 38
-		}
-		{"lvl_8" 50
-		}
-		{"lvl_9" 64
-		}
-		{"lvl_10" 80
-		}
+		(include "veterancy_generic.inc")
+		("veterancy_1")
 	}
 	{inventory
-		{item "mauzer" filling "mauser_clip mauser mauser_rifle ammo" 5}
-		{item "ammo mauser_clip" 60}
+		{item "mauzer" filled}
+		{item "ammo mauser_clip" 30}
 		{item "bandage" 3}
-		{item "grenade m24" 0 1}
-		{item "grenade molotov_coctail" 0 1}
 		{item "panzerfaust_30 weapon" filled}
 		{in_hands 0}
 	}

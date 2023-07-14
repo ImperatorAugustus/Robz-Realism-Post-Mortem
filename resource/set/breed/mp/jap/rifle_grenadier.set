@@ -1,11 +1,11 @@
 {breed
-	{skin "jap_t1"}
+	{skin "jap_army_rifle"}
 	{portrait "jap_soldier2"}
 	{nationality jap}
 	{icon "rifleman"}
 	{icon_priority 1}
 	{armors
-		{head helmet1_jap}
+		{head "jap_army_helmet6"}
 	}
 	{perks
 		{"health" "150%"

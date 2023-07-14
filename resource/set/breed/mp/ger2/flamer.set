@@ -1,18 +1,18 @@
 {breed
-	{skin "ger_flamer"}
+	{skin "ger-reg-rfl"}
 	{portrait "ger2_soldier2"}
 	{nationality ger}
 	{icon "flamer"}
 	{icon_priority 3}
 	{armors
-		{head helmet1_ger}
+		{head helmet_ger_m40_fge}
 	}
 	{perks
-		{"health" "250%"
+		{"health" "150%"
 		}
 		{"health_regeneration" "100%"
 		}
-		{"stamina" "150%"
+		{"stamina" "100%"
 		}
 		{"stamina_regeneration" "100%"
 		}
@@ -27,53 +27,28 @@
 		{"cannon" 0.8
 		}
 		
-		{"pistol" lvl_5
+		{"pistol" lvl_4
 		}
-		{"smg" lvl_5
+		{"smg" lvl_4
 		}
-		{"mgun" lvl_5
+		{"mgun" lvl_2
 		}
-		{"rifle" lvl_5
+		{"rifle" lvl_3
 		}
-		{"rocketlauncher" lvl_5
+		{"rocketlauncher" lvl_2
 		}
-		{"melee" lvl_5
+		{"melee" lvl_4
 		}
 		{"avoidance" lvl_1
 		}
-		{"tankgun" lvl_5
-		}
 	}
 	{veterancy
-		{"lvl_1" -1
-		}
-		{"lvl_2" 0
-		}
-		{"lvl_3" 4
-		}
-		{"lvl_4" 10
-		}
-		{"lvl_5" 16
-		}
-		{"lvl_6" 24
-		}
-		{"lvl_7" 34
-		}
-		{"lvl_8" 46
-		}
-		{"lvl_9" 60
-		}
-		{"lvl_10" 78
-		}
+		(include "veterancy_generic.inc")
+		("veterancy_1")
 	}
 	{inventory
 		{item "flame_thrower_g"}
 		{item "balloon_g" filled}
-		{item "mauser_pistol_mp" filled}
-		{item "ammo c96_mag" 100}
-		{item "bandage" 5}
-		{item "grenade m24" 2}
-		{item "grenade molotov_coctail" 1}
 		{in_hands 0}
 	}
 }

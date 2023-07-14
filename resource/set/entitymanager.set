@@ -1,24 +1,46 @@
 {entitymanager
 	{group "dead" actor dead
-		{limit 250}
-		{remove dissolve}
-		{entity "human"}
-	}
-	
-	{group "broken" gameentity
 		{limit 100}
 		{remove dissolve}
+		{entity "human"}
+		{entity "flesh"}
+		{tag "flesh"}
+	}
+	
+	{group "dead" actor dead
+		{limit 3}
+		{remove dissolve}
+		{entity "fauna"}
+		{entity "animal"}
+	}
+	{group "broken" gameentity
+		{limit 20}
+		{remove dissolve}
 		{DeadVehicles}
+	}
+    
+    {group "gore" gameentity
+		{limit 50}
+		{remove instant}
+		{entity "flesh"}
+		{tag "flesh"}
 	}	
 
 	{group "piece" gameentity
-		{limit 0}
+		{limit 100}
 		{remove dissolve}
 		{entity "piece_big_steel"}
 		{entity "piece_large_steel"}
 		{entity "piece_medium_steel"}
 	}
 
+	{group "piece" gameentity
+		{limit 50};mod new
+		{remove instant}
+		{entity "piece_big_steel"}
+		{entity "piece_large_steel"}
+		{entity "piece_medium_steel"}
+	}
 	{group "stuff" stuff
 		{limit 150}
 		{remove dissolve}
@@ -30,7 +52,7 @@
 	}
 	
 	{group "equip" stuff
-		{limit 0}
+		{limit 75}
 		{remove dissolve}
 		{tag "field_glass"}
 		{tag "head"}

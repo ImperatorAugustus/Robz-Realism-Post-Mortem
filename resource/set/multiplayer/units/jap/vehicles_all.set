@@ -12,7 +12,7 @@
 {"isuzutx40"        ("vs" c(0) t(all supply 42 43 44 45) 	s(jap) n(2) g(b4) sc(5.00) b(v1) cw(0) cp(0)) {level 1} {cost 100} {fore 0.0}}	;0sec
 {"isuzutx40art"     ("vs" c(0) t(all supply 42 43 44 45) 	s(jap) n(2) g(b5) sc(15.00) b(v1) cw(2) cp(0)) {level 1} {cost 300} {fore 0.0}}	;0sec
 {"isuzutx40_eng"    ("vs" c(0) t(all supply 42 43 44 45) 	s(jap) n(2) g(b6) sc(12.50) b(v1) cw(0) cp(0)) {level 1} {cost 250} {fore 0.0}}	;0sec
-{"ammo_box_jap_inf" ("vs" c(0) t(all 39 40 41 42 43 44 45)	s(jap) n(2) g(b7) sc(1.25) b(v1) cw(0) cp(0)) {level 1} {cost 25} {fore 0.0}}	;0sec
+{"ammo_box_jap_inf" ("vs" c(0) t(all 39 40 41 42 43 44 45)	s(jap) n(2) g(b7) sc(1.25) b(v1) cw(0) cp(0)) {level 1} {cost 30} {fore 0.0}}	;0sec
 {"ammo_box_jap_art" ("vs" c(0) t(all 39 40 41 42 43 44 45)	s(jap) n(2) g(b8) sc(3.75) b(v1) cw(0) cp(0)) {level 1} {cost 75} {fore 0.0}}	;0sec
 {"ammo_box_jap_special" ("vs" c(300) t(all 39 40 41 42 43 44 45)	s(jap) n(2) g(b9) sc(5.00) b(v1) cw(0) cp(0)) {level 1} {cost 150} {fore 0.0}}	;0sec
 

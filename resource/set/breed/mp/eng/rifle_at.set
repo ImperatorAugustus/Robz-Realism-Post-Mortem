@@ -29,9 +29,9 @@
 		
 		{"pistol" lvl_2
 		}
-		{"smg" lvl_4
+		{"smg" lvl_2
 		}
-		{"mgun" lvl_3
+		{"mgun" lvl_2
 		}
 		{"rifle" lvl_4
 		}
@@ -41,37 +41,17 @@
 		}
 	}
 	{veterancy
-		{"lvl_1" 2
-		}
-		{"lvl_2" 5
-		}
-		{"lvl_3" 9
-		}
-		{"lvl_4" 14
-		}
-		{"lvl_5" 20
-		}
-		{"lvl_6" 28
-		}
-		{"lvl_7" 38
-		}
-		{"lvl_8" 50
-		}
-		{"lvl_9" 64
-		}
-		{"lvl_10" 80
-		}
+		(include "veterancy_generic.inc")
+		("veterancy_1")
 	}
 	{inventory
-		{item "lee_enfield_no4" filling "ammo british303_clip" 10}
+		{item "em3" filled}
 		{item "ammo british303_clip" 50}
-		{item "ammo british303_clip" 0.25 50}
 		{item "ammo bren_mag" 56}
-		{item "bandage" 4}
+		{item "bandage" 3}
 		{item "grenade mk1" 1}
 		{item "grenade n73at" 1}
-		;{item "n77_smoke grenade" 0 1}
-		{item "weapon piatrocket" 1 filled}
+		{item "weapon piatrocket" 0.2 1 filled}
 		{item "ammo piatrocket" 5}
 		{in_hands 0}
 	}

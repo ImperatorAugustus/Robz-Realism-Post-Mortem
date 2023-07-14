@@ -1,12 +1,12 @@
 {breed
-	{skin "ger_t2"}
+	{skin "waffen-smock2-stg44"}
 	{portrait "ger_soldier7"}
 	{icon "smg"}
 	{icon_priority 1}
 	{nationality ger}
 	{armors
 		{body ammo_ger3}
-		{head helmet1_ger}
+		{head waffen_helmet_camo}
 	}
 	{perks
 		{"health" "200%"

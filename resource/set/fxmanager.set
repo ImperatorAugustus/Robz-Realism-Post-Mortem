@@ -1,17 +1,13 @@
 {fxmanager
 	{group
-;		{fx "shellhole_big"	}
-;		{fx "shellhole_medium"}
+		{fx "shellhole_big"	}
+		{fx "shellhole_medium"}
 		{fx "shellhole_small"}
 		{fx "fire_shellhole"}
-		{countLimit 250}
+		{countLimit 100}
 		{timeLimit 300}
 	}
 	{group
-		{fx "tracks_big"}
-		{fx "tracks_mid"}
-		{fx "tracks_sm"}
-		{fx "tracks_sm2"}
 		{fx "tracewheel01"}
 		{fx "tracewheel01a"}
 		{fx "tracewheel02"}
@@ -21,20 +17,30 @@
 		{fx "tracewheel04"}
 		{fx "tracewheel05"}
 		{fx "tracewheel05a"}
-		{countLimit 750}
-		{timeLimit 180}			; seconds
+		{fx "tracewheel06"}
+		{countLimit 70}
+		{timeLimit 10}			; seconds
+	}
+	{group
+		{fx "tracks_big"}
+		{fx "tracks_mid"}
+		{fx "tracks_sm"}
+		{fx "tracks_sm2"}
+		{countLimit 70}
+		{timeLimit 10}			; seconds
 	}
 	{group
 		{fx "blood"}
 		{fx "blood_small"}
-		{fx "ground_blood_big"}
-		{fx "ground_blood_small"}
-		{fx "ground_blood01"}
-		{fx "ground_blood02"}
-		{fx "ground_blood03"}
-		{fx "ground_blood_spreaded"}
-		{countLimit 750}
-		{timeLimit 180}			; seconds
+        {fx "ground_blood_big"}
+        {fx "ground_blood_small"}
+        {fx "ground_blood01"}
+        {fx "ground_blood02"}
+        {fx "ground_blood03"}
+        {fx "ground_blood_spreaded"}
+        ;{fx "ground_blood_spreading"}
+		{countLimit 40}
+		{timeLimit 20}
 	}
 	{group
 		{fx "flashred"}

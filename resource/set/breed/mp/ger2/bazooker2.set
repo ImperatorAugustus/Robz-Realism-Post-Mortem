@@ -1,79 +1,56 @@
 {breed
-	{skin "ger_t3"}
-	{portrait ger2_soldier2}
-	{icon smg}
-	{icon_priority 1}
+	{skin "ger-smock2-rfl"}
+	{portrait "ger2_soldier2"}
 	{nationality ger}
+	{icon "smg"}
+	{icon_priority 1}
 	{armors
-		{head helmet1_ger}
+		{head helmet_heer_camo}
 	}
 	{perks
-		{"health" "350%"
+		{"health" "150%"
 		}
 		{"health_regeneration" "100%"
 		}
-		{"stamina" "200%"
+		{"stamina" "100%"
 		}
 		{"stamina_regeneration" "100%"
 		}
-		{"vision" mp_soldier
+		{"vision" "mp_soldier"
 		}
 		{"speed" 0.9
 		}
-		{"field_glass"}
-		{"tank" 0.75
+		{"tank"	0.75
 		}
 		{"vehicle" 1
 		}
 		{"cannon" 0.8
 		}
-		{"pistol" lvl_6
+		
+		{"pistol" lvl_4
 		}
-		{"smg" lvl_6
+		{"smg" lvl_3
 		}
-		{"mgun" lvl_6
+		{"mgun" lvl_2
 		}
-		{"rifle" lvl_6
+		{"rifle" lvl_4
 		}
-		{"rocketlauncher" lvl_6
+		{"rocketlauncher" lvl_5
 		}
-		{"melee" lvl_6
+		{"melee" lvl_4
 		}
-		{"tankgun" lvl_5
-		}
-		{"stealth"}
 	}
 	{veterancy
-		{"lvl_1" -1
-		}
-		{"lvl_2" 0
-		}
-		{"lvl_3" 4
-		}
-		{"lvl_4" 10
-		}
-		{"lvl_5" 16
-		}
-		{"lvl_6" 24
-		}
-		{"lvl_7" 34
-		}
-		{"lvl_8" 46
-		}
-		{"lvl_9" 60
-		}
-		{"lvl_10" 78
-		}
+		(include "veterancy_generic.inc")
+		("veterancy_1")
 	}
-	{inventory
-		{item "ppsh" filling "ammo ppsh_mag" 71}
-		{item "ammo ppsh_mag" 142}
-		{item "bandage" 5}
+	{inventory      
+		{item "mauzer" filled}
+		{item "ammo mauser_clip" 60}
+		{item "bandage" 3}
 		{item "grenade m24" 2}
-		{item "grenade pwm1" 2}
 		{item "hohlladung grenade"}
-		{item "grenade satchel"}
-		{item "smoke grenade"}
+		{item "smoke grenade" 1}
 		{item "ammo panzershreck" 6}
 		{in_hands 0}
 	}

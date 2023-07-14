@@ -13,7 +13,7 @@
 {"blitz3_6art"      ("vs" c(0) t(44) 	s(ger) n(2) g(b8) sc(15) b(v1) cw(0) cp(0)) {level 1} {cost 300} {fore 0.0}}		;0sec
 {"blitz3_6eng"      ("vs" c(0) t(44) 	s(ger) n(2) g(b9) sc(12.50) b(v1) cw(0) cp(0)) {level 1} {cost 250} {fore 0.0}}		;0sec
 
-{"ammo_box_ger_inf" ("vs" c(0) t(44)	s(ger) n(2) g(b10) sc(1.25) b(v1) cw(0) cp(0)) {level 1} {cost 25} {fore 0.0}}		;0sec
+{"ammo_box_ger_inf" ("vs" c(0) t(44)	s(ger) n(2) g(b10) sc(1.25) b(v1) cw(0) cp(0)) {level 1} {cost 30} {fore 0.0}}		;0sec
 {"ammo_box_ger_art" ("vs" c(0) t(44)	s(ger) n(2) g(b11) sc(3.75) b(v1) cw(0) cp(0)) {level 1} {cost 75} {fore 0.0}}		;0sec
 {"ammo_box_ger_special" ("vs" c(300) t(44)	s(ger) n(2) g(b12) sc(5) b(v1) cw(0) cp(0)) {level 1} {cost 150} {fore 0.0}}		;0sec
 

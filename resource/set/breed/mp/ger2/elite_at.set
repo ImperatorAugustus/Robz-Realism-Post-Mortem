@@ -1,11 +1,11 @@
 {breed
-	{skin "ger_t2"}
-	{portrait ger2_soldier5}
-	{icon stormtrooper5b}
-	{icon_priority 4}
+	{skin "ger3_sniper"}
+	{portrait "ger2_soldier5"}
 	{nationality ger2}
+	{icon "stormtrooper5b"}
+	{icon_priority 4}
 	{armors
-		{head helmet1_ger}
+		{head "fieldcap3_ger"}
 	}
 	{perks
 		{"health" "350%"
@@ -16,16 +16,17 @@
 		}
 		{"stamina_regeneration" "100%"
 		}
-		{"vision" mp_soldier
+		{"vision" "mp_soldier"
 		}
 		{"speed" 0.9
 		}
-		{"tank" 1
+		{"tank"	1.0
 		}
-		{"vehicle" 1
+		{"vehicle" 1.0
 		}
-		{"cannon" 1
+		{"cannon" 1.0
 		}
+		
 		{"pistol" lvl_4
 		}
 		{"smg" lvl_4
@@ -40,33 +41,15 @@
 		}
 	}
 	{veterancy
-		{"lvl_1" -1
-		}
-		{"lvl_2" 0
-		}
-		{"lvl_3" 4
-		}
-		{"lvl_4" 10
-		}
-		{"lvl_5" 16
-		}
-		{"lvl_6" 24
-		}
-		{"lvl_7" 34
-		}
-		{"lvl_8" 46
-		}
-		{"lvl_9" 60
-		}
-		{"lvl_10" 78
-		}
+		(include "veterancy_generic.inc")
+		("veterancy_1")
 	}
 	{inventory
 		{item "weapon panzershreck" filled}
-		{item "mp40" filling "mp40_mag 9-smg ammo" 32}
+		{item "mp40" filled}      
 		{item "ammo pistol" 500}
 		{item "bandage" 3}
-		{item "grenade m24x5"}
+		{item "grenade m24x5" 1}
 		{item "ammo panzershreck" 7}
 		{in_hands 0}
 	}

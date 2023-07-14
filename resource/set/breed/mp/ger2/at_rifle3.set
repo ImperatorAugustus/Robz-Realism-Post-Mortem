@@ -1,11 +1,11 @@
 {breed
-	{skin "ger_t3"}
+	{skin "ger-reg-rfl"}
 	{portrait "ger2_soldier2"}
 	{nationality ger}
 	{icon "at_rifle"}
 	{icon_priority 3}
 	{armors
-		{head helmet1_ger}
+		{head helmet_ger_m40}
 	}
 	{perks
 		{"health" "150%"

@@ -1,18 +1,18 @@
 {breed
-	{skin "ger_t3"}
+	{skin "waffen-lsssmock2-stg44"}
 	{portrait "ger_soldier6"}
 	{icon "smg"}
 	{icon_priority 3}
-	{nationality ger2}
+	{nationality ger}
 	{armors
-		{head helmet1_ger}
+		{head waffen_helmet_lssah}
 	}
 	{perks
-		{"health" "400%"
+		{"health" "200%"
 		}
 		{"health_regeneration" "100%"
 		}
-		{"stamina" "200%"
+		{"stamina" "150%"
 		}
 		{"stamina_regeneration" "100%"
 		}
@@ -26,43 +26,22 @@
 		}
 		{"cannon" 0.9
 		}
-		{"pistol" lvl_7
+		{"pistol" lvl_4
 		}
-		{"smg" lvl_7
+		{"smg" lvl_5
 		}
-		{"mgun" lvl_7
+		{"mgun" lvl_3
 		}
-		{"rifle" lvl_7
+		{"rifle" lvl_3
 		}
-		{"rocketlauncher" lvl_7
+		{"rocketlauncher" lvl_4
 		}
-		{"melee" lvl_7
+		{"melee" lvl_4
 		}
-		{"tankgun" lvl_5
-		}
-		{"stealth"}
 	}
 	{veterancy
-		{"lvl_1" -1
-		}
-		{"lvl_2" 0
-		}
-		{"lvl_3" 7
-		}
-		{"lvl_4" 15
-		}
-		{"lvl_5" 24
-		}
-		{"lvl_6" 34
-		}
-		{"lvl_7" 45
-		}
-		{"lvl_8" 57
-		}
-		{"lvl_9" 70
-		}
-		{"lvl_10" 84
-		}
+		(include "veterancy_generic.inc")
+		("veterancy_lvl5")
 	}
 	{inventory
 		{item "sg44" filled}

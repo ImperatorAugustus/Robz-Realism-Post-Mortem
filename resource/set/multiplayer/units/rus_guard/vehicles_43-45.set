@@ -11,7 +11,7 @@
 {"zis5_guard"             ("vs_rus_g" c(0) v1(zis5) t(all 43 44 45) 	s(rus_guard) n(2) g(b5) sc(2.50) b(v1) cw(0) cp(0)) {level 1} {cost 100} {fore 0.0}}				;0sec
 {"zis5art_guard"          ("vs_rus_g" c(0) v1(zis5art) t(all 43 44 45) 	s(rus_guard) n(2) g(b6) sc(7.50) b(v1) cw(0) cp(0)) {level 1} {cost 300} {fore 0.0}}		;0sec
 {"zis5eng_guard"          ("vs_rus_g" c(0) v1(zis5eng) t(all 43 44 45) 	s(rus_guard) n(2) g(b7) sc(12.50) b(v1) cw(0) cp(0)) {level 1} {cost 250} {fore 0.0}}		;0sec
-{"ammo_box_rus_inf_guard" ("vs_rus_g" c(0) v1(ammo_box_rus_inf) t(all 43 44 45) 	s(rus_guard) n(2) g(b8) sc(2.50) b(v1) cw(0) cp(0)) {level 1} {cost 25} {fore 0.0}}		;0sec
+{"ammo_box_rus_inf_guard" ("vs_rus_g" c(0) v1(ammo_box_rus_inf) t(all 43 44 45) 	s(rus_guard) n(2) g(b8) sc(2.50) b(v1) cw(0) cp(0)) {level 1} {cost 30} {fore 0.0}}		;0sec
 {"ammo_box_rus_art_guard" ("vs_rus_g" c(0) v1(ammo_box_rus_art) t(all 43 44 45) 	s(rus_guard) n(2) g(b9) sc(2.50) b(v1) cw(0) cp(0)) {level 1} {cost 75} {fore 0.0}}		;0sec
 {"ammo_box_rus_special_guard" ("vs_rus_g" c(300) v1(ammo_box_rus_special) t(all 43 44 45) s(rus_guard) n(2) g(b10) sc(2.50) b(v1) cw(0) cp(0)) {level 1} {cost 150} {fore 0.0}};0sec
 

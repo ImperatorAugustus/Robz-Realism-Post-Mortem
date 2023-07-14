@@ -1,11 +1,11 @@
 {breed
-	{skin "ger_t4"}
-	{portrait ger2_soldier5}
-	{icon stormtrooper5b}
-	{icon_priority 4}
+	{skin "ger-geb-rfl"}
+	{portrait "ger2_soldier5"}
 	{nationality ger2}
+	{icon "stormtrooper5b"}
+	{icon_priority 4}
 	{armors
-		{head helmet1_ger}
+		{head "fieldcap_ger_geb"}
 	}
 	{perks
 		{"health" "400%"
@@ -16,16 +16,17 @@
 		}
 		{"stamina_regeneration" "125%"
 		}
-		{"vision" mp_soldier
+		{"vision" "mp_soldier"
 		}
 		{"speed" 1
 		}
-		{"tank" 0.95
+		{"tank"	1.0
 		}
-		{"vehicle" 1
+		{"vehicle" 1.0
 		}
-		{"cannon" 1
+		{"cannon" 1.0
 		}
+		
 		{"pistol" lvl_7
 		}
 		{"smg" lvl_7
@@ -38,44 +39,17 @@
 		}
 		{"melee" lvl_7
 		}
-		{"avoidance" lvl_1
-		}
-		{"stealth"}
-		{"tankgun" lvl_7
-		}
-		{"telescope"}
 	}
 	{veterancy
-		{"lvl_1" -1
-		}
-		{"lvl_2" 0
-		}
-		{"lvl_3" 4
-		}
-		{"lvl_4" 10
-		}
-		{"lvl_5" 16
-		}
-		{"lvl_6" 24
-		}
-		{"lvl_7" 34
-		}
-		{"lvl_8" 46
-		}
-		{"lvl_9" 60
-		}
-		{"lvl_10" 78
-		}
+		(include "veterancy_generic.inc")
+		("veterancy_lvl2")
 	}
 	{inventory
-		{item "mauzer_vet" filling "mauser_clip mauser mauser_rifle ammo" 5}
-		{item "ammo mauser_clip" 120}
-		{item "ammo mg_mauser belt" 100}
+		{item "mauzer_vet" filled}
+		{item "ammo mauser_clip" 60}
+		{item "ammo mg_mauser drum" 50}
 		{item "bandage" 5}
 		{item "grenade m24" 2}
-		{item "grenade pwm1"}
-		{item "smoke grenade"}
-		{item "sandbag_kit"}
 		{item "panzerfaust weapon" filled}
 		{item "panzerfaust weapon" filled}
 		{in_hands 0}

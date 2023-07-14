@@ -1,11 +1,11 @@
 {breed
-	{skin "ger_com"}
+	{skin "ger-reg-pioneer"}
 	{portrait "ger_soldier2"}
 	{nationality ger}
 	{icon "sapper"}
 	{icon_priority 3}
 	{armors
-		{head helmet1_ger}
+		{head helmet_ger_m40_fge}
 	}
 	{perks
 		{"health" "150%"
@@ -31,39 +31,21 @@
 		}
 		{"smg" lvl_4
 		}
-		{"mgun" lvl_3
+		{"mgun" lvl_2
 		}
-		{"rifle" lvl_4
+		{"rifle" lvl_3
 		}
-		{"rocketlauncher" lvl_4
+		{"rocketlauncher" lvl_2
 		}
 		{"melee" lvl_4
 		}
 	}
 	{veterancy
-		{"lvl_1" 2
-		}
-		{"lvl_2" 5
-		}
-		{"lvl_3" 9
-		}
-		{"lvl_4" 14
-		}
-		{"lvl_5" 20
-		}
-		{"lvl_6" 28
-		}
-		{"lvl_7" 38
-		}
-		{"lvl_8" 50
-		}
-		{"lvl_9" 64
-		}
-		{"lvl_10" 80
-		}
+		(include "veterancy_generic.inc")
+		("veterancy_1")
 	}
 	{inventory
-		{item "mp40" filling "ammo mp40_mag" 32}
+		{item "mp40" filled}
 		{item "ammo mp40_mag" 192}
 		{item "mine_detector"}
 		{item "dynamite_ladung" 2}

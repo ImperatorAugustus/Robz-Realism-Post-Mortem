@@ -1,12 +1,12 @@
 {breed
-	{skin "rus_medic"}
-	{portrait rus_medic}
-	{icon medics}
-	{icon_priority 1}
+	{skin "rus-medic"}
+	{portrait "rus_medic"}
 	{nationality rus}
+	{icon "medics"}
+	{icon_priority 1}
 	{armors
 		{body medsumka}
-		{head helmet1_rus}
+		{head helmet1_rus_w}
 	}
 	{perks
 		{"health" "150%"
@@ -17,56 +17,39 @@
 		}
 		{"stamina_regeneration" "100%"
 		}
-		{"vision" mp_soldier
+		{"vision" "mp_soldier"
 		}
 		{"speed" 0.9
 		}
-		{"tank" 0.75
+		{"tank"	0.75
 		}
 		{"vehicle" 1
 		}
 		{"cannon" 0.8
 		}
-		{"pistol" lvl_3
+		
+		{"pistol" lvl_2
 		}
-		{"smg" lvl_3
+		{"smg" lvl_1
 		}
-		{"mgun" lvl_2
+		{"mgun" lvl_1
 		}
-		{"rifle" lvl_3
+		{"rifle" lvl_2
 		}
-		{"rocketlauncher" lvl_2
+		{"rocketlauncher" lvl_1
 		}
-		{"melee" lvl_3
+		{"melee" lvl_2
 		}
 	}
 	{veterancy
-		{"lvl_1" 2
-		}
-		{"lvl_2" 5
-		}
-		{"lvl_3" 9
-		}
-		{"lvl_4" 14
-		}
-		{"lvl_5" 20
-		}
-		{"lvl_6" 28
-		}
-		{"lvl_7" 38
-		}
-		{"lvl_8" 50
-		}
-		{"lvl_9" 64
-		}
-		{"lvl_10" 80
-		}
+		(include "veterancy_generic.inc")
+		("veterancy_1")
 	}
 	{inventory
-		{item "mosin" filling "ammo mosin_clip" 5}
+		{item "mosin" filled}
 		{item "ammo mosin_clip" 60}
 		{item "bandage" 25}
-		{item "morphine"}
+		{item "morphine" 1}
 		{in_hands 0}
 	}
 }

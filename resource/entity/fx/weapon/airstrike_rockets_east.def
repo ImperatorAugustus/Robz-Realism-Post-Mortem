@@ -1,0 +1,40 @@
+{fx
+	{sound "weapon/shot/reactive/calliope_burst"}
+	{#+ particleview rockets
+		{##+ visualizer
+			{stage 
+				{sprite "/texture/fx/flash/halo02"
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{light 1}
+					{scale 1}
+				}
+			}
+		}
+		{entitygenerator
+			{totalparticles 2}
+			{particlesinblock 1}
+			{emissionarea
+				{radius 1}
+				{## alpha0 5 5}
+				{alpha1 3 3}
+				{## distributionlaw sphere}
+				{theta 17}
+				{psi 180}
+				{## speed 2}
+			}
+			{particleinit
+				{speed 187.5 12.5}
+				{lifetime 10}
+			}
+			{entity "rp3_rocket_dropping"
+				{fx "rocket_smoke_rp3"}
+			}
+			{## axisz}
+			{## timetolive 10}
+		}
+		{offset 3000 0 1000}
+	}
+}

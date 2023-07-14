@@ -1,12 +1,11 @@
 {breed
-	{skin "us_t2"}
-	{portrait usa_soldier2}
-	{icon bazooker}
-	{icon_priority 3}
+	{skin "usa-soldier1"}
+	{portrait "usa_soldier2"}
 	{nationality usa}
+	{icon "bazooker"}
+	{icon_priority 3}
 	{armors
-		{body us_haversack}
-		{head "helmet1_usa"}
+		{head helmet_novice}
 	}
 	{perks
 		{"health" "150%"
@@ -17,19 +16,20 @@
 		}
 		{"stamina_regeneration" "100%"
 		}
-		{"vision" mp_soldier
+		{"vision" "mp_soldier"
 		}
 		{"speed" 0.9
 		}
-		{"tank" 0.75
+		{"tank"	0.75
 		}
 		{"vehicle" 1
 		}
 		{"cannon" 0.8
 		}
+		
 		{"pistol" lvl_2
 		}
-		{"smg" lvl_3
+		{"smg" lvl_2
 		}
 		{"mgun" lvl_2
 		}
@@ -41,36 +41,16 @@
 		}
 	}
 	{veterancy
-		{"lvl_1" 2
-		}
-		{"lvl_2" 5
-		}
-		{"lvl_3" 9
-		}
-		{"lvl_4" 14
-		}
-		{"lvl_5" 20
-		}
-		{"lvl_6" 28
-		}
-		{"lvl_7" 38
-		}
-		{"lvl_8" 50
-		}
-		{"lvl_9" 64
-		}
-		{"lvl_10" 80
-		}
+		(include "veterancy_generic.inc")
+		("veterancy_1")
 	}
 	{inventory
-		{item "garand" filling "garand_clip 30-06_rifle ammo" 8}
+		{item "garand" filled}
 		{item "ammo garand_clip" 80}
-		{item "ammo garand_clip" 0.25 48}
-		{item "bandage" 5}
-		{item "grenade m61" 2}
-		{item "weapon bazooka_m9" filled}
-		{item "ammo bazooka_m9 heat" 7}
-		{item "ammo bazooka_m9 wp" 2}
+		{item "bandage" 3}
+		{item "weapon bazooka" filled}
+		{item "ammo bazooka" 4}
+		{item "ammo bazooka wp" 1 1}
 		{in_hands 0}
 	}
 }

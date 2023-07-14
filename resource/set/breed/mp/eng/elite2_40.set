@@ -39,8 +39,6 @@
 		}
 		{"melee" lvl_6
 		}
-		{"tankgun" lvl_4
-		}
 	}
 	{veterancy
 		(include "veterancy_generic.inc")
@@ -48,7 +46,7 @@
 	}
 	{inventory
 		{item "de_lisle" filled}
-		{item "ammo colt_mag" 140}
+		{item "ammo rifle" 70}
 		{item "ammo bren_mag" 56}
 		{item "bandage" 5}
 		{item "grenade mk1" 2}

@@ -1,72 +1,55 @@
 {breed
-	{skin "ger_t2"}
-	{portrait ger_soldier2}
-	{icon at_miner}
+	{skin "waffen-pioneer"}
+	{portrait "ger_soldier2"}
+	{nationality ger}
+	{icon "at_miner"}
 	{icon_priority 3}
-	{nationality ger2}
 	{armors
-		{head helmet1_ger}
+		{head waffen_helmet_camo}
 	}
 	{perks
-		{"health" "250%"
+		{"health" "150%"
 		}
 		{"health_regeneration" "100%"
 		}
-		{"stamina" "150%"
+		{"stamina" "100%"
 		}
 		{"stamina_regeneration" "100%"
 		}
-		{"vision" mp_soldier
+		{"vision" "mp_soldier"
 		}
 		{"speed" 0.9
 		}
-		{"tank" 0.75
+		{"tank"	0.75
 		}
 		{"vehicle" 1
 		}
 		{"cannon" 0.8
 		}
+		
 		{"pistol" lvl_4
 		}
-		{"smg" lvl_5
+		{"smg" lvl_4
 		}
-		{"mgun" lvl_4
+		{"mgun" lvl_2
 		}
-		{"rifle" lvl_5
+		{"rifle" lvl_3
 		}
-		{"rocketlauncher" lvl_5
+		{"rocketlauncher" lvl_2
 		}
 		{"melee" lvl_4
 		}
 	}
 	{veterancy
-		{"lvl_1" 2
-		}
-		{"lvl_2" 5
-		}
-		{"lvl_3" 9
-		}
-		{"lvl_4" 14
-		}
-		{"lvl_5" 20
-		}
-		{"lvl_6" 28
-		}
-		{"lvl_7" 38
-		}
-		{"lvl_8" 50
-		}
-		{"lvl_9" 64
-		}
-		{"lvl_10" 80
-		}
+		(include "veterancy_generic.inc")
+		("veterancy_1")
 	}
 	{inventory
-		{item "mp40" filling "mp40_mag 9-smg ammo" 32}
+		{item "mp40" filled}
 		{item "ammo mp40_mag" 192}
 		{item "mine antitank" 7}
 		{item "hohlladung grenade"}
-		{item "hedgehog_kit"}
+		{item "hedgehog_kit" 1}
 		{in_hands 0}
 	}
 }

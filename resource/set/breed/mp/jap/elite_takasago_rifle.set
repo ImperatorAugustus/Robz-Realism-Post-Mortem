@@ -1,11 +1,11 @@
 {breed
-	{skin "jap_t4"}
-	{portrait jap_elite1}
-	{icon elite2}
-	{icon_priority 0}
+	{skin "jap_army_sturmovik"}
+	{portrait "jap_elite1"}
 	{nationality jap}
+	{icon "elite2"}
+	{icon_priority 0}
 	{armors
-		{head helmet1_jap}
+		{head "jap_army_helmet2_net"}
 	}
 	{perks
 		{"health" "350%"
@@ -16,66 +16,45 @@
 		}
 		{"stamina_regeneration" "125%"
 		}
-		{"vision" mp_soldier
+		{"vision" "mp_soldier"
 		}
-		{"speed" 1
+		{"speed" 0.9
 		}
-		{"tank" 1
+		{"tank"	1.0
 		}
-		{"vehicle" 1
+		{"vehicle" 1.0
 		}
-		{"cannon" 1
+		{"cannon" 1.0
 		}
-		{"stealth"}
+		{"stealth"
+		}
+		
 		{"pistol" lvl_6
 		}
-		{"smg" lvl_6
+		{"smg" lvl_4
 		}
-		{"mgun" lvl_5
+		{"mgun" lvl_4
 		}
 		{"rifle" lvl_6
 		}
-		{"rocketlauncher" lvl_5
+		{"rocketlauncher" lvl_4
 		}
 		{"melee" lvl_6
 		}
-		{"tankgun" lvl_4
-		}
 	}
 	{veterancy
-		{"lvl_1" 2
-		}
-		{"lvl_2" 5
-		}
-		{"lvl_3" 9
-		}
-		{"lvl_4" 14
-		}
-		{"lvl_5" 20
-		}
-		{"lvl_6" 28
-		}
-		{"lvl_7" 38
-		}
-		{"lvl_8" 50
-		}
-		{"lvl_9" 64
-		}
-		{"lvl_10" 80
-		}
+		(include "veterancy_generic.inc")
+		("veterancy_elite")
 	}
 	{inventory
-		{item "type38rifle_bayonet_vet" filling "arisaka6-5_clip 6-5_jap ammo" 5}
-		{item "ammo arisaka6-5_clip" 120}
-		{item "ammo type96_mag" 60}
+		{item "type38rifle_bayonet" filled}		
+		{item "ammo arisaka6-5_clip" 60}
 		{item "bandage" 5}
 		{item "grenade type97" 3}
-		{item "grenade type3at_a"}
-		{item "mine antipersonnel" 0 2}
-		{item "dynamite"}
-		{item "knife_japan"}
-		{item "sandbag_kit"}
-		{item "plant"}
+		{item "grenade type3at_a" 1}
+		{item "smoke grenade" 1}
+		{item "dynamite" 1}
+		{item "knife_japan" 1}
 		{in_hands 0}
 	}
 }

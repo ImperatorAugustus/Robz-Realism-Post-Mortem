@@ -8,7 +8,7 @@
 		{head "beret_eng1"}
 	}
 	{perks
-		{"health" "200%"
+		{"health" "100%"
 		}
 		{"health_regeneration" "100%"
 		}
@@ -18,9 +18,7 @@
 		}
 		{"vision" "mp_soldier"
 		}
-		{"field_glass"
-		}
-		{"speed" 0.9
+		{"speed" 0.8
 		}
 		{"tank"	1.0
 		}
@@ -29,17 +27,17 @@
 		{"cannon" 0.8
 		}
 		
-		{"pistol" lvl_5
+		{"pistol" lvl_3
 		}
-		{"smg" lvl_5
+		{"smg" lvl_3
 		}
-		{"mgun" lvl_5
+		{"mgun" lvl_3
 		}
-		{"rifle" lvl_5
+		{"rifle" lvl_2
 		}
-		{"rocketlauncher" lvl_5
+		{"rocketlauncher" lvl_1
 		}
-		{"melee" lvl_5
+		{"melee" lvl_3
 		}
 		{"tankgun" lvl_5
 		}
@@ -49,12 +47,8 @@
 		("veterancy_tankcrew")
 	}
 	{inventory
-		{item "sten_mk2" filling "ammo sten_mag" 32}
-		{item "ammo sten_mag" 160}
 		{item "webley" filled}
-		{item "ammo webley_clip" 36}
-		{item "bandage" 5}
-		{item "grenade mk1" 2}
+		{item "ammo webley_clip" 36}	
 		{in_hands 0}
 	}
 }

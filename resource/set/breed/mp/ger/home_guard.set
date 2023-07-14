@@ -1,9 +1,12 @@
 {breed
-	{skin "rus_partizan2"}
-	{portrait ger_soldier1}
-	{icon home_guard}
-	{icon_priority 0}
+	{skin "ger-volkssturm"}
+	{portrait "ger_soldier1"}
 	{nationality ger}
+	{icon "home_guard"}
+	{icon_priority 0}
+	{armors
+		{head fieldcap_ger}
+	}
 	{perks
 		{"health" "100%"
 		}
@@ -13,16 +16,17 @@
 		}
 		{"stamina_regeneration" "100%"
 		}
-		{"vision" mp_soldier
+		{"vision" "mp_soldier"
 		}
 		{"speed" 0.8
 		}
-		{"tank" 0.75
+		{"tank"	0.75
 		}
 		{"vehicle" 0.8
 		}
 		{"cannon" 0.8
 		}
+		
 		{"pistol" lvl_1
 		}
 		{"smg" lvl_1
@@ -37,31 +41,13 @@
 		}
 	}
 	{veterancy
-		{"lvl_1" 2
-		}
-		{"lvl_2" 5
-		}
-		{"lvl_3" 9
-		}
-		{"lvl_4" 14
-		}
-		{"lvl_5" 20
-		}
-		{"lvl_6" 28
-		}
-		{"lvl_7" 38
-		}
-		{"lvl_8" 50
-		}
-		{"lvl_9" 64
-		}
-		{"lvl_10" 80
-		}
+		(include "veterancy_generic.inc")
+		("veterancy_1")
 	}
-	{inventory
-		{item "mannlicher_m1895" filling "mannlicher6-5_clip ammo" 5}
-		{item "ammo mannlicher6-5_clip" 60}
-		{item "bandage" 2}
+	{inventory      
+		{item "mauzer" filled}
+		{item "ammo mauser_clip" 60}
+		{item "bandage" 3}
 		{item "faustpatrone_30 weapon" 0 1 filled}
 		{in_hands 0}
 	}

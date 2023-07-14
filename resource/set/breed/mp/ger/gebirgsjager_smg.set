@@ -1,12 +1,12 @@
 {breed
-	{skin "ger_t4"}
-	{portrait ger_soldier4}
-	{icon elite2}
+	{skin "ger-geb-smg"}
+	{portrait "ger_soldier4"}
+	{icon "elite2"}
 	{icon_priority 4}
 	{nationality ger}
 	{armors
 		{body ammo_ger3}
-		{head helmet1_ger}
+		{head fieldcap_ger_geb}
 	}
 	{perks
 		{"health" "400%"
@@ -39,42 +39,17 @@
 		}
 		{"melee" lvl_7
 		}
-		{"avoidance" lvl_1
-		}
-		{"tankgun" lvl_5
-		}
 	}
 	{veterancy
-		{"lvl_1" 5
-		}
-		{"lvl_2" 11
-		}
-		{"lvl_3" 18
-		}
-		{"lvl_4" 26
-		}
-		{"lvl_5" 35
-		}
-		{"lvl_6" 45
-		}
-		{"lvl_7" 56
-		}
-		{"lvl_8" 68
-		}
-		{"lvl_9" 80
-		}
-		{"lvl_10" 93
-		}
+		(include "veterancy_generic.inc")
+		("veterancy_elite")
 	}
 	{inventory
-		{item "mp40" filling "ammo mp40_mag" 32}
+		{item "mp40" filled}
 		{item "ammo mp40_mag" 192}
-		{item "ammo mg_mauser belt" 100}
 		{item "bandage" 5}
 		{item "grenade m24" 2}
-		{item "grenade m24x5"}
 		{item "smoke grenade" 2}
-		{item "sandbag_kit"}
 		{in_hands 0}
 	}
 }

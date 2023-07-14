@@ -1,18 +1,18 @@
 {breed
-	{skin "jap_mgun"}
+	{skin "jap_army_lmg2"}
 	{portrait "jap_soldier2"}
 	{nationality jap}
 	{icon "mg"}
 	{icon_priority 2}
 	{armors
-		{head helmet1_jap}
+		{head "jap_army_helmet11"}
 	}
 	{perks
 		{"health" "150%"
 		}
 		{"health_regeneration" "100%"
 		}
-		{"stamina" "150%"
+		{"stamina" "100%"
 		}
 		{"stamina_regeneration" "100%"
 		}
@@ -27,13 +27,13 @@
 		{"cannon" 1.0
 		}
 		
-		{"pistol" lvl_2
+		{"pistol" lvl_1
 		}
-		{"smg" lvl_2
+		{"smg" lvl_1
 		}
-		{"mgun" lvl_2
+		{"mgun" lvl_3
 		}
-		{"rifle" lvl_2
+		{"rifle" lvl_1
 		}
 		{"rocketlauncher" lvl_1
 		}
@@ -41,36 +41,14 @@
 		}
 	}
 	{veterancy
-		{"lvl_1" 2
-		}
-		{"lvl_2" 5
-		}
-		{"lvl_3" 9
-		}
-		{"lvl_4" 14
-		}
-		{"lvl_5" 20
-		}
-		{"lvl_6" 28
-		}
-		{"lvl_7" 38
-		}
-		{"lvl_8" 50
-		}
-		{"lvl_9" 64
-		}
-		{"lvl_10" 80
-		}
+		(include "veterancy_generic.inc")
+		("veterancy_1")
 	}
 	{inventory
 		{item "type11_mg" filled}
-		{item "ammo arisaka6-5_clip" 240}
-		{item "nambu" filled}
-		{item "ammo nambu_mag" 32}
+		{item "ammo arisaka6-5_clip" 180}
 		{item "bandage" 3}
-		{item "grenade type97" 2}
 		{item "sandbag_kit" 1}
-		{item "plant" 1}
 		{in_hands 0}
 	}
 }

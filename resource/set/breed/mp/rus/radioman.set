@@ -1,11 +1,11 @@
 {breed
-	{skin "rus_t2"}
-	{portrait rus_soldier3}
-	{icon radioman}
-	{icon_priority 5}
+	{skin "rus-smguner"}
+	{portrait "rus_soldier3"}
 	{nationality rus}
+	{icon "radioman"}
+	{icon_priority 5}
 	{armors
-		{head helmet1_rus}
+		{head "radioman_hat"}
 	}
 	{perks
 		{"health" "150%"
@@ -16,23 +16,24 @@
 		}
 		{"stamina_regeneration" "100%"
 		}
-		{"vision" mp_soldier
+		{"vision" "mp_soldier"
 		}
 		{"speed" 0.9
 		}
-		{"tank" 0.75
+		{"tank"	0.75
 		}
 		{"vehicle" 1
 		}
 		{"cannon" 0.8
 		}
+		
 		{"pistol" lvl_2
 		}
-		{"smg" lvl_3
+		{"smg" lvl_2
 		}
-		{"mgun" lvl_2
+		{"mgun" lvl_1
 		}
-		{"rifle" lvl_3
+		{"rifle" lvl_1
 		}
 		{"rocketlauncher" lvl_1
 		}
@@ -40,29 +41,11 @@
 		}
 	}
 	{veterancy
-		{"lvl_1" 2
-		}
-		{"lvl_2" 5
-		}
-		{"lvl_3" 9
-		}
-		{"lvl_4" 14
-		}
-		{"lvl_5" 20
-		}
-		{"lvl_6" 28
-		}
-		{"lvl_7" 38
-		}
-		{"lvl_8" 50
-		}
-		{"lvl_9" 64
-		}
-		{"lvl_10" 80
-		}
+		(include "veterancy_generic.inc")
+		("veterancy_1")
 	}
 	{inventory
-		{item "ppsh" filling "ppsh_mag 762-smg ammo" 71}
+		{item "ppsh" filled}
 		{item "flaergun" filled}
 		{item "ammo ppsh_mag" 142}
 		{item "ammo flaer" 50}

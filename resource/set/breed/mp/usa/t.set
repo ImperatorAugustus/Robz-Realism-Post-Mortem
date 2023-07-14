@@ -1,14 +1,14 @@
 {breed
-	{skin "us_tankman"}
-	{portrait usa_tankman}
-	{icon tankman}
-	{icon_priority 0}
+	{skin "usa-tank-pvt"}
+	{portrait "usa_tankman"}
 	{nationality usa}
+	{icon "tankman"}
+	{icon_priority 0}
 	{armors
-		{head "helmet1_usa"}
+		{head tankhelmet_usa}
 	}
 	{perks
-		{"health" "150%"
+		{"health" "100%"
 		}
 		{"health_regeneration" "100%"
 		}
@@ -16,23 +16,24 @@
 		}
 		{"stamina_regeneration" "100%"
 		}
-		{"vision" mp_soldier
+        {"vision" "mp_soldier"
 		}
-		{"speed" 0.9
+		{"speed" 0.8
 		}
-		{"tank" 1
+		{"tank"	1.0
 		}
-		{"vehicle" 1
+		{"vehicle" 1.0
 		}
 		{"cannon" 0.9
 		}
+		
 		{"pistol" lvl_3
 		}
 		{"smg" lvl_3
 		}
 		{"mgun" lvl_2
 		}
-		{"rifle" lvl_3
+		{"rifle" lvl_2
 		}
 		{"rocketlauncher" lvl_2
 		}
@@ -42,57 +43,12 @@
 		}
 	}
 	{veterancy
-		{"lvl_1" 2
-		}
-		{"lvl_2" 5
-		}
-		{"lvl_3" 9
-		}
-		{"lvl_4" 14
-		}
-		{"lvl_5" 20
-		}
-		{"lvl_6" 28
-		}
-		{"lvl_7" 38
-		}
-		{"lvl_8" 50
-		}
-		{"lvl_9" 64
-		}
-		{"lvl_10" 80
-		}
-		(mod "mp"
-			{"lvl_1" 5
-			}
-			{"lvl_2" 11
-			}
-			{"lvl_3" 18
-			}
-			{"lvl_4" 26
-			}
-			{"lvl_5" 35
-			}
-			{"lvl_6" 45
-			}
-			{"lvl_7" 56
-			}
-			{"lvl_8" 68
-			}
-			{"lvl_9" 80
-			}
-			{"lvl_10" 93
-			}
-		)
+		(include "veterancy_generic.inc")
+		("veterancy_tankcrew")
 	}
 	{inventory
-		{item "m3a" filling "m3a_mag 45-smg ammo" 30}
-		{item "ammo m3a_mag" 150}
 		{item "colt" filled}
-		{item "ammo colt_mag" 35}
-		{item "bandage" 5}
-		{item "grenade m61" 2}
-		{item "smoke grenade"}
+		{item "ammo colt_mag" 21}
 		{in_hands 0}
 	}
 }

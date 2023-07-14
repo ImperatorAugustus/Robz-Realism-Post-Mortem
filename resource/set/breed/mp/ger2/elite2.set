@@ -1,11 +1,11 @@
 {breed
-	{skin "ger_t2"}
+	{skin "ger2_sniper"}
 	{portrait "ger2_elite1"}
 	{nationality ger2}
 	{icon "elite2"}
 	{icon_priority 3}
 	{armors
-		{head helmet1_ger}
+		{head "fieldcap2_ger"}
 	}
 	{perks
 		{"health" "250%"
@@ -41,26 +41,8 @@
 		}
 	}
 	{veterancy
-		{"lvl_1" -1
-		}
-		{"lvl_2" 0
-		}
-		{"lvl_3" 4
-		}
-		{"lvl_4" 10
-		}
-		{"lvl_5" 16
-		}
-		{"lvl_6" 24
-		}
-		{"lvl_7" 34
-		}
-		{"lvl_8" 46
-		}
-		{"lvl_9" 60
-		}
-		{"lvl_10" 78
-		}
+		(include "veterancy_generic.inc")
+		("veterancy_1")
 	}
 	{inventory
 		{item "g43_scope" filled}

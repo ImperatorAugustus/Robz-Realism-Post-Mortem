@@ -1,14 +1,15 @@
 {breed
-	{skin "ger_t2"}
+	{skin "ger-smock2-g43"}
 	{portrait "ger_soldier4"}
 	{icon "smg"}
 	{icon_priority 1}
 	{nationality ger}
 	{armors
-		{head helmet1_ger}
+		{body ammo_ger3}
+		{head helmet_heer_camo}
 	}
 	{perks
-		{"health" "250%"
+		{"health" "300%"
 		}
 		{"health_regeneration" "100%"
 		}
@@ -28,7 +29,7 @@
 		}
 		{"pistol" lvl_4
 		}
-		{"smg" lvl_4
+		{"smg" lvl_7
 		}
 		{"mgun" lvl_4
 		}
@@ -40,26 +41,8 @@
 		}
 	}
 	{veterancy
-		{"lvl_1" 2
-		}
-		{"lvl_2" 5
-		}
-		{"lvl_3" 9
-		}
-		{"lvl_4" 14
-		}
-		{"lvl_5" 20
-		}
-		{"lvl_6" 28
-		}
-		{"lvl_7" 38
-		}
-		{"lvl_8" 50
-		}
-		{"lvl_9" 64
-		}
-		{"lvl_10" 80
-		}
+		(include "veterancy_generic.inc")
+		("veterancy_1")
 	}
 	{inventory
 		{item "plasma_rifle" filled}

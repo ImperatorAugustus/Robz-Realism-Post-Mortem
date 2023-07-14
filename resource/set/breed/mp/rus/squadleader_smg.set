@@ -1,11 +1,11 @@
 {breed
-	{skin "rus_t2"}
-	{portrait rus_soldier3}
-	{icon squadleader2}
-	{icon_priority 2}
+	{skin "rus-com"}
+	{portrait "rus_soldier3"}
 	{nationality rus}
+	{icon "squadleader2"}
+	{icon_priority 2}
 	{armors
-		{head helmet1_rus}
+		{head "cap1_rus"}
 	}
 	{perks
 		{"health" "200%"
@@ -16,16 +16,17 @@
 		}
 		{"stamina_regeneration" "100%"
 		}
-		{"vision" mp_soldier
+		{"vision" "mp_soldier"
 		}
 		{"speed" 0.9
 		}
-		{"tank" 0.85
+		{"tank"	0.85
 		}
 		{"vehicle" 1
 		}
 		{"cannon" 0.9
 		}
+		
 		{"pistol" lvl_4
 		}
 		{"smg" lvl_4
@@ -40,34 +41,16 @@
 		}
 	}
 	{veterancy
-		{"lvl_1" 2
-		}
-		{"lvl_2" 5
-		}
-		{"lvl_3" 9
-		}
-		{"lvl_4" 14
-		}
-		{"lvl_5" 20
-		}
-		{"lvl_6" 28
-		}
-		{"lvl_7" 38
-		}
-		{"lvl_8" 50
-		}
-		{"lvl_9" 64
-		}
-		{"lvl_10" 80
-		}
+		(include "veterancy_generic.inc")
+		("veterancy_1")
 	}
 	{inventory
-		{item "pps43" filling "pps43_mag 762-smg ammo" 35}
+		{item "pps43" filled}
 		{item "ammo pps43_mag" 210}
 		{item "bandage" 3}
 		{item "grenade f1" 2}
-		{item "grenade rpg43"}
-		{item "smoke grenade" 2}
+		{item "grenade rpg40" 1}
+		{item "smoke grenade" 1}
 		{in_hands 0}
 	}
 }

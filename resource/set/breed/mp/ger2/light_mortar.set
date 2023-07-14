@@ -1,18 +1,18 @@
 {breed
-	{skin "ger_t2"}
+	{skin "ger-reg2-rfl"}
 	{portrait "ger_soldier2"}
 	{icon "rifleman"}
 	{icon_priority 1}
 	{nationality ger}
 	{armors
-		{head helmet1_ger}
+		{head helmet_ger_m40}
 	}
 	{perks
-		{"health" "250%"
+		{"health" "150%"
 		}
 		{"health_regeneration" "100%"
 		}
-		{"stamina" "150%"
+		{"stamina" "100%"
 		}
 		{"stamina_regeneration" "100%"
 		}
@@ -26,51 +26,28 @@
 		}
 		{"cannon" 0.8
 		}
-		
-		{"pistol" lvl_5
+		{"pistol" lvl_4
 		}
-		{"smg" lvl_5
+		{"smg" lvl_3
 		}
-		{"mgun" lvl_5
+		{"mgun" lvl_2
 		}
 		{"rifle" lvl_5
 		}
-		{"rocketlauncher" lvl_5
+		{"rocketlauncher" lvl_2
 		}
-		{"melee" lvl_5
-		}
-		{"tankgun" lvl_5
+		{"melee" lvl_4
 		}
 	}
 	{veterancy
-		{"lvl_1" -1
-		}
-		{"lvl_2" 0
-		}
-		{"lvl_3" 4
-		}
-		{"lvl_4" 10
-		}
-		{"lvl_5" 16
-		}
-		{"lvl_6" 24
-		}
-		{"lvl_7" 34
-		}
-		{"lvl_8" 46
-		}
-		{"lvl_9" 60
-		}
-		{"lvl_10" 78
-		}
+		(include "veterancy_generic.inc")
+		("veterancy_1")
 	}
 	{inventory
 
 		{item "mortar_legrw_36" filled}
 		{item "ammo mortar50 ger fg" 12}
-		{item "bandage" 5}
-		{item "valter" filled}
-		{item "ammo walther_mag" 16}
+		{item "bandage" 3}
 		{in_hands 0}
 	}
 }

@@ -40,7 +40,7 @@
 
 ;------------------------------tank and support crews || vet 2--------------------------------------------------
 
-("squad_with1types" side(eng) name(vehic_supporter) c(0) g(soldier_3) c1(vehicle_supporter:2) b(squad1) t(all inf_only 42 43 44 45) level(1) cost(40) f(-1.0))
+("squad_with1types" side(eng) name(vehic_supporter) c(0) g(soldier_3) c1(vehicle_supporter:2) b(squad1) t(all inf_only 42 43 44 45) level(1) cost(25) f(-1.0))
 
 ("squad_with2types" side(eng) name(tankmans) c(0) g(soldier_3) c1(tankman2:1) c2(tankman:4) b(squad1) t(all inf_only tankmans 39 40 41 42 43 44 45) level(1) cost(70) f(-1.0))
 

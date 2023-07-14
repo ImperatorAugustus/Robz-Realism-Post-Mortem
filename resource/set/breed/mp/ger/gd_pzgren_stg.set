@@ -1,19 +1,19 @@
 {breed
-	{skin "ger_t4"}
+	{skin "ger-smock2-stg44"}
 	{portrait "ger_soldier3"}
 	{icon "stormtrooper"}
 	{icon_priority 3}
 	{nationality ger}
 	{armors
 		{body ammo_ger3}
-		{head helmet1_ger}
+		{head helmet_heer_camo}
 	}
 	{perks
-		{"health" "400%"
+		{"health" "200%"
 		}
 		{"health_regeneration" "100%"
 		}
-		{"stamina" "200%"
+		{"stamina" "150%"
 		}
 		{"stamina_regeneration" "100%"
 		}
@@ -27,43 +27,22 @@
 		}
 		{"cannon" 0.9
 		}
-		{"pistol" lvl_7
+		{"pistol" lvl_4
 		}
-		{"smg" lvl_7
+		{"smg" lvl_5
 		}
-		{"mgun" lvl_7
+		{"mgun" lvl_3
 		}
-		{"rifle" lvl_7
+		{"rifle" lvl_3
 		}
-		{"rocketlauncher" lvl_7
+		{"rocketlauncher" lvl_4
 		}
-		{"melee" lvl_7
+		{"melee" lvl_5
 		}
-		{"tankgun" lvl_5
-		}
-		{"stealth"}
 	}
 	{veterancy
-		{"lvl_1" -1
-		}
-		{"lvl_2" 0
-		}
-		{"lvl_3" 7
-		}
-		{"lvl_4" 15
-		}
-		{"lvl_5" 24
-		}
-		{"lvl_6" 34
-		}
-		{"lvl_7" 45
-		}
-		{"lvl_8" 57
-		}
-		{"lvl_9" 70
-		}
-		{"lvl_10" 84
-		}
+		(include "veterancy_generic.inc")
+		("veterancy_lvl5")
 	}
 	{inventory
 		{item "sg44" filled}
@@ -71,7 +50,7 @@
 		{item "bandage" 5}
 		{item "grenade m39" 2}
 		{item "grenade m24x5"}
-		{item "sandbag_kit"}
+		{item "smoke grenade" 1}
 		{in_hands 0}
 	}
 }

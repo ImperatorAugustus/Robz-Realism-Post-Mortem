@@ -10,14 +10,13 @@ Integrated various sounds.
 Integrated Robz Reloaded fixes, localizations, and optimizations. -V 2.7
 -Fixed Isuzu repair and fire bug
 -Fixed US mortar haltrack fire bug
--Reverted skins to vanilla
--Reduced fire fx
+-Reduced fire fx - Massive performance gains
 
 
 
 PERFORMANCE:
 -----
-Limit the number of useless entity objects like broken parts and body parts to 0
+Limit the number of useless entity objects.
 
 
 
@@ -82,7 +81,7 @@ Increased smoke grenade range from 25 to 32 for all normal smoke grenades and am
 
 
 
-Faction/Balance:
+Faction/Balance - General:
 -----
 Increased effect of equipment weight on stamina regen
 Decreased lower scale (0-20kg) rate of stamina reduction 
@@ -100,7 +99,9 @@ Reduced Wespe cost by 125
 Reduced standard vp to 125
 Increased startup timer of; all light vehicles with heavy cannons (50mm+ cannon or 37mm+ autocannon) by 15%, all medium armored or gunned tanks by 25%, all heavy armored or gunned tanks by 35%.
 Various timer adjustments across the board to line up with other factions
-Removed some vehicle copies with little difference
+Removed some vehicle copies with little difference.
+Increased infantry ammo crate cost from 25mp to 30mp.
+Reduced support crew cost from 40mp to 25mp, except Guards and Ost Front which are 35mp.
 
 USA
 -----

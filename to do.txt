@@ -12,6 +12,7 @@ Osnaz
 lg40
 lg42
 aiming time to other spgs to prevent far shooting
+sexton to mp
 
 fix
 sdkfz8 gun range misreading on label

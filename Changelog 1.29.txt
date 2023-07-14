@@ -10,7 +10,8 @@ Integrated various sounds.
 Integrated Robz Reloaded fixes, localizations, and optimizations. -V 2.7
 -Fixed Isuzu repair and fire bug
 -Fixed US mortar haltrack fire bug
--Reduced fire fx - Massive performance gains
+- Fixed Super Pershings model and the armour shield.
+ Fixed several bugged vehicle models where bazookas/RPGs/Panzerschrecks would not be effective against them. Fixed several bugged vehicle models where bazookas/RPGs/Panzerschrecks would not be effective against them.
 
 
 
@@ -130,7 +131,8 @@ USA
 -m18 hellcat - 450 mp
 -m18 timer reduced to same as m10
 Added US logistics SP buy. 1sp for a normal truck and an inf and art ammo crate
-Added paradropped 57mm for sp
+Added paradropped 57mm for 3 sp
+-Added Marine Raider on LVT buy for 6sp
 Removed 105 sherman buy
 
 	Infantry

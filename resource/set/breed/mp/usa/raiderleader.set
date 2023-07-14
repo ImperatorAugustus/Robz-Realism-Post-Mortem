@@ -6,7 +6,7 @@
 	{nationality usa}
 	{armors
 		{body us_marine_haversack}
-		{headhelmet_marine_usa}
+		{head helmet_marine_usa}
 	}
 	{perks
 		{"health" "250%"

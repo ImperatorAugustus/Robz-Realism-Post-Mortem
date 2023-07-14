@@ -1,0 +1,102 @@
+{materials
+	{"mtl0"
+		{layer bump
+			{diffuse "/texture/land/dirt/muddy_soil2"}
+			{bump "/texture/land/dirt/muddy_soil2_nm"}
+		}
+		{layer bump
+			{diffuse "/texture/land/town/asfalt_road q"}
+			{bump "/texture/land/town/asfalt_road q_nm"}
+		}
+	}
+	{"mtl1"
+		{layer bump
+			{diffuse "/texture/land/dirt/muddy_soil2"}
+			{bump "/texture/land/dirt/muddy_soil2_nm"}
+		}
+		{layer bump
+			{diffuse "/texture/land/town/cobble_bck4"}
+			{bump "/texture/land/town/cobble_bck4_nm"}
+		}
+	}
+	{"mtl2"
+		{layer bump
+			{diffuse "/texture/land/town/cobble_bck42"}
+			{bump "/texture/land/town/cobble_bck42_nm"}
+		}
+		{layer bump
+			{diffuse "/texture/land/town/cobble_bck4"}
+			{bump "/texture/land/town/cobble_bck4_nm"}
+		}
+	}
+	{"mtl3"
+		{layer bump
+			{diffuse "/texture/land/dirt/muddy_soil2"}
+			{bump "/texture/land/dirt/muddy_soil2_nm"}
+		}
+		{layer bump
+			{diffuse "/texture/land/town/brick_q31"}
+			{bump "/texture/land/town/brick_q31_nm"}
+		}
+	}
+	{"mtl4"
+		{layer bump
+			{diffuse "/texture/land/dirt/muddy_soil2"}
+			{bump "/texture/land/dirt/muddy_soil2_nm"}
+		}
+		{layer bump
+			{diffuse "/texture/land/grass/winter/mart 2"}
+			{bump "/texture/land/grass/winter/mart 2_nm"}
+		}
+	}
+	{"mtl5"
+		{layer bump
+			{diffuse "/texture/land/dirt/muddy_soil2"}
+			{bump "/texture/land/dirt/muddy_soil2_nm"}
+		}
+		{layer bump
+			{diffuse "/texture/land/town/asfalt_road_q3"}
+			{bump "/texture/land/town/asfalt_road_q3_nm"}
+		}
+	}
+	{"mtl6"
+		{layer bump
+			{diffuse "/texture/land/town/asfalt_road_q41"}
+			{bump "/texture/land/town/asfalt_road_q41_nm"}
+		}
+		{layer bump
+			{diffuse "/texture/land/town/asfalt_road_q3"}
+			{bump "/texture/land/town/asfalt_road_q3_nm"}
+		}
+	}
+	{"mtl7"
+		{layer bump
+			{diffuse "/texture/land/town/asfalt_road_q3_dark"}
+			{bump "/texture/land/town/asfalt_road_q3_dark_nm"}
+		}
+		{layer bump
+			{diffuse "/texture/land/town/asfalt_road q"}
+			{bump "/texture/land/town/asfalt_road q_nm"}
+		}
+	}
+	{"mtl8"
+		{layer bump
+			{diffuse "/texture/land/town/asfalt_road_q3_dark"}
+			{bump "/texture/land/town/asfalt_road_q3_dark_nm"}
+		}
+		{layer bump
+			{diffuse "/texture/land/town/asfalt_road q1l"}
+			{bump "/texture/land/town/asfalt_road q1l_nm"}
+		}
+	}
+	{"mtl9"
+		{layer bump
+			{diffuse "/texture/land/town/asfalt_road q"}
+			{bump "/texture/land/town/asfalt_road q_nm"}
+		}
+		{layer bump
+			{diffuse "/texture/land/town/cobble_bck4"}
+			{bump "/texture/land/town/cobble_bck4_nm"}
+		}
+	}
+}

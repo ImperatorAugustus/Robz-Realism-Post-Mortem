@@ -12,6 +12,13 @@
 			{water -32.9}
 		}
 	}
+	{Ocean
+		{active 0}
+		{state calm}
+		{zlevel 0}
+		{waveamount 8}
+		{wavedir 50}
+	}
 	{Entity "reich_kaserne" 0x6a0e
 		{Position -2739.68 4484.76 0}
 		{xform zl 179.6}
@@ -150,7 +157,6 @@
 		{TexMod
 			{"/texture/common/decor/cut_sh14" "2"}
 			{"/texture/common/wall/wall_int04" "1"}
-			{"/texture/common/roof/tiled10_x" "2"}
 			{"/texture/common/wall/plant_admin_1" "1"}
 			{"/texture/common/roof/roof_sh29" "lightwood"}
 		}
@@ -191,7 +197,6 @@
 		{TexMod
 			{"/texture/common/decor/cut_sh14" "2"}
 			{"/texture/common/wall/wall_int04" "1"}
-			{"/texture/common/roof/tiled10_x" "2"}
 			{"/texture/common/wall/plant_admin_1" "1"}
 			{"/texture/common/roof/roof_sh29" "lightwood"}
 		}
@@ -226,7 +231,6 @@
 		{TexMod
 			{"/texture/common/decor/cut_sh14" "2"}
 			{"/texture/common/wall/wall_int04" "1"}
-			{"/texture/common/roof/tiled10_x" "2"}
 			{"/texture/common/wall/plant_admin_1" "1"}
 			{"/texture/common/roof/roof_sh29" "lightwood"}
 		}
@@ -274,7 +278,6 @@
 		{TexMod
 			{"/texture/common/decor/cut_sh14" "2"}
 			{"/texture/common/wall/wall_int04" "1"}
-			{"/texture/common/roof/tiled10_x" "2"}
 			{"/texture/common/wall/plant_admin_1" "1"}
 			{"/texture/common/roof/roof_sh29" "lightwood"}
 		}
@@ -283,7 +286,6 @@
 		{TexMod
 			{"/texture/common/decor/cut_sh14" "2"}
 			{"/texture/common/wall/wall_int04" "1"}
-			{"/texture/common/roof/tiled10_x" "2"}
 			{"/texture/common/wall/plant_admin_1" "1"}
 			{"/texture/common/roof/roof_sh29" "lightwood"}
 		}
@@ -292,7 +294,6 @@
 		{TexMod
 			{"/texture/common/decor/cut_sh14" "2"}
 			{"/texture/common/wall/wall_int04" "1"}
-			{"/texture/common/roof/tiled10_x" "2"}
 			{"/texture/common/wall/plant_admin_1" "1"}
 			{"/texture/common/roof/roof_sh29" "lightwood"}
 		}
@@ -301,7 +302,6 @@
 		{TexMod
 			{"/texture/common/decor/cut_sh14" "2"}
 			{"/texture/common/wall/wall_int04" "1"}
-			{"/texture/common/roof/tiled10_x" "2"}
 			{"/texture/common/wall/plant_admin_1" "1"}
 			{"/texture/common/roof/roof_sh29" "lightwood"}
 		}
@@ -478,7 +478,6 @@
 			{"/texture/common/roof/roof_sh29" "1"}
 			{"/texture/common/decor/cut_sh14" "2"}
 			{"/texture/common/wall/wall_int04" "1"}
-			{"/texture/common/roof/tiled10_x" "2"}
 			{"/texture/common/wall/plant_admin_1" "1"}
 		}
 	}
@@ -487,7 +486,6 @@
 			{"/texture/common/roof/roof_sh29" "1"}
 			{"/texture/common/decor/cut_sh14" "2"}
 			{"/texture/common/wall/wall_int04" "1"}
-			{"/texture/common/roof/tiled10_x" "2"}
 			{"/texture/common/wall/plant_admin_1" "1"}
 		}
 		{Armor
@@ -515,7 +513,6 @@
 			{"/texture/common/roof/roof_sh29" "1"}
 			{"/texture/common/decor/cut_sh14" "2"}
 			{"/texture/common/wall/wall_int04" "1"}
-			{"/texture/common/roof/tiled10_x" "2"}
 			{"/texture/common/wall/plant_admin_1" "1"}
 		}
 		{Armor
@@ -563,7 +560,6 @@
 			{"/texture/common/roof/roof_sh29" "1"}
 			{"/texture/common/decor/cut_sh14" "2"}
 			{"/texture/common/wall/wall_int04" "1"}
-			{"/texture/common/roof/tiled10_x" "2"}
 			{"/texture/common/wall/plant_admin_1" "1"}
 		}
 	}
@@ -572,7 +568,6 @@
 			{"/texture/common/roof/roof_sh29" "1"}
 			{"/texture/common/decor/cut_sh14" "2"}
 			{"/texture/common/wall/wall_int04" "1"}
-			{"/texture/common/roof/tiled10_x" "2"}
 			{"/texture/common/wall/plant_admin_1" "1"}
 		}
 	}
@@ -581,7 +576,6 @@
 			{"/texture/common/roof/roof_sh29" "1"}
 			{"/texture/common/decor/cut_sh14" "2"}
 			{"/texture/common/wall/wall_int04" "1"}
-			{"/texture/common/roof/tiled10_x" "2"}
 			{"/texture/common/wall/plant_admin_1" "1"}
 		}
 	}
@@ -590,7 +584,6 @@
 			{"/texture/common/roof/roof_sh29" "1"}
 			{"/texture/common/decor/cut_sh14" "2"}
 			{"/texture/common/wall/wall_int04" "1"}
-			{"/texture/common/roof/tiled10_x" "2"}
 			{"/texture/common/wall/plant_admin_1" "1"}
 		}
 	}
@@ -599,7 +592,6 @@
 			{"/texture/common/roof/roof_sh29" "1"}
 			{"/texture/common/decor/cut_sh14" "2"}
 			{"/texture/common/wall/wall_int04" "1"}
-			{"/texture/common/roof/tiled10_x" "2"}
 			{"/texture/common/wall/plant_admin_1" "1"}
 		}
 	}
@@ -821,21 +813,18 @@
 	{Entity "fc_c10_roof1" 0x2abb
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "3"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c10_roof2" 0x2abc
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "3"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c9_roof" 0x2abd
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "3"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
@@ -848,7 +837,6 @@
 	{Entity "fc_c7_roof" 0x2ac0
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "3"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
@@ -858,28 +846,24 @@
 	{Entity "fc_c5_roof" 0x2ac2
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "3"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_int2_roof" 0x2ac4
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "3"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_int1_roof" 0x2ac5
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "3"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c2_roof1" 0x2ac7
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "3"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
@@ -1936,7 +1920,6 @@
 	{Entity "fc_c1_roof" 0x7059
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "1"}
 			{"/texture/common/roof/roof_sh26" "1"}
 		}
 	}
@@ -1946,7 +1929,6 @@
 	{Entity "fc_c7_roof" 0x705f
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "1"}
 			{"/texture/common/roof/roof_sh26" "1"}
 		}
 	}
@@ -1956,21 +1938,18 @@
 	{Entity "fc_c5_roof" 0x7061
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "1"}
 			{"/texture/common/roof/roof_sh26" "1"}
 		}
 	}
 	{Entity "fc_c4_roof" 0x7062
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "1"}
 			{"/texture/common/roof/roof_sh26" "1"}
 		}
 	}
 	{Entity "fc_c2_roof2" 0x7065
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "1"}
 			{"/texture/common/roof/roof_sh26" "1"}
 		}
 	}
@@ -2465,14 +2444,12 @@
 	{Entity "fc_c1_roof" 0x2058
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "1"}
 			{"/texture/common/roof/roof_sh26" "1"}
 		}
 	}
 	{Entity "fc_c10_roof1" 0x2059
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "1"}
 			{"/texture/common/roof/roof_sh26" "1"}
 		}
 	}
@@ -2485,7 +2462,6 @@
 	{Entity "fc_c7_roof" 0x205e
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "1"}
 			{"/texture/common/roof/roof_sh26" "1"}
 		}
 	}
@@ -2511,28 +2487,24 @@
 	{Entity "fc_c5_roof" 0x2060
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "1"}
 			{"/texture/common/roof/roof_sh26" "1"}
 		}
 	}
 	{Entity "fc_c4_roof" 0x2061
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "1"}
 			{"/texture/common/roof/roof_sh26" "1"}
 		}
 	}
 	{Entity "fc_c2_roof2" 0x2064
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "1"}
 			{"/texture/common/roof/roof_sh26" "1"}
 		}
 	}
 	{Entity "fc_c2_roof1" 0x2065
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "1"}
 			{"/texture/common/roof/roof_sh26" "1"}
 		}
 	}
@@ -2673,7 +2645,6 @@
 		{TexMod
 			{"/texture/common/decor/cut_sh14" "2"}
 			{"/texture/common/wall/wall_int04" "1"}
-			{"/texture/common/roof/tiled10_x" "2"}
 			{"/texture/common/wall/plant_admin_1" "1"}
 			{"/texture/common/roof/roof_sh29" "1"}
 		}
@@ -2714,7 +2685,6 @@
 		{TexMod
 			{"/texture/common/decor/cut_sh14" "2"}
 			{"/texture/common/wall/wall_int04" "1"}
-			{"/texture/common/roof/tiled10_x" "2"}
 			{"/texture/common/wall/plant_admin_1" "1"}
 			{"/texture/common/roof/roof_sh29" "1"}
 		}
@@ -2755,7 +2725,6 @@
 		{TexMod
 			{"/texture/common/decor/cut_sh14" "2"}
 			{"/texture/common/wall/wall_int04" "1"}
-			{"/texture/common/roof/tiled10_x" "2"}
 			{"/texture/common/wall/plant_admin_1" "1"}
 			{"/texture/common/roof/roof_sh29" "1"}
 		}
@@ -4164,28 +4133,24 @@
 	{Entity "fc_c1_roof" 0x20f2
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c10_roof1" 0x20f3
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c10_roof2" 0x20f4
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c9_roof" 0x20f5
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
@@ -4198,7 +4163,6 @@
 	{Entity "fc_c7_roof" 0x20f8
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
@@ -4208,42 +4172,36 @@
 	{Entity "fc_c5_roof" 0x20fa
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c4_roof" 0x20fb
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_int2_roof" 0x20fc
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_int1_roof" 0x20fd
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c2_roof2" 0x20fe
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c2_roof1" 0x20ff
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
@@ -4536,28 +4494,24 @@
 	{Entity "fc_c1_roof" 0x212d
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c10_roof1" 0x212e
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c10_roof2" 0x212f
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c9_roof" 0x2130
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
@@ -4570,7 +4524,6 @@
 	{Entity "fc_c7_roof" 0x2133
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
@@ -4580,42 +4533,36 @@
 	{Entity "fc_c5_roof" 0x2135
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c4_roof" 0x2136
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_int2_roof" 0x2137
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_int1_roof" 0x2138
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c2_roof2" 0x2139
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c2_roof1" 0x213a
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
@@ -5251,18 +5198,6 @@
 		{Position 1153.89 1533.98}
 		{xform zl -101.47}
 	}
-	{Entity "shellhole_medium" 0x683e
-		{Position 1217.09 -15.57}
-		{DecalOrder 20}
-	}
-	{Entity "shellhole_medium" 0x683f
-		{Position 1418.25 153.33}
-		{DecalOrder 20}
-	}
-	{Entity "shellhole_medium" 0x6841
-		{Position 1531.85 57.08}
-		{DecalOrder 20}
-	}
 	{Entity "shellhole_dead_tank2" 0x6842
 		{Position 2522.15 284.35}
 		{DecalOrder 20}
@@ -5483,25 +5418,21 @@
 	}
 	{Entity "fc_c1_roof" 0x2078
 		{TexMod
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c10_roof1" 0x2079
 		{TexMod
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c10_roof2" 0x207a
 		{TexMod
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c9_roof" 0x207b
 		{TexMod
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
@@ -5513,7 +5444,6 @@
 	}
 	{Entity "fc_c7_roof" 0x207e
 		{TexMod
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
@@ -5522,37 +5452,31 @@
 	}
 	{Entity "fc_c5_roof" 0x2080
 		{TexMod
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c4_roof" 0x2081
 		{TexMod
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_int2_roof" 0x2082
 		{TexMod
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_int1_roof" 0x2083
 		{TexMod
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c2_roof2" 0x2084
 		{TexMod
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c2_roof1" 0x2085
 		{TexMod
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
@@ -6143,25 +6067,21 @@
 	}
 	{Entity "fc_c1_roof" 0x144c
 		{TexMod
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c10_roof1" 0x144d
 		{TexMod
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c10_roof2" 0x144e
 		{TexMod
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c9_roof" 0x144f
 		{TexMod
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
@@ -6173,7 +6093,6 @@
 	}
 	{Entity "fc_c7_roof" 0x1452
 		{TexMod
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
@@ -6182,19 +6101,16 @@
 	}
 	{Entity "fc_c5_roof" 0x1454
 		{TexMod
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_int2_roof" 0x1456
 		{TexMod
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_int1_roof" 0x1457
 		{TexMod
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
@@ -7357,7 +7273,6 @@
 	{Entity "pool2_b" 0x324c
 		{Position 359.59 -1333.95}
 		{xform zl -27.38}
-		{TexMod "darkblue"}
 	}
 	{Entity "crash_brick1a" 0x77c
 		{Position 1412.57 -465.42}
@@ -7562,7 +7477,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 			{"/texture/common/window & door/door_sh19" "sov1"}
 			{"/texture/common/wall/interior_wall1" "sov1"}
 		}
@@ -7572,7 +7486,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 			{"/texture/common/wall/interior_wall1" "sov1"}
 		}
 		{Armor
@@ -7606,7 +7519,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 			{"/texture/common/wall/interior_wall1" "sov1"}
 		}
 		{Armor
@@ -7647,7 +7559,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 			{"/texture/common/wall/interior_wall1" "sov1"}
 		}
 		{Armor
@@ -7675,7 +7586,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 			{"/texture/common/window & door/door_sh19" "sov1"}
 			{"/texture/common/wall/interior_wall1" "sov1"}
 		}
@@ -7685,7 +7595,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 			{"/texture/common/window & door/door_sh19" "sov1"}
 			{"/texture/common/wall/interior_wall1" "sov1"}
 		}
@@ -7695,7 +7604,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 			{"/texture/common/window & door/door_sh19" "sov1"}
 			{"/texture/common/wall/interior_wall1" "sov1"}
 		}
@@ -7703,7 +7611,6 @@
 	{Entity "station_corner9" 0x5043
 		{TexMod
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 		}
 		{Armor
@@ -7729,7 +7636,6 @@
 	{Entity "station_corner10" 0x504d
 		{TexMod
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 		}
 		{Armor
@@ -7755,7 +7661,6 @@
 	{Entity "station_corner11" 0x504e
 		{TexMod
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 		}
 		{Armor
@@ -7800,7 +7705,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 			{"/texture/common/decor/cut001_2" "2"}
 			{"/texture/common/wall/interior_wall1" "sov1"}
 			{"/texture/common/window & door/door_sh19" "sov1"}
@@ -7811,7 +7715,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 			{"/texture/common/decor/cut001_2" "2"}
 			{"/texture/common/wall/interior_wall1" "sov1"}
 		}
@@ -7840,7 +7743,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 			{"/texture/common/decor/cut001_2" "2"}
 			{"/texture/common/wall/interior_wall1" "sov1"}
 		}
@@ -7882,7 +7784,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 			{"/texture/common/decor/cut001_2" "2"}
 			{"/texture/common/wall/interior_wall1" "sov1"}
 		}
@@ -7911,7 +7812,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 			{"/texture/common/decor/cut001_2" "2"}
 			{"/texture/common/wall/interior_wall1" "sov1"}
 		}
@@ -7940,7 +7840,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 			{"/texture/common/decor/cut001_2" "2"}
 			{"/texture/common/wall/interior_wall1" "sov1"}
 			{"/texture/common/window & door/door_sh19" "sov1"}
@@ -7965,21 +7864,18 @@
 	{Entity "station_corner9" 0x5084
 		{TexMod
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 		}
 	}
 	{Entity "station_corner10" 0x5085
 		{TexMod
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 		}
 	}
 	{Entity "station_corner11" 0x5086
 		{TexMod
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 		}
 	}
@@ -8006,7 +7902,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 			{"/texture/common/decor/cut001_2" "2"}
 			{"/texture/common/wall/interior_wall1" "sov1"}
 			{"/texture/common/window & door/door_sh19" "sov1"}
@@ -8017,7 +7912,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 			{"/texture/common/decor/cut001_2" "2"}
 			{"/texture/common/wall/interior_wall1" "sov1"}
 		}
@@ -8046,7 +7940,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 			{"/texture/common/decor/cut001_2" "2"}
 			{"/texture/common/wall/interior_wall1" "sov1"}
 		}
@@ -8075,7 +7968,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 			{"/texture/common/decor/cut001_2" "2"}
 			{"/texture/common/wall/interior_wall1" "sov1"}
 		}
@@ -8085,7 +7977,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 			{"/texture/common/decor/cut001_2" "2"}
 			{"/texture/common/wall/interior_wall1" "sov1"}
 		}
@@ -8095,7 +7986,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 			{"/texture/common/decor/cut001_2" "2"}
 			{"/texture/common/wall/interior_wall1" "sov1"}
 			{"/texture/common/window & door/door_sh19" "sov1"}
@@ -8106,7 +7996,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 			{"/texture/common/decor/cut001_2" "2"}
 			{"/texture/common/wall/interior_wall1" "sov1"}
 			{"/texture/common/window & door/door_sh19" "sov1"}
@@ -8117,7 +8006,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 			{"/texture/common/decor/cut001_2" "2"}
 			{"/texture/common/wall/interior_wall1" "sov1"}
 			{"/texture/common/window & door/door_sh19" "sov1"}
@@ -8126,21 +8014,18 @@
 	{Entity "station_corner9" 0x5090
 		{TexMod
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 		}
 	}
 	{Entity "station_corner10" 0x5091
 		{TexMod
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 		}
 	}
 	{Entity "station_corner11" 0x5092
 		{TexMod
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 		}
 	}
@@ -8175,7 +8060,6 @@
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_42" "3a"}
 			{"/texture/common/roof/roof_sh33" "1"}
-			{"/texture/common/roof/roof_sh33_x" "1"}
 			{"/texture/common/window & door/window01" "3a"}
 		}
 	}
@@ -8183,14 +8067,12 @@
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_42" "3a"}
 			{"/texture/common/roof/roof_sh33" "1"}
-			{"/texture/common/roof/roof_sh33_x" "1"}
 		}
 	}
 	{Entity "kaserne_corn1" 0x3026
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_42" "3a"}
 			{"/texture/common/roof/roof_sh33" "1"}
-			{"/texture/common/roof/roof_sh33_x" "1"}
 			{"/texture/common/window & door/window01" "3a"}
 		}
 	}
@@ -8198,7 +8080,6 @@
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_42" "3a"}
 			{"/texture/common/roof/roof_sh33" "1"}
-			{"/texture/common/roof/roof_sh33_x" "1"}
 			{"/texture/common/window & door/window01" "3a"}
 		}
 	}
@@ -8206,7 +8087,6 @@
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_42" "3a"}
 			{"/texture/common/roof/roof_sh33" "1"}
-			{"/texture/common/roof/roof_sh33_x" "1"}
 		}
 	}
 	{Entity "kaserne_corn12" 0x3033
@@ -8218,7 +8098,6 @@
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_42" "3a"}
 			{"/texture/common/roof/roof_sh33" "1"}
-			{"/texture/common/roof/roof_sh33_x" "1"}
 			{"/texture/common/window & door/window01" "3a"}
 		}
 	}
@@ -8226,14 +8105,12 @@
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_42" "3a"}
 			{"/texture/common/roof/roof_sh33" "1"}
-			{"/texture/common/roof/roof_sh33_x" "1"}
 		}
 	}
 	{Entity "kaserne_corn17" 0x3037
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_42" "3a"}
 			{"/texture/common/roof/roof_sh33" "1"}
-			{"/texture/common/roof/roof_sh33_x" "1"}
 			{"/texture/common/window & door/window01" "3a"}
 		}
 	}
@@ -8242,7 +8119,6 @@
 			{"/texture/common/wall/wall_euro_sh_42" "3a"}
 			{"/texture/common/wall/wall_euro_sh_43" "2"}
 			{"/texture/common/roof/roof_sh33" "1"}
-			{"/texture/common/roof/roof_sh33_x" "1"}
 			{"/texture/common/window & door/window01" "3a"}
 		}
 	}
@@ -8250,7 +8126,6 @@
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_42" "3a"}
 			{"/texture/common/roof/roof_sh33" "1"}
-			{"/texture/common/roof/roof_sh33_x" "1"}
 			{"/texture/common/window & door/window01" "3a"}
 		}
 	}
@@ -8258,20 +8133,17 @@
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_42" "3a"}
 			{"/texture/common/roof/roof_sh33" "1"}
-			{"/texture/common/roof/roof_sh33_x" "1"}
 		}
 	}
 	{Entity "kaserne_corn11" 0x303c
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_42" "3a"}
 			{"/texture/common/roof/roof_sh33" "1"}
-			{"/texture/common/roof/roof_sh33_x" "1"}
 		}
 	}
 	{Entity "kaserne_corn19" 0x303e
 		{TexMod
 			{"/texture/common/roof/roof_sh33" "1"}
-			{"/texture/common/roof/roof_sh33_x" "1"}
 			{"/texture/common/wall/wall_euro_sh_42" "3a"}
 			{"/texture/common/window & door/window01" "3a"}
 		}
@@ -8279,7 +8151,6 @@
 	{Entity "kaserne_corn20" 0x303f
 		{TexMod
 			{"/texture/common/roof/roof_sh33" "1"}
-			{"/texture/common/roof/roof_sh33_x" "1"}
 			{"/texture/common/wall/wall_euro_sh_42" "3a"}
 		}
 	}
@@ -8415,18 +8286,6 @@
 	{Entity "viaduct" 0x2841
 		{Position 485.93 4268.61}
 		{xform zl -90.13}
-	}
-	{Entity "watch_tower_1" 0x2842
-		{Position -2109.41 4988.76}
-	}
-	{Entity "mg34_tower" 0x2843
-		{Extender "cannon"
-			{animation
-				{switch close}
-			}
-		}
-		
-
 	}
 	{Entity "viaduct" 0x284a
 		{Position 654.21 4268.89 0}
@@ -8597,14 +8456,6 @@
 		{Position -94.57 3304.43}
 		{xform zl -89.84}
 	}
-	{Entity "fence_stone3b_n" 0x58b4
-		{Position -94.45 3175.88}
-		{xform zl -89.84}
-	}
-	{Entity "fence_stone3b_n" 0x58b5
-		{Position -93.65 3047.56}
-		{xform zl -89.84}
-	}
 	{Entity "fence_stone3b_n" 0x58be
 		{Position -96.74 3688.01}
 		{xform zl -89.84}
@@ -8755,7 +8606,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 		}
 		{Armor
 			{wounds
@@ -8783,7 +8633,6 @@
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
 			{"/texture/common/wall/wall_brick_sh02" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 		}
 	}
 	{Entity "station_h_corner3" 0xe20
@@ -8792,7 +8641,6 @@
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
 			{"/texture/common/wall/wall_brick_sh02" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 		}
 	}
 	{Entity "station_h_corner4" 0xe21
@@ -8801,7 +8649,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 		}
 	}
 	{Entity "station_h_corner5" 0xe22
@@ -8810,7 +8657,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 		}
 	}
 	{Entity "station_h_corner7" 0xe23
@@ -8819,7 +8665,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 		}
 		{Armor
 			{wounds
@@ -8847,7 +8692,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 		}
 		{Armor
 			{wounds
@@ -8923,7 +8767,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 		}
 	}
 	{Entity "station_corner1" 0xc2d
@@ -8931,7 +8774,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 			{"/texture/common/decor/cut001_2" "2"}
 			{"/texture/common/wall/interior_wall1" "sov1"}
 			{"/texture/common/window & door/door_sh19" "sov1"}
@@ -8942,7 +8784,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 			{"/texture/common/decor/cut001_2" "2"}
 			{"/texture/common/wall/interior_wall1" "sov1"}
 		}
@@ -8952,7 +8793,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 			{"/texture/common/decor/cut001_2" "2"}
 			{"/texture/common/wall/interior_wall1" "sov1"}
 		}
@@ -8962,7 +8802,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 			{"/texture/common/decor/cut001_2" "2"}
 			{"/texture/common/wall/interior_wall1" "sov1"}
 		}
@@ -8972,7 +8811,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 			{"/texture/common/decor/cut001_2" "2"}
 			{"/texture/common/wall/interior_wall1" "sov1"}
 		}
@@ -8982,7 +8820,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 			{"/texture/common/decor/cut001_2" "2"}
 			{"/texture/common/wall/interior_wall1" "sov1"}
 			{"/texture/common/window & door/door_sh19" "sov1"}
@@ -8993,7 +8830,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 			{"/texture/common/decor/cut001_2" "2"}
 			{"/texture/common/wall/interior_wall1" "sov1"}
 			{"/texture/common/window & door/door_sh19" "sov1"}
@@ -9004,7 +8840,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 			{"/texture/common/decor/cut001_2" "2"}
 			{"/texture/common/wall/interior_wall1" "sov1"}
 			{"/texture/common/window & door/door_sh19" "sov1"}
@@ -9013,21 +8848,18 @@
 	{Entity "station_corner9" 0xc35
 		{TexMod
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 		}
 	}
 	{Entity "station_corner10" 0xc36
 		{TexMod
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 		}
 	}
 	{Entity "station_corner11" 0xc37
 		{TexMod
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 		}
 	}
@@ -9161,7 +8993,6 @@
 	}
 	{Entity "pool3" 0x8af
 		{Position 111.59 4508.06}
-		{TexMod "darkblue"}
 	}
 	{Entity "jjj" 0x8b1
 		{Position 415.19 4484.97}
@@ -9969,12 +9800,6 @@
 	}
 	{Entity "fc_c6_2" 0x619c
 		{SkeletonSrc "fc_c6_2_x"}
-		{TexMod
-			{"/texture/common/decor/floor_sh01" "green_floor"}
-			{"/texture/common/decor/cut_sh14" "2"}
-			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/wall/wall_euro_sh_27" "ruin"}
-		}
 		{Armor
 			{wounds
 				{damage "body2" -2.15215 1
@@ -10277,12 +10102,6 @@
 	}
 	{Entity "fc_c6_3" 0x61aa
 		{SkeletonSrc "fc_c6_3_x"}
-		{TexMod
-			{"/texture/common/decor/floor_sh01" "green_floor"}
-			{"/texture/common/decor/cut_sh14" "2"}
-			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/wall/wall_euro_sh_27" "ruin"}
-		}
 		{Placer
 			{State "1" {Broken}}
 		}
@@ -10397,28 +10216,24 @@
 	{Entity "fc_c1_roof" 0x61b7
 		{TexMod
 			{"/texture/common/roof/roof_sh26" "2"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
 		}
 	}
 	{Entity "fc_c10_roof1" 0x61b8
 		{TexMod
 			{"/texture/common/roof/roof_sh26" "2"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
 		}
 	}
 	{Entity "fc_c10_roof2" 0x61b9
 		{TexMod
 			{"/texture/common/roof/roof_sh26" "2"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
 		}
 	}
 	{Entity "fc_c9_roof" 0x61ba
 		{TexMod
 			{"/texture/common/roof/roof_sh26" "2"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
 		}
 	}
@@ -10431,7 +10246,6 @@
 	{Entity "fc_c7_roof" 0x61bd
 		{TexMod
 			{"/texture/common/roof/roof_sh26" "2"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
 		}
 	}
@@ -10454,7 +10268,6 @@
 	{Entity "fc_c5_roof" 0x61bf
 		{TexMod
 			{"/texture/common/roof/roof_sh26" "2"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
 		}
 		{Armor
@@ -10480,7 +10293,6 @@
 	{Entity "fc_c4_roof" 0x61c0
 		{TexMod
 			{"/texture/common/roof/roof_sh26" "2"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
 		}
 		{Armor
@@ -10519,21 +10331,18 @@
 	{Entity "fc_int2_roof" 0x61c1
 		{TexMod
 			{"/texture/common/roof/roof_sh26" "2"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
 		}
 	}
 	{Entity "fc_int1_roof" 0x61c2
 		{TexMod
 			{"/texture/common/roof/roof_sh26" "2"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
 		}
 	}
 	{Entity "fc_c2_roof2" 0x61c3
 		{TexMod
 			{"/texture/common/roof/roof_sh26" "2"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
 		}
 		{Armor
@@ -10559,7 +10368,6 @@
 	{Entity "fc_c2_roof1" 0x61c4
 		{TexMod
 			{"/texture/common/roof/roof_sh26" "2"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
 		}
 	}
@@ -10930,7 +10738,6 @@
 	{Entity "fc_c1_roof" 0x61ef
 		{TexMod
 			{"/texture/common/roof/roof_sh26" "2"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
 		}
 		{Armor
@@ -10956,7 +10763,6 @@
 	{Entity "fc_c10_roof1" 0x61f0
 		{TexMod
 			{"/texture/common/roof/roof_sh26" "2"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
 		}
 		{Armor
@@ -10982,7 +10788,6 @@
 	{Entity "fc_c10_roof2" 0x61f1
 		{TexMod
 			{"/texture/common/roof/roof_sh26" "2"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
 		}
 		{Armor
@@ -11008,7 +10813,6 @@
 	{Entity "fc_c9_roof" 0x61f2
 		{TexMod
 			{"/texture/common/roof/roof_sh26" "2"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
 		}
 	}
@@ -11018,21 +10822,18 @@
 	{Entity "fc_int1_roof" 0x61fa
 		{TexMod
 			{"/texture/common/roof/roof_sh26" "2"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
 		}
 	}
 	{Entity "fc_c2_roof2" 0x61fb
 		{TexMod
 			{"/texture/common/roof/roof_sh26" "2"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
 		}
 	}
 	{Entity "fc_c2_roof1" 0x61fc
 		{TexMod
 			{"/texture/common/roof/roof_sh26" "2"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
 		}
 	}
@@ -11357,7 +11158,6 @@
 	{Entity "fc_c10_roof1" 0x622a
 		{TexMod
 			{"/texture/common/roof/roof_sh26" "2"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
 		}
 		{Armor
@@ -11383,28 +11183,24 @@
 	{Entity "fc_c4_roof" 0x6232
 		{TexMod
 			{"/texture/common/roof/roof_sh26" "2"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
 		}
 	}
 	{Entity "fc_int1_roof" 0x6234
 		{TexMod
 			{"/texture/common/roof/roof_sh26" "2"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
 		}
 	}
 	{Entity "fc_c2_roof2" 0x6235
 		{TexMod
 			{"/texture/common/roof/roof_sh26" "2"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
 		}
 	}
 	{Entity "fc_c2_roof1" 0x6236
 		{TexMod
 			{"/texture/common/roof/roof_sh26" "2"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
 		}
 	}
@@ -11652,14 +11448,12 @@
 	{Entity "fc_c1_roof" 0x6261
 		{TexMod
 			{"/texture/common/roof/roof_sh26" "2"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
 		}
 	}
 	{Entity "fc_c10_roof1" 0x6262
 		{TexMod
 			{"/texture/common/roof/roof_sh26" "2"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
 		}
 	}
@@ -11669,7 +11463,6 @@
 	{Entity "fc_c5_roof" 0x6269
 		{TexMod
 			{"/texture/common/roof/roof_sh26" "2"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
 		}
 		{Armor
@@ -11695,7 +11488,6 @@
 	{Entity "fc_c4_roof" 0x626a
 		{TexMod
 			{"/texture/common/roof/roof_sh26" "2"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
 		}
 		{Armor
@@ -11734,14 +11526,12 @@
 	{Entity "fc_int1_roof" 0x626c
 		{TexMod
 			{"/texture/common/roof/roof_sh26" "2"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
 		}
 	}
 	{Entity "fc_c2_roof1" 0x626e
 		{TexMod
 			{"/texture/common/roof/roof_sh26" "2"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
 		}
 	}
@@ -11915,7 +11705,6 @@
 	{Entity "fc_c1_roof" 0x6229
 		{TexMod
 			{"/texture/common/roof/roof_sh26" "2"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
 		}
 		{Armor
@@ -12022,7 +11811,6 @@
 	{Entity "fc_c2_roof2" 0x626d
 		{TexMod
 			{"/texture/common/roof/roof_sh26" "2"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
 		}
 		{Armor
@@ -13479,7 +13267,6 @@
 	{Entity "fc_c1_roof" 0x873
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 		{Armor
@@ -13505,21 +13292,18 @@
 	{Entity "fc_c10_roof1" 0x877
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c10_roof2" 0x87f
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c9_roof" 0x880
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 		{Armor
@@ -13542,42 +13326,36 @@
 	{Entity "fc_c5_roof" 0x889
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c4_roof" 0x88d
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_int2_roof" 0x88f
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_int1_roof" 0x895
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c2_roof2" 0x897
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c2_roof1" 0x899
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
@@ -13774,7 +13552,6 @@
 	{Entity "fc_c7_roof" 0x9c8
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
@@ -14751,28 +14528,24 @@
 	{Entity "fc_c1_roof" 0x9f0
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c10_roof1" 0x9f1
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c10_roof2" 0x9f2
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c9_roof" 0x9f3
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
@@ -14785,7 +14558,6 @@
 	{Entity "fc_c7_roof" 0x9f6
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
@@ -14795,42 +14567,36 @@
 	{Entity "fc_c5_roof" 0x9f8
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c4_roof" 0x9f9
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_int2_roof" 0x9fa
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_int1_roof" 0x9fb
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c2_roof2" 0x9fc
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c2_roof1" 0x9fd
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
@@ -15393,56 +15159,48 @@
 	{Entity "fc_c1_roof" 0x9af
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c10_roof1" 0x9b0
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c10_roof2" 0x9b1
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c9_roof" 0x9b2
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c4_roof" 0x9b4
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_int2_roof" 0x9b5
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_int1_roof" 0x9b6
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c2_roof2" 0x9b7
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 		{Armor
@@ -15471,7 +15229,6 @@
 	{Entity "fc_c2_roof1" 0x9b8
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
@@ -16241,28 +15998,24 @@
 	{Entity "fc_c1_roof" 0xaae
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c10_roof1" 0xaaf
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c10_roof2" 0xab0
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c9_roof" 0xab1
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
@@ -16275,7 +16028,6 @@
 	{Entity "fc_c7_roof" 0xab4
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
@@ -16285,42 +16037,36 @@
 	{Entity "fc_c5_roof" 0xab6
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c4_roof" 0xab7
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_int2_roof" 0xab8
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_int1_roof" 0xab9
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c2_roof2" 0xaba
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c2_roof1" 0xabb
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
@@ -16727,7 +16473,6 @@
 		{TexMod
 			{"/texture/common/decor/cut_sh14" "2"}
 			{"/texture/common/wall/wall_int04" "2"}
-			{"/texture/common/roof/tiled10_x" "2"}
 			{"/texture/common/roof/roof_sh29" "lightwood"}
 		}
 		{Armor
@@ -16767,7 +16512,6 @@
 		{TexMod
 			{"/texture/common/decor/cut_sh14" "2"}
 			{"/texture/common/wall/wall_int04" "2"}
-			{"/texture/common/roof/tiled10_x" "2"}
 			{"/texture/common/roof/roof_sh29" "lightwood"}
 		}
 		{Armor
@@ -16807,7 +16551,6 @@
 		{TexMod
 			{"/texture/common/decor/cut_sh14" "2"}
 			{"/texture/common/wall/wall_int04" "2"}
-			{"/texture/common/roof/tiled10_x" "2"}
 			{"/texture/common/roof/roof_sh29" "lightwood"}
 		}
 	}
@@ -16815,7 +16558,6 @@
 		{TexMod
 			{"/texture/common/decor/cut_sh14" "2"}
 			{"/texture/common/wall/wall_int04" "2"}
-			{"/texture/common/roof/tiled10_x" "2"}
 			{"/texture/common/roof/roof_sh29" "lightwood"}
 		}
 	}
@@ -16823,7 +16565,6 @@
 		{TexMod
 			{"/texture/common/decor/cut_sh14" "2"}
 			{"/texture/common/wall/wall_int04" "2"}
-			{"/texture/common/roof/tiled10_x" "2"}
 			{"/texture/common/roof/roof_sh29" "lightwood"}
 		}
 	}
@@ -16927,7 +16668,6 @@
 		{TexMod
 			{"/texture/common/decor/cut_sh14" "2"}
 			{"/texture/common/wall/wall_int04" "2"}
-			{"/texture/common/roof/tiled10_x" "2"}
 			{"/texture/common/roof/roof_sh29" "lightwood"}
 		}
 		{Armor
@@ -16967,7 +16707,6 @@
 		{TexMod
 			{"/texture/common/decor/cut_sh14" "2"}
 			{"/texture/common/wall/wall_int04" "2"}
-			{"/texture/common/roof/tiled10_x" "2"}
 			{"/texture/common/roof/roof_sh29" "lightwood"}
 		}
 	}
@@ -16975,7 +16714,6 @@
 		{TexMod
 			{"/texture/common/decor/cut_sh14" "2"}
 			{"/texture/common/wall/wall_int04" "2"}
-			{"/texture/common/roof/tiled10_x" "2"}
 			{"/texture/common/roof/roof_sh29" "lightwood"}
 		}
 	}
@@ -17008,7 +16746,6 @@
 		{TexMod
 			{"/texture/common/decor/cut_sh14" "2"}
 			{"/texture/common/wall/wall_int04" "2"}
-			{"/texture/common/roof/tiled10_x" "2"}
 			{"/texture/common/roof/roof_sh29" "lightwood"}
 		}
 	}
@@ -17016,7 +16753,6 @@
 		{TexMod
 			{"/texture/common/decor/cut_sh14" "2"}
 			{"/texture/common/wall/wall_int04" "2"}
-			{"/texture/common/roof/tiled10_x" "2"}
 			{"/texture/common/roof/roof_sh29" "lightwood"}
 		}
 	}
@@ -17118,7 +16854,6 @@
 		{TexMod
 			{"/texture/common/decor/cut_sh14" "2"}
 			{"/texture/common/wall/wall_int04" "2"}
-			{"/texture/common/roof/tiled10_x" "2"}
 			{"/texture/common/roof/roof_sh29" "lightwood"}
 		}
 	}
@@ -17126,7 +16861,6 @@
 		{TexMod
 			{"/texture/common/decor/cut_sh14" "2"}
 			{"/texture/common/wall/wall_int04" "2"}
-			{"/texture/common/roof/tiled10_x" "2"}
 			{"/texture/common/roof/roof_sh29" "lightwood"}
 		}
 	}
@@ -17140,7 +16874,6 @@
 		{TexMod
 			{"/texture/common/decor/cut_sh14" "2"}
 			{"/texture/common/wall/wall_int04" "2"}
-			{"/texture/common/roof/tiled10_x" "2"}
 			{"/texture/common/roof/roof_sh29" "lightwood"}
 		}
 	}
@@ -17148,7 +16881,6 @@
 		{TexMod
 			{"/texture/common/decor/cut_sh14" "2"}
 			{"/texture/common/wall/wall_int04" "2"}
-			{"/texture/common/roof/tiled10_x" "2"}
 			{"/texture/common/roof/roof_sh29" "lightwood"}
 		}
 	}
@@ -17156,7 +16888,6 @@
 		{TexMod
 			{"/texture/common/decor/cut_sh14" "2"}
 			{"/texture/common/wall/wall_int04" "2"}
-			{"/texture/common/roof/tiled10_x" "2"}
 			{"/texture/common/roof/roof_sh29" "lightwood"}
 		}
 	}
@@ -17164,7 +16895,6 @@
 		{TexMod
 			{"/texture/common/decor/cut_sh14" "2"}
 			{"/texture/common/wall/wall_int04" "2"}
-			{"/texture/common/roof/tiled10_x" "2"}
 			{"/texture/common/roof/roof_sh29" "lightwood"}
 		}
 	}
@@ -17845,56 +17575,48 @@
 	{Entity "fc_c10_roof1" 0x6d6
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "3"}
 			{"/texture/common/roof/roof_sh26" "3"}
 		}
 	}
 	{Entity "fc_c10_roof2" 0x6d7
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "3"}
 			{"/texture/common/roof/roof_sh26" "3"}
 		}
 	}
 	{Entity "fc_c9_roof" 0x6d8
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "3"}
 			{"/texture/common/roof/roof_sh26" "3"}
 		}
 	}
 	{Entity "fc_c5_roof" 0x6dd
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "3"}
 			{"/texture/common/roof/roof_sh26" "3"}
 		}
 	}
 	{Entity "fc_c4_roof" 0x6de
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "3"}
 			{"/texture/common/roof/roof_sh26" "3"}
 		}
 	}
 	{Entity "fc_int2_roof" 0x6df
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "3"}
 			{"/texture/common/roof/roof_sh26" "3"}
 		}
 	}
 	{Entity "fc_int1_roof" 0x6e0
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "3"}
 			{"/texture/common/roof/roof_sh26" "3"}
 		}
 	}
 	{Entity "fc_c2_roof2" 0x6e1
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "3"}
 			{"/texture/common/roof/roof_sh26" "3"}
 		}
 	}
@@ -19599,10 +19321,6 @@
 		{Position -1973.92 5053.42}
 		{xform zl -179.57}
 	}
-	{Entity "fence_stone3b_n" 0xd5c
-		{Position -2102.22 5052.03}
-		{xform zl -179.57}
-	}
 	{Entity "fence_stone3b_n" 0xd66
 		{Position -1461.13 5056.88}
 		{xform zl -179.57}
@@ -20324,7 +20042,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "2"}
 			{"/texture/common/wall/wall_euro_sh_29" "2"}
 			{"/texture/common/roof/roof_met2_sh01" "2"}
-			{"/texture/common/roof/roof_met2_sh01_x" "2"}
 			{"/texture/common/decor/cut001_2" "2"}
 			{"/texture/common/wall/interior_wall1" "sov1"}
 			{"/texture/common/window & door/door_sh19" "sov1"}
@@ -20335,7 +20052,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "2"}
 			{"/texture/common/wall/wall_euro_sh_29" "2"}
 			{"/texture/common/roof/roof_met2_sh01" "2"}
-			{"/texture/common/roof/roof_met2_sh01_x" "2"}
 			{"/texture/common/decor/cut001_2" "2"}
 			{"/texture/common/wall/interior_wall1" "sov1"}
 		}
@@ -20383,7 +20099,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "2"}
 			{"/texture/common/wall/wall_euro_sh_29" "2"}
 			{"/texture/common/roof/roof_met2_sh01" "2"}
-			{"/texture/common/roof/roof_met2_sh01_x" "2"}
 			{"/texture/common/decor/cut001_2" "2"}
 			{"/texture/common/wall/interior_wall1" "sov1"}
 			{"/texture/common/window & door/door_sh19" "sov1"}
@@ -20394,7 +20109,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "2"}
 			{"/texture/common/wall/wall_euro_sh_29" "2"}
 			{"/texture/common/roof/roof_met2_sh01" "2"}
-			{"/texture/common/roof/roof_met2_sh01_x" "2"}
 			{"/texture/common/decor/cut001_2" "2"}
 			{"/texture/common/wall/interior_wall1" "sov1"}
 			{"/texture/common/window & door/door_sh19" "sov1"}
@@ -20405,7 +20119,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "2"}
 			{"/texture/common/wall/wall_euro_sh_29" "2"}
 			{"/texture/common/roof/roof_met2_sh01" "2"}
-			{"/texture/common/roof/roof_met2_sh01_x" "2"}
 			{"/texture/common/decor/cut001_2" "2"}
 			{"/texture/common/wall/interior_wall1" "sov1"}
 			{"/texture/common/window & door/door_sh19" "sov1"}
@@ -20414,14 +20127,12 @@
 	{Entity "station_corner9" 0x3833
 		{TexMod
 			{"/texture/common/roof/roof_met2_sh01" "2"}
-			{"/texture/common/roof/roof_met2_sh01_x" "2"}
 			{"/texture/common/wall/wall_euro_sh_29" "2"}
 		}
 	}
 	{Entity "station_corner10" 0x3834
 		{TexMod
 			{"/texture/common/roof/roof_met2_sh01" "2"}
-			{"/texture/common/roof/roof_met2_sh01_x" "2"}
 			{"/texture/common/wall/wall_euro_sh_29" "2"}
 		}
 	}
@@ -20450,7 +20161,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "2"}
 			{"/texture/common/wall/wall_euro_sh_29" "2"}
 			{"/texture/common/roof/roof_met2_sh01" "2"}
-			{"/texture/common/roof/roof_met2_sh01_x" "2"}
 			{"/texture/common/decor/cut001_2" "2"}
 			{"/texture/common/wall/interior_wall1" "sov1"}
 			{"/texture/common/window & door/door_sh19" "sov1"}
@@ -20461,7 +20171,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "2"}
 			{"/texture/common/wall/wall_euro_sh_29" "2"}
 			{"/texture/common/roof/roof_met2_sh01" "2"}
-			{"/texture/common/roof/roof_met2_sh01_x" "2"}
 			{"/texture/common/decor/cut001_2" "2"}
 			{"/texture/common/wall/interior_wall1" "sov1"}
 			{"/texture/common/window & door/door_sh19" "sov1"}
@@ -20495,7 +20204,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "2"}
 			{"/texture/common/wall/wall_euro_sh_29" "2"}
 			{"/texture/common/roof/roof_met2_sh01" "2"}
-			{"/texture/common/roof/roof_met2_sh01_x" "2"}
 		}
 	}
 	{Entity "station_corner1" 0x3838
@@ -20504,7 +20212,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "2"}
 			{"/texture/common/wall/wall_euro_sh_29" "2"}
 			{"/texture/common/roof/roof_met2_sh01" "2"}
-			{"/texture/common/roof/roof_met2_sh01_x" "2"}
 		}
 	}
 	{Entity "station_corner2" 0x3839
@@ -20513,7 +20220,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "2"}
 			{"/texture/common/wall/wall_euro_sh_29" "2"}
 			{"/texture/common/roof/roof_met2_sh01" "2"}
-			{"/texture/common/roof/roof_met2_sh01_x" "2"}
 		}
 		{Armor
 			{wounds
@@ -22789,32 +22495,6 @@
 	{Entity "barricade1_c" 0x622d
 		{Position -444.46 4574.44}
 		{xform zl 176.01}
-	}
-	{Entity "mg34_tower" 0x4600
-		{Extender "cannon"
-			{animation
-				{switch close}
-			}
-		}
-		
-
-	}
-	{Entity "watch_tower_1" 0x4601
-		{Position -1480.25 3035.95}
-		{xform zl 176.48}
-	}
-	{Entity "mg34_tower" 0x4603
-		{Extender "cannon"
-			{animation
-				{switch close}
-			}
-		}
-		
-
-	}
-	{Entity "watch_tower_1" 0x4604
-		{Position -1065.73 3029.22}
-		{xform zl 178.14}
 	}
 	{Entity "house_euro_115s_n" 0xe33
 		{Position -4150.2 3858.74 0}
@@ -25258,28 +24938,24 @@
 	{Entity "fc_c1_roof" 0x4150
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "3"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c10_roof1" 0x4151
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "3"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c10_roof2" 0x4156
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "3"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c9_roof" 0x4157
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "3"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
@@ -25292,7 +24968,6 @@
 	{Entity "fc_c7_roof" 0x415a
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "3"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
@@ -25302,42 +24977,36 @@
 	{Entity "fc_c5_roof" 0x415c
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "3"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c4_roof" 0x415d
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "3"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_int2_roof" 0x4163
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "3"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_int1_roof" 0x4165
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "3"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c2_roof2" 0x4166
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "3"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c2_roof1" 0x4167
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "3"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
@@ -25584,7 +25253,6 @@
 	{Entity "fc_c1_roof" 0x4117
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "3"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 		{Armor
@@ -25607,35 +25275,30 @@
 	{Entity "fc_c10_roof1" 0x4118
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "3"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c4_roof" 0x4120
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "3"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_int1_roof" 0x4122
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "3"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c2_roof2" 0x4123
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "3"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c2_roof1" 0x4124
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "3"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
@@ -25770,49 +25433,41 @@
 	{Entity "corner11" 0x67
 		{TexMod
 			{"/texture/common/roof/roof_sh29" "tile"}
-			{"/texture/common/roof/tiled10_x" "3"}
 		}
 	}
 	{Entity "corner12" 0x68
 		{TexMod
 			{"/texture/common/roof/roof_sh29" "tile"}
-			{"/texture/common/roof/tiled10_x" "3"}
 		}
 	}
 	{Entity "corner13" 0x69
 		{TexMod
 			{"/texture/common/roof/roof_sh29" "tile"}
-			{"/texture/common/roof/tiled10_x" "3"}
 		}
 	}
 	{Entity "corner15" 0x72
 		{TexMod
 			{"/texture/common/roof/roof_sh29" "tile"}
-			{"/texture/common/roof/tiled10_x" "3"}
 		}
 	}
 	{Entity "corner16" 0xe56
 		{TexMod
 			{"/texture/common/roof/roof_sh29" "tile"}
-			{"/texture/common/roof/tiled10_x" "3"}
 		}
 	}
 	{Entity "corner17" 0xe5c
 		{TexMod
 			{"/texture/common/roof/roof_sh29" "tile"}
-			{"/texture/common/roof/tiled10_x" "3"}
 		}
 	}
 	{Entity "corner18" 0xe66
 		{TexMod
 			{"/texture/common/roof/roof_sh29" "tile"}
-			{"/texture/common/roof/tiled10_x" "3"}
 		}
 	}
 	{Entity "corner19" 0xe67
 		{TexMod
 			{"/texture/common/roof/roof_sh29" "tile"}
-			{"/texture/common/roof/tiled10_x" "3"}
 		}
 	}
 	{Entity "admin_house" 0xe6f
@@ -26853,7 +26508,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "2"}
 			{"/texture/common/wall/wall_euro_sh_29" "2"}
 			{"/texture/common/roof/roof_met2_sh01" "2"}
-			{"/texture/common/roof/roof_met2_sh01_x" "2"}
 			{"/texture/common/decor/cut001_2" "2"}
 			{"/texture/common/wall/interior_wall1" "sov2"}
 			{"/texture/common/window & door/door_sh19" "sov1"}
@@ -26864,7 +26518,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "2"}
 			{"/texture/common/wall/wall_euro_sh_29" "2"}
 			{"/texture/common/roof/roof_met2_sh01" "2"}
-			{"/texture/common/roof/roof_met2_sh01_x" "2"}
 			{"/texture/common/decor/cut001_2" "2"}
 			{"/texture/common/wall/interior_wall1" "sov2"}
 		}
@@ -26874,7 +26527,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "2"}
 			{"/texture/common/wall/wall_euro_sh_29" "2"}
 			{"/texture/common/roof/roof_met2_sh01" "2"}
-			{"/texture/common/roof/roof_met2_sh01_x" "2"}
 			{"/texture/common/decor/cut001_2" "2"}
 			{"/texture/common/wall/interior_wall1" "sov2"}
 		}
@@ -26884,7 +26536,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "2"}
 			{"/texture/common/wall/wall_euro_sh_29" "2"}
 			{"/texture/common/roof/roof_met2_sh01" "2"}
-			{"/texture/common/roof/roof_met2_sh01_x" "2"}
 			{"/texture/common/decor/cut001_2" "2"}
 			{"/texture/common/wall/interior_wall1" "sov2"}
 		}
@@ -26894,7 +26545,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "2"}
 			{"/texture/common/wall/wall_euro_sh_29" "2"}
 			{"/texture/common/roof/roof_met2_sh01" "2"}
-			{"/texture/common/roof/roof_met2_sh01_x" "2"}
 			{"/texture/common/decor/cut001_2" "2"}
 			{"/texture/common/wall/interior_wall1" "sov2"}
 		}
@@ -26904,7 +26554,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "2"}
 			{"/texture/common/wall/wall_euro_sh_29" "2"}
 			{"/texture/common/roof/roof_met2_sh01" "2"}
-			{"/texture/common/roof/roof_met2_sh01_x" "2"}
 			{"/texture/common/decor/cut001_2" "2"}
 			{"/texture/common/wall/interior_wall1" "sov2"}
 			{"/texture/common/window & door/door_sh19" "sov1"}
@@ -26913,14 +26562,12 @@
 	{Entity "station_corner9" 0x1107
 		{TexMod
 			{"/texture/common/roof/roof_met2_sh01" "2"}
-			{"/texture/common/roof/roof_met2_sh01_x" "2"}
 			{"/texture/common/wall/wall_euro_sh_29" "2"}
 		}
 	}
 	{Entity "station_corner10" 0x1108
 		{TexMod
 			{"/texture/common/roof/roof_met2_sh01" "2"}
-			{"/texture/common/roof/roof_met2_sh01_x" "2"}
 			{"/texture/common/wall/wall_euro_sh_29" "2"}
 		}
 	}
@@ -27774,11 +27421,6 @@
 		{xform zl -90.5}
 		{Color 0xffc5c5c5}
 	}
-	{Entity "alley_dirtbricks2" 0xc0a
-		{Position -2614.59 1000.07}
-		{xform zl -90.23}
-		{Color 0xffc5c5c5}
-	}
 	{Entity "alley_dirtbricks2" 0xc0b
 		{Position -2614.99 1419.95}
 		{xform zl -90.23}
@@ -28064,19 +27706,16 @@
 	}
 	{Entity "fc_c10_roof1" 0x1c2c
 		{TexMod
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c10_roof2" 0x1c2d
 		{TexMod
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c9_roof" 0x1c2e
 		{TexMod
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
@@ -28085,31 +27724,26 @@
 	}
 	{Entity "fc_c4_roof" 0x1c34
 		{TexMod
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_int2_roof" 0x1c35
 		{TexMod
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_int1_roof" 0x1c36
 		{TexMod
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c2_roof2" 0x1c37
 		{TexMod
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c2_roof1" 0x1c38
 		{TexMod
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
@@ -28344,7 +27978,6 @@
 	}
 	{Entity "fc_c7_roof" 0x1c68
 		{TexMod
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
@@ -28353,13 +27986,11 @@
 	}
 	{Entity "fc_c2_roof2" 0x1c6e
 		{TexMod
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c2_roof1" 0x1c6f
 		{TexMod
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
@@ -31828,20 +31459,13 @@
 	}
 	{Entity "fc_c1_roof" 0x4004
 		{TexMod
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c1_roof" 0x410d
 		{TexMod
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
-	}
-	{Entity "reichstag_building1" 0x11e4
-		{Position -2750.32 842.15}
-		{xform zl -89.57}
-		{Constrain none}
 	}
 	{Entity "alley_dirtbricks2" 0x7801
 		{Position -2617.83 45.5}
@@ -31862,13 +31486,6 @@
 		{Position -2510.13 -684.45}
 		{xform zl -90.23}
 		{Color 0xffc5c5c5}
-	}
-	{Entity "pool_benz2a" 0x7905
-		{Position -1633.01 3144.44}
-	}
-	{Entity "pool_benz2a" 0x7906
-		{Position -1728.86 3057.8}
-		{xform zl -122.35}
 	}
 	{Entity "crack1" 0x7907
 		{Position -1462.29 3451.25}
@@ -32288,10 +31905,6 @@
 		{Position -3838.63 1144.49}
 		{xform zl -0.25}
 	}
-	{Entity "border_s2a" 0x1295
-		{Position -3527.31 1143.09}
-		{xform zl -0.25}
-	}
 	{Entity "border_s2a" 0x1296
 		{Position -3220.08 1141.58}
 		{xform zl -0.25}
@@ -32505,10 +32118,6 @@
 		{Position -3802.36 821.02}
 		{xform zl 89.75}
 	}
-	{Entity "border_s2a" 0x21c1
-		{Position -3638.89 979.58}
-		{xform zl -0.25}
-	}
 	{Entity "border_s2a" 0x21c4
 		{Position -2580.83 983.53}
 		{xform zl 89.75}
@@ -32600,10 +32209,6 @@
 	}
 	{Entity "shellhole_big_road" 0x21da
 		{Position -3020.84 1146.58}
-		{DecalOrder 20}
-	}
-	{Entity "shellhole_big_road" 0x21db
-		{Position -3304.36 1131.12}
 		{DecalOrder 20}
 	}
 	{Entity "shellhole_big_road" 0x21dc
@@ -33771,25 +33376,21 @@
 	}
 	{Entity "fc_c1_roof" 0x5951
 		{TexMod
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c10_roof1" 0x5952
 		{TexMod
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c10_roof2" 0x5953
 		{TexMod
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c9_roof" 0x5954
 		{TexMod
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
@@ -33801,7 +33402,6 @@
 	}
 	{Entity "fc_c7_roof" 0x5957
 		{TexMod
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
@@ -33810,37 +33410,31 @@
 	}
 	{Entity "fc_c5_roof" 0x5959
 		{TexMod
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c4_roof" 0x595a
 		{TexMod
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_int2_roof" 0x595b
 		{TexMod
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_int1_roof" 0x595c
 		{TexMod
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c2_roof2" 0x595d
 		{TexMod
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c2_roof1" 0x595e
 		{TexMod
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
@@ -34136,25 +33730,21 @@
 	}
 	{Entity "fc_c1_roof" 0x5989
 		{TexMod
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c10_roof1" 0x598a
 		{TexMod
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c10_roof2" 0x598b
 		{TexMod
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c9_roof" 0x598c
 		{TexMod
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
@@ -34166,7 +33756,6 @@
 	}
 	{Entity "fc_c7_roof" 0x598f
 		{TexMod
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
@@ -34175,37 +33764,31 @@
 	}
 	{Entity "fc_c5_roof" 0x5991
 		{TexMod
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c4_roof" 0x5992
 		{TexMod
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_int2_roof" 0x5993
 		{TexMod
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_int1_roof" 0x5994
 		{TexMod
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c2_roof2" 0x5995
 		{TexMod
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c2_roof1" 0x5996
 		{TexMod
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
@@ -36789,28 +36372,24 @@
 	{Entity "fc_c1_roof" 0x3091
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c10_roof1" 0x3092
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c10_roof2" 0x3093
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c9_roof" 0x3094
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
@@ -36823,7 +36402,6 @@
 	{Entity "fc_c7_roof" 0x3097
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
@@ -36833,35 +36411,30 @@
 	{Entity "fc_c5_roof" 0x3099
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c4_roof" 0x309a
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_int2_roof" 0x309b
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_int1_roof" 0x309c
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c2_roof2" 0x309d
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 		{Armor
@@ -36884,7 +36457,6 @@
 	{Entity "fc_c2_roof1" 0x309e
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
@@ -37382,14 +36954,12 @@
 	{Entity "fc_c1_roof" 0x30c8
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c10_roof1" 0x30c9
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 		{Armor
@@ -37412,14 +36982,12 @@
 	{Entity "fc_c10_roof2" 0x30ca
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c9_roof" 0x30cb
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
@@ -37454,7 +37022,6 @@
 	{Entity "fc_c7_roof" 0x30ce
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
@@ -37464,42 +37031,36 @@
 	{Entity "fc_c5_roof" 0x30d0
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c4_roof" 0x30d1
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_int2_roof" 0x30d2
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_int1_roof" 0x30d3
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c2_roof2" 0x30d4
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c2_roof1" 0x30d5
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
@@ -38876,134 +38437,68 @@
 			{State "w8r_c7_3" {Unlinked}}
 		}
 	}
-	{Entity "crash_brick1a" 0x10c7
-		{Position -3441.73 1034.16 1.56}
-		{xform zl -168.31}
-		{DecalOrder 5}
-		{Color 0xffb8b8b8}
-	}
-	{Entity "crash_brick1a" 0x10c8
-		{Position -3437.75 964.28 5.77}
-		{xform zl -113.21}
-		{DecalOrder 5}
-		{Color 0xffb8b8b8}
-	}
-	{Entity "crash_brick1a" 0x10c9
-		{Position -3333.83 992.15 16.5}
-		{xform zl 156.04}
-		{DecalOrder 5}
-		{Color 0xffb8b8b8}
-	}
-	{Entity "crash_brick1a" 0x10ca
-		{Position -3174.76 1001.49 12.53}
-		{xform zl -132.71}
-		{DecalOrder 5}
-		{Color 0xffb8b8b8}
-	}
-	{Entity "crash_brick1a" 0x10cb
-		{Position -3094.99 1035.36 19.49}
-		{xform zl -169.15}
-		{DecalOrder 5}
-		{Color 0xffb8b8b8}
-	}
 	{Entity "crash_brick1a" 0x10cc
-		{Position -2969.27 1051.08 13.81}
-		{xform zl -168.31}
-		{DecalOrder 5}
-		{Color 0xffb8b8b8}
-	}
-	{Entity "crash_brick1a" 0x10cd
-		{Position -2954.27 986.79 16.51}
-		{xform zl -168.31}
-		{DecalOrder 5}
-		{Color 0xffb8b8b8}
-	}
-	{Entity "crash_brick1a" 0x10ce
-		{Position -2962.29 940.5 8.49}
-		{xform zl 43.21}
-		{DecalOrder 5}
-		{Color 0xffb8b8b8}
-	}
-	{Entity "crash_brick1a" 0x10cf
-		{Position -3050.59 879.53 13.04}
+		{Position -2969.27 1051.08 5.07}
 		{xform zl -168.31}
 		{DecalOrder 5}
 		{Color 0xffb8b8b8}
 	}
 	{Entity "crash_brick1a" 0x10d0
-		{Position -3016.3 777.24 4.74}
+		{Position -3016.3 777.24 -1.07}
 		{xform zl -168.31}
 		{DecalOrder 5}
 		{Color 0xffb8b8b8}
 	}
 	{Entity "crash_brick1a" 0x10d1
-		{Position -2995.85 722.64 -11.99}
+		{Position -2995.85 722.64 -0.07}
 		{xform zl 97.1}
 		{DecalOrder 5}
 		{Color 0xffb8b8b8}
 	}
 	{Entity "crash_brick1a" 0x10d2
-		{Position -3162.21 802.89 3.96}
+		{Position -3162.21 802.89 -1.01}
 		{xform zl -168.31}
 		{DecalOrder 5}
 		{Color 0xffb8b8b8}
 	}
 	{Entity "crash_brick1a" 0x10d3
-		{Position -3121.71 576.62 20.76}
+		{Position -3121.71 576.62 17.43}
 		{xform zl -168.31}
 		{DecalOrder 5}
 		{Color 0xffb8b8b8}
 	}
 	{Entity "crash_brick1a" 0x10d4
-		{Position -3222.4 702.2 4.39}
+		{Position -3222.4 702.2 -1.07}
 		{xform zl 110.83}
 		{DecalOrder 5}
 		{Color 0xffb8b8b8}
 	}
 	{Entity "crash_brick1a" 0x10d5
-		{Position -3266.58 726.26 8.45}
-		{xform zl -168.31}
-		{DecalOrder 5}
-		{Color 0xffb8b8b8}
-	}
-	{Entity "crash_brick1a" 0x10d6
-		{Position -3220.86 902.75 22.8}
-		{xform zl -168.31}
-		{DecalOrder 5}
-		{Color 0xffb8b8b8}
-	}
-	{Entity "crash_brick1a" 0x10d7
-		{Position -3289.32 838.32 18.33}
+		{Position -3266.58 726.26 -1.06}
 		{xform zl -168.31}
 		{DecalOrder 5}
 		{Color 0xffb8b8b8}
 	}
 	{Entity "crash_brick1a" 0x10d8
-		{Position -3344.22 793.61 -7.74}
+		{Position -3344.22 793.61 -1.07}
 		{xform zl -77.18}
 		{DecalOrder 5}
 		{Color 0xffb8b8b8}
 	}
-	{Entity "crash_brick1a" 0x10d9
-		{Position -3424.85 894.73 0.35}
-		{xform zl -55.14}
-		{DecalOrder 5}
-		{Color 0xffb8b8b8}
-	}
 	{Entity "crash_brick1a" 0x10da
-		{Position -3454.56 733.24 4.65}
+		{Position -3454.56 733.24 -1.07}
 		{xform zl -106.68}
 		{DecalOrder 5}
 		{Color 0xffb8b8b8}
 	}
 	{Entity "crash_brick1a" 0x10dc
-		{Position -3388.56 648.08 14.22}
+		{Position -3388.56 648.08 2.6}
 		{xform zl -168.31}
 		{DecalOrder 5}
 		{Color 0xffb8b8b8}
 	}
 	{Entity "crash_brick1a" 0x10e0
-		{Position -3295.32 623.1 20.88}
+		{Position -3295.32 623.1 -1.07}
 		{xform zl -168.31}
 		{DecalOrder 5}
 		{Color 0xffb8b8b8}
@@ -39017,43 +38512,37 @@
 		{DecalOrder 20}
 	}
 	{Entity "crash_brick1a" 0x111c
-		{Position -2687.4 678.28 21.9}
+		{Position -2687.4 678.28 9.81}
 		{xform zl 58.82}
 		{DecalOrder 5}
 		{Color 0xffb8b8b8}
 	}
 	{Entity "crash_brick1a" 0x111d
-		{Position -2616.24 755.78 24.62}
+		{Position -2616.24 755.78 7.92}
 		{xform zl 103.8}
 		{DecalOrder 5}
 		{Color 0xffb8b8b8}
 	}
 	{Entity "crash_brick1a" 0x111e
-		{Position -2676.56 803.39 35.93}
+		{Position -2676.56 803.39 -0.57}
 		{xform zl 103.8}
 		{DecalOrder 5}
 		{Color 0xffb8b8b8}
 	}
 	{Entity "crash_brick1a" 0x1122
-		{Position -2598.11 926.22 11.86}
+		{Position -2598.11 926.22 -1.21}
 		{xform zl 103.8}
 		{DecalOrder 5}
 		{Color 0xffb8b8b8}
 	}
-	{Entity "crash_brick1a" 0x1123
-		{Position -2624.38 1013.43 14.95}
-		{xform zl 110.62}
-		{DecalOrder 5}
-		{Color 0xffb8b8b8}
-	}
 	{Entity "crash_brick1a" 0x1124
-		{Position -2679.23 1056.33 25.07}
+		{Position -2679.23 1056.33 -1.07}
 		{xform zl 92.06}
 		{DecalOrder 5}
 		{Color 0xffb8b8b8}
 	}
 	{Entity "crash_brick1a" 0x1125
-		{Position -2730.76 1088.94 21.43}
+		{Position -2730.76 1088.94 -1.07}
 		{xform zl 153.43}
 		{DecalOrder 5}
 		{Color 0xffb8b8b8}
@@ -39065,332 +38554,67 @@
 		{Color 0xffb8b8b8}
 	}
 	{Entity "crash_brick1a" 0x1127
-		{Position -2839.78 991.97 26.55}
+		{Position -2839.78 991.97 -1.07}
 		{xform zl 103.8}
 		{DecalOrder 5}
 		{Color 0xffb8b8b8}
 	}
 	{Entity "crash_brick1a" 0x1128
-		{Position -2878.93 872.6 9.6}
+		{Position -2878.93 872.6 -1.06}
 		{xform zl 103.8}
 		{DecalOrder 5}
 		{Color 0xffb8b8b8}
 	}
 	{Entity "crash_brick1a" 0x112b
-		{Position -2913.09 791.42 -0.07}
+		{Position -2913.09 791.42 -1.07}
 		{xform zl 103.8}
 		{DecalOrder 5}
 		{Color 0xffb8b8b8}
 	}
 	{Entity "crash_brick1a" 0x112c
-		{Position -2879.64 637.29 -2.41}
+		{Position -2879.64 637.29 -1.07}
 		{xform zl 103.8}
 		{DecalOrder 5}
 		{Color 0xffb8b8b8}
 	}
 	{Entity "crash_brick1a" 0x1130
-		{Position -2811.63 591.12 6.69}
+		{Position -2811.63 591.12 0.71}
 		{xform zl 103.8}
 		{DecalOrder 5}
 		{Color 0xffb8b8b8}
 	}
 	{Entity "crash_brick1a" 0x1133
-		{Position -3079.81 573.27 11}
+		{Position -3079.81 573.27 10.15}
 		{xform zl 103.8}
 		{DecalOrder 5}
 		{Color 0xffb8b8b8}
 	}
-	{Entity "fc_c9_1" 0x118b
-		{Position -2938.55 1016.88 -8}
-		{xform zl -91.31}
-		{TexMod
-			{"/texture/common/wall/wall_euro_sh_26" "1"}
-			{"/texture/common/wall/wall_euro_sh_27" "1"}
-			{"/texture/common/decor/floor_sh01" "blue_floor"}
-			{"/texture/common/decor/cut_sh14" "2"}
-		}
-		{Armor
-			{wounds
-				{damage "window1" -0.824102 0.1
-					{matrix
-						{pos -2.307 8.185 0.984}
-						{nxform 0 0 0}
-					}
-				}
-				{damage "window2" 2.95111 0.1
-					{matrix
-						{pos -4.91 6.401 0.984}
-						{nxform 0 0 0}
-					}
-				}
-				{damage "window3" -2.76199 0.1
-					{matrix
-						{pos -6.001 -2.84 0.984}
-						{nxform 0 0 0}
-					}
-				}
-				{wound "window1" -2.41643 0.1 7.62
-					{matrix
-						{pos -2.307 8.185 0.984}
-						{nxform 0 0 0}
-					}
-				}
-				{wound "window2" -0.685511 0.1 7.62
-					{matrix
-						{pos -4.91 6.401 0.984}
-						{nxform 0 0 0}
-					}
-				}
-				{wound "window3" 2.21491 0.1 7.62
-					{matrix
-						{pos -6.001 -2.84 0.984}
-						{nxform 0 0 0}
-					}
-				}
-			}
-		}
-		{Extender "window"
-			{window3 0}
-			{window2 0}
-			{window1 0}
-		}
-	}
-	{Entity "fc_c8_1" 0x118c
-		{Position -2952.61 947.1 -8}
-		{xform zl -91.31}
-		{TexMod
-			{"/texture/common/wall/wall_euro_sh_26" "1"}
-			{"/texture/common/wall/wall_euro_sh_27" "1"}
-			{"/texture/common/decor/floor_sh01" "blue_floor"}
-			{"/texture/common/decor/cut_sh14" "2"}
-		}
-		{Armor
-			{wounds
-				{damage "window1" -2.05653 0.1
-					{matrix
-						{pos 0.658 -1.655 0.984}
-						{nxform 0 0 0}
-					}
-				}
-				{wound "window1" 0.0935052 0.1 7.62
-					{matrix
-						{pos 0.658 -1.655 0.984}
-						{nxform 0 0 0}
-					}
-				}
-			}
-		}
-		{Extender "window"
-			{window1 0}
-		}
-	}
-	{Entity "fc_c1_1" 0x118d
-		{Position -3051.29 1058.87 -8}
-		{xform zl 0.03}
-		{TexMod
-			{"/texture/common/wall/wall_euro_sh_26" "1"}
-			{"/texture/common/wall/wall_euro_sh_27" "1"}
-			{"/texture/common/decor/floor_sh01" "blue_floor"}
-			{"/texture/common/decor/cut_sh14" "2"}
-		}
-		{Armor
-			{wounds
-				{damage "window4" -2.91098 0.1
-					{matrix
-						{pos -5.121 -5.041 0.984}
-						{nxform 0 0 0}
-					}
-				}
-				{damage "window3" -2.99786 0.1
-					{matrix
-						{pos -6.751 1.35 0.984}
-						{nxform 0 0 0}
-					}
-				}
-				{damage "window1" 0.0339189 0.1
-					{matrix
-						{pos -6.231 -10.188 0.984}
-						{nxform 0 0 0}
-					}
-				}
-				{damage "window2" 1.68368 0.1
-					{matrix
-						{pos -6.766 3.985 0.984}
-						{nxform 0 0 0}
-					}
-				}
-				{wound "window4" 1.22131 0.1 7.62
-					{matrix
-						{pos -5.121 -5.041 0.984}
-						{nxform 0 0 0}
-					}
-				}
-				{wound "window3" -0.0111721 0.1 7.62
-					{matrix
-						{pos -6.751 1.35 0.984}
-						{nxform 0 0 0}
-					}
-				}
-				{wound "window1" -0.58512 0.1 7.62
-					{matrix
-						{pos -6.231 -10.188 0.984}
-						{nxform 0 0 0}
-					}
-				}
-				{wound "window2" -2.39785 0.1 7.62
-					{matrix
-						{pos -6.766 3.985 0.984}
-						{nxform 0 0 0}
-					}
-				}
-			}
-		}
-		{Extender "window"
-			{window2 0}
-			{window1 0}
-			{window3 0}
-			{window4 0}
-		}
-	}
-	{Entity "fc_c10_1" 0x118e
-		{Position -3094.45 950.47 -8}
-		{xform zl 88.8}
-		{TexMod
-			{"/texture/common/wall/wall_euro_sh_26" "1"}
-			{"/texture/common/wall/wall_euro_sh_27" "1"}
-			{"/texture/common/decor/floor_sh01" "blue_floor"}
-			{"/texture/common/decor/cut_sh14" "2"}
-		}
-		{Armor
-			{wounds
-				{damage "window1" 2.99907 0.1
-					{matrix
-						{pos 0.023 -0.958 0.984}
-						{nxform 0 0 0}
-					}
-				}
-				{wound "window1" -2.80325 0.1 7.62
-					{matrix
-						{pos 0.023 -0.958 0.984}
-						{nxform 0 0 0}
-					}
-				}
-			}
-		}
-		{Extender "window"
-			{window1 0}
-		}
-	}
-	{Entity "wall8r_c4_2" 0x118f
-		{Position -3377.47 985.02 17}
-		{xform zl 89.15}
-		{Constrain zero}
-		{TexMod "1"}
-	}
-	{Entity "wall8r_c3_1" 0x1196
-		{Position -3246.79 999.5 -6.73}
-		{xform zl 91.04}
-		{TexMod "1"}
-	}
-	{Entity "wall8r_c3_2" 0x1197
-		{Position -3407.09 910.51 23.24}
-		{xform zl -90.61}
-		{TexMod "1"}
-	}
-	{Entity "wall8r_c3_1" 0x1198
-		{Position -3215.82 852.84 12.87}
-		{xform zl 0.75}
-		{TexMod "1"}
-	}
-	{Entity "wall8r_c1_1" 0x70cc
-		{TexMod "1"}
-	}
-	{Entity "wall8r_c2_1" 0x70cd
-		{TexMod "1"}
-	}
-	{Entity "wall8r_c3_1" 0x70e7
-		{TexMod "1"}
-	}
-	{Entity "wall8r_c4_1" 0x716d
-		{TexMod "1"}
-	}
-	{Entity "wall8r_c5_1" 0x716e
-		{TexMod "1"}
-	}
-	{Entity "wall8r_c7_1" 0x7170
-		{TexMod "1"}
-	}
-	{Entity "wall8r_c1_2" 0x7171
-		{TexMod
-			{"/texture/common/decor/floor_sh03" "1"}
-			{"/texture/common/wall/wall_euro_sh_32" "1"}
-			{"/texture/common/wall/wall_int04" "1"}
-		}
-	}
-	{Entity "wall8r_c3_2" 0x7177
-		{TexMod "1"}
-	}
-	{Entity "wall8r_c4_2" 0x717a
-		{TexMod "1"}
-	}
-	{Entity "wall8r_c5_2" 0x717c
-		{TexMod "1"}
-	}
-	{Entity "wall8r_c1_3" 0x717d
-		{TexMod "1"}
-	}
-	{Entity "wall8r_c2_3" 0x7183
-		{TexMod "1"}
-	}
-	{Entity "wall8r_c3_3" 0x7184
-		{TexMod "1"}
-	}
-	{Entity "wall8r_c4_3" 0x7185
-		{TexMod "1"}
-	}
-	{Entity "wall8r_c5_3" 0x7186
-		{TexMod "1"}
-	}
-	{Entity "wall8_ruin" 0x7187
-		{Position -3658.95 1020.62 0}
-		{xform zl -89.67}
-		{Placer
-			{State "w8r_c7_2" {Unlinked}}
-			{State "w8r_c7_3" {Unlinked}}
-		}
-	}
-	{Entity "crash_brick1a" 0x7188
-		{Position -3558.58 1084.27 12.14}
-		{xform zl -168.31}
-		{DecalOrder 5}
-		{Color 0xffb8b8b8}
-	}
 	{Entity "crash_brick1a" 0x7189
-		{Position -3690.48 1109.35 25.41}
+		{Position -3690.48 1109.35 -1.07}
 		{xform zl -168.31}
 		{DecalOrder 5}
 		{Color 0xffb8b8b8}
 	}
 	{Entity "crash_brick1a" 0x718a
-		{Position -3784.68 1088.87 24.19}
+		{Position -3784.68 1088.87 -0.03}
 		{xform zl -81.61}
 		{DecalOrder 5}
 		{Color 0xffb8b8b8}
 	}
 	{Entity "crash_brick1a" 0x718b
-		{Position -3860.02 1059.72 19.75}
+		{Position -3860.02 1059.72 12.12}
 		{xform zl -85.31}
 		{DecalOrder 5}
 		{Color 0xffb8b8b8}
 	}
 	{Entity "crash_brick1a" 0x719a
-		{Position -3766.99 962.84 41.38}
+		{Position -3766.99 962.84 -1.07}
 		{xform zl -168.31}
 		{DecalOrder 5}
 		{Color 0xffb8b8b8}
 	}
 	{Entity "crash_brick1a" 0x719b
-		{Position -3890.07 872.77 4.82}
+		{Position -3890.07 872.77 -1.07}
 		{xform zl 163.98}
 		{DecalOrder 5}
 		{Color 0xffb8b8b8}
@@ -39402,37 +38626,25 @@
 		{Color 0xffb8b8b8}
 	}
 	{Entity "crash_brick1a" 0x71a6
-		{Position -3796.03 813.1 10.45}
+		{Position -3796.03 813.1 -1.08}
 		{xform zl -63.02}
 		{DecalOrder 5}
 		{Color 0xffb8b8b8}
 	}
 	{Entity "crash_brick1a" 0x71a8
-		{Position -3688.48 870.55 26.63}
+		{Position -3688.48 870.55 -1.07}
 		{xform zl -86.31}
 		{DecalOrder 5}
 		{Color 0xffb8b8b8}
 	}
 	{Entity "crash_brick1a" 0x71ab
-		{Position -3674.51 774.15 6.66}
-		{xform zl -168.31}
-		{DecalOrder 5}
-		{Color 0xffb8b8b8}
-	}
-	{Entity "crash_brick1a" 0x71ac
-		{Position -3565.58 904.41 6.72}
+		{Position -3674.51 774.15 -1.07}
 		{xform zl -168.31}
 		{DecalOrder 5}
 		{Color 0xffb8b8b8}
 	}
 	{Entity "crash_brick1a" 0x71ad
 		{Position -3592.42 807.89 -1.07}
-		{xform zl -168.31}
-		{DecalOrder 5}
-		{Color 0xffb8b8b8}
-	}
-	{Entity "crash_brick1a" 0x71ae
-		{Position -3607.75 1000.02 63.22}
 		{xform zl -168.31}
 		{DecalOrder 5}
 		{Color 0xffb8b8b8}
@@ -39454,16 +38666,6 @@
 	}
 	{Entity "alley_dirtbricks2" 0x71b2
 		{Position -3844.36 1107.04}
-		{xform zl -0.12}
-		{Color 0xffc5c5c5}
-	}
-	{Entity "alley_dirtbricks2" 0x71b3
-		{Position -3412.14 1104.21}
-		{xform zl -0.12}
-		{Color 0xffc5c5c5}
-	}
-	{Entity "alley_dirtbricks2" 0x71b4
-		{Position -3179 1103.77}
 		{xform zl -0.12}
 		{Color 0xffc5c5c5}
 	}
@@ -39523,13 +38725,13 @@
 		{Color 0xffb8b8b8}
 	}
 	{Entity "crash_brick1a" 0x5999
-		{Position -3292.36 398.27 -10.41}
+		{Position -3292.36 398.27 -2.35}
 		{xform zl -29.76}
 		{DecalOrder 5}
 		{Color 0xffb8b8b8}
 	}
 	{Entity "crash_brick1a" 0x59d8
-		{Position -3366.24 478.32 -28.04}
+		{Position -3366.24 478.32 -1.07}
 		{xform zl -108.9}
 		{DecalOrder 5}
 		{Color 0xffb8b8b8}
@@ -40483,7 +39685,6 @@
 	}
 	{Entity "118_c4" 0x3a03
 		{TexMod
-			{"/texture/common/roof/roof_sh33_x" "1"}
 			{"/texture/common/roof/roof_sh33" "1"}
 		}
 	}
@@ -40633,37 +39834,31 @@
 	}
 	{Entity "118_w1" 0x59ef
 		{TexMod
-			{"/texture/common/roof/roof_sh33_x" "1"}
 			{"/texture/common/roof/roof_sh33" "1"}
 		}
 	}
 	{Entity "118_w3" 0x59f0
 		{TexMod
-			{"/texture/common/roof/roof_sh33_x" "1"}
 			{"/texture/common/roof/roof_sh33" "1"}
 		}
 	}
 	{Entity "118_w4" 0x59f1
 		{TexMod
-			{"/texture/common/roof/roof_sh33_x" "1"}
 			{"/texture/common/roof/roof_sh33" "1"}
 		}
 	}
 	{Entity "118_c1" 0x59f2
 		{TexMod
-			{"/texture/common/roof/roof_sh33_x" "1"}
 			{"/texture/common/roof/roof_sh33" "1"}
 		}
 	}
 	{Entity "118_c2" 0x59f3
 		{TexMod
-			{"/texture/common/roof/roof_sh33_x" "1"}
 			{"/texture/common/roof/roof_sh33" "1"}
 		}
 	}
 	{Entity "118_c3a" 0x59f4
 		{TexMod
-			{"/texture/common/roof/roof_sh33_x" "1"}
 			{"/texture/common/roof/roof_sh33" "1"}
 		}
 	}
@@ -40826,34 +40021,6 @@
 	{Entity "ironfence_4p" 0x10dd
 		{Position 2963.42 3356.71}
 		{TexMod "1"}
-	}
-	{Entity "shellhole_big" 0x11d8
-		{Position 2743.57 4041.32}
-		{DecalOrder 20}
-	}
-	{Entity "shellhole_big" 0x11d9
-		{Position 2860.68 3741.63}
-		{DecalOrder 20}
-	}
-	{Entity "shellhole_big" 0x11db
-		{Position 2644.31 3669.88}
-		{DecalOrder 20}
-	}
-	{Entity "shellhole_big" 0x11dc
-		{Position 2046.69 4580.15}
-		{DecalOrder 20}
-	}
-	{Entity "shellhole_big" 0x11de
-		{Position 2191.57 4966.86}
-		{DecalOrder 20}
-	}
-	{Entity "shellhole_big" 0x11df
-		{Position 1984.39 5043.97}
-		{DecalOrder 20}
-	}
-	{Entity "shellhole_big" 0x11e0
-		{Position 2800.99 5059.58}
-		{DecalOrder 20}
 	}
 	{Entity "new_tree1a" 0x11e3
 		{Position 2168.9 3602.19}
@@ -41123,28 +40290,24 @@
 	{Entity "fc_c1_roof" 0x1875
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c10_roof1" 0x1876
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c10_roof2" 0x1877
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c9_roof" 0x1878
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
@@ -41154,35 +40317,30 @@
 	{Entity "fc_c7_roof" 0x187b
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_int2_roof" 0x187f
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_int1_roof" 0x1880
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c2_roof2" 0x1881
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c2_roof1" 0x1882
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
@@ -41499,28 +40657,24 @@
 	{Entity "fc_c1_roof" 0x18f5
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c10_roof1" 0x18f6
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c10_roof2" 0x18f7
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c9_roof" 0x18f8
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
@@ -41533,7 +40687,6 @@
 	{Entity "fc_c7_roof" 0x18fb
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
@@ -41543,42 +40696,36 @@
 	{Entity "fc_c5_roof" 0x18fd
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c4_roof" 0x18fe
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_int2_roof" 0x18ff
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_int1_roof" 0x1906
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c2_roof2" 0x1907
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c2_roof1" 0x1908
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
@@ -41861,28 +41008,24 @@
 	{Entity "fc_c1_roof" 0x1932
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c10_roof1" 0x1933
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c10_roof2" 0x1934
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c9_roof" 0x1935
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
@@ -41895,7 +41038,6 @@
 	{Entity "fc_c7_roof" 0x1938
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
@@ -41905,42 +41047,36 @@
 	{Entity "fc_c5_roof" 0x193a
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c4_roof" 0x193b
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_int2_roof" 0x193c
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_int1_roof" 0x193d
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c2_roof2" 0x193e
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c2_roof1" 0x193f
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
@@ -42545,18 +41681,6 @@
 	{Entity "fence_wire4" 0x68f5
 		{Position 116.17 -406.27}
 		{xform zl -0.31}
-	}
-	{Entity "shellhole_big" 0x1c20
-		{Position -15.4 -244.23}
-		{DecalOrder 20}
-	}
-	{Entity "shellhole_big" 0x1c21
-		{Position -207.77 -413.85}
-		{DecalOrder 20}
-	}
-	{Entity "shellhole_big" 0x1c2b
-		{Position -570.93 -383.2}
-		{DecalOrder 20}
 	}
 	{Entity "crash_brick1a" 0x68ff
 		{Position -127.67 -25.61 18.87}
@@ -43769,7 +42893,7 @@
 		{xform zl 89.98}
 	}
 	{Entity "fence_wire1_broken" 0x4884
-		{Position -3897.83 822.13 0.01}
+		{Position -3897.83 822.13 -1.66}
 		{xform zl -87.4}
 		{TexMod
 			{"/texture/common/entourage/wires2broken" "1"}
@@ -44033,12 +43157,10 @@
 	{Entity "pool3_b" 0x5204
 		{Position -3655.76 -1598.75}
 		{xform zl -137.64}
-		{TexMod "darkblue"}
 	}
 	{Entity "pool3" 0x122b
 		{Position -3778.32 -1621.38}
 		{xform zl 50.33}
-		{TexMod "darkblue"}
 	}
 	{Entity "cane3" 0x122e
 		{Position -3681.23 -1533.32}
@@ -45231,10 +44353,6 @@
 	{Entity "car-dead1" 0x3472
 		{Position 138.86 79.53}
 		{xform zl 148.63}
-	}
-	{Entity "shellhole_big" 0x3473
-		{Position 111.2 18.58}
-		{DecalOrder 20}
 	}
 	{Entity "ash_tree_bush1" 0x3589
 		{Position -191.33 -559.26}
@@ -47542,11 +46660,6 @@
 		{Position 2277.58 5436.5}
 		{xform zl -139.77 scale 1.036}
 		{TexMod "bare"}
-	}
-	{Entity "shellhole_big" 0x7600
-		{Position -400.41 5765.77}
-		{xform zl -106.88}
-		{DecalOrder 20}
 	}
 	{Entity "cane3" 0x198a
 		{Position -192.85 4276.57}
@@ -55557,11 +54670,9 @@
 	{Entity "pool2" 0x224c
 		{Position -3899.56 -759.19}
 		{xform zl -31.63}
-		{TexMod "darkblue"}
 	}
 	{Entity "pool3" 0x1820
 		{Position -3887.56 -623.95}
-		{TexMod "darkblue"}
 	}
 	{Entity "ash_tree3" 0x1850
 		{Position -3829.83 -865.36}
@@ -56200,10 +55311,6 @@
 		{Position 173.38 4472.25}
 		{xform zl -160.47}
 		{TexMod "_alpha"}
-	}
-	{Entity "pool_benz2a_burn" 0x5aa7
-		{Position 1035.07 4893.07}
-		{xform zl -146.91}
 	}
 	{Entity "cane3" 0x5aab
 		{Position 1413.52 5089.72}
@@ -57612,7 +56719,6 @@
 	}
 	{Entity "pool3" 0x19a8
 		{Position -2137.84 -1765.25}
-		{TexMod "darkblue"}
 	}
 	{Entity "barricade_brick1" 0x19c3
 		{Position 343.99 -677.71}
@@ -57831,7 +56937,6 @@
 	}
 	{Entity "pool3" 0x4051
 		{Position 857.52 2450.93}
-		{TexMod "darkblue"}
 		{DecalOrder 1}
 	}
 	{Entity "cane3" 0x4052
@@ -66939,17 +66044,6 @@
 	{Entity "crate7" 0xd30
 		{Position 1034.01 5142.47}
 		{xform zl -58.07}
-		{Placer
-			{State "driver1" {Disable}}
-			{State "driver2" {Disable}}
-		}
-		{Extender "cannon"
-			{animation
-				{switch close}
-			}
-		}
-		
-
 	}
 	{Entity "rifle_cartridge" 0xd3a
 		{Position 1472.46 3156.53}
@@ -67247,7 +66341,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 			{"/texture/common/decor/cut001_2" "2"}
 			{"/texture/common/wall/interior_wall1" "sov1"}
 			{"/texture/common/window & door/door_sh19" "sov1"}
@@ -67258,7 +66351,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 			{"/texture/common/decor/cut001_2" "2"}
 			{"/texture/common/wall/interior_wall1" "sov1"}
 		}
@@ -67268,7 +66360,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 			{"/texture/common/decor/cut001_2" "2"}
 			{"/texture/common/wall/interior_wall1" "sov1"}
 		}
@@ -67278,7 +66369,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 			{"/texture/common/decor/cut001_2" "2"}
 			{"/texture/common/wall/interior_wall1" "sov1"}
 		}
@@ -67288,7 +66378,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 			{"/texture/common/decor/cut001_2" "2"}
 			{"/texture/common/wall/interior_wall1" "sov1"}
 		}
@@ -67298,7 +66387,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 			{"/texture/common/decor/cut001_2" "2"}
 			{"/texture/common/wall/interior_wall1" "sov1"}
 			{"/texture/common/window & door/door_sh19" "sov1"}
@@ -67309,7 +66397,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 			{"/texture/common/decor/cut001_2" "2"}
 			{"/texture/common/wall/interior_wall1" "sov1"}
 			{"/texture/common/window & door/door_sh19" "sov1"}
@@ -67320,7 +66407,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 			{"/texture/common/decor/cut001_2" "2"}
 			{"/texture/common/wall/interior_wall1" "sov1"}
 			{"/texture/common/window & door/door_sh19" "sov1"}
@@ -67329,21 +66415,18 @@
 	{Entity "station_corner9" 0xc2a
 		{TexMod
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 		}
 	}
 	{Entity "station_corner10" 0xc2b
 		{TexMod
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 		}
 	}
 	{Entity "station_corner11" 0xc2c
 		{TexMod
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 		}
 	}
@@ -67516,7 +66599,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "2"}
 			{"/texture/common/wall/wall_euro_sh_29" "2"}
 			{"/texture/common/roof/roof_met2_sh01" "2"}
-			{"/texture/common/roof/roof_met2_sh01_x" "2"}
 			{"/texture/common/decor/cut001_2" "2"}
 			{"/texture/common/wall/interior_wall1" "sov2"}
 			{"/texture/common/window & door/door_sh19" "sov1"}
@@ -67527,7 +66609,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "2"}
 			{"/texture/common/wall/wall_euro_sh_29" "2"}
 			{"/texture/common/roof/roof_met2_sh01" "2"}
-			{"/texture/common/roof/roof_met2_sh01_x" "2"}
 			{"/texture/common/decor/cut001_2" "2"}
 			{"/texture/common/wall/interior_wall1" "sov2"}
 		}
@@ -67537,7 +66618,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "2"}
 			{"/texture/common/wall/wall_euro_sh_29" "2"}
 			{"/texture/common/roof/roof_met2_sh01" "2"}
-			{"/texture/common/roof/roof_met2_sh01_x" "2"}
 			{"/texture/common/decor/cut001_2" "2"}
 			{"/texture/common/wall/interior_wall1" "sov2"}
 		}
@@ -67547,7 +66627,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "2"}
 			{"/texture/common/wall/wall_euro_sh_29" "2"}
 			{"/texture/common/roof/roof_met2_sh01" "2"}
-			{"/texture/common/roof/roof_met2_sh01_x" "2"}
 			{"/texture/common/decor/cut001_2" "2"}
 			{"/texture/common/wall/interior_wall1" "sov2"}
 		}
@@ -67557,7 +66636,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "2"}
 			{"/texture/common/wall/wall_euro_sh_29" "2"}
 			{"/texture/common/roof/roof_met2_sh01" "2"}
-			{"/texture/common/roof/roof_met2_sh01_x" "2"}
 			{"/texture/common/decor/cut001_2" "2"}
 			{"/texture/common/wall/interior_wall1" "sov2"}
 		}
@@ -67567,7 +66645,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "2"}
 			{"/texture/common/wall/wall_euro_sh_29" "2"}
 			{"/texture/common/roof/roof_met2_sh01" "2"}
-			{"/texture/common/roof/roof_met2_sh01_x" "2"}
 			{"/texture/common/decor/cut001_2" "2"}
 			{"/texture/common/wall/interior_wall1" "sov2"}
 			{"/texture/common/window & door/door_sh19" "sov1"}
@@ -67578,7 +66655,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "2"}
 			{"/texture/common/wall/wall_euro_sh_29" "2"}
 			{"/texture/common/roof/roof_met2_sh01" "2"}
-			{"/texture/common/roof/roof_met2_sh01_x" "2"}
 			{"/texture/common/decor/cut001_2" "2"}
 			{"/texture/common/wall/interior_wall1" "sov2"}
 			{"/texture/common/window & door/door_sh19" "sov1"}
@@ -67589,7 +66665,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "2"}
 			{"/texture/common/wall/wall_euro_sh_29" "2"}
 			{"/texture/common/roof/roof_met2_sh01" "2"}
-			{"/texture/common/roof/roof_met2_sh01_x" "2"}
 			{"/texture/common/decor/cut001_2" "2"}
 			{"/texture/common/wall/interior_wall1" "sov2"}
 			{"/texture/common/window & door/door_sh19" "sov1"}
@@ -67598,21 +66673,18 @@
 	{Entity "station_corner9" 0x1113
 		{TexMod
 			{"/texture/common/roof/roof_met2_sh01" "2"}
-			{"/texture/common/roof/roof_met2_sh01_x" "2"}
 			{"/texture/common/wall/wall_euro_sh_29" "2"}
 		}
 	}
 	{Entity "station_corner10" 0x1114
 		{TexMod
 			{"/texture/common/roof/roof_met2_sh01" "2"}
-			{"/texture/common/roof/roof_met2_sh01_x" "2"}
 			{"/texture/common/wall/wall_euro_sh_29" "2"}
 		}
 	}
 	{Entity "station_corner11" 0x1115
 		{TexMod
 			{"/texture/common/roof/roof_met2_sh01" "2"}
-			{"/texture/common/roof/roof_met2_sh01_x" "2"}
 			{"/texture/common/wall/wall_euro_sh_29" "2"}
 		}
 	}
@@ -68214,28 +67286,24 @@
 	{Entity "fc_c1_roof" 0x18bb
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c10_roof1" 0x18bc
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c10_roof2" 0x18bd
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c9_roof" 0x18be
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
@@ -68248,7 +67316,6 @@
 	{Entity "fc_c7_roof" 0x18c1
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
@@ -68258,42 +67325,36 @@
 	{Entity "fc_c5_roof" 0x18c3
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c4_roof" 0x18c4
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_int2_roof" 0x18c5
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_int1_roof" 0x18c6
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c2_roof2" 0x18c7
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
 	{Entity "fc_c2_roof1" 0x18c8
 		{TexMod
 			{"/texture/common/wall/wall_euro_sh_26" "ruin"}
-			{"/texture/common/roof/roof_sh26_x" "2"}
 			{"/texture/common/roof/roof_sh26" "2"}
 		}
 	}
@@ -68416,7 +67477,6 @@
 		{TexMod
 			{"/texture/common/decor/cut_sh14" "2"}
 			{"/texture/common/wall/wall_int04" "2"}
-			{"/texture/common/roof/tiled10_x" "3"}
 			{"/texture/common/wall/plant_admin_1" "1"}
 			{"/texture/common/roof/roof_sh29" "tile"}
 		}
@@ -68477,7 +67537,6 @@
 		{TexMod
 			{"/texture/common/decor/cut_sh14" "2"}
 			{"/texture/common/wall/wall_int04" "2"}
-			{"/texture/common/roof/tiled10_x" "3"}
 			{"/texture/common/wall/plant_admin_1" "1"}
 			{"/texture/common/roof/roof_sh29" "tile"}
 		}
@@ -68486,7 +67545,6 @@
 		{TexMod
 			{"/texture/common/decor/cut_sh14" "2"}
 			{"/texture/common/wall/wall_int04" "2"}
-			{"/texture/common/roof/tiled10_x" "3"}
 			{"/texture/common/wall/plant_admin_1" "1"}
 			{"/texture/common/roof/roof_sh29" "tile"}
 		}
@@ -68527,7 +67585,6 @@
 		{TexMod
 			{"/texture/common/decor/cut_sh14" "2"}
 			{"/texture/common/wall/wall_int04" "2"}
-			{"/texture/common/roof/tiled10_x" "3"}
 			{"/texture/common/wall/plant_admin_1" "1"}
 			{"/texture/common/roof/roof_sh29" "tile"}
 		}
@@ -70340,7 +69397,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "2"}
 			{"/texture/common/wall/wall_euro_sh_29" "2"}
 			{"/texture/common/roof/roof_met2_sh01" "2"}
-			{"/texture/common/roof/roof_met2_sh01_x" "2"}
 			{"/texture/common/decor/cut001_2" "2"}
 			{"/texture/common/wall/interior_wall1" "sov2"}
 		}
@@ -70350,7 +69406,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "2"}
 			{"/texture/common/wall/wall_euro_sh_29" "2"}
 			{"/texture/common/roof/roof_met2_sh01" "2"}
-			{"/texture/common/roof/roof_met2_sh01_x" "2"}
 			{"/texture/common/decor/cut001_2" "2"}
 			{"/texture/common/wall/interior_wall1" "sov2"}
 		}
@@ -70385,7 +69440,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "2"}
 			{"/texture/common/wall/wall_euro_sh_29" "2"}
 			{"/texture/common/roof/roof_met2_sh01" "2"}
-			{"/texture/common/roof/roof_met2_sh01_x" "2"}
 			{"/texture/common/decor/cut001_2" "2"}
 			{"/texture/common/wall/interior_wall1" "sov2"}
 		}
@@ -70399,7 +69453,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "2"}
 			{"/texture/common/wall/wall_euro_sh_29" "2"}
 			{"/texture/common/roof/roof_met2_sh01" "2"}
-			{"/texture/common/roof/roof_met2_sh01_x" "2"}
 			{"/texture/common/decor/cut001_2" "2"}
 			{"/texture/common/wall/interior_wall1" "sov2"}
 		}
@@ -70409,7 +69462,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "2"}
 			{"/texture/common/wall/wall_euro_sh_29" "2"}
 			{"/texture/common/roof/roof_met2_sh01" "2"}
-			{"/texture/common/roof/roof_met2_sh01_x" "2"}
 			{"/texture/common/decor/cut001_2" "2"}
 			{"/texture/common/wall/interior_wall1" "sov2"}
 		}
@@ -70566,7 +69618,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "2"}
 			{"/texture/common/wall/wall_euro_sh_29" "2"}
 			{"/texture/common/roof/roof_met2_sh01" "2"}
-			{"/texture/common/roof/roof_met2_sh01_x" "2"}
 			{"/texture/common/decor/cut001_2" "2"}
 			{"/texture/common/wall/interior_wall1" "sov2"}
 		}
@@ -70576,7 +69627,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "2"}
 			{"/texture/common/wall/wall_euro_sh_29" "2"}
 			{"/texture/common/roof/roof_met2_sh01" "2"}
-			{"/texture/common/roof/roof_met2_sh01_x" "2"}
 			{"/texture/common/decor/cut001_2" "2"}
 			{"/texture/common/wall/interior_wall1" "sov2"}
 		}
@@ -70959,7 +70009,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 			{"/texture/common/window & door/door_sh19" "sov1"}
 			{"/texture/common/wall/interior_wall1" "sov1"}
 		}
@@ -70969,7 +70018,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 			{"/texture/common/wall/interior_wall1" "sov1"}
 		}
 	}
@@ -70978,7 +70026,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 			{"/texture/common/wall/interior_wall1" "sov1"}
 		}
 	}
@@ -70987,7 +70034,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 			{"/texture/common/wall/interior_wall1" "sov1"}
 		}
 	}
@@ -70996,7 +70042,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 			{"/texture/common/wall/interior_wall1" "sov1"}
 		}
 	}
@@ -71005,7 +70050,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 			{"/texture/common/window & door/door_sh19" "sov1"}
 			{"/texture/common/wall/interior_wall1" "sov1"}
 		}
@@ -71015,7 +70059,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 			{"/texture/common/window & door/door_sh19" "sov1"}
 			{"/texture/common/wall/interior_wall1" "sov1"}
 		}
@@ -71025,7 +70068,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 			{"/texture/common/window & door/door_sh19" "sov1"}
 			{"/texture/common/wall/interior_wall1" "sov1"}
 		}
@@ -71033,21 +70075,18 @@
 	{Entity "station_corner9" 0x747
 		{TexMod
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 		}
 	}
 	{Entity "station_corner10" 0x749
 		{TexMod
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 		}
 	}
 	{Entity "station_corner11" 0x74a
 		{TexMod
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 		}
 	}
@@ -71056,7 +70095,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 			{"/texture/common/wall/interior_wall1" "sov1"}
 		}
 	}
@@ -71065,7 +70103,6 @@
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
 			{"/texture/common/wall/wall_brick_sh02" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 			{"/texture/common/wall/interior_wall1" "sov1"}
 		}
 	}
@@ -71075,7 +70112,6 @@
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
 			{"/texture/common/wall/wall_brick_sh02" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 			{"/texture/common/wall/interior_wall1" "sov1"}
 		}
 	}
@@ -71084,7 +70120,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 			{"/texture/common/wall/interior_wall1" "sov1"}
 		}
 	}
@@ -71093,7 +70128,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 			{"/texture/common/wall/interior_wall1" "sov1"}
 		}
 	}
@@ -71102,7 +70136,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 			{"/texture/common/wall/interior_wall1" "sov1"}
 		}
 	}
@@ -71112,7 +70145,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 			{"/texture/common/wall/interior_wall1" "sov1"}
 		}
 	}
@@ -71121,7 +70153,6 @@
 			{"/texture/common/wall/wall_brick_sh02" "sov1"}
 			{"/texture/common/wall/wall_euro_sh_29" "sov1"}
 			{"/texture/common/roof/roof_met2_sh01" "sov1"}
-			{"/texture/common/roof/roof_met2_sh01_x" "sov1"}
 			{"/texture/common/wall/interior_wall1" "sov1"}
 		}
 	}
@@ -71772,11 +70803,6 @@
 		{xform zl 65.56}
 		{DecalOrder 20}
 	}
-	{Entity "shellhole_big" 0x2c85
-		{Position 1288.76 5620.06}
-		{xform zl -41.32}
-		{DecalOrder 20}
-	}
 	{Entity "border_s3c" 0x2c86
 		{Position -165.43 5886.91}
 		{xform zl -90.02}
@@ -71984,7 +71010,6 @@
 	{Entity "pool3" 0x287c
 		{Position 68.72 2481.81}
 		{xform zl -92.52}
-		{TexMod "darkblue"}
 		{DecalOrder 1}
 	}
 	{Entity "ironfence_4n" 0x28f5
@@ -72292,6 +71317,324 @@
 	}
 	{Entity "crate_one" 0x2001
 		{Position 3128.44 -221.35}
+	}
+	{Entity "fence_stone3b_n" 0xd5c
+		{Position -2102.22 5052.03}
+		{xform zl -179.57}
+	}
+	{Entity "fence_stone_destr2" 0x3829
+		{Position -103.98 3184.78}
+		{xform zl -90.67}
+	}
+	{Entity "border_s2a" 0x3866
+		{Position -38.32 3110.92}
+		{xform zl -91.56}
+	}
+	{Entity "crash_brick1c" 0x3867
+		{Position -59.96 3124.65}
+		{xform zl 88.71}
+		{DecalOrder 1}
+		{Color 0xffcccccc}
+	}
+	{Entity "fc_c1_1" 0x481e
+		{TexMod
+			{"/texture/common/wall/wall_euro_sh_26" "3"}
+			{"/texture/common/wall/wall_euro_sh_27" "3"}
+		}
+		{Armor
+			{wounds
+				{damage "door2" 0.954646 0.2
+					{matrix
+						{pos 0.984 1.197 -6.126}
+						{nxform 1.571 1.571 0}
+					}
+				}
+				{wound "door2" -2.33449 0.1 7.62
+					{matrix
+						{pos 0.984 1.197 -6.126}
+						{nxform 1.571 1.571 0}
+					}
+				}
+				{wound "door2" -0.500218 0.2 7.62
+					{matrix
+						{pos 0.984 -7.614 1.032}
+						{nxform 1.571 1.571 0}
+					}
+				}
+			}
+		}
+	}
+	{Entity "fc_c2_2" 0x4899
+		{TexMod
+			{"/texture/common/wall/wall_euro_sh_27" "3"}
+		}
+	}
+	{Entity "fc_c10_1" 0x489a
+		{TexMod
+			{"/texture/common/wall/wall_euro_sh_26" "3"}
+			{"/texture/common/wall/wall_euro_sh_27" "3"}
+		}
+	}
+	{Entity "fc_c9_1" 0x489b
+		{TexMod
+			{"/texture/common/wall/wall_euro_sh_26" "3"}
+			{"/texture/common/wall/wall_euro_sh_27" "3"}
+		}
+		{Armor
+			{wounds
+				{damage "window3" -2.6157 0.1
+					{matrix
+						{pos -6.085 -4.879 0.984}
+						{nxform 0 0 0}
+					}
+				}
+				{damage "window2" 1.99091 0.1
+					{matrix
+						{pos -4.151 3.175 0.984}
+						{nxform 0 0 0}
+					}
+				}
+				{damage "window1" 1.37564 0.1
+					{matrix
+						{pos -6.343 10.934 0.984}
+						{nxform 0 0 0}
+					}
+				}
+				{wound "window3" 1.99863 0.1 7.62
+					{matrix
+						{pos -6.085 -4.879 0.984}
+						{nxform 0 0 0}
+					}
+				}
+				{wound "window2" -0.565854 0.1 7.62
+					{matrix
+						{pos -4.151 3.175 0.984}
+						{nxform 0 0 0}
+					}
+				}
+				{wound "window1" -2.02234 0.1 7.62
+					{matrix
+						{pos -6.343 10.934 0.984}
+						{nxform 0 0 0}
+					}
+				}
+			}
+		}
+		{Extender "window"
+			{window3 0}
+			{window2 0}
+			{window1 0}
+		}
+	}
+	{Entity "fc_c8_1" 0x489c
+		{TexMod
+			{"/texture/common/wall/wall_euro_sh_26" "3"}
+			{"/texture/common/wall/wall_euro_sh_27" "3"}
+		}
+		{Armor
+			{wounds
+				{damage "window1" 0.499429 0.1
+					{matrix
+						{pos -6.123 0.827 0.984}
+						{nxform 0 0 0}
+					}
+				}
+				{wound "window1" 3.00282 0.1 7.62
+					{matrix
+						{pos -6.123 0.827 0.984}
+						{nxform 0 0 0}
+					}
+				}
+			}
+		}
+		{Extender "window"
+			{window1 0}
+		}
+	}
+	{Entity "fc_c7_1" 0x489d
+		{TexMod
+			{"/texture/common/wall/wall_euro_sh_26" "3"}
+			{"/texture/common/wall/wall_euro_sh_27" "3"}
+		}
+	}
+	{Entity "fc_c5_1" 0x48af
+		{TexMod
+			{"/texture/common/wall/wall_euro_sh_26" "3"}
+			{"/texture/common/wall/wall_euro_sh_27" "3"}
+		}
+	}
+	{Entity "fc_c4_2" 0x48b0
+		{TexMod
+			{"/texture/common/wall/wall_euro_sh_26" "3"}
+			{"/texture/common/wall/wall_euro_sh_27" "3"}
+		}
+	}
+	{Entity "fc_c3_2" 0x48b1
+		{TexMod
+			{"/texture/common/wall/wall_euro_sh_26" "3"}
+			{"/texture/common/wall/wall_euro_sh_27" "3"}
+		}
+	}
+	{Entity "fc_c4_21" 0x48c1
+		{TexMod
+			{"/texture/common/wall/wall_euro_sh_26" "3"}
+			{"/texture/common/wall/wall_euro_sh_27" "3"}
+		}
+	}
+	{Entity "fc_c5_2" 0x48e2
+		{TexMod
+			{"/texture/common/wall/wall_euro_sh_26" "3"}
+			{"/texture/common/wall/wall_euro_sh_27" "3"}
+		}
+	}
+	{Entity "fc_c6_2" 0x48e3
+		{TexMod
+			{"/texture/common/wall/wall_euro_sh_26" "3"}
+			{"/texture/common/wall/wall_euro_sh_27" "3"}
+		}
+	}
+	{Entity "fc_c8_2" 0x48e4
+		{TexMod
+			{"/texture/common/wall/wall_euro_sh_26" "3"}
+			{"/texture/common/wall/wall_euro_sh_27" "3"}
+		}
+	}
+	{Entity "fc_c9_2" 0x48e5
+		{TexMod
+			{"/texture/common/wall/wall_euro_sh_26" "3"}
+			{"/texture/common/wall/wall_euro_sh_27" "3"}
+		}
+	}
+	{Entity "fc_c10_2" 0x48e7
+		{TexMod
+			{"/texture/common/wall/wall_euro_sh_26" "3"}
+			{"/texture/common/wall/wall_euro_sh_27" "3"}
+		}
+	}
+	{Entity "fc_int1_1" 0x48ea
+		{TexMod
+			{"/texture/common/wall/wall_euro_sh_27" "3"}
+		}
+	}
+	{Entity "fc_c3_3" 0x48f0
+		{TexMod
+			{"/texture/common/wall/wall_euro_sh_26" "3"}
+			{"/texture/common/wall/wall_euro_sh_27" "3"}
+		}
+	}
+	{Entity "fc_c2_3" 0x48f1
+		{TexMod
+			{"/texture/common/wall/wall_euro_sh_27" "3"}
+		}
+	}
+	{Entity "fc_c4_3" 0x48f2
+		{TexMod
+			{"/texture/common/wall/wall_euro_sh_26" "3"}
+			{"/texture/common/wall/wall_euro_sh_27" "3"}
+		}
+	}
+	{Entity "fc_c5_3" 0x48f5
+		{TexMod
+			{"/texture/common/wall/wall_euro_sh_26" "3"}
+			{"/texture/common/wall/wall_euro_sh_27" "3"}
+		}
+	}
+	{Entity "fc_c6_3" 0x48f6
+		{TexMod
+			{"/texture/common/wall/wall_euro_sh_26" "3"}
+			{"/texture/common/wall/wall_euro_sh_27" "3"}
+		}
+	}
+	{Entity "fc_c7_3" 0x48fd
+		{TexMod
+			{"/texture/common/wall/wall_euro_sh_26" "3"}
+			{"/texture/common/wall/wall_euro_sh_27" "3"}
+		}
+	}
+	{Entity "fc_c8_3" 0x48ff
+		{TexMod
+			{"/texture/common/wall/wall_euro_sh_26" "3"}
+			{"/texture/common/wall/wall_euro_sh_27" "3"}
+		}
+	}
+	{Entity "fc_c9_3" 0x4903
+		{TexMod
+			{"/texture/common/wall/wall_euro_sh_26" "3"}
+			{"/texture/common/wall/wall_euro_sh_27" "3"}
+		}
+	}
+	{Entity "fc_c10_32" 0x4909
+		{TexMod
+			{"/texture/common/wall/wall_euro_sh_26" "3"}
+			{"/texture/common/wall/wall_euro_sh_27" "3"}
+		}
+	}
+	{Entity "fc_c10_31" 0x490a
+		{TexMod
+			{"/texture/common/wall/wall_euro_sh_26" "3"}
+			{"/texture/common/wall/wall_euro_sh_27" "3"}
+		}
+	}
+	{Entity "fc_c1_3" 0x490b
+		{TexMod
+			{"/texture/common/wall/wall_euro_sh_26" "3"}
+			{"/texture/common/wall/wall_euro_sh_27" "3"}
+		}
+	}
+	{Entity "fc_c2_4" 0x490d
+		{TexMod
+			{"/texture/common/wall/wall_euro_sh_26" "3"}
+			{"/texture/common/wall/wall_euro_sh_27" "3"}
+		}
+	}
+	{Entity "fc_c1_roof" 0x490e
+		{TexMod "3"}
+	}
+	{Entity "fc_c10_roof1" 0x490f
+		{TexMod "3"}
+	}
+	{Entity "fc_c10_roof2" 0x4910
+		{TexMod "3"}
+	}
+	{Entity "fc_c9_roof" 0x4911
+		{TexMod "3"}
+	}
+	{Entity "fc_c8_roof" 0x4912
+		{TexMod "3"}
+	}
+	{Entity "fc_int3_roof" 0x4913
+		{TexMod "3"}
+	}
+	{Entity "fc_c7_roof" 0x4914
+		{TexMod "3"}
+	}
+	{Entity "fc_c6_roof" 0x4915
+		{TexMod "3"}
+	}
+	{Entity "fc_c5_roof" 0x4916
+		{TexMod "3"}
+	}
+	{Entity "fc_c4_roof" 0x4917
+		{TexMod "3"}
+	}
+	{Entity "fc_int2_roof" 0x4918
+		{TexMod "3"}
+	}
+	{Entity "fc_int1_roof" 0x4919
+		{TexMod "3"}
+	}
+	{Entity "fc_c2_roof2" 0x491a
+		{TexMod "3"}
+	}
+	{Entity "fc_c2_roof1" 0x491b
+		{TexMod "3"}
+	}
+	{Entity "fortress_complex" 0x491f
+		{Position -2723.22 850.68 -15}
+		{xform zl -90.16}
+		{Placer
+			{State "flag" {Unlinked}}
+		}
 	}
 	{Link 0x140 {0x290b "c1_1"}}
 	{Link 0x141 {0x290b "c2_2"}}
@@ -72927,7 +72270,6 @@
 	{Link 0x303c {0x3041 "11"}}
 	{Link 0x303e {0x3041 "19"}}
 	{Link 0x303f {0x3041 "20"}}
-	{Link 0x2843 {0x2842 "mgun"}}
 	{Link 0xd62 {0x6865 "wall_b"}}
 	{Link 0xe1e {0xe26 "station_h_corner1"}}
 	{Link 0xe1f {0xe26 "station_h_corner2"}}
@@ -73481,8 +72823,6 @@
 	{Link 0x2180 {0x2188 "int1_roof"}}
 	{Link 0x2181 {0x2188 "c2_roof2"}}
 	{Link 0x2184 {0x2188 "c2_roof1"}}
-	{Link 0x4600 {0x4601 "mgun"}}
-	{Link 0x4603 {0x4604 "mgun"}}
 	{Link 0xe4c {0xe4b "w8r_c1_1"}}
 	{Link 0xe4d {0xe4b "w8r_c2_1"}}
 	{Link 0xe4e {0xe4b "w8r_c3_1"}}
@@ -74363,21 +73703,6 @@
 	{Link 0x10c1 {0x10c4 "w8r_c3_3"}}
 	{Link 0x10c2 {0x10c4 "w8r_c4_3"}}
 	{Link 0x10c3 {0x10c4 "w8r_c5_3"}}
-	{Link 0x70cc {0x7187 "w8r_c1_1"}}
-	{Link 0x70cd {0x7187 "w8r_c2_1"}}
-	{Link 0x70e7 {0x7187 "w8r_c3_1"}}
-	{Link 0x716d {0x7187 "w8r_c4_1"}}
-	{Link 0x716e {0x7187 "w8r_c5_1"}}
-	{Link 0x7170 {0x7187 "w8r_c7_1"}}
-	{Link 0x7171 {0x7187 "w8r_c1_2"}}
-	{Link 0x7177 {0x7187 "w8r_c3_2"}}
-	{Link 0x717a {0x7187 "w8r_c4_2"}}
-	{Link 0x717c {0x7187 "w8r_c5_2"}}
-	{Link 0x717d {0x7187 "w8r_c1_3"}}
-	{Link 0x7183 {0x7187 "w8r_c2_3"}}
-	{Link 0x7184 {0x7187 "w8r_c3_3"}}
-	{Link 0x7185 {0x7187 "w8r_c4_3"}}
-	{Link 0x7186 {0x7187 "w8r_c5_3"}}
 	{Link 0x59f2 {0x3a0a "118_c1"}}
 	{Link 0x59f3 {0x3a0a "118_c2"}}
 	{Link 0x59f4 {0x3a0a "118_c3"}}
@@ -74910,84 +74235,48 @@
 	{Link 0x756 {0x5041 "station_tower"}}
 	{Link 0x2858 {0x2868 "2"}}
 	{Link 0x285a {0x2868 "1"}}
-	{Inventory 0x17b2
-		{box
-			
-			{item "ptrs" {cell 0 0}}
-			{item "ptr" "ammo" 25 {cell 6 0}}
-		}
-	}
-	{Inventory 0xd30
-		{box
-			
-			{item "mgun" "ammo" 1000 {cell 0 0}}
-		}
-	}
-	{Inventory 0xb14
-		{box
-			
-			{item "pwm1" "grenade" 50 {cell 0 0}}
-		}
-	}
-	{Inventory 0xb17
-		{box
-			
-			{item "m24" "grenade" 50 {cell 0 0}}
-			{item "m24x5" "grenade" 50 {cell 2 0}}
-		}
-	}
-	{Inventory 0xb18
-		{box
-			
-			{item "m24" "grenade" 50 {cell 0 0}}
-			{item "m24x5" "grenade" 50 {cell 2 0}}
-		}
-	}
-	{Inventory 0x4018
-		{box
-			
-			{item "mg34" {cell 0 0}}
-			{item "mgun" "ammo" 1000 {cell 5 0}}
-		}
-	}
-	{Inventory 0x4019
-		{box
-			
-			{item "vzriv_paket" 5 {cell 0 0}}
-		}
-	}
-	{Inventory 0x401a
-		{box
-			
-			{item "mine_detector" 2 {cell 0 0}}
-		}
-	}
-	{Inventory 0x4022
-		{box
-			
-			{item "minomet" "weapon" {cell 0 0}}
-			{item "mortar" "fg" "ammo" 71 {cell 4 0}}
-		}
-	}
-	{Inventory 0x402a
-		{box
-			
-			{item "vzriv_paket" 50 {cell 0 0}}
-		}
-	}
-	{Inventory 0x2000
-		{box
-			
-			{item "vzriv_paket" 50 {cell 0 0}}
-		}
-	}
-	{Inventory 0x2001
-		{box
-			
-			{item "dp" {cell 0 0}}
-			{item "mgun" "ammo" 1000 {cell 5 0}}
-		}
-	}
+	{Link 0x481e {0x491f "c1_1"}}
+	{Link 0x4899 {0x491f "c2_2"}}
+	{Link 0x489a {0x491f "c10_1"}}
+	{Link 0x489b {0x491f "c9_1"}}
+	{Link 0x489c {0x491f "c8_1"}}
+	{Link 0x489d {0x491f "c7_1"}}
+	{Link 0x48af {0x491f "c5_1"}}
+	{Link 0x48b0 {0x491f "c4_2"}}
+	{Link 0x48b1 {0x491f "c3_2"}}
+	{Link 0x48c1 {0x491f "c4_21"}}
+	{Link 0x48e2 {0x491f "c5_2"}}
+	{Link 0x48e3 {0x491f "c6_2"}}
+	{Link 0x48e4 {0x491f "c8_2"}}
+	{Link 0x48e5 {0x491f "c9_2"}}
+	{Link 0x48e7 {0x491f "c10_2"}}
+	{Link 0x48ea {0x491f "int1_1"}}
+	{Link 0x48f0 {0x491f "c3_3"}}
+	{Link 0x48f1 {0x491f "c2_3"}}
+	{Link 0x48f2 {0x491f "c4_3"}}
+	{Link 0x48f5 {0x491f "c5_3"}}
+	{Link 0x48f6 {0x491f "c6_3"}}
+	{Link 0x48fd {0x491f "c7_3"}}
+	{Link 0x48ff {0x491f "c8_3"}}
+	{Link 0x4903 {0x491f "c9_3"}}
+	{Link 0x4909 {0x491f "c10_32"}}
+	{Link 0x490a {0x491f "c10_31"}}
+	{Link 0x490b {0x491f "c1_3"}}
+	{Link 0x490d {0x491f "c2_4"}}
+	{Link 0x490e {0x491f "c1_roof"}}
+	{Link 0x490f {0x491f "c10_roof1"}}
+	{Link 0x4910 {0x491f "c10_roof2"}}
+	{Link 0x4911 {0x491f "c9_roof"}}
+	{Link 0x4912 {0x491f "c8_roof"}}
+	{Link 0x4913 {0x491f "int3_roof"}}
+	{Link 0x4914 {0x491f "c7_roof"}}
+	{Link 0x4915 {0x491f "c6_roof"}}
+	{Link 0x4916 {0x491f "c5_roof"}}
+	{Link 0x4917 {0x491f "c4_roof"}}
+	{Link 0x4918 {0x491f "int2_roof"}}
+	{Link 0x4919 {0x491f "int1_roof"}}
+	{Link 0x491a {0x491f "c2_roof2"}}
+	{Link 0x491b {0x491f "c2_roof1"}}
 	{Slicer 0x6196
 		{"piece0"}
 		{"piece1"}

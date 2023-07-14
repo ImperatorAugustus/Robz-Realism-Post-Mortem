@@ -1,0 +1,79 @@
+{breed
+	{skin "ger_t4"}
+	{portrait ger2_elite1}
+	{icon rifleman}
+	{icon_priority 1}
+	{nationality ger}
+	{armors
+		{head helmet1_ger}
+	}
+	{perks
+		{"health" "350%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "200%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" mp_soldier
+		}
+		{"speed" 0.9
+		}
+		{"field_glass"}
+		{"tank" 0.75
+		}
+		{"vehicle" 1
+		}
+		{"cannon" 0.8
+		}
+		{"pistol" lvl_6
+		}
+		{"smg" lvl_6
+		}
+		{"mgun" lvl_6
+		}
+		{"rifle" lvl_6
+		}
+		{"rocketlauncher" lvl_6
+		}
+		{"melee" lvl_6
+		}
+		{"tankgun" lvl_5
+		}
+		{"stealth"}
+	}
+	{veterancy
+		{"lvl_1" -1
+		}
+		{"lvl_2" 0
+		}
+		{"lvl_3" 4
+		}
+		{"lvl_4" 10
+		}
+		{"lvl_5" 16
+		}
+		{"lvl_6" 24
+		}
+		{"lvl_7" 34
+		}
+		{"lvl_8" 46
+		}
+		{"lvl_9" 60
+		}
+		{"lvl_10" 78
+		}
+	}
+	{inventory
+		{item "svt40" filling "ammo svt40_mag" 10}
+		{item "ammo mosin_clip" 140}
+		{item "ammo mg_mauser drum" 50}
+		{item "bandage" 5}
+		{item "grenade m39" 2}
+		{item "grenade m24x5"}
+		{item "grenade molotov_coctail"}
+		{item "sandbag_kit"}
+		{in_hands 0}
+	}
+}

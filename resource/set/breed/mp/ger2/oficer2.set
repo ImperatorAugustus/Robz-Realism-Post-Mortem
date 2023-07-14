@@ -1,21 +1,21 @@
 {breed
-	{skin "ger-officer"}
+	{skin "ger_officer"}
 	{portrait "ger2_officer"}
 	{nationality ger2}
 	{icon "officer"}
 	{icon_priority 6}
 	{armors
-		{head cap_ger_off}
+		{head helmet1_ger}
 	}
 	{tags "officer"}
 	{perks
 		{"health" "500%"
 		}
-		{"health_regeneration" "100%"
+		{"health_regeneration" "200%"
 		}
-		{"stamina" "200%"
+		{"stamina" "1000%"
 		}
-		{"stamina_regeneration" "100%"
+		{"stamina_regeneration" "1000%"
 		}
 		{"vision" "mp_officer"
 		}
@@ -30,26 +30,53 @@
 		{"cannon" 1.0
 		}
 		
-		{"pistol" lvl_6
+		{"pistol" lvl_8
 		}
-		{"smg" lvl_6
+		{"smg" lvl_8
 		}
-		{"mgun" lvl_6
+		{"mgun" lvl_8
 		}
-		{"rifle" lvl_6
+		{"rifle" lvl_8
 		}
-		{"rocketlauncher" lvl_6
+		{"rocketlauncher" lvl_8
 		}
-		{"melee" "lvl_6"
+		{"melee" "lvl_8"
+		}
+		{"stealth"
+		}
+		{"telescope"
+		}
+		{"tankgun" lvl_12
 		}
 	}
 	{veterancy
-		(include "veterancy_generic.inc")
-		("veterancy_1")
+		{"lvl_1" -1
+		}
+		{"lvl_2" 0
+		}
+		{"lvl_3" 4
+		}
+		{"lvl_4" 10
+		}
+		{"lvl_5" 16
+		}
+		{"lvl_6" 24
+		}
+		{"lvl_7" 34
+		}
+		{"lvl_8" 46
+		}
+		{"lvl_9" 60
+		}
+		{"lvl_10" 78
+		}
 	}
 	{inventory
-		{item "mp41" filled}
-		{item "ammo mp40_mag" 64}
+		{item "sg44" filled}
+		{item "ammo stg44_mag" 180}
+		{item "mauser_pistol_mp" filled}
+		{item "ammo c96_mag" 100}
+		{item "bandage" 5}
 		{item "smoke_paradrop_ammo_heavy grenade" 5}
 		{item "knife_ger"}
 		{item "binocular"}

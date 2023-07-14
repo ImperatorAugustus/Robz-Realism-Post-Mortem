@@ -29,15 +29,15 @@
 		
 		{"pistol" lvl_2
 		}
-		{"smg" lvl_3
+		{"smg" lvl_4
 		}
-		{"mgun" lvl_2
+		{"mgun" lvl_3
 		}
-		{"rifle" lvl_2
+		{"rifle" lvl_4
 		}
 		{"rocketlauncher" lvl_4
 		}
-		{"melee" lvl_3
+		{"melee" lvl_4
 		}
 	}
 	{veterancy
@@ -46,9 +46,9 @@
 	}
 	{inventory
 		{item "weapon piatrocket" filled}
-		{item "sten_mk2" filled}
-		{item "ammo sten_mag" 128}
-		{item "bandage" 3}
+		{item "sten_mk2" filling "ammo sten_mag" 32}
+		{item "ammo sten_mag" 160}
+		{item "bandage" 4}
 		{item "grenade n73at" 1}
 		{item "ammo piatrocket" 7}
 		{in_hands 0}

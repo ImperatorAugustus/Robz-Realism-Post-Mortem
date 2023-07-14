@@ -1,5 +1,5 @@
 {breed
-	{skin "eng-inf-pvt"}
+	{skin "eng-hg-pvt"}
 	{portrait "eng_soldier2"}
 	{nationality eng}
 	{icon "smg"}
@@ -27,15 +27,15 @@
 		{"cannon" 1.0
 		}
 		
-		{"pistol" lvl_3
+		{"pistol" lvl_4
 		}
-		{"smg" lvl_2
+		{"smg" lvl_4
 		}
 		{"mgun" lvl_4
 		}
-		{"rifle" lvl_2
+		{"rifle" lvl_4
 		}
-		{"rocketlauncher" lvl_1
+		{"rocketlauncher" lvl_3
 		}
 		{"melee" lvl_4
 		}
@@ -47,11 +47,11 @@
 		("veterancy_tankcrew")
 	}
 	{inventory
-		{item "sten_mk2" filled}
-		{item "ammo sten_mag" 128}
-		{item "bandage" 3}
-		;{item "grenade mk1" 1}
-		;{item "smoke grenade" 1}
+		{item "sten_mk2" filling "ammo sten_mag" 32}
+		{item "ammo sten_mag" 160}
+		{item "bandage" 4}
+		{item "sandbag_kit" 3}
+		{item "plant" 3}
 		{in_hands 0}
 	}
 }

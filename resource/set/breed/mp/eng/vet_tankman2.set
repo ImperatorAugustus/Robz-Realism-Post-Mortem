@@ -8,7 +8,7 @@
 		{head "beret_eng1"}
 	}
 	{perks
-		{"health" "150%"
+		{"health" "200%"
 		}
 		{"health_regeneration" "100%"
 		}
@@ -18,37 +18,84 @@
 		}
 		{"vision" "mp_soldier"
 		}
-		{"speed" 0.8
+		{"field_glass"
+		}
+		{"speed" 0.9
 		}
 		{"tank"	1.0
 		}
 		{"vehicle" 1.0
 		}
-		{"cannon" 0.8
+		{"cannon" 0.9
 		}
 		
-		{"pistol" lvl_3
+		{"pistol" lvl_6
 		}
-		{"smg" lvl_3
+		{"smg" lvl_6
 		}
-		{"mgun" lvl_4
+		{"mgun" lvl_6
 		}
-		{"rifle" lvl_2
+		{"rifle" lvl_6
 		}
-		{"rocketlauncher" lvl_1
+		{"rocketlauncher" lvl_6
 		}
-		{"melee" lvl_3
+		{"melee" lvl_6
 		}
 		{"tankgun" lvl_7
 		}
 	}
 	{veterancy
-		(include "veterancy_generic.inc")
-		("veterancy_tankcrew")
+		{"lvl_1" 2
+		}
+		{"lvl_2" 5
+		}
+		{"lvl_3" 9
+		}
+		{"lvl_4" 14
+		}
+		{"lvl_5" 20
+		}
+		{"lvl_6" 28
+		}
+		{"lvl_7" 38
+		}
+		{"lvl_8" 50
+		}
+		{"lvl_9" 64
+		}
+		{"lvl_10" 80
+		}
+		(mod "mp"
+			{"lvl_1" 5
+			}
+			{"lvl_2" 11
+			}
+			{"lvl_3" 18
+			}
+			{"lvl_4" 26
+			}
+			{"lvl_5" 35
+			}
+			{"lvl_6" 45
+			}
+			{"lvl_7" 56
+			}
+			{"lvl_8" 68
+			}
+			{"lvl_9" 80
+			}
+			{"lvl_10" 93
+			}
+		)
 	}
 	{inventory
-		{item "sten_mk2" filled}
-		{item "ammo sten_mag" 128}
+		{item "thompson_m1928a1_30" filling "ammo thompson_m1a1_mag" 30}
+		{item "ammo thompson_m1a1_mag" 180}
+		{item "webley" filled}
+		{item "ammo webley_clip" 36}
+		{item "bandage" 5}
+		{item "grenade mk1" 2}
+		{item "binocular"}
 		{in_hands 0}
 	}
 }

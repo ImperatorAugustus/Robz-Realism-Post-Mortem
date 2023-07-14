@@ -1,0 +1,86 @@
+{breed
+	{skin "ger_t4"}
+	{portrait ger_elite2}
+	{icon stormtrooper}
+	{icon_priority 3}
+	{nationality ger}
+	{armors
+		{body ammo_ger3}
+		{head helmet1_ger}
+	}
+	{perks
+		{"health" "400%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "225%"
+		}
+		{"stamina_regeneration" "125%"
+		}
+		{"vision" "mp_officer"
+		}
+		{"speed" 1.0
+		}
+		{"field_glass"}
+		{"telescope"
+		}
+		{"tank" 1
+		}
+		{"vehicle" 1
+		}
+		{"cannon" 1
+		}
+		{"pistol" lvl_7
+		}
+		{"smg" lvl_7
+		}
+		{"mgun" lvl_7
+		}
+		{"rifle" lvl_7
+		}
+		{"rocketlauncher" lvl_7
+		}
+		{"melee" lvl_7
+		}
+		{"avoidance" lvl_1
+		}
+		{"stealth"}
+		{"tankgun" lvl_5
+		}
+	}
+	{veterancy
+		{"lvl_1" -1
+		}
+		{"lvl_2" 0
+		}
+		{"lvl_3" 7
+		}
+		{"lvl_4" 15
+		}
+		{"lvl_5" 24
+		}
+		{"lvl_6" 34
+		}
+		{"lvl_7" 45
+		}
+		{"lvl_8" 57
+		}
+		{"lvl_9" 70
+		}
+		{"lvl_10" 84
+		}
+	}
+	{inventory
+		{item "mauzer_vet" filling "ammo mauser_clip" 5}
+		{item "ammo mauser_clip" 120}
+		{item "ammo mg_mauser belt" 100}
+		{item "valter" filled}
+		{item "ammo walther_mag" 16}
+		{item "bandage" 5}
+		{item "grenade m24" 2}
+		{item "grenade pwm1"}
+		{item "smoke grenade" 2}
+		{item "sandbag_kit"}
+		{in_hands 0}
+	}
+}

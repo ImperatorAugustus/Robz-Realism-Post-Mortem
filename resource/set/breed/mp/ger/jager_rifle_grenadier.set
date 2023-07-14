@@ -1,0 +1,80 @@
+{breed
+	{skin "ger_t2"}
+	{portrait ger_soldier2}
+	{icon rifleman}
+	{icon_priority 1}
+	{nationality ger}
+	{armors
+		{body ammo_ger3}
+		{head helmet1_ger}
+	}
+	{perks
+		{"health" "250%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "150%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" mp_soldier
+		}
+		{"speed" 0.9
+		}
+		{"tank" 0.75
+		}
+		{"vehicle" 1
+		}
+		{"cannon" 0.8
+		}
+		{"pistol" lvl_5
+		}
+		{"smg" lvl_5
+		}
+		{"mgun" lvl_4
+		}
+		{"rifle" lvl_5
+		}
+		{"rocketlauncher" lvl_5
+		}
+		{"melee" lvl_5
+		}
+		{"tankgun" lvl_4
+		}
+	}
+	{veterancy
+		{"lvl_1" 2
+		}
+		{"lvl_2" 5
+		}
+		{"lvl_3" 9
+		}
+		{"lvl_4" 14
+		}
+		{"lvl_5" 20
+		}
+		{"lvl_6" 28
+		}
+		{"lvl_7" 38
+		}
+		{"lvl_8" 50
+		}
+		{"lvl_9" 64
+		}
+		{"lvl_10" 80
+		}
+	}
+	{inventory
+		{item "mauzer" filling "ammo mauser_clip" 5}
+		{item "ammo mauser_clip" 60}
+		{item "ammo mg_mauser belt" 100}
+		{item "bandage" 5}
+		{item "grenade m24" 2}
+		{item "grenade m24x5" 0 1}
+		{item "k98_gewehrgranat"}
+		{item "k98_grenade fg" 3}
+		{item "k98_grenade ap" 2}
+		{item "sandbag_kit"}
+		{in_hands 0}
+	}
+}

@@ -1,12 +1,11 @@
 {breed
-	{skin "waffen-fj-rifleman"}
-	{portrait "ger_elite1"}
-	{icon "elite3"}
+	{skin "ger_t4"}
+	{portrait ger_elite1}
+	{icon elite3}
 	{icon_priority 4}
-	{nationality ger}
+	{nationality ger2}
 	{armors
-		;{body ammo_ger2}
-		{head helmet_ger_m38_cover}
+		{head helmet1_ger}
 	}
 	{perks
 		{"health" "400%"
@@ -19,7 +18,7 @@
 		}
 		{"vision" mp_soldier
 		}
-		{"speed" 0.9
+		{"speed" 1.0
 		}
 		{"tank" 0.95
 		}
@@ -42,18 +41,37 @@
 		{"avoidance" lvl_1
 		}
 		{"stealth"}
+		{"tankgun" lvl_5
+		}
 	}
 	{veterancy
-		(include "veterancy_generic.inc")
-		("veterancy_elite")
+		{"lvl_1" 5
+		}
+		{"lvl_2" 11
+		}
+		{"lvl_3" 18
+		}
+		{"lvl_4" 26
+		}
+		{"lvl_5" 35
+		}
+		{"lvl_6" 45
+		}
+		{"lvl_7" 56
+		}
+		{"lvl_8" 68
+		}
+		{"lvl_9" 80
+		}
+		{"lvl_10" 93
+		}
 	}
 	{inventory
-		{item "fg42_sc" filled}
+		{item "fg42_sc" filling "fg42_mag mauser ammo" 20}
 		{item "ammo fg42_mag" 160}
 		{item "bandage" 5}
-		{item "grenade m39" 2}
+		{item "grenade m24" 2}
 		{item "grenade pwm1"}
-		{item "smoke grenade" 1}
 		{item "sandbag_kit"}
 		{in_hands 0}
 	}

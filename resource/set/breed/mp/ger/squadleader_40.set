@@ -1,11 +1,11 @@
 {breed
-	{skin "ger-regnco-smg"}
+	{skin "ger_t2"}
 	{portrait "ger_soldier3"}
 	{nationality ger}
 	{icon "squadleader2"}
 	{icon_priority 2}
 	{armors
-		{head fieldcap_ger_heer}
+		{head helmet1_ger}
 	}
 	{perks
 		{"health" "200%"
@@ -31,23 +31,43 @@
 		}
 		{"smg" lvl_5
 		}
-		{"mgun" lvl_3
+		{"mgun" lvl_4
 		}
-		{"rifle" lvl_4
+		{"rifle" lvl_5
 		}
-		{"rocketlauncher" lvl_2
+		{"rocketlauncher" lvl_4
 		}
 		{"melee" lvl_5
 		}
 	}
 	{veterancy
-		(include "veterancy_generic.inc")
-		("veterancy_1")
+		{"lvl_1" 2
+		}
+		{"lvl_2" 5
+		}
+		{"lvl_3" 9
+		}
+		{"lvl_4" 14
+		}
+		{"lvl_5" 20
+		}
+		{"lvl_6" 28
+		}
+		{"lvl_7" 38
+		}
+		{"lvl_8" 50
+		}
+		{"lvl_9" 64
+		}
+		{"lvl_10" 80
+		}
 	}
 	{inventory      
 		{item "mp40" filled}      
 		{item "ammo mp40_mag" 192}
-		{item "bandage" 3}
+		{item "valter" filled}
+		{item "ammo walther_mag" 16}
+		{item "bandage" 4}
 		{item "grenade m24" 2}
 		{item "grenade m24x5" 1}
 		{item "smoke grenade" 1}

@@ -208,13 +208,16 @@
 		}
 		{"army"
 			{"ger" "Wehrmacht (1940-1945)"}
-			{"ger2" "Ostfront Veteranen (1944-1945)"}
+			{"ger2" "Ostfront Jagdbatallion (1944-1945)"}
 			{"ger_ss" "Waffen-SS (1941-1945)"}
-			{"rus" "Soviet army (1941-1945)"}
-			{"rus_guard" "Guards army (1943-1945)"}
-			{"usa" "USA (1942-1945)"}
-			{"jap" "Japan (1942-1945)"}
+			{"rus" "Red Army (1941-1945)"}
+			{"rus_guard" "Guards Army (1943-1945)"}
+			{"usa" "U.S. Army (1942-1945)"}
+			{"usmc" "U.S.M.C (1942-1945)"}
+			{"jap" "Imperial Japan (1942-1945)"}
 			{"eng" "Commonwealth (1940-1945)"}
+            {"hun" "Hungary (1941-1945)"}
+            {"fra" "Free French (1944-1945)"}
 			{"random" "Random"}
 			{"spectator" "Spectator"}
 			{"dummy" "Unknown"}
@@ -272,23 +275,25 @@
 		}
 		{"alliance"
 			{"axis" "AXIS"}
-			{"axis_realistic" "Germany (Wehrmacht/Waffen-SS/Ostfront)"}
-			{"axis_jap" "Japan"}
-			{"axis_ger" "Wehrmacht"}
-			{"axis_ger-ger2" "Germany (Wehrmacht/Ostfront)"}
-			{"axis_ger-ss" "Germany (Wehrmacht/Waffen-SS)"}
-			{"axis_ger2" "Ostfront veteranen"}
-			{"axis_ss" "Waffen-SS"}
-			{"axis_ss-ger2" "Germany (Waffen-SS/Ostfront)"}
-			{"axis_doctrines" "AXIS doctrines (Germany)"}
-			{"allies" "ALLIES"}
-			{"allies_rus" "Soviet union (Soviet army/Guards army)"}
-			{"allies_soviet" "Soviet army"}
-			{"allies_guards" "Guards army"}
-			{"allies_eng" "Commonwealth"}
-			{"allies_usa" "USA"}
-			{"allies_realistic" "Commonwealth / USA"}
-			{"allies_doctrines" "ALLIES doctrines"}
+			{"axis_realistic" "AXIS Europe (Germany)"}
+			{"axis_west" "AXIS Western Front (Germany)"}
+			{"axis_jap" "AXIS Pacific (Japan)"}
+			{"axis_ger" "AXIS Europe (Wehrmacht)"}
+			{"axis_ger2" "AXIS Europe (Ostfront Jagdbatallion)"}
+			{"axis_ss" "AXIS Europe (Waffen-SS)"}
+			{"axis_doctrines" "AXIS Doctrines (Germany)"}
+			{"allies_west" "ALLIES"}
+			{"allies_rus" "SOVIET Eastern Front (Red Army)"}
+			{"allies_rus_guard" "SOVIET Eastern Front (Guards Army)"}
+			{"allies_eng" "ALLIES Western Front (UK)"}
+			{"allies_usa" "ALLIES Western Front (USA)"}
+			{"allies_fra" "ALLIES Western Front (Free French)"}
+			{"allies_realistic" "ALLIES Western Front (UK/USA/Fra)"}
+			{"allies" "ALLIES/SOVIET"}
+			{"allies_ussr" "SOVIET Eastern Front (USSR)"}
+			{"allies_pacific" "ALLIES Pacific (USMC)"}
+			{"allies_doctrines" "ALLIES Doctrines"}
+			{"all_factions" "ALL Factions"}
 		}
 		{"stage"
 			{"lobby" "In lobby"}
@@ -354,6 +359,7 @@
 			{"txt_mm_performance_warn" "One or more session members have low performance."}
 			{"txt_lookingforsessions" "Looking for games"}
 			{"txt_lookingforservers" "Looking for servers"}
+			{"txt_test_mode_on" "Are you sure you want to turn on test mode? This will unbalance the game."}
 			{"lbl_army" "Army"}
 			{"ranked_game" "Ranked game"}
 			{"bots" "Bots"}

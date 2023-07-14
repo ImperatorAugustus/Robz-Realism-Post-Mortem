@@ -1,11 +1,11 @@
 {breed
-	{skin "ger-reg-rfl"}
+	{skin "ger_mgun"}
 	{portrait "ger_soldier2"}
 	{nationality ger}
 	{icon "at_rifle"}
 	{icon_priority 3}
 	{armors
-		{head helmet_ger_m40}
+		{head helmet1_ger}
 	}
 	{perks
 		{"health" "150%"
@@ -31,11 +31,11 @@
 		}
 		{"smg" lvl_4
 		}
-		{"mgun" lvl_1
+		{"mgun" lvl_5
 		}
 		{"rifle" lvl_5
 		}
-		{"rocketlauncher" lvl_2
+		{"rocketlauncher" lvl_4
 		}
 		{"melee" lvl_4
 		}
@@ -43,12 +43,33 @@
 		}
 	}
 	{veterancy
-		(include "veterancy_generic.inc")
-		("veterancy_1")
+		{"lvl_1" 2
+		}
+		{"lvl_2" 5
+		}
+		{"lvl_3" 9
+		}
+		{"lvl_4" 14
+		}
+		{"lvl_5" 20
+		}
+		{"lvl_6" 28
+		}
+		{"lvl_7" 38
+		}
+		{"lvl_8" 50
+		}
+		{"lvl_9" 64
+		}
+		{"lvl_10" 80
+		}
 	}
 	{inventory
 		{item "pzb39" filled}
+		{item "valter" filled}
+		{item "ammo walther_mag" 32}
 		{item "bandage" 3}
+		{item "grenade m24x5" 1}
 		{item "hohlladung grenade"}
 		{item "ammo ptr" 35}
 		{in_hands 0}

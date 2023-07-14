@@ -151,7 +151,7 @@
 ("squad_with2types" side(ger_ss) name(lssah_pzgren_mg_39) c(300) g(squad_4) c1(lssah_pzgren_mg_39:1) c2(lssah_pzgren_mg_asst:2) b(squad2) t(all inf_only 41 42 43 44 45) level(1) cost(110) f(0.9))
 ("squad_with2types" side(ger_ss) name(lssah_pzgren_mg) c(300) g(squad_4) c1(lssah_pzgren_mg:1) c2(lssah_pzgren_mg_asst:2) b(squad2) t(all inf_only 42 43 44 45) level(1) cost(115) f(0.9))
 ("squad_with2types" side(ger_ss) name(fallschirm_mg_39) c(300) g(squad_4) c1(fallschirm_mg_39:1) c2(fallschirm_mg_asst:2) b(squad2) t(all inf_only 44 45) level(1) cost(115) f(0.9))
-("squad_with2types" side(ger_ss) name(fallschirm_mg) c(300) g(squad_4) c1(fallschirm_mg:1) c2(fallschirm_mg_asst:2) b(squad2) t(all inf_only 44 45) level(1) cost(120) f(0.9))
+("squad_with2types" side(ger_ss) name(fallschirm_mg) c(300) g(squad_4) c1(fallschirm_mg:1) c2(fallschirm_mg_asst:2) b(squad2) t(all inf_only 44 45) level(1) cost(125) f(0.9))
 
 ;------------------------------flamer, sniper and officer || vet2/3/4----------------------------------------------
 

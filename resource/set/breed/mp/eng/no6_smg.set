@@ -1,0 +1,81 @@
+{breed
+	{skin "eng-no4comm-inf"}
+	{portrait "eng_elite1"}
+	{nationality eng}
+	{icon "elite"}
+	{icon_priority 3}
+	{armors
+		{head beret_eng_comm}
+	}
+	{perks
+		{"health" "400%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "200%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" "mp_soldier"
+		}
+		{"speed" 1.0
+		}
+		{"tank"	1.0
+		}
+		{"vehicle" 1.0
+		}
+		{"cannon" 1.0
+		}
+		
+		{"pistol" lvl_7
+		}
+		{"smg" lvl_7
+		}
+		{"mgun" lvl_7
+		}
+		{"rifle" lvl_7
+		}
+		{"rocketlauncher" lvl_7
+		}
+		{"melee" lvl_7
+		}
+		{"avoidance" lvl_1
+		}
+		{"stealth"}
+		{"tankgun" lvl_5
+		}
+	}
+	{veterancy
+		{"lvl_1" 5
+		}
+		{"lvl_2" 11
+		}
+		{"lvl_3" 18
+		}
+		{"lvl_4" 26
+		}
+		{"lvl_5" 35
+		}
+		{"lvl_6" 45
+		}
+		{"lvl_7" 56
+		}
+		{"lvl_8" 68
+		}
+		{"lvl_9" 80
+		}
+		{"lvl_10" 93
+		}
+	}
+	{inventory
+		{item "thompson_m1928a1_30" filling "ammo thompson_m1a1_mag" 30}
+		{item "ammo thompson_m1a1_mag" 300}
+		{item "bandage" 5}
+		{item "grenade mk1" 2}
+		{item "grenade n73at" 1}
+		{item "smoke grenade" 1}
+		{item "n77_smoke grenade" 0.25 1}
+		{item "mine antitank" 1}
+		{in_hands 0}
+	}
+}

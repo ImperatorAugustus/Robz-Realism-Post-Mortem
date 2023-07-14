@@ -1,41 +1,41 @@
 {breed
-	{skin "ger_ss_tankman"}
-	{portrait "ger_tankman"}
-	{nationality ger2}
-	{icon "tankman"}
+	{skin "ger_tankman"}
+	{portrait ger_tankman}
+	{icon tankman}
 	{icon_priority 1}
+	{nationality ger2}
 	{armors
-		{head tank_cap2_ss}
+		{head helmet1_ger}
 	}
 	{perks
-		{"health" "100%"
+		{"health" "250%"
 		}
 		{"health_regeneration" "100%"
 		}
-		{"stamina" "100%"
+		{"stamina" "150%"
 		}
 		{"stamina_regeneration" "100%"
 		}
-       		{"vision" "mp_soldier"
+		{"vision" mp_soldier
 		}
-		{"speed" 0.8
+		{"field_glass"}
+		{"speed" 0.9
 		}
-		{"tank"	1.10
+		{"tank" 1.1
 		}
-		{"vehicle" 1.10
+		{"vehicle" 1.1
 		}
 		{"cannon" 1.05
 		}
-		
-		{"pistol" lvl_5
+		{"pistol" lvl_6
 		}
-		{"smg" lvl_4
+		{"smg" lvl_6
 		}
-		{"mgun" lvl_5
+		{"mgun" lvl_6
 		}
-		{"rifle" lvl_3
+		{"rifle" lvl_6
 		}
-		{"rocketlauncher" lvl_1
+		{"rocketlauncher" lvl_6
 		}
 		{"melee" lvl_5
 		}
@@ -43,12 +43,56 @@
 		}
 	}
 	{veterancy
-		(include "veterancy_generic.inc")
-		("veterancy_tankcrew")
+		{"lvl_1" 2
+		}
+		{"lvl_2" 5
+		}
+		{"lvl_3" 9
+		}
+		{"lvl_4" 14
+		}
+		{"lvl_5" 20
+		}
+		{"lvl_6" 28
+		}
+		{"lvl_7" 38
+		}
+		{"lvl_8" 50
+		}
+		{"lvl_9" 64
+		}
+		{"lvl_10" 80
+		}
+		(mod "mp"
+			{"lvl_1" 5
+			}
+			{"lvl_2" 11
+			}
+			{"lvl_3" 18
+			}
+			{"lvl_4" 26
+			}
+			{"lvl_5" 35
+			}
+			{"lvl_6" 45
+			}
+			{"lvl_7" 56
+			}
+			{"lvl_8" 68
+			}
+			{"lvl_9" 80
+			}
+			{"lvl_10" 93
+			}
+		)
 	}
 	{inventory
+		{item "mp40" filling "mp40_mag 9-smg ammo" 32}
+		{item "ammo mp40_mag" 192}
 		{item "valter" filled}
 		{item "ammo walther_mag" 32}
+		{item "bandage" 5}
+		{item "grenade m24" 2}
 		{in_hands 0}
 	}
 }

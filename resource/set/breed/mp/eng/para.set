@@ -39,17 +39,38 @@
 		}
 		{"melee" lvl_6
 		}
+		{"tankgun" lvl_4
+		}
 	}
 	{veterancy
-		(include "veterancy_generic.inc")
-		("veterancy_elite")
+		{"lvl_1" 5
+		}
+		{"lvl_2" 11
+		}
+		{"lvl_3" 18
+		}
+		{"lvl_4" 26
+		}
+		{"lvl_5" 35
+		}
+		{"lvl_6" 45
+		}
+		{"lvl_7" 56
+		}
+		{"lvl_8" 68
+		}
+		{"lvl_9" 80
+		}
+		{"lvl_10" 93
+		}
 	}
 	{inventory
-		{item "sten_v" filled}
+		{item "sten_v" filling "ammo sten_mag" 32}
 		{item "ammo sten_mag" 224}
 		{item "bandage" 5}
 		{item "grenade mk1" 2}
 		{item "grenade n73at"}
+		{item "grenade satchel" 1}
 		{item "n77_smoke grenade" 0.25 1}
 		{in_hands 0}
 	}

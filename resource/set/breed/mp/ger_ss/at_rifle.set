@@ -1,18 +1,18 @@
 {breed
-	{skin "waffen-reg-rfl"}
+	{skin "ger_t2"}
 	{portrait "ger_soldier2"}
-	{nationality ger}
+	{nationality ger2}
 	{icon "at_rifle"}
 	{icon_priority 3}
 	{armors
-		{head helmet_ger_m40_ss}
+		{head helmet1_ger}
 	}
 	{perks
-		{"health" "150%"
+		{"health" "250%"
 		}
 		{"health_regeneration" "100%"
 		}
-		{"stamina" "100%"
+		{"stamina" "150%"
 		}
 		{"stamina_regeneration" "100%"
 		}
@@ -27,15 +27,15 @@
 		{"cannon" 0.8
 		}
 		
-		{"pistol" lvl_4
+		{"pistol" lvl_5
 		}
-		{"smg" lvl_4
+		{"smg" lvl_5
 		}
-		{"mgun" lvl_1
+		{"mgun" lvl_5
 		}
 		{"rifle" lvl_5
 		}
-		{"rocketlauncher" lvl_2
+		{"rocketlauncher" lvl_5
 		}
 		{"melee" lvl_4
 		}
@@ -43,12 +43,33 @@
 		}
 	}
 	{veterancy
-		(include "veterancy_generic.inc")
-		("veterancy_1")
+		{"lvl_1" 2
+		}
+		{"lvl_2" 5
+		}
+		{"lvl_3" 9
+		}
+		{"lvl_4" 14
+		}
+		{"lvl_5" 20
+		}
+		{"lvl_6" 28
+		}
+		{"lvl_7" 38
+		}
+		{"lvl_8" 50
+		}
+		{"lvl_9" 64
+		}
+		{"lvl_10" 80
+		}
 	}
 	{inventory
 		{item "pzb39" filled}
-		{item "bandage" 3}
+		{item "valter" filled}
+		{item "ammo walther_mag" 32}
+		{item "bandage" 5}
+		{item "grenade m24x5" 1}
 		{item "grenade hohlladung" 1}
 		{item "ammo ptr" 35}
 		{in_hands 0}

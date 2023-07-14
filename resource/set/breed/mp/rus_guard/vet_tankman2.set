@@ -1,37 +1,37 @@
 {breed
-	{skin "rus_tankman_hp"}
-	{portrait "rus_tankman"}
-	{nationality rus}
-	{icon "tankman"}
+	{skin "rus_tankman"}
+	{portrait rus_tankman}
+	{icon tankman}
 	{icon_priority 1}
+	{nationality rus}
 	{armors
-		{head rw_cap}
+		{head helmet1_rus}
 	}
 	{perks
 		{"health" "200%"
 		}
 		{"health_regeneration" "100%"
 		}
-		{"stamina" "100%"
+		{"stamina" "150%"
 		}
 		{"stamina_regeneration" "100%"
 		}
-        {"vision" "mp_soldier"
+		{"vision" mp_soldier
 		}
+		{"field_glass"}
 		{"speed" 0.9
 		}
-		{"tank"	1.1
+		{"tank" 1.1
 		}
-		{"vehicle" 1.0
+		{"vehicle" 1
 		}
 		{"cannon" 0.95
 		}
-		
 		{"pistol" lvl_6
 		}
 		{"smg" lvl_6
 		}
-		{"mgun" lvl_6
+		{"mgun" lvl_7
 		}
 		{"rifle" lvl_6
 		}
@@ -43,14 +43,57 @@
 		}
 	}
 	{veterancy
-		(include "veterancy_generic.inc")
-		("veterancy_tankcrew")
+		{"lvl_1" 2
+		}
+		{"lvl_2" 5
+		}
+		{"lvl_3" 9
+		}
+		{"lvl_4" 14
+		}
+		{"lvl_5" 20
+		}
+		{"lvl_6" 28
+		}
+		{"lvl_7" 38
+		}
+		{"lvl_8" 50
+		}
+		{"lvl_9" 64
+		}
+		{"lvl_10" 80
+		}
+		(mod "mp"
+			{"lvl_1" 5
+			}
+			{"lvl_2" 11
+			}
+			{"lvl_3" 18
+			}
+			{"lvl_4" 26
+			}
+			{"lvl_5" 35
+			}
+			{"lvl_6" 45
+			}
+			{"lvl_7" 56
+			}
+			{"lvl_8" 68
+			}
+			{"lvl_9" 80
+			}
+			{"lvl_10" 93
+			}
+		)
 	}
-	{inventory               
-		{item "pps43" filling "ammo pps43_mag" 35}
-		{item "ammo pps43_mag" 210}
-		{item "bandage" 5}
-		{item "grenade f1" 2}
+	{inventory
+		{item "ppsh" filling "ammo ppsh_mag" 71}
+		{item "ammo ppsh_mag" 142}
+		{item "tt" filled}
+		{item "ammo tt_mag" 32}
+		{item "bandage" 3}
+		{item "grenade f1"}
+		{item "binocular"}
 		{in_hands 0}
 	}
 }

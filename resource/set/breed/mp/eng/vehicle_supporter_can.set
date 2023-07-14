@@ -1,0 +1,59 @@
+{breed
+	{skin "eng-can-pvt"}
+	{portrait "eng_elite4"}
+	{nationality eng}
+	{icon "smg"}
+	{icon_priority 1}
+	{armors
+		{head "helmet2_eng"}
+	}
+	{perks
+		{"health" "200%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "150%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" "mp_soldier"
+		}
+		{"speed" 0.9
+		}
+		{"tank"	1.0
+		}
+		{"vehicle" 1.0
+		}
+		{"cannon" 1.0
+		}
+		
+		{"pistol" lvl_5
+		}
+		{"smg" lvl_5
+		}
+		{"mgun" lvl_5
+		}
+		{"rifle" lvl_5
+		}
+		{"rocketlauncher" lvl_5
+		}
+		{"melee" lvl_5
+		}
+		{"tankgun" lvl_5
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_tankcrew")
+	}
+	{inventory
+		{item "lee_enfield_no4" filling "ammo british303_clip" 10}
+		{item "ammo british303_clip" 50}
+		{item "ammo bren_mag" 56}
+		{item "bandage" 5}
+		{item "grenade mk1" 1}
+		{item "sandbag_kit" 3}
+		{item "plant" 3}
+		{in_hands 0}
+	}
+}

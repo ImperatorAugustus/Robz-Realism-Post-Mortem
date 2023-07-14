@@ -1,18 +1,18 @@
 {breed
-	{skin "rus_tankman_hp"}
+	{skin "rus_tankman"}
 	{portrait "rus_tankman"}
 	{nationality rus}
 	{icon "tankman"}
 	{icon_priority 0}
 	{armors
-		{head tankhelmet_rus}
+		{head helmet1_rus}
 	}
 	{perks
-		{"health" "150%"
+		{"health" "200%"
 		}
 		{"health_regeneration" "100%"
 		}
-		{"stamina" "100%"
+		{"stamina" "150%"
 		}
 		{"stamina_regeneration" "100%"
 		}
@@ -31,11 +31,11 @@
 		}
 		{"smg" lvl_5
 		}
-		{"mgun" lvl_3
+		{"mgun" lvl_4
 		}
-		{"rifle" lvl_2
+		{"rifle" lvl_5
 		}
-		{"rocketlauncher" lvl_2
+		{"rocketlauncher" lvl_4
 		}
 		{"melee" lvl_5
 		}
@@ -43,13 +43,54 @@
 		}
 	}
 	{veterancy
-		(include "veterancy_generic.inc")
-		("veterancy_1")
+		{"lvl_1" 2
+		}
+		{"lvl_2" 5
+		}
+		{"lvl_3" 9
+		}
+		{"lvl_4" 14
+		}
+		{"lvl_5" 20
+		}
+		{"lvl_6" 28
+		}
+		{"lvl_7" 38
+		}
+		{"lvl_8" 50
+		}
+		{"lvl_9" 64
+		}
+		{"lvl_10" 80
+		}
+		(mod "mp"
+			{"lvl_1" 5
+			}
+			{"lvl_2" 11
+			}
+			{"lvl_3" 18
+			}
+			{"lvl_4" 26
+			}
+			{"lvl_5" 35
+			}
+			{"lvl_6" 45
+			}
+			{"lvl_7" 56
+			}
+			{"lvl_8" 68
+			}
+			{"lvl_9" 80
+			}
+			{"lvl_10" 93
+			}
+		)
 	}
 	{inventory
-		{item "nagan" filled}
-		{item "ammo nagant_clip" 28}
-		{item "bandage" 3}
+		{item "tt" filled}
+		{item "ammo tt_mag" 32}
+		{item "bandage" 5}
+		{item "grenade f1" 1}
 		{in_hands 0}
 	}
 }

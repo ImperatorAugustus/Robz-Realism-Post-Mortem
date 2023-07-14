@@ -39,14 +39,38 @@
 		}
 		{"melee" lvl_6
 		}
+		{"tankgun" lvl_4
+		}
 		{"aimedshot"}
+		{"stealth"
+		}
+		{"telescope"
+		}
 	}
 	{veterancy
-		(include "veterancy_generic.inc")
-		("veterancy_elite")
+		{"lvl_1" 5
+		}
+		{"lvl_2" 11
+		}
+		{"lvl_3" 18
+		}
+		{"lvl_4" 26
+		}
+		{"lvl_5" 35
+		}
+		{"lvl_6" 45
+		}
+		{"lvl_7" 56
+		}
+		{"lvl_8" 68
+		}
+		{"lvl_9" 80
+		}
+		{"lvl_10" 93
+		}
 	}
 	{inventory
-		{item "em2" filled}
+		{item "lee_enfield_no4_s_vet" filling "ammo british303_clip" 10}
 		{item "ammo british303_clip" 100}
 		{item "bandage" 5}
 		{item "grenade mk1" 2}

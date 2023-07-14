@@ -1,9 +1,9 @@
 {breed
-	{skin "rus-smguner"}
-	{portrait "rus_soldier5"}
-	{nationality rus}
-	{icon "stormtrooper5"}
+	{skin "rus_t4"}
+	{portrait rus_soldier5}
+	{icon stormtrooper5}
 	{icon_priority 4}
+	{nationality rus}
 	{armors
 		{head helmet1_rus}
 	}
@@ -16,40 +16,59 @@
 		}
 		{"stamina_regeneration" "100%"
 		}
-		{"vision" "mp_soldier"
+		{"vision" mp_soldier
 		}
 		{"speed" 0.9
 		}
-		{"tank"	0.95
+		{"tank" 0.95
 		}
 		{"vehicle" 1
 		}
 		{"cannon" 1
 		}
-		
-		{"pistol" lvl_5
+		{"pistol" lvl_6
 		}
 		{"smg" lvl_6
 		}
-		{"mgun" lvl_5
+		{"mgun" lvl_6
 		}
-		{"rifle" lvl_5
+		{"rifle" lvl_6
 		}
 		{"rocketlauncher" lvl_6
 		}
-		{"melee" lvl_5
+		{"melee" lvl_6
+		}
+		{"tankgun" lvl_5
 		}
 	}
 	{veterancy
-		(include "veterancy_generic.inc")
-		("veterancy_elite")
+		{"lvl_1" -1
+		}
+		{"lvl_2" 0
+		}
+		{"lvl_3" 4
+		}
+		{"lvl_4" 10
+		}
+		{"lvl_5" 16
+		}
+		{"lvl_6" 24
+		}
+		{"lvl_7" 34
+		}
+		{"lvl_8" 46
+		}
+		{"lvl_9" 60
+		}
+		{"lvl_10" 78
+		}
 	}
 	{inventory
 		{item "weapon bazooka" filled}
-		{item "ppsh" filled}
-		{item "ammo ppsh_mag" 142}
+		{item "ppsh" filling "ppsh_mag 762-smg ammo" 71}
+		{item "ammo ppsh_mag" 284}
 		{item "bandage" 5}
-		{item "rpg43 grenade" 1}
+		{item "rpg43 grenade"}
 		{item "ammo bazooka" 7}
 		{item "jelet_mac_gop_dark"}
 		{in_hands 0}

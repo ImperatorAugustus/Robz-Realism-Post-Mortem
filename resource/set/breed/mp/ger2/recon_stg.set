@@ -1,18 +1,18 @@
 {breed
-	{skin "ger-cav2-stg44"}
+	{skin "ger_t2"}
 	{portrait "ger2_soldier2"}
 	{icon "smg"}
 	{icon_priority 1}
 	{nationality ger}
 	{armors
-		{head helmet_ger_m40_camo}
+		{head helmet1_ger}
 	}
 	{perks
-		{"health" "150%"
+		{"health" "200%"
 		}
 		{"health_regeneration" "100%"
 		}
-		{"stamina" "100%"
+		{"stamina" "150%"
 		}
 		{"stamina_regeneration" "100%"
 		}
@@ -26,30 +26,51 @@
 		}
 		{"cannon" 0.8
 		}
-		{"pistol" lvl_3
+		
+		{"pistol" lvl_4
 		}
-		{"smg" lvl_3
+		{"smg" lvl_4
 		}
-		{"mgun" lvl_2
+		{"mgun" lvl_4
 		}
-		{"rifle" lvl_2
+		{"rifle" lvl_4
 		}
-		{"rocketlauncher" lvl_2
+		{"rocketlauncher" lvl_4
 		}
-		{"melee" lvl_3
+		{"melee" lvl_4
+		}
+		{"tankgun" lvl_4
 		}
 	}
 	{veterancy
-		(include "veterancy_generic.inc")
-		("veterancy_1")
+		{"lvl_1" 2
+		}
+		{"lvl_2" 5
+		}
+		{"lvl_3" 9
+		}
+		{"lvl_4" 14
+		}
+		{"lvl_5" 20
+		}
+		{"lvl_6" 28
+		}
+		{"lvl_7" 38
+		}
+		{"lvl_8" 50
+		}
+		{"lvl_9" 64
+		}
+		{"lvl_10" 80
+		}
 	}
 	{inventory
 		{item "sg44" filled}
 		{item "ammo stg44_mag" 180}
-		{item "bandage" 3}
+		{item "bandage" 5}
 		{item "grenade m24" 2}
-		{item "grenade m24x5" 0 1}
-		{item "panzerfaust_60 weapon" 0 1 filled}
+		{item "grenade m24x5"}
+		{item "grenade molotov_coctail" 1}
 		{in_hands 0}
 	}
 }

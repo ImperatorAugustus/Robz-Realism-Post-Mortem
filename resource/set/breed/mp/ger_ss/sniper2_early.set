@@ -1,22 +1,22 @@
 {breed
-	{skin "waffen-smock2-rfl"}
+	{skin "ger_sniper"}
 	{portrait "ger_soldier5"}
-	{nationality ger}
+	{nationality ger2}
 	{icon "sniper2"}
 	{icon_priority 5}
 	{armors
-		{head helmet_ger_m40_grass}
+		{head helmet1_ger}
 	}
 	{perks
-		{"health" "350%"
+		{"health" "500%"
 		}
-		{"health_regeneration" "100%"
+		{"health_regeneration" "200%"
 		}
-		{"stamina" "200%"
+		{"stamina" "500%"
 		}
-		{"stamina_regeneration" "100%"
+		{"stamina_regeneration" "200%"
 		}
-		{"vision" "mp_sniper"
+		{"vision" "mp_officer"
 		}
 		{"speed" 1.0
 		}
@@ -44,14 +44,43 @@
 		{"melee" lvl_7
 		}
 		{"aimedshot"}
+		{"tankgun" lvl_10
+		}
+		{"field_glass"
+		}
+		{"avoidance" lvl_2
+		}
 	}
 	{veterancy
-		(include "veterancy_generic.inc")
-		("veterancy_1")
+		{"lvl_1" 5
+		}
+		{"lvl_2" 11
+		}
+		{"lvl_3" 18
+		}
+		{"lvl_4" 26
+		}
+		{"lvl_5" 35
+		}
+		{"lvl_6" 45
+		}
+		{"lvl_7" 56
+		}
+		{"lvl_8" 68
+		}
+		{"lvl_9" 80
+		}
+		{"lvl_10" 93
+		}
 	}
 	{inventory
-		{item "mauzer_s_vet" filled}
-		{item "ammo mauser_clip" 60}
+		{item "mauzer_s_vet" filling "ammo mauser_clip sniper" 5}
+		{item "ammo mauser_clip sniper" 20}
+		{item "ammo mauser_clip fg" 20}
+		{item "ammo mauser_clip ap" 20}
+		{item "ammo mauser_clip" 40}
+		{item "valter" filled}
+		{item "ammo walther_mag" 32}
 		{item "bandage" 5}
 		;{item "smoke_paradrop_ammo grenade" 1}
 		{item "plant" 3}

@@ -1,11 +1,11 @@
 {breed
-	{skin "ger-volkg2-rfl"}
+	{skin "ger_t1"}
 	{portrait "ger_soldier2"}
 	{nationality ger}
 	{icon "bazooker"}
 	{icon_priority 2}
 	{armors
-		{head helmet_heer_camo}
+		{head helmet1_ger}
 	}
 	{perks
 		{"health" "100%"

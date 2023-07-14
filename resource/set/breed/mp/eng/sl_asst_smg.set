@@ -1,0 +1,76 @@
+{breed
+	{skin "eng-inf-lcpl"}
+	{portrait "eng_soldier3"}
+	{nationality eng}
+	{icon "squadleader2"}
+	{icon_priority 2}
+	{armors
+		{head helmet2_eng}
+	}
+	{perks
+		{"health" "200%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "100%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" "mp_soldier"
+		}
+		{"speed" 0.9
+		}
+		{"tank"	0.8
+		}
+		{"vehicle" 1.0
+		}
+		{"cannon" 1.0
+		}
+		
+		{"pistol" lvl_4
+		}
+		{"smg" lvl_5
+		}
+		{"mgun" lvl_4
+		}
+		{"rifle" lvl_5
+		}
+		{"rocketlauncher" lvl_4
+		}
+		{"melee" lvl_5
+		}
+	}
+	{veterancy
+		{"lvl_1" 2
+		}
+		{"lvl_2" 5
+		}
+		{"lvl_3" 9
+		}
+		{"lvl_4" 14
+		}
+		{"lvl_5" 20
+		}
+		{"lvl_6" 28
+		}
+		{"lvl_7" 38
+		}
+		{"lvl_8" 50
+		}
+		{"lvl_9" 64
+		}
+		{"lvl_10" 80
+		}
+	}
+	{inventory
+		{item "sten_mk2" filling "ammo sten_mag" 32}
+		{item "ammo sten_mag" 160}
+		{item "bandage" 3}
+		{item "grenade mk1" 2}
+		{item "grenade n73at" 1}
+		{item "smoke grenade" 1}
+		{item "n77_smoke grenade" 0 1}
+		{item "sandbag_kit" 1}
+		{in_hands 0}
+	}
+}

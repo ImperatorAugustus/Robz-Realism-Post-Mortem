@@ -1,0 +1,90 @@
+{breed
+	{skin "ger_sniper"}
+	{portrait ger2_soldier4}
+	{icon sniper}
+	{icon_priority 5}
+	{nationality ger}
+	{armors
+		{head helmet1_ger}
+	}
+	{perks
+		{"health" "500%"
+		}
+		{"health_regeneration" "200%"
+		}
+		{"stamina" "500%"
+		}
+		{"stamina_regeneration" "200%"
+		}
+		{"vision" "mp_officer"
+		}
+		{"speed" 1.0
+		}
+		{"field_glass"}
+		{"telescope"
+		}
+		{"tank" 1
+		}
+		{"vehicle" 1
+		}
+		{"cannon" 1
+		}
+		{"pistol" lvl_7
+		}
+		{"smg" lvl_7
+		}
+		{"mgun" lvl_7
+		}
+		{"rifle" lvl_7
+		}
+		{"rocketlauncher" lvl_7
+		}
+		{"melee" lvl_7
+		}
+		{"avoidance" lvl_1
+		}
+		{"stealth"}
+		{"tankgun" lvl_5
+		}
+		{"aimedshot"}
+	}
+	{veterancy
+		{"lvl_1" -1
+		}
+		{"lvl_2" 0
+		}
+		{"lvl_3" 4
+		}
+		{"lvl_4" 10
+		}
+		{"lvl_5" 16
+		}
+		{"lvl_6" 24
+		}
+		{"lvl_7" 34
+		}
+		{"lvl_8" 46
+		}
+		{"lvl_9" 60
+		}
+		{"lvl_10" 78
+		}
+	}
+	{inventory
+		{item "mauzer_s_elite" filling "ammo mauser_clip sniper" 5}
+		{item "ammo mauser_clip sniper" 20}
+		{item "ammo mauser_clip fg" 20}
+		{item "ammo mauser_clip ap" 20}
+		{item "ammo mauser_clip" 40}
+		{item "mauser_pistol_mp" filled}
+		{item "ammo c96_mag" 100}
+		{item "bandage" 5}
+		{item "grenade m39" 2}
+		{item "grenade m24x5" 0 1}
+		{item "smoke_paradrop_ammo grenade"}
+		{item "sandbag_kit"}
+		{item "plant"}
+		{item "knife_ger"}
+		{in_hands 0}
+	}
+}

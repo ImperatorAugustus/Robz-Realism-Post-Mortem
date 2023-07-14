@@ -1,11 +1,11 @@
 {breed
-	{skin "snlf_mg_gear2"}
-	{portrait "jap_soldier5"}
-	{nationality jap}
-	{icon "stormtrooper5"}
+	{skin "jap_t4"}
+	{portrait jap_soldier5}
+	{icon stormtrooper5}
 	{icon_priority 4}
+	{nationality jap}
 	{armors
-		{head "helmet_japmc6"}
+		{head helmet1_jap}
 	}
 	{perks
 		{"health" "400%"
@@ -16,17 +16,17 @@
 		}
 		{"stamina_regeneration" "100%"
 		}
-		{"vision" "mp_soldier"
+		{"vision" mp_soldier
 		}
-		{"speed" 0.9
+		{"speed" 1
 		}
-		{"tank"	1.0
+		{"stealth"}
+		{"tank" 1
 		}
-		{"vehicle" 1.0
+		{"vehicle" 1
 		}
-		{"cannon" 1.0
+		{"cannon" 1
 		}
-		
 		{"pistol" lvl_7
 		}
 		{"smg" lvl_7
@@ -39,17 +39,38 @@
 		}
 		{"melee" lvl_7
 		}
+		{"tankgun" lvl_5
+		}
 	}
 	{veterancy
-		(include "veterancy_generic.inc")
-		("veterancy_elite")
+		{"lvl_1" 5
+		}
+		{"lvl_2" 11
+		}
+		{"lvl_3" 18
+		}
+		{"lvl_4" 26
+		}
+		{"lvl_5" 35
+		}
+		{"lvl_6" 45
+		}
+		{"lvl_7" 56
+		}
+		{"lvl_8" 68
+		}
+		{"lvl_9" 80
+		}
+		{"lvl_10" 93
+		}
 	}
 	{inventory
-		{item "weapon weapon type_4at" filled}
-		{item "type100smg" filled}
+		{item "weapon type_4at" filled}
+		{item "type100smg" filling "type100_mag nambu-smg ammo" 30}
 		{item "ammo type100_mag" 180}
 		{item "bandage" 5}
-		{item "grenade type3at_a" 1}
+		{item "grenade type3at_a"}
+		{item "mine antipersonnel" 0 2}
 		{item "ammo type_4" 7}
 		{in_hands 0}
 	}

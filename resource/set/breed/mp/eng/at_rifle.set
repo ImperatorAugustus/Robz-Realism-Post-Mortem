@@ -29,15 +29,15 @@
 		
 		{"pistol" lvl_2
 		}
-		{"smg" lvl_3
+		{"smg" lvl_4
 		}
-		{"mgun" lvl_2
+		{"mgun" lvl_4
 		}
 		{"rifle" lvl_4
 		}
-		{"rocketlauncher" lvl_2
+		{"rocketlauncher" lvl_4
 		}
-		{"melee" lvl_3
+		{"melee" lvl_4
 		}
 	}
 	{veterancy
@@ -46,9 +46,9 @@
 	}
 	{inventory
 		{item "boyes" filled}
-		{item "sten_mk2" filled}
-		{item "ammo sten_mag" 128}
-		{item "bandage" 3}
+		{item "thompson_m1928a1_30" filling "ammo thompson_m1a1_mag" 30}
+		{item "ammo thompson_m1a1_mag" 150}
+		{item "bandage" 4}
 		{item "grenade n73at" 1}
 		{item "ammo ptr" 25}
 		{in_hands 0}

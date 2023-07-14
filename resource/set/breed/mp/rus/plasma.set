@@ -1,11 +1,11 @@
 {breed
-	{skin "rus-mgunner_w"}
+	{skin "rus_t2"}
 	{portrait "rus_soldier5"}
 	{nationality rus}
 	{icon "stormtrooper"}
 	{icon_priority 4}
 	{armors
-		{head "winterhat"}
+		{head helmet1_rus}
 	}
 	{perks
 		{"health" "350%"
@@ -41,8 +41,26 @@
 		}
 	}
 	{veterancy
-		(include "veterancy_generic.inc")
-		("veterancy_1")
+		{"lvl_1" 2
+		}
+		{"lvl_2" 5
+		}
+		{"lvl_3" 9
+		}
+		{"lvl_4" 14
+		}
+		{"lvl_5" 20
+		}
+		{"lvl_6" 28
+		}
+		{"lvl_7" 38
+		}
+		{"lvl_8" 50
+		}
+		{"lvl_9" 64
+		}
+		{"lvl_10" 80
+		}
 	}
 	{inventory
 		{item "plasma_rifle" filled}

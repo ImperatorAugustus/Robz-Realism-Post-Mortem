@@ -1,0 +1,77 @@
+{breed
+	{skin "rus_t2"}
+	{portrait rus_elite2}
+	{icon elite4}
+	{icon_priority 3}
+	{nationality rus}
+	{armors
+		{body ru_backpack_meshok}
+		{head helmet1_rus}
+	}
+	{perks
+		{"health" "150%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "100%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" mp_soldier
+		}
+		{"speed" 0.9
+		}
+		{"tank" 0.85
+		}
+		{"vehicle" 1
+		}
+		{"cannon" 0.9
+		}
+		{"pistol" lvl_3
+		}
+		{"smg" lvl_4
+		}
+		{"mgun" lvl_3
+		}
+		{"rifle" lvl_4
+		}
+		{"rocketlauncher" lvl_3
+		}
+		{"melee" lvl_4
+		}
+	}
+	{veterancy
+		{"lvl_1" -1
+		}
+		{"lvl_2" 0
+		}
+		{"lvl_3" 4
+		}
+		{"lvl_4" 10
+		}
+		{"lvl_5" 16
+		}
+		{"lvl_6" 24
+		}
+		{"lvl_7" 34
+		}
+		{"lvl_8" 46
+		}
+		{"lvl_9" 60
+		}
+		{"lvl_10" 78
+		}
+	}
+	{inventory
+		{item "pps43" filling "pps43_mag 762-smg ammo" 35}
+		{item "ammo pps43_mag" 210}
+		{item "bandage" 4}
+		{item "grenade f1" 2}
+		{item "grenade rgd33" 0 1}
+		{item "grenade molotov_coctail" 0 1}
+		{item "grenade rpg43" 0 1}
+		{item "grenade rpg40" 0 1}
+		{item "panzerfaust_60 weapon" filled}
+		{in_hands 0}
+	}
+}

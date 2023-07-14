@@ -1,15 +1,15 @@
 {breed
-	{skin "waffen-smock2-g43"}
-	{portrait "ger_soldier7"}
-	{icon "rifleman"}
+	{skin "ger_t3"}
+	{portrait ger_soldier7}
+	{icon rifleman}
 	{icon_priority 1}
-	{nationality ger}
+	{nationality ger2}
 	{armors
 		{body ammo_ger3}
-		{head waffen_helmet_camo}
+		{head helmet1_ger}
 	}
 	{perks
-		{"health" "200%"
+		{"health" "250%"
 		}
 		{"health_regeneration" "100%"
 		}
@@ -17,19 +17,19 @@
 		}
 		{"stamina_regeneration" "100%"
 		}
-		{"vision" "mp_soldier"
+		{"vision" mp_soldier
 		}
 		{"speed" 0.9
 		}
-		{"tank"	0.75
+		{"tank" 0.75
 		}
 		{"vehicle" 1
 		}
 		{"cannon" 0.8
 		}
-		{"pistol" lvl_4
+		{"pistol" lvl_5
 		}
-		{"smg" lvl_3
+		{"smg" lvl_5
 		}
 		{"mgun" lvl_4
 		}
@@ -37,21 +37,39 @@
 		}
 		{"rocketlauncher" lvl_5
 		}
-		{"melee" lvl_4
+		{"melee" lvl_5
 		}
 	}
 	{veterancy
-		(include "veterancy_generic.inc")
-		("veterancy_1")
+		{"lvl_1" 2
+		}
+		{"lvl_2" 5
+		}
+		{"lvl_3" 9
+		}
+		{"lvl_4" 14
+		}
+		{"lvl_5" 20
+		}
+		{"lvl_6" 28
+		}
+		{"lvl_7" 38
+		}
+		{"lvl_8" 50
+		}
+		{"lvl_9" 64
+		}
+		{"lvl_10" 80
+		}
 	}
 	{inventory
 		{item "g43" filling "ammo g43_mag" 10}
-		{item "ammo g43_mag" 20}
+		{item "ammo g43_mag" 0 20}
 		{item "ammo mauser_clip" 60}
 		{item "ammo mg_mauser drum" 50}
-		{item "bandage" 3}
+		{item "bandage" 5}
 		{item "grenade m24" 2}
-		{item "smoke grenade" 1}
+		{item "grenade m24x5" -1 2}
 		{item "sandbag_kit"}
 		{item "panzerfaust_60 weapon" filled}
 		{in_hands 0}

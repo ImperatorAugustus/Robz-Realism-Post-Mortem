@@ -29,27 +29,46 @@
 		
 		{"pistol" lvl_2
 		}
-		{"smg" lvl_2
+		{"smg" lvl_4
 		}
 		{"mgun" lvl_4
 		}
 		{"rifle" lvl_4
 		}
-		{"rocketlauncher" lvl_1
+		{"rocketlauncher" lvl_3
 		}
 		{"melee" lvl_4
 		}
 	}
 	{veterancy
-		(include "veterancy_generic.inc")
-		("veterancy_1")
+		{"lvl_1" 2
+		}
+		{"lvl_2" 5
+		}
+		{"lvl_3" 9
+		}
+		{"lvl_4" 14
+		}
+		{"lvl_5" 20
+		}
+		{"lvl_6" 28
+		}
+		{"lvl_7" 38
+		}
+		{"lvl_8" 50
+		}
+		{"lvl_9" 64
+		}
+		{"lvl_10" 80
+		}
 	}
 	{inventory
-		{item "em3" filled}
+		{item "lee_enfield_no4" filling "ammo british303_clip" 10}
 		{item "ammo british303_clip" 50}
+		{item "ammo british303_clip" 0.25 50}
 		{item "ammo bren_mag" 168}
-		{item "bandage" 3}
-		{item "grenade mk1" 1}
+		{item "bandage" 4}
+		{item "grenade mk1" 2}
 		{item "sandbag_kit" 1}
 		{in_hands 0}
 	}

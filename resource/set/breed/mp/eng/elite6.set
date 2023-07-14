@@ -27,25 +27,25 @@
 		{"cannon" 1.0
 		}
 		
-		{"pistol" lvl_3
+		{"pistol" lvl_5
 		}
-		{"smg" lvl_3
+		{"smg" lvl_5
 		}
-		{"mgun" lvl_4
+		{"mgun" lvl_5
 		}
-		{"rifle" lvl_3
+		{"rifle" lvl_5
 		}
-		{"rocketlauncher" lvl_3
+		{"rocketlauncher" lvl_4
 		}
-		{"melee" lvl_4
+		{"melee" lvl_5
 		}
 	}
 	{veterancy
 		(include "veterancy_generic.inc")
-		("veterancy_1")
+		("veterancy_elite")
 	}
 	{inventory
-		{item "bren" filled}
+		{item "bren" filling "ammo bren_mag" 28}
 		{item "ammo bren_mag" 224}
 		{item "bandage" 5}
 		{item "grenade mk1" 2}

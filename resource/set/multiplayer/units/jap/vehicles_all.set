@@ -18,16 +18,17 @@
 
 
 
-
 ;°°°Button 2°°°
 
 {"type92_stan"      ("vs" c(10) t(all cannon 42 43 44 45) 		s(jap) n(2) g(c1) sc(6.00)  b(v2) cw(2) cp(5)) {level 1} {cost 110} {fore -2.0}}	;30sec
+
 {"type2_20mm"       ("vs" c(30) t(all cannon 42 43 44 45) 		s(jap) n(1) g(c2) sc(9.00) b(v2) cw(2) cp(5)) {level 1} {cost 180} {fore -4.0}}		;150sec
+{"isuzutx40_aa"     ("vs" c(10) t(all light 42 43 44 45) s(jap) n(4) g(d6) sc(12.00) b(v3) cw(0) cp(5)) {level 1} {cost 200} {fore -27.0}}	;280sec
 
 {"type97mortar"	    ("vs" c(10) t(all cannon mortar 42 43 44 45) 	s(jap) n(2) g(c3) sc(19.50) b(v2) cw(2) cp(5)) {level 1} {cost 390} {fore -2.0}}	;30sec
 {"isuzutx40_mort"   ("vs" c(10) t(all 42 43 44 45 mortar) 	s(jap) n(3) g(b2) sc(17.50) b(v1) cw(0) cp(0)) {level 1} {cost 350} {fore -31.0}}	;320sec
-
 {"type_97_150mm"    ("vs" c(60) t(all cannon mortar 42 43 44 45) 	s(jap) n(2) g(c4) sc(29.50) b(v2) cw(2) cp(15)) {level 1} {cost 590} {fore -9.0}}	;600sec
+
 {"type4_200mm"	    ("vs" c(60) t(all cannon mortar artillery heavycan 43 44 45) s(jap) n(2) g(c14) sc(30.00) b(v2) cw(2) cp(15)) {level 1} {cost 600} {fore -14.0}}	;900sec
 
 {"pak47"            ("vs" c(0) t(all cannon 42 43 44 45) 		s(jap) n(2) g(c5) sc(11.50)  b(v2) cw(2) cp(5)) {level 1} {cost 150} {fore 1.0}}	;0sec
@@ -46,7 +47,6 @@
 
 
 
-
 ;°°°Button 3°°°
 
 {"type93scout"      ("v" c(10) t(all light 42 43 44 45) s(jap) n1(4) n2(1) g(d1) sc(8.00) b(v3) cw(0) cp(5)) {level 1} {cost 160} {fore -24.0}}	;250sec
@@ -55,10 +55,8 @@
 
 {"chi-ha57"         ("v" c(10) t(all light 42 43 44 45) s(jap) n1(3) n2(1) g(d4) sc(15.00) b(v3) cw(0) cp(5)) {level 1} {cost 210} {fore -47.0}};480sec
 {"chi-ha47"         ("v" c(10) t(all light 42 43 44 45) s(jap) n1(4) n2(1) g(d5) sc(16.00) b(v3) cw(0) cp(5)) {level 1} {cost 230} {fore -52.0}};530sec
-{"isuzutx40_aa"     ("vs" c(10) t(all light 42 43 44 45) s(jap) n(4) g(d6) sc(12.00) b(v3) cw(0) cp(5)) {level 1} {cost 200} {fore -27.0}}	;280sec
 
 {"ss-d"             ("v" c(360) t(deminer 42 43 44 45 flamethrower) 	s(jap) n1(3) n2(1) g(d7) sc(12.50) b(v3) cw(0) cp(0)) {level 1} {cost 250} {fore 0.0}};360sec
-
 
 
 
@@ -75,13 +73,10 @@
 
 
 
-
 ;°°°Button 5°°°
 
 {"ho-ni1"           ("v"  c(10) t(all medium 42 43 44 45) s(jap) n1(2) n2(1) g(f1) sc(18.00) b(v5) cw(0) cp(10)) {level 1} {cost 300} {fore -74.0}}		;750sec
 {"ho-ni_3"          ("v"  c(10) t(all medium 44 45) s(jap) n1(2) n2(1) g(f2) sc(18.00) b(v5) cw(0) cp(10)) {level 1} {cost 340} {fore -74.0}}			;750sec
-{"ho-ri_1"     	    ("v"  c(800) t(all sheavy 44 45) 	s(jap) n1(3) n2(1) g(f3) sc(70.00) b(v5) cw(0) cp(40)) {level 1} {cost 1400} {fore -1.7}}		;2160sec
-
 
 
 
@@ -99,7 +94,7 @@
 
 {"heronew2_jap"	    ("v1" c(240) c1(ho-ni_3) t(all hero 44 45) s(jap) n1(tankman:3) n2(tankman2:1) g(h3) b(hero)) {level 1} {cost 3.0} {fore -1.875}} 		;690sec
 {"hero8_jap"        ("v1" c(480) c1(chi-ha120) 		t(all hero 44 45) s(jap) n1(tankman:4) n2(tankman2:1) g(h6) b(hero)) {level 1} {cost 4.0} {fore -0.4375}}		;690sec
-{"hero6_jap"        ("v2" c(280) c1(chi-ha47) 		t(all hero 42 43 44 45) s(jap) n1(tankman:5) n2(elite2:9) n3(charger_rifle:8) g(h7) b(hero)) {level 1} {cost 5.0} {fore -0.89}}		;530sec
+{"hero6_jap"        ("v24" c(280) c1(chi-ha47) 		t(all hero 42 43 44 45) s(jap) n1(tankman:4) n2(tankman2:1) n2(elite2:9) n3(charger_rifle:8) g(h7) b(hero)) {level 1} {cost 5.0} {fore -0.89}}		;530sec
 
 {"hero7_jap"        ("v1" c(600) c1(type4_200mm) 	t(all hero artillery 43 44 45) s(jap) n1(vehicle_supporter:2) n2(tankman2:0) g(h8) b(hero)) {level 1} {cost 6.0} {fore -0.5}}
 

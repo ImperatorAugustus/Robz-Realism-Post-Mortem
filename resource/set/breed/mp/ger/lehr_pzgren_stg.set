@@ -1,0 +1,76 @@
+{breed
+	{skin "ger_t4"}
+	{portrait "ger_soldier3"}
+	{icon "stormtrooper"}
+	{icon_priority 3}
+	{nationality ger}
+	{armors
+		{body ammo_ger3}
+		{head helmet1_ger}
+	}
+	{perks
+		{"health" "400%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "200%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" "mp_soldier"
+		}
+		{"speed" 0.9
+		}
+		{"tank"	0.85
+		}
+		{"vehicle" 1
+		}
+		{"cannon" 0.9
+		}
+		{"pistol" lvl_7
+		}
+		{"smg" lvl_7
+		}
+		{"mgun" lvl_7
+		}
+		{"rifle" lvl_7
+		}
+		{"rocketlauncher" lvl_7
+		}
+		{"melee" lvl_7
+		}
+		{"tankgun" lvl_5
+		}
+	}
+	{veterancy
+		{"lvl_1" 5
+		}
+		{"lvl_2" 11
+		}
+		{"lvl_3" 18
+		}
+		{"lvl_4" 26
+		}
+		{"lvl_5" 35
+		}
+		{"lvl_6" 45
+		}
+		{"lvl_7" 56
+		}
+		{"lvl_8" 68
+		}
+		{"lvl_9" 80
+		}
+		{"lvl_10" 93
+		}
+	}
+	{inventory
+		{item "sg44" filled}
+		{item "ammo stg44_mag" 180}
+		{item "bandage" 5}
+		{item "grenade m24" 2}
+		{item "grenade m24x5"}
+		{item "sandbag_kit"}
+		{in_hands 0}
+	}
+}

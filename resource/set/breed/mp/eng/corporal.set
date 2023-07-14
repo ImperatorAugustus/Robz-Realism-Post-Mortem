@@ -1,0 +1,70 @@
+{breed
+	{hero}
+	{skin "us_flamer_hp"}
+	{portrait "corporal"}
+	{nationality usa}
+	{icon "smg"}
+	{icon_priority 1}
+	{armors
+		{head "helmet1_usa"}
+	}
+	{perks
+		{"health" "500%"
+		}
+		{"health_regeneration" "200%"
+		}
+		{"stamina" "1000%"
+		}
+		{"stamina_regeneration" "500%"
+		}
+		{"vision" "mp_officer"
+		}
+		{"speed" 1.0
+		}
+		{"stealth"
+		}
+		{"telescope"
+		}
+		{"field_glass"
+		}
+		{"tank"	1
+		}
+		{"vehicle" 1
+		}
+		{"cannon" 1
+		}
+		
+		{"pistol" lvl_9
+		}
+		{"smg" lvl_9
+		}
+		{"mgun" lvl_9
+		}
+		{"rifle" lvl_9
+		}
+		{"rocketlauncher" lvl_9
+		}
+		{"melee" lvl_8
+		}
+		{"tankgun" lvl_15
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_1")
+	}
+	{inventory
+		{item "thompson" filled}
+		{item "ammo thompson_m1a1_mag" 180}
+		{item "bandage" 5}
+		{item "grenade m61" 2}
+		{item "grenade n73at" 2}
+		{item "smoke grenade" 1}
+		{item "hdm" filled}
+		{item "ammo hdm_mag" 50}
+		{item "smoke_paradrop_ammo_heavy grenade" 1}
+		{item "dynamite" 1}
+		{item "knife_union" 1}
+		{in_hands 0}
+	}
+}

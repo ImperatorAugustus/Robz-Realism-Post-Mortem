@@ -20,6 +20,7 @@
 		}
 		{"speed" 0.9
 		}
+		{"stealth"}
 		{"tank"	1.0
 		}
 		{"vehicle" 1.0
@@ -39,19 +40,41 @@
 		}
 		{"melee" lvl_7
 		}
+		{"tankgun" lvl_4
+		}
 	}
 	{veterancy
-		(include "veterancy_generic.inc")
-		("veterancy_elite")
+		{"lvl_1" 5
+		}
+		{"lvl_2" 11
+		}
+		{"lvl_3" 18
+		}
+		{"lvl_4" 26
+		}
+		{"lvl_5" 35
+		}
+		{"lvl_6" 45
+		}
+		{"lvl_7" 56
+		}
+		{"lvl_8" 68
+		}
+		{"lvl_9" 80
+		}
+		{"lvl_10" 93
+		}
 	}
 	{inventory
-		{item "sten_v" filled}
-		{item "ammo sten_mag" 224}
+		{item "lee_enfield_no4_vet" filling "ammo british303_clip" 10}
+		{item "ammo british303_clip" 100}
 		{item "bandage" 5}
 		{item "grenade mk1" 2}
 		{item "grenade n73at"}
 		{item "smoke grenade" 2}
-		{item "n77_smoke grenade" 1}
+		{item "n77_smoke grenade" 0.25 1}
+		{item "weapon piatrocket" filled}
+		{item "ammo piatrocket" 5}
 		{in_hands 0}
 	}
 }

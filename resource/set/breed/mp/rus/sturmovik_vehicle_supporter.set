@@ -1,0 +1,75 @@
+{breed
+	{skin "rus_t4"}
+	{portrait rus_soldier5}
+	{icon stormtrooper}
+	{icon_priority 4}
+	{nationality rus}
+	{armors
+		{head helmet1_rus}
+	}
+	{perks
+		{"health" "350%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "200%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" mp_soldier
+		}
+		{"speed" 0.9
+		}
+		{"tank" 0.95
+		}
+		{"vehicle" 1
+		}
+		{"cannon" 1
+		}
+		{"pistol" lvl_6
+		}
+		{"smg" lvl_6
+		}
+		{"mgun" lvl_6
+		}
+		{"rifle" lvl_6
+		}
+		{"rocketlauncher" lvl_6
+		}
+		{"melee" lvl_5
+		}
+		{"tankgun" lvl_10
+		}
+	}
+	{veterancy
+		{"lvl_1" -1
+		}
+		{"lvl_2" 0
+		}
+		{"lvl_3" 4
+		}
+		{"lvl_4" 10
+		}
+		{"lvl_5" 16
+		}
+		{"lvl_6" 24
+		}
+		{"lvl_7" 34
+		}
+		{"lvl_8" 46
+		}
+		{"lvl_9" 60
+		}
+		{"lvl_10" 78
+		}
+	}
+	{inventory
+		{item "ppsh41" filling "ppsh41_mag 762-smg ammo" 71}
+		{item "ammo ppsh41_mag" 284}
+		{item "bandage" 5}
+		{item "grenade f1" 4}
+		{item "rpg40 grenade" 2}
+		{item "smoke grenade"}
+		{in_hands 0}
+	}
+}

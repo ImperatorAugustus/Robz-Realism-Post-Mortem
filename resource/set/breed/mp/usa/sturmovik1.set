@@ -1,11 +1,11 @@
 {breed
-	{skin "usa-ranger-carbine"}
+	{skin "us_t4"}
 	{portrait "usa_soldier5"}
 	{nationality usa}
 	{icon "stormtrooper"}
 	{icon_priority 4}
 	{armors
-		{head helmet_usa_ranger}
+		{head "helmet1_usa"}
 		{body us_haversack_shovel}
 	}
 	{perks

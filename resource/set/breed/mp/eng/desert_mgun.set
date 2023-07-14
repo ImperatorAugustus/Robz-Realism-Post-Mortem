@@ -1,0 +1,58 @@
+{breed
+	{skin "eng-inf-pvt"}
+	{portrait "eng_soldier2"}
+	{nationality eng}	
+	{icon "mg"}
+	{icon_priority 2}
+	{armors
+		{head helmet_eng_mk3b}
+	}
+	{perks
+		{"health" "200%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "150%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" "mp_soldier"
+		}
+		{"speed" 0.9
+		}
+		{"tank"	0.8
+		}
+		{"vehicle" 1.0
+		}
+		{"cannon" 1.0
+		}
+		
+		{"pistol" lvl_5
+		}
+		{"smg" lvl_5
+		}
+		{"mgun" lvl_5
+		}
+		{"rifle" lvl_5
+		}
+		{"rocketlauncher" lvl_4
+		}
+		{"melee" lvl_5
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_1")
+	}
+	{inventory
+		{item "bren" filling "ammo bren_mag" 28}
+		{item "ammo bren_mag" 224}
+		{item "bandage" 5}
+		{item "grenade mk1" 2}
+		{item "grenade n73at" 0 1}
+		{item "smoke grenade" 1}
+		;{item "n77_smoke grenade" 0 1}
+		{item "sandbag_kit" 1}
+		{in_hands 0}
+	}
+}

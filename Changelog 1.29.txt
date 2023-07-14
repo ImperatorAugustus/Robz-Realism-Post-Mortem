@@ -5,7 +5,13 @@
 
 ADDED/INTEGRATED:
 -----
-Integrated various sounds
+Integrated various sounds.
+
+Integrated Robz Reloaded fixes, localizations, and optimizations. -V 2.7
+-Fixed Isuzu repair and fire bug
+-Fixed US mortar haltrack fire bug
+-Reverted skins to vanilla
+-Reduced fire fx
 
 
 
@@ -19,7 +25,6 @@ PATHING:
 -----
 Allowed 'cannons' to climb any height at speed cost ; This should prevent units from getting stuck most of the time, and allow for more strategic uses with less micro -!Need to add NoPath zones to map to prevent stupid shit!
 Allowed airborne to climb anything to prevent the dropper getting stuck
-
 
 
 
@@ -141,6 +146,8 @@ Removed 105 sherman buy
 
 		United Kingdom:
 ----
+	Infantry
+	
 	Vehicles
 -Humber cooldown increased from 10 to 380
 - 75mm Cromwell IV and VI varients and Crusaders had mp cost reduced by 10%
@@ -149,8 +156,6 @@ Removed 105 sherman buy
 -veteran firefly - 9sp
 -heavy tank troop - 10 sp
 -churchill crocodile - 5sp
-
-	Infantry
 
 
 
@@ -173,6 +178,7 @@ Reduced PTRD cost by 20 mp.
 Added sequential buy that reduces every 2nd PTRD buy to 40 mp.
 Added hero AT squad for 2 SP. 2 Guards equivelant PTRS, 1 regular PTRD, 1 AT Rifle support.
 Updated charge to reflect an assault rifle squads without lmgs.
+
 	Vehicles
 Reduced DS 39 cost by 20mp
 Reduced all other HMGs by 10mp.
@@ -217,6 +223,7 @@ guards rifle squad - 200mp
 guards rifle assault squad - 205mp
 elite guards smg squad - 215 mp
 guards shock smg squad 225 mp
+
 	Vehicles
 Reduced M30 price by 100mp.
 Reenabled BR5
@@ -252,6 +259,7 @@ at rifle - 70mp
 grossdeutschland single buy mg42 - 110mp
 fallshirmjager mg42 single buy - 125mp
 Sturm Grens and Sturm Gren Mech increased by 13 mp.
+
 	Vehicles
 Reduce 223 cost by 30mp
 Changed Pak 43 SP buy to SP
@@ -290,6 +298,8 @@ Replaced double nebelwerfer buy with an 11sp double mechanized sturm pioneer wit
 -----
 	Infantry
 ss at rifle - 70mp
+fallshirmjager mg42 single buy - 125mp
+
 	Vehicles
 Reduce 223 cost by 30mp
 Increased Flak 88 cost by 100mp
@@ -335,6 +345,7 @@ at rifle - 80mp
 ptrd- 110mp
 officer - 150mp
 Removed veteran marksman
+
 	Vehicles
 Increased Flak 88 cost by 100mp
 horch - 130mp
@@ -372,6 +383,7 @@ Doubled timer on bother Imperial Guard varients
 Reduced basic rifle squads by 15mp
 Reduced all elite infantry squads except Imperial guard by 20mp
 Added 50% more minners to each respective squad
+
 	Vehicles
 Fixed 200m AT gun and TD range scaling so its accurate to max
 Reduced 105 and 150 howitzer by 50mp
@@ -385,9 +397,11 @@ Chi Ha 47 to 230 mp
 Chi To and Chi Ri increased in mp price by 100
 Ho Ni 1 to 300mp
 Ho Ni 3 to 340mp
+Removed Ho Ri MP buy
 Adjusted timer on kamikazes and AT grenade launcher SP buy.
 Doubled the number of people in AT grenade launcher squad.
 Added 2 more for a total of 6 to the kamikaze squad
 Banzai SP reduced to 280 second cooldown and 420 second startup
 Added 8 charger_rifles to the Banzai
+Fixed Banzai 47mm not having commanders
 Reduced 200mm SP buy to 6sp

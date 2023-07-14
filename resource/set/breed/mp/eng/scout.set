@@ -8,48 +8,74 @@
 		{head beret_commando}
 	}
 	{perks
-		{"health" "350%"
+		{"health" "500%"
 		}
-		{"health_regeneration" "100%"
+		{"health_regeneration" "200%"
 		}
-		{"stamina" "200%"
+		{"stamina" "1000%"
 		}
-		{"stamina_regeneration" "300%"
+		{"stamina_regeneration" "500%"
 		}
-		{"vision" "mp_soldier"
+		{"vision" "mp_officer"
 		}
-		{"speed" 0.9
+		{"speed" 1.0
 		}
 		{"stealth"
 		}
-		{"tank"	1.0
+		{"telescope"
 		}
-		{"vehicle" 1.0
+		{"field_glass"
 		}
-		{"cannon" 1.0
+		{"tank"	1
+		}
+		{"vehicle" 1
+		}
+		{"cannon" 1
 		}
 		
-		{"pistol" lvl_5
+		{"pistol" lvl_9
 		}
-		{"smg" lvl_5
+		{"smg" lvl_9
 		}
-		{"mgun" lvl_5
+		{"mgun" lvl_9
 		}
-		{"rifle" lvl_5
+		{"rifle" lvl_9
 		}
-		{"rocketlauncher" lvl_5
+		{"rocketlauncher" lvl_9
 		}
-		{"melee" lvl_5
+		{"melee" lvl_8
+		}
+		{"tankgun" lvl_15
+		}
+		{"avoidance" lvl_2
 		}
 	}
 	{veterancy
-		(include "veterancy_generic.inc")
-		("veterancy_1")
+		{"lvl_1" 2
+		}
+		{"lvl_2" 5
+		}
+		{"lvl_3" 9
+		}
+		{"lvl_4" 14
+		}
+		{"lvl_5" 20
+		}
+		{"lvl_6" 28
+		}
+		{"lvl_7" 38
+		}
+		{"lvl_8" 50
+		}
+		{"lvl_9" 64
+		}
+		{"lvl_10" 80
+		}
 	}
 	{inventory
 		{item "welrod" filled}
 		{item "sten_v_silencer" filled}
-		{item "ammo sten_mag" 128}
+		{item "ammo sten_mag" 192}
 		{item "ammo welrod_mag" 24}
 		{item "bandage" 5}
 		{item "grenade mk1" 4}

@@ -1,18 +1,18 @@
 {breed
-	{skin "ger-cav2-mgun"}
+	{skin "ger_t3"}
 	{portrait "ger_soldier2"}
 	{icon "mg"}
 	{icon_priority 2}
 	{nationality ger}
 	{armors
-		{head helmet_ger_m40}
+		{head helmet1_ger}
 	}
 	{perks
-		{"health" "150%"
+		{"health" "200%"
 		}
 		{"health_regeneration" "100%"
 		}
-		{"stamina" "100%"
+		{"stamina" "150%"
 		}
 		{"stamina_regeneration" "100%"
 		}
@@ -26,29 +26,51 @@
 		}
 		{"cannon" 0.8
 		}
-		{"pistol" lvl_4
+		{"pistol" lvl_5
 		}
-		{"smg" lvl_3
+		{"smg" lvl_5
 		}
-		{"mgun" lvl_4
+		{"mgun" lvl_5
 		}
-		{"rifle" lvl_3
+		{"rifle" lvl_5
 		}
-		{"rocketlauncher" lvl_2
+		{"rocketlauncher" lvl_5
 		}
-		{"melee" lvl_4
+		{"melee" lvl_5
+		}
+		{"tankgun" lvl_4
+		}
+		{"field_glass"
 		}
 	}
 	{veterancy
-		(include "veterancy_generic.inc")
-		("veterancy_1")
+		{"lvl_1" 2
+		}
+		{"lvl_2" 5
+		}
+		{"lvl_3" 9
+		}
+		{"lvl_4" 14
+		}
+		{"lvl_5" 20
+		}
+		{"lvl_6" 28
+		}
+		{"lvl_7" 38
+		}
+		{"lvl_8" 50
+		}
+		{"lvl_9" 64
+		}
+		{"lvl_10" 80
+		}
 	}
 	{inventory
 		{item "mg42_inf" filled}
 		{item "ammo mg_mauser drum" 300}
 		{item "valter" filled}
 		{item "ammo walther_mag" 16}
-		{item "bandage" 3}
+		{item "bandage" 5}
 		{item "barrel_case"}
 		{in_hands 0}
 	}

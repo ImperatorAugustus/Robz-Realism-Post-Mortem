@@ -1,0 +1,129 @@
+{game_entity
+	(include "/properties/armoredcar.ext")
+	(include "/properties/selection/vehicle.inc"  scale(1.0))
+	{Extension "m4.mdl"}
+	{extension "crew4.ext"}
+	{props "vehicle" "armored_car" "tank" "turret" "wheeled_6" "explosion_throw_crew" "vision_vehicle_medium" "switch_mgun"}
+	
+	{extender "enumerator"}
+	
+	{volume "sticky"
+		{tags "grenade_fg_target"}
+		{able clear {contact} {touch}}
+		{component "sticky_body"}
+	}
+	{component "sticky_body"}
+
+	{volume "body1"
+		{tags "body"}
+		{component "body"}
+		{thickness 10}
+	}
+	{volume "body2"
+		{tags "body"}
+		{component "body"}
+		{thickness 10}
+	}
+	{volume "body3"
+		{tags "body"}
+		{component "body"}
+		{thickness 15}
+	}
+	{volume "body4"
+		{tags "body"}
+		{component "body"}
+		{thickness 15}
+	}
+	{volume "body5"
+		{tags "body"}
+		{component "body"}
+		{thickness 15}
+	}
+	{volume "body6"
+		{tags "body"}
+		{component "body"}
+		{thickness 15}
+	}
+	{volume "roll"
+		{thickness 15}
+	}
+	{volume "body7"
+		{tags "body"}
+		{component "body"}
+		{thickness 15}
+	}
+	{volume "engine"
+		{thickness 10}
+	}
+	{Volume "fuel"
+		{thickness 1}
+	}
+
+	("armor_light" args 1.0)
+
+	("wheel" args "wheelright1")
+	("wheel" args "wheelleft1")
+	("tracks")
+	
+	{extender "inventory"
+		{Box
+			{item "ammo springfield_belt" 600}
+			{item "ammo mortar81 us fg light" 60}
+			{item "ammo mortar81 us fg heavy" 20}
+			{item "ammo mortar81 us wp" 12}
+		}
+	}
+	{Weaponry
+		{place "gun"
+			{Barrels 1}
+			{weapon "weapon 81mm_m1" filling "ammo mortar81 us fg light"}
+			;{Rotate}
+			{foresight "foresight1"}
+		}
+		{place "mgun"
+			{type "mgun_main"}
+			{foresight "foresight3"}
+			{weapon "browning_m19" filled}
+			{gunner "gunner1"}
+			{charger "gunner1"}
+			{LinkBone "mgun"}
+			{LinkAnimation "off"}
+			{basic}
+		}
+		
+	} 
+
+  	
+	{sensor
+		{visor "main"
+			{bone "mgun"}
+		}
+	}
+
+	{Chassis
+		{Locomotion ("locomotion")
+			{MaxSpeed 35}
+	  		{maxSpeedAtMaxTurn 6}
+			{StartTime	10}
+     			{Gears  0.1 0.2 0.3 1}
+			{RearGears 0.25}
+		}
+		{FuelBag
+			{volume 230 }	
+			{rate	11 }   
+			{remain 230 }
+			{fuel "fuel"}
+		}
+		{speed
+	        		{Normal  12}
+        			{Slow  20}
+
+	    	}
+		; left track must be first
+		("tank_trace" fx("tracks_sm") step(0.3) len(0.4) boneleft("wheell4") boneright("wheelr4"))
+		("car_trace" fx("tracewheel01") step(0.09) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
+		;{DisableMoveWhileFiring}
+	}
+	{mass 7000}
+
+}

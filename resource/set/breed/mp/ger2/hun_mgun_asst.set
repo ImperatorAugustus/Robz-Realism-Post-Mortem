@@ -1,0 +1,74 @@
+{breed
+	{skin "hun_inf_rifleman_01"}
+	{portrait hun_soldier2}
+	{icon rifleman}
+	{icon_priority 0}
+	{nationality hun}
+	{armors
+		{head helmet1_ger}
+	}
+	{perks
+		{"health" "150%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "100%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" mp_soldier
+		}
+		{"speed" 0.9
+		}
+		{"tank" 0.8
+		}
+		{"vehicle" 1
+		}
+		{"cannon" 1
+		}
+		{"pistol" lvl_3
+		}
+		{"smg" lvl_3
+		}
+		{"mgun" lvl_3
+		}
+		{"rifle" lvl_3
+		}
+		{"rocketlauncher" lvl_2
+		}
+		{"melee" lvl_4
+		}
+	}
+	{veterancy
+		{"lvl_1" 2
+		}
+		{"lvl_2" 5
+		}
+		{"lvl_3" 9
+		}
+		{"lvl_4" 14
+		}
+		{"lvl_5" 20
+		}
+		{"lvl_6" 28
+		}
+		{"lvl_7" 38
+		}
+		{"lvl_8" 50
+		}
+		{"lvl_9" 64
+		}
+		{"lvl_10" 80
+		}
+	}
+	{inventory
+		{item "feg_43m" filling "mauser_clip mauser mauser_rifle ammo" 5}
+		{item "ammo mauser_clip" 60}
+		{item "ammo mg13_mag" 375}
+		{item "bandage" 3}
+		{item "grenade m24" 2}
+		{item "grenade molotov_coctail"}
+		{item "sandbag_kit"}
+		{in_hands 0}
+	}
+}

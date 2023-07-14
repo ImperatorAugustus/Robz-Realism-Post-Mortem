@@ -29,26 +29,46 @@
 		
 		{"pistol" lvl_2
 		}
-		{"smg" lvl_2
+		{"smg" lvl_4
 		}
-		{"mgun" lvl_2
+		{"mgun" lvl_3
 		}
-		{"rifle" lvl_5
+		{"rifle" lvl_4
 		}
-		{"rocketlauncher" lvl_1
+		{"rocketlauncher" lvl_4
 		}
 		{"melee" lvl_4
 		}
 	}
 	{veterancy
-		(include "veterancy_generic.inc")
-		("veterancy_1")
+		{"lvl_1" 2
+		}
+		{"lvl_2" 5
+		}
+		{"lvl_3" 9
+		}
+		{"lvl_4" 14
+		}
+		{"lvl_5" 20
+		}
+		{"lvl_6" 28
+		}
+		{"lvl_7" 38
+		}
+		{"lvl_8" 50
+		}
+		{"lvl_9" 64
+		}
+		{"lvl_10" 80
+		}
 	}
 	{inventory
 		{item "mortar_mkvii" filled}
 		{item "ammo mortar50 eng fg" 6}
 		{item "ammo mortar50 eng sm" 8}
 		{item "ammo mortar50 eng wp" 2}
+		{item "webley" filled}
+		{item "ammo webley_clip" 36}
 		{item "bandage" 3}
 		{in_hands 0}
 	}

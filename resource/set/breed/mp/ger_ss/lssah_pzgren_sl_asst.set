@@ -1,52 +1,73 @@
 {breed
-	{skin "waffen-lsssmock2-rfl"}
-	{portrait "ger_soldier6"}
-	{icon "rifleman"}
+	{skin "ger_t3"}
+	{portrait ger_soldier6}
+	{icon rifleman}
 	{icon_priority 3}
-	{nationality ger}
+	{nationality ger2}
 	{armors
-		{head waffen_helmet_lssah}
+		{head helmet1_ger}
 	}
 	{perks
-		{"health" "200%"
+		{"health" "400%"
 		}
 		{"health_regeneration" "100%"
 		}
-		{"stamina" "150%"
+		{"stamina" "200%"
 		}
 		{"stamina_regeneration" "100%"
 		}
-		{"vision" "mp_soldier"
+		{"vision" mp_soldier
 		}
 		{"speed" 0.9
 		}
-		{"tank"	0.85
+		{"tank" 0.85
 		}
 		{"vehicle" 1
 		}
 		{"cannon" 0.9
 		}
-		{"pistol" lvl_4
+		{"pistol" lvl_7
 		}
-		{"smg" lvl_3
+		{"smg" lvl_7
 		}
-		{"mgun" lvl_3
+		{"mgun" lvl_7
 		}
-		{"rifle" lvl_5
+		{"rifle" lvl_7
 		}
-		{"rocketlauncher" lvl_4
+		{"rocketlauncher" lvl_7
 		}
-		{"melee" lvl_4
+		{"melee" lvl_7
 		}
+		{"tankgun" lvl_5
+		}
+		{"stealth"}
 		{"aimedshot"}
 		{"telescope"}
 	}
 	{veterancy
-		(include "veterancy_generic.inc")
-		("veterancy_lvl5")
+		{"lvl_1" -1
+		}
+		{"lvl_2" 0
+		}
+		{"lvl_3" 7
+		}
+		{"lvl_4" 15
+		}
+		{"lvl_5" 24
+		}
+		{"lvl_6" 34
+		}
+		{"lvl_7" 45
+		}
+		{"lvl_8" 57
+		}
+		{"lvl_9" 70
+		}
+		{"lvl_10" 84
+		}
 	}
 	{inventory
-		{item "mauzer_s" filled}
+		{item "mauzer_s_vet" filling "mauser_clip mauser mauser_rifle ammo" 5}
 		{item "ammo mauser_clip" 60}
 		{item "ammo mg_mauser drum" 50}
 		{item "bandage" 5}

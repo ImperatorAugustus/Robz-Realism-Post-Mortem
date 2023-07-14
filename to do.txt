@@ -15,6 +15,8 @@ lg42
 fix
 sdkfz8 gun range misreading on label
 open top vehicle holes
+HE targeting of vehicles
+Add bandages to soldiers that start without them Flamers, Officers, Tank crew, AP/AT miners.....
 
 
 renable 

@@ -39,14 +39,16 @@
 		}
 		{"melee" lvl_7
 		}
+		{"tankgun" lvl_4
+		}
 	}
 	{veterancy
 		(include "veterancy_generic.inc")
 		("veterancy_elite")
 	}
 	{inventory
-		{item "sten_v" filled}
-		{item "ammo sten_mag" 128}
+		{item "thompson_m1928a1_30" filling "ammo thompson_m1a1_mag" 30}
+		{item "ammo thompson_m1a1_mag" 180}
 		{item "bandage" 5}
 		{item "grenade mk1" 2}
 		{item "grenade n73at" 1}

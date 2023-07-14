@@ -1,11 +1,11 @@
 {breed
-	{skin "us_ranger_hp"}
-	{portrait "usa_soldier3"}
-	{nationality usa}
-	{icon "radioman"}
+	{skin "us_t2"}
+	{portrait usa_soldier3}
+	{icon radioman}
 	{icon_priority 5}
+	{nationality usa}
 	{armors
-		{head "radioman_hat"}
+		{head "helmet1_usa"}
 	}
 	{perks
 		{"health" "150%"
@@ -16,40 +16,57 @@
 		}
 		{"stamina_regeneration" "100%"
 		}
-		{"vision" "mp_soldier"
+		{"vision" mp_soldier
 		}
 		{"speed" 0.9
 		}
-		{"tank"	0.75
+		{"tank" 0.75
 		}
 		{"vehicle" 1
 		}
 		{"cannon" 0.8
 		}
-		
 		{"pistol" lvl_3
 		}
 		{"smg" lvl_3
 		}
 		{"mgun" lvl_2
 		}
-		{"rifle" lvl_2
+		{"rifle" lvl_3
 		}
-		{"rocketlauncher" lvl_1
+		{"rocketlauncher" lvl_2
 		}
 		{"melee" lvl_3
 		}
 	}
 	{veterancy
-		(include "veterancy_generic.inc")
-		("veterancy_1")
+		{"lvl_1" 2
+		}
+		{"lvl_2" 5
+		}
+		{"lvl_3" 9
+		}
+		{"lvl_4" 14
+		}
+		{"lvl_5" 20
+		}
+		{"lvl_6" 28
+		}
+		{"lvl_7" 38
+		}
+		{"lvl_8" 50
+		}
+		{"lvl_9" 64
+		}
+		{"lvl_10" 80
+		}
 	}
 	{inventory
-		{item "m3a" filled}
+		{item "m3a" filling "m3a_mag 45-smg ammo" 30}
 		{item "artillery_105_flaregun" filled}
-		{item "ammo m3a_mag" 192}
+		{item "ammo m3a_mag" 150}
 		{item "ammo artillery_105_flare" 4}
-		{item "bandage" 3}
+		{item "bandage" 5}
 		{in_hands 0}
 	}
 }

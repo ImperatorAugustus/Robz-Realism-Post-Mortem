@@ -1,24 +1,24 @@
 {breed
-	{skin "ger-para-rfl"}
-	{portrait "ger_elite1"}
-	{icon "elite"}
+	{skin "ger_t4"}
+	{portrait ger_elite1}
+	{icon elite}
 	{icon_priority 4}
 	{nationality ger}
 	{armors
-		{head helmet_ger_m38_cover}
+		{head helmet1_ger}
 	}
 	{perks
 		{"health" "400%"
 		}
 		{"health_regeneration" "100%"
 		}
-		{"stamina" "200%"
+		{"stamina" "225%"
 		}
-		{"stamina_regeneration" "100%"
+		{"stamina_regeneration" "125%"
 		}
 		{"vision" mp_soldier
 		}
-		{"speed" 0.9
+		{"speed" 1
 		}
 		{"tank" 0.95
 		}
@@ -41,18 +41,42 @@
 		{"avoidance" lvl_1
 		}
 		{"stealth"}
+		{"tankgun" lvl_7
+		}
+		{"telescope"}
 	}
 	{veterancy
-		(include "veterancy_generic.inc")
-		("veterancy_lvl5")
+		{"lvl_1" -1
+		}
+		{"lvl_2" -1
+		}
+		{"lvl_3" -1
+		}
+		{"lvl_4" -1
+		}
+		{"lvl_5" 0
+		}
+		{"lvl_6" 4
+		}
+		{"lvl_7" 9
+		}
+		{"lvl_8" 12
+		}
+		{"lvl_9" 17
+		}
+		{"lvl_10" 24
+		}
 	}
 	{inventory
-		{item "mauzer_vet" filled}
+		{item "mauzer_vet" filling "mauser_clip mauser mauser_rifle ammo" 5}
 		{item "ammo mauser_clip" 120}
 		{item "ammo mg_mauser drum" 50}
+		{item "valter" filled}
+		{item "ammo walther_mag" 16}
 		{item "bandage" 5}
-		{item "grenade m39" 2}
-		{item "panzerfaust weapon" 0 1 filled}
+		{item "grenade m24" 2}
+		{item "grenade molotov_coctail"}
+		{item "panzerfaust weapon" filled}
 		{in_hands 0}
 	}
 }

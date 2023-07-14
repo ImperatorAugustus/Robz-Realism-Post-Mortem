@@ -1,0 +1,57 @@
+{breed
+	{skin "eng-inf-pvt"}
+	{portrait "eng_soldier2"}
+	{nationality eng}
+	{icon "bazooker"}
+	{icon_priority 3}
+	{armors
+		{head helmet2_eng}
+	}
+	{perks
+		{"health" "150%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "100%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" "mp_soldier"
+		}
+		{"speed" 0.9
+		}
+		{"tank"	0.8
+		}
+		{"vehicle" 1.0
+		}
+		{"cannon" 1.0
+		}
+		
+		{"pistol" lvl_2
+		}
+		{"smg" lvl_4
+		}
+		{"mgun" lvl_3
+		}
+		{"rifle" lvl_4
+		}
+		{"rocketlauncher" lvl_4
+		}
+		{"melee" lvl_3
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_1")
+	}
+	{inventory
+		{item "lee_enfield_no4" filling "ammo british303_clip" 10}
+		{item "ammo british303_clip" 50}
+		{item "ammo british303_clip" 0.25 50}
+		{item "bandage" 4}
+		{item "grenade n73at" 1}
+		{item "weapon piatrocket" filled}
+		{item "ammo piatrocket" 7}
+		{in_hands 0}
+	}
+}

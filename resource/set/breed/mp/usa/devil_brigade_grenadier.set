@@ -1,61 +1,84 @@
 {breed
-	{skin "usa-devil-pvt"}
-	{portrait "usa_elite4"}
-	{nationality usa}
-	{icon "devil_brigade2"}
+	{skin "us_t4"}
+	{portrait usa_elite4}
+	{icon devil_brigade2}
 	{icon_priority 4}
+	{nationality usa}
 	{armors
-		{head "helmet4_usa"}
+		{body us_haversack}
+		{head "helmet1_usa"}
 	}
 	{perks
-		{"health" "350%"
+		{"health" "400%"
 		}
 		{"health_regeneration" "100%"
 		}
-		{"stamina" "200%"
+		{"stamina" "225%"
 		}
-		{"stamina_regeneration" "100%"
+		{"stamina_regeneration" "125%"
 		}
-		{"vision" "mp_soldier"
+		{"vision" mp_soldier
 		}
-		{"speed" 0.9
+		{"speed" 1
 		}
-		{"tank"	0.95
+		{"tank" 1
 		}
 		{"vehicle" 1
 		}
 		{"cannon" 1
 		}
-		{"stealth"
+		{"pistol" lvl_7
 		}
-		
-		{"pistol" lvl_6
+		{"smg" lvl_7
 		}
-		{"smg" lvl_6
+		{"mgun" lvl_7
 		}
-		{"mgun" lvl_6
+		{"rifle" lvl_7
 		}
-		{"rifle" lvl_6
+		{"rocketlauncher" lvl_7
 		}
-		{"rocketlauncher" lvl_6
+		{"melee" lvl_7
 		}
-		{"melee" lvl_6
+		{"avoidance" lvl_1
+		}
+		{"stealth"}
+		{"tankgun" lvl_5
 		}
 	}
 	{veterancy
-		(include "veterancy_generic.inc")
-		("veterancy_elite")
+		{"lvl_1" -1
+		}
+		{"lvl_2" 0
+		}
+		{"lvl_3" 7
+		}
+		{"lvl_4" 15
+		}
+		{"lvl_5" 24
+		}
+		{"lvl_6" 34
+		}
+		{"lvl_7" 45
+		}
+		{"lvl_8" 57
+		}
+		{"lvl_9" 70
+		}
+		{"lvl_10" 84
+		}
 	}
 	{inventory
-		{item "garand" filled}
-		{item "ammo garand_clip" 80}
+		{item "garand_vet" filling "garand_clip ammo" 8}
+		{item "ammo garand_clip" 176}
 		{item "colt" filled}
 		{item "ammo colt_mag" 14}
 		{item "bandage" 5}
-		{item "garand_grenade" filling "ammo m1garand_grenade fg" 1}
-		{item "m1garand_grenade fg" 5 1}
-		{item "m1garand_grenade ap" 1 1}
-		{item "m1garand_grenade wp" 0.2 1}
+		{item "grenade m61" 2}
+		{item "garand_grenade"}
+		{item "m1garand_grenade fg" 3}
+		{item "m1garand_grenade ap"}
+		{item "m1garand_grenade sm"}
+		{item "m1garand_grenade wp"}
 		{in_hands 5}
 	}
 }

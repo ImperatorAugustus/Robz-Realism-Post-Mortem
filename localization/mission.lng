@@ -45,6 +45,183 @@
 				{"name" "Factory <e(shadow)><c(00ff0aff)>5x5</c>"}
 			}
 		}
+		{"00_siege"
+			{"name" "[SIEGE] Hilltop Base <e(shadow)><c(bebebe)>8x8</c>"}
+		}
+                {"portauprince"
+			{"name" "Port-au-Prince <e(shadow)><c(bebebe)>2x2</c>"}
+		}
+                {"leticia"
+			{"name" "Amazon Retreat <e(shadow)><c(bebebe)>2x2</c>"}
+		}
+                {"vobucas"
+			{"name" "[SIEGE] Vobucas Hill <e(shadow)><c(bebebe)>2x2</c>"}
+		}
+                {"lascruces"
+			{"name" "Las Cruces Hill <e(shadow)><c(bebebe)>4x4</c>"}
+		}
+                {"boqueron"
+			{"name" "Campo Jordan <e(shadow)><c(bebebe)>4x4</c>"}
+		}
+                {"clippertonrazed"
+			{"name" "Ashes of Clipperton Atoll <e(shadow)><c(bebebe)>1x1</c>"}
+		}
+                {"coto"
+			{"name" "Riverine Jungle <e(shadow)><c(bebebe)>1x1</c>"}
+		}
+                {"vistula"
+			{"name" "Miracle of the Vistula <e(shadow)><c(bebebe)>4x4</c>"}
+		}
+                {"geradelsur"
+			{"name" "Diaz Loyalist Base <e(shadow)><c(bebebe)>4x4</c>"}
+		}
+                {"castle4v4"
+			{"name" "Castle Redux by Dankwizard <e(shadow)><c(bebebe)>3x3</c>"}
+		}
+                {"yucatan_jungle"
+			{"name" "New World Ruins <e(shadow)><c(bebebe)>2x2</c>"}
+		}
+                {"occonnelst"
+			{"name" "O'Connell Street <e(shadow)><c(bebebe)>2x2</c>"}
+		}
+                {"la_bahia"
+			{"name" "Tropical Coastal Battery <e(shadow)><c(bebebe)>2x2</c>"}
+		}
+                {"logan_county"
+			{"name" "Logan County Mines <e(shadow)><c(bebebe)>2x2</c>"}
+		}
+                {"tragedyoftheeast"
+			{"name" "European Fields <e(shadow)><c(bebebe)>2x2</c>"}
+		}
+                {"urbanasia"
+			{"name" "Wuhan Suburbs <e(shadow)><c(bebebe)>2x2</c>"}
+		}
+                {"tripoli"
+			{"name" "Port of Tripoli <e(shadow)><c(bebebe)>4x4</c>"}
+		}
+                {"duelriver"
+			{"name" "Battle for The Tilza <e(shadow)><c(bebebe)>2x2</c>"}
+		}
+                {"reichstag_battle"
+			{"name" "Battle for Berlin <e(shadow)><c(bebebe)>3x3</c>"}
+		}
+                {"easternchinamp"
+			{"name" "Central Plains Forest <e(shadow)><c(bebebe)>3x3</c>"}
+		}
+                {"khalkhyngol"
+			{"name" "Khalkhyn Gol <e(shadow)><c(bebebe)>4x4</c>"}
+		}
+                {"diwen"
+			{"name" "Diwen <e(shadow)><c(bebebe)>2x2</c>"}
+		}
+                {"bamboobridges"
+			{"name" "Central Chinese Fields <e(shadow)><c(bebebe)>2x2</c>"}
+		}
+                {"4v4_greece_extended"
+			{"name" "Greek Town <e(shadow)><c(bebebe)>4x4</c>"}
+		}
+                {"albanianlocale"
+			{"name" "Albanian Locale <e(shadow)><c(bebebe)>1x1</c>"}
+		}
+                {"greekruins"
+			{"name" "Greek Ruins <e(shadow)><c(bebebe)>1x1</c>"}
+		}
+                {"mexican_outback"
+			{"name" "Arizona Peaks <e(shadow)><c(bebebe)>1x1</c>"}
+		}
+                {"finlandport"
+			{"name" "Baltic Coastal Battery <e(shadow)><c(bebebe)>1x1</c>"}
+		}
+		{"africanpassage"
+			{"name" "African Hills <e(shadow)><c(00ff0aff)>2x2</c>"}
+		}
+                {"rifhills"
+			{"name" "[SIEGE] Tercio Outpost <e(shadow)><c(bebebe)>2x2</c>"}
+		}
+                {"hacienda"
+			{"name" "Hacienda <e(shadow)><c(bebebe)>3x3</c>"}
+		}
+		{"1v1_snowfields"
+			{"name" "Snow Fields <e(shadow)><c(bebebe)>1x1</c>"}
+		}
+		{"1v1_frozen_river"
+			{"name" "Frozen River <e(shadow)><c(bebebe)>1x1</c>"}
+		}
+		{"1v1_reloading_point"
+			{"name" "Reloading Point <e(shadow)><c(bebebe)>1x1</c>"}
+		}
+		{"1v1_winter_hills"
+			{"name" "Winter Hills <e(shadow)><c(bebebe)>1x1</c>"}
+		}
+		{"1v1_winter_church"
+			{"name" "Winter Church <e(shadow)><c(bebebe)>1x1</c>"}
+		}
+		{"1v1_road"
+			{"name" "Road <e(shadow)><c(bebebe)>1x1</c>"}
+		}
+		{"1v1_vierville"
+			{"name" "Vierville <e(shadow)><c(bebebe)>1x1</c>"}
+		}		
+		{"hilltopoasis"
+			{"name" "Ma Farmland <e(shadow)><c(bebebe)>2x2</c>"}
+		}		
+		{"2v2_bocage"
+			{"name" "Bocage <e(shadow)><c(bebebe)>2x2</c>"}
+		}
+		{"2v2_tram_depot"
+			{"name" "Tramway depot <e(shadow)><c(bebebe)>2x2</c>"}
+		}
+		{"2v2_farmstead"
+			{"name" "Farmstead <e(shadow)><c(bebebe)>2x2</c>"}
+		}
+		{"2v2_heights"
+			{"name" "Heights <e(shadow)><c(bebebe)>2x2</c>"}
+		}
+		{"2v2_kanawa_mine"
+			{"name" "Kanawa mine <e(shadow)><c(bebebe)>2x2</c>"}
+		}
+		{"2v2_trainyard"
+			{"name" "Trainyard <e(shadow)><c(bebebe)>2x2</c>"}
+		}
+		{"2v2_warehouse"
+			{"name" "Workshop <e(shadow)><c(bebebe)>2x2</c>"}
+		}
+		{"transyl"
+			{"name" "Romanian Great War Ruins <e(shadow)><c(bebebe)>2x2</c>"}
+		}
+                {"blairmountain"
+			{"name" "Blair Mountain Logan county <e(shadow)><c(bebebe)>2x2</c>"}
+		}
+                {"africangrassland"
+			{"name" "African Grassland <e(shadow)><c(bebebe)>2x2</c>"}
+		}
+                {"greekborder"
+			{"name" "Greek Border <e(shadow)><c(bebebe)>2x2</c>"}
+		}
+                 {"shanghai31"
+			{"name" "Port of Shanghai <e(shadow)><c(bebebe)>2x2</c>"}
+		}
+                 {"greatwall"
+			{"name" "Manchurian expanses <e(shadow)><c(bebebe)>2x2</c>"}
+		}
+                {"siberiatrain"
+			{"name" "Siberian Train depot <e(shadow)><c(bebebe)>2x2</c>"}
+		}
+                {"siberiantrainv2"
+			{"name" "Siberian Train depot REDUX <e(shadow)><c(bebebe)>2x2</c>"}
+		}
+                {"rifrepublic"
+			{"name" "Rif Deserts <e(shadow)><c(bebebe)>3x3</c>"}
+		}
+                {"afghanhills"
+			{"name" "Afghani Hamlet <e(shadow)><c(bebebe)>2x2</c>"}
+		}
+		{"2v2_canyon"
+			{"name" "Canyon <e(shadow)><c(bebebe)>2x2</c>"}
+		}
+		{"2v2_colleville"
+			{"name" "Colleville <e(shadow)><c(bebebe)>2x2</c>"}
+		}
 		{"2v2_ramelle"
 			{"name" "Ramelle <e(shadow)><c(bebebe)>2x2</c>"}
 		}
@@ -228,7 +405,113 @@
 			{"name" "Lakeland"}
 		}
 
+;-----------------------------------------------
+;---------------Custom Maps (BZ/CM)-------------
+;---------------1x1-----------------------------
 
+		{"1v1_Crossroad"
+			{"name" "Crossroad <e(shadow)><c(00ff0aff)>1x1</c>"}
+		}
+		{"1v1_highwayn13"
+			{"name" "Highway N13 <e(shadow)><c(00ff0aff)>1x1</c>"}
+		}
+		{"1v1_pegasus-bridge"
+			{"name" "Pegasus Bridge <e(shadow)><c(00ff0aff)>1x1</c>"}
+		}
+		{"1v1_boot_hill"
+			{"name" "Boot hill <e(shadow)><c(00ff0aff)>1x1</c>"}
+		}
+		{"1v1_wake_island"
+			{"name" "Wake island <e(shadow)><c(00ff0aff)>1x1</c>"}
+		}
+		{"1v1_afro"
+			{"name" "African expedition <e(shadow)><c(00ff0aff)>1x1</c>"}
+		}
+
+;---------------2x2-----------------------------
+
+		{"2x2_gsm_Bestland"
+			{"name" "Bestland <e(shadow)><c(00ff0aff)>2x2</c>"}
+		}
+		{"2x2_gsm_fields_near_sherbourg"
+			{"name" "Fields near Sherbourg <e(shadow)><c(00ff0aff)>2x2</c>"}
+		}
+		{"2x2_gsm_lumber"
+			{"name" "Lumber <e(shadow)><c(00ff0aff)>2x2</c>"}
+		}
+		{"2x2_gsm_tattarby"
+			{"name" "Tattarby <e(shadow)><c(00ff0aff)>2x2</c>"}
+		}
+		{"2x2_gsm_theorchard"
+			{"name" "The Orchard <e(shadow)><c(00ff0aff)>2x2</c>"}
+		}
+		;other maps
+		{"2v2_authie"
+			{"name" "Authie <e(shadow)><c(00ff0aff)>2x2</c>"}
+		}
+		{"2v2_avranches"
+			{"name" "Avranches <e(shadow)><c(00ff0aff)>2x2</c>"}
+		}
+		{"2v2_beachlandia"
+			{"name" "Beachlandia <e(shadow)><c(00ff0aff)>2x2</c>"}
+		}
+		{"2v2_bridges"
+			{"name" "Bridges <e(shadow)><c(00ff0aff)>2x2</c>"}
+		}
+		{"2v2_castle"
+			{"name" "Castle <e(shadow)><c(00ff0aff)>2x2</c>"}
+		}
+		{"2v2_atlanticwall"
+			{"name" "Atlanticwall <e(shadow)><c(00ff0aff)>2x2</c>"}
+		}
+		{"2v2_caen_outskirts"
+			{"name" "Caen Outskirts <e(shadow)><c(00ff0aff)>2x2</c>"}
+		}
+		{"2v2_costal_railway_town"
+			{"name" "Costal railway town <e(shadow)><c(00ff0aff)>2x2</c>"}
+		}
+		{"2v2_farm"
+			{"name" "Farm <e(shadow)><c(00ff0aff)>2x2</c>"}
+		}
+		{"2v2_farmlandia"
+			{"name" "Farmlandia <e(shadow)><c(00ff0aff)>2x2</c>"}
+		}
+		{"2v2_la pointe du hoc"
+			{"name" "Lapointe du Hoc <e(shadow)><c(00ff0aff)>2x2</c>"}
+		}
+		{"2v2_sthilaire"
+			{"name" "St Hilaire <e(shadow)><c(00ff0aff)>2x2</c>"}
+		}
+		{"2v2_cold_day"
+			{"name" "Cold day <e(shadow)><c(00ff0aff)>2x2</c>"}
+		}
+		{"2v2_route"
+			{"name" "Route <e(shadow)><c(00ff0aff)>2x2</c>"}
+		}
+		{"2v2_winter_hill"
+			{"name" "Winter hill <e(shadow)><c(00ff0aff)>2x2</c>"}
+		}
+		{"2v2_winter_line"
+			{"name" "Winter line <e(shadow)><c(00ff0aff)>2x2</c>"}
+		}
+		{"2v2_fareast"
+			{"name" "Far East <e(shadow)><c(00ff0aff)>2x2</c>"}
+		}
+		{"2v2_finland"
+			{"name" "Finland Scopes <e(shadow)><c(00ff0aff)>2x2</c>"}
+		}
+		{"2v2_koenigsplatz"
+			{"name" "Koenigsplatz <e(shadow)><c(00ff0aff)>2x2</c>"}
+		}
+		{"2v2_meeting_engagement"
+			{"name" "Meeting engagement <e(shadow)><c(00ff0aff)>2x2</c>"}
+		}
+		{"2v2_river_town"
+			{"name" "River town <e(shadow)><c(00ff0aff)>2x2</c>"}
+		}
+		{"2v2_singapore"
+			{"name" "Singapore <e(shadow)><c(00ff0aff)>2x2</c>"}
+		}
 
 ;---------------3x3-----------------------------
 
@@ -465,18 +748,6 @@
 		{"4x4_africa_remix"
 			{"name" "Africa remix <e(shadow)><c(00ff0aff)>4x4 (Old boy)</c>"}
 		}
-		{"4v4_warfare3"
-			{"name" "Warfare 3 <e(shadow)><c(00ff0aff)>4x4</c>"}
-		}
-		{"4v4_warfare3_remix"
-			{"name" "Warfare 3 Remix<e(shadow)><c(00ff0aff)>4x4</c>"}
-		}
-		{"4v4_warfare4"
-			{"name" "Warfare 4 <e(shadow)><c(00ff0aff)>4x4</c>"}
-		}
-		{"4v4_warfare4_remix"
-			{"name" "Warfare 4 Remix <e(shadow)><c(00ff0aff)>4x4</c>"}
-		}
 
 ;---------------5x5-----------------------------
 
@@ -664,6 +935,51 @@
 		}
 		{"8v8_forest2"
 			{"name" "Forest <e(shadow)><c(00ff0aff)>8x8</c>"}
+		}
+
+;------------------- Other maps
+
+		{"1v1_grain_elevator"
+			{"name" "Grain Elevator <e(shadow)><c(00ff0aff)>1x1</c>"}
+		}
+		{"2v2_bridges_of_druzhina"
+			{"name" "Bridges of Druzhina <e(shadow)><c(00ff0aff)>2x2</c>"}
+		}
+		{"2v2_demyansk"
+			{"name" "Demyansk <e(shadow)><c(00ff0aff)>2x2</c>"}
+		}
+		{"2v2_gumrak_station"
+			{"name" "Gumrak Station <e(shadow)><c(00ff0aff)>2x2</c>"}
+		}
+		{"2v2_mamayev_kurgan"
+			{"name" "Mamayev Kurgan <e(shadow)><c(00ff0aff)>2x2</c>"}
+		}
+		{"2v2_red_october_factory"
+			{"name" "Red October Factory <e(shadow)><c(00ff0aff)>2x2</c>"}
+		}
+		{"2v2_spartanovka"
+			{"name" "Spartanovka <e(shadow)><c(00ff0aff)>2x2</c>"}
+		}
+		{"2v2_tula_outskirts"
+			{"name" "Tula Outskirts <e(shadow)><c(00ff0aff)>2x2</c>"}
+		}
+		{"2v2_winterwald"
+			{"name" "Winterwald <e(shadow)><c(00ff0aff)>2x2</c>"}
+		}
+		{"cy_2v2_wake_island"
+			{"name" "Wake Island (cbyyy2013) <e(shadow)><c(feb942ff)>2x2</c>"}
+		}
+		{"1v1_badger_farm"
+				{"name" "Badger Farm <e(shadow)><c(bebebe)>1x1</c>"}
+		}
+		{"2v2_the_hill_climb"
+				{"name" "Hill Climb <e(shadow)><c(bebebe)>2x2</c>"}
+		}
+		{"NiverLand"
+				{"name" "Niver Land <e(shadow)><c(bebebe)>1x1</c>"}
+		}
+		{"hill_b1"
+				{"name" "Hill B1 <e(shadow)><c(bebebe)>1x1</c>"}
 		}
 	}
 }

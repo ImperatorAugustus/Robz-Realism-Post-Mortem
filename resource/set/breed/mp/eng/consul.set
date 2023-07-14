@@ -1,0 +1,60 @@
+{breed
+	{hero}
+	{skin "eng_officer"}
+	{portrait "consul"}
+	{icon "officer"}
+	{icon_priority 2}
+	{nationality usa}
+	{armors
+		{head helmet2_eng}
+	}
+	{perks
+		{"health" "200%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "200%"
+		}
+		{"stamina_regeneration" "200%"
+		}
+		{"vision" "mp_officer"
+		}
+		{"speed" 1.0
+		}
+		{"field_glass"
+		}
+		{"stealth"
+		}
+		{"tank"	1.0
+		}
+		{"vehicle" 1.0
+		}
+		{"cannon" 1.0
+		}
+		
+		{"pistol" lvl_3
+		}
+		{"smg" lvl_3
+		}
+		{"mgun" lvl_3
+		}
+		{"rifle" lvl_3
+		}
+		{"rocketlauncher" lvl_3
+		}
+		{"melee" lvl_3
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_1")
+	}
+	{inventory
+		{item "thompson"}
+		{item "ammo pistol" 130}
+		{item "mk1 grenade" 6}
+		{item "n73at grenade" 2}
+		{item "bandage" 5}		
+		{in_hands 0}
+	}
+}

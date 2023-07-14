@@ -1,13 +1,13 @@
 {breed
-	{skin "us_com"}
-	{portrait "usa_officer"}
-	{nationality usa}
-	{icon "officer"}
+	{skin "us_officer"}
+	{portrait usa_officer}
+	{icon officer}
 	{icon_priority 6}
-	{armors
-		{head "cap1_usa"}
-	}
 	{tags "officer"}
+	{nationality usa}
+	{armors
+		{head "helmet1_usa"}
+	}
 	{perks
 		{"health" "250%"
 		}
@@ -17,39 +17,59 @@
 		}
 		{"stamina_regeneration" "100%"
 		}
-		{"vision" "mp_officer"
+		{"vision" mp_officer
 		}
-		{"speed" 1.0
+		{"speed" 1
 		}
-		{"field_glass"
-		}
-		{"tank"	0.85
+		{"field_glass"}
+		{"tank" 0.85
 		}
 		{"vehicle" 1
 		}
 		{"cannon" 0.9
 		}
-		
 		{"pistol" lvl_5
 		}
 		{"smg" lvl_5
 		}
-		{"mgun" lvl_4
+		{"mgun" lvl_5
 		}
-		{"rifle" lvl_4
+		{"rifle" lvl_5
 		}
-		{"rocketlauncher" lvl_3
+		{"rocketlauncher" lvl_5
 		}
-		{"melee" "lvl_4"
+		{"melee" lvl_5
 		}
 	}
 	{veterancy
-		(include "veterancy_generic.inc")
-		("veterancy_1")
+		{"lvl_1" 2
+		}
+		{"lvl_2" 5
+		}
+		{"lvl_3" 9
+		}
+		{"lvl_4" 14
+		}
+		{"lvl_5" 20
+		}
+		{"lvl_6" 28
+		}
+		{"lvl_7" 38
+		}
+		{"lvl_8" 50
+		}
+		{"lvl_9" 64
+		}
+		{"lvl_10" 80
+		}
 	}
 	{inventory
+		{item "thompson" filling "thompson_m1a1_mag 45-smg ammo" 30}
+		{item "ammo thompson_m1a1_mag" 180}
 		{item "colt" filled}
-		{item "ammo colt_mag" 21}
+		{item "ammo colt_mag" 28}
+		{item "bandage" 5}
+		{item "smoke grenade" 2}
 		{item "smoke_paradrop_ammo_heavy grenade" 5}
 		{item "knife_union"}
 		{item "binocular"}

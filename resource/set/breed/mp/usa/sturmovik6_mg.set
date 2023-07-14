@@ -1,15 +1,15 @@
 {breed
-	{skin "usa-ranger-bar"}
-	{portrait "usa_soldier5"}
-	{nationality usa}
-	{icon "stormtrooper6"}
+	{skin "us_t4"}
+	{portrait usa_soldier5}
+	{icon stormtrooper6}
 	{icon_priority 4}
+	{nationality usa}
 	{armors
-		{head "helmet_usa_ranger"}
 		{body us_haversack_shovel}
+		{head "helmet1_usa"}
 	}
 	{perks
-		{"health" "350%"
+		{"health" "400%"
 		}
 		{"health_regeneration" "100%"
 		}
@@ -17,42 +17,64 @@
 		}
 		{"stamina_regeneration" "100%"
 		}
-		{"vision" "mp_soldier"
+		{"vision" mp_soldier
 		}
-		{"speed" 0.9
+		{"speed" 1
 		}
-		{"tank"	0.95
+		{"tank" 0.95
 		}
 		{"vehicle" 1
 		}
 		{"cannon" 1
 		}
-		
-		{"pistol" lvl_5
+		{"pistol" lvl_7
 		}
-		{"smg" lvl_5
+		{"smg" lvl_7
 		}
-		{"mgun" lvl_6
+		{"mgun" lvl_7
 		}
-		{"rifle" lvl_6
+		{"rifle" lvl_7
 		}
-		{"rocketlauncher" lvl_5
+		{"rocketlauncher" lvl_7
 		}
-		{"melee" lvl_5
+		{"melee" lvl_7
+		}
+		{"tankgun" lvl_5
 		}
 	}
 	{veterancy
-		(include "veterancy_generic.inc")
-		("veterancy_elite")
+		{"lvl_1" 5
+		}
+		{"lvl_2" 11
+		}
+		{"lvl_3" 18
+		}
+		{"lvl_4" 26
+		}
+		{"lvl_5" 35
+		}
+		{"lvl_6" 45
+		}
+		{"lvl_7" 56
+		}
+		{"lvl_8" 68
+		}
+		{"lvl_9" 80
+		}
+		{"lvl_10" 93
+		}
 	}
 	{inventory
-		{item "browning_m19a6" filled}
-		{item "ammo springfield_belt" 250}
+		{item "browning_m19a6" filling "springfield_belt 30-06_rifle 30-06_ar ammo" 150}
+		{item "ammo springfield_belt" 300}
+		{item "colt" filled}
+		{item "ammo colt_mag" 21}
 		{item "bandage" 5}
 		{item "grenade m61" 2}
 		{item "smoke grenade" 2}
-		;{item "dynamite" 1}
-		{item "sandbag_kit" 1}
+		{item "dynamite"}
+		{item "sandbag_kit"}
+		{item "grenade satchel"}
 		{in_hands 0}
 	}
 }

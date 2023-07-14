@@ -34,22 +34,44 @@
 		}
 		{"smg" lvl_5
 		}
-		{"mgun" lvl_4
+		{"mgun" lvl_5
 		}
-		{"rifle" lvl_4
+		{"rifle" lvl_5
 		}
-		{"rocketlauncher" lvl_3
+		{"rocketlauncher" lvl_5
 		}
-		{"melee" "lvl_4"
+		{"melee" "lvl_5"
 		}
 	}
 	{veterancy
-		(include "veterancy_generic.inc")
-		("veterancy_1")
+		{"lvl_1" 2
+		}
+		{"lvl_2" 5
+		}
+		{"lvl_3" 9
+		}
+		{"lvl_4" 14
+		}
+		{"lvl_5" 20
+		}
+		{"lvl_6" 28
+		}
+		{"lvl_7" 38
+		}
+		{"lvl_8" 50
+		}
+		{"lvl_9" 64
+		}
+		{"lvl_10" 80
+		}
 	}
 	{inventory
+		{item "thompson_m1928a1_30" filling "ammo thompson_m1a1_mag" 30}
+		{item "ammo thompson_m1a1_mag" 150}
 		{item "webley" filled}
 		{item "ammo webley_clip" 36}
+		{item "bandage" 5}
+		{item "smoke grenade" 2}
 		{item "smoke_paradrop_ammo_heavy grenade" 5}
 		{item "knife_union"}
 		{item "binocular"}

@@ -1,0 +1,78 @@
+{breed
+	{skin "eng-inf-lcpl"}
+	{portrait "eng_soldier3"}
+	{nationality eng}
+	{icon "squadleader2"}
+	{icon_priority 2}
+	{armors
+		{head helmet2_eng}
+	}
+	{perks
+		{"health" "200%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "125%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" "mp_soldier"
+		}
+		{"speed" 0.9
+		}
+		{"tank"	0.8
+		}
+		{"vehicle" 1.0
+		}
+		{"cannon" 1.0
+		}
+		
+		{"pistol" lvl_4
+		}
+		{"smg" lvl_5
+		}
+		{"mgun" lvl_4
+		}
+		{"rifle" lvl_5
+		}
+		{"rocketlauncher" lvl_2
+		}
+		{"melee" lvl_5
+		}
+	}
+	{veterancy
+		{"lvl_1" 2
+		}
+		{"lvl_2" 5
+		}
+		{"lvl_3" 9
+		}
+		{"lvl_4" 14
+		}
+		{"lvl_5" 20
+		}
+		{"lvl_6" 28
+		}
+		{"lvl_7" 38
+		}
+		{"lvl_8" 50
+		}
+		{"lvl_9" 64
+		}
+		{"lvl_10" 80
+		}
+	}
+	{inventory
+		{item "em3" filling "ammo british303_clip" 10}
+		{item "ammo british303_clip" 50}
+		{item "ammo british303_clip" 0.25 50}
+		{item "bandage" 3}
+		{item "grenade mk1" 1}
+		{item "grenade n73at" 1}
+		{item "grenade satchel" 2}
+		{item "mine antipersonnel" 2}
+		{item "mine antitank" 1}
+		{item "sandbag_kit" 2}
+		{in_hands 0}
+	}
+}

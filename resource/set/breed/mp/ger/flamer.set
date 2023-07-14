@@ -1,18 +1,18 @@
 {breed
-	{skin "ger-reg-rfl"}
+	{skin "ger_flamer"}
 	{portrait "ger_soldier2"}
 	{nationality ger}
 	{icon "flamer"}
 	{icon_priority 3}
 	{armors
-		{head helmet_ger_m40_fge}
+		{head helmet1_ger}
 	}
 	{perks
-		{"health" "150%"
+		{"health" "200%"
 		}
 		{"health_regeneration" "100%"
 		}
-		{"stamina" "100%"
+		{"stamina" "150%"
 		}
 		{"stamina_regeneration" "100%"
 		}
@@ -27,17 +27,17 @@
 		{"cannon" 0.8
 		}
 		
-		{"pistol" lvl_4
+		{"pistol" lvl_5
 		}
-		{"smg" lvl_4
+		{"smg" lvl_5
 		}
-		{"mgun" lvl_2
+		{"mgun" lvl_4
 		}
-		{"rifle" lvl_3
+		{"rifle" lvl_5
 		}
-		{"rocketlauncher" lvl_2
+		{"rocketlauncher" lvl_5
 		}
-		{"melee" lvl_4
+		{"melee" lvl_5
 		}
 		{"avoidance" lvl_1
 		}
@@ -49,6 +49,9 @@
 	{inventory
 		{item "flame_thrower_g"}
 		{item "balloon_g" filled}
+		{item "bandage" 5}
+		{item "valter" filled}
+		{item "ammo walther_mag" 32}
 		{in_hands 0}
 	}
 }

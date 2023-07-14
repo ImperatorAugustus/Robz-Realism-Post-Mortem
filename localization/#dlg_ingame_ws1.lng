@@ -1,0 +1,8 @@
+{tags
+	{"actionbar"
+		{"speed" "Move speed"}
+		{"speed"
+			{"action" "Control the walk speeds of infantry."}
+		}
+	}
+}

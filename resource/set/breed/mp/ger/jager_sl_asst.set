@@ -1,0 +1,78 @@
+{breed
+	{skin "ger_t4"}
+	{portrait ger_soldier3}
+	{icon squadleader}
+	{icon_priority 2}
+	{nationality ger}
+	{armors
+		{body ammo_ger2}
+		{head helmet1_ger}
+	}
+	{perks
+		{"health" "250%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "150%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" mp_soldier
+		}
+		{"speed" 0.9
+		}
+		{"tank" 0.85
+		}
+		{"vehicle" 1
+		}
+		{"cannon" 0.9
+		}
+		{"pistol" lvl_6
+		}
+		{"smg" lvl_6
+		}
+		{"mgun" lvl_5
+		}
+		{"rifle" lvl_6
+		}
+		{"rocketlauncher" lvl_6
+		}
+		{"melee" lvl_6
+		}
+		{"tankgun" lvl_4
+		}
+	}
+	{veterancy
+		{"lvl_1" 2
+		}
+		{"lvl_2" 5
+		}
+		{"lvl_3" 9
+		}
+		{"lvl_4" 14
+		}
+		{"lvl_5" 20
+		}
+		{"lvl_6" 28
+		}
+		{"lvl_7" 38
+		}
+		{"lvl_8" 50
+		}
+		{"lvl_9" 64
+		}
+		{"lvl_10" 80
+		}
+	}
+	{inventory
+		{item "mauzer_vet" filling "ammo mauser_clip" 5}
+		{item "ammo mauser_clip" 60}
+		{item "ammo mg_mauser drum" 50}
+		{item "bandage" 5}
+		{item "grenade m24" 2}
+		{item "grenade m24x5"}
+		{item "smoke grenade" 2}
+		{item "sandbag_kit"}
+		{in_hands 0}
+	}
+}

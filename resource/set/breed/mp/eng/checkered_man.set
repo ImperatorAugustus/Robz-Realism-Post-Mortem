@@ -1,0 +1,54 @@
+{breed
+	{skin "eng-scout-pvt-mod"}
+	{portrait "eng_soldier5"}
+	{nationality eng}
+	{icon "stormtrooper6b"}
+	{icon_priority 2}
+	{armors
+		{head helmet2_eng}
+	}
+	{perks
+		{"health" "300%"
+		}
+		{"health_regeneration" "150%"
+		}
+		{"stamina" "200%"
+		}
+		{"stamina_regeneration" "150%"
+		}
+		{"vision" "mp_soldier"
+		}
+		{"speed" 1.2
+		}
+		{"tank"	1.0
+		}
+		{"vehicle" 1.0
+		}
+		{"cannon" 1.0
+		}
+		
+		{"pistol" lvl_8
+		}
+		{"smg" lvl_8
+		}
+		{"mgun" lvl_8
+		}
+		{"rifle" lvl_8
+		}
+		{"rocketlauncher" lvl_8
+		}
+		{"melee" lvl_8
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_elite")
+	}
+	{inventory
+		{item "zb30" filled}
+		{item "ammo zb30_mag" 300}
+		{item "bandage" 3}
+		{item "sandbag_kit" 1}
+		{in_hands 0}
+	}
+}

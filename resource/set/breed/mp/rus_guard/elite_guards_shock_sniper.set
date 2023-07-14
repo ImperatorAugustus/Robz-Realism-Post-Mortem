@@ -1,0 +1,82 @@
+{breed
+	{skin "rus_t3"}
+	{portrait rus_elite2}
+	{icon elite5}
+	{icon_priority 3}
+	{nationality rus}
+	{armors
+		{body body_armor}
+		{head helmet1_rus}
+	}
+	{perks
+		{"health" "400%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "225%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" mp_sniper
+		}
+		{"speed" 1.0
+		}
+		{"tank" 0.95
+		}
+		{"vehicle" 1
+		}
+		{"cannon" 1
+		}
+		{"pistol" lvl_7
+		}
+		{"smg" lvl_7
+		}
+		{"mgun" lvl_7
+		}
+		{"rifle" lvl_7
+		}
+		{"rocketlauncher" lvl_7
+		}
+		{"melee" lvl_7
+		}
+		{"tankgun" lvl_5
+		}
+		{"stealth"}
+		{"telescope"}
+		{"aimedshot"}
+	}
+	{veterancy
+		{"lvl_1" -1
+		}
+		{"lvl_2" 0
+		}
+		{"lvl_3" 7
+		}
+		{"lvl_4" 15
+		}
+		{"lvl_5" 24
+		}
+		{"lvl_6" 34
+		}
+		{"lvl_7" 45
+		}
+		{"lvl_8" 57
+		}
+		{"lvl_9" 70
+		}
+		{"lvl_10" 84
+		}
+	}
+	{inventory
+		{item "svt40_s_vet" filling "mosin_clip 7-62_rus mosin_rifle ammo" 5}
+		{item "ammo mosin_clip" 120}
+		{item "ammo dt29_mag" 60}
+		{item "bandage" 5}
+		{item "grenade rgd33" 2}
+		{item "grenade f1" 0 1}
+		{item "rpg43 grenade"}
+		{item "jelet_mac_gop_dark"}
+		{item "grenade satchel" 0 1}
+		{in_hands 0}
+	}
+}

@@ -1,0 +1,87 @@
+{breed
+	{skin "eng-no4comm-inf"}
+	{portrait "eng_elite1"}
+	{nationality eng}
+	{icon "elite"}
+	{icon_priority 3}
+	{armors
+		{head beret_eng_comm}
+	}
+	{perks
+		{"health" "400%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "200%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" "mp_soldier"
+		}
+		{"speed" 1.0
+		}
+		{"tank"	1.0
+		}
+		{"vehicle" 1.0
+		}
+		{"cannon" 1.0
+		}
+		
+		{"pistol" lvl_8
+		}
+		{"smg" lvl_8
+		}
+		{"mgun" lvl_8
+		}
+		{"rifle" lvl_8
+		}
+		{"rocketlauncher" lvl_8
+		}
+		{"melee" lvl_8
+		}
+		{"avoidance" lvl_1
+		}
+		{"stealth"}
+		{"telescope"
+		}
+		{"aimedshot"}
+		{"tankgun" lvl_5
+		}
+	}
+	{veterancy
+		{"lvl_1" 5
+		}
+		{"lvl_2" 11
+		}
+		{"lvl_3" 18
+		}
+		{"lvl_4" 26
+		}
+		{"lvl_5" 35
+		}
+		{"lvl_6" 45
+		}
+		{"lvl_7" 56
+		}
+		{"lvl_8" 68
+		}
+		{"lvl_9" 80
+		}
+		{"lvl_10" 93
+		}
+	}
+	{inventory
+		{item "lee_enfield_no4_s_vet" filled}
+		{item "ammo british303_clip" 100}
+		{item "ammo bren_mag" 56}
+		{item "colt" filled}
+		{item "ammo colt_mag" 28}
+		{item "bandage" 5}
+		{item "grenade mk1" 2}
+		{item "grenade n73at" 1}
+		{item "n77_smoke grenade" 1}
+		{item "smoke grenade" 1}
+		{item "grenade satchel" 1}
+		{in_hands 0}
+	}
+}

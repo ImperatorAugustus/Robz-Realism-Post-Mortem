@@ -1,60 +1,79 @@
 {breed
-	{skin "usa-101st-rfl"}
-	{portrait "usa_elite1"}
-	{nationality usa}
-	{icon "elite_para"}
+	{skin "us_t3"}
+	{portrait usa_elite1}
+	{icon elite_para}
 	{icon_priority 4}
+	{nationality usa}
 	{armors
-		{head helmet_usa_para}
+		{body us_haversack}
+		{head "helmet1_usa"}
 	}
 	{perks
-		{"health" "400%"
+		{"health" "250%"
 		}
 		{"health_regeneration" "100%"
 		}
-		{"stamina" "200%"
+		{"stamina" "150%"
 		}
 		{"stamina_regeneration" "100%"
 		}
-		{"vision" "mp_soldier"
+		{"vision" mp_soldier
 		}
 		{"speed" 0.9
 		}
-		{"telescope"
-		}
-		{"tank"	0.95
+		{"tank" 0.85
 		}
 		{"vehicle" 1
 		}
-		{"cannon" 1
+		{"cannon" 0.9
 		}
-		
-		{"pistol" lvl_6
+		{"pistol" lvl_4
 		}
-		{"smg" lvl_6
+		{"smg" lvl_5
 		}
-		{"mgun" lvl_6
+		{"mgun" lvl_4
 		}
-		{"rifle" lvl_7
+		{"rifle" lvl_5
 		}
-		{"rocketlauncher" lvl_7
+		{"rocketlauncher" lvl_4
 		}
-		{"melee" lvl_6
+		{"melee" lvl_4
+		}
+		{"tankgun" lvl_4
 		}
 	}
 	{veterancy
-		(include "veterancy_generic.inc")
-		("veterancy_elite")
+		{"lvl_1" 2
+		}
+		{"lvl_2" 5
+		}
+		{"lvl_3" 9
+		}
+		{"lvl_4" 14
+		}
+		{"lvl_5" 20
+		}
+		{"lvl_6" 28
+		}
+		{"lvl_7" 38
+		}
+		{"lvl_8" 50
+		}
+		{"lvl_9" 64
+		}
+		{"lvl_10" 80
+		}
 	}
 	{inventory
-		{item "garand" filled}
-		{item "ammo garand_clip" 80}
+		{item "garand" filling "garand_clip 30-06_rifle ammo" 8}
+		{item "ammo garand_clip" 128}
+		{item "ammo garand_clip" 0.25 48}
 		{item "bandage" 5}
-		{item "grenade m61" 2}
-		{item "smoke grenade" 1}
-		{item "weapon bazooka_m9" filled}
+		{item "grenade m61" 4}
+		{item "grenade satchel" 0 1}
+		{item "smoke grenade"}
+		{item "weapon bazooka" filled}
 		{item "ammo bazooka" 7}
-		{item "ammo bazooka wp" 1 1}
 		{in_hands 0}
 	}
 }

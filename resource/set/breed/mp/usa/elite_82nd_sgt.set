@@ -1,0 +1,80 @@
+{breed
+	{skin "us_t3"}
+	{portrait usa_elite1}
+	{icon elite2}
+	{icon_priority 4}
+	{nationality usa}
+	{armors
+		{body us_haversack}
+		{head "helmet1_usa"}
+	}
+	{perks
+		{"health" "400%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "150%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" mp_soldier
+		}
+		{"speed" 0.9
+		}
+		{"tank" 0.85
+		}
+		{"vehicle" 1
+		}
+		{"cannon" 0.9
+		}
+		{"pistol" lvl_7
+		}
+		{"smg" lvl_7
+		}
+		{"mgun" lvl_7
+		}
+		{"rifle" lvl_7
+		}
+		{"rocketlauncher" lvl_7
+		}
+		{"melee" lvl_7
+		}
+		{"tankgun" lvl_4
+		}
+	}
+	{veterancy
+		{"lvl_1" 2
+		}
+		{"lvl_2" 5
+		}
+		{"lvl_3" 9
+		}
+		{"lvl_4" 14
+		}
+		{"lvl_5" 20
+		}
+		{"lvl_6" 28
+		}
+		{"lvl_7" 38
+		}
+		{"lvl_8" 50
+		}
+		{"lvl_9" 64
+		}
+		{"lvl_10" 80
+		}
+	}
+	{inventory
+		{item "thompson" filling "ammo thompson_m1a1_mag" 30}
+		{item "ammo thompson_m1a1_mag" 300}
+		{item "colt" filled}
+		{item "ammo colt_mag" 14}
+		{item "bandage" 5}
+		{item "grenade m61" 4}
+		{item "grenade m61" 0 2}
+		{item "smoke grenade" 2}
+		{item "grenade satchel" 0 1}
+		{item "sandbag_kit"}
+		{in_hands 0}
+	}
+}

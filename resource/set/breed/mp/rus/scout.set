@@ -1,65 +1,85 @@
 {breed
-	{skin "rus-smguner"}
-	{portrait "rus_soldier5"}
-	{nationality rus}
-	{icon "scout"}
+	{skin "rus_t4"}
+	{portrait rus_soldier5}
+	{icon scout}
 	{icon_priority 5}
+	{nationality rus}
 	{armors
-		{head fieldcap1_rus}
+		{body body_armor}
+		{head helmet1_rus}
 	}
 	{perks
-		{"health" "350%"
+		{"health" "500%"
 		}
-		{"health_regeneration" "100%"
+		{"health_regeneration" "200%"
 		}
-		{"stamina" "200%"
+		{"stamina" "1000%"
 		}
-		{"stamina_regeneration" "300%"
+		{"stamina_regeneration" "500%"
 		}
-		{"vision" "mp_soldier"
+		{"vision" mp_officer
 		}
-		{"speed" 0.9
+		{"speed" 1
 		}
-		{"stealth"
-		}
-		{"tank"	0.95
+		{"stealth"}
+		{"telescope"}
+		{"field_glass"}
+		{"tank" 1
 		}
 		{"vehicle" 1
 		}
 		{"cannon" 1
 		}
-		
-		{"pistol" lvl_4
+		{"pistol" lvl_9
 		}
-		{"smg" lvl_4
+		{"smg" lvl_9
 		}
-		{"mgun" lvl_4
+		{"mgun" lvl_9
 		}
-		{"rifle" lvl_4
+		{"rifle" lvl_9
 		}
-		{"rocketlauncher" lvl_4
+		{"rocketlauncher" lvl_9
 		}
-		{"melee" lvl_4
+		{"melee" lvl_8
+		}
+		{"tankgun" lvl_15
+		}
+		{"avoidance" lvl_2
 		}
 	}
 	{veterancy
-		(include "veterancy_generic.inc")
-		("veterancy_1")
+		{"lvl_1" 2
+		}
+		{"lvl_2" 5
+		}
+		{"lvl_3" 9
+		}
+		{"lvl_4" 14
+		}
+		{"lvl_5" 20
+		}
+		{"lvl_6" 28
+		}
+		{"lvl_7" 38
+		}
+		{"lvl_8" 50
+		}
+		{"lvl_9" 64
+		}
+		{"lvl_10" 80
+		}
 	}
 	{inventory
+		{item "svt40" filling "ammo svt40_mag" 10}
+		{item "ammo mosin_clip" 100}
 		{item "nagan_pb" filled}
-		{item "ppsh" filled}
-		{item "ammo ppsh_mag" 142}
-		{item "ammo nagant_clip" 21}
+		{item "ammo nagant_clip" 28}
 		{item "bandage" 5}
-		{item "grenade f1" 4}
-		{item "smoke grenade" 2}
-		{item "smoke_paradrop_ammo_heavy grenade" 1}
-		{item "rg42x3 grenade" 4}
-		{item "grenade molotov_coctail" 2}
-		{item "dynamite" 2}
-		{item "knife_rus" 1}
-		{item "matchbox" 1}
+		{item "grenade f1" 2}
+		{item "grenade rpg43" 2}
+		{item "grenade smoke"}
+		{item "dynamite"}
+		{item "knife_rus"}
 		{in_hands 0}
 	}
 }

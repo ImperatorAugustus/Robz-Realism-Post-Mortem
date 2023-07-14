@@ -39,14 +39,16 @@
 		}
 		{"melee" lvl_6
 		}
+		{"tankgun" lvl_4
+		}
 	}
 	{veterancy
 		(include "veterancy_generic.inc")
 		("veterancy_elite")
 	}
 	{inventory
-		{item "em3_vet" filled}
-		{item "ammo british303_clip" 50}
+		{item "lee_enfield_no4_vet" filling "ammo british303_clip" 10}
+		{item "ammo british303_clip" 100}
 		{item "ammo bren_mag" 168}
 		{item "bandage" 5}
 		{item "grenade mk1" 2}

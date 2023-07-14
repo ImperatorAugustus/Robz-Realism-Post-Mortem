@@ -12,46 +12,69 @@
 		}
 		{"health_regeneration" "100%"
 		}
-		{"stamina" "200%"
+		{"stamina" "225%"
 		}
-		{"stamina_regeneration" "100%"
+		{"stamina_regeneration" "125%"
 		}
-		{"vision" "mp_soldier"
+		{"vision" mp_soldier
 		}
-		{"speed" 0.9
+		{"speed" 1.0
 		}
-		{"tank"	1.0
+		{"tank" 1
 		}
-		{"vehicle" 1.0
+		{"vehicle" 1
 		}
-		{"cannon" 1.0
+		{"cannon" 1
 		}
-		
-		{"pistol" lvl_7
+		{"pistol" lvl_8
 		}
-		{"smg" lvl_7
+		{"smg" lvl_8
 		}
-		{"mgun" lvl_7
+		{"mgun" lvl_8
 		}
-		{"rifle" lvl_7
+		{"rifle" lvl_8
 		}
-		{"rocketlauncher" lvl_7
+		{"rocketlauncher" lvl_8
 		}
-		{"melee" lvl_7
+		{"melee" lvl_8
+		}
+		{"avoidance" lvl_1
+		}
+		{"stealth"}
+		{"tankgun" lvl_5
 		}
 	}
 	{veterancy
-		(include "veterancy_generic.inc")
-		("veterancy_elite")
+		{"lvl_1" 5
+		}
+		{"lvl_2" 11
+		}
+		{"lvl_3" 18
+		}
+		{"lvl_4" 26
+		}
+		{"lvl_5" 35
+		}
+		{"lvl_6" 45
+		}
+		{"lvl_7" 56
+		}
+		{"lvl_8" 68
+		}
+		{"lvl_9" 80
+		}
+		{"lvl_10" 93
+		}
 	}
 	{inventory
-		{item "sten_v" filled}
-		{item "ammo sten_mag" 224}
+		{item "thompson_m1928a1_30" filling "ammo thompson_m1a1_mag" 30}
+		{item "ammo thompson_m1a1_mag" 300}
 		{item "bandage" 5}
 		{item "grenade mk1" 2}
 		{item "grenade n73at" 1}
-		{item "smoke grenade" 1}
-		{item "n77_smoke grenade" 0.5 1}
+		{item "smoke grenade" 2}
+		{item "n77_smoke grenade" 1}
+		{item "grenade satchel" 1}
 		{in_hands 0}
 	}
 }

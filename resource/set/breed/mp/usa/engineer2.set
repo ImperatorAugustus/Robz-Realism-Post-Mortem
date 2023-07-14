@@ -1,12 +1,12 @@
 {breed
-	{skin "usa-soldier1"}
-	{portrait "usa_soldier2"}
-	{nationality usa}
-	{icon "rifleman"}
+	{skin "us_t2"}
+	{portrait usa_soldier2}
+	{icon rifleman}
 	{icon_priority 1}
+	{nationality usa}
 	{armors
-		{head helmet_novice}
-		{body ammo_us2}
+		{body us_haversack_shovel}
+		{head "helmet1_usa"}
 	}
 	{perks
 		{"health" "150%"
@@ -17,39 +17,59 @@
 		}
 		{"stamina_regeneration" "100%"
 		}
-		{"vision" "mp_soldier"
+		{"vision" mp_soldier
 		}
 		{"speed" 0.9
 		}
-		{"tank"	0.85
+		{"tank" 0.85
 		}
 		{"vehicle" 1
 		}
 		{"cannon" 0.9
 		}
-		
 		{"pistol" lvl_2
 		}
-		{"smg" lvl_2
+		{"smg" lvl_3
 		}
 		{"mgun" lvl_2
 		}
 		{"rifle" lvl_3
 		}
-		{"rocketlauncher" lvl_1
+		{"rocketlauncher" lvl_2
 		}
 		{"melee" lvl_3
 		}
 	}
 	{veterancy
-		(include "veterancy_generic.inc")
-		("veterancy_1")
+		{"lvl_1" 2
+		}
+		{"lvl_2" 5
+		}
+		{"lvl_3" 9
+		}
+		{"lvl_4" 14
+		}
+		{"lvl_5" 20
+		}
+		{"lvl_6" 28
+		}
+		{"lvl_7" 38
+		}
+		{"lvl_8" 50
+		}
+		{"lvl_9" 64
+		}
+		{"lvl_10" 80
+		}
 	}
 	{inventory
-		{item "garand" filled}
+		{item "garand" filling "garand_clip 30-06_rifle ammo" 8}
 		{item "ammo garand_clip" 80}
+		{item "ammo garand_clip" 0.25 48}
+		{item "bandage" 5}
 		{item "grenade m61" 2}
-		{item "mine antipersonnel" 20}
+		{item "grenade satchel"}
+		{item "mine antipersonnel" 16}
 		{item "sandbag_kit" 2}
 		{in_hands 0}
 	}

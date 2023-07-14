@@ -1,58 +1,83 @@
 {breed
-	{skin "rus-sco-late-smg2"}
-	{portrait "rus_elite3"}
+	{skin "rus_t3"}
+	{portrait rus_elite2}
+	{icon elite4}
+	{icon_priority 3}
 	{nationality rus}
-	{icon "smg3"}
-	{icon_priority 1}
 	{armors
 		{body body_armor}
-		{head helmet_rus_ssh40_cover_camo}
+		{head helmet1_rus}
 	}
 	{perks
-		{"health" "250%"
+		{"health" "400%"
 		}
 		{"health_regeneration" "100%"
 		}
-		{"stamina" "150%"
+		{"stamina" "225%"
 		}
 		{"stamina_regeneration" "100%"
 		}
-		{"vision" "mp_soldier"
+		{"vision" mp_soldier
 		}
-		{"speed" 0.9
+		{"speed" 1.0
 		}
-		{"tank"	0.75
+		{"tank" 0.95
 		}
 		{"vehicle" 1
 		}
-		{"cannon" 0.8
+		{"cannon" 1
 		}
-		
-		{"pistol" lvl_3
+		{"pistol" lvl_7
 		}
-		{"smg" lvl_4
+		{"smg" lvl_7
 		}
-		{"mgun" lvl_2
+		{"mgun" lvl_7
 		}
-		{"rifle" lvl_2
+		{"rifle" lvl_7
 		}
-		{"rocketlauncher" lvl_2
+		{"rocketlauncher" lvl_7
 		}
-		{"melee" lvl_3
+		{"melee" lvl_7
 		}
+		{"tankgun" lvl_5
+		}
+		{"stealth"}
 	}
 	{veterancy
-		(include "veterancy_generic.inc")
-		("veterancy_lvl5")
+		{"lvl_1" -1
+		}
+		{"lvl_2" 0
+		}
+		{"lvl_3" 7
+		}
+		{"lvl_4" 15
+		}
+		{"lvl_5" 24
+		}
+		{"lvl_6" 34
+		}
+		{"lvl_7" 45
+		}
+		{"lvl_8" 57
+		}
+		{"lvl_9" 70
+		}
+		{"lvl_10" 84
+		}
 	}
 	{inventory
-		{item "pps43" filled}
+		{item "pps43" filling "pps43_mag 762-smg ammo" 35}
 		{item "ammo pps43_mag" 210}
-		{item "bandage" 3}
-		{item "grenade f1" 2}
-		{item "grenade molotov_coctail" 0 1}
+		{item "tt" filled}
+		{item "ammo tt_mag" 16}
+		{item "bandage" 5}
+		{item "grenade rgd33" 2}
+		{item "grenade f1" 0 1}
+		{item "grenade rpg43" 2}
 		{item "grenade smoke" 2}
+		{item "sandbag_kit"}
 		{item "ru_backpack_meshok"}
+		{item "grenade satchel" 0 1}
 		{in_hands 0}
 	}
 }

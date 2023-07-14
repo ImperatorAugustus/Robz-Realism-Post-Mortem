@@ -1,0 +1,63 @@
+{breed
+	{skin "eng-commando"}
+	{portrait "eng_elite1"}
+	{nationality eng}
+	{icon "elite"}
+	{icon_priority 3}
+	{armors
+		{head beret_eng_comm}
+	}
+	{perks
+		{"health" "350%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "150%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" "mp_soldier"
+		}
+		{"speed" 0.9
+		}
+		{"tank"	0.9
+		}
+		{"vehicle" 1.0
+		}
+		{"cannon" 1.0
+		}
+		
+		{"pistol" lvl_7
+		}
+		{"smg" lvl_7
+		}
+		{"mgun" lvl_7
+		}
+		{"rifle" lvl_7
+		}
+		{"rocketlauncher" lvl_7
+		}
+		{"melee" lvl_7
+		}
+		{"tankgun" lvl_4
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_elite")
+	}
+	{inventory
+		{item "thompson_m1928a1_30" filling "ammo thompson_m1a1_mag" 30}
+		{item "ammo thompson_m1a1_mag" 180}
+		{item "webley" filled}
+		{item "ammo webley_clip" 24}
+		{item "bandage" 5}
+		{item "grenade mk1" 2}
+		{item "grenade n73at" 1}
+		{item "smoke grenade" 1}
+		{item "n77_smoke grenade" 1}
+		{item "grenade satchel" 1}
+		;{item "mine antitank" 1}
+		{in_hands 0}
+	}
+}

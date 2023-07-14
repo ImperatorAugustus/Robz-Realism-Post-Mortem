@@ -1,0 +1,82 @@
+{breed
+	{skin "jap_t4"}
+	{portrait jap_elite1}
+	{icon elite}
+	{icon_priority 3}
+	{nationality jap}
+	{armors
+		{head helmet1_jap}
+	}
+	{perks
+		{"health" "400%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "225%"
+		}
+		{"stamina_regeneration" "125%"
+		}
+		{"vision" mp_soldier
+		}
+		{"speed" 1
+		}
+		{"tank" 1
+		}
+		{"vehicle" 1
+		}
+		{"cannon" 1
+		}
+		{"pistol" lvl_8
+		}
+		{"smg" lvl_8
+		}
+		{"mgun" lvl_8
+		}
+		{"rifle" lvl_8
+		}
+		{"rocketlauncher" lvl_8
+		}
+		{"melee" lvl_8
+		}
+		{"avoidance" lvl_1
+		}
+		{"stealth"}
+		{"tankgun" lvl_5
+		}
+	}
+	{veterancy
+		{"lvl_1" 5
+		}
+		{"lvl_2" 11
+		}
+		{"lvl_3" 18
+		}
+		{"lvl_4" 26
+		}
+		{"lvl_5" 35
+		}
+		{"lvl_6" 45
+		}
+		{"lvl_7" 56
+		}
+		{"lvl_8" 68
+		}
+		{"lvl_9" 80
+		}
+		{"lvl_10" 93
+		}
+	}
+	{inventory
+		{item "type2rifle_bayonet_vet" filling "arisaka7-7_clip 7-7_jap ammo" 5}
+		{item "ammo arisaka7-7_clip" 120}
+		{item "ammo type99_mag" 120}
+		{item "bandage" 5}
+		{item "grenade type97" 4}
+		{item "grenade type3at_a" 2}
+		{item "smoke grenade"}
+		{item "mine antipersonnel" 4}
+		{item "sandbag_kit"}
+		{item "plant"}
+		{in_hands 0}
+	}
+}

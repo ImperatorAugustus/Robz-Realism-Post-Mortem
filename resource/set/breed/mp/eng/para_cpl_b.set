@@ -1,0 +1,81 @@
+{breed
+	{skin "eng-para-nco"}
+	{portrait "eng_soldier5"}
+	{nationality eng}
+	{icon "stormtrooper"}
+	{icon_priority 4}
+	{armors
+		{head beret_eng_para}
+	}
+	{perks
+		{"health" "400%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "200%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" "mp_soldier"
+		}
+		{"speed" 0.9
+		}
+		{"stealth"}
+		{"tank"	1.0
+		}
+		{"vehicle" 1.0
+		}
+		{"cannon" 1.0
+		}
+		
+		{"pistol" lvl_7
+		}
+		{"smg" lvl_7
+		}
+		{"mgun" lvl_7
+		}
+		{"rifle" lvl_7
+		}
+		{"rocketlauncher" lvl_7
+		}
+		{"melee" lvl_7
+		}
+		{"tankgun" lvl_4
+		}
+	}
+	{veterancy
+		{"lvl_1" 5
+		}
+		{"lvl_2" 11
+		}
+		{"lvl_3" 18
+		}
+		{"lvl_4" 26
+		}
+		{"lvl_5" 35
+		}
+		{"lvl_6" 45
+		}
+		{"lvl_7" 56
+		}
+		{"lvl_8" 68
+		}
+		{"lvl_9" 80
+		}
+		{"lvl_10" 93
+		}
+	}
+	{inventory
+		{item "thompson_m1928a1_30" filling "ammo thompson_m1a1_mag" 30}
+		{item "ammo thompson_m1a1_mag" 180}
+		{item "webley" filled}
+		{item "ammo webley_clip" 24}
+		{item "bandage" 5}
+		{item "grenade mk1" 2}
+		{item "grenade n73at"}
+		{item "smoke grenade" 2}
+		{item "grenade satchel" 1}
+		{item "n77_smoke grenade" 0.25 1}
+		{in_hands 0}
+	}
+}

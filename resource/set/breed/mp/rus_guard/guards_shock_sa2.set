@@ -1,0 +1,82 @@
+{breed
+	{skin "rus_t3"}
+	{portrait "rus_elite3"}
+	{nationality rus}
+	{icon "smg3"}
+	{icon_priority 1}
+	{armors
+		{body body_armor}
+		{head helmet1_rus}
+	}
+	{perks
+		{"health" "200%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "150%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" "mp_soldier"
+		}
+		{"speed" 0.9
+		}
+		{"tank"	0.75
+		}
+		{"vehicle" 1
+		}
+		{"cannon" 0.8
+		}
+		
+		{"pistol" lvl_5
+		}
+		{"smg" lvl_5
+		}
+		{"mgun" lvl_4
+		}
+		{"rifle" lvl_5
+		}
+		{"rocketlauncher" lvl_4
+		}
+		{"melee" lvl_5
+		}
+		{"tankgun" lvl_4
+		}
+	}
+	{veterancy
+		{"lvl_1" -1
+		}
+		{"lvl_2" 0
+		}
+		{"lvl_3" 4
+		}
+		{"lvl_4" 10
+		}
+		{"lvl_5" 16
+		}
+		{"lvl_6" 24
+		}
+		{"lvl_7" 34
+		}
+		{"lvl_8" 46
+		}
+		{"lvl_9" 60
+		}
+		{"lvl_10" 78
+		}
+	}
+	{inventory
+		{item "sks" filling "ammo sks_clip" 10}
+		{item "ammo sks_clip" 150}
+		{item "ammo dp27_mag" 47}
+		{item "bandage" 5}
+		{item "grenade rgd33" 2}
+		{item "grenade f1" 0 1}
+		{item "grenade molotov_coctail" 0 1}
+		{item "grenade rpg43" 1}
+		{item "grenade rpg40" 0 1}
+		{item "ru_backpack_meshok"}
+		{item "grenade satchel" 0 1}
+		{in_hands 0}
+	}
+}

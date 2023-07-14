@@ -1,0 +1,76 @@
+{breed
+	{skin "ger_t2"}
+	{portrait ger2_soldier2}
+	{icon smg}
+	{icon_priority 1}
+	{nationality ger}
+	{armors
+		{head helmet1_ger}
+	}
+	{perks
+		{"health" "250%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "150%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" mp_soldier
+		}
+		{"speed" 0.9
+		}
+		{"tank" 0.75
+		}
+		{"vehicle" 1
+		}
+		{"cannon" 0.8
+		}
+		{"pistol" lvl_5
+		}
+		{"smg" lvl_5
+		}
+		{"mgun" lvl_5
+		}
+		{"rifle" lvl_5
+		}
+		{"rocketlauncher" lvl_5
+		}
+		{"melee" lvl_5
+		}
+		{"tankgun" lvl_5
+		}
+	}
+	{veterancy
+		{"lvl_1" -1
+		}
+		{"lvl_2" 0
+		}
+		{"lvl_3" 4
+		}
+		{"lvl_4" 10
+		}
+		{"lvl_5" 16
+		}
+		{"lvl_6" 24
+		}
+		{"lvl_7" 34
+		}
+		{"lvl_8" 46
+		}
+		{"lvl_9" 60
+		}
+		{"lvl_10" 78
+		}
+	}
+	{inventory
+		{item "pps43" filling "pps43_mag 762-smg ammo" 35}
+		{item "ammo pps43_mag" 210}
+		{item "bandage" 5}
+		{item "grenade m39" 4}
+		{item "grenade pwm1" 2}
+		{item "smoke grenade"}
+		{item "panzerfaust_60 weapon" filled}
+		{in_hands 0}
+	}
+}

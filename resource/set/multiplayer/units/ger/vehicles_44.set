@@ -123,7 +123,7 @@
 {"heronew2_ger"	    ("v1" c(345) c1(marder_3m)		t(hero 44) s(ger) n1(tankman:3) n2(tankman2:1) g(h2) b(hero)) {level 1} {cost 4.0} {fore -1.0}} ;690sec
 
 {"hero6_ger"	    ("v1" c(640) c1(stuh42) 		t(hero 44) s(ger) n1(tankman:4) n2(tankman2:1) g(h5) b(hero)) {level 1} {cost 5.0} {fore 0.0}} ;640sec
-{"hero10_ger"	    ("v2" c(633) c1(pz4j)		t(hero 44) s(ger) n1(tankman:4) n2(tankman2:1) g(h6) b(hero)) {level 1}  {cost 6.0} {fore 0.5}} ;950sec
+{"hero10_ger"	    ("v2" c(633) c1(pz4j)		t(hero 44) s(ger) n1(tankman:4) n2(tankman2:1) g(h6) b(hero)) {level 1}  {cost 6.0} {fore -0.5}} ;950sec
 
 {"flak18_hero"      ("v2" c(600) c1(flak18a) 		t(hero artillery 44) s(ger) n1(vehicle_supporter:2) n2(tankman2:0) g(h8) b(hero)) {level 1} {cost 7.0} {fore -0.5}}
 {"heronew3_ger"	    ("2v" c(900) c1(steyr_rso) c2(pak44) t(hero 44) s(ger) n1(vehicle_supporter:2) n2(vehicle_supporter:2) g(h7) b(hero)) {level 1} {cost 9.0} {fore -0.5}}

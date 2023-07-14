@@ -144,7 +144,6 @@
 	{delete "map\multi\3x3__gsm_west_front\battle_zones.mi"}
 	{delete "map\multi\3x3_gsm_winter_hills\battle_zones.mi"}
 
-	{delete "map\multi\4v4_advance2\battle_zones.mi"}
 	{delete "map\multi\4x4_gsm_bog\battle_zones.mi"}
 	{delete "map\multi\4v4_omaha-beach\battle_zones.mi"}
 	{delete "map\multi\4x4_gsm_seaside\battle_zones.mi"}

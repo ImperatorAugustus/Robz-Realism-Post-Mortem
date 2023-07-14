@@ -11,7 +11,7 @@
 ("i_seq_with3types" side(rus) name(smgsv4) c(0) g(squad_2) i(7) c1(squadleader2_43:1) c2(smg2_43:1) c3(smg2:8) b(squad1) t(all inf_only 43 44 45) level(1) cost(100) f(1.0))
 ("i_seq_with3types" side(rus) name(smgsv5) c(0) g(squad_2) i(7) c1(squadleader2_43:1) c2(smg2_43:1) c3(smg2:8) b(squad1) t(all inf_only 43 44 45) level(1) cost(100) f(1.0))
 
-("squad_with4types_vehicle" side(rus) name(smgs_mot) c(60) g(squad_2) i(7) v1(zis5) c1(squadleader2_43:1) c2(smg2_43:1) c3(smg2:8) b(squad1) t(all inf_only 43 44 45) level(1) cost(165) f(0.0))
+("squad_with4types_vehicle" side(rus) name(smgs_mot) c(60) g(squad_2) v1(zis5) c1(squadleader2_43:1) c2(smg2_43:1) c3(smg2:8) b(squad1) t(all inf_only 43 44 45) level(1) cost(165) f(0.0))
 
 ("squad_with7types" side(rus) name(sapper_squad) c(0) g(squad_2) c1(sapper_sl:1) c2(sapper_smg:1) c3(sapper_smg2:2) c4(sapper_rifle1:1) c5(sapper_rifle2:1) c6(sapper_rifle3:1) c7(sapper_rifle4:2) b(squad1) t(all inf_only 43 44 45) level(1) cost(150) f(1.0))
 
@@ -29,6 +29,8 @@
 ("i_seq_with6types" side(rus) name(riflemans_riflev3) c(0) g(squad_2) i(9) c1(squadleader_smg:1) c2(smg:1) c3(rifle_sa:1) c4(rifle:6) c5(mgun:1) c6(mgun_asst:1) b(squad1) t(all inf_only 43 44 45) level(1) cost(112) f(1.0))
 ("i_seq_with6types" side(rus) name(riflemans_riflev4) c(0) g(squad_2) i(9) c1(squadleader_smg:1) c2(smg:1) c3(rifle_sa:1) c4(rifle:6) c5(mgun:1) c6(mgun_asst:1) b(squad1) t(all inf_only 43 44 45) level(1) cost(112) f(1.0))
 ("i_seq_with6types" side(rus) name(riflemans_riflev5) c(0) g(squad_2) i(9) c1(squadleader_smg:1) c2(smg:1) c3(rifle_sa:1) c4(rifle:6) c5(mgun:1) c6(mgun_asst:1) b(squad1) t(all inf_only 43 44 45) level(1) cost(112) f(1.0))
+
+("squad_with4types_vehicle" side(rus) name(riflemans_rifle_mot) c(60) g(squad_2) v1(zis5) c1(squadleader_smg:1) c2(smg:1) c3(rifle_sa:1) c4(rifle:6) c5(mgun:1) c6(mgun_asst:1) b(squad1) t(all inf_only 43 44 45) level(1) cost(180) f(1.0))
 
 ;------------------------------shock troops ||| vet 4-----------------------------------------------------------
 

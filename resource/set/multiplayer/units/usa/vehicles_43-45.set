@@ -31,7 +31,7 @@
 {"81mm_brandt_usa"      ("vs" c(10) t(all 42 43 44 45 mortar) 	s(usa) n(2) g(c3) sc(19.25) b(v2) cw(2) cp(5)) {level 1} {cost 385} {fore -2.0}}		;30sec
 {"4_2_inch_mortar_m_2"  ("vs" c(60) t(all 43 44 45 mortar) 	s(usa) n(2) g(c18) sc(30.00) b(v2) cw(2) cp(10)) {level 1} {cost 600} {fore -9.0}}		;600sec
 
-{"m3cannon"         ("vs" c(10) t(all 42 43 44 45) 	s(usa) n(2) g(c4) sc(8.75)  b(v2) cw(2) cp(5)) {level 1} {cost 175} {fore -2.0}}		;30sec
+{"m3cannon"         ("vs" c(10) t(all 42 43 44 45) 	s(usa) n(2) g(c4) sc(8.75)  b(v2) cw(2) cp(5)) {level 1} {cost 150} {fore -2.0}}		;30sec
 {"m1_57mm"          ("vs" c(20) t(all 42 43 44 45) 	s(usa) n(2) g(c5) sc(15.00) b(v2) cw(2) cp(10)) {level 1} {cost 300} {fore -14.0}}		;300sec
 
 {"np_m5cannon"      ("vs" c(20) t(all medium 44 45) 	s(usa) n(2) g(c6) sc(20.00) b(v2) cw(2) cp(15)) {level 1} {cost 400} {fore -19.0}}		;400sec
@@ -122,10 +122,10 @@
 ;{"v0" side(usa) name(hero1_usa) c(120) c1(airborne_spawner_m8_howitzer) t(all 42 43 44 45 hero) n1(elite_101st_para:2) g(h1) b(hero) {level 1} {cost 3.0} {fore -0.5}}
 ;{"v0" side(usa) name(m1_57mm_drop) c(300) c1(airborne_spawner_m1_57mm) t(all 42 43 44 45 hero) n1(elite_101st_para:2) g(h1) b(hero) {level 1} {cost 3.0} {fore -0.5}}
 ;{"m8drop"        ("v1" c(0) c1(airborne_spawner_m8_howitzer) 	t(all 42 43 44 45 hero) s(usa) n1(elite_101st_para:2) g(h1) b(hero)) {level 1} {cost 2.0} {fore -0.5}}
-;{"m1_57mm"        ("v1" c(0) c1(airborne_spawner_m1_57mm) 	t(all 42 43 44 45 hero) s(usa) n1(elite_101st_para:2) g(h1) b(hero)) {level 1} {cost 2.0} {fore -0.5}}
+
+{"m1_57mm"        ("v1" c(360) c1(airborne_spawner_m1_57mm) 	t(all 42 43 44 45 hero) s(usa) n1(elite:2) g(h1) b(hero)) {level 1} {cost 3.0} {fore -0.5}}
 
 {"hero4_usa"        ("v1" c(450) c1(m4a3_zippo) 	t(all 44 45 hero flamethrower) s(usa) n1(tankman:4) n2(tankman2:1) g(h3) b(hero)) {level 1} {cost 4.0} {fore -0.84}} ;830sec
-{"hero6_usa"  	    ("v1" c(500) c1(m4a3_105) 		t(all 44 45 hero) s(usa) n1(tankman:4) n2(tankman2:1) g(h6) b(hero)) {level 1} {cost 5.0} {fore -0.66}} ;830sec
 
 {"hero10_usa"	    ("v51" c(380) c1(81mm_brandt_usa) c2(m1_57mm) c3(30_browning_m1919a4) t(all 42 43 44 45 hero) s(usa) n1(vehicle_supporter:2) g(h7) b(hero)) {level 1} {cost 6.0} {fore -0.5}}
 

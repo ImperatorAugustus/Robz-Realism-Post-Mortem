@@ -106,6 +106,7 @@ USA
 -Removed Super Persh MP buy
 -Willies 50 cal 175 to 135mp
 -Willies armoed 50 cal 200 to 150 mp
+-M3 37mm AT gun to 150mp from 175mp
 -M2 Halftrack 200mp to 185mp
 -M3 Halftrack 200mp to 175mp
 -US Heavy Ammo truck 270 to 200mp
@@ -123,6 +124,8 @@ USA
 -m18 hellcat - 450 mp
 -m18 timer reduced to same as m10
 Added US logistics SP buy. 1sp for a normal truck and an inf and art ammo crate
+Added paradropped 57mm for sp
+Removed 105 sherman buy
 
 	Infantry
 -Buffed M1, M1A1, and M2 Carbine
@@ -159,6 +162,7 @@ SMG squad is sequentialed into the following price; 125, 112, 100, 100, 100.
 Rifle squad is sequentialed into the following price; 140, 126, 112, 112, 112.
 Rifle Assault squad is sequentialed into the following price; 150, 135, 120, 120, 120.
 Added Motorized SMG squad for 165mp
+Added Motorized Rifle squad for 180mp
 Added Mechanized Assault SMG for 280mp
 BSF reduce by 20mp.
 Grounded Paras reduced by 20mp.
@@ -173,7 +177,7 @@ Updated charge to reflect an assault rifle squads without lmgs.
 Reduced DS 39 cost by 20mp
 Reduced all other HMGs by 10mp.
 Added sequential maxim buy.
-Reduced M42 price by 15mp.
+Reduced M42 price by 25mp.
 Reduced M43 price by 20mp.
 Reduced BS3 cost by 25mp.
 Given M3 Lee
@@ -201,6 +205,7 @@ is2 mod 1943 1750 mp
 is2 mod 1944 1800 mp
 Increased price of ISU 122 by 200mp
 Increased price of SU100 by 100mp
+Increased charge to 3sp
 
 
 
@@ -354,6 +359,7 @@ sdfkz 8 increased sp cost by 1
 swg 41 increased by 2 sp
 Raketen Werfer to 1sp
 Stug 3 Ace price increased by 1 sp
+Doubled penal squad startup and cooldown
 
 
 
@@ -371,7 +377,7 @@ Fixed 200m AT gun and TD range scaling so its accurate to max
 Reduced 105 and 150 howitzer by 50mp
 Increased price of HoHa to 135mp
 Type 92 HMG reduced by 10 mp
-47mm AT gun reduced by 70mp
+47mm AT gun reduced by 80mp
 75mm at gun reduced by 30mp
 Ha Go and Ke Nu to 160mp
 Chi Ha 57 to 210 mp

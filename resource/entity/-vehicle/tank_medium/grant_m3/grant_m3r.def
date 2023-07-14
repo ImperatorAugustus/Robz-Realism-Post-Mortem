@@ -86,25 +86,23 @@
 
 	{extender "inventory"
 		{box
-			{item "ammo bullet75 ap" 50}
-			{item "ammo bullet75 fg" 27}
-			{item "ammo bullet75 apcr" 5}
-			{item "bullet37 ap" 30}
-			{item "bullet37 fg" 27}
-			{item "bullet37 apcr" 5}
-			{item "ammo mgun" 2400}
+			{item "ammo bullet75 us ap" 50}
+			{item "ammo bullet75 us fg" 27}
+			{item "bullet37 us ap" 30}
+			{item "bullet37 us fg" 27}
+			{item "ammo springfield_belt" 2350}
 		}
 	}
 	{Weaponry
 		("restore_ik_time")
 		{place "gun"
 			{RestoreIKAfterAim}
-			{weapon "75mm_m3" filling "ammo bullet75 ap" 1}
+			{weapon "75mm_m3" filling "ammo bullet75 us ap" 1}
 			("abm_medium")
 		}
 		{place "gun2"
 			{type "secondary_main"}
-			{weapon "37mm_m5" filling "bullet37 ap" 1}
+			{weapon "37mm_m5" filling "bullet37 us ap" 1}
 			{foresight "foresight2"}
 			{gunner "commander"}
 			{charger "commander"}
@@ -113,7 +111,7 @@
 		}
 		{place "mgun"
 			{type "mgun_aa"}
-			{weapon "browning_m19" filled}
+			{weapon "browning_m19_optic" filled}
 			{foresight "foresight3"}
 			{gunner "commander"}
 			("abm_mgun")
@@ -129,7 +127,7 @@
 		}
         {place "mgun1"
 			{type "mgun_hull"}
-			{weapon "browning_m19" filled}       
+			{weapon "browning_m19_optic" filled}       
 			{foresight "foresight4"}
 			{gunner "driver"}
 			{charger "driver"}

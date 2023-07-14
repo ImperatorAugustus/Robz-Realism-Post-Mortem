@@ -102,7 +102,7 @@
 {"hero2_ost"		("i2" c(120)					t(all 44 45 hero) s(ger2) n1(bazooker3:2) n2(bazooker2:2) g(h2) b(hero)) {level 1} {cost 1.0} {fore -0.5}}
 {"hero_ost_raketenwerfer" ("v1" c(180) c1(raketenwerfer) t(all 44 45 hero) s(ger2) n1(vehicle_supporter:2) n2(tankman2:0) g(h4) b(hero)) {level 1} {cost 1.0} {fore -0.5}}
 
-{"hero4_ost"		("i3" c(90)						t(all 44 45 hero) s(ger2) n1(elite4:6) n2(elite5:18) n3(elite6:6) g(h3) b(hero)) {level 1} {cost 2.0} {fore -0.5}}
+{"hero4_ost"		("i3" c(240)						t(all 44 45 hero) s(ger2) n1(elite4:6) n2(elite5:18) n3(elite6:6) g(h3) b(hero)) {level 1} {cost 2.0} {fore -0.5}}
 
 {"hero1_ost"		("i2" c(120)					t(all 44 45 hero officer1) s(ger2) n1(oficer2:1) n2(rifle:2) g(h1) b(hero)) {level 1} {cost 2.0} {fore -0.5}}
 

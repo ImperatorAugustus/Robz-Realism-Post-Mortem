@@ -1,6 +1,5 @@
 Not fully implemented
 US M8 howtizer sp buy raised to 3sp. Paradropped.
-Added M1 57 paradrop 3 sp.
 
 Remove
 Visor for airborne and goliaths
@@ -8,11 +7,14 @@ Visor for airborne and goliaths
 Add
 deminers/fix model
 m4dd
+SkiJager
+Osnaz
+lg40
+lg42
 
 fix
 sdkfz8 gun range misreading on label
-change m3 rus model
+open top vehicle holes
+
 
 renable 
-prohovoka
-advance2

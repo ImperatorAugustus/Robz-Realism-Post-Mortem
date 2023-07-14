@@ -15,12 +15,11 @@ aiming time to other spgs to prevent far shooting
 sexton to mp
 
 fix
-sdkfz8 gun range misreading on label
 open top vehicle holes
 HE targeting of vehicles
 Add bandages to soldiers that start without them Flamers, Officers, Tank crew, AP/AT miners.....
 local
-raider skins
+
 
 
 renable 

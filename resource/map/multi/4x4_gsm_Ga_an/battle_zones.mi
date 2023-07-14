@@ -5,9 +5,15 @@
 		{Extender "map_point"
 			{name b1}
 			{team b}
+			{zoneA 0}
+			{zoneB 0}
 			{phase 0}
 			{order 1}
 			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
 		}
 		{Player 0}
 		{MID 1}
@@ -18,9 +24,15 @@
 		{Extender "map_point"
 			{name b3}
 			{team b}
+			{zoneA 0}
+			{zoneB 0}
 			{phase 0}
 			{order 3}
 			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
 		}
 		{Player 0}
 		{MID 2}
@@ -31,9 +43,15 @@
 		{Extender "map_point"
 			{name b2}
 			{team b}
+			{zoneA 0}
+			{zoneB 0}
 			{phase 0}
 			{order 2}
 			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
 		}
 		{Player 0}
 		{MID 3}
@@ -44,9 +62,15 @@
 		{Extender "map_point"
 			{name a3}
 			{team a}
+			{zoneA 0}
+			{zoneB 0}
 			{phase 0}
 			{order 3}
 			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
 		}
 		{Player 0}
 		{MID 4}
@@ -57,9 +81,15 @@
 		{Extender "map_point"
 			{name a2}
 			{team a}
+			{zoneA 0}
+			{zoneB 0}
 			{phase 0}
 			{order 2}
 			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
 		}
 		{Player 0}
 		{MID 5}
@@ -67,6 +97,11 @@
 	{Entity "flag_point_1" 0x8007
 		{Position -2381.83 3319.9}
 		{xform scale 0.75}
+		{Skeleton
+			{MtlParams
+				{"specular color" "e6e6e6ff"}
+			}
+		}
 		{Extender "map_point"
 			{name f1}
 			{zoneA 30}
@@ -76,7 +111,9 @@
 			{show All}
 			{allow
 				{capture "a" "b"}
+				{enableCapture}
 				{release "a" "b"}
+				{enableRelease}
 			}
 		}
 		{Player 0}
@@ -85,6 +122,11 @@
 	{Entity "flag_point_2" 0x800a
 		{Position 122.35 11.28}
 		{xform zl -160.36 scale 0.75}
+		{Skeleton
+			{MtlParams
+				{"specular color" "e6e6e6ff"}
+			}
+		}
 		{Extender "map_point"
 			{name f2}
 			{zoneA 30}
@@ -94,7 +136,9 @@
 			{show All}
 			{allow
 				{capture "a" "b"}
+				{enableCapture}
 				{release "a" "b"}
+				{enableRelease}
 			}
 		}
 		{Player 0}
@@ -103,6 +147,11 @@
 	{Entity "flag_point_3" 0x800e
 		{Position 2823.79 -3339.9}
 		{xform zl -92.5 scale 0.75}
+		{Skeleton
+			{MtlParams
+				{"specular color" "e6e6e6ff"}
+			}
+		}
 		{Extender "map_point"
 			{name f3}
 			{zoneA 30}
@@ -112,7 +161,9 @@
 			{show All}
 			{allow
 				{capture "a" "b"}
+				{enableCapture}
 				{release "a" "b"}
+				{enableRelease}
 			}
 		}
 		{Player 0}
@@ -124,9 +175,15 @@
 		{Extender "map_point"
 			{name a1}
 			{team a}
+			{zoneA 0}
+			{zoneB 0}
 			{phase 0}
 			{order 1}
 			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
 		}
 		{Player 0}
 		{MID 9}
@@ -134,6 +191,11 @@
 	{Entity "flag_point_4" 0xe001
 		{Position 230.47 -1509.6}
 		{xform scale 0.75}
+		{Skeleton
+			{MtlParams
+				{"specular color" "e6e6e6ff"}
+			}
+		}
 		{Extender "map_point"
 			{name f4}
 			{zoneA 30}
@@ -143,33 +205,22 @@
 			{show All}
 			{allow
 				{capture "a" "b"}
+				{enableCapture}
 				{release "a" "b"}
+				{enableRelease}
 			}
 		}
 		{Player 0}
 		{MID 6}
 	}
-	{Entity "flag_point_5" 0x9001
-		{Position 671.05 3444.73}
-		{xform scale 0.75}
-		{Extender "map_point"
-			{name f5}
-			{zoneA 30}
-			{zoneB 30}
-			{phase 0}
-			{order 5}
-			{show All}
-			{allow
-				{capture "a" "b"}
-				{release "a" "b"}
-			}
-		}
-		{Player 0}
-		{MID 11}
-	}
 	{Entity "flag_point_6" 0x8005
 		{Position 2596.43 -1332.25}
 		{xform zl -116.62 scale 0.75}
+		{Skeleton
+			{MtlParams
+				{"specular color" "e6e6e6ff"}
+			}
+		}
 		{Extender "map_point"
 			{name f6}
 			{zoneA 30}
@@ -180,7 +231,9 @@
 			{visor MapPoint}
 			{allow
 				{capture "b" "a"}
+				{enableCapture}
 				{release "b" "a"}
+				{enableRelease}
 			}
 		}
 		{Player 0}
@@ -189,6 +242,11 @@
 	{Entity "flag_point_7" 0x8008
 		{Position -2136.5 1618.65}
 		{xform zl -174.89 scale 0.75}
+		{Skeleton
+			{MtlParams
+				{"specular color" "e6e6e6ff"}
+			}
+		}
 		{Extender "map_point"
 			{name f7}
 			{zoneA 30}
@@ -199,7 +257,9 @@
 			{visor MapPoint}
 			{allow
 				{capture "b" "a"}
+				{enableCapture}
 				{release "b" "a"}
+				{enableRelease}
 			}
 		}
 		{Player 0}
@@ -243,6 +303,11 @@
 	}
 	{Entity "flag_point_8" 0x800f
 		{Position -30.5 1659.76}
+		{Skeleton
+			{MtlParams
+				{"specular color" "e6e6e6ff"}
+			}
+		}
 		{Extender "map_point"
 			{name f8}
 			{zoneA 30}
@@ -253,29 +318,13 @@
 			{visor MapPoint}
 			{allow
 				{capture "a" "b"}
+				{enableCapture}
 				{release "a" "b"}
+				{enableRelease}
 			}
 		}
 		{Player 0}
 		{MID 14}
-	}
-	{Entity "flag_point_9" 0x8010
-		{Position -181.37 -3436.8}
-		{Extender "map_point"
-			{name f9}
-			{zoneA 30}
-			{zoneB 30}
-			{phase 0}
-			{order 9}
-			{show All}
-			{visor MapPoint}
-			{allow
-				{capture "a" "b"}
-				{release "a" "b"}
-			}
-		}
-		{Player 0}
-		{MID 15}
 	}
 	{Entity "map_point" 0x8011
 		{Position -4197.04 -4123.26}
@@ -283,9 +332,15 @@
 		{Extender "map_point"
 			{name b4}
 			{team b}
+			{zoneA 0}
+			{zoneB 0}
 			{phase 0}
 			{order 4}
 			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
 		}
 		{Player 0}
 		{MID 16}
@@ -296,9 +351,15 @@
 		{Extender "map_point"
 			{name a4}
 			{team a}
+			{zoneA 0}
+			{zoneB 0}
 			{phase 0}
 			{order 4}
 			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
 		}
 		{Player 0}
 		{MID 17}
@@ -309,9 +370,15 @@
 		{Extender "map_point"
 			{name a5}
 			{team a}
+			{zoneA 0}
+			{zoneB 0}
 			{phase 0}
 			{order 5}
 			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
 		}
 		{Player 0}
 		{MID 18}
@@ -322,15 +389,20 @@
 		{Extender "map_point"
 			{name b5}
 			{team b}
+			{zoneA 0}
+			{zoneB 0}
 			{phase 0}
 			{order 5}
 			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
 		}
 		{Player 0}
 		{MID 19}
 	}
 	{Tags "keep_places_without_door" 0x2a9}
-	{Tags "keep_places_without_door" 0x2018}
 	{Tags "keep_places_without_door" 0x427e}
 	{Tags "keep_places_without_door" 0x1000}
 	{Tags "keep_places_without_door" 0xe44}
@@ -363,7 +435,6 @@
 	{Tags "keep_places_without_door" 0x2037}
 	{Tags "keep_places_without_door" 0x2038}
 	{Tags "keep_places_without_door" 0xe9}
-	{Tags "keep_places_without_door" 0x96}
 	{Tags "keep_places_without_door" 0xeb}
 	{Tags "keep_places_without_door" 0x202a}
 	{Tags "keep_places_without_door" 0x94}
@@ -373,6 +444,7 @@
 	{Tags "rain" 0x800b}
 	{Tags "day" 0x800c}
 	{Tags "night" 0x800d}
+	{Tags "keep_places_without_door" {0x4e4 "5bsl"}}
 	{Environment "multi/multi_01"}
 	{Helpers
 		{reinforcements
@@ -392,6 +464,8 @@
 							}
 							{"environment"
 								{name "multi/multi_10"}
+								{time -1}
+								{apply}
 							}
 							{"delete"
 								{selector
@@ -411,6 +485,8 @@
 							}
 							{"environment"
 								{name "multi/multi_09"}
+								{time -1}
+								{apply}
 							}
 							{"delete"
 								{selector
@@ -437,6 +513,8 @@
 							}
 							{"environment"
 								{name "multi/multi_08"}
+								{time -1}
+								{apply}
 							}
 							{"delete"
 								{selector
@@ -463,6 +541,8 @@
 							}
 							{"environment"
 								{name "multi/multi_07"}
+								{time -1}
+								{apply}
 							}
 							{"delete"
 								{selector
@@ -489,6 +569,8 @@
 							}
 							{"environment"
 								{name "multi/multi_06"}
+								{time -1}
+								{apply}
 							}
 							{"delete"
 								{selector
@@ -515,6 +597,8 @@
 							}
 							{"environment"
 								{name "multi/multi_05"}
+								{time -1}
+								{apply}
 							}
 							{"delete"
 								{selector
@@ -541,6 +625,8 @@
 							}
 							{"environment"
 								{name "multi/multi_04"}
+								{time -1}
+								{apply}
 							}
 							{"delete"
 								{selector
@@ -567,6 +653,8 @@
 							}
 							{"environment"
 								{name "multi/multi_03"}
+								{time -1}
+								{apply}
 							}
 							{"delete"
 								{selector
@@ -593,6 +681,8 @@
 							}
 							{"environment"
 								{name "multi/multi_02"}
+								{time -1}
+								{apply}
 							}
 							{"delete"
 								{selector
@@ -615,6 +705,8 @@
 						{"default"
 							{"environment"
 								{name "multi/multi_01"}
+								{time -1}
+								{apply}
 							}
 							{"delete"
 								{selector

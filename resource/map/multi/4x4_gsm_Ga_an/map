@@ -11,6 +11,13 @@
 			{viewAngle 0 90}
 		}
 	}
+	{Ocean
+		{active 0}
+		{state calm}
+		{zlevel 0}
+		{waveamount 8}
+		{wavedir 50}
+	}
 	{Entity "rock01" 0xc
 		{Position -373.9 -744.34 -8.5}
 		{xform zl 9.59}
@@ -4928,23 +4935,14 @@
 	{Entity "banana_tree" 0xc1e
 		{Position 3311.41 -2722.55 22.61}
 		{xform zl 18.22}
-		{Volume "crown"
-			{able {visible 0}}
-		}
 	}
 	{Entity "banana_tree" 0xc20
 		{Position 2843.72 -3313.42}
 		{xform zl -30.69}
-		{Volume "crown"
-			{able {visible 0}}
-		}
 	}
 	{Entity "banana_tree" 0xc21
 		{Position 2803.6 -3312.67}
 		{xform zl 117.74 scale 1.647}
-		{Volume "crown"
-			{able {visible 0}}
-		}
 	}
 	{Entity "bamboo_tree" 0xc22
 		{Position 2897.96 -3166.22}
@@ -5093,23 +5091,14 @@
 	{Entity "banana_tree" 0xc48
 		{Position 2235.7 -3103.2}
 		{xform zl -107.55 scale 1.443}
-		{Volume "crown"
-			{able {visible 0}}
-		}
 	}
 	{Entity "banana_tree" 0xc49
 		{Position 2215.36 -3200.94}
 		{xform zl -27.26 scale 1.663}
-		{Volume "crown"
-			{able {visible 0}}
-		}
 	}
 	{Entity "banana_tree" 0xc4a
 		{Position 2212.07 -3225.26}
 		{xform zl -124.87 y 10.87 zw -133.52 scale 1.22}
-		{Volume "crown"
-			{able {visible 0}}
-		}
 	}
 	{Entity "bamboo_tree" 0xc4e
 		{Position 2616.86 -3221.14}
@@ -5196,9 +5185,6 @@
 	{Entity "banana_tree" 0xc6d
 		{Position 3645.08 -1903.84}
 		{xform zl 161.84}
-		{Volume "crown"
-			{able {visible 0}}
-		}
 	}
 	{Entity "burdock_bush" 0xc71
 		{Position 3493.7 -2000.59}
@@ -5435,16 +5421,10 @@
 	{Entity "banana_tree" 0xcbb
 		{Position 3231.41 -1421.34}
 		{xform zl 155.32}
-		{Volume "crown"
-			{able {visible 0}}
-		}
 	}
 	{Entity "banana_tree" 0xcc0
 		{Position 2814.95 -1324.21 22}
 		{xform zl 130.11}
-		{Volume "crown"
-			{able {visible 0}}
-		}
 	}
 	{Entity "burdock_bush" 0xcc2
 		{Position 3153.83 -1380.02}
@@ -5783,9 +5763,6 @@
 	{Entity "banana_tree" 0xd0f
 		{Position 3499.65 -891.52 27.26}
 		{xform zl -177.24}
-		{Volume "crown"
-			{able {visible 0}}
-		}
 	}
 	{Entity "bush8" 0xd1d
 		{Position 3015.84 534.18}
@@ -9832,23 +9809,14 @@
 	{Entity "banana_tree" 0x4356
 		{Position -35.24 -2438.58}
 		{xform zl 132.35 scale 1.557}
-		{Volume "crown"
-			{able {visible 0}}
-		}
 	}
 	{Entity "banana_tree" 0x4357
 		{Position 421.05 -2340.74}
 		{xform zl -2.7}
-		{Volume "crown"
-			{able {visible 0}}
-		}
 	}
 	{Entity "banana_tree" 0x4358
 		{Position 436.34 -2309.81}
 		{xform zl -47.52 scale 1.463}
-		{Volume "crown"
-			{able {visible 0}}
-		}
 	}
 	{Entity "waves1" 0xdf7
 		{Position 3311.77 -900.58}
@@ -15116,9 +15084,6 @@
 		{xform zl 68.17}
 		{TexMod "1"}
 	}
-	{Entity "water_river_big_na" 0x6106
-		{Position 771.54 -2285.89 -17.5}
-	}
 	{Entity "water_river_big_na" 0x106c
 		{Position 707.39 -4941.32 -17.5}
 	}
@@ -18287,13 +18252,6 @@
 			{able {visible 0}}
 		}
 	}
-	{Entity "palm4" 0x41a6
-		{Position -2058.77 1339.98}
-		{xform zl 171.19 scale 0.9}
-		{Volume "crown"
-			{able {visible 0}}
-		}
-	}
 	{Entity "water_shallow" 0x41a8
 		{Position -1715.92 830.05 49.66}
 	}
@@ -21250,10 +21208,6 @@
 		{Position -3583.71 2011.78 36}
 		{xform zl -154.3}
 	}
-	{Entity "wash_fall_front_storeable" 0x2356
-		{Position -3588.35 2097.91 36}
-		{xform zl -129.2}
-	}
 	{Entity "wash_fall_front_storeable" 0x2357
 		{Position -3550.85 2184.99 36}
 		{xform zl -100.65}
@@ -21455,13 +21409,6 @@
 		{StoreAble 1}
 		{Constrain water}
 	}
-	{Entity "waterrun" 0x402b
-		{Position 749.75 -5742.58 108.61}
-		{xform zl -54.99}
-		{Extender "speaker"
-			{SoundName "world/wfall"}
-		}
-	}
 	{Entity "waterfall_big" 0x2085
 		{Position -4112.12 2800.74 141.5}
 		{xform zl -130.23}
@@ -21478,20 +21425,6 @@
 		{Position -4121.45 1606.59 6.47}
 		{xform zl -157.35 y 148.39 zw 112.37}
 		{Constrain surface}
-	}
-	{Entity "waterrun" 0x601b
-		{Position -3581.94 2108.98 54.11}
-		{xform zl -107.36}
-		{Extender "speaker"
-			{SoundName "world/wfall"}
-		}
-	}
-	{Entity "waterrun" 0x601c
-		{Position -3634.91 2571.06 61.19}
-		{xform zl -75.02}
-		{Extender "speaker"
-			{SoundName "world/wfall"}
-		}
 	}
 	{Entity "waterrun" 0x6038
 		{Position -4447.81 1446.53 -1.89}
@@ -21748,9 +21681,6 @@
 	{Entity "palm_bush2" 0x1118
 		{Position -4280.64 1388}
 		{xform zl -137.34 scale 1.627}
-	}
-	{Entity "birds" 0x7000
-		{Position -1864.18 1244.51 113.45}
 	}
 	{Entity "birds" 0x7002
 		{Position -78.95 3268.23 79.79}
@@ -26721,132 +26651,6 @@
 		{Position -1283.63 -4570.71 -11.12}
 		{xform zl 23.45 y 4.06 zw -147.66}
 	}
-	{Entity "waterrun" 0x43c5
-		{Position -1015.7 4345.57 7.11}
-		{xform zl -151.57}
-		{Extender "speaker"
-			{SoundName "world/wfall"}
-		}
-	}
-	{Entity "waterrun" 0x43c6
-		{Position -866.22 3100.06 7.11}
-		{xform zl -151.57}
-		{Extender "speaker"
-			{SoundName "world/wfall"}
-		}
-	}
-	{Entity "waterrun" 0x43c7
-		{Position -603.62 1271.96 6.11}
-		{xform zl -151.57}
-		{Extender "speaker"
-			{SoundName "world/wfall"}
-		}
-	}
-	{Entity "waterrun" 0x43c8
-		{Position -198.29 504.77 9.73}
-		{xform zl -151.57}
-		{Extender "speaker"
-			{SoundName "world/wfall"}
-		}
-	}
-	{Entity "waterrun" 0x43c9
-		{Position 543.26 -459.55 6.11}
-		{xform zl -151.57}
-		{Extender "speaker"
-			{SoundName "world/wfall"}
-		}
-	}
-	{Entity "waterrun" 0x43ca
-		{Position 962.11 -1439.21 6.11}
-		{xform zl -151.57}
-		{Extender "speaker"
-			{SoundName "world/wfall"}
-		}
-	}
-	{Entity "waterrun" 0x43cb
-		{Position 714.52 -2335.53 6.71}
-		{xform zl -151.57}
-		{Extender "speaker"
-			{SoundName "world/wfall"}
-		}
-	}
-	{Entity "waterrun" 0x43cc
-		{Position 496.86 -3130.82 6.11}
-		{xform zl -151.57}
-		{Extender "speaker"
-			{SoundName "world/wfall"}
-		}
-	}
-	{Entity "waterrun" 0x43cd
-		{Position 921.75 -4354.93 6.57}
-		{xform zl -151.57}
-		{Extender "speaker"
-			{SoundName "world/wfall"}
-		}
-	}
-	{Entity "waterrun" 0x43ce
-		{Position 1724.87 -1473.85 -17.89}
-		{xform zl -151.57}
-		{Extender "speaker"
-			{SoundName "world/wfall"}
-		}
-	}
-	{Entity "waterrun" 0x43cf
-		{Position -649.69 2035.11 8.11}
-		{xform zl -151.57}
-		{Extender "speaker"
-			{SoundName "world/wfall"}
-		}
-	}
-	{Entity "waterrun" 0x43d0
-		{Position -957.96 3781.62 7.11}
-		{xform zl -151.57}
-		{Extender "speaker"
-			{SoundName "world/wfall"}
-		}
-	}
-	{Entity "waterrun" 0xcf
-		{Position 554.84 278.8 4.38}
-		{xform zl -151.57}
-		{Extender "speaker"
-			{SoundName "world/wfall"}
-		}
-	}
-	{Entity "waterrun" 0xdd
-		{Position -218.4 -199.16 7.11}
-		{xform zl -151.57}
-		{Extender "speaker"
-			{SoundName "world/wfall"}
-		}
-	}
-	{Entity "waterrun" 0xe2
-		{Position 431.42 -3842.23 6.11}
-		{xform zl -151.57}
-		{Extender "speaker"
-			{SoundName "world/wfall"}
-		}
-	}
-	{Entity "waterrun" 0xe3
-		{Position 334 -4309.76 6.11}
-		{xform zl -151.57}
-		{Extender "speaker"
-			{SoundName "world/wfall"}
-		}
-	}
-	{Entity "waterrun" 0xe4
-		{Position 643.77 -1001.26 11.61}
-		{xform zl -151.57}
-		{Extender "speaker"
-			{SoundName "world/wfall"}
-		}
-	}
-	{Entity "waterrun" 0xe6
-		{Position 955.69 -724.52 -17.87}
-		{xform zl -151.57}
-		{Extender "speaker"
-			{SoundName "world/wfall"}
-		}
-	}
 	{Entity "palm4" 0xe9
 		{Position -157.63 1712.06}
 		{xform zl -88.31 scale 0.9}
@@ -27244,7 +27048,7 @@
 	}
 	{Entity "piece_big_airborne_wing" 0x2890
 		{Position -4391.85 -1199.23 6.2}
-		{xform zl 91.25 y 180 zw -30.85}
+		{xform zl -88.75 y 180 zw 149.15}
 	}
 	{Entity "crater_norm" 0x2701
 		{Position -3684.99 -1716.95 0}
@@ -27292,12 +27096,6 @@
 		{DecalOrder 2}
 		{Color 0xffcfcfcf}
 	}
-	{Entity "birds" 0x96
-		{Position 4131.6 -2373.92 -3.33}
-		{Extender "speaker"
-			{SoundName "world/sea/pm"}
-		}
-	}
 	{Entity "birds" 0x97
 		{Position 3699.42 -3193.33 9.35}
 		{Extender "speaker"
@@ -27318,12 +27116,6 @@
 	}
 	{Entity "birds" 0x9b
 		{Position 4278.46 -3558.83 19.37}
-		{Extender "speaker"
-			{SoundName "world/sea/pm"}
-		}
-	}
-	{Entity "birds" 0x9c
-		{Position 4558.19 -1537.95 25.16}
 		{Extender "speaker"
 			{SoundName "world/sea/pm"}
 		}
@@ -33347,13 +33139,6 @@
 		{Position 4281.67 -442.29}
 		{xform zl 103.95}
 	}
-	{Entity "birds" 0x71b2
-		{Position 4359.96 -137.11 20.18}
-		{xform zl 22.81}
-		{Extender "speaker"
-			{SoundName "world/sea/pm"}
-		}
-	}
 	{Entity "rainy_waves" 0x71b3
 		{Position 4225.52 10.89}
 		{xform zl -97.58}
@@ -33474,13 +33259,6 @@
 	{Entity "trace_algae1" 0x71d0
 		{Position 4263.53 -1429.23}
 		{xform zl 103.18}
-	}
-	{Entity "birds" 0x71d1
-		{Position 4386.55 -663.72 20.18}
-		{xform zl 22.04}
-		{Extender "speaker"
-			{SoundName "world/sea/pm"}
-		}
 	}
 	{Entity "rainy_waves" 0x71d2
 		{Position 4213.44 -975.34}
@@ -33675,13 +33453,6 @@
 	{Entity "trace_algae1" 0x17a
 		{Position 4048.25 -207.73}
 		{xform zl 112.54}
-	}
-	{Entity "birds" 0x17e
-		{Position 4077.55 227.06 20.18}
-		{xform zl 31.4}
-		{Extender "speaker"
-			{SoundName "world/sea/pm"}
-		}
 	}
 	{Entity "rainy_waves" 0x181
 		{Position 3935.02 193.43}
@@ -34546,16 +34317,10 @@
 	{Entity "banana_tree" 0x4558
 		{Position 2837.32 1545.14}
 		{xform zl 173.85}
-		{Volume "crown"
-			{able {visible 0}}
-		}
 	}
 	{Entity "banana_tree" 0x4559
 		{Position 2742.96 1448.79}
 		{xform zl 172.96}
-		{Volume "crown"
-			{able {visible 0}}
-		}
 	}
 	{Entity "cane2" 0x455d
 		{Position 3022.08 1170.98}
@@ -40217,6 +39982,9 @@
 		{Position 1049.53 -128.73 29.27}
 		{xform zl -149.35 y 30.92 zw -49.32}
 		{Constrain surface}
+	}
+	{Entity "water_river_big_na" 0x6106
+		{Position 771.54 -2285.89 -17.5}
 	}
 	{Slicer 0x109
 		{"piece1" 0x390a}

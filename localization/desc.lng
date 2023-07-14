@@ -528,6 +528,15 @@
 				{"elite5_grenadier" "<c(c3baae)>U.S. Marine Grenadier"}
 				{"elite6" "<c(c3baae)>U.S. Marine Automatic Rifleman"}
 				{"elite6_asst" "<c(c3baae)>U.S. Marine Automatic Rifleman asst."}
+				{"raider" "<c(c3baae)>U.S. Marine Raider"}
+				{"raiderasst" "<c(c3baae)>U.S. Marine Raider Automatic Rifleman asst."}
+				{"raiderchad" "<c(c3baae)>U.S. Marine Raider [Sgt]"}
+				{"raiderbar" "<c(c3baae)>U.S. Marine Raider Automatic Rifleman"}
+				{"raiderdemo" "<c(c3baae)>U.S. Marine Raider Demolition"}
+				{"raidergren" "<c(c3baae)>U.S. Marine Raider Grenadier"}
+				{"raiderleader" "<c(c3baae)>U.S. Marine Raider Squad Leader [SSgt"}
+				{"sturmovikm3" "<c(c3baae)>U.S. Marine Night Fighter"}
+				{"sturmovikm3_leader" "<c(c3baae)>U.S. Marine Night Fighter Leader"}
 				{"elite_at" "<c(c3baae)>Airborne"}
 				{"elite_para" "<c(c3baae)>101st Airborne"}
 				{"elite_tankman" "<c(c3baae)>Tank Crew [Cpl] [Elite]"}
@@ -3045,7 +3054,7 @@
 		{"hero4_ger" "fallschirmjäger"}
 		{"hero5_ger" "Radio Operator"}
 		{"hero6_ger" "StuH 42"}
-		{"hero7_ger" "Nebelwerfer 41"}
+		{"hero7_ger" "SturmPioneer Assault Kampfgruppe"}
 		{"hero8_ger" "Veteran Tiger"}
 		{"hero9_ger" "Sturmtiger"}
 		{"panther_hero" "Veteran Panther"}
@@ -3078,7 +3087,7 @@
 		{"hero_jap_elite_aa" "2x Elite Type 4 75mm AA gun crews"}
 		{"hero_jap_chi_to" "Chi-To with experimental ammo"}
 		{"hero_jap_guard(jap)" "Imperial Guard defensive squad"}
-		{"hero6_jap" "SNLF Assault Detachment"}
+		{"hero6_jap" "Banzai"}
 		{"hero7_jap" "200mm Rocket"}
 		{"hero8_jap" "Marine Tank"}
 		{"hero9_jap" "Ho-Ri 1"}
@@ -3113,11 +3122,11 @@
 		{"hero4_usa" "M4A3R2 Croc"}
 		{"hero5_usa" "Radio Operator"}
 		{"hero6_usa" "M4A3(105)"}
-		{"hero7_usa" "M4A3E8 Sherman Pair"}
+		{"hero7_usa" "Sherman Battlegroup"}
 		{"hero8_usa" "Veteran M4A3E2(76)W Jumbo"}
 		{"hero_usa_m36" "Veteran 90mm GMC M36 Slugger"}
 		{"hero_usa_m12" "Two Veteran 155mm GMC M12"}
-		{"hero9_usa" "Super Pershing Ace"}
+		{"hero9_usa" "Super Pershing"}
 		{"hero10_usa""Support weapon platoon"}
 		{"hero11_usa""Infantry platoon"}
 		{"m7_hero" "Two M7 Priest artillery tanks"}
@@ -3127,6 +3136,10 @@
 		{"heronew2_usa" "Combat Engineers"}
 		{"heronew3_usa" "Devil's Brigade"}
 		{"hero_usa_m18_vet" "Veteran M18 Hellcat"}
+		{"hero_usa_m1_57mm_drop" "Paradropped M1 57mm AT Gun"}
+		{"hero_usa_raiders" "Mechanized Marine Raiders"}
+		{"hero_usa_m3_carbine" "Marine Nightfighters"}
+		{"hero_usa_log" "Red Ball Express"}
 		
 		;Ostfront
 		{"pz2l_ger2" "PzKpfw II Ausf. L 'luchs'"}
@@ -3471,6 +3484,7 @@
 		{"m4a3_75x2" "<c(00ff04)>2x M4A3 Sherman"}
 		{"m4a3e8x2" "<c(00ff04)>2x M4A3E8(76)W Sherman"}
 		{"stug3gx2" "<c(00ff04)>2x StuG III Ausf. G"}
+		{"maxim_1910_30x2" "<c(00ff04)>2x Maxim 1910 HMG"}
 	}
 	{"entity"
 		;new vehicles
@@ -3518,7 +3532,6 @@
 		{"m4a3_75_new" "M4A3 Sherman"}
 		{"m4a2" "M4A2 Sherman 'Emcha'"}
 		{"m4a2_76w" "M4A2(76)W Sherman 'Emcha'"}
-		{"m4a2_76w_fra" "M4A2(76)W Sherman"}
 		{"m4a2_76w_vet" "M4A2(76)W [Veteran]"}
 		{"mg34_lafette" "MG 34 Lafette"}
 		{"mg42_lafette" "MG 42 Lafette"}
@@ -4131,6 +4144,7 @@
 		{"ml3" "ML3 Mk.II mortar"}
 		{"nashorn" "Panzerjäger Nashorn"}
 		{"nebelwerfer41" "150mm Nebelwerfer 41"}
+		{"nebelwerfer41_2" "150mm Nebelwerfer 41"}
 		{"nebelwerfer42" "280/320mm Nebelwerfer 41"}
 		{"oerlikon" "Oerlikon 20mm"}
 		{"oerlikon_fix" "Oerlikon 20mm"}
@@ -5199,7 +5213,7 @@
 		{"88mm_flak36_vet" "88mm FlaK 36<c(ffffff)>\n Range - <c(00ff04)>230 m<c(ffffff)>\n Penetration APCBC - <c(00ff04)>161 - 109 mm<c(ffffff)>\n Muzzle velocity - 810 m/s\n Accuracy - <c(00ff04)>Very high"}
 		{"88mm_flak36_2" "88mm FlaK 36<c(ffffff)>\n Range - <c(ffaf00)>490 m<c(ffffff)>\n Barrage - <c(ffaf00)>6 shells<c(ffffff)>\n Muzzle velocity - 820 m/s\n Accuracy - <c(ff0000)>Very low"}
 		{"88mm_flak36_2_vet" "88mm FlaK 36<c(ffffff)>\n Range - <c(ffaf00)>490 m<c(ffffff)>\n Barrage - <c(ffaf00)>6 shells<c(ffffff)>\n Muzzle velocity - 820 m/s\n Accuracy - <c(ff0000)>Very low"}
-		{"88mm_flak37" "88mm FlaK 37<c(ffffff)>\n Range - <c(00ff04)>220 m<c(ffffff)>\n Penetration APCBC - <c(00ff04)>161 - 109 mm<c(ffffff)>\n Muzzle velocity - 810 m/s\n Accuracy - <c(00ff04)>Very high"}
+		{"88mm_flak37" "88mm FlaK 37<c(ffffff)>\n Range - <c(00ff04)>230 m<c(ffffff)>\n Penetration APCBC - <c(00ff04)>161 - 109 mm<c(ffffff)>\n Muzzle velocity - 810 m/s\n Accuracy - <c(00ff04)>Very high"}
 		{"88mm_flak37_2" "88mm FlaK 37<c(ffffff)>\n Range - <c(ffaf00)>490 m<c(ffffff)>\n Barrage - <c(ffaf00)>6 shells<c(ffffff)>\n Muzzle velocity - 820 m/s\n Accuracy - <c(ff0000)>Very low"}
 		{"88mm_flak41" "88mm FlaK 41<c(ffffff)>\n Range - <c(00ff04)>240 m<c(ffffff)>\n Penetration APCBC - <c(00ff04)>162 - 116 mm<c(ffffff)>\n Muzzle velocity - 810 m/s\n Accuracy - <c(00ff04)>Very high"}
 		{"88mm_kwk36" "88mm KwK 36<c(ffffff)>\n Range - <c(00ff04)>220 m<c(ffffff)>\n Penetration APCBC - <c(00ff04)>162 - 116 mm<c(ffffff)>\n Muzzle velocity - 773 m/s\n Accuracy - <c(00ff04)>Very high"}
@@ -5400,11 +5414,12 @@
 		{"m1903a4_vet" "M1903A4 Springfield w/ M73 Scope [Veteran]"}
 		{"m1_carbine" "M1 Carbine"}
 		{"m1a1_carbine" "M1A1 Carbine"}
-		{"m12_shotgun" "M12 Shotgun"}
 		{"m2_carbine" "M2 Carbine"}
-		{"m2_carbine_smg" "M2 Carbine"}
+		{"m3_carbine" "M2 Carbine w/ Nightfighting Scope"}
 		{"m3a" "M3 Grease Gun"}
 		{"m50reising" "M50 Reising"}
+		{"m12_shotgun" "M12 Shotgun"}
+		
 		{"mauzer" "Karabiner 98k"}
 		{"mauzer_crap" "Karabiner 98k [Recruit]"}
 		{"mauzer_vet" "Karabiner 98k [Veteran]"}
@@ -5497,6 +5512,7 @@
 		{"thompson" "Thompson M1A1"}
 		{"thompson_elite" "Thompson M1A1 [Veteran]"}
 		{"thompson_30" "Thompson M1A1 w/ 20-round magazine"}
+		{"thompson_30" "Thompson M1A1 w/ 50-round drum"}
 		{"thompson_m1928" "Thompson M1928"}
 		{"torpedo" "Torpedo launcher"}
 		{"tt" "TT-33"}

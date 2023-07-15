@@ -2,7 +2,7 @@ Not fully implemented
 US M8 howtizer sp buy raised to 3sp. Paradropped.
 
 Remove
-Visor for airborne and goliaths
+Visor for goliaths
 
 Add
 deminers/fix model

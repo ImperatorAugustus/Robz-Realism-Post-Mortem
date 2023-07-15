@@ -69,7 +69,7 @@
 {"np_sdkfz251_9"    ("vs" c(10) t(44) 	s(ger) n(3) g(d6) sc(14) b(v3) cw(0) cp(5)) {level 1} {cost 280} {fore -36.0}}		;370sec
 {"sdkfz223"         ("v" c(10) t(44) 	s(ger) n1(1) n2(1) g(d8) sc(9)  b(v3) cw(0) cp(5)) {level 1} {cost 150} {fore -31.0}}	;320sec
 {"sdkfz222"         ("v" c(10) t(44) 	s(ger) n1(1) n2(1) g(d10) sc(11.5) b(v3) cw(0) cp(5)) {level 1} {cost 230} {fore -37.0}}	;380sec
-{"pz2l"             ("v" c(10) t(44) 	s(ger) n1(2) n2(1) g(d12) sc(12.5) b(v3) cw(0) cp(5)) {level 1} {cost 250} {fore -41.0}}	;420sec
+{"pz2l"             ("v" c(10) t(44) 	s(ger) n1(2) n2(1) g(d12) sc(12.5) b(v3) cw(0) cp(5)) {level 1} {cost 220} {fore -41.0}}	;420sec
 {"np_sdkfz234_1"    ("v" c(10) t(44)   	s(ger) n1(2) n2(1) g(d15) sc(12.5) b(v3) cw(0) cp(5)) {level 1} {cost 250} {fore -41.0}}	;420sec
 {"sdkfz234"         ("v" c(10) t(44)   	s(ger) n1(2) n2(1) g(d16) sc(15) b(v3) cw(0) cp(10)) {level 1} {cost 300} {fore -52.0}}	;530sec
 {"np_sdkfz234_3"    ("v" c(10) t(44)   	s(ger) n1(2) n2(1) g(d17) sc(17.5) b(v3) cw(0) cp(5)) {level 1} {cost 350} {fore -52.0}}	;530sec

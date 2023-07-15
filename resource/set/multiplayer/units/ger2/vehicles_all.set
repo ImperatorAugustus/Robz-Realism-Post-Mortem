@@ -53,9 +53,9 @@
 
 ;°°°Button 3°°°
 
-{"pz1b_ger2"			("v" c(10) t(all 44 45 light)		s(ger2) n1(1) n2(1) g(d1) sc(9.00)	b(v3) cw(0) cp(5)) {level 1} {cost 220} {fore -31}}		;320sec
-{"pz1_ger2"				("v" c(10) t(all 44 45 light)		s(ger2) n1(2) n2(1) g(d2) sc(10.5) b(v3) cw(0) cp(5)) {level 1} {cost 240} {fore -37}}		;380sec
-{"pz2l_ger2"			("v_ss" c(10) v1(pz2l) t(all 43 44 45) s(ger2) n1(2) n2(1) g(d12) b(v3)) {level 1} {cost 265} {fore -41.0}}						;420sec
+{"pz1b_ger2"			("v" c(10) t(all 44 45 light)		s(ger2) n1(1) n2(1) g(d1) sc(9.00)	b(v3) cw(0) cp(5)) {level 1} {cost 200} {fore -31}}		;320sec
+{"pz1_ger2"				("v" c(10) t(all 44 45 light)		s(ger2) n1(2) n2(1) g(d2) sc(10.5) b(v3) cw(0) cp(5)) {level 1} {cost 220} {fore -37}}		;380sec
+{"pz2l_ger2"			("v_ss" c(10) v1(pz2l) t(all 43 44 45) s(ger2) n1(2) n2(1) g(d12) b(v3)) {level 1} {cost 235} {fore -41.0}}						;420sec
 {"sdkfz234_1"			("v" c(10) t(all 44 45 light)		s(ger2) n1(2) n2(1) g(d3) sc(12.50) b(v3) cw(0) cp(5)) {level 1} {cost 250} {fore -41}}		;420sec
 {"sdkfz234_3"			("v" c(10) t(all 44 45 light)		s(ger2) n1(2) n2(1) g(d4) sc(17.50) b(v3) cw(0) cp(5)) {level 1} {cost 350} {fore -52}}		;530sec
 

@@ -107,6 +107,7 @@ Reduced support crew cost from 40mp to 25mp, except Guards and Ost Front which a
 Doubled mp regen via CP.
 Locked CP and MP settings to prevent division and inbalance.
 Added MG assists to all single buy MGs that did not have it already.
+Reduced Luch cost by 30mp
 
 USA
 -----
@@ -126,6 +127,10 @@ USA
 -US trans truck 90 to 50 mp
 -US Vet Arty increased in price by ~10% across the board except 203 receiving only 30mp increase
 -US Vet Arty now aims in 2x as fast and has 10% less initial dispersion and zeroes on target 33% faster
+-Reduced price of m15a1 by 40mp
+-Reduced price of m20 by 35mp
+-Reduced price of m8 greyhound by 40mp.
+-Reduced price of stuart by 30mp.
 -m26 pershing - 1350 mp
 -sherman m4a3(76) - 550 mp
 -veteran pershing - 14sp
@@ -157,10 +162,12 @@ Removed 105 sherman sp buy
 		United Kingdom:
 ----
 	Infantry
-	
+Reduced Boys AT rifle by 10mp	
 	Vehicles
 -Humber cooldown increased from 10 to 380
-- 75mm Cromwell IV and VI varients and Crusaders had mp cost reduced by 10%
+-75mm Cromwell IV and VI varients had mp cost reduced by 10%
+-Reduced damier and Tetrarch cost by 30mp.
+-Reduced Staghound 1 cost by 70mp
 -Matilda to 280mp
 -Valentine to 240mp
 -veteran firefly - 9sp
@@ -358,6 +365,8 @@ Removed veteran marksman
 
 	Vehicles
 Increased Flak 88 cost by 100mp
+reduced pz1 cost by 20mp
+reduced flak pz1 cost by 20mp
 horch - 130mp
 stuh veteran - 700mp
 pz4j veteran - 675mp
@@ -373,7 +382,7 @@ Increased leig puma cost by 1 sp
 Double strostrup and increased price by 1
 Trippled penal squad increased price by 1
 stolen 85 - 5dp
-veteran jagdtiger - 20sp(especially if 260)
+veteran jagdtiger - 20sp
 double tiger 1- 16sp
 double tiger 1- startup cooldown reduced by 200 seconds
 sdfkz 8 increased sp cost by 1

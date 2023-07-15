@@ -63,17 +63,14 @@
 
 ;°°°Button 3°°°
 
-{"mk7"    	    ("v" c(10) t(all 43 44 45) 	s(eng) n1(2) n2(1) g(d1) sc(11.50) b(v3) cw(0) cp(5)) {level 1} {cost 230} {fore -31.0}}	;320sec
+{"mk7"    	    ("v" c(10) t(all 43 44 45) 	s(eng) n1(2) n2(1) g(d1) sc(11.50) b(v3) cw(0) cp(5)) {level 1} {cost 200} {fore -31.0}}	;320sec
 
 {"humber"	    ("v" c(380) t(all 43 44 45) 	s(eng) n1(3) n2(1) g(d2) sc(12.00) b(v3) cw(0) cp(5)) {level 1} {cost 240} {fore 0.0}}	;380sec
 
-{"mk2daimler"       ("v" c(10) t(all 43 44 45) 	s(eng) n1(2) n2(1) g(d3) sc(12.00) b(v3) cw(0) cp(5)) {level 1} {cost 240} {fore -41.0}}	;420sec
+{"mk2daimler"       ("v" c(10) t(all 43 44 45) 	s(eng) n1(2) n2(1) g(d3) sc(12.00) b(v3) cw(0) cp(5)) {level 1} {cost 210} {fore -41.0}}	;420sec
 
-{"staghound"       	("v" c(10) t(all 42 43 44 45) 	s(eng) n1(3) n2(1) g(d31) sc(15.00) b(v3) cw(0) cp(5)) {level 1} {cost 300} {fore -41.0}}	;420sec
+{"staghound"       	("v" c(10) t(all 42 43 44 45) 	s(eng) n1(3) n2(1) g(d31) sc(15.00) b(v3) cw(0) cp(5)) {level 1} {cost 230} {fore -41.0}}	;420sec
 {"staghound_mk3"    ("v" c(10) t(all 45) 			s(eng) n1(3) n2(1) g(d32) sc(17.50) b(v3) cw(0) cp(5)) {level 1} {cost 350} {fore -51.9}}	;519sec
-
-{"cruisermk1"       ("v" c(10) t(all) 		s(eng) n1(3) n2(1) g(d4) sc(16.00) b(v3) cw(0) cp(5)) {level 1} {cost 320} {fore -45.0}}	;460sec
-{"cruisermk3"       ("v" c(10) t(all) 		s(eng) n1(2) n2(1) g(d5) sc(17.50) b(v3) cw(0) cp(5)) {level 1} {cost 350} {fore -45.0}}	;460sec
 
 {"matildamk1"       ("v" c(10) t(all) 		s(eng) n1(1) n2(1) g(d6) sc(15.00) b(v3) cw(0) cp(5)) {level 1} {cost 270} {fore -49.0}}	;500sec
 

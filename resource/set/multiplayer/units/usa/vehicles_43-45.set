@@ -5,14 +5,19 @@
 
 {"np_willysmb"      	("vs" c(30) t(all 42 43 44 45) 	s(usa) n(3) g(b1) sc(6.50) b(v1) cw(0) cp(0)) {level 1} {cost 95} {fore 0.0}}		;30sec
 {"np_willysmb_50"      	("vs" c(60) t(all 42 43 44 45) 	s(usa) n(3) g(b2) sc(8.75) b(v1) cw(0) cp(0)) {level 1} {cost 135} {fore 0.0}}		;30sec
+
 {"np_willys50"      	("vs" c(60) t(all 42 43 44 45) 	s(usa) n(2) g(b2) sc(10.00) b(v1) cw(0) cp(0)) {level 1} {cost 150} {fore -3.0}}		;180sec
 {"np_willysat"      	("vs" c(60) t(all 42 43 44 45) 	s(usa) n(2) g(b2) sc(10.00) b(v1) cw(0) cp(0)) {level 1} {cost 200} {fore -5.0}}	;300sec
+
+{"m3_usa"           	("vs_seq" c(10) t(all 42 43 44 45) 	s(usa) n(2) g(b3) sc(10.00) b(v1) i(3) cw(0) cp(0)) {level 1} {cost 175} {fore -23.0}}	;240sec
+{"m3_usax2"           	("vs2_seq" c(10) t(all 42 43 44 45) 	s(usa) n(2) g(b3) sc(10.00) b(v1) i(3) cw(0) cp(0)) {level 1} {cost 175} {fore -23.0}}	;240sec
+
 {"m2halftrack"          ("vs" c(10) t(all 42 43 44 45) 	s(usa) n(4) g(b3) sc(10.00) b(v1) cw(0) cp(0)) {level 1} {cost 185} {fore -23.0}}	;240sec
-{"m3_usa"           	("vs" c(10) t(all 42 43 44 45) 	s(usa) n(2) g(b3) sc(10.00) b(v1) cw(0) cp(0)) {level 1} {cost 175} {fore -23.0}}	;240sec
 
 {"gmc"   	    	("vs" c(0) t(all 42 43 44 45)	s(usa) n(2) g(b8) sc(5.00) b(v1) cw(0) cp(0)) {level 1} {cost 50} {fore 0.0}}		;0sec
 {"gmc_art"          	("vs" c(0) t(all 42 43 44 45) 	s(usa) n(2) g(b9) sc(15.00) b(v1) cw(0) cp(0)) {level 1} {cost 200} {fore 0.0}}		;0sec
 {"gmc_eng"          	("vs" c(0) t(all 42 43 44 45) 	s(usa) n(2) g(b10) sc(12.50) b(v1) cw(0) cp(0)) {level 1} {cost 250} {fore 0.0}}	;0sec
+
 {"ammo_box_us_inf"  	("vs" c(0) t(all 42 43 44 45)	s(usa) n(2) g(b11) sc(1.25) b(v1) cw(0) cp(0)) {level 1} {cost 30} {fore 0.0}}		;0sec
 {"ammo_box_us_art"  	("vs" c(0) t(all 42 43 44 45)	s(usa) n(2) g(b12) sc(3.75) b(v1) cw(0) cp(0)) {level 1} {cost 50} {fore 0.0}}		;0sec
 {"ammo_box_us_special"  ("vs" c(300) t(all 42 43 44 45)	s(usa) n(2) g(b13) sc(5.00) b(v1) cw(0) cp(0)) {level 1} {cost 150} {fore 0.0}}		;0sec
@@ -62,21 +67,20 @@
 
 ;°°°Button 3°°°
 {"m16"      	    ("vs" c(10) t(all 43 44 45) 	s(usa) n(3) g(d5) sc(11.25) b(v3) cw(0) cp(5)) {level 1} {cost 250} {fore -35.0}}	;360sec
-{"np_m15a1"         ("vs" c(10) t(all 42 43 44 45) 	s(usa) n(5) g(d1) sc(15.00) b(v3) cw(0) cp(5)) {level 1} {cost 300} {fore -40.0}}	;410sec
+{"np_m15a1"         ("vs" c(10) t(all 42 43 44 45) 	s(usa) n(5) g(d1) sc(15.00) b(v3) cw(0) cp(5)) {level 1} {cost 260} {fore -40.0}}	;410sec
 
 {"np_t48"           ("vs" c(10) t(all 42 43 44 45) 	s(usa) n(4) g(d2) sc(18.75) b(v3) cw(0) cp(5)) {level 1} {cost 375} {fore -40.0}}	;410sec
 {"np_t15"           ("vs" c(10) t(all 42 43 44 45) 	s(usa) n(4) g(d3) sc(17.50) b(v3) cw(0) cp(5)) {level 1} {cost 350} {fore -45.0}}	;460sec
 
-{"m20"      	    ("vs" c(10) t(all 43 44 45) 	s(usa) n(2) g(d4) sc(10.00) b(v3) cw(0) cp(5)) {level 1} {cost 200} {fore -31.0}}		;320sec
-{"m8grayhound"      ("v" c(10) t(all 43 44 45) 		s(usa) n1(2) n2(1) g(d6) sc(13.00) b(v3) cw(0) cp(5)) {level 1} {cost 260} {fore -41.0}}	;420sec
+{"m20"      	    ("vs" c(10) t(all 43 44 45) 	s(usa) n(2) g(d4) sc(10.00) b(v3) cw(0) cp(5)) {level 1} {cost 165} {fore -31.0}}		;320sec
+{"m8grayhound"      ("v" c(10) t(all 43 44 45) 		s(usa) n1(2) n2(1) g(d6) sc(13.00) b(v3) cw(0) cp(5)) {level 1} {cost 220} {fore -41.0}}	;420sec
 
-{"m3stuart_early"   ("v" c(10) t(all 42 43 44 45) 	s(usa) n1(3) n2(1) g(d7) sc(14.00) b(v3) cw(0) cp(5)) {level 1} {cost 280} {fore -45.0}}	;460sec
-{"m5a1"             ("v" c(10) t(all 42 43 44 45) 	s(usa) n1(3) n2(1) g(d8) sc(15.00) b(v3) cw(0) cp(5)) {level 1} {cost 300} {fore -45.0}}	;460sec
+{"m5a1"             ("v" c(10) t(all 42 43 44 45) 	s(usa) n1(3) n2(1) g(d8) sc(15.00) b(v3) cw(0) cp(5)) {level 1} {cost 270} {fore -45.0}}	;460sec
 {"m8"               ("v" c(10) t(all 42 43 44 45 medium) s(usa) n1(3) n2(1) g(e2) sc(17.00) b(v4) cw(0) cp(10)) {level 1} {cost 340} {fore -52.0}}	;530sec
 
 {"m24"              ("v" c(10) t(all 44 45) 		s(usa) n1(3) n2(1) g(d9) sc(16.00) b(v3) cw(0) cp(10)) {level 1} {cost 320} {fore -61.0}}	;620sec
 
-{"m4a3m"            ("v" c(150) t(deminer) 		s(usa) n1(1) n2(1) g(d11) sc(12.50) b(v3) cw(0) cp(0)) {level 1} {cost 250} {fore 0}}
+;{"m4a3m"            ("v" c(150) t(deminer) 		s(usa) n1(1) n2(1) g(d11) sc(12.50) b(v3) cw(0) cp(0)) {level 1} {cost 250} {fore 0}}
 
 
 

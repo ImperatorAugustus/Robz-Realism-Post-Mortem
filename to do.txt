@@ -17,8 +17,16 @@ sexton to mp
 fix
 open top vehicle holes
 HE targeting of vehicles
-Add bandages to soldiers that start without them Flamers, Officers, Tank crew, AP/AT miners.....
 local
+icons
+	mg 42 sp
+	pak 44 sp
+	sturmpioneer sp
+	Redbull express sp
+	marine nightfighter sp
+	raider sp
+	57mm air drop sp
+	anti tank detachment sp
 
 
 

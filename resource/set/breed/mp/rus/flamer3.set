@@ -1,9 +1,9 @@
 {breed
 	{skin "rus-smguner"}
-	{portrait "rus_elite3"}
-	{nationality rus}
-	{icon "flamer3"}
+	{portrait rus_elite3}
+	{icon flamer3}
 	{icon_priority 3}
+	{nationality rus}
 	{armors
 		{body body_armor}
 		{head fieldcap1_rus}
@@ -17,17 +17,16 @@
 		}
 		{"stamina_regeneration" "100%"
 		}
-		{"vision" "mp_soldier"
+		{"vision" mp_soldier
 		}
 		{"speed" 0.9
 		}
-		{"tank"	0.75
+		{"tank" 0.75
 		}
 		{"vehicle" 1
 		}
 		{"cannon" 0.8
 		}
-		
 		{"pistol" lvl_2
 		}
 		{"smg" lvl_3
@@ -42,12 +41,21 @@
 		}
 	}
 	{veterancy
-		(include "veterancy_generic.inc")
-		("veterancy_1")
+		{"lvl_1" 2
+		}
+		{"lvl_2" 5
+		}
+		{"lvl_3" 9
+		}
+		{"lvl_4" 14
+		}
+		{"lvl_5" 20
+		}
 	}
 	{inventory
 		{item "flame_thrower"}
 		{item "balloon" filling "fuel" 80}
+		{item "bandage" 3}
 		{in_hands 0}
 	}
 }

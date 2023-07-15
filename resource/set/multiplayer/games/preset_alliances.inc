@@ -1,8 +1,4 @@
-			{"axis_ger" 
-				{title "mp/alliance/axis_ger"}
-				{armies "ger"}
-				{icon "/interface/pages/multi/flag_ger"}
-			}
+
 			{"allies_usa"
 				{title "mp/alliance/allies_usa"}
 				{armies "usa"}
@@ -23,6 +19,11 @@
 				{armies "rus_guard"}
 				{icon "/interface/pages/multi/flag_rus_guard"}
 			}
+			{"axis_ger" 
+				{title "mp/alliance/axis_ger"}
+				{armies "ger"}
+				{icon "/interface/pages/multi/flag_ger"}
+			}
 			{"axis_ss" 
 				{title "mp/alliance/axis_ss"}
 				{armies "ger_ss"}
@@ -38,31 +39,17 @@
 				{armies "jap"}
 				{icon "/interface/pages/multi/flag_jap"}
 			}
-			
-			
-			{"axis_realistic" 
-				{title "mp/alliance/axis_realistic"}
-				{armies "ger"}
-				{armies "ger2"}
-				{armies "ger_ss"}
-				{icon "/interface/pages/multi/flag_ger"}
-			}
-			{"axis_ger-ger2" 
-				{title "mp/alliance/axis_ger-ger2"}
-				{armies "ger"}
-				{armies "ger2"}
-				{icon "/interface/pages/multi/flag_ger"}
-			}
 			{"axis_ger-ss" 
 				{title "mp/alliance/axis_ger-ss"}
 				{armies "ger"}
 				{armies "ger_ss"}
 				{icon "/interface/pages/multi/flag_ger"}
 			}
-			{"axis_ss-ger2" 
-				{title "mp/alliance/axis_ss-ger2"}
-				{armies "ger_ss"}
+			{"axis_realistic" 
+				{title "mp/alliance/axis_realistic"}
+				{armies "ger"}
 				{armies "ger2"}
+				{armies "ger_ss"}
 				{icon "/interface/pages/multi/flag_ger"}
 			}
 			{"allies_realistic"

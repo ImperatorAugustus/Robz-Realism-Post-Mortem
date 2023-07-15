@@ -6,19 +6,16 @@
 	("range_maximum")	
 
 	{ZeroingAccuracy 0.7 0.4}
-	{range 250 250}
+	{range 260 260}
 	("speed_all" ap(930) apcr(930) fg(750) heat(750))
 	("caliber_maximum")
 	{projectileDamage 269}
 	("damage_215" a(269) b(253) c(237) d(222) e(208) range(250))
-	{parameters "apcr"
-		{range 240 240}
-	}
 	{parameters "fg"
-		{range 230 230}
+		{range 250 250}
 	}
 	
-	("accuracy_max")
+	("accuracy_max_260m_10m_he")
 	{RicochetEnergyDamping 	; penetration energy damping after ricochet (angle - damping)	
 		{0 	1}	
 		{15	0.9}

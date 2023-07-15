@@ -5,12 +5,16 @@
 
 ADDED/INTEGRATED:
 -----
-Integrated various sounds.
+Integrated various sounds - Custom mod by Wobble.
 
 Integrated Robz Reloaded fixes, localizations, and optimizations. -V 2.7
--Fixed Isuzu repair and fire bug
--Fixed US mortar haltrack fire bug
+-Fixed Isuzu repair and fire bug.
+-Fixed US mortar haltrack fire bug.
 -Fixed Super Pershings model and the armour shield.
+
+Integrated Vanilla Skirmish Missions for RobZ
+-Singleplayer map fixes.
+-Gives bandagaes to breeds that were logically missing them.
 
 
 
@@ -18,7 +22,6 @@ PERFORMANCE:
 -----
 Limit the number of useless entity objects.
 Removed all other modes except 44-45 Assault Zones. All other modes have long been unsupported and can be readded via submods.
-Disabled vanilla singleplayer missions.
 
 
 
@@ -69,11 +72,15 @@ Added the following Automatic AI targeting
 
 Maps:
 -----
+	Multi
 Removed maps that are substatnially unbalanced or too small.
 Increased maximum zoom to engine max of 1500 on all maps.
 Rebalanced various maps
 Optimiazed and adjusted pathfinding on several maps
 Added several new maps to AZ.
+
+	Single
+Integrated Vanilla Skirmish Missions for RobZ
 
 
 
@@ -93,11 +100,11 @@ All flame tanks limited to 3 in AZ.
 Most heavily armored Flame tanks now come in to play after 15 mins, OT 34 being slightly lower, SS halftrack, SSD, and Wasp come at 6 minutes.
 Decreased accuracy of assault guns by 25% and reload nerfed reload by 10% ; helps prevents them from being op unkillable over hill snipers due to mow limitations (Stuh 42, Brumbar, Sig 33b, KV2, SU 152, SU122, Sherman 105, Chuchill CS, Cromwell CS, Chi Ha 120)
 Flak 88 and KwK 36 all have a base range of 230 now.
-Adjusted various halftrack and light carrier prices
+Adjusted various halftrack and light/unarmored vehicle prices
 Reduced German 5cm mortar price by 40mp
 Reduced Panzerfaust single buy cost by 10mp, Ost elite by 20mp
 Reduced Wespe cost by 125
-10m increase in range before STGs go to long burst mode
+Average 10m increase in range before STGs go to long burst mode
 Reduced standard vp to 125
 Increased startup timer of; all light vehicles with heavy cannons (50mm+ cannon or 37mm+ autocannon) by 15%, all medium armored or gunned tanks by 25%, all heavy armored or gunned tanks by 35%.
 Various timer adjustments across the board to line up with other factions
@@ -108,6 +115,7 @@ Doubled mp regen via CP.
 Locked CP and MP settings to prevent division and inbalance.
 Added MG assists to all single buy MGs that did not have it already.
 Reduced Luch cost by 30mp
+Increased Jagdtiger AP range to 260m
 
 USA
 -----

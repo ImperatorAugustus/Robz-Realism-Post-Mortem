@@ -748,6 +748,18 @@
 		{"4x4_africa_remix"
 			{"name" "Africa remix <e(shadow)><c(00ff0aff)>4x4 (Old boy)</c>"}
 		}
+		{"4v4_warfare3"
+			{"name" "Warfare 3 <e(shadow)><c(00ff0aff)>4x4</c>"}
+		}
+		{"4v4_warfare3_remix"
+			{"name" "Warfare 3 Remix<e(shadow)><c(00ff0aff)>4x4</c>"}
+		}
+		{"4v4_warfare4"
+			{"name" "Warfare 4 <e(shadow)><c(00ff0aff)>4x4</c>"}
+		}
+		{"4v4_warfare4_remix"
+			{"name" "Warfare 4 Remix <e(shadow)><c(00ff0aff)>4x4</c>"}
+		}
 
 ;---------------5x5-----------------------------
 
@@ -851,6 +863,9 @@
 		{"5x5_greece_remix3"
 			{"name" "Greece remix 3 <e(shadow)><c(00ff0aff)>5x5 (Old boy)</c>"}
 		}
+		{"5v5_railway town"
+			{"name" "Railway Town <e(shadow)><c(00ff0aff)>5x5</c>"}
+		}
 ;---------------6x6-----------------------------
 
 		{"6x6_gsm_Carpiquet_Airfield"
@@ -920,6 +935,9 @@
 		{"6v6_december_remix"
 			{"name" "December remix <e(shadow)><c(00ff0aff)>5x5</c>"}
 		}
+		{"6x6_outskirts of moskow"
+			{"name" "Outskirts of Moscow <e(shadow)><c(00ff0aff)>6x6</c>"}
+		}
 		;8v8
 		{"8v8_elalamein"
 			{"name" "El Alamein <e(shadow)><c(00ff0aff)>4x4</c>"}
@@ -935,6 +953,9 @@
 		}
 		{"8v8_forest2"
 			{"name" "Forest <e(shadow)><c(00ff0aff)>8x8</c>"}
+		}
+		{"8v8_volga river"
+			{"name" "Volga River <e(shadow)><c(00ff0aff)>8x8</c>"}
 		}
 
 ;------------------- Other maps

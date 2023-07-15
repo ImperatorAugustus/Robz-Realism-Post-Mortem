@@ -1,9 +1,9 @@
 {breed
 	{skin "ger_ss_tankman"}
-	{portrait "ger_tankman"}
-	{nationality ger2}
-	{icon "tankman"}
+	{portrait ger_tankman}
+	{icon tankman}
 	{icon_priority 1}
+	{nationality ger2}
 	{armors
 		{head tank_cap2_ss}
 	}
@@ -16,17 +16,16 @@
 		}
 		{"stamina_regeneration" "100%"
 		}
-       		{"vision" "mp_soldier"
+		{"vision" mp_soldier
 		}
 		{"speed" 0.8
 		}
-		{"tank"	1.20
+		{"tank" 1.2
 		}
-		{"vehicle" 1.20
+		{"vehicle" 1.2
 		}
 		{"cannon" 1.05
 		}
-		
 		{"pistol" lvl_7
 		}
 		{"smg" lvl_5
@@ -43,12 +42,21 @@
 		}
 	}
 	{veterancy
-		(include "veterancy_generic.inc")
-		("veterancy_tankcrew")
+		{"lvl_1" 5
+		}
+		{"lvl_2" 11
+		}
+		{"lvl_3" 18
+		}
+		{"lvl_4" 26
+		}
+		{"lvl_5" 35
+		}
 	}
 	{inventory
 		{item "valter" filled}
 		{item "ammo walther_mag" 32}
+		{item "bandage" 3}
 		{in_hands 0}
 	}
 }

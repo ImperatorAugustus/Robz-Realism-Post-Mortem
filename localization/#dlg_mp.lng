@@ -276,24 +276,20 @@
 		{"alliance"
 			{"axis" "AXIS"}
 			{"axis_realistic" "AXIS Europe (Germany)"}
-			{"axis_west" "AXIS Western Front (Germany)"}
-			{"axis_jap" "AXIS Pacific (Japan)"}
+			{"axis_ger-ss" "AXIS Western Front (Wehr/SS)"}
 			{"axis_ger" "AXIS Europe (Wehrmacht)"}
 			{"axis_ger2" "AXIS Europe (Kampfgruppe Ost)"}
 			{"axis_ss" "AXIS Europe (Waffen-SS)"}
-			{"axis_doctrines" "AXIS Doctrines (Germany)"}
-			{"allies_west" "ALLIES"}
-			{"allies_rus" "SOVIET Eastern Front (Red Army)"}
-			{"allies_rus_guard" "SOVIET Eastern Front (Guards Army)"}
+			{"axis_jap" "AXIS Pacific (Japan)"}
+			{"axis_doctrines" "AXIS doctrines (Germany)"}
+			{"allies" "ALLIES/SOVIET"}
+			{"allies_rus" "SOVIET Eastern Front (USSR)"}
+			{"allies_realistic" "ALLIES Western Front (UK/USA)"}
+			{"allies_soviet" "SOVIET Eastern Front (Red Army)"}
+			{"allies_guards" "SOVIET Eastern Front (Guards Army)"}
 			{"allies_eng" "ALLIES Western Front (UK)"}
 			{"allies_usa" "ALLIES Western Front (USA)"}
-			{"allies_fra" "ALLIES Western Front (Free French)"}
-			{"allies_realistic" "ALLIES Western Front (UK/USA/Fra)"}
-			{"allies" "ALLIES/SOVIET"}
-			{"allies_ussr" "SOVIET Eastern Front (USSR)"}
-			{"allies_pacific" "ALLIES Pacific (USMC)"}
-			{"allies_doctrines" "ALLIES Doctrines"}
-			{"all_factions" "ALL Factions"}
+			{"allies_doctrines" "ALLIES doctrines"}
 		}
 		{"stage"
 			{"lobby" "In lobby"}

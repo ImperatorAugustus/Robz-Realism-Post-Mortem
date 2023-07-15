@@ -1,11 +1,11 @@
 {breed
 	{skin "eng-engineer"}
-	{portrait "eng_soldier2"}
-	{nationality eng}
-	{icon "ap_miner"}
+	{portrait eng_soldier2}
+	{icon ap_miner}
 	{icon_priority 3}
+	{nationality eng}
 	{armors
-		{head "helmet2_eng"}
+		{head helmet2_eng}
 	}
 	{perks
 		{"health" "150%"
@@ -16,17 +16,16 @@
 		}
 		{"stamina_regeneration" "100%"
 		}
-		{"vision" "mp_soldier"
+		{"vision" mp_soldier
 		}
 		{"speed" 0.9
 		}
-		{"tank"	0.8
+		{"tank" 0.8
 		}
-		{"vehicle" 1.0
+		{"vehicle" 1
 		}
-		{"cannon" 1.0
+		{"cannon" 1
 		}
-		
 		{"pistol" lvl_2
 		}
 		{"smg" lvl_3
@@ -41,14 +40,23 @@
 		}
 	}
 	{veterancy
-		(include "veterancy_generic.inc")
-		("veterancy_1")
+		{"lvl_1" 2
+		}
+		{"lvl_2" 5
+		}
+		{"lvl_3" 9
+		}
+		{"lvl_4" 14
+		}
+		{"lvl_5" 20
+		}
 	}
 	{inventory
 		{item "sten_mk2" filled}
 		{item "ammo sten_mag" 128}
-		{item "mine antipersonnel" 15}
-		{item "barbwire_kit" 1}
+		{item "mine antipersonnel" 34}
+		{item "barbwire_kit"}
+		{item "bandage" 5}
 		{in_hands 0}
 	}
 }

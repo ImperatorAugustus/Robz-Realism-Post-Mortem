@@ -1,9 +1,9 @@
 {breed
 	{skin "jap_army_medic"}
-	{portrait "jap_medic"}
-	{nationality jap}
-	{icon "medics"}
+	{portrait jap_medic}
+	{icon medics}
 	{icon_priority 1}
+	{nationality jap}
 	{armors
 		{head japarmy_cap_hohei2}
 	}
@@ -16,17 +16,16 @@
 		}
 		{"stamina_regeneration" "100%"
 		}
-		{"vision" "mp_soldier"
+		{"vision" mp_soldier
 		}
 		{"speed" 0.9
 		}
-		{"tank"	0.8
+		{"tank" 0.8
 		}
-		{"vehicle" 1.0
+		{"vehicle" 1
 		}
-		{"cannon" 1.0
+		{"cannon" 1
 		}
-		
 		{"pistol" lvl_2
 		}
 		{"smg" lvl_2
@@ -41,14 +40,22 @@
 		}
 	}
 	{veterancy
-		(include "veterancy_generic.inc")
-		("veterancy_1")
+		{"lvl_1" 2
+		}
+		{"lvl_2" 5
+		}
+		{"lvl_3" 9
+		}
+		{"lvl_4" 14
+		}
+		{"lvl_5" 20
+		}
 	}
 	{inventory
 		{item "type99rifle" filled}
 		{item "ammo arisaka7-7_clip" 60}
-		{item "bandage" 25}
-		{item "morphine" 1}
+		{item "bandage" 30}
+		{item "morphine"}
 		{in_hands 0}
 	}
 }

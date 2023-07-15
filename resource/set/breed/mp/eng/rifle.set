@@ -1,11 +1,11 @@
 {breed
 	{skin "eng-inf-pvt"}
-	{portrait "eng_soldier2"}
-	{nationality eng}
-	{icon "rifleman"}
+	{portrait eng_soldier2}
+	{icon rifleman}
 	{icon_priority 1}
+	{nationality eng}
 	{armors
-		{head "helmet2_eng"}
+		{head helmet2_eng}
 	}
 	{perks
 		{"health" "150%"
@@ -16,17 +16,16 @@
 		}
 		{"stamina_regeneration" "100%"
 		}
-		{"vision" "mp_soldier"
+		{"vision" mp_soldier
 		}
 		{"speed" 0.9
 		}
-		{"tank"	0.8
+		{"tank" 0.8
 		}
-		{"vehicle" 1.0
+		{"vehicle" 1
 		}
-		{"cannon" 1.0
+		{"cannon" 1
 		}
-		
 		{"pistol" lvl_2
 		}
 		{"smg" lvl_2
@@ -41,17 +40,25 @@
 		}
 	}
 	{veterancy
-		(include "veterancy_generic.inc")
-		("veterancy_1")
+		{"lvl_1" 2
+		}
+		{"lvl_2" 5
+		}
+		{"lvl_3" 9
+		}
+		{"lvl_4" 14
+		}
+		{"lvl_5" 20
+		}
 	}
 	{inventory
 		{item "em3" filled}
-		{item "ammo british303_clip" 50}
+		{item "ammo british303_clip" 60}
 		{item "ammo bren_mag" 56}
 		{item "bandage" 3}
-		{item "grenade mk1" 1}
-		{item "sandbag_kit" 1}
-		{item "grenade n73at" 0 1}
+		{item "grenade mk1"}
+		{item "sandbag_kit"}
+		{item "grenade n73at"}
 		{item "n77_smoke grenade" 0 1}
 		{in_hands 0}
 	}

@@ -1,9 +1,9 @@
 {breed
 	{skin "usa-ranger-rfl"}
-	{portrait "usa_soldier5"}
-	{nationality usa}
-	{icon "stormtrooper3"}
+	{portrait usa_soldier5}
+	{icon stormtrooper3}
 	{icon_priority 4}
+	{nationality usa}
 	{armors
 		{head helmet_usa_ranger}
 	}
@@ -16,17 +16,16 @@
 		}
 		{"stamina_regeneration" "100%"
 		}
-		{"vision" "mp_soldier"
+		{"vision" mp_soldier
 		}
 		{"speed" 0.9
 		}
-		{"tank"	0.95
+		{"tank" 0.95
 		}
 		{"vehicle" 1
 		}
 		{"cannon" 1
 		}
-		
 		{"pistol" lvl_5
 		}
 		{"smg" lvl_5
@@ -41,17 +40,23 @@
 		}
 	}
 	{veterancy
-		(include "veterancy_generic.inc")
-		("veterancy_elite")
+		{"lvl_1" 5
+		}
+		{"lvl_2" 11
+		}
+		{"lvl_3" 18
+		}
+		{"lvl_4" 26
+		}
+		{"lvl_5" 35
+		}
 	}
 	{inventory
 		{item "m1903" filled}
 		{item "ammo springfield_clip" 100}
 		{item "bandage" 5}
-		;{item "grenade m61" 2}
-		;{item "smoke grenade"}		
 		{item "weapon m18recoilless" filled}
-		{item "ammo m18recoilless" 5}
+		{item "ammo m18recoilless" 8}
 		{item "ammo m18recoilless fg" 3}
 		{item "ammo m18recoilless wp" 1 1}
 		{in_hands 0}

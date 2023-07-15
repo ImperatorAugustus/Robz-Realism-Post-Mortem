@@ -1,9 +1,9 @@
 {breed
 	{skin "rus-smguner"}
-	{portrait "rus_soldier2"}
-	{nationality rus}
-	{icon "at_miner"}
+	{portrait rus_soldier2}
+	{icon at_miner}
 	{icon_priority 3}
+	{nationality rus}
 	{armors
 		{body "sovet-mesh"}
 		{head helmet1_rus}
@@ -17,17 +17,16 @@
 		}
 		{"stamina_regeneration" "100%"
 		}
-		{"vision" "mp_soldier"
+		{"vision" mp_soldier
 		}
 		{"speed" 0.9
 		}
-		{"tank"	0.75
+		{"tank" 0.75
 		}
 		{"vehicle" 1
 		}
 		{"cannon" 0.8
 		}
-		
 		{"pistol" lvl_2
 		}
 		{"smg" lvl_2
@@ -42,14 +41,23 @@
 		}
 	}
 	{veterancy
-		(include "veterancy_generic.inc")
-		("veterancy_1")
+		{"lvl_1" 2
+		}
+		{"lvl_2" 5
+		}
+		{"lvl_3" 9
+		}
+		{"lvl_4" 14
+		}
+		{"lvl_5" 20
+		}
 	}
 	{inventory
 		{item "ppsh41" filled}
 		{item "ammo ppsh41_mag" 105}
-		{item "mine antitank" 7}
-		{item "hedgehog_kit" 1}
+		{item "mine antitank" 8}
+		{item "hedgehog_kit"}
+		{item "bandage" 5}
 		{in_hands 0}
 	}
 }

@@ -1,9 +1,9 @@
 {breed
 	{skin "jap_army_tankman"}
-	{portrait "jap_tankman"}
-	{nationality jap}
-	{icon "tankman"}
+	{portrait jap_tankman}
+	{icon tankman}
 	{icon_priority 0}
+	{nationality jap}
 	{armors
 		{head tankhelmet_jap_old}
 	}
@@ -16,17 +16,16 @@
 		}
 		{"stamina_regeneration" "100%"
 		}
-        {"vision" "mp_soldier"
+		{"vision" mp_soldier
 		}
 		{"speed" 0.8
 		}
-		{"tank"	1.0
+		{"tank" 1.1
 		}
-		{"vehicle" 1.0
+		{"vehicle" 1.1
 		}
-		{"cannon" 0.8
+		{"cannon" 1.1
 		}
-		
 		{"pistol" lvl_2
 		}
 		{"smg" lvl_2
@@ -43,12 +42,21 @@
 		}
 	}
 	{veterancy
-		(include "veterancy_generic.inc")
-		("veterancy_tankcrew")
+		{"lvl_1" 5
+		}
+		{"lvl_2" 11
+		}
+		{"lvl_3" 18
+		}
+		{"lvl_4" 26
+		}
+		{"lvl_5" 35
+		}
 	}
 	{inventory
 		{item "nambu" filled}
 		{item "ammo nambu_mag" 24}
+		{item "bandage" 3}
 		{in_hands 0}
 	}
 }

@@ -1,9 +1,9 @@
 {breed
 	{skin "ger-reg-pioneer"}
-	{portrait "ger_soldier2"}
-	{nationality ger}
-	{icon "ap_miner"}
+	{portrait ger_soldier2}
+	{icon ap_miner}
 	{icon_priority 3}
+	{nationality ger}
 	{armors
 		{head helmet_ger_m40_fge}
 	}
@@ -16,17 +16,16 @@
 		}
 		{"stamina_regeneration" "100%"
 		}
-		{"vision" "mp_soldier"
+		{"vision" mp_soldier
 		}
 		{"speed" 0.9
 		}
-		{"tank"	0.75
+		{"tank" 0.75
 		}
 		{"vehicle" 1
 		}
 		{"cannon" 0.8
 		}
-		
 		{"pistol" lvl_4
 		}
 		{"smg" lvl_4
@@ -41,15 +40,24 @@
 		}
 	}
 	{veterancy
-		(include "veterancy_generic.inc")
-		("veterancy_1")
+		{"lvl_1" 2
+		}
+		{"lvl_2" 5
+		}
+		{"lvl_3" 9
+		}
+		{"lvl_4" 14
+		}
+		{"lvl_5" 20
+		}
 	}
 	{inventory
 		{item "mp40" filled}
 		{item "ammo mp40_mag" 192}
-		{item "mine s_mine" 15}
-		{item "barbwire_kit" 1}
+		{item "mine s_mine" 29}
+		{item "barbwire_kit"}
 		{item "hohlladung grenade"}
+		{item "bandage" 5}
 		{in_hands 0}
 	}
 }

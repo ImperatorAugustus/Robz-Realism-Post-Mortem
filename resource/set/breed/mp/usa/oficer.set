@@ -1,13 +1,13 @@
 {breed
 	{skin "us_com"}
-	{portrait "usa_officer"}
-	{nationality usa}
-	{icon "officer"}
+	{portrait usa_officer}
+	{icon officer}
 	{icon_priority 6}
-	{armors
-		{head "cap1_usa"}
-	}
 	{tags "officer"}
+	{nationality usa}
+	{armors
+		{head cap1_usa}
+	}
 	{perks
 		{"health" "250%"
 		}
@@ -17,19 +17,17 @@
 		}
 		{"stamina_regeneration" "100%"
 		}
-		{"vision" "mp_officer"
+		{"vision" mp_officer
 		}
-		{"speed" 1.0
+		{"speed" 1
 		}
-		{"field_glass"
-		}
-		{"tank"	0.85
+		{"field_glass"}
+		{"tank" 0.85
 		}
 		{"vehicle" 1
 		}
 		{"cannon" 0.9
 		}
-		
 		{"pistol" lvl_5
 		}
 		{"smg" lvl_5
@@ -40,12 +38,20 @@
 		}
 		{"rocketlauncher" lvl_3
 		}
-		{"melee" "lvl_4"
+		{"melee" lvl_4
 		}
 	}
 	{veterancy
-		(include "veterancy_generic.inc")
-		("veterancy_1")
+		{"lvl_1" 2
+		}
+		{"lvl_2" 5
+		}
+		{"lvl_3" 9
+		}
+		{"lvl_4" 14
+		}
+		{"lvl_5" 20
+		}
 	}
 	{inventory
 		{item "colt" filled}
@@ -53,6 +59,7 @@
 		{item "smoke_paradrop_ammo_heavy grenade" 5}
 		{item "knife_union"}
 		{item "binocular"}
+		{item "bandage" 5}
 		{in_hands 0}
 	}
 }

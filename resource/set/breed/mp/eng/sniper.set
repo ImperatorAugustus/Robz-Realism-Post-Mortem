@@ -1,9 +1,9 @@
 {breed
 	{skin "eng-scout-cpl"}
-	{portrait "eng_soldier4"}
-	{nationality eng}
-	{icon "sniper"}
+	{portrait eng_soldier4}
+	{icon sniper}
 	{icon_priority 5}
+	{nationality eng}
 	{armors
 		{head helmet_eng_mk3c}
 	}
@@ -16,21 +16,18 @@
 		}
 		{"stamina_regeneration" "100%"
 		}
-		{"vision" "mp_sniper"
+		{"vision" mp_sniper
 		}
-		{"speed" 1.0
+		{"speed" 1
 		}
-		{"stealth"
+		{"stealth"}
+		{"telescope"}
+		{"tank" 1
 		}
-		{"telescope"
+		{"vehicle" 1
 		}
-		{"tank"	1.0
+		{"cannon" 1
 		}
-		{"vehicle" 1.0
-		}
-		{"cannon" 1.0
-		}
-		
 		{"pistol" lvl_3
 		}
 		{"smg" lvl_3
@@ -46,16 +43,22 @@
 		{"aimedshot"}
 	}
 	{veterancy
-		(include "veterancy_generic.inc")
-		("veterancy_1")
+		{"lvl_1" 2
+		}
+		{"lvl_2" 5
+		}
+		{"lvl_3" 9
+		}
+		{"lvl_4" 14
+		}
+		{"lvl_5" 20
+		}
 	}
 	{inventory
-		{item "em2" filled}
-		{item "ammo british303_clip" 50}
+		{item "ammo british303_clip" 100}
 		{item "bandage" 5}
-		;{item "smoke_paradrop_ammo grenade" 1}
 		{item "plant" 3}
-		{item "knife_union"}
-		{in_hands 0}
+		{item "em2_vet" filling "british303_clip ammo" 10}
+		{in_hands 3}
 	}
 }

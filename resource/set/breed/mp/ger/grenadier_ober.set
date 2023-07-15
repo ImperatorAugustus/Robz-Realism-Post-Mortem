@@ -1,7 +1,7 @@
 {breed
 	{skin "ger-reg2-rfl-ober"}
-	{portrait "ger_soldier2"}
-	{icon "rifleman"}
+	{portrait ger_soldier2}
+	{icon rifleman}
 	{icon_priority 1}
 	{nationality ger}
 	{armors
@@ -16,11 +16,11 @@
 		}
 		{"stamina_regeneration" "100%"
 		}
-		{"vision" "mp_soldier"
+		{"vision" mp_soldier
 		}
 		{"speed" 0.9
 		}
-		{"tank"	0.75
+		{"tank" 0.75
 		}
 		{"vehicle" 1
 		}
@@ -40,14 +40,22 @@
 		}
 	}
 	{veterancy
-		(include "veterancy_generic.inc")
-		("veterancy_1")
+		{"lvl_1" 2
+		}
+		{"lvl_2" 5
+		}
+		{"lvl_3" 9
+		}
+		{"lvl_4" 14
+		}
+		{"lvl_5" 20
+		}
 	}
 	{inventory
 		{item "mauzer" filled}
 		{item "ammo mauser_clip" 60}
 		{item "ammo mg_mauser drum" 50}
-		{item "bandage" 3}
+		{item "bandage" 5}
 		{item "grenade m24" 2}
 		{item "grenade m24x5" -1 2}
 		{item "smoke grenade"}

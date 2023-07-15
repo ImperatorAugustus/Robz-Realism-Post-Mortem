@@ -1,11 +1,11 @@
 {breed
 	{skin "rus-smguner"}
-	{portrait "rus_soldier3"}
-	{nationality rus}
-	{icon "radioman"}
+	{portrait rus_soldier3}
+	{icon radioman}
 	{icon_priority 5}
+	{nationality rus}
 	{armors
-		{head "radioman_hat"}
+		{head radioman_hat}
 	}
 	{perks
 		{"health" "150%"
@@ -16,18 +16,17 @@
 		}
 		{"stamina_regeneration" "100%"
 		}
-		{"vision" "mp_soldier"
+		{"vision" mp_soldier
 		}
 		{"speed" 0.9
 		}
-		{"tank"	0.75
+		{"tank" 0.75
 		}
 		{"vehicle" 1
 		}
 		{"cannon" 0.8
 		}
-		
-		{"pistol" lvl_2
+		{"pistol" lvl_6
 		}
 		{"smg" lvl_2
 		}
@@ -41,8 +40,16 @@
 		}
 	}
 	{veterancy
-		(include "veterancy_generic.inc")
-		("veterancy_1")
+		{"lvl_1" 2
+		}
+		{"lvl_2" 5
+		}
+		{"lvl_3" 9
+		}
+		{"lvl_4" 14
+		}
+		{"lvl_5" 20
+		}
 	}
 	{inventory
 		{item "ppsh" filled}

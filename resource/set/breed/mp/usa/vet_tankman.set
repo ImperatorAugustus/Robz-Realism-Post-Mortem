@@ -1,9 +1,9 @@
 {breed
 	{skin "usa-tank-pvt"}
-	{portrait "usa_tankman"}
-	{nationality usa}
-	{icon "tankman"}
+	{portrait usa_tankman}
+	{icon tankman}
 	{icon_priority 0}
+	{nationality usa}
 	{armors
 		{head tankhelmet_usa}
 	}
@@ -16,17 +16,16 @@
 		}
 		{"stamina_regeneration" "100%"
 		}
-        {"vision" "mp_soldier"
+		{"vision" mp_soldier
 		}
 		{"speed" 0.8
 		}
-		{"tank"	1.0
+		{"tank" 1.2
 		}
-		{"vehicle" 1.0
+		{"vehicle" 1.2
 		}
-		{"cannon" 0.9
+		{"cannon" 1.1
 		}
-		
 		{"pistol" lvl_3
 		}
 		{"smg" lvl_3
@@ -43,12 +42,21 @@
 		}
 	}
 	{veterancy
-		(include "veterancy_generic.inc")
-		("veterancy_tankcrew")
+		{"lvl_1" 5
+		}
+		{"lvl_2" 11
+		}
+		{"lvl_3" 18
+		}
+		{"lvl_4" 26
+		}
+		{"lvl_5" 35
+		}
 	}
 	{inventory
 		{item "colt" filled}
 		{item "ammo colt_mag" 21}
+		{item "bandage" 3}
 		{in_hands 0}
 	}
 }

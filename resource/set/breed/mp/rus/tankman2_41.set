@@ -1,9 +1,9 @@
 {breed
 	{skin "rus_tankman_hp"}
-	{portrait "rus_tankman"}
-	{nationality rus}
-	{icon "tankman"}
+	{portrait rus_tankman}
+	{icon tankman}
 	{icon_priority 1}
+	{nationality rus}
 	{armors
 		{head rw_cap}
 	}
@@ -16,17 +16,16 @@
 		}
 		{"stamina_regeneration" "100%"
 		}
-        {"vision" "mp_soldier"
+		{"vision" mp_soldier
 		}
 		{"speed" 0.8
 		}
-		{"tank"	1.1
+		{"tank" 1.1
 		}
-		{"vehicle" 1.0
+		{"vehicle" 1
 		}
 		{"cannon" 0.95
 		}
-		
 		{"pistol" lvl_2
 		}
 		{"smg" lvl_2
@@ -43,12 +42,21 @@
 		}
 	}
 	{veterancy
-		(include "veterancy_generic.inc")
-		("veterancy_tankcrew")
+		{"lvl_1" 5
+		}
+		{"lvl_2" 11
+		}
+		{"lvl_3" 18
+		}
+		{"lvl_4" 26
+		}
+		{"lvl_5" 35
+		}
 	}
-	{inventory               
+	{inventory
 		{item "ppsh41" filled}
 		{item "ammo ppsh41_mag" 105}
+		{item "bandage" 3}
 		{in_hands 0}
 	}
 }

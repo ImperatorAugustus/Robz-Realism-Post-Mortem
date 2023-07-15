@@ -106,6 +106,7 @@ Increased infantry ammo crate cost from 25mp to 30mp.
 Reduced support crew cost from 40mp to 25mp, except Guards and Ost Front which are 35mp.
 Doubled mp regen via CP.
 Locked CP and MP settings to prevent division and inbalance.
+Added MG assists to all single buy MGs that did not have it already.
 
 USA
 -----
@@ -119,6 +120,7 @@ USA
 -M3 37mm AT gun to 150mp from 175mp
 -M2 Halftrack 200mp to 185mp
 -M3 Halftrack 200mp to 175mp
+-M3 Halftrack double sequence buy
 -US Heavy Ammo truck 270 to 200mp
 -US heavy ammo crate 75 to 50mp
 -US trans truck 90 to 50 mp
@@ -136,7 +138,8 @@ USA
 Added US logistics SP buy. 1sp for a normal truck and an inf and art ammo crate
 Added paradropped 57mm for 3 sp
 -Added Marine Raider on LVT buy for 6sp
-Removed 105 sherman buy
+Removed 105 sherman sp buy
+-Added m3 carbine sp buy. Two teams of three for 2sp. 60m range but with advanced thermal scope.
 
 	Infantry
 -Buffed M1, M1A1, and M2 Carbine
@@ -144,9 +147,10 @@ Removed 105 sherman buy
 -US Bazooka single buy reduced from 100 to 80mp
 -US Ranger Bazooka single buy reduced from 150 to 130mp
 -US Ranger Recoiless single buy reduced from 150 to 130mp
--Added a shotgun to marine rifle squad and now have a 1 minute startup timer
--Added boys at rifle to paramarines
--Added m3 carbine sp buy. Two teams of three for 2sp. 60m range but with advanced thermal scope.
+-Changed all US machine gun single buys into 4 man fire teams.
+-Ranger Heavy squad price increased by 15mp.
+-Added a shotgun to marine rifle squad and now have a 1 minute startup timer.
+-Added boys at rifle to paramarines.
 
 
 

@@ -72,15 +72,14 @@
 
 ;------------------------------MG infantry || vet 2-------------------------------------------------------------
 
-("squad_with1types" side(jap) name(mg3) c(30) g(soldier_6) c1(mgun3:1) b(squad2) t(all inf_only 39 40 41 42 43 44 45) level(1) cost(32) f(1.0))
-("squad_with1types" side(jap) name(mg2) c(60) g(soldier_6) c1(mgun2:1) b(squad2) t(all inf_only 39 40 41 42 43 44 45) level(1) cost(36) f(1.0))
-("squad_with1types" side(jap) name(mgs2) c(90) g(soldier_6) c1(mgun:1) b(squad2) t(all inf_only 39 40 41 42 43 44 45) level(1) cost(36) f(1.0))
+("squad_with2types" side(jap) name(mg3) c(30) g(soldier_6) c1(mgun3:1) c2(mg_asst3:1) b(squad2) t(all inf_only 39 40 41 42 43 44 45) level(1) cost(32) f(1.0))
+("squad_with2types" side(jap) name(mgs2) c(90) g(soldier_6) c1(mgun:1) c2(mg_asst:1) b(squad2) t(all inf_only 39 40 41 42 43 44 45) level(1) cost(36) f(1.0))
 
 ;------------------------------elite3
 
 ("squad_with2types" side(jap) name(elite_ig2) c(230) g(squad_4) c1(elite_ig2:1) c2(elite_ig1:3) b(squad2) t(all inf_only 39 40 41 42 43 44 45) level(1) cost(96) f(0.9))
 
-("squad_with2types" side(jap) name(elite3) c(260) g(squad_4) c1(elite_takasago_lmg:1) c2(elite_rifle2:3) b(squad2) t(all inf_only 39 40 41 42 43 44 45) level(1) cost(103) f(0.9))
+("squad_with2types" side(jap) name(elite3) c(260) g(squad_4) c1(elite_takasago_lmg:1) c2(elite_takasago_rifle:2) b(squad2) t(all inf_only 39 40 41 42 43 44 45) level(1) cost(103) f(0.9))
 
 ;------------------------------------------------
 

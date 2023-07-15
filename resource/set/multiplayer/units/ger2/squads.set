@@ -43,7 +43,7 @@
 ("squad_with1types" side(ger2) name(bazookers) c1(bazooker:2) c(15) g(soldier_5) b(squad2) t(all 44 45 inf_only) level(1) cost(70) f(1.0))
 ("squad_with2types" side(ger2) name(bazooker3) c1(bazooker3:1) c2(bazooker2:1) c(15) g(soldier_55) b(squad2) t(all inf_only 44 45) level(1) cost(110) f(1.0))
 
-("squad_with1types" side(ger2) name(mgs2) c(300) g(soldier_6) c1(mgun:1) b(squad2) t(all 44 45 inf_only) level(1) cost(70) f(1.0))
+("squad_with2types" side(ger2) name(mgs2) c(300) g(soldier_6) c1(mgun:1) c1(mgun_asst:1) b(squad2) t(all 44 45 inf_only) level(1) cost(70) f(1.0))
 
 
 

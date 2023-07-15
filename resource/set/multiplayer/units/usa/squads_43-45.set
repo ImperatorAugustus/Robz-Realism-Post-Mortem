@@ -34,7 +34,7 @@
 
 ;------------------------------stormtroopers |||| vet 6---------------------------------------------------------
 
-("squad_with8types" side(usa) name(stormtroopers) c(360) g(squad_5) c1(sturmovik_sgt:1) c2(sturmovik:1) c3(sturmovik2:2) c4(sturmovik2_asst:2) c5(sturmovik5:1) c6(sturmovik4:2) c7(sturmovik_grenadier:1) c8(sturmovik4b:2) b(squad1) t(all inf_only 42 43 44 45) level(1) cost(260) f(1.0))
+("squad_with8types" side(usa) name(stormtroopers) c(360) g(squad_5) c1(sturmovik_sgt:1) c2(sturmovik:1) c3(sturmovik2:2) c4(sturmovik2_asst:2) c5(sturmovik5:1) c6(sturmovik4:2) c7(sturmovik_grenadier:1) c8(sturmovik4b:2) b(squad1) t(all inf_only 42 43 44 45) level(1) cost(245) f(1.0))
 ("squad_with8types" side(usa) name(stormtroopers_heavy) c(360) g(squad_5) c1(sturmovik_sgt:1) c2(sturmovik:2) c3(sturmovik2:2) c4(sturmovik3:1) c5(sturmovik4:3) c6(sturmovik_grenadier:1) c7(sturmovik4b:1) c8(sturmovik_sniper:1) b(squad1) t(all inf_only 43 44 45) level(1) cost(315) f(1.0))
 ("squad_with7types" side(usa) name(stormtroopers_assault) c(360) g(squad_5) c1(sturmovik_sgt:1) c2(sturmovik1:2) c3(sturmovik2:1) c4(sturmovik4:5) c5(sturmovik_grenadier:1) c6(sturmovik6_mg:1) c7(sturmovik6b:1) b(squad1) t(all inf_only 43 44 45) level(1) cost(275) f(1.0))
 
@@ -74,7 +74,7 @@
 
 ;------------------------------AT rifles and bazookas || vet 2--------------------------------------------------
 
-("squad_with1types" side(usa) name(shotguns)  c1(shotgun:1)  		     c(15) g(soldier_4) b(squad2) t(all inf_only 39 40 41 42 43 44 45) level(1) cost(15) f(1.0))
+("squad_with1types" side(usa) name(shotguns)  c1(shotgun:1) c(15) g(soldier_4) b(squad2) t(all inf_only 39 40 41 42 43 44 45) level(1) cost(15) f(1.0))
 
 ("squad_with2types" side(usa) name(bazookers) c1(bazooker:1) c2(bazooker2:1) c(0) g(soldier_5) b(squad2) t(all inf_only 42 43 44 45) level(1) level(1) cost(80) f(1.0))
 
@@ -83,28 +83,28 @@
 
 ;------------------------------MG infantry || vet 2-------------------------------------------------------------
 
-("squad_with1types" side(usa) name(mgs2) c(60) g(soldier_6) c1(mgun:1) b(squad2) t(all inf_only 39 40 41 42 43 44 45) level(1) cost(30) f(1.0))
-("squad_with1types" side(usa) name(mg2) c(150) g(soldier_6) c1(mgun2:1) b(squad2) t(all inf_only 39 40 41 42 43 44 45) level(1) cost(45) f(1.0))
+("squad_with3types" side(usa) name(mgs2) c(60) g(soldier_6) c1(mgun:1) c2(mgun_asst:1) c3(rifle:2) b(squad2) t(all inf_only 39 40 41 42 43 44 45) level(1) cost(50) f(1.0))
+("squad_with3types" side(usa) name(mg2) c(150) g(soldier_6) c1(mgun2:1) c2(mgun2_asst:1) c3(rifle:2) b(squad2) t(all inf_only 39 40 41 42 43 44 45) level(1) cost(65) f(1.0))
 
 ;------------------------------elite3
 
-("squad_with2types" side(usa) name(elite6) c(200) g(squad_4) c1(elite6:1) c2(elite6_asst:1) b(squad2) t(all inf_only 42 43 44 45) level(1) cost(44) f(0.9))
+("squad_with3types" side(usa) name(elite6) c(200) g(squad_4) c1(elite6:1) c2(elite6_asst:1) c3(elite:2) b(squad2) t(all inf_only 42 43 44 45) level(1) cost(74) f(0.9))
 
-("squad_with2types" side(usa) name(elite3) c(230) g(squad_4) c1(elite3:1) c2(elite3_asst:1) b(squad2) t(all inf_only 42 43 44 45) level(1) cost(51) f(0.9))
-("squad_with2types" side(usa) name(elite3b) c(230) g(squad_4) c1(elite3b:1) c2(elite3b_asst:1) b(squad2) t(all inf_only 42 43 44 45) level(1) cost(71) f(0.9))
+("squad_with3types" side(usa) name(elite3) c(230) g(squad_4) c1(elite3:1) c2(elite3_asst:1) c3(eliteb:2) b(squad2) t(all inf_only 42 43 44 45) level(1) cost(81) f(0.9))
+("squad_with3types" side(usa) name(elite3b) c(230) g(squad_4) c1(elite3b:1) c2(elite3b_asst:1) c3(eliteb:2) b(squad2) t(all inf_only 42 43 44 45) level(1) cost(101) f(0.9))
 
 ;------------------------------paramarine |||||| vet 6---------------------------------------------
 
-("squad_with2types" side(usa) name(paramarine3) c(260) g(squad_4) c1(paramarine3:1) c2(paramarine3_asst:1) b(squad2) t(all inf_only 42 43 44) level(1) cost(76) f(0.9))
+("squad_with3types" side(usa) name(paramarine3) c(260) g(squad_4) c1(paramarine3:1) c2(paramarine3_asst:1) c3(paramarineb:2) b(squad2) t(all inf_only 42 43 44) level(1) cost(106) f(0.9))
 
 ;------------------------------------------------
 
-("squad_with2types" side(usa) name(stormtrooper6) c(260) g(squad_4) c1(sturmovik6:1) c2(sturmovik2_asst:1) b(squad2) t(all inf_only 42 43 44 45) level(1) cost(58) f(0.9))
+("squad_with3types" side(usa) name(stormtrooper6) c(260) g(squad_4) c1(sturmovik6:1) c2(sturmovik2_asst:1) c3(sturmovik1:2) b(squad2) t(all inf_only 42 43 44 45) level(1) cost(88) f(0.9))
 
 ;------------------------------elite 101st airborne ||||||| vet 7-------------------------------------------------
 
-("squad_with2types" side(usa) name(elite_101st_para3) c(300) g(squad_4) c1(elite_101st_para3:1) c2(elite_101st_para3_asst:1) b(squad2) t(all inf_only 44 45) level(1) cost(63) f(0.9))
-("squad_with2types" side(usa) name(elite_101st_para3b) c(300) g(squad_4) c1(elite_101st_para3b:1) c2(elite_101st_para3b_asst:1) b(squad2) t(all inf_only 44 45) level(1) cost(90) f(0.9))
+("squad_with3types" side(usa) name(elite_101st_para3) c(300) g(squad_4) c1(elite_101st_para3:1) c2(elite_101st_para3_asst:1) c3(elite_101st_para:2) b(squad2) t(all inf_only 44 45) level(1) cost(93) f(0.9))
+("squad_with3types" side(usa) name(elite_101st_para3b) c(300) g(squad_4) c1(elite_101st_para3b:1) c2(elite_101st_para3b_asst:1) c3(elite_101st_para:2) b(squad2) t(all inf_only 44 45) level(1) cost(120) f(0.9))
 
 ;------------------------------flamer, sniper and officer || vet2/3/4----------------------------------------------
 
@@ -113,9 +113,6 @@
 ("squad_with1types" side(usa) name(snipers) c(150) g(soldier_9) c1(sniper:1) b(squad2) t(all sniper inf_only 39 40 41 42 43 44 45) level(1) cost(60) f(0))
 
 ("squad_with1types" side(usa) name(officers) c(150) g(soldier_10) c1(oficer:1) b(squad2) t(all officer inf_only 39 40 41 42 43 44 45) level(1) cost(200) f(0))
-
-
-("squad_with1types" side(usa) name(snipers_d) c(0) g(soldier_12) c1(sniper:1) b(squad2) t(sniper_duell) level(1) cost(100) f(0))
 
 ("squad_with1types" side(usa) name(radioman_mortar) c(300) g(radio_1) c1(radioman_mortar:1) b(squad2) t(all mortar 39 40 41 42 43 44 45) level(1) cost(200) f(1.0))
 ("squad_with1types" side(usa) name(radioman_105) c(400) g(radio_1) c1(radioman_105:1) b(squad2) t(all mortar 39 40 41 42 43 44 45) level(1) cost(450) f(1.0))

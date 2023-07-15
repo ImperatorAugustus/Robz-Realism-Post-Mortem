@@ -408,7 +408,7 @@
 ; 2 vehicle - 8 infantry types
 (define "v28"
     ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
-    {content "%c1 ( mp/%s/%n1 mp/%s/%n2 mp/%s/%n3 mp/%s/%n4 mp/%s/%n5 mp/%s/%n6 mp/%s/%n7 mp/%s/%n8 ) %c1 ( mp/%s/%n1 mp/%s/%n2 mp/%s/%n3 mp/%s/%n4 mp/%s/%n5 mp/%s/%n6 mp/%s/%n mp/%s/%n8 )"}
+    {content "%c1 ( mp/%s/%n1 mp/%s/%n2 mp/%s/%n3 mp/%s/%n4 mp/%s/%n5 mp/%s/%n6 mp/%s/%n7 mp/%s/%n8 ) %c1 ( mp/%s/%n1 mp/%s/%n2 mp/%s/%n3 mp/%s/%n4 mp/%s/%n5 mp/%s/%n6 mp/%s/%n7 mp/%s/%n8 )"}
 )
 
 ; 2 halftrack - guards squads

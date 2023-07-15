@@ -181,8 +181,10 @@
 	{delete "map\single\01_usa-skirmish\02_usa-carentan\0.mi"}
 	{delete "map\single\01_usa-skirmish\02b_usa-bastogne\0.mi"}
 	{delete "map\single\01_usa-skirmish\03_usa-ardennes\0.mi"}
-	{delete "map\single\01_usa-skirmish\04_usa-phillippines\0.mi"}
+	{delete "map\single\01_usa-skirmish\04_usa-philippines\0.mi"}
 	{delete "map\single\01_usa-skirmish\05_usa-avalanche\0.mi"}
+	{delete "map\single\01_usa-skirmish\06_usa-dison\0.mi"}
+	{delete "map\single\01_usa-skirmish\07_usa-normandy\0.mi"}
 
 	{delete "map\single\02_ger-skirmish\00b_ger-gazala\0.mi"}
 	{delete "map\single\02_ger-skirmish\01_ger-caen\0.mi"}
@@ -192,6 +194,8 @@
 	{delete "map\single\02_ger-skirmish\03_ger-marketgarden\0.mi"}
 	{delete "map\single\02_ger-skirmish\04_ger-seelowheights\0.mi"}
 	{delete "map\single\02_ger-skirmish\05_ger-kharkov\0.mi"}
+	{delete "map\single\02_ger-skirmish\06_ger-battleforcaen\0.mi"}
+	{delete "map\single\02_ger-skirmish\07_ger-crete\0.mi"}
 
 	{delete "map\single\03_eng-skirmish\00b_eng-falaise\0.mi"}
 	{delete "map\single\03_eng-skirmish\01_eng-battleaxe\0.mi"}
@@ -201,6 +205,8 @@
 	{delete "map\single\03_eng-skirmish\03_eng-arnhem\0.mi"}
 	{delete "map\single\03_eng-skirmish\04_eng-tobruk\0.mi"}
 	{delete "map\single\03_eng-skirmish\05_eng-scheldt\0.mi"}
+	{delete "map\single\03_eng-skirmish\06_eng-wadiakarit\0.mi"}
+	{delete "map\single\03_eng-skirmish\07_eng-narvik\0.mi"}
 
 	{delete "map\single\04_rus-skirmish\00b_rus-iskra\0.mi"}
 	{delete "map\single\04_rus-skirmish\01_rus-smolensk\0.mi"}
@@ -210,6 +216,8 @@
 	{delete "map\single\04_rus-skirmish\03_rus-manchuria\0.mi"}
 	{delete "map\single\04_rus-skirmish\04_rus-kursk\0.mi"}
 	{delete "map\single\04_rus-skirmish\05_rus-debrecen\0.mi"}
+	{delete "map\single\04_rus-skirmish\06_rus-tarnopol\0.mi"}
+	{delete "map\single\04_rus-skirmish\07_rus-balaton\0.mi"}
 
 	{delete "map\single\05_jap-skirmish\00b_jap-marianaislands\0.mi"}
 	{delete "map\single\05_jap-skirmish\01_jap-khalkhingol\0.mi"}
@@ -219,8 +227,11 @@
 	{delete "map\single\05_jap-skirmish\03_jap-iwojima\0.mi"}
 	{delete "map\single\05_jap-skirmish\04_jap-okinawa\0.mi"}
 	{delete "map\single\05_jap-skirmish\05_jap-peleliu\0.mi"}
+	{delete "map\single\05_jap-skirmish\06_jap-huon\0.mi"}
+	{delete "map\single\05_jap-skirmish\07_jap-carolineislands\0.mi"}
 
 	{delete "map\single\06_bonus\00_tutorial\0.mi"}
+
 
 
 ;----

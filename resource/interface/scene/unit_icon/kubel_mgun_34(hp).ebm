@@ -1,0 +1,6 @@
+{bitmap
+	{frame "kubel_mgun_00.tga"}
+	{frame "kubel_mgun_01.tga"}
+	{frame "kubel_mgun_02.tga"}
+	{frame "kubel_mgun_03.tga"}
+}

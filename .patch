@@ -51,6 +51,8 @@
 	{delete "interface/font/main_9b.font"}
 	{delete "interface/font/main_9b_0.tga"}
 	{delete "interface/font/main_9_0.tga"}
+	
+;-----
 
 	{delete "map\multi\1v1_argentan\battle_zones.mi"}
 	{delete "map\multi\1v1_frozen_river\battle_zones.mi"}
@@ -170,5 +172,63 @@
 
 	{delete "map\multi\4x4_gsm_Bog\battle_zones.mi"}
 	{delete "map\multi\4x4_gsm_westland\battle_zones.mi"}
+
+;----
+	
+	{delete "map\single\01_usa-skirmish\00b_usa-hurtgen\0.mi"}
+	{delete "map\single\01_usa-skirmish\01_usa-overlord\0.mi"}
+	{delete "map\single\01_usa-skirmish\01b_usa-bocage\0.mi"}
+	{delete "map\single\01_usa-skirmish\02_usa-carentan\0.mi"}
+	{delete "map\single\01_usa-skirmish\02b_usa-bastogne\0.mi"}
+	{delete "map\single\01_usa-skirmish\03_usa-ardennes\0.mi"}
+	{delete "map\single\01_usa-skirmish\04_usa-phillippines\0.mi"}
+	{delete "map\single\01_usa-skirmish\05_usa-avalanche\0.mi"}
+
+	{delete "map\single\02_ger-skirmish\00b_ger-gazala\0.mi"}
+	{delete "map\single\02_ger-skirmish\01_ger-caen\0.mi"}
+	{delete "map\single\02_ger-skirmish\01b_ger-pomerania\0.mi"}
+	{delete "map\single\02_ger-skirmish\02_ger-sthilaire\0.mi"}
+	{delete "map\single\02_ger-skirmish\02b_ger-namur\0.mi"}
+	{delete "map\single\02_ger-skirmish\03_ger-marketgarden\0.mi"}
+	{delete "map\single\02_ger-skirmish\04_ger-seelowheights\0.mi"}
+	{delete "map\single\02_ger-skirmish\05_ger-kharkov\0.mi"}
+
+	{delete "map\single\03_eng-skirmish\00b_eng-falaise\0.mi"}
+	{delete "map\single\03_eng-skirmish\01_eng-battleaxe\0.mi"}
+	{delete "map\single\03_eng-skirmish\01b_eng-elalamein\0.mi"}
+	{delete "map\single\03_eng-skirmish\02_eng-torch\0.mi"}
+	{delete "map\single\03_eng-skirmish\02b_eng-husky\0.mi"}
+	{delete "map\single\03_eng-skirmish\03_eng-arnhem\0.mi"}
+	{delete "map\single\03_eng-skirmish\04_eng-tobruk\0.mi"}
+	{delete "map\single\03_eng-skirmish\05_eng-scheldt\0.mi"}
+
+	{delete "map\single\04_rus-skirmish\00b_rus-iskra\0.mi"}
+	{delete "map\single\04_rus-skirmish\01_rus-smolensk\0.mi"}
+	{delete "map\single\04_rus-skirmish\01b_rus-leningrad\0.mi"}
+	{delete "map\single\04_rus-skirmish\02_rus-koenigsberg\0.mi"}
+	{delete "map\single\04_rus-skirmish\02b_rus-sevastopol\0.mi"}
+	{delete "map\single\04_rus-skirmish\03_rus-manchuria\0.mi"}
+	{delete "map\single\04_rus-skirmish\04_rus-kursk\0.mi"}
+	{delete "map\single\04_rus-skirmish\05_rus-debrecen\0.mi"}
+
+	{delete "map\single\05_jap-skirmish\00b_jap-marianaislands\0.mi"}
+	{delete "map\single\05_jap-skirmish\01_jap-khalkhingol\0.mi"}
+	{delete "map\single\05_jap-skirmish\01b_jap-burma\0.mi"}
+	{delete "map\single\05_jap-skirmish\02_jap-singapore\0.mi"}
+	{delete "map\single\05_jap-skirmish\02b_jap-guinea\0.mi"}
+	{delete "map\single\05_jap-skirmish\03_jap-iwojima\0.mi"}
+	{delete "map\single\05_jap-skirmish\04_jap-okinawa\0.mi"}
+	{delete "map\single\05_jap-skirmish\05_jap-peleliu\0.mi"}
+
+	{delete "map\single\06_bonus\00_tutorial\0.mi"}
+
+
+;----
+
+	{delete "set\multiplayer\games\frontline.set"}
+	{delete "set\multiplayer\games\battle_zones_8x8.set"}
+	{delete "set\multiplayer\games\captureflag.set"}
+	{delete "set\multiplayer\games\combat.set"}
+
 }
 

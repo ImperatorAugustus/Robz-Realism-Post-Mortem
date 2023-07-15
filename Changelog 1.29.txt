@@ -10,13 +10,15 @@ Integrated various sounds.
 Integrated Robz Reloaded fixes, localizations, and optimizations. -V 2.7
 -Fixed Isuzu repair and fire bug
 -Fixed US mortar haltrack fire bug
-- Fixed Super Pershings model and the armour shield.
+-Fixed Super Pershings model and the armour shield.
 
 
 
 PERFORMANCE:
 -----
 Limit the number of useless entity objects.
+Removed all other modes except 44-45 Assault Zones. All other modes have long been unsupported and can be readded via submods.
+Disabled vanilla singleplayer missions.
 
 
 
@@ -71,7 +73,7 @@ Removed maps that are substatnially unbalanced or too small.
 Increased maximum zoom to engine max of 1500 on all maps.
 Rebalanced various maps
 Optimiazed and adjusted pathfinding on several maps
-Added several new maps to AZ
+Added several new maps to AZ.
 
 
 
@@ -102,6 +104,8 @@ Various timer adjustments across the board to line up with other factions
 Removed some vehicle copies with little difference.
 Increased infantry ammo crate cost from 25mp to 30mp.
 Reduced support crew cost from 40mp to 25mp, except Guards and Ost Front which are 35mp.
+Doubled mp regen via CP.
+Locked CP and MP settings to prevent division and inbalance.
 
 USA
 -----
@@ -291,7 +295,7 @@ pz4j battlegroup - 6sp
 two flak88 - 7sp
 sturmtiger - 15sp
 Panther and Tiger Veteran to 15 sp
-Sniper SP buy replaced by 42 Lafette
+Sniper SP buy replaced by Veteran MG 42 Lafette
 Replaced double nebelwerfer buy with an 11sp double mechanized sturm pioneer with 2 nebelwerfers loaded with smoke
 
 

@@ -1,0 +1,13 @@
+{bitmap
+	{Axis  16 15 }
+	{cursor 1}
+	{Frame  "cannon_reload_hvap/00.tga" 100}
+	{Frame  "cannon_reload_hvap/01.tga" 100}
+	{Frame  "cannon_reload_hvap/02.tga" 100}
+	{Frame  "cannon_reload_hvap/03.tga" 100}
+	{Frame  "cannon_reload_hvap/04.tga" 100}
+	{Frame  "cannon_reload_hvap/05.tga" 100}
+	{Frame  "cannon_reload_hvap/06.tga" 100}
+	{Frame  "cannon_reload_hvap/07.tga" 100}
+	{Frame  "cannon_reload_hvap/08.tga" 50}
+}

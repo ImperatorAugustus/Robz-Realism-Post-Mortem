@@ -1,0 +1,12 @@
+{action
+	{target ground}
+	;{fx "flashred"}
+	;{abledrag}
+	{button "hatch"}
+	{able_vehicle}
+	{NotifySelect}
+	;{ShowCount}
+	{instant
+		{effect "commander_hatch"}
+	}
+}

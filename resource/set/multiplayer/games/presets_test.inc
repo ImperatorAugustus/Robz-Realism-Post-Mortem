@@ -23,7 +23,7 @@
 						{restore 	"1.50	1.25	0.75	0.50	0.40	0.30	0.20"}
 					}
 				} 
-				{buttons "squad1 squad2 v1 v2 v22 v3 v4 v5 v6 sf"}
+				{buttons "squad1 squad2 v1 v2 v22 v3 v4 v5 v6 v7 v8 v9 v10 v11 v12 sf"}
 			}
 			{hero
 				{resource 

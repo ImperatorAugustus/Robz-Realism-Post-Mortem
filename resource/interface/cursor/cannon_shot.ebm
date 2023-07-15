@@ -1,0 +1,6 @@
+{bitmap
+	{cursor 1}
+	{Axis  15 17	}
+	{Frame  "cannon_shot/0.tga" 100 }
+	{Frame  "cannon_shot/1.tga" 100 }
+}

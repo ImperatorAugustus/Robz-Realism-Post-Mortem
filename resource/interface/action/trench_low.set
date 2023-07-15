@@ -1,0 +1,22 @@
+{action
+	{target ground}
+	{cursor "trench"}
+	{button "trench_low"}
+	{fx "flashred"}
+	{item "trench_spade"}
+	{item_in_box}
+	{ShowCount}
+	{abledrag}
+	{AimEntities}
+	{instructions
+		{bind range 1}
+		{disable_action_restart}
+		{take_item}
+		{reserve_hands}
+		{animations "stand_dig_trench" random loop totaltime 45}
+		{fsm_request "ground-drop"}
+		{unreserve_hands}
+		{install "spawner_trench_low" 0 exact_placement}
+		{fsm_request nocheck "hold-nothing"}
+	}
+}

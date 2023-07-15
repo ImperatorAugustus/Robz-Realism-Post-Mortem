@@ -1,6 +1,0 @@
-{army
-	{id 8}
-	{title "mp/army/rus_doc_db"}
-	{icon "/interface/pages/multi/flag_rus"}
-	{flag "/interface/scene/common/flag-rus"}
-}

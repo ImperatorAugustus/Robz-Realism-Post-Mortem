@@ -1,0 +1,13 @@
+{action
+	{target ground}
+	;{fx "flashred"}
+	;{abledrag}
+	{button "gun_mode"}
+	{able_vehicle}
+	{NotifySelect}
+	{button}
+	;{ShowCount}
+	{instant
+		{effect "gun_mode"}
+	}
+}

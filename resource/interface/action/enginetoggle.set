@@ -1,0 +1,12 @@
+{action
+	{target ground}
+	;{fx "flashred"}
+	;{abledrag}
+	{able_vehicle}
+	{NotifySelect}
+	{button}
+	;{ShowCount}
+	{instant
+		{effect "enginetoggle"}
+	}
+}

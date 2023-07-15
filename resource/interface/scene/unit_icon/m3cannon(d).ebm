@@ -1,0 +1,6 @@
+{bitmap
+	{frame "m3cannon_00.tga"}
+	{frame "m3cannon_01.tga"}
+	{frame "m3cannon_02.tga"}
+	{frame "m3cannon_03.tga"}
+}

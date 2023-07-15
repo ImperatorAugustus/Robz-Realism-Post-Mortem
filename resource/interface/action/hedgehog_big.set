@@ -1,0 +1,21 @@
+{action
+	{target ground}
+	{cursor "use"}
+	{fx "flashred"}
+	{item "hedgehog_kit"}
+	{item_in_box}
+	;{entity "eg"}
+	;{spacing 2.0}
+	{button "hedgehog_big"}
+	;{able_enqueue}
+	{abledrag}
+	{instructions
+		{bind range 1}
+		{disable_action_restart}
+		{free_hands}
+		{reserve_hands}
+		{animations "squat_repair_1 squat_repair_2" random loop totaltime 60}
+		{unreserve_hands}
+		{install "eg_omaha2" 0 exact_placement}
+	}
+}

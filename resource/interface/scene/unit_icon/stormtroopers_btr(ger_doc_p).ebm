@@ -1,0 +1,6 @@
+{bitmap
+	{frame "storm_mech_ger_00.tga"}
+	{frame "storm_mech_ger_01.tga"}
+	{frame "storm_mech_ger_02.tga"}
+	{frame "storm_mech_ger_03.tga"}
+}

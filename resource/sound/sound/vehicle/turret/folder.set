@@ -1,5 +1,0 @@
-{sound
-	{loudness "turret"}
-	{signal movement 10}
-	{volume	0.85}
-}

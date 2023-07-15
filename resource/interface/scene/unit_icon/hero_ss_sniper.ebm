@@ -1,0 +1,6 @@
+{bitmap
+	{frame "hero1_ger_00.tga"}
+	{frame "hero1_ger_01.tga"}
+	{frame "hero1_ger_02.tga"}
+	{frame "hero1_ger_03.tga"}
+}

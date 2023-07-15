@@ -1,0 +1,6 @@
+{bitmap
+	{frame "ammo_box_special_00.tga"}
+	{frame "ammo_box_special_01.tga"}
+	{frame "ammo_box_special_02.tga"}
+	{frame "ammo_box_special_03.tga"}
+}

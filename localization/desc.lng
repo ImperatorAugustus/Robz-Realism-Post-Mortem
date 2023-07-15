@@ -1714,6 +1714,7 @@
 				{"td" "<c(c3baae)>Jagdpanzerbesatzung"}
 				{"td_com" "<c(c3baae)>Jagdpanzerbesatzung Kommandant"}
 				{"vehicle_supporter" "<c(c3baae)>Kanonier"}
+				{"vet_vehicle_supporter" "<c(c3baae)>Kanonier [Veteran]"}
 				{"vet_tankman" "<c(c3baae)>Panzerbesatzung [Veteran]"}
 				{"vet_tankman2" "<c(c3baae)>Panzerbesatzung Kommandant [Veteran]"}
 				{"vet_td" "<c(c3baae)>Jagdpanzerbesatzung [Veteran]"}
@@ -3047,14 +3048,14 @@
 		{"heronew2_eng" "Cromwell Mk. VI"}
 		{"heronew3_eng" "M4A4 Tulip"}
 		{"hero_staghound_e1" "Staghound Mk III"}
-		{"hero1_ger" "Sniper Ace"}
+		{"hero_mg42_ger" "Veteran MG42 Lafette"}
 		{"hero_ger_volks(ger)" "Volksgrenadier Sturm platoon"}
 		{"hero2_ger" "Brandenburger"}
 		{"hero3_ger" "Goliath"}
 		{"hero4_ger" "fallschirmjäger"}
 		{"hero5_ger" "Radio Operator"}
 		{"hero6_ger" "StuH 42"}
-		{"hero7_ger" "SturmPioneer Assault Kampfgruppe"}
+		{"hero7_ger" "Sturmpioneer Assault Kampfgruppe"}
 		{"hero8_ger" "Veteran Tiger"}
 		{"hero9_ger" "Sturmtiger"}
 		{"panther_hero" "Veteran Panther"}
@@ -3138,7 +3139,7 @@
 		{"hero_usa_m18_vet" "Veteran M18 Hellcat"}
 		{"hero_usa_m1_57mm_drop" "Paradropped M1 57mm AT Gun"}
 		{"hero_usa_raiders" "Mechanized Marine Raiders"}
-		{"hero_usa_m3_carbine" "Marine Nightfighters"}
+		{"hero_usa_m3_carbine(usa)" "Marine Nightfighters"}
 		{"hero_usa_log" "Red Ball Express"}
 		
 		;Ostfront

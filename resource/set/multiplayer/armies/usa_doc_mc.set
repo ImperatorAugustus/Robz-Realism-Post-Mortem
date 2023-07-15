@@ -1,6 +1,0 @@
-{army
-	{id 7}
-	{title "mp/army/usa_doc_mc"} 
-	{icon "/interface/pages/multi/flag_usa"}
-	{flag "/interface/scene/common/flag-usa"}
-}

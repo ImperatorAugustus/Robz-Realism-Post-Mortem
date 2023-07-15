@@ -1,5 +1,0 @@
-{sound
-	{loudness "blast big"}
-	{signal shot 50}
-	{tag main_environment}
-}

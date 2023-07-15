@@ -1,0 +1,6 @@
+{bitmap
+	{frame "np_sdkfz250_10_00.tga"}
+	{frame "np_sdkfz250_10_01.tga"}
+	{frame "np_sdkfz250_10_02.tga"}
+	{frame "np_sdkfz250_10_03.tga"}
+}

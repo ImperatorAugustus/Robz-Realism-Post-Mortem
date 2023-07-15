@@ -208,7 +208,7 @@
 		}
 		{"army"
 			{"ger" "Wehrmacht (1940-1945)"}
-			{"ger2" "Ostfront Jagdbatallion (1944-1945)"}
+			{"ger2" "Kampfgruppe Ost (1944-1945)"}
 			{"ger_ss" "Waffen-SS (1941-1945)"}
 			{"rus" "Red Army (1941-1945)"}
 			{"rus_guard" "Guards Army (1943-1945)"}
@@ -279,7 +279,7 @@
 			{"axis_west" "AXIS Western Front (Germany)"}
 			{"axis_jap" "AXIS Pacific (Japan)"}
 			{"axis_ger" "AXIS Europe (Wehrmacht)"}
-			{"axis_ger2" "AXIS Europe (Ostfront Jagdbatallion)"}
+			{"axis_ger2" "AXIS Europe (Kampfgruppe Ost)"}
 			{"axis_ss" "AXIS Europe (Waffen-SS)"}
 			{"axis_doctrines" "AXIS Doctrines (Germany)"}
 			{"allies_west" "ALLIES"}

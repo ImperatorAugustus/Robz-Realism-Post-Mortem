@@ -3,6 +3,9 @@ US M8 howtizer sp buy raised to 3sp. Paradropped.
 
 Remove
 Visor for goliaths
+ss skinx
+x and xx vehicle models
+smg from kamikazes
 
 Add
 deminers/fix model
@@ -17,6 +20,7 @@ molotovs to partisans
 model for m3 carbine
 
 fix
+targeting on flame
 open top vehicle holes
 local
 icons

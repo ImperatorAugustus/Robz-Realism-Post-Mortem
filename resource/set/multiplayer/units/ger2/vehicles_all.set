@@ -27,39 +27,39 @@
 {"2cm_flak38_ger2"		("vs_ss_noinfo" c(30) v1(2cm_flak38) t(all 44 45) s(ger2) n(2) g(c3) b(v2)) {level 1} {cost 195} {fore -2.0}}	;30sec
 {"37mm_flak_36_ger2"	("vs_ss_noinfo" c(30) v1(37mm_flak_36) t(all 44 45) s(ger2) n(2) g(c4) b(v2)) {level 1} {cost 250} {fore -5.0}}	;180sec
 
-{"5_cm_granatwerfer_36_ger2" 	("light_mortar" c(10) t(all 44 45 mortar) s(ger2) g(c5) b(v2)) {level 1} {cost 110} {fore -2.0}}		;30sec
-{"sgrw_34_vet"          ("vs" c(10) t(44 45 mortar) 	s(ger2) n(2) g(c6) sc(21) b(v2) cw(2) cp(5)) {level 1} {cost 420} {fore -2.0}}		;30sec
-{"sgrw_42_vet"          ("vs" c(60) t(44 45 mortar) 	s(ger2) n(2) g(c7) sc(38.5) b(v2) cw(2) cp(10)) {level 1} {cost 770} {fore -9.0}}	;600sec
-
-
 ("how" side(ger2) name(how_pak1)	c(0) c1(kfz15) c2(pak36_ger2)	t(all 44 45 cannon)			g(c8) b(v2) level(1) cost(150) f(0.0))		;0sec
 ("how" side(ger2) name(how_pak2)	c(10) c1(kfz15) c2(pak38_ger2)	t(all 44 45 cannon mediumcan) g(c9) b(v2) level(1) cost(230) f(-14.0))	;300sec
 ("how" side(ger2) name(how_pak3)	c(20) c1(kfz15) c2(pak40_ger2)	t(all 44 45 cannon heavycan)	g(c10) b(v2) level(1) cost(470) f(-19.0));400sec
-{"pak43_vet"		("vs" c(60) t(all 43 44 45)	s(ger2) n(2) g(c111) sc(47.50) b(v2) cw(0) cp(20)) {level 1} {cost 950} {fore -19.0}}	;1200sec
-
-
 {"flak36a_vet"	    ("vs" c(60) t(artillery heavy 44 45)    s(ger2) n(2) g(c11) sc(40) b(v2) cw(2) cp(15)) {level 1} {cost 900} {fore -14.0}}		;900sec
-("how" side(ger2) name(how_b)	c(60) c1(sdkfz7) c2(lefh18_ger2)	t(all 44 45 artillery)				g(c12) b(v2) level(1) cost(500) f(-14.0));900sec
-("how" side(ger2) name(how_a)	c(60) c1(sdkfz7) c2(sfh18_ger2)	t(all 44 45 artillery heavyart)		g(c13) b(v2) level(1) cost(750) f(-19.0));1200sec
+{"pak43_vet"		("vs" c(60) t(all 43 44 45)	s(ger2) n(2) g(c111) sc(47.50) b(v2) cw(0) cp(20)) {level 1} {cost 950} {fore -19.0}}	;1200sec
 
 {"stuh42_vet"	    ("v" c(10) t(all medium 44 45)	s(ger2) n1(4) n2(1) g(c144) sc(40) b(v2) cw(0) cp(20)) {level 1} {cost 700} {fore -69.0}} 	;700sec
 
-{"wespe_ger2"			("v" c(60) t(all 44 45 artillery)			s(ger2) n1(3) n2(1) g(c14) sc(40.00) b(v2) cw(0) cp(15)) {level 1} {cost 675} {fore -14.0}};900sec
-{"sdkfz138_1"			("v" c(60) t(all 44 45 artillery heavyart)	s(ger2) n1(3) n2(1) g(c15) sc(42.50) b(v2) cw(0) cp(15)) {level 1} {cost 850} {fore -14.0}};900sec
-{"sdkfz251_1_stuka"		("vs" c(60) t(all 44 45 artillery heavyart)	s(ger2) n(2) g(c16) sc(75.00) b(v2) cw(0) cp(20)) {level 1} {cost 1500} {fore -19.0}};1200sec
+;같캛utton support 2같� artillery guns
 
+{"5_cm_granatwerfer_36_ger2" 	("light_mortar" c(10) t(all 44 45 mortar) s(ger2) g(c5) b(v22)) {level 1} {cost 110} {fore -2.0}}		;30sec
+{"sgrw_34_vet"          ("vs" c(10) t(44 45 mortar) 	s(ger2) n(2) g(c6) sc(21) b(v22) cw(2) cp(5)) {level 1} {cost 420} {fore -2.0}}		;30sec
+{"sgrw_42_vet"          ("vs" c(60) t(44 45 mortar) 	s(ger2) n(2) g(c7) sc(38.5) b(v22) cw(2) cp(10)) {level 1} {cost 770} {fore -9.0}}	;600sec
 
+("how" side(ger2) name(how_b)	c(60) c1(sdkfz7) c2(lefh18_ger2)	t(all 44 45 artillery)				g(c12) b(v22) level(1) cost(500) f(-14.0));900sec
+("how" side(ger2) name(how_a)	c(60) c1(sdkfz7) c2(sfh18_ger2)	t(all 44 45 artillery heavyart)		g(c13) b(v22) level(1) cost(750) f(-19.0));1200sec
 
+{"wespe_ger2"			("v" c(60) t(all 44 45 artillery)			s(ger2) n1(3) n2(1) g(c14) sc(40.00) b(v22) cw(0) cp(15)) {level 1} {cost 675} {fore -14.0}};900sec
+{"sdkfz138_1"			("v" c(60) t(all 44 45 artillery heavyart)	s(ger2) n1(3) n2(1) g(c15) sc(42.50) b(v22) cw(0) cp(15)) {level 1} {cost 850} {fore -14.0}};900sec
+{"sdkfz251_1_stuka"		("vs" c(60) t(all 44 45 artillery heavyart)	s(ger2) n(2) g(c16) sc(75.00) b(v22) cw(0) cp(20)) {level 1} {cost 1500} {fore -19.0}};1200sec
 
 ;같캛utton 3같�
 
 {"pz1b_ger2"			("v" c(10) t(all 44 45 light)		s(ger2) n1(1) n2(1) g(d1) sc(9.00)	b(v3) cw(0) cp(5)) {level 1} {cost 200} {fore -31}}		;320sec
 {"pz1_ger2"				("v" c(10) t(all 44 45 light)		s(ger2) n1(2) n2(1) g(d2) sc(10.5) b(v3) cw(0) cp(5)) {level 1} {cost 220} {fore -37}}		;380sec
+
 {"pz2l_ger2"			("v_ss" c(10) v1(pz2l) t(all 43 44 45) s(ger2) n1(2) n2(1) g(d12) b(v3)) {level 1} {cost 235} {fore -41.0}}						;420sec
+
 {"sdkfz234_1"			("v" c(10) t(all 44 45 light)		s(ger2) n1(2) n2(1) g(d3) sc(12.50) b(v3) cw(0) cp(5)) {level 1} {cost 250} {fore -41}}		;420sec
 {"sdkfz234_3"			("v" c(10) t(all 44 45 light)		s(ger2) n1(2) n2(1) g(d4) sc(17.50) b(v3) cw(0) cp(5)) {level 1} {cost 350} {fore -52}}		;530sec
 
 {"sdkfz234_ger2"		("v" c(10) t(all 44 45 light)		s(ger2) n1(2) n2(1) g(d5) sc(15.00) b(v3) cw(0) cp(5)) {level 1} {cost 315} {fore -52}}		;530sec
+
 {"sdkfz7_2"				("v" c(10) t(all 44 45 light)		s(ger2) n1(3) n2(1) g(d6) sc(15.00) b(v3) cw(0) cp(5)) {level 1} {cost 275} {fore -52}}		;530sec
 {"ostwind_ger2"			("v" c(30) t(all 44 45 medium)		s(ger2) n1(3) n2(1) g(d7) sc(15.00) b(v3) cw(0) cp(10)) {level 1} {cost 300} {fore -18.33}} 	;560sec
 

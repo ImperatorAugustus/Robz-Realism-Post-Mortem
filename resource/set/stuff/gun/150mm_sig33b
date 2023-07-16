@@ -1,4 +1,4 @@
-{from "pattern gun"       ; sturmpz1 / sig33
+{from "pattern gun"       ;sig33
 	{filling "bullet150 gers"}
 	{fireSound "gun/howitzer/150mm_sfh18"}
 	{reloadSound "gun_r04"}
@@ -11,4 +11,12 @@
 		("damage_heat" a(185) range(190))
 	}
 	("accuracy_grazinghowitzer_sig")
+	(mod "mp"
+		{tag "prepare"}
+		{Special
+			{Mode aim}
+			{PrepareTime 0.1}
+			{PrepareCursor "cannon_shot"}
+		}
+	)
 }

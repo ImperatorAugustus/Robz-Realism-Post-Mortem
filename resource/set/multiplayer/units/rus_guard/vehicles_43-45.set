@@ -23,8 +23,6 @@
 {"sg43_goryunov_guard"    ("vs_rus_g" c(10) v1(sg43_goryunov) t(all 43 44 45) 	s(rus_guard) n(2) g(c4) sc(7.50) b(v2) cw(2) cp(5)) {level 1} {cost 160} {fore -2.0}}	;30sec
 {"dshk_stank_guard"       ("vs_rus_g" c(10) v1(dshk_stank) t(all 43 44 45) 	s(rus_guard) n(2) g(c5) sc(11) b(v2) cw(2) cp(5)) {level 1} {cost 220} {fore -2.0}}		;30sec
 {"dshk_zenit_guard"       ("vs_rus_g" c(10) v1(dshk_zenit) t(all 43 44 45) 	s(rus_guard) n(2) g(c6) sc(11) b(v2) cw(2) cp(5)) {level 1} {cost 220} {fore -2.0}}		;30sec
-{"bm_37_guard"            ("vs" c(10) t(all 43 44 45 mortar) s(rus_guard) n(2) g(c7) sc(22.50) b(v2) cw(2) cp(5)) {level 1} {cost 450} {fore -2.0}}	;30sec
-{"pm_38_vet"            ("vs" c(60) t(all 43 44 45 mortar) s(rus_guard) n(2) g(c8) sc(39.50) b(v2) cw(2) cp(10)) {level 1} {cost 790} {fore -9.0}}	;600sec
 
 {"m42_guard"              ("vs" c(10) t(all 43 44 45) 		s(rus_guard) n(2) g(c101) sc(11.25)  b(v2) cw(2) cp(5)) {level 1} {cost 225} {fore -2.0}}	;30sec
 {"m43_guard"              ("vs_rus_g" c(60) v1(m43) t(artillery all 43 44 45)		s(rus_guard) n(2) g(c102) sc(16) b(v2) cw(2) cp(5)) {level 1} {cost 320} {fore -1.0}}	;120sec
@@ -39,6 +37,11 @@
 {"su122_guard"          ("v_rus_g" c(60) v1(su122) t(artillery all 43 44 45) 		s(rus_guard) n1(3) n2(1) g(c18) sc(40.00) b(v2) cw(0) cp(15)) {level 1} {cost 650} {fore -9.167}}	;1220sec
 {"isu152_guard"         ("v" c(120) t(artillery all heavy 43 44 45) 	s(rus_guard) n1(4) n2(1) g(c20) sc(55.00) b(v2) cw(0) cp(25)) {level 1} {cost 1000} {fore -9.167}}	;1220sec
 
+;같캛utton support 2같� artillery guns
+
+{"bm_37_guard"            ("vs" c(10) t(all 43 44 45 mortar) s(rus_guard) n(2) g(c7) sc(22.50) b(v22) cw(2) cp(5)) {level 1} {cost 450} {fore -2.0}}	;30sec
+{"pm_38_vet"            ("vs" c(60) t(all 43 44 45 mortar) s(rus_guard) n(2) g(c8) sc(39.50) b(v22) cw(2) cp(10)) {level 1} {cost 790} {fore -9.0}}	;600sec
+
 ("how" side(rus_guard) name(how_b) c(60) c1(zis5art) c2(m30_1938) t(artillery 43 44 45) g(c15) b(v22) level(1) cost(500) f(-14.0))			;900sec
 ("how" side(rus_guard) name(np_ml20) c(60) c1(zis5art) c2(np_ml20) t(artillery heavyart heavy 43 44 45) g(c22) b(v22) level(1) cost(875) f(-19.0))	;1200sec
 ("how" side(rus_guard) name(how_a) c(60) c1(zis5art) c2(d1) 	t(artillery heavyart heavy 43 44 45) g(c16) b(v22) level(1) cost(725) f(-19.0))			;1200sec
@@ -49,8 +52,6 @@
 {"bm8-48_guard"         ("vs_rus_g" c(60) v1(bm8-48) t(artillery heavyart rocket 43 44 45) 	s(rus_guard) n(2) g(c23) sc(62.50) b(v22) cw(0) cp(15)) {level 1} {cost 650} {fore -14.0}} 		;900sec
 {"bm13_guard"           ("vs_rus_g" c(60) v1(bm13) t(all artillery heavyart rocket 43 44 45) 	s(rus_guard) n(2) g(c24) sc(62.50) b(v22) cw(0) cp(20)) {level 1} {cost 850} {fore -19.0}} 		;1200sec
 {"np_bm31_guard"        ("vs_rus_g" c(60) v1(np_bm31) t(artillery heavyart rocket 44 45) 	s(rus_guard) n(2) g(c25) sc(80.00) b(v22) cw(0) cp(20)) {level 1} {cost 1450} {fore -19.0}} 		;1200sec
-
-
 
 ;같캛utton 3같�
 

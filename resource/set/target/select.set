@@ -1,0 +1,16 @@
+{selectors
+	(include "human_bullet.inc")
+	(include "human_ap.inc")
+	(include "human_fg.inc")
+	(include "human.inc")
+	(include "cannon_shell.inc")
+	(include "moto.inc")
+	(include "cannon_rocket.inc")
+	(include "cannon_bullet.inc")
+
+	(include "tank.inc")
+	(include "tank_bullet.inc")
+
+	(include "searchlight.inc")
+}
+ 

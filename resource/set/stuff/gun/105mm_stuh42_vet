@@ -1,5 +1,5 @@
 {from "105mm_stuh42"		; "stuh42"
-	{rechargeTime 14.0}
+	{rechargeTime 15.4}
 	{range 200 200}
 	("accuracy_grazinghowitzer_high_200m")
 }

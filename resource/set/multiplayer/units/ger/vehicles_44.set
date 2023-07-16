@@ -28,10 +28,6 @@
 {"2cm_flakvierling38" ("vs" c(30) t(44)		s(ger) n(4) g(c4) sc(12.5) b(v2) cw(2) cp(5)) {level 1} {cost 250} {fore -4.0}}			;150sec
 {"37mm_flak_36"     ("vs" c(30) t(44) 		s(ger) n(2) g(c5) sc(12.5) b(v2) cw(2) cp(5)) {level 1} {cost 250} {fore -5.0}}			;180sec
 
-{"light_mortar_ger" ("light_mortar" c(10) t(all 44 mortar) s(ger) g(c56) b(v2)) {level 1} {cost 110} {fore -2.0}}		;30sec
-{"sgrw_34"          ("vs" c(10) t(44 mortar) 	s(ger) n(2) g(c6) sc(16) b(v2) cw(2) cp(5)) {level 1} {cost 320} {fore -2.0}}		;30sec
-{"sgrw_42"          ("vs" c(60) t(44 mortar) 	s(ger) n(2) g(c7) sc(33.5) b(v2) cw(2) cp(10)) {level 1} {cost 670} {fore -9.0}}		;600sec
-
 {"pak38"            ("vs" c(10) t(44) 		s(ger) n(2) g(c9) sc(9) b(v2) cw(2) cp(5)) {level 1} {cost 180} {fore -14.0}}		;150sec
 {"np_pak40"         ("vs" c(20) t(medium 44) 	s(ger) n(2) g(c10) sc(20) b(v2) cw(2) cp(10)) {level 1} {cost 400} {fore -19.0}}		;400sec
 
@@ -47,6 +43,12 @@
 
 ;같캛utton support 2같� artillery guns
 
+{"light_mortar_ger" ("light_mortar" c(10) t(all 44 mortar) s(ger) g(c56) b(v22)) {level 1} {cost 110} {fore -2.0}}		;30sec
+{"sgrw_34"          ("vs" c(10) t(44 mortar) 	s(ger) n(2) g(c6) sc(16) b(v22) cw(2) cp(5)) {level 1} {cost 320} {fore -2.0}}		;30sec
+{"sgrw_42"          ("vs" c(60) t(44 mortar) 	s(ger) n(2) g(c7) sc(33.5) b(v22) cw(2) cp(10)) {level 1} {cost 670} {fore -9.0}}		;600sec
+
+{"np_sdkfz250_7"    ("vs" c(10) t(44 mortar) 	s(ger) n(4) g(d3) sc(18.5) b(v22) cw(0) cp(10)) {level 1} {cost 470} {fore -31.0}}		;320sec
+
 ("how" side(ger) name(how_b) c(60) c1(np_sdkfz8) c2(lefh18)  	t(artillery 44) g(cc2) b(v22) level(1) cost(500) f(-14.0))				;900sec
 ("how" side(ger) name(how_a) c(60) c1(np_sdkfz8) c2(sfh18) 	t(artillery heavyart heavy 44) g(cc3) b(v22) level(1) cost(750) f(-19.0))		;1200sec
 ("how" side(ger) name(morser18) c(60) c1(np_sdkfz8) c2(morser18) t(artillery heavyart heavy 44) s(ger) g(cc4) b(v22)  level(1) cost(1150) f(-19.0)) 	;1200sec
@@ -56,7 +58,6 @@
 {"np_sdkfz251_1w"   ("vs" c(60) t(artillery heavyart rocket 44) s(ger) n(3) g(cc7) sc(75) b(v22) cw(0) cp(15)) {level 1} {cost 1600} {fore -19.0}}	;1200sec
 
 
-{"np_sdkfz250_7"    ("vs" c(10) t(44 mortar) 	s(ger) n(4) g(d3) sc(18.5) b(v22) cw(0) cp(10)) {level 1} {cost 370} {fore -31.0}}		;320sec
 {"grille"       ("v" c(60) t(artillery 44) 	s(ger) n1(4) n2(1) g(cc12) sc(42.5) b(v22) cw(0) cp(15)) {level 1} {cost 850} {fore -14.0}}			;900sec
 {"wespe"        ("v" c(60) t(artillery 44) 			s(ger) n1(3) n2(1) g(cc8) sc(40) b(v22) cw(0) cp(15)) {level 1} {cost 675} {fore -14.0}}	;900sec
 {"hummel"       ("v" c(60) t(artillery heavyart heavy 44) 	s(ger) n1(3) n2(1) g(cc9) sc(57.5) b(v22) cw(0) cp(20)) {level 1} {cost 1150} {fore -19.0}}	;1200sec
@@ -95,7 +96,7 @@
 {"pz6bh"            ("v" c(120) t(44 sheavy) 		s(ger) n1(4) n2(1) g(e19) sc(137.50) b(v4) cw(0) cp(40)) {level 1} {cost 2450} {fore -19.25}} 	;2430sec
 
 ;같캛utton 5같�
-{"np_sdkfz234_4"    ("v" c(10) t(45)   	s(ger) n1(2) n2(1) g(d18) sc(23.75) b(v3) cw(0) cp(10)) {level 1} {cost 500} {fore -62.0}}	;630sec
+{"np_sdkfz234_4"    ("v" c(10) t(45)   	s(ger) n1(2) n2(1) g(d18) sc(23.75) b(v5) cw(0) cp(10)) {level 1} {cost 500} {fore -62.0}}	;630sec
 
 {"marder_3m"        ("v" c(10) t(medium 44) 	s(ger) n1(3) n2(1) g(f0) sc(25) b(v5) cw(0) cp(12)) {level 1} {cost 450} {fore -74.0}} 	;750sec
 

@@ -1,4 +1,4 @@
-{from "pattern gun"       ; sturmpz1 / sig33
+{from "pattern gun"       ; sturmpz1 
 	{filling "bullet150 gers"}
 	{fireSound "gun/howitzer/150mm_sfh18"}
 	{reloadSound "gun_r04"}

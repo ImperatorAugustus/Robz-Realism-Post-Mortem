@@ -11,4 +11,12 @@
        		("damage_heat" a(185) range(190))
 	}
 	("accuracy_grazinghowitzer_190m")
+	(mod "mp"
+		{tag "prepare"}
+		{Special
+			{Mode aim}
+			{PrepareTime 0.1}
+			{PrepareCursor "cannon_shot"}
+		}
+	)
 }

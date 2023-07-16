@@ -28,10 +28,6 @@
 {"2cm_flakvierling38_ss"("vs_ss_noinfo" c(30) v1(2cm_flakvierling38) t(all 39 40 41 42 43 44 45) s(ger_ss) n(4) g(c4) b(v2)) {level 1} {cost 250} {fore -4.0}}	;150sec
 {"37mm_flak_36_ss"	("vs_ss_noinfo" c(30) v1(37mm_flak_36) t(all 39 40 41 42 43 44 45) s(ger_ss) n(2) g(c5) b(v2)) {level 1} {cost 250} {fore -5.0}}	;180sec
 
-{"5_cm_granatwerfer_36_ss" ("light_mortar" c(10) t(all 44 mortar) s(ger_ss) g(c56) b(v2)) {level 1} {cost 110} {fore -2.0}}		;30sec
-{"sgrw_34_ss"		("vs_ss" c(10) v1(sgrw_34) t(all 39 40 41 42 43 44 45 mortar) s(ger_ss) n(2) g(c6) b(v2)) {level 1} {cost 320} {fore -2.0}}		;30sec
-{"sgrw_42_ss"		("vs_ss" c(60) v1(sgrw_42) t(all 42 43 44 45 mortar) s(ger_ss) n(2) g(c7) b(v2)) {level 1} {cost 670} {fore -9.0}}			;600sec
-
 {"pak38_ss"		("vs_ss" c(10) v1(pak38) t(all 40 41 42 43 44 45) s(ger_ss) n(2) g(c9) b(v2)) {level 1} {cost 180} {fore -14.0}}			;300sec
 {"np_pak40_ss"		("vs_ss" c(20) v1(np_pak40) t(all medium 42 43 44 45) s(ger_ss) n(2) g(c10) b(v2)) {level 1} {cost 400} {fore -19.0}}			;400sec
 
@@ -47,6 +43,12 @@
 
 ;°°°Button support 2°°° artillery guns
 
+{"5_cm_granatwerfer_36_ss" ("light_mortar" c(10) t(all 44 mortar) s(ger_ss) g(c56) b(v22)) {level 1} {cost 110} {fore -2.0}}		;30sec
+{"sgrw_34_ss"		("vs_ss" c(10) v1(sgrw_34) t(all 39 40 41 42 43 44 45 mortar) s(ger_ss) n(2) g(c6) b(v22)) {level 1} {cost 320} {fore -2.0}}		;30sec
+{"sgrw_42_ss"		("vs_ss" c(60) v1(sgrw_42) t(all 42 43 44 45 mortar) s(ger_ss) n(2) g(c7) b(v22)) {level 1} {cost 670} {fore -9.0}}			;600sec
+
+{"np_sdkfz250_7_ss"	("vs_ss" c(10) v1(np_sdkfz250_7) t(all 39 40 41 42 43 44 45 mortar) s(ger_ss) n(4) g(d3) b(v22)) {level 1} {cost 470} {fore -31.0}}	;320sec
+
 {"flak18a_ss"		("vs_ss" c(60) v1(flak18a) t(all artillery 39 40 41 42 43 44 45) s(ger_ss) n(2) g(cc1) b(v22)) {level 1} {cost 700} {fore -14.0}}		;900sec
 
 ("how" side(ger_ss) name(how_b) c(60) c1(np_sdkfz8) c2(lefh18)  	t(all artillery 39 40 41 42 43 44 45) g(cc2) b(v22) level(1) cost(500) f(-14.0))		;900sec
@@ -57,7 +59,6 @@
 {"nebelwerfer42_ss"	("vs_ss" c(60) v1(nebelwerfer42) t(all artillery heavyart rocket 42 43 44 45) s(ger_ss) n(2) g(cc6) b(v22)) {level 1} {cost 1200} {fore -14.0}}	;900sec
 {"np_sdkfz251_1w_ss"	("vs_ss" c(60) v1(np_sdkfz251_1w) t(all artillery heavyart rocket 41 42 43 44 45) s(ger_ss) n(3) g(cc7) b(v22)) {level 1} {cost 1600} {fore -19.0}};1200sec
 
-{"np_sdkfz250_7_ss"	("vs_ss" c(10) v1(np_sdkfz250_7) t(all 39 40 41 42 43 44 45 mortar) s(ger_ss) n(4) g(d3) b(v22)) {level 1} {cost 370} {fore -31.0}}	;320sec
 {"wespe_ss"		("v_ss" c(60) v1(wespe) t(all artillery 43 44 45) s(ger_ss) n1(3) n2(1) g(cc8) b(v22)) {level 1} {cost 675} {fore -14.0}}	;900sec
 {"hummel_ss"		("v_ss" c(60) v1(hummel) t(all artillery heavyart heavy 43 44 45) s(ger_ss) n1(3) n2(1) g(cc9) b(v22)) {level 1} {cost 1150} {fore -19.0}}	;1200sec
 {"sdkfz4_ss"		("v_ss" c(60) v1(sdkfz4) t(all artillery heavyart rocket 44 45) s(ger_ss) n1(2) n2(0) g(cc10) b(v22)) {level 1} {cost 650} {fore -19.0}}	;1200sec
@@ -67,10 +68,14 @@
 {"np_sdkfz251_10_ss"	("vs_ss" c(10) v1(np_sdkfz251_10) t(all 39 40 41 42 43 44 45) 	s(ger_ss) n(4) g(d2) b(v3)) {level 1} {cost 200} {fore -23.0}}		;240sec
 {"np_sdkfz250_9_ss"	("vs_ss" c(10) v1(np_sdkfz250_9) t(all 39 40 41 42 43 44 45) 	s(ger_ss) n(3) g(d4) b(v3)) {level 1} {cost 210} {fore -31.0}}		;320sec
 {"np_sdkfz251_9_ss"	("vs_ss" c(10) v1(np_sdkfz251_9) t(all 39 40 41 42 43 44 45) s(ger_ss) n(3) g(d6) b(v3)) {level 1} {cost 280} {fore -36.0}}		;370sec
+
 {"sdkfz223_ss"		("v_ss" c(10) v1(sdkfz223) t(all 39 40 41 42 43 44 45) s(ger_ss) n1(1) n2(1) g(d8) b(v3)) {level 1} {cost 165} {fore -31.0}}		;320sec
 {"sdkfz222_ss"		("v_ss" c(10) v1(sdkfz222) t(all 39 40 41 42 43 44 45) s(ger_ss) n1(1) n2(1) g(d10) b(v3)) {level 1} {cost 245} {fore -37.0}}		;380sec
+
 {"pz2l_ss"		("v_ss" c(10) v1(pz2l) t(all 43 44 45) s(ger_ss) n1(2) n2(1) g(d12) b(v3)) {level 1} {cost 235} {fore -41.0}}				;420sec
+
 {"np_sdkfz231_ss"	("v_ss" c(10) v1(np_sdkfz231) t(all 39 40 41 42 43 44 45) s(ger_ss) n1(2) n2(1) g(d14) b(v3)) {level 1} {cost 245} {fore -39.0}}	;400sec
+
 {"np_sdkfz234_1_ss"	("v_ss" c(10) v1(np_sdkfz234_1) t(all 44 45) s(ger_ss) n1(2) n2(1) g(d15) b(v3)) {level 1} {cost 265} {fore -41.0}}			;420sec
 {"sdkfz234_ss"		("v_ss" c(10) v1(sdkfz234) t(all 44 45) s(ger_ss) n1(2) n2(1) g(d16) b(v3)) {level 1} {cost 315} {fore -52.0}}	;530sec
 {"np_sdkfz234_3_ss"	("v_ss" c(10) v1(np_sdkfz234_3) t(all 44 45) s(ger_ss) n1(2) n2(1) g(d17) b(v3)) {level 1} {cost 315} {fore -52.0}}	;530sec

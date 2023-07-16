@@ -29,11 +29,6 @@
 {"dshk_stank"       ("vs" c(10) t(all 44 45) 	s(rus) n(2) g(c5) sc(10.00) b(v2) cw(2) cp(5)) {level 1} {cost 190} {fore -2.0}}		;30sec
 {"dshk_zenit"       ("vs" c(10) t(all 44 45) 	s(rus) n(2) g(c6) sc(10.00) b(v2) cw(2) cp(5)) {level 1} {cost 190} {fore -2.0}}		;30sec
 
-{"bm_37"            ("vs_seq" c(10) t(all 44 45 mortar) s(rus) n(2) g(c7) i(1) sc(17.50) b(v2) cw(2) cp(5)) {level 1} {cost 350} {fore -2.0}}	;30sec
-{"bm_37x2"          ("vs2_seq" c(10) t(all 44 45 mortar) v1(bm_37) v2(bm_37) s(rus) n(2) g(c7) i(1) sc(17.50) b(v2) cw(2) cp(5)) {level 1} {cost 350} {fore -2.0}}	;30sec
-
-{"pm_38"            ("vs" c(60) t(all 44 45 mortar) s(rus) n(2) g(c8) sc(34.50) b(v2) cw(2) cp(10)) {level 1} {cost 690} {fore -9.0}}	;600sec
-
 ("how" side(rus) name(how_aa) c(30) c1(t20) c2(k61)  	t(all medium 44 45) g(c14) b(v2) level(1) cost(250) f(-6.0))				;210sec
 
 
@@ -52,6 +47,12 @@
 {"su152"            ("v" c(120) t(artillery all heavy 44 45) 	s(rus) n1(3) n2(1) g(c19) sc(45.00) b(v2) cw(0) cp(15)) {level 1} {cost 750} {fore -9.167}}	;1220sec
 {"isu152"           ("v" c(120) t(artillery all heavy 44 45) 	s(rus) n1(4) n2(1) g(c20) sc(50.00) b(v2) cw(0) cp(20)) {level 1} {cost 900} {fore -9.167}}	;1220sec
 
+;같캛utton support 2같� artillery guns
+
+{"bm_37"            ("vs_seq" c(10) t(all 44 45 mortar) s(rus) n(2) g(c7) i(1) sc(17.50) b(v22) cw(2) cp(5)) {level 1} {cost 350} {fore -2.0}}	;30sec
+{"bm_37x2"          ("vs2_seq" c(10) t(all 44 45 mortar) v1(bm_37) v2(bm_37) s(rus) n(2) g(c7) i(1) sc(17.50) b(v22) cw(2) cp(5)) {level 1} {cost 350} {fore -2.0}}	;30sec
+
+{"pm_38"            ("vs" c(60) t(all 44 45 mortar) s(rus) n(2) g(c8) sc(34.50) b(v22) cw(2) cp(10)) {level 1} {cost 690} {fore -9.0}}	;600sec
 
 ("how" side(rus) name(how_b) c(60) c1(zis5art) c2(m30_1938) t(all artillery 44 45) g(c15) b(v22) level(1) cost(500) f(-14.0))			;900sec
 ("how" side(rus) name(np_ml20) c(60) c1(zis5art) c2(np_ml20) t(all artillery heavyart heavy 44 45) g(c22) b(v22) level(1) cost(875) f(-19.0))	;1200sec
@@ -63,8 +64,6 @@
 {"bm8-48"           ("vs" c(60) t(artillery heavyart rocket 44 45) 	s(rus) n(2) g(c23) sc(32.50) b(v22) cw(0) cp(10)) {level 1} {cost 650} {fore -14.0}} ;900sec
 {"bm13"             ("vs" c(60) t(artillery heavyart rocket 44 45) 	s(rus) n(2) g(c24) sc(42.50) b(v22) cw(0) cp(20)) {level 1} {cost 850} {fore -19.0}} ;1200sec
 {"np_bm31"          ("vs" c(60) t(artillery heavyart rocket 44 45) 	s(rus) n(2) g(c25) sc(62.50) b(v22) cw(0) cp(20)) {level 1} {cost 1450} {fore -19.0}} ;1200sec
-
-
 
 ;같캛utton 3같�
 

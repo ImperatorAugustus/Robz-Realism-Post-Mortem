@@ -35,19 +35,19 @@
 
 {"oerlikon"         ("vs" c(30) t(all 43 44 45) s(eng) n(1) g(c3) sc(8.50) b(v2) cw(2) cp(5)) {level 1} {cost 170} {fore -4.0}}			;150sec
 
-{"light_mortar_eng"     ("light_mortar" c(10) t(all 43 44 45 mortar) s(eng) g(c4) b(v2)) {level 1} {cost 170} {fore -2.0}}		;30sec
-{"ml_3_inch_mk_ii"  ("vs" c(10) t(all 43 44 45 mortar) s(eng) n(2) g(c5) sc(17.00) b(v2) cw(2) cp(5)) {level 1} {cost 340} {fore -2.0}}		;30sec
-{"4_2_inch_mk_ii"   ("vs" c(60) t(all 43 44 45 mortar) s(eng) n(2) g(c6) sc(31.00) b(v2) cw(2) cp(10)) {level 1} {cost 620} {fore -9.0}}	;600sec
-
-{"gun_carrier_3_inch" ("vs" c(10) t(all 43 44 45 mortar) 	s(eng) n(4) g(c16) sc(19.50) b(v22) cw(0) cp(10)) {level 1} {cost 390} {fore -31.0}}		;320sec
-
 {"qf2"       	    ("vs" c(10) t(all 43 44 45) 	s(eng) n(2) g(c7) sc(11.25)  b(v2) cw(2) cp(5)) {level 1} {cost 225} {fore -2.0}}		;30sec
 {"qf6"              ("vs" c(20) t(all 44 45) 		s(eng) n(2) g(c9) sc(17.50) b(v2) cw(2) cp(10)) {level 1} {cost 350} {fore -14.0}}		;300sec
 {"qf17"             ("vs" c(30) t(all medium 44 45) 	s(eng) n(2) g(c11) sc(30.00) b(v2) cw(2) cp(15)) {level 1} {cost 600} {fore -29.0}}		;900sec
 
 ("how" side(eng) name(how_aa) c(60) c1(universal_carrier) c2(vickers) 	t(heavyaa all medium 43 44 45) g(c12) b(v2) level(1) cost(600) f(-14.0))		;900sec
 
+;같캛utton support 2같� artillery guns
 
+{"light_mortar_eng"     ("light_mortar" c(10) t(all 43 44 45 mortar) s(eng) g(c4) b(v22)) {level 1} {cost 170} {fore -2.0}}		;30sec
+{"ml_3_inch_mk_ii"  ("vs" c(10) t(all 43 44 45 mortar) s(eng) n(2) g(c5) sc(17.00) b(v22) cw(2) cp(5)) {level 1} {cost 340} {fore -2.0}}		;30sec
+{"4_2_inch_mk_ii"   ("vs" c(60) t(all 43 44 45 mortar) s(eng) n(2) g(c6) sc(31.00) b(v22) cw(2) cp(10)) {level 1} {cost 620} {fore -9.0}}	;600sec
+
+{"gun_carrier_3_inch" ("vs" c(10) t(all 43 44 45 mortar) 	s(eng) n(4) g(c16) sc(19.50) b(v22) cw(0) cp(10)) {level 1} {cost 490} {fore -31.0}}		;320sec
 
 ("how" side(eng) name(how_b) c(60) c1(universal_carrier) c2(pdr25) 	t(all artillery 43 44 45) g(c13) b(v22) level(1) cost(400) f(-14.0))			;900sec
 ("how" side(eng) name(bl45) c(60) c1(universal_carrier) c2(bl45) 	t(all artillery 43 44 45) g(c14) b(v22) level(1) cost(650) f(-14.0))			;900sec
@@ -58,8 +58,6 @@
 {"m7_eng"           ("v" c(60) t(all artillery 43 44 45) 	s(eng) n1(3) n2(1) g(c18) sc(42.50) b(v22) cw(0) cp(15)) {level 1} {cost 850} {fore -14.0}}	;900sec
 
 ("how" side(eng) name(land_mattress) c(60) c1(universal_carrier) c2(land_mattress)   t(all artillery heavyart rocket 44 45) g(c19) b(v22) level(1) cost(750) f(-19.0));1200sec
-
-
 
 ;같캛utton 3같�
 

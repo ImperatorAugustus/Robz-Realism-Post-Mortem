@@ -19,4 +19,12 @@
         	("damage" a(175) b(162) c(149) d(138) e(125) range(210))
 	}
 	("accuracy_grazinghowitzer_210m")
+	(mod "mp"
+		{tag "prepare"}
+		{Special
+			{Mode aim}
+			{PrepareTime 0.1}
+			{PrepareCursor "cannon_shot"}
+		}
+	)
 }

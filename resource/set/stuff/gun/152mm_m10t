@@ -12,4 +12,12 @@
 	{parameters "apcr"
         ("damage_170" a(135) b(125) c(112) d(102) e(85) range(200))
 	}
+	(mod "mp"
+		{tag "prepare"}
+		{Special
+			{Mode aim}
+			{PrepareTime 0.1}
+			{PrepareCursor "cannon_shot"}
+		}
+	)
 }

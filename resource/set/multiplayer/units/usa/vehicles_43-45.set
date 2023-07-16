@@ -10,7 +10,7 @@
 {"np_willysat"      	("vs" c(60) t(all 42 43 44 45) 	s(usa) n(2) g(b2) sc(10.00) b(v1) cw(0) cp(0)) {level 1} {cost 200} {fore -5.0}}	;300sec
 
 {"m3_usa"           	("vs_seq" c(10) t(all 42 43 44 45) 	s(usa) n(2) g(b3) sc(10.00) b(v1) i(3) cw(0) cp(0)) {level 1} {cost 175} {fore -23.0}}	;240sec
-{"m3_usax2"           	("vs2_seq" c(10) t(all 42 43 44 45) 	s(usa) n(2) g(b3) sc(10.00) b(v1) i(3) cw(0) cp(0)) {level 1} {cost 175} {fore -23.0}}	;240sec
+{"m3_usax2"           	("vs2_seq" c(10) t(all 42 43 44 45) v1(m3_usa) v2(m3_usa) 	s(usa) n(2) g(b3) sc(10.00) b(v1) i(3) cw(0) cp(0)) {level 1} {cost 175} {fore -23.0}}	;240sec
 
 {"m2halftrack"          ("vs" c(10) t(all 42 43 44 45) 	s(usa) n(4) g(b3) sc(10.00) b(v1) cw(0) cp(0)) {level 1} {cost 185} {fore -23.0}}	;240sec
 
@@ -34,11 +34,6 @@
 
 {"maxson"           	("vs" c(30) t(all 43 44 45) 	s(usa) n(1) g(c2) sc(10.00) b(v2) cw(2) cp(5)) {level 1} {cost 200} {fore -4.0}}			;150sec
 
-{"60mm_brandt_usa"      ("vs" c(10) t(all 42 43 44 45 mortar) 	s(usa) n(1) g(c14) sc(11.00) b(v2) cw(2) cp(5)) {level 1} {cost 220} {fore -2.0}}		;30sec
-{"81mm_brandt_usa"      ("vs" c(10) t(all 42 43 44 45 mortar) 	s(usa) n(2) g(c3) sc(19.25) b(v2) cw(2) cp(5)) {level 1} {cost 385} {fore -2.0}}		;30sec
-{"4_2_inch_mortar_m_2"  ("vs" c(60) t(all 43 44 45 mortar) 	s(usa) n(2) g(c18) sc(30.00) b(v2) cw(2) cp(10)) {level 1} {cost 600} {fore -9.0}}		;600sec
-{"m4halftrack"      ("vs" c(10) t(all 42 43 44 45 mortar) 		s(usa) n(5) g(c12) sc(21.75) b(v22) cw(0) cp(10)) {level 1} {cost 435} {fore -31.0}}		;320sec
-
 {"m3cannon"         ("vs" c(10) t(all 42 43 44 45) 	s(usa) n(2) g(c4) sc(8.75)  b(v2) cw(2) cp(5)) {level 1} {cost 150} {fore -2.0}}		;30sec
 {"m1_57mm"          ("vs" c(20) t(all 42 43 44 45) 	s(usa) n(2) g(c5) sc(15.00) b(v2) cw(2) cp(10)) {level 1} {cost 300} {fore -14.0}}		;300sec
 {"np_m5cannon"      ("vs" c(20) t(all medium 44 45) 	s(usa) n(2) g(c6) sc(20.00) b(v2) cw(2) cp(15)) {level 1} {cost 400} {fore -19.0}}		;400sec
@@ -47,8 +42,21 @@
 
 {"m8_howitzer"      ("vs" c(60) t(artillery all 42 43 44 45) s(usa) n(2) g(c13) sc(16.00) b(v2) cw(2) cp(5)) {level 1} {cost 320} {fore -1.0}}		;120sec
 
+;같캛utton support 2같� artillery guns
+
+{"60mm_brandt_usa"      ("vs" c(10) t(all 42 43 44 45 mortar) 	s(usa) n(1) g(c14) sc(11.00) b(v22) cw(2) cp(5)) {level 1} {cost 220} {fore -2.0}}		;30sec
+{"81mm_brandt_usa"      ("vs" c(10) t(all 42 43 44 45 mortar) 	s(usa) n(2) g(c3) sc(19.25) b(v22) cw(2) cp(5)) {level 1} {cost 385} {fore -2.0}}		;30sec
+{"4_2_inch_mortar_m_2"  ("vs" c(60) t(all 43 44 45 mortar) 	s(usa) n(2) g(c18) sc(30.00) b(v22) cw(2) cp(10)) {level 1} {cost 600} {fore -9.0}}		;600sec
+
+{"m4halftrack"      ("vs" c(10) t(all 42 43 44 45 mortar) 		s(usa) n(5) g(c12) sc(21.75) b(v22) cw(0) cp(10)) {level 1} {cost 535} {fore -31.0}}		;320sec
+
 ("how" side(usa) name(how_b) c(60) c1(gmc_art) c2(m2a1l) t(all 42 43 44 45 artillery) g(c8) b(v22) level(1) cost(495) f(-14.0))				;900sec
+{"np_t19"           ("v" c(60) t(all 42 43 44 45 artillery) 		s(usa) n1(5) n2(0) g(c13) sc(40.00) b(v22) cw(0) cp(15)) {level 1} {cost 720} {fore -14.0}} 	;900sec
+{"m7"               ("v" c(60) t(all 42 43 44 45 artillery) 	s(usa) n1(3) n2(1) g(c14) sc(42.50) b(v22) cw(0) cp(15)) {level 1} {cost 765} {fore -14.0}}	;900sec
+
 ("how" side(usa) name(how_a) c(60) c1(gmc_art) c2(m114)  t(all 42 43 44 45 artillery heavyart) g(c9) b(v22) level(1) cost(720) f(-19.0))			;1200sec
+{"m12gmc"           ("v" c(60) t(all 42 43 44 45 artillery heavyart heavy) s(usa) n1(3) n2(1) g(c15) sc(62.50) b(v22) cw(0) cp(20)) {level 1} {cost 1125} {fore -19.0}}	;1200sec
+
 ("how" side(usa) name(longtom_155mm) c(60) c1(gmc_art) c2(longtom_155mm)  t(all 42 43 44 45 artillery heavyart) g(c10) b(v22) level(1) cost(900) f(-19.0))	;1200sec
 ("how" side(usa) name(m115) c(60) c1(gmc_art) c2(m115)  t(all 42 43 44 45 artillery heavyart) g(c11) b(v22) level(1) cost(990) f(-19.0))		;1200sec
 
@@ -57,13 +65,7 @@
 {"longtom_155mm_vet"("vs" c(60) t(all 42 43 44 45 artillery heavyart) 	s(usa) n(2) g(c100) sc(60.00) b(v22) cw(0) cp(25)) {level 1} {cost 1320} {fore -24.0}}		;1500sec
 {"m115_vet"      	("vs" c(60) t(all 42 43 44 45 artillery heavyart) 	s(usa) n(2) g(c111) sc(69.50) b(v22) cw(0) cp(25)) {level 1} {cost 1420} {fore -24.0}}		;1500sec
 
-{"np_t19"           ("v" c(60) t(all 42 43 44 45 artillery) 		s(usa) n1(5) n2(0) g(c13) sc(40.00) b(v22) cw(0) cp(15)) {level 1} {cost 720} {fore -14.0}} 	;900sec
-{"m7"               ("v" c(60) t(all 42 43 44 45 artillery) 	s(usa) n1(3) n2(1) g(c14) sc(42.50) b(v22) cw(0) cp(15)) {level 1} {cost 765} {fore -14.0}}	;900sec
-{"m12gmc"           ("v" c(60) t(all 42 43 44 45 artillery heavyart heavy) s(usa) n1(3) n2(1) g(c15) sc(62.50) b(v22) cw(0) cp(20)) {level 1} {cost 1125} {fore -19.0}}	;1200sec
 {"m4a3c"            ("v"  c(60) t(all 43 44 45 artillery heavyart rocket) s(usa) n1(3) n2(1) g(c16) sc(45.00) b(v22) cw(0) cp(20)) {level 1} {cost 900} {fore -19.0}}	;1200sec
-
-
-
 
 ;같캛utton 3같�
 {"m16"      	    ("vs" c(10) t(all 43 44 45) 	s(usa) n(3) g(d5) sc(11.25) b(v3) cw(0) cp(5)) {level 1} {cost 250} {fore -35.0}}	;360sec

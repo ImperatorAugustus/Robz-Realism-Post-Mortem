@@ -23,29 +23,28 @@
 {"type92_stan"      ("vs" c(10) t(all cannon 42 43 44 45) 		s(jap) n(2) g(c1) sc(6.00)  b(v2) cw(2) cp(5)) {level 1} {cost 110} {fore -2.0}}	;30sec
 
 {"type2_20mm"       ("vs" c(30) t(all cannon 42 43 44 45) 		s(jap) n(1) g(c2) sc(9.00) b(v2) cw(2) cp(5)) {level 1} {cost 180} {fore -4.0}}		;150sec
-{"isuzutx40_aa"     ("vs" c(10) t(all light 42 43 44 45) s(jap) n(4) g(d6) sc(12.00) b(v3) cw(0) cp(5)) {level 1} {cost 200} {fore -27.0}}	;280sec
-
-{"type97mortar"	    ("vs" c(10) t(all cannon mortar 42 43 44 45) 	s(jap) n(2) g(c3) sc(19.50) b(v2) cw(2) cp(5)) {level 1} {cost 390} {fore -2.0}}	;30sec
-{"isuzutx40_mort"   ("vs" c(10) t(all 42 43 44 45 mortar) 	s(jap) n(3) g(b2) sc(17.50) b(v1) cw(0) cp(0)) {level 1} {cost 350} {fore -31.0}}	;320sec
-{"type_97_150mm"    ("vs" c(60) t(all cannon mortar 42 43 44 45) 	s(jap) n(2) g(c4) sc(29.50) b(v2) cw(2) cp(15)) {level 1} {cost 590} {fore -9.0}}	;600sec
-
-{"type4_200mm"	    ("vs" c(60) t(all cannon mortar artillery heavycan 43 44 45) s(jap) n(2) g(c14) sc(30.00) b(v2) cw(2) cp(15)) {level 1} {cost 600} {fore -14.0}}	;900sec
+{"isuzutx40_aa"     ("vs" c(10) t(all light 42 43 44 45) s(jap) n(4) g(d6) sc(12.00) b(v2) cw(0) cp(5)) {level 1} {cost 200} {fore -27.0}}	;280sec
 
 {"pak47"            ("vs" c(0) t(all cannon 42 43 44 45) 		s(jap) n(2) g(c5) sc(11.50)  b(v2) cw(2) cp(5)) {level 1} {cost 150} {fore 1.0}}	;0sec
 {"t90_75m"          ("vs" c(20) t(all canonn heavycan 42 43 44 45) 	s(jap) n(2) g(c7) sc(15.00) b(v2) cw(2) cp(10)) {level 1} {cost 270} {fore -19.0}}	;400sec
+("how" side(jap) name(how_aa) c(30) c1(isuzutx40art) c2(type4_75mm) t(all cannon heavycan 44 45) g(c8) b(v2) level(1) cost(600) f(-19.0))			;600sec
 
 {"type41_mountaingun" ("vs" c(60) t(all artillery 42 43 44 45) s(jap) n(2) g(c15) sc(15.00) b(v2) cw(2) cp(10)) {level 1} {cost 300} {fore -2.0}}		;180sec
 
-("how" side(jap) name(how_aa) c(30) c1(isuzutx40art) c2(type4_75mm) t(all cannon heavycan 44 45) g(c8) b(v2) level(1) cost(600) f(-19.0))			;600sec
+;같캛utton support 2같� artillery guns
 
-("how" side(jap) name(how_b) c(60) c1(isuzutx40art) c2(t91_105m) t(all artillery 42 43 44 45) g(c9) b(v2) level(1) cost(450) f(-14.0))				;900sec
-("how" side(jap) name(how_a) c(60) c1(isuzutx40art) c2(type96_150mm) t(all artillery heavyart 42 43 44 45) g(c10) b(v2) level(1) cost(650) f(-19.0))		;1200sec
+{"type97mortar"	    ("vs" c(10) t(all cannon mortar 42 43 44 45) 	s(jap) n(2) g(c3) sc(19.50) b(v22) cw(2) cp(5)) {level 1} {cost 390} {fore -2.0}}	;30sec
+{"isuzutx40_mort"   ("vs" c(10) t(all 42 43 44 45 mortar) 	s(jap) n(3) g(b2) sc(17.50) b(v22) cw(0) cp(0)) {level 1} {cost 350} {fore -31.0}}	;320sec
+{"type_97_150mm"    ("vs" c(60) t(all cannon mortar 42 43 44 45) 	s(jap) n(2) g(c4) sc(29.50) b(v22) cw(2) cp(15)) {level 1} {cost 590} {fore -9.0}}	;600sec
 
-{"ho-ni2"           ("v" c(60) t(all artillery 43 44 45)		s(jap) n1(2) n2(1) g(11) sc(40.50) b(v2) cw(0) cp(15)) {level 1} {cost 650} {fore -14.0}}	;900sec
-{"ho-ro"            ("v" c(60) t(all artillery heavyart 43 44 45)	s(jap) n1(2) n2(1) g(12) sc(40.00) b(v2) cw(0) cp(20)) {level 1}  {cost 800} {fore -14.0}}	;1200sec
-{"ha-to"            ("vs" c(600) t(all artillery heavyart 43 44 45) 	s(jap) n(5) g(13) sc(65.00) b(v2) cw(0) cp(20)) {level 1} {cost 1300} {fore -1.0}}		;1200sec
+{"type4_200mm"	    ("vs" c(60) t(all cannon mortar artillery heavycan 43 44 45) s(jap) n(2) g(c14) sc(30.00) b(v22) cw(2) cp(15)) {level 1} {cost 600} {fore -14.0}}	;900sec
 
+("how" side(jap) name(how_b) c(60) c1(isuzutx40art) c2(t91_105m) t(all artillery 42 43 44 45) g(c9) b(v22) level(1) cost(450) f(-14.0))				;900sec
+("how" side(jap) name(how_a) c(60) c1(isuzutx40art) c2(type96_150mm) t(all artillery heavyart 42 43 44 45) g(c10) b(v22) level(1) cost(650) f(-19.0))		;1200sec
 
+{"ho-ni2"           ("v" c(60) t(all artillery 43 44 45)		s(jap) n1(2) n2(1) g(11) sc(40.50) b(v22) cw(0) cp(15)) {level 1} {cost 650} {fore -14.0}}	;900sec
+{"ho-ro"            ("v" c(60) t(all artillery heavyart 43 44 45)	s(jap) n1(2) n2(1) g(12) sc(40.00) b(v22) cw(0) cp(20)) {level 1}  {cost 800} {fore -14.0}}	;1200sec
+{"ha-to"            ("vs" c(600) t(all artillery heavyart 43 44 45) 	s(jap) n(5) g(13) sc(65.00) b(v22) cw(0) cp(20)) {level 1} {cost 1300} {fore -1.0}}		;1200sec
 
 ;같캛utton 3같�
 

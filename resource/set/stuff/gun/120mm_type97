@@ -11,4 +11,12 @@
 	{rechargeTime 20.9}
 	{speed 290}
 	("caliber_maximum")
+	(mod "mp"
+		{tag "prepare"}
+		{Special
+			{Mode aim}
+			{PrepareTime 0.1}
+			{PrepareCursor "cannon_shot"}
+		}
+	)
 }

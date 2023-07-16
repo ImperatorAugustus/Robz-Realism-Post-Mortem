@@ -13,6 +13,8 @@ lg40
 lg42
 aiming time to other spgs to prevent far shooting
 sexton to mp
+molotovs to partisans
+model for m3 carbine
 
 fix
 open top vehicle holes

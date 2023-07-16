@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "$/flora/new_europe_tree"}
+	{bump "$/flora/new_europe_tree_bp"}
+	{color "229 229 229 50"}
+	{blend test}
+}

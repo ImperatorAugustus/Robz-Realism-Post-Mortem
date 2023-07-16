@@ -1,0 +1,7 @@
+{actor
+	(include "/properties/stuff_small.ext")
+	{Extension "gebirgsjaeger_rucksack.mdl"}
+	{extender "stuff"
+		{item "gebirgsjaeger_rucksack"}
+	}
+}

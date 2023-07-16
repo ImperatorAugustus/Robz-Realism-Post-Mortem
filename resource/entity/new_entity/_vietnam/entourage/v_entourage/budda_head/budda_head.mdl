@@ -1,0 +1,32 @@
+;Exported by: Loskutov_K
+;Date:        Thu Dec 03 15:02:20 2009
+;File:        D:\_Vietnam\Models\Anturage\Budda_Head\bh.max
+{Skeleton
+	{bone "body"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "body.ply"}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -0.39798 0.559054}
+		{Extent 13.0278 8.78391}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Cylinder 10.1428 25.3963}
+	{Bone "body"}
+	{Matrix34
+		-0.0331922	0	-0.999449
+		0	1	0
+		0.999449	0	-0.0331922
+		-0.397978	-0.559055	8.75893
+	}
+}

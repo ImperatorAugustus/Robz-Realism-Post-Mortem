@@ -1,0 +1,38 @@
+;Exported by: Loskutov_K
+;Date:        Thu Apr 08 15:06:31 2010
+;File:        D:\_Vietnam\Art\Models\Anturage\utvar\x\korzina_2clothes_x\korzina_2clothes_x.max
+{Skeleton
+	{bone "korzina_2clothes_x"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "piece01"
+			{Position 3.10666	-0.0879822	3.80748}
+			{VolumeView "piece01.ply"}
+		}
+		{bone "piece02"
+			{Position 0.315277	-0.0879822	11.6801}
+			{VolumeView "piece02.ply"}
+		}
+		{bone "fx_wood1a"
+			{Position -0.0397339	-0.0655518	-4.05577}
+		}
+	}
+}
+{Volume "piece01"
+	{Polyhedron "piece01.vol"}
+	{Bone "piece01"}
+	{Position -0.0397339	-0.0655518	-4.05577}
+}
+{Volume "piece02"
+	{Polyhedron "piece02.vol"}
+	{Bone "piece02"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		2.39526	0.0222168	-3.08893
+	}
+}

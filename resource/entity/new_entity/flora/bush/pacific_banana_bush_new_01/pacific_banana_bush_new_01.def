@@ -1,0 +1,6 @@
+{
+	(include "/properties/bush.inc")
+	{Extension "pacific_banana_bush_new_01.mdl"}
+	{props "delete_after_burn" "stamp" "delete_after_blast"}
+	{NoGroupMesh 1}
+}

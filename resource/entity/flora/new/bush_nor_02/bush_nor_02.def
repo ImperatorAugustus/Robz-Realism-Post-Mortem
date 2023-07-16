@@ -1,0 +1,7 @@
+{game_entity
+	(include "/properties/bush.inc")
+	{props  "normal_light" "hedge_bush"}
+	{NoGroupMesh 1}
+	
+	{Extension "bush_nor_02.mdl"}
+}

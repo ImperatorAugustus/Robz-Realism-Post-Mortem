@@ -1,0 +1,39 @@
+;Exported by: Руслан
+;Date:        Sun Sep 15 19:23:24 2013
+;File:        C:\Users\Руслан\Documents\3dsmax\scenes\new_trench_and_fortific\bunker_1.max
+{Skeleton
+	{bone "trench_box_02"
+		{parameters "land;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "trench_box_02.ply" {Ground} {DecalTarget}}
+		{bone "box33"
+			{parameters "land;"}
+			{Matrix34
+				0.639745	0	0.768588
+				0	1	0
+				-0.768588	0	0.639745
+				-14.1689	15.5304	-5.40203
+			}
+			{visibility 0}
+			{VolumeView "box33.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 8.45165 19.5772}
+		{Extent 2.95276 19.685}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 5.90551 39.3701 39.3701}
+	{Bone "trench_box_02"}
+	{Position 8.45165	-19.5772	-2.20799}
+}

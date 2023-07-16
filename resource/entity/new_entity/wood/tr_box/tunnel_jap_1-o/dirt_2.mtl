@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/new_fortification/wood_trench3_dirt"}
+	{blend none}
+}

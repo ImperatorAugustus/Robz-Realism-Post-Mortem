@@ -1,0 +1,133 @@
+{Entity
+	(include "/properties/tank.ext")
+	(include "/properties/selection/vehicle.inc"  scale(1.2))
+
+	{extender "enumerator"}
+	{collider "tank.heavy"}
+	{props "heavy" "-turret" "vision_vehicle_high" "muzzle_maximum" "gun_mode_change"}
+	{tag "diesel_exhaust"}
+
+
+	("armor_engine"  t(50 75 60 30))
+        ("armor_spa_heavy" armor(75 60 60 30))
+        ("armor_mantlet" t(60))
+	("rus_2-5x_sight")
+
+        ("crew_4_human")
+	{boarder
+		{anm "left"
+			{forward	{begin	"board_Kv-85"}  {base "close"}}
+			{reverse 	{end	"emit_tank_1_hold"}  {base "close_driver" -1}}
+		}
+		{anm "right"
+			{forward	{begin	"board_Kv-85"}  {base "close_driver"}}
+			{reverse 	{end	"emit_tank_1_hold"}  {base "close_driver" -1}}
+		}
+		{anm "armor"
+			{forward	{begin	"board_HighArmor"} 	{end "seat_armor"}}
+			{reverse 	{end	"emit_tank_2"}}
+		}
+		{anm "armor1"
+			{forward	{begin	"board_HighArmor"} {end "seat_armor"}}
+			{reverse 	{end	"emit_body"}}
+		}
+	}
+
+	("seat_human" place(seat1) bone(seat01) door(emit3)  animation(armor1))
+	("seat_human" place(seat2) bone(seat02) door(emit4)  animation(armor))
+	("seat_human" place(seat3) bone(seat03) door(emit5)  animation(armor))
+	("seat_human" place(seat4) bone(seat04) door(emit6)  animation(armor1))
+	("seat_human" place(seat5) bone(seat05) door(emit3)  animation(armor))
+	("seat_human" place(seat6) bone(seat06) door(emit5)  animation(armor1))
+        
+	{extender "inventory"
+		{box
+                	{item "ammo bullet152 rusl aphebc" 5}
+			{item "ammo bullet152 rusl fg" 14}	
+		}
+	}
+        {Weaponry
+        ("restore_ik_time")
+		{place "gun"
+			{weapon "152mm_ML20a" filling "ammo bullet152 rusl fg" 1}
+            		{RestoreIKAfterAim}
+			("abm_low")
+		}
+		{place "gun1_2"
+			{type "gun_change_arty"}
+			{weapon "152mm_ml20a_2"}
+			{foresight "foresight1"}
+			{StationaryFiring}
+			("abm_howitzer")
+			{basic}
+		}
+        }
+
+	{mass 46000}
+	{Chassis
+		("tank_trace" fx("tracks_big") step(0.47) len(0.3))
+		{Locomotion ("locomotion")
+			{MaxSpeed	28}
+			{maxSpeedAtMaxTurn 3}
+			{StartTime	55}
+			{TurnTime	25}
+			{TurnStart  1.9} 
+    		{BrakeTime  3.0}
+     		{StopTime   3.5} 
+    		{TurnRadius 10} 
+    		{TurnStop   1}
+		{Gears	0.1 0.18 0.26 1.0}
+		{RearGears 0.1 0.2} 
+		}
+        {speed
+			{Slow	11	}
+			{Normal	16}
+			{Fast	22	}
+		}
+		{FuelBag
+			{volume 600 }	; liters
+			{rate	3.3 } 	; liters per kilometer
+			{remain 600 }
+			{fuel "fuel"}
+		}
+	{DisableMoveWhileFiring}
+	}
+
+	{Extension "su152.mdl"}
+	{volume "body"
+		{tags "body"}
+		{component "body"}
+        	}
+	{volume "body2"
+		{tags "body"}
+		{component "body"}
+        	}
+	{volume "body3"
+		{tags "body"}
+		{component "body"}
+        	}
+	
+      
+                {volume "trackleft"
+		{tags "trackleft"}
+		{component "trackleft"}
+	}
+
+        	{volume "trackright"
+		{tags "trackright"}
+		{component "trackright"}
+	}
+	
+	{Volume "engine"
+	}
+	{Volume "gun"
+	}
+	{Volume "mantlet"
+	}
+	{bone "turret"
+		{speed 0.0005}
+	}
+	{bone "gun_rot"
+		{speed 0.0005}
+	}
+}

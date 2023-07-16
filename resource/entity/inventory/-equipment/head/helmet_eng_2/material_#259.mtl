@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "net"}
+	{color "229 229 229 81"}
+	{blend test}
+}

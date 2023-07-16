@@ -1,0 +1,70 @@
+;Exported by: Руслан
+;Date:        Wed Aug 28 18:08:41 2013
+;File:        C:\Users\Руслан\Documents\3dsmax\scenes\Новая папка\new_okop_baza_5_xx.max
+{Skeleton
+	{bone "wall_baza_20_x"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "wall_baza_20_x.ply"}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 53.1597 52.4076}
+		{Extent 3.52223 28.6526}
+		{Axis 0.866158 0.49977}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body2"
+	{Obb2
+		{Center 59.393 8.21953}
+		{Extent 24.7895 2.40407}
+		{Axis 0.191495 0.981494}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body3"
+	{Obb2
+		{Center 59.1044 8.44639}
+		{Extent 24.9259 2.88424}
+		{Axis 0.0356777 0.999363}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 57.2569 6.612 39.9025}
+	{Bone "wall_baza_20_x"}
+	{Matrix34
+		0.493211	0.86991	0
+		-0.86991	0.493211	0
+		0	0	1
+		53.1597	-52.4076	-19.9512
+	}
+}
+{Volume "body2"
+	{Box 4.49908 49.552 19.2084}
+	{Bone "wall_baza_20_x"}
+	{Matrix34
+		0.982669	0.185368	0
+		-0.185368	0.982669	0
+		0	0	1
+		59.393	-8.21953	-27.6709
+	}
+}
+{Volume "body3"
+	{Box 3.93701 49.552 3.93701}
+	{Bone "wall_baza_20_x"}
+	{Matrix34
+		0.805279	-0.0344489	0.591894
+		-0.0407223	0.992739	0.113182
+		-0.591495	-0.115246	0.79803
+		59.1044	-8.44639	-6.30896
+	}
+}

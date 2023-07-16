@@ -1,0 +1,15 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{Extension "roofhold3_hb2.mdl"}
+	{props "straw" "wood" "parts" "construction" "burning" "wall" "no_destroyed_stamp"}
+	("armor_house_wood")
+        {mass 100}
+
+	{extender "structure_bone"
+		{hold "35"}
+	}
+	{Volume "roof"
+		{Tags  "body" "fire"}
+		{able {visible 0}{obstacle 0}}
+	}
+}

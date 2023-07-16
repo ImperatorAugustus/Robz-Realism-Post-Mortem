@@ -1,0 +1,100 @@
+;Exported by: Kislov_A
+;Date:        Thu Apr 15 10:35:04 2010
+;File:        E:\Men of war red tide2\Art\Models\Houses\House_middle_1\hm1_complete.max
+{Skeleton
+	{bone "porch3_hm1"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "porch3_hm1.ply"}
+		{bone "fix22"
+			{Position -54.2288	-7.83349	9.93804}
+		}
+		{bone "fix21"
+			{Position 51.4614	-7.83349	11.4927}
+		}
+	}
+}
+{Obstacle "body1"
+	{Obb2
+		{Center -57.9952 -5.70472}
+		{Extent 1.42028 1.16144}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Obstacle "body2"
+	{Obb2
+		{Center -17.9771 -5.81499}
+		{Extent 1.37386 1.15696}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Obstacle "body3"
+	{Obb2
+		{Center 21.8106 -3.90487}
+		{Extent 1.05583 1.54544}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Obstacle "body4"
+	{Obb2
+		{Center 57.3757 -5.52138}
+		{Extent 1.30473 2.70842}
+		{Axis 0.707388 0.706825}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Volume "body1"
+	{Box 1.91164 1.77091 25.7367}
+	{Bone "porch3_hm1"}
+	{Matrix34
+		0.999344	0.00513796	-0.0358529
+		-0.00588938	0.999765	-0.0208843
+		0.0357372	0.0210818	0.999139
+		-57.9952	5.70472	-1.15499
+	}
+}
+{Volume "body2"
+	{Box 1.91164 1.77091 25.7367}
+	{Bone "porch3_hm1"}
+	{Matrix34
+		0.999471	0.00513862	0.032118
+		-0.00446896	0.999772	-0.020887
+		-0.032218	0.0207324	0.999266
+		-17.9771	5.81499	-1.1549
+	}
+}
+{Volume "body3"
+	{Box 1.91164 1.77091 25.7367}
+	{Bone "porch3_hm1"}
+	{Matrix34
+		0.999961	0.00514114	0.0071935
+		-0.00476746	0.998686	-0.0510324
+		-0.00744641	0.0509961	0.998671
+		21.8106	3.90487	-1.15494
+	}
+}
+{Volume "body4"
+	{Box 1.91164 1.77091 25.7367}
+	{Bone "porch3_hm1"}
+	{Matrix34
+		0.996973	0	0.077756
+		-0.0060571	0.996961	0.0776629
+		-0.0775198	-0.0778987	0.993943
+		57.3758	5.52138	-1.15497
+	}
+}
+{Volume "body5"
+	{Box 115.615 11.5867 1.33721}
+	{Bone "porch3_hm1"}
+	{Position -1.06201	0.603088	13.2742}
+}

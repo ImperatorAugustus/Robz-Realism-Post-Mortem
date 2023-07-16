@@ -1,0 +1,31 @@
+;Exported by: ?????
+;Date:        Mon Mar 02 16:21:30 2015
+;File:        C:\Users\?????\Documents\3dsmax\scenes\jap_bunk.max
+{Skeleton
+	{bone "cylinder"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "body2"
+			{Position -0.550465	0.186279	-4.08354}
+			{visibility 0}
+		}
+		{bone "body"
+			{Position 0.400097	68.5339	-4.08354}
+			{visibility 0}
+		}
+		{VolumeView "cylinder.ply"}
+	}
+}
+{Volume "body_cam"
+	{Box 70.8166 100.881 13.9605}
+	{Bone "cylinder"}
+	{Matrix34
+		0.757292	0	-0.653076
+		0	1	0
+		0.653076	0	0.757292
+		27.7758	38.2868	24.4546
+	}
+}

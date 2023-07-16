@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "thompson m1a1"}
+	{specular "thompson m1a1_sp"}
+	{color "229 229 229 152"}
+	{blend test}
+}

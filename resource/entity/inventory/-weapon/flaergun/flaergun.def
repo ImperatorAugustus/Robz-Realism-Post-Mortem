@@ -1,0 +1,9 @@
+{game_entity
+	(include "/properties/stuff_small.ext")
+	{extension "flaergun.mdl"}
+	{props "radio_op_gun"}
+	{extender "stuff"
+		{item "flaergun"}
+	}
+	{nogroupmesh 1}
+}

@@ -1,0 +1,35 @@
+;Exported by: Руслан
+;Date:        Mon Sep 16 19:25:45 2013
+;File:        C:\Users\Руслан\Documents\3dsmax\scenes\new_trench_and_fortific\belgiangate.max
+{Skeleton
+	{bone "tr_wire"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+                               {LODView
+		{VolumeView "tr_wire.ply"}
+		{VolumeView "tr_wire_lod.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 0.0752973 16.3632}
+		{Extent 23.6563 8.30315}
+		{Axis 0.0182398 0.999834}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Cylinder 8.62622 47.2441}
+	{Bone "tr_wire"}
+	{Matrix34
+		0	0	-1
+		-0.999901	-0.0140408	0
+		-0.0140408	0.999901	0
+		0.0752974	-16.3632	8.21527
+	}
+}

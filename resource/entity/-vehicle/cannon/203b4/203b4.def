@@ -1,0 +1,127 @@
+{game_entity
+	(include "/properties/tank.ext")
+	{props "heavy" "-turret" "vision_cannon_maximum"  "muzzle_maximum_nodust" "gun_mode_change_art"}
+	
+ 	{volume "body1"
+		{tags "body"}
+		{component "body"}
+		{thickness 30	}   
+	}
+	{volume "body"
+		{tags "body"}
+		{component "body"}
+		{thickness 30}   
+	}
+	{volume "gun"
+		{thickness 3}   
+	}
+
+	{Volume "trackl"
+		{component "trackleft"}
+	}
+	{Volume "trackr"
+		{component "trackright"}	
+	}
+
+	("armor_medium" turret(10 10) body(10 10 10 10))
+	
+
+	{extender "inventory"
+		{box
+			{item "ammo bullet203" 2}
+		}
+	}
+	{Weaponry
+		{place "gun"
+			{weapon "203mm_gun" filling "bullet203"}
+			{charger "gunner"}
+			{StationaryFiring}  
+			("abm_howitzer")
+		}
+		{place "gun1_2"
+			{type "gun_change_direct"}
+			{weapon "203mm_gun_2" filling "bullet203"}
+			{basic}
+			{rotate}
+			{charger "gunner"}
+			("abm_medium")
+		}
+	}
+
+	{boarder
+		{anm "driver"
+			{forward	{begin	"board_tank_right"} {end "seat_armor"}}
+			{reverse 	{end	"emit_body" 1}}
+		}
+		{anm "gunner"
+			{forward	{begin	"board_tank_right"} {end "seat_armor"}}
+			{reverse 	{end	"emit_body" 1}}
+		}
+	}
+    
+	{sensor
+		{Visor "driver"
+			{vision "cannon_crew"}
+			{bone "driver"}
+		}	
+	}
+
+	(define "crew_human"
+		{placer
+			{place "%place" {group "crew"} {linkbone "%place"} {turnoff {sensor} {shadow}}}
+		}
+		{boarder
+			{door "%door1"}
+			{door "%door2"}
+			{link "%door1" "%place" {anm "%place"} {forward putoff} {reverse puton}}
+			{link "%door2" "%place" {anm "%place"} {forward putoff} {reverse puton}}
+		}
+	)
+
+	{placer
+		{place "driver" {group "crew"} {visor "driver"}}
+	}
+	{boarder
+		{door "emit1"}
+		{door "emit2"}
+		{link "emit1" "driver" {anm "driver"} {forward putoff} {reverse puton}}
+		{link "emit2" "gunner" {anm "gunner"} {forward putoff} {reverse puton}}
+	}
+
+	("crew_human" place(gunner)		door2(emit2))
+	("crew_human" place(driver)		door1(emit1) )
+
+
+	{mass 17700}
+	{Chassis
+;		{track_size 0.75 0.7}
+		("tank_trace_ex" fx("tracks_mid") step(0.52) len(0.7) boneleft("wheell4") boneright("wheelr4"))
+		{Locomotion 
+			{MaxSpeed 	    8}
+			{StartTime 		 7}
+			{BrakeTime 		1}
+			{StopTime		 1}
+			{TurnRadius     5}
+			{TurnTime		15}
+			{TurnStart		 2}
+			{TurnStop	   0.5}
+		}
+		{DisableMoveWhileFiring}
+	}
+	{Extension "203b4.mdl"}
+	(include "/properties/selection/cannon.inc"  scale(1.2))
+	{bone "gun_rot"
+		{speed 0.0005}
+	}
+	{bone "basis"
+		{limits -1 1}
+	}
+	(mod "mp"
+		{brain
+			{properties
+				{fire_mode hold}
+			}
+		}
+	)
+}
+

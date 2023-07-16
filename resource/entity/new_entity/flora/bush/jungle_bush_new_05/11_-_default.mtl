@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "$/flora/flora_2"}
+	{bump "$/flora/flora_2_bp"}
+	{color "229 229 229 50"}
+	{blend test}
+}

@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/humanskin/american/air/db6a0d23"}
+	{blend none}
+}

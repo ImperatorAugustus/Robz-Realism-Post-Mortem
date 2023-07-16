@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "mk3 helmet"}
+	{specular "mk3 helmet sp"}
+	{color "229 229 229 81"}
+	{blend none}
+}

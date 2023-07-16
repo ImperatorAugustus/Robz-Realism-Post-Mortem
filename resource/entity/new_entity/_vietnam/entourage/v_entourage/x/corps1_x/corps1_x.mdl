@@ -1,0 +1,17 @@
+;Exported by: Loskutov_K
+;Date:        Thu Apr 08 12:12:03 2010
+;File:        D:\_Vietnam\Art\Models\Anturage\x\cross_corps1_x\cross_corps1_x.max
+{Skeleton
+	{animation
+		{sequence "crush2"}
+	}
+	{bone "corps1_x"
+		{parameters "CommonMesh;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "corps1_x.ply"}
+	}
+}

@@ -1,0 +1,66 @@
+;Exported by: Loskutov_K
+;Date:        Thu Feb 11 17:26:03 2010
+;File:        D:\_Vietnam\Models\Bolvanki_diz\Bamboo_tower\tower.max
+{Skeleton
+	{bone "tower_walls"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "tower_walls.ply"}
+		{bone "fix01"
+			{Position 32.8636	-32.8079	17.2662}
+		}
+	}
+}
+{Volume "body1"
+	{Box 2.08283 19.3793 66.8335}
+	{Bone "tower_walls"}
+	{Matrix34
+		0	1	0
+		0	0	-1
+		-1	0	0
+		-1.80292	30.981	2.67672
+	}
+}
+{Volume "body2"
+	{Box 2.08283 19.3793 66.8335}
+	{Bone "tower_walls"}
+	{Matrix34
+		-1	0	0
+		0	0	-1
+		0	-1	0
+		29.7369	0.936558	2.67672
+	}
+}
+{Volume "body3"
+	{Box 2.08283 19.3793 20.8253}
+	{Bone "tower_walls"}
+	{Matrix34
+		0	-1	0
+		0	0	-1
+		1	0	0
+		20.2379	-30.198	2.67673
+	}
+}
+{Volume "body4"
+	{Box 2.08283 19.3793 20.8253}
+	{Bone "tower_walls"}
+	{Matrix34
+		0	-1	0
+		0	0	-1
+		1	0	0
+		-22.732	-30.198	2.67672
+	}
+}
+{Volume "body5"
+	{Box 2.08283 19.3793 66.8335}
+	{Bone "tower_walls"}
+	{Matrix34
+		-1	0	0
+		0	0	-1
+		0	-1	0
+		-31.9655	0.936558	2.67672
+	}
+}

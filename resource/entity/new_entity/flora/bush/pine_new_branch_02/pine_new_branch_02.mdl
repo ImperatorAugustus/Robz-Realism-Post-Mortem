@@ -1,0 +1,19 @@
+;Exported by: Фёдор
+;Date:        Sat Dec 13 00:41:07 2014
+;File:        C:\Users\Фёдор\Documents\3dsmax\scenes\pine_and_fir.max
+{Skeleton
+	{bone "pine_new_branch"
+		{parameters "CommonMesh;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "pine_new_branch.ply"}
+	}
+}
+{Volume "crown"
+	{Box 37.3092 41.4279 3.74723}
+	{Bone "pine_new_branch"}
+	{Position 1.97497	-2.3729	1.87361}
+}

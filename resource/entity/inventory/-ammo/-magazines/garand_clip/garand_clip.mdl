@@ -1,0 +1,52 @@
+;Exported by: Kalinski
+;Date:        Tue Aug 02 01:41:43 2016
+;File:        C:\Users\Kalinski\Desktop\magazynki\gotowe\garand\garand_clip_rdy.max
+{Skeleton
+	{bone "garand_clip"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "garand_clip.ply"}
+	}
+}
+{Volume "body"
+	{Box 1.7727 1.40067 0.65858}
+	{Bone "garand_clip"}
+	{Position -0.00431776	0.00978494	0.000210613}
+}
+{Volume "select"
+	{Box 1.93742 1.53373 0.69358}
+	{Bone "garand_clip"}
+	{Matrix34
+		1.0387	0	0
+		0	1.0387	0
+		0	0	1.0387
+		-0.00431776	0.00978494	0.0311314
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -1.37443	0.434949	2.84856}
+			{lookat 0.0793399	0.025435	0.036459}
+			{fov 45}
+			{horizon -0.239031}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -0.0312786	-1.57302	0.684929}
+			}
+			{"1"
+				{type point}
+				{position -0.00710392	1.54384	0.726341}
+			}
+			{"2"
+				{type directional}
+				{direction -0.0260877	0.00264281	-0.499312}
+			}
+		}
+	}
+}

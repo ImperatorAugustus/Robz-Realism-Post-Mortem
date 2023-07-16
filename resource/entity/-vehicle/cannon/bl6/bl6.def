@@ -1,0 +1,137 @@
+{game_entity
+	(include "/properties/cannon.ext")
+	{props "vehicle" "cannon" "wheeled" "round_sandbag2" "vision_cannon_maximum" "muzzle_maximum_nodust" "gun_mode_change_art"}
+	("armor_heavy")
+	
+	{volume "body"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "body1"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "body2"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "body3"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "body4"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "body5"
+		{tags "body"}
+		{component "body"}
+	}
+
+	{volume "body6"
+		{tags "body"}
+		{component "body"}
+	}
+
+	{Volume "gun_rot"
+		{component "gun"}
+	}
+
+	("wheel" args "wheelright")
+	("wheel" args "wheelleft")
+
+	("crew_wheeled_gun")
+	{boarder
+		{anm "gunner"
+			{forward	{end "pose_pak40_gunlayer" 10}}
+		}
+		{anm "commander"
+			{forward	{end "pose_pak40_charger" 10}}
+		}
+		{anm "driver1"
+			{forward {end "cannon_pak40_pusher_left" 10}}
+		}
+		{anm "driver2"
+			{forward {end "cannon_pak40_pusher_right" 10}}
+		}
+		{anm "seat1"
+			{forward {end "pose_seat_cannon_left" 10}}
+		}
+		{anm "seat2"
+			{forward {end "pose_seat_cannon_right" 10}}
+		}
+	}
+
+	{extender "inventory"
+		{box
+			{item "bullet152 eng fg" 6}
+			;{item "bullet152 sm" 12}
+			{item "sandbag_kit2"}
+		}
+	}
+	{Weaponry
+		{place "gun"
+			{weapon "152mm_bl6" filling "bullet152 eng fg" 3}
+			{Rotate}
+			{StationaryFiring}  
+			("abm_howitzer")
+		}
+		{place "gun1_2"
+			{type "gun_change_direct"}
+			{weapon "152mm_bl6_2"}
+			{basic}
+			{rotate}
+			{charger "gunner"}
+			("abm_field_gun")
+		}
+	}
+	{mass 3528}
+	{Extension "bl6.mdl"}
+	(include "/properties/selection/cannon.inc"  scale(0.7))
+
+	{bone "basis"
+		{limits}
+		{speed 0.005}
+	}
+	{bone "turret"
+		{limits -10 10}
+		{speed 0.0005}
+	}
+	{bone "gun_rot"
+		{limits -5 50}
+		{speed 0.0005}
+	}
+	
+	{extender "cannon"
+		{animation
+			{switch "close"}
+			{move "cannon_pak40_pusher_left" "cannon_pak40_pusher_right"}
+			{aim "cannon_pak40_gunlayer" ""}
+			{fire  "Cannon_gunlayer_fire-alert" "Cannon_zis3_charger_fire 0.2"}
+			{reload  "" "cannon_pak40_charger"}
+		}
+		{move {obstacle "close"}}
+		{attack {obstacle "open"}}
+		(mod "mp" {rotate_ik_Limit 0})
+	}
+
+	{Chassis "track"
+		("car_trace" fx("tracewheel05") step(0.07) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
+		("loco_big")
+	}
+	{sensor
+		{visor "main"
+			{vision "cannon_main"}
+		}
+	}
+	{bone "basis"
+    		{speed 0.003}
+    	}
+	(mod "mp"
+		{brain
+			{properties
+				{fire_mode hold}
+			}
+		}
+	)
+}

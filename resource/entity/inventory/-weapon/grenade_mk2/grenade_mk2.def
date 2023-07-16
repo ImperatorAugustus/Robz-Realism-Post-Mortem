@@ -1,0 +1,12 @@
+{actor
+	(include "/properties/stuff_grenade.ext")
+	{extension "grenade_mk2.mdl"}
+	{extender "stuff"
+		{item "grenade m61"}
+	}
+	{nogroupmesh 1}
+	{props "grenade"}
+	{volume "body"
+		{able {contact}}
+	}
+}

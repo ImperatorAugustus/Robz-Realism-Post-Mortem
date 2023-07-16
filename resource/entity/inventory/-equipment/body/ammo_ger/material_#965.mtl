@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "char_ger_wet_gear01_c"}
+	{blend none}
+}

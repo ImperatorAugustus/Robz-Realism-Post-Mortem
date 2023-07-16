@@ -1,0 +1,54 @@
+;Exported by: Руслан
+;Date:        Wed Aug 21 00:48:02 2013
+;File:        C:\Users\Руслан\Documents\3dsmax\scenes\Новая папка\new_okop_3_baza_x.max
+{Skeleton
+	{bone "ardenn_trench_baza_x"
+		{parameters "Land;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "ardenn_trench_baza_x.ply"  {Ground} {DecalTarget}}
+		{bone "wall_01"
+		}
+		{bone "wall_02"
+		}
+		{bone "wall_03"
+		}
+		{bone "wall_04"
+		}
+		{bone "wall_05"
+		}
+		{bone "wall_06"
+		}
+		{bone "wall_07"
+		}
+		{bone "wall_08"
+		}
+		{bone "wall_roof"
+		}
+		{bone "gun_nest"
+			{Position 50.4484	6.84421	-15.3193}
+		}
+	}
+}
+{Area "cut"
+	{Polygon2
+		{Radius 0}
+		{Vertex 60.5048 36.4608}
+		{Vertex 36.2795 44.3424}
+		{Vertex 8.60697 40.5442}
+		{Vertex -20.1781 42.7768}
+		{Vertex -56.9919 37.2619}
+		{Vertex -56.7577 -34.976}
+		{Vertex -27.6969 -38.2179}
+		{Vertex 2.09065 -38.9021}
+		{Vertex 26.1031 -44.4316}
+		{Vertex 60.6385 -34.0913}
+		{Vertex 68.8257 -20.1185}
+		{Vertex 68.3286 -1.11975}
+		{Vertex 64.658 20.4346}
+	}
+	{Rotate}
+}

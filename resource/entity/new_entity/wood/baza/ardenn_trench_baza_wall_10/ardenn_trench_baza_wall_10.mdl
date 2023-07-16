@@ -1,0 +1,111 @@
+;Exported by: Руслан
+;Date:        Mon Aug 26 17:04:27 2013
+;File:        C:\Users\Руслан\Documents\3dsmax\scenes\Новая папка\new_okop_3_baza_5.max
+{Skeleton
+	{bone "baza_10"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "wall_baza_10"
+			{Position 7.70128	-1.43524	0}
+			{VolumeView "wall_baza_10.ply"}
+		}
+	}
+}
+{Obstacle "body13"
+	{Obb2
+		{Center 8.9588 -67.4778}
+		{Extent 20.3902 2.5631}
+		{Axis 0.998631 0.0523094}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body14"
+	{Obb2
+		{Center -19.4262 -63.2445}
+		{Extent 2.55935 20.3897}
+		{Axis 0.225615 0.974217}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body15"
+	{Obb2
+		{Center -37.5367 -50.6128}
+		{Extent 2.59627 20.394}
+		{Axis 0.984823 0.173561}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body16"
+	{Obb2
+		{Center 43.3391 -50.7953}
+		{Extent 20.3987 2.63788}
+		{Axis 0.777363 0.629052}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body17"
+	{Obb2
+		{Center 50.545 -36.0875}
+		{Extent 6.40383 2.47677}
+		{Axis 0.0182398 0.999834}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body13"
+	{Box 4.92126 40.7561 13.8222}
+	{Bone "wall_baza_10"}
+	{Matrix34
+		0.0472856	0.998881	0
+		-0.998881	0.0472856	0
+		0	0	1
+		1.25752	68.9131	-1.34478
+	}
+}
+{Volume "body14"
+	{Box 4.92126 40.7561 13.8222}
+	{Bone "wall_baza_10"}
+	{Matrix34
+		-0.230333	0.973112	0
+		-0.973112	-0.230333	0
+		0	0	1
+		-27.1275	64.6797	-1.34478
+	}
+}
+{Volume "body15"
+	{Box 4.92126 40.7561 13.8222}
+	{Bone "wall_baza_10"}
+	{Matrix34
+		-0.985957	0.167	0
+		-0.167	-0.985957	0
+		0	0	1
+		-45.238	52.0481	-1.34478
+	}
+}
+{Volume "body16"
+	{Box 4.92126 40.7561 13.8222}
+	{Bone "wall_baza_10"}
+	{Matrix34
+		-0.635793	-0.771859	0
+		0.771859	-0.635793	0
+		0	0	1
+		35.6379	52.2306	-1.34478
+	}
+}
+{Volume "body17"
+	{Box 4.92126 12.7953 16.6988}
+	{Bone "wall_baza_10"}
+	{Matrix34
+		-0.999876	-0.0157155	0
+		0.0157155	-0.999876	0
+		0	0	1
+		42.8437	37.5228	-2.66349
+	}
+}

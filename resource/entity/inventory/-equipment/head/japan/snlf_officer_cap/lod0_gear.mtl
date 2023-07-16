@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "axis_lod0_gear_marinecap"}
+	{bump "axis_lod0_gear_marinecap_bp"}
+	{blend none}
+}

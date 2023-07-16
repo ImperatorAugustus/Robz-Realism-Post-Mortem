@@ -1,0 +1,25 @@
+{game_entity
+	(include "/properties/cannon_ammo_box.ext")
+	(include "/properties/resupply_generic.inc")
+	("box_ammo_jap_special")
+	{props "-steel" "wood" "vision_cannon_low" "cannon" "cannon_small" "ammo_box" "tractor"}
+	{collider "cannon_small"}
+	{Extension "crate7.mdl"}
+
+
+	{Volume "body1"
+	{tags "body"}
+	{able{obstacle 0}}
+	{thickness 1}
+	{component "body"}
+	}
+	{Chassis
+		{FuelBag
+			{volume 1 }	; liters
+			{rate	0 }   	; liters per kilometer
+			{remain 1 }
+			{fuel "fuel"}
+		}
+	}
+}
+

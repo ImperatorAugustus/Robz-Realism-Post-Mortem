@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "$/construction/v_temp_tex/utvar"}
+	{specular "$/construction/v_temp_tex/utvar_sp"}
+	{color "150 150 150 50"}
+	{blend test}
+}

@@ -1,0 +1,82 @@
+-= Animation: break, Node engine =-
+	Frame 210 {
+		Visibility 1
+		Position	-25.2721	0	-3.19532
+		Orientation	0 0 0 1
+	}
+	Frame 220 {
+		Visibility 1
+		Position	-25.2721	0	-3.19532
+		Orientation	0 0 0 1
+	}
+-= Animation: break, Node engine_cover3 =-
+	Frame 210 {
+		Visibility 1
+		Position	-32.97	-4.95911e-005	0.448238
+		Orientation	0 0 0 1
+	}
+	Frame 220 {
+		Visibility 1
+		Position	-32.97	-4.95911e-005	0.448238
+		Orientation	0 0 0 1
+	}
+-= Animation: break, Node engine_cover2 =-
+	Frame 210 {
+		Visibility 1
+		Position	-18.001	0	13.8537
+		Orientation	0 0 0 1
+	}
+	Frame 211 {
+		Orientation	0 0.00244347 0 0.999997
+	}
+	Frame 212 {
+		Orientation	0 0.00907561 0 0.999959
+	}
+	Frame 213 {
+		Orientation	0 0.0188485 0 0.999822
+	}
+	Frame 214 {
+		Orientation	0 0.030713 0 0.999528
+	}
+	Frame 215 {
+		Orientation	0 0.0436194 0 0.999048
+	}
+	Frame 216 {
+		Orientation	0 0.0565186 0 0.998402
+	}
+	Frame 217 {
+		Orientation	0 0.0683636 0 0.99766
+	}
+	Frame 218 {
+		Orientation	0 0.0781111 0 0.996945
+	}
+	Frame 219 {
+		Orientation	0 0.0847213 0 0.996405
+	}
+	Frame 220 {
+		Visibility 1
+		Position	-18.001	0	13.8537
+		Orientation	0 0.0871557 0 0.996195
+	}
+-= Animation: break, Node trackL =-
+	Frame 20 {
+		Visibility 1
+		Position	-5.42897	-21.033	0.52368
+		Orientation	0 0.707107 0.707107 0
+	}
+	Frame 36 {
+		Visibility 1
+		Position	-5.42897	-21.033	0.52368
+		Orientation	0 0.707107 0.707107 0
+	}
+-= Animation: break, Node trackR =-
+	Frame 40 {
+		Visibility 1
+		Position	-5.42897	-21.033	0.523678
+		Orientation	0 0.707107 0.707107 0
+	}
+	Frame 60 {
+		Visibility 1
+		Position	-5.42897	-21.033	0.523678
+		Orientation	0 0.707107 0.707107 0
+	}

@@ -1,0 +1,40 @@
+;Exported by: Loskutov_K
+;Date:        Mon Apr 26 13:47:15 2010
+;File:        D:\_Vietnam\Art\Models\Houses\X\House_big_1_x\hb1_completex.max
+{Skeleton
+	{bone "ladder_hb1_x"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "piece02"
+			{Matrix34
+				0.738433	0	0.674327
+				0	1	0
+				-0.674327	0	0.738433
+				0.297302	3.56424	-0.0857861
+			}
+			{VolumeView "piece02.ply"}
+		}
+		{bone "piece01"
+			{Matrix34
+				-0.742392	0	-0.669966
+				0	1	0
+				0.669966	0	-0.742392
+				0.381592	-3.29654	-0.497757
+			}
+			{VolumeView "piece01.ply"}
+		}
+	}
+}
+{Volume "piece01"
+	{Polyhedron "piece01.vol"}
+	{Bone "piece01"}
+	{Position 0.0469818	-0.359725	-13.2927}
+}
+{Volume "piece02"
+	{Polyhedron "piece02.vol"}
+	{Bone "piece02"}
+	{Position 0.00632477	-0.313796	-12.3814}
+}

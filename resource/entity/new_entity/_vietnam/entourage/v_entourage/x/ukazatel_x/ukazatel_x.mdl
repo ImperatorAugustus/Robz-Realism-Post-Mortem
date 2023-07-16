@@ -1,0 +1,80 @@
+;Exported by: Loskutov_K
+;Date:        Fri Apr 09 14:35:41 2010
+;File:        D:\_Vietnam\Art\Models\Anturage\x\ukazatel_x\ukazatel_x.max
+{Skeleton
+	{bone "body_x"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "piece03"
+			{Position -1.14848	-0.106473	10.8845}
+			{VolumeView "piece03.ply"}
+		}
+		{bone "piece01"
+			{Matrix34
+				-1	0	0
+				0	1	0
+				0	0	-1
+				-0.73386	0.581637	40.6377
+			}
+			{VolumeView "piece01.ply"}
+		}
+		{bone "piece02"
+			{Matrix34
+				0.13888	0.990309	0
+				-0.990309	0.13888	0
+				0	0	1
+				0.195129	-0.28993	44.0459
+			}
+			{VolumeView "piece02.ply"}
+		}
+		{bone "fx_wood1"
+			{Matrix34
+				0.0254578	0.999676	0
+				0	0	-1
+				-0.999676	0.0254578	0
+				-0.551881	0.380998	-5.38181
+			}
+		}
+		{bone "fx_dust1"
+			{Matrix34
+				0.0254578	0.999676	0
+				0	0	-1
+				-0.999676	0.0254578	0
+				-0.551881	0.380998	-5.38181
+			}
+		}
+	}
+}
+{Volume "piece01"
+	{Polyhedron "piece01.vol"}
+	{Bone "piece01"}
+	{Matrix34
+		0.0254578	0.999676	0
+		0	0	-1
+		-0.999676	0.0254578	0
+		-0.551881	0.380998	-5.38181
+	}
+}
+{Volume "piece02"
+	{Box 14.0485 3.9082 1.32686}
+	{Bone "piece02"}
+	{Matrix34
+		0.999958	0.00911707	0
+		0	0	1
+		0.00911714	-0.999958	0
+		1.29689	-0.107033	-9.63343
+	}
+}
+{Volume "piece03"
+	{Polyhedron "piece03.vol"}
+	{Bone "piece03"}
+	{Matrix34
+		0.407002	0.913427	0
+		0	0	1
+		0.913427	-0.407002	0
+		0.797759	-0.325327	3.20766
+	}
+}

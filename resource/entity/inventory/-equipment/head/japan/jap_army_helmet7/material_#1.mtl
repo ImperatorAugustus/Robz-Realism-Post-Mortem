@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "axis_lod0_gear_armytropicalengineer"}
+	{bump "axis_lod0_gear_armytropicalengineer_bp"}
+	{specular "axis_lod0_gear_armytropicalengineer_sp"}
+	{color "229 229 229 9"}
+	{blend none}
+}

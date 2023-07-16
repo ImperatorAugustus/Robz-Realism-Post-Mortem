@@ -1,0 +1,16 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{Extension "interset1_s3.mdl"}
+	{props "wood" "small" "construction" "parts" "no_destroyed_stamp" "burning"}
+	("armor_light")
+	{mass 100}
+
+	{extender "structure_bone"
+		{hold "01" "02"}
+	}
+	{Volume "body"
+		{Tags  "body"}
+		{Thickness 5}
+		{able {obstacle 0}}
+	}
+}

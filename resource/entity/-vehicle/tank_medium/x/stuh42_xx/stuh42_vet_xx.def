@@ -1,0 +1,35 @@
+{game_entity
+	{Extension "stuh42_xx.mdl"}
+	{Volume "body1"
+	}
+	{Volume "body2"
+	}
+	{Volume "body3"
+	}
+	{Volume "engine"
+	}
+	{Volume "gun2"
+	}
+	{Volume "gun"
+	}
+	{Volume "mantlet"
+	}
+	{Volume "part1"
+	}
+	{Volume "part2"
+	}
+	{Volume "part3"
+	}
+	{Volume "part4"
+	}
+	{Volume "part5"
+	}
+	{Volume "part6"
+	}
+	{Volume "part7"
+	}
+	{Volume "trackleft"
+	}
+	{Volume "trackright"
+	}
+}

@@ -1,0 +1,53 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{Extension "base6_st.mdl"}
+	{props "cornered" "wood" "parts" "construction"  "wall" "burning" "wood_stamp"}
+	("armor_house_wood")
+        {mass 1000}
+	{obstacleID "small_building"}
+
+	{Volume "body1"
+		{Tags  "body"}
+		{Thickness 10}
+		{able {obstacle 0}}
+	}
+	{Volume "body2"
+		{Tags  "body" "fire"}
+		{Thickness 10}
+	}
+	{Volume "body3"
+		{Tags  "body"}
+		{Thickness 10}
+	}
+	{Volume "body4"
+		{Tags  "body"}
+		{Thickness 10}
+	}
+	{Volume "body5"
+		{Tags  "body"}
+		{Thickness 10}
+		{able {obstacle 0}}
+	}
+	{Volume "body6"
+		{Tags  "body" "fire"}
+		{Thickness 10}
+	}
+	{Volume "body7"
+		{Tags  "body" "fire"}
+		{Thickness 10}
+		{able {obstacle 0}}
+	}
+	{Volume "body8"
+		{Tags  "body"}
+		{Thickness 10}
+		{able {obstacle 0}}
+	}
+	{Volume "body9"
+		{Tags  "body"}
+		{Thickness 10}
+		{able {bullet 0}}
+	}
+	{Extender "land_patch"
+		{nonormals 1}
+	}
+}

@@ -1,0 +1,33 @@
+;Exported by: User
+;Date:        Fri Mar 29 12:51:31 2013
+;File:        C:\DOCUME~1\User\LOCALS~1\Temp\Rar$DR15.368\example_bodyarmor.max
+{Skeleton
+	{bone "sov_backpack"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "sov_backpack.ply"}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "sov_backpack"}
+	{Matrix34
+		0.999885	-0.0151337	-0.00132891
+		0.0151346	0.999885	0.000637972
+		0.0013191	-0.00065808	0.999999
+		0.147235	1.3604	-5.17582
+	}
+}
+{Volume "select"
+	{Polyhedron "select.vol"}
+	{Bone "sov_backpack"}
+	{Matrix34
+		0.999885	-0.0151342	-0.00132855
+		0.0151351	0.999885	0.00064276
+		0.00131867	-0.000662876	0.999999
+		0.147236	1.3604	-5.17582
+	}
+}

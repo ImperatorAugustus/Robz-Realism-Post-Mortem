@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "eng-smg"}
+	{blend none}
+}

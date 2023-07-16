@@ -1,0 +1,8 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{Extension "flag_cour_04.mdl"}
+	{props "flag" "one" "burning" "construction" "parts" "wood" "small"}
+	{Volume "body"
+		{Tags  "fire" "body"}
+	}
+}

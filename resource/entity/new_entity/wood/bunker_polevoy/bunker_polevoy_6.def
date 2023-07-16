@@ -1,0 +1,9 @@
+{game_entity
+	{Extension "bunker_polevoy_5.mdl"}
+	{placer}
+	{extender "structure"
+		{place "basic" "bun_2_fort"}
+		{place "basic_1" "bun_3"}
+		{place "basic_2" "roof_bun_2" "roof_bun_2" "roof_bun_3"}
+	}
+}

@@ -1,0 +1,129 @@
+{game_entity
+  (include "/properties/car.ext")
+  (include "/properties/selection/vehicle.inc"  scale(1.1))
+  {collider "truck"}
+  {props "vehicle" "car" "wheeled" "truck" "windowed" "vision_vehicle_medium"}
+  {able "emit_on_attack"}
+	("armor_light" args 1.0)
+	{tag "heavy_tow"}
+
+  ("crew_2_human")
+  ("board_animation"
+    place(driver)
+    board_begin(board_big-highcar_driver)
+    board_end(seat_driver_car)
+    base(doorleft)
+  )
+  ("board_animation"
+    place(commander)
+    board_begin(board_big-highcar)
+    board_end(seat_passenger)
+    base(doorright)
+  )
+
+  ("wheel" args "wheelright1")
+  ("wheel" args "wheelleft1")
+  ("wheel" args "wheelright2")
+  ("wheel" args "wheelleft2")
+  
+  {mass 2000}
+  {Chassis
+    {Locomotion ("locomotion")
+    	{TurnRadius 6}
+    	{MaxSpeed   36}
+	)
+	{maxSpeedAtMaxTurn 12}
+    }
+	{FuelBag
+		{volume 82 }	
+		{rate	9 }   
+		{remain 82 }
+		{fuel "fuel"}
+	}
+	{speed
+        {Normal  36}
+        {Slow  36}
+    }
+	("car_trace" fx("tracewheel02") step(0.09) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
+	("car_trace" fx("tracewheel02") step(0.09) wheell("wlr") wheelr("wrr") bonel("FXtraceL2") boner("FXtraceR2"))
+  }
+    {extender "inventory"
+    	{box
+			{size 6 10}     
+			{clear}
+			{item "hedgehog_kit" 1 {cell 0 0}}
+			{item "hedgehog_kit" 1 {cell 0 2}}
+			{item "sandbag_kit" 10 {cell 2 0}}
+			{item "sandbag_kit" 10 {cell 2 2}}
+			{item "sandbag_kit" 10 {cell 4 0}}
+			{item "sandbag_kit" 10 {cell 4 2}}
+			{item "trench_spade" 10 {cell 2 4}}
+			{item "barbwire_kit" 1 {cell 2 6}}
+			{item "barrel" 2 filling "fuel" 500 {cell 0 7}}
+			{item "barbwire_kit" 1 {cell 4 6}}
+			{item "dynamite" 5 {cell 2 8}}
+			{item "antitank" "mine" 20 {cell 0 5}}
+			{item "s_mine" "mine" 30 {cell 0 4}}
+			{item "s_mine" "mine" 30 {cell 1 4}}
+			{item "repair_kit" {cell 4 8}}
+		}
+	}
+
+	{Extension "blitz3_6eng.mdl"}
+	{Volume "body"
+	}
+	{Volume "bodyback"
+		{Thickness 8}
+	}
+	{Volume "cabin"
+	}
+	{Volume "engine"
+	}
+	{Volume "fuel"
+	}
+	{Volume "glass"
+	}
+	{Volume "inventory"
+		{Thickness 8}
+	}
+	{Volume "pivot_back"
+	}
+	{Volume "pivot_back_vol01"
+	}
+	{Volume "pivot_front"
+	}
+	{Volume "pivot_front_vol01"
+	}
+	{Volume "wheelleft1"
+		{Thickness 4}
+	}
+	{Volume "wheelleft2"
+		{Thickness 4}
+	}
+	{Volume "wheelright1"
+		{Thickness 4}
+	}
+	{Volume "wheelright2"
+		{Thickness 4}
+	}
+	{Volume "window1"
+		{Thickness 2}
+		{able {visible 0}{window}}
+	}
+	{Volume "window2"
+		{Thickness 2}
+		{able {visible 0}{window}}
+	}
+	{Volume "window3"
+		{Thickness 2}
+		{able {visible 0}{window}}
+	}
+	{Volume "window4"
+		{Thickness 2}
+		{able {visible 0}{window}}
+	}
+	{Volume "window5"
+		{Thickness 2}
+		{able {visible 0}{window}}
+	}
+}

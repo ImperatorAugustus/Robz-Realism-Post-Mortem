@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "us_carbine_pw_c"}
+	{blend none}
+}

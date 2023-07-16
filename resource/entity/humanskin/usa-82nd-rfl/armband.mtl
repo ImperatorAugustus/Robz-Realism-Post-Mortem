@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "$/humanskin/american/82nd 2/armband"}
+	{color "229 229 229 152"}
+	{blend test}
+}

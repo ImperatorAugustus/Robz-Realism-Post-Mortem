@@ -1,0 +1,31 @@
+;Exported by: ?????
+;Date:        Sun Apr 12 01:42:11 2015
+;File:        C:\Users\?????\Documents\3dsmax\scenes\bamboo.max
+{Skeleton
+	{bone "tree"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "tree.ply"}
+			{VolumeView "tree_lod.ply"}
+		}
+	}
+}
+{Volume "bole"
+	{Cylinder 0.725507 30.7794}
+	{Bone "tree"}
+	{Matrix34
+		0.99618	-0.069603	0.0527304
+		0.0684484	0.99738	0.0233965
+		-0.0542207	-0.0196978	0.998335
+		-0.904648	-0.697339	15.3641
+	}
+}
+{Volume "crown"
+	{Cylinder 10.8488 21.1979}
+	{Bone "tree"}
+	{Position -1.94667	-1.18985	39.6107}
+}

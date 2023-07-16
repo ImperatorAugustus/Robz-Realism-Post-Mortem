@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "pak40gun"}
+	{bump "pak40gun_bp"}
+	{specular "pak40gun_sp"}
+	{color "255 255 255 25"}
+	{blend test}
+}

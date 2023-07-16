@@ -1,0 +1,196 @@
+;Exported by: Фёдор
+;Date:        Mon Jul 14 17:32:31 2014
+;File:        C:\Users\Фёдор\Documents\3dsmax\scenes\fqw\belgiangate.max
+{Skeleton
+	{bone "basic"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "st_6"
+			{Matrix34
+				1	0	0
+				0	0	1
+				0	-1	0
+				0.0522308	26.375	9.94922
+			}
+			{VolumeView "st_6.ply"}
+		}
+		{bone "st_3"
+			{Matrix34
+				1	0	0
+				0	0	1
+				0	-1	0
+				0.0522308	-0.795059	9.94922
+			}
+			{VolumeView "st_3.ply"}
+		}
+		{bone "st_4"
+			{Matrix34
+				0.707107	0	0.707107
+				0	1	0
+				-0.707107	0	0.707107
+				9.26483	0.00732422	0
+			}
+			{VolumeView "st_4.ply"}
+		}
+		{bone "st_5"
+			{Matrix34
+				0.707107	0	-0.707107
+				0	1	0
+				0.707107	0	0.707107
+				-9.63504	0.00732422	0
+			}
+			{VolumeView "st_5.ply"}
+		}
+		{bone "st_2"
+			{Matrix34
+				0.707107	0	0.707107
+				0	1	0
+				-0.707107	0	0.707107
+				9.26483	-27.2507	0
+			}
+			{VolumeView "st_2.ply"}
+		}
+		{bone "st_1"
+			{Matrix34
+				0.707107	0	-0.707107
+				0	1	0
+				0.707107	0	0.707107
+				-9.63504	-27.2507	0
+			}
+			{VolumeView "st_1.ply"}
+		}
+		{bone "st_7"
+			{Matrix34
+				0.707107	0	-0.707107
+				0	1	0
+				0.707107	0	0.707107
+				-9.63504	27.1774	0
+			}
+			{VolumeView "st_7.ply"}
+		}
+		{bone "st_8"
+			{Matrix34
+				0.707107	0	0.707107
+				0	1	0
+				-0.707107	0	0.707107
+				9.26483	27.1774	0
+			}
+			{VolumeView "st_8.ply"}
+		}
+	}
+}
+{Obstacle "body01"
+	{Obb2
+		{Center 0.484129 -27.1774}
+		{Extent 9.74117 1.02362}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body02"
+	{Obb2
+		{Center -0.320493 -27.1774}
+		{Extent 9.74118 1.02362}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body03"
+	{Obb2
+		{Center 0.319157 -13.5797}
+		{Extent 0.980827 12.7953}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body04"
+	{Obb2
+		{Center 0.484129 -0.00732422}
+		{Extent 9.74117 1.02362}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body05"
+	{Obb2
+		{Center -0.320493 -0.00732422}
+		{Extent 9.74118 1.02362}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body06"
+	{Obb2
+		{Center 0.319157 13.5903}
+		{Extent 0.980827 12.7953}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body07"
+	{Obb2
+		{Center -0.320493 27.2507}
+		{Extent 9.74118 1.02362}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body08"
+	{Obb2
+		{Center 0.484129 27.2507}
+		{Extent 9.74117 1.02362}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body01"
+	{Box 1.96165 2.04724 25.5906}
+	{Bone "st_8"}
+	{Position 0.18874	0	12.6065}
+}
+{Volume "body02"
+	{Box 1.96165 2.04724 25.5906}
+	{Bone "st_7"}
+	{Position 0.188751	0	12.984}
+}
+{Volume "body03"
+	{Box 1.96165 2.04724 25.5906}
+	{Bone "st_6"}
+	{Position 0.266926	0	12.7953}
+}
+{Volume "body04"
+	{Box 1.96165 2.04724 25.5906}
+	{Bone "st_4"}
+	{Position 0.18874	0	12.6065}
+}
+{Volume "body05"
+	{Box 1.96165 2.04724 25.5906}
+	{Bone "st_5"}
+	{Position 0.188751	0	12.984}
+}
+{Volume "body06"
+	{Box 1.96165 2.04724 25.5906}
+	{Bone "st_3"}
+	{Position 0.266926	0	12.7953}
+}
+{Volume "body07"
+	{Box 1.96165 2.04724 25.5906}
+	{Bone "st_1"}
+	{Position 0.188751	0	12.984}
+}
+{Volume "body08"
+	{Box 1.96165 2.04724 25.5906}
+	{Bone "st_2"}
+	{Position 0.18874	0	12.6065}
+}

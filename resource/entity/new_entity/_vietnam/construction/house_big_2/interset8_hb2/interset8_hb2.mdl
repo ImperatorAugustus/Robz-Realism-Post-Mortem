@@ -1,0 +1,58 @@
+;Exported by: Loskutov_K
+;Date:        Fri Mar 12 15:37:10 2010
+;File:        D:\_Vietnam\Art\Models\Houses\House_big_2\hb2_complete.max
+{Skeleton
+	{bone "interset8_hb2"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "interset8_hb2.ply"}
+		{bone "fix12"
+			{Position 10.3917	2.6388	14.0105}
+		}
+	}
+}
+{Obstacle "body1"
+	{Obb2
+		{Center 1.91034 -11.1635}
+		{Extent 5.79232 5.54871}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body2"
+	{Obb2
+		{Center 3.62458 2.21031}
+		{Extent 3.74329 6.89114}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body3"
+	{Obb2
+		{Center 3.90084 14.8074}
+		{Extent 3.03206 3.30775}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body1"
+	{Box 11.5846 11.0974 15.135}
+	{Bone "interset8_hb2"}
+	{Position 1.91035	11.1635	-0.965692}
+}
+{Volume "body2"
+	{Box 7.48658 13.7823 10.6498}
+	{Bone "interset8_hb2"}
+	{Position 3.62458	-2.21031	-3.2083}
+}
+{Volume "body3"
+	{Box 6.06413 6.6155 10.6498}
+	{Bone "interset8_hb2"}
+	{Position 3.90084	-14.8074	-3.2083}
+}

@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "bar18a2_c"}
+	{specular "bar18a2_c_sp"}
+	{color "229 229 229 25"}
+	{blend test}
+}

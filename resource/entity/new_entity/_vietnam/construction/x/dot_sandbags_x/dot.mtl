@@ -1,0 +1,5 @@
+{material multiply
+	{diffuse "sack"}
+	{diffuse1 "dot_sandbags_x_lm"}
+	{blend none}
+}

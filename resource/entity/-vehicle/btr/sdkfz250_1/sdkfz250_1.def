@@ -1,0 +1,139 @@
+{game_entity
+	(include "/properties/armoredcar.ext")
+	(include "/properties/selection/vehicle.inc"  scale(1.0))
+	{props "vehicle" "armored_car" "tank" "turret" "wheeled_8" "explosion_throw_crew" "vision_vehicle_medium" "switch_mgun"}
+
+	{extender "enumerator"
+		{digit_folder "ger"}
+	}
+	{extension "crew.ext"}
+
+	{extender "shield"
+		{on}
+	}
+	{volume "sticky"
+		{tags "grenade_fg_target"}
+		{able clear {contact} {touch}}
+		{component "sticky_body"}
+	}
+	{component "sticky_body"}
+
+	{volume "body1"
+		{tags "body"}
+		{component "body"}
+		{thickness 15}
+	}
+	{volume "body2"
+		{tags "body"}
+		{component "body"}
+		{thickness 15}
+	}
+	{volume "body3"
+		{tags "body"}
+		{component "body"}
+		{thickness 15}
+	}
+	{volume "body4"
+		{tags "body"}
+		{component "body"}
+		{thickness 15}
+	}
+	{volume "body5"
+		{tags "body"}
+		{component "body"}
+		{thickness 15}
+	}
+	{volume "body6"
+		{tags "body"}
+		{component "body"}
+		{thickness 15}
+	}
+	{volume "engine1"
+		{tags "engine"}
+		{component "engine"}
+		{thickness 20}
+	}
+	{volume "engine2"
+		{tags "engine"}
+		{component "engine"}
+		{thickness 20}
+	}
+	{Volume "fuel"
+		{thickness 1}
+	}
+	{Volume "mgun_shield"
+		{thickness 10}
+	}
+
+	("armor_medium" args 1.0)
+
+	{placer
+		{place "driver"		{group "driver"} {visor "driver"}}
+		{place "gunner"		{group "driver"} {visor "main"} {turnoff {targetable 0}}}
+	}
+
+	{extender "inventory"
+		{weapon "mgun"
+			{mask "weapon mgun"}
+		}
+		{Box
+			{item "m24x5" "grenade" 10}
+			{item "m24" "grenade" 25}
+			{item "smoke" "grenade" 10}
+			{item "bandage" 10}
+			{item "dynamite"}
+			{item "mg42" filled {user "mgun"}}
+			{item "ammo mg_mauser drum" 2300}
+		}
+	}
+	{Weaponry
+		{place "mgun"
+			{type			"mgun_main"}
+			{LinkBone		"mgun2"}
+			{LinkAnimation	"off"}
+			{charger		"gunner"}
+			{gunner			"gunner"}
+			("abm_mgun")
+		}
+	}
+
+	("wheel" args "wheelright1")
+	("wheel" args "wheelleft1")
+	("tracks")
+
+	{mass 5800}
+	{Chassis
+		{Locomotion ("locomotion")
+               	 	{MaxSpeed	38}	
+	  		{maxSpeedAtMaxTurn 6}	
+			{StartTime	20}
+			{BrakeTime	1.5}	
+			{StopTime	2.5}
+			{TurnRadius	8}
+     			{Gears  0.1 0.2 0.3 1}
+			{RearGears  0.25}
+		}
+		{FuelBag
+			{volume 140}
+			{rate	10}
+			{remain 140}
+			{fuel "fuel"}
+		}
+		{speed
+			{Normal  38}
+			{Slow  38}
+		}
+		; left track must be first
+		("tank_trace" fx("tracks_mid") step(0.5) len(0.86) boneleft("FXtraceL2") boneright("FXtraceR2"))
+		("car_trace" fx("tracewheel02") step(0.09) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
+	}
+
+	{Extension "sdkfz250_1.mdl"}
+	
+	{bone "mgun_rot"
+		{limits -20 20}		;gun min right to max left
+	}
+	{bone "mgun_rot2"
+		{limits -15 15}		;gun min up to max down
+	}
+}

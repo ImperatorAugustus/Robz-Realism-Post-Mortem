@@ -1,0 +1,7 @@
+{game_entity
+	{Extension "interset8_hs1_x.mdl"}
+	{Volume "piece01"
+	}
+	{Volume "piece02"
+	}
+}

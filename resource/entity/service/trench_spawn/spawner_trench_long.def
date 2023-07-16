@@ -1,0 +1,37 @@
+{game_entity
+	{extension "/properties/piece.ext"}
+	{obstacleId "nothing"}
+     {Skeleton
+	{bone "basis"
+		{parameters "CommonMesh;"}
+		{Orientation
+			1	0	0
+			0	1	0
+			0	0	1
+		}
+		{bone "trench1"
+			{Orientation
+				0	1	0
+				1	0	0
+				0	0	1
+			}
+		}
+		{bone "trench2"
+			{Orientation
+				0	-1	0
+				-1	0	0
+				0	0	1
+                        }
+			{Position -15 -70 0}
+		}
+		{bone "trench3"
+			{Orientation
+				0	1	0
+				1	0	0
+				0	0	-1
+                        }
+			{Position 0 70 0}
+		}
+	}
+     }
+}

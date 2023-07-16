@@ -1,0 +1,24 @@
+;Exported by: Loskutov_K
+;Date:        Mon Mar 08 19:30:41 2010
+;File:        D:\_Vietnam\Art\Models\Houses\House_big_1\hb1_complete.max
+{Skeleton
+	{bone "interset7_hb1"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "interset7_hb1.ply"}
+		{bone "fix11"
+			{Position 12.0807	0.527481	12.1362}
+		}
+		{bone "fix14"
+			{Position -18.3111	0.527481	12.1362}
+		}
+	}
+}
+{Volume "body"
+	{Box 56.4871 2.63835 10.3852}
+	{Bone "interset7_hb1"}
+	{Position -0.814391	-0.806403	5.2881}
+}

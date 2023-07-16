@@ -1,0 +1,27 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{Extension "base2_s3.mdl"}
+	{props "cornered" "wood" "parts" "construction"  "wall" "burning" "wood_stamp"}
+	("armor_house_wood")
+        {mass 1000}
+	{obstacleID "small_building"}
+
+	{Volume "body1"
+		{Tags  "body"}
+		{Thickness 10}
+	}
+	{Volume "body2"
+		{Tags  "body" "fire"}
+		{Thickness 10}
+	}
+	{Volume "body3"
+		{Tags  "body"}
+		{Thickness 10}
+		{able {obstacle 0}}
+	}
+	{Volume "body4"
+		{Tags  "body" "fire"}
+		{Thickness 10}
+		{able {obstacle 0}}
+	}
+}

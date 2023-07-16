@@ -1,0 +1,186 @@
+{game_entity
+	(include "/properties/tank.ext")
+	(include "/properties/selection/vehicle.inc"  scale(1.2))
+	{collider "tank.heavy"}
+	{props "medium" "turret_rotator" "vision_vehicle_high" "muzzle_maximum_nodust" "gun_mode_change_art" "m12gmc"}
+	
+	{extender "enumerator"}
+
+	{volume "sticky"
+		{tags "grenade_fg_target"}
+		{able clear {contact} {touch}}
+		{component "sticky_body"}
+	}
+	{component "sticky_body"}
+
+	{Volume "body1"
+		{tags "body"}
+		{component "body"}
+	}
+	{Volume "body2"
+		{tags "body"}
+		{component "body"}
+	}
+	{Volume "body3"
+		{tags "body"}
+		{component "body"}
+	}
+	{Volume "body4"
+		{tags "body"}
+		{component "body"}
+	}
+	{Volume "body5"
+		{tags "body"}
+		{component "body"}
+	}
+	{Volume "mantlet1"
+		{tags "mantlet"}
+		{component "mantlet"}
+	}
+	{Volume "mantlet3"
+		{tags "mantlet"}
+		{component "mantlet"}
+	}
+	{Volume "mantlet"
+		{tags "mantlet"}
+		{component "mantlet"}
+	}
+
+	
+	("armor_spa_heavy" armor(51 19 19 13))  
+	("armor_engine"  t(5 5 5 5))
+	("armor_mantlet" t(15))
+	
+	("crew_4_human")
+
+	{boarder
+		{anm "driver"
+			{forward	{begin	"board_su76"}}
+			{reverse 	{end	"board_su76" -1}}
+		}
+		{anm "charger"
+			{forward	{begin	"board_hummel"} {end "pose_pak40_charger"} {base "open_back_door"}}
+			{reverse 	{end	"emit_body" 1} {base "open_back_door" -1}}	
+			
+		}
+		{anm "gunner"
+			{forward	{begin	"board_hummel"} {end "pose_pak40_gunlayer"} {base "open_back_door"}}
+			{reverse 	{end	"emit_body" 1} {base "open_back_door" -1}}
+		}
+		{anm "gunner2"
+			{forward	{begin	"board_su76"} {end "seat_driver_car"}}
+			{reverse 	{end	"board_su76" -1}}
+		}
+		{anm "commander"
+			{forward	{begin	"board_hummel"} {end "pose_seat_armor_2"} {base "open_back_door"}}
+			{reverse 	{end	"emit_body" 1} {base "open_back_door" -1}}
+		}
+	}
+
+(define "crew_human"
+		{placer
+			{place "%place"
+				{group "crew"}
+				{linkbone "%place"}
+				{turnoff {sensor} {shadow}}
+				{visor "main"}
+			}
+		}
+		{boarder
+			{door "%door1"}
+			{door "%door2"}
+			{link "%door1" "%place" {anm "%place"} {forward putoff} {reverse puton}}
+			{link "%door2" "%place" {anm "%place"} {forward putoff} {reverse puton}}
+		}
+	)
+
+	{placer
+		{place "driver" {group "crew"} {visor "driver"}}
+	}
+	{boarder
+		{door "emit1"}
+		{door "emit2"}
+		{link "emit1" "driver" {anm "driver"} {forward putoff} {reverse puton}}
+		{link "emit2" "driver" {anm "driver"} {forward putoff} {reverse puton}}
+		{link "emit1" "commander" {anm "commander"} {forward putoff} {reverse puton}}
+		{link "emit2" "commander" {anm "commander"} {forward putoff} {reverse puton}}
+	}
+
+	("crew_human" place(gunner) door1(emit1) door2(emit2) visor(main))
+	("crew_human" place(charger)	door1(emit1) door2(emit2))
+	("crew_human" place(commander)	door1(emit1) door2(emit2))
+
+	{placer
+		{place "commander" {group "crew"} {visor "main"}}
+	}
+
+	{extender "inventory"
+		{box
+			{item "ammo bullet155 us fg" 6}
+			{item "ammo bullet155 us sm" 3}
+			{item "ammo bullet155 us wp" 3}
+			{item "ammo bullet155 us aphe" 2}
+		}
+	}
+	{Weaponry
+		{place "gun"
+			{weapon "155mm_m12_vet" filling "bullet155 us fg" 3}
+			{Rotate}
+			{StationaryFiring}
+			("abm_howitzer")
+		}
+		{place "gun1_2"
+			{RestoreIKAfterAim}	
+			{type "gun_change_direct"}		
+			{weapon "155mm_m12_2_vet"}
+			("abm_veteran")
+			{basic}
+		}
+	}
+	
+	{mass 42500}
+	{Chassis
+		("tank_trace" fx("tracks_sm") step(0.3) len(0.6))
+		{Locomotion ("locomotion")
+			{MaxSpeed   22}
+			{maxSpeedAtMaxTurn 4.5}
+			{StartTime  30}
+			{TurnStart  1.8}			
+			{TurnTime   17}
+			{TurnRadius 9} 
+    		{TurnStop   0.8}
+			{BrakeTime  1.5}
+			{StopTime   2.5}
+			{Gears  0.1 0.2 0.3 1}
+			{RearGears  0.3}		
+		}
+		{FuelBag
+			{volume 660 }	
+			{rate	35 }   
+			{remain 660 }
+			{fuel "fuel"}
+		}
+		{speed
+        	{Normal  22}
+        	{Slow  22}
+    	}
+		{DisableMoveWhileFiring}
+	}
+	{Extension "m12_gmc.mdl"}
+	
+	{bone "mantlet"
+	    {limits -15 15}
+		{speed 0.0005}
+	}
+	{bone "gun_rot"
+	    {limits -5 50}
+		{speed 0.0005}
+	}
+	(mod "mp"
+		{brain
+			{properties
+				{fire_mode hold}
+			}
+		}
+	)
+}

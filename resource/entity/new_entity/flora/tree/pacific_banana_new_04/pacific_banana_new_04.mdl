@@ -1,0 +1,24 @@
+;Exported by: ?????
+;Date:        Sun Mar 08 16:40:37 2015
+;File:        C:\Users\?????\Documents\3dsmax\scenes\bamboo.max
+{Skeleton
+	{bone "tree"
+		{parameters "CommonMesh;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "tree.ply"}
+	}
+}
+{Volume "bole"
+	{Cylinder 1.08664 72.5913}
+	{Bone "tree"}
+	{Position -1.40564	0.403076	36.2957}
+}
+{Volume "crown"
+	{Cylinder 23.4511 25.6597}
+	{Bone "tree"}
+	{Position -0.965652	0.426331	64.8467}
+}

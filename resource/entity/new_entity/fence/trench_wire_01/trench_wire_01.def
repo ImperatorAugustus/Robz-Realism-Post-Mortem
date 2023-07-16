@@ -1,0 +1,50 @@
+{game_entity
+	(include "/properties/building.inc")
+	{props "steel" "parts" "construction" "burning" "cornered"}
+	("armor_heavy" args 1.0)
+	{Extension "trench_wire_01.mdl"}
+	{placer}
+	{extender "structure"
+		{place "basic" "trench_wire_01_a"}
+	}
+	{Volume "body01"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {visible 1}}
+	}
+	{Volume "body02"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {visible 1}}
+	}
+	{Volume "body03"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {visible 1}}
+	}
+	{Volume "body04"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {visible 1}}
+	}
+	{Volume "body05"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {visible 1}}
+	}
+	{Volume "body06"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {visible 1}}
+	}
+	{Volume "body07"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {visible 1}}
+	}
+	{Volume "body08"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {visible 1}}
+	}
+}

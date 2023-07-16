@@ -1,0 +1,49 @@
+;Exported by: Руслан
+;Date:        Wed Sep 18 17:24:28 2013
+;File:        C:\Users\Руслан\Documents\3dsmax\scenes\new_trench_and_fortific\bunker_2222.max
+{Skeleton
+	{bone "trench_box_roof_01"
+		{parameters "land;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "trench_box_roof_01.ply"}
+
+	}
+}
+
+{Obstacle "body2"
+	{Obb2
+		{Center 20.0093 -0.679901}
+		{Extent 2.90094 19.685}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body3"
+	{Obb2
+		{Center -15.9968 -0.679901}
+		{Extent 2.90094 19.685}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body1r"
+	{Box 49.2126 51.1732 9.84252}
+	{Bone "trench_box_roof_01"}
+	{Position 1.71474	-0.957611	20.9839}
+}
+{Volume "body2"
+	{Box 5.80187 39.3701 44.3632}
+	{Bone "trench_box_roof_01"}
+	{Position 20.0093	0.679901	-5.84355}
+}
+{Volume "body3"
+	{Box 5.80187 39.3701 44.3632}
+	{Bone "trench_box_roof_01"}
+	{Position -15.9968	0.679901	-5.84355}
+}

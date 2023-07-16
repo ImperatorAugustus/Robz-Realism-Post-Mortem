@@ -1,0 +1,12 @@
+;Exported by: Loskutov_K
+;Date:        Thu Mar 18 17:40:21 2010
+;File:        D:\_Vietnam\Art\Models\Houses\X\House_small_1_x\hs1_x.max
+{Skeleton
+	{bone "interset5_hs1_x"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+	}
+}

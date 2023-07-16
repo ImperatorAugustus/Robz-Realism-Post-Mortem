@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "/entity/-vehicle/tank_light/grille/grille_track"}
+	{blend test}
+}

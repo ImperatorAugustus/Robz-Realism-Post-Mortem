@@ -1,0 +1,306 @@
+;Exported by: Руслан
+;Date:        Wed Sep 18 16:42:28 2013
+;File:        C:\Users\Руслан\Documents\3dsmax\scenes\new_trench_and_fortific\belgiangate_x.max
+{Skeleton
+	{bone "belgian_gate_x"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+                               {LODView
+		{VolumeView "belgian_gate_x.ply"}
+		{VolumeView "belgian_gate_x_lod.ply"}
+		}
+	}
+}
+{Obstacle "body1"
+	{Obb2
+		{Center -2.94841 1.90807}
+		{Extent 6.23916 34.2444}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body10"
+	{Obb2
+		{Center 0.446993 29.4395}
+		{Extent 3.12573 2.42637}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body11"
+	{Obb2
+		{Center 0.446993 -30.121}
+		{Extent 3.12573 2.42637}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+
+{Obstacle "body16"
+	{Obb2
+		{Center 0.606434 18.6395}
+		{Extent 0.461323 0.516066}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body18"
+	{Obb2
+		{Center 0.606434 7.61209}
+		{Extent 0.461323 0.516065}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body19"
+	{Obb2
+		{Center 0.606434 -6.95061}
+		{Extent 0.461323 0.516065}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body2"
+	{Obb2
+		{Center -36.1717 -18.9471}
+		{Extent 2.62369 35.2374}
+		{Axis 0.276267 0.961081}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body20"
+	{Obb2
+		{Center 0.606434 -12.7522}
+		{Extent 0.461323 0.516066}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body21"
+	{Obb2
+		{Center 0.606434 -17.8656}
+		{Extent 0.461323 0.516066}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body22"
+	{Obb2
+		{Center 0.606434 -23.9949}
+		{Extent 0.461323 0.516066}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+
+{Obstacle "body3"
+	{Obb2
+		{Center -36.51 19.8271}
+		{Extent 35.2396 2.65854}
+		{Axis 0.951106 0.308866}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body4"
+	{Obb2
+		{Center -65.4127 -0.432354}
+		{Extent 5.94421 15.6968}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+
+{Obstacle "body9"
+	{Obb2
+		{Center 0.446993 0.141195}
+		{Extent 3.93701 3.93701}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body1"
+	{Box 12.4783 68.4888 7.77455}
+	{Bone "belgian_gate_x"}
+	{Position -2.94841	-1.90807	3.88727}
+}
+{Volume "body10"
+	{Box 6.25146 4.85275 55.4368}
+	{Bone "belgian_gate_x"}
+	{Position 0.446993	-29.4395	27.7184}
+}
+{Volume "body11"
+	{Box 6.25146 4.85275 55.4368}
+	{Bone "belgian_gate_x"}
+	{Position 0.446993	30.121	27.7184}
+}
+{Volume "body12r"
+	{Box 2.51417 42.5615 4.05781}
+	{Bone "belgian_gate_x"}
+	{Position -33.6275	0.435774	24.0287}
+}
+{Volume "body13r"
+	{Box 2.51969 33.4646 1.9685}
+	{Bone "belgian_gate_x"}
+	{Matrix34
+		1	0	0
+		0	0.941257	0.33769
+		0	-0.33769	0.941257
+		1.87995	-14.7857	47.8072
+	}
+}
+{Volume "body16"
+	{Box 0.922646 1.03213 35.19}
+	{Bone "belgian_gate_x"}
+	{Position 0.606434	-18.6395	21.0129}
+}
+{Volume "body18"
+	{Box 0.922646 1.03213 35.19}
+	{Bone "belgian_gate_x"}
+	{Position 0.606434	-7.61209	21.0129}
+}
+{Volume "body19"
+	{Box 0.922646 1.03213 35.19}
+	{Bone "belgian_gate_x"}
+	{Position 0.606434	6.95061	21.0129}
+}
+{Volume "body2"
+	{Box 70.4528 4.92126 5.31138}
+	{Bone "belgian_gate_x"}
+	{Matrix34
+		0.959792	0.280713	0
+		-0.280713	0.959792	0
+		0	0	1
+		-36.1717	18.9471	5.8778
+	}
+}
+{Volume "body20"
+	{Box 0.922646 1.03213 35.19}
+	{Bone "belgian_gate_x"}
+	{Position 0.606434	12.7522	21.0129}
+}
+{Volume "body21"
+	{Box 0.922646 1.03213 35.19}
+	{Bone "belgian_gate_x"}
+	{Position 0.606434	17.8656	21.0129}
+}
+{Volume "body22"
+	{Box 0.922646 1.03213 35.19}
+	{Bone "belgian_gate_x"}
+	{Position 0.606434	23.9949	21.0129}
+}
+{Volume "body23r"
+	{Box 1.77165 1.77165 35.19}
+	{Bone "belgian_gate_x"}
+	{Matrix34
+		1	0	0
+		0	0.627235	0.77883
+		0	-0.77883	0.627235
+		0.606434	15.9324	17.993
+	}
+}
+{Volume "body24r"
+	{Box 1.77165 1.77165 35.19}
+	{Bone "belgian_gate_x"}
+	{Matrix34
+		1	0	0
+		0	-0.619083	0.785326
+		0	-0.785326	-0.619083
+		0.606434	-15.2896	18.0405
+	}
+}
+{Volume "body26r"
+	{Box 2.51417 42.5615 4.05781}
+	{Bone "belgian_gate_x"}
+	{Matrix34
+		-0.509195	-0.838628	0.19345
+		0.807257	-0.387446	0.445221
+		-0.298424	0.382868	0.874274
+		-16.0696	10.1634	33.2781
+	}
+}
+{Volume "body27r"
+	{Box 1.77165 1.77165 35.19}
+	{Bone "belgian_gate_x"}
+	{Matrix34
+		0.353129	-0.93208	0.0807849
+		0.493162	0.258825	0.830543
+		-0.795041	-0.253449	0.551066
+		-14.6173	24.8455	17.3932
+	}
+}
+{Volume "body28r"
+	{Box 1.77165 1.77165 35.19}
+	{Bone "belgian_gate_x"}
+	{Matrix34
+		-0.308975	-0.947633	0.0807849
+		0.546505	-0.107385	0.830542
+		-0.778374	0.300766	0.551066
+		-14.324	-25.3977	17.3932
+	}
+}
+{Volume "body3"
+	{Box 70.4528 4.92126 5.31138}
+	{Bone "belgian_gate_x"}
+	{Matrix34
+		0.952826	-0.303516	0
+		0.303516	0.952826	0
+		0	0	1
+		-36.51	-19.8271	5.8778
+	}
+}
+{Volume "body4"
+	{Box 11.8884 31.3936 8.45266}
+	{Bone "belgian_gate_x"}
+	{Position -65.4127	0.432354	4.22633}
+}
+{Volume "body5r"
+	{Box 70.4528 4.92126 5.31138}
+	{Bone "belgian_gate_x"}
+	{Matrix34
+		0.857004	-0.248473	0.451448
+		0.192858	0.967058	0.166149
+		-0.47786	-0.0553247	0.876692
+		-33.0339	-19.974	22.8152
+	}
+}
+{Volume "body6r"
+	{Box 70.4528 4.92126 5.31138}
+	{Bone "belgian_gate_x"}
+	{Matrix34
+		0.832852	0.224361	0.505984
+		-0.368936	0.906493	0.205318
+		-0.412606	-0.357675	0.83775
+		-31.0156	18.6358	22.7117
+	}
+}
+{Volume "body7r"
+	{Box 2.59626 60.4783 4.64191}
+	{Bone "belgian_gate_x"}
+	{Position 1.84027	0.36017	31.1834}
+}
+{Volume "body8r"
+	{Box 2.59626 60.4783 4.64191}
+	{Bone "belgian_gate_x"}
+	{Position 1.84027	0.36017	40.0375}
+}
+{Volume "body9"
+	{Box 7.87402 7.87402 57.0866}
+	{Bone "belgian_gate_x"}
+	{Position 0.446993	-0.141195	28.5433}
+}

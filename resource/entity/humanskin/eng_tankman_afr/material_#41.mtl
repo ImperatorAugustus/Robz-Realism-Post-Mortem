@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "eng-tankcom"}
+	{blend none}
+}

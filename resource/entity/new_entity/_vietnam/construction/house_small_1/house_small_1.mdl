@@ -1,0 +1,72 @@
+;Exported by: Kislov_A
+;Date:        Wed Apr 14 14:26:49 2010
+;File:        E:\Men of war red tide2\Art\Models\Houses\House_small_1\hs1.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "1"
+			{Position -1.20918	-0.557495	26.2865}
+		}
+		{bone "2"
+			{Position 43.2784	-0.22781	23.5601}
+		}
+		{bone "3"
+			{Position 62.5416	21.4429	13.8953}
+		}
+		{bone "4"
+			{Position -5.44583	35.5592	37.0218}
+		}
+		{bone "5"
+			{Position -39.0783	0.691742	41.9456}
+		}
+		{bone "6"
+			{Position -5.44556	-36.5958	38.8299}
+		}
+		{bone "7"
+			{Position 29.9839	-0.368969	46.8829}
+		}
+		{bone "8"
+			{Position -5.24871	0.0230827	72.1557}
+		}
+		{bone "9"
+			{Position -4.41219	-0.578278	89.0013}
+		}
+		{bone "10"
+			{Position 42.307	-0.861351	29.5408}
+		}
+		{bone "15"
+			{Position -15.6247	31.4193	33.153}
+		}
+		{bone "16"
+			{Position -3.97884	31.6712	53.0465}
+		}
+		{bone "17"
+			{Position -31.3928	18.7887	31.5405}
+		}
+		{bone "18"
+			{Position -32.9342	15.2198	58.0037}
+		}
+		{bone "20"
+			{Position -18.477	-22.0688	51.8152}
+		}
+		{bone "21"
+			{Position -22.4252	-23.7223	28.664}
+		}
+		{bone "22"
+			{Position -4.69109	-0.369495	76.9995}
+		}
+		{bone "19"
+			{Position -31.5412	-1.95293	30.5179}
+		}
+		{bone "13"
+		}
+		{bone "14"
+		}
+		{bone "23"
+		}
+	}
+}

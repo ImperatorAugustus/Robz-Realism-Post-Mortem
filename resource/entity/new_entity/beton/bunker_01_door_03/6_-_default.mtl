@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/new_fortification/bun_01"}
+	{bump "$/new_fortification/bun_01_bp"}
+	{specular "$/new_fortification/bun_01_sp"}
+	{color "229 229 229 50"}
+	{blend none}
+}

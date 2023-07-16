@@ -1,0 +1,88 @@
+;Exported by: Joe
+;Date:        Sun Mar 10 19:38:21 2013
+;File:        C:\Users\Joe\Desktop\Models\Completed Full Models\BF2 Completed, Full Models\BazookaRecoiless\Completed\M38Reociless.max
+{Skeleton
+	{bone "bazookam9__genericfirearm"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "bazookam9__genericfirearm.ply"}
+		{bone "foresight3"
+			{Matrix34
+				1	0	0
+				0	0	1
+				0	-1	0
+				18.1759	0.0473999	0.880412
+			}
+		}
+		{bone "handle"
+			{Position -0.0746217	-0.245715	0.567121}
+		}
+		{bone "fxshot"
+			{Matrix34
+				-0.999985	0.00556069	0
+				5.06507e-005	0.00910856	0.999958
+				0.00556047	0.999943	-0.0091087
+				-10.1905	-0.0397259	0.908899
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 30.0131 4.65958 5.07556}
+	{Bone "bazookam9__genericfirearm"}
+	{Position 5.4901	1.09453	-0.0948224}
+}
+{Volume "select"
+	{Box 30.0131 4.65958 5.07556}
+	{Bone "bazookam9__genericfirearm"}
+	{Position 5.4901	1.09453	-0.0948224}
+}
+{Extender "preview"
+	{"Stuff_primary"
+		{camera
+			{origin 5.68058	-38.7357	0.56712}
+			{lookat 5.5762	-22.4273	0.56712}
+			{fov 45}
+			{horizon 0.0197823}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.0108911	-0.490384	0.0969808}
+			}
+			{"1"
+				{type point}
+				{position -0.0237212	-30.8048	0.56712}
+			}
+			{"2"
+				{type point}
+				{position 11.4521	-30.8048	0.56712}
+			}
+		}
+	}
+	{"Stuff"
+		{camera
+			{origin 5.68058	-38.7357	0.56712}
+			{lookat 5.5762	-22.4273	0.56712}
+			{fov 45}
+			{horizon 0.0197823}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.0108911	-0.490384	0.0969808}
+			}
+			{"1"
+				{type point}
+				{position -0.0237212	-30.8048	0.56712}
+			}
+			{"2"
+				{type point}
+				{position 11.4521	-30.8048	0.56712}
+			}
+		}
+	}
+}

@@ -1,0 +1,170 @@
+{game_entity
+	(include "/properties/tank.ext")
+	(include "/properties/selection/vehicle.inc"  scale(1.2))
+	{props "medium" "turret_rotator" "vision_vehicle_high" "muzzle_medium_sides" "gun_mode_change"}
+
+	{extender "enumerator"}
+	
+	{Volume "body1"
+		{component "body"}
+		{tags "body"}
+	}
+	{Volume "body2"
+		{component "body"}
+		{tags "body"}
+	}
+	{Volume "body3"
+		{component "body"}
+		{tags "body"}
+	}
+	{Volume "turret1"
+		{tags "turret"}
+		{component "turret"}
+	}
+	{Volume "turret2"
+		{tags "turret"}
+		{component "turret"}
+	}
+	{Volume "mantlet"
+		{tags "turret"}
+		{component "turret"}
+	}
+
+	("armor_medium_advanced" turret(64 64 64 25) body(64 38 38 22) body2(51 38 38 22) body3(51 38 38 22))
+	("armor_engine"  t(40 38 38 22))		
+	("armor_mantlet" t(89))
+	("us_5x_sight")
+
+	("shield" args 20)
+	{extender "shield"
+		{on}
+	}
+
+	{component "shield1" {tags "shield"}}
+	{component "shieldl1" {tags "shield"}}
+	{component "shieldr1" {tags "shield"}}
+	{component "shieldl2" {tags "shield"}}
+	{component "shieldr2" {tags "shield"}}
+	
+	("crew_4_human")
+
+	("gunner_visible")
+	("seat_human" place(seat1) bone(seat01) door(emit3)  animation(armor1))
+	("seat_human" place(seat2) bone(seat02) door(emit4)  animation(armor))
+	("seat_human" place(seat3) bone(seat03) door(emit5)  animation(armor))
+	("seat_human" place(seat4) bone(seat04) door(emit6)  animation(armor1))
+
+	{boarder
+		{anm "left"
+			{forward	{begin	"board_Kv"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+		{anm "right"
+			{forward	{begin	"board_tank_right"} {end "pose_mgun_pz6"}}
+			{reverse 	{end	"emit_tank_2_hold"}}
+		}
+
+		{anm "armor"
+			{forward	{begin	"board_HighArmor"} 	{end "seat_armor"}}
+			{reverse 	{end	"emit_tank_2"}}
+		}
+		{anm "armor1"
+			{forward	{begin	"board_HighArmor"} {end "pose_seat_armor_1"}}
+			{reverse 	{end	"emit_body"}}
+		}
+	}
+
+
+
+	{extender "inventory"
+		{box
+			{item "ammo bullet76 us apcbc" 26}
+			{item "ammo bullet76 us fg" 36}
+			{item "ammo bullet76 us hvap" 4}
+			{item "ammo bullet76 us sm" 4}
+			{item "browning" filling "ammo hmgun ap" 100 {user "mgun"}}
+			{item "ammo hmgun ap" 600}
+			{item "ammo springfield_belt" 3100}
+		}
+	}
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "76mm_m1a2_fury" filling "ammo bullet76 us apcbc" 1}	
+			("abm_stabilized")
+		}
+		{place "gun1_2"
+			{type "gun_change_arty"}
+			{weapon "76mm_m1a2_2"}
+			{StationaryFiring}
+			("abm_howitzer")
+		}
+		{place "mgun"
+			{type "mgun_aa"}
+			{gunner "gunner2"}
+			{charger "gunner2"}
+			{LinkBone "mgun_rot"}
+			{LinkAnimation "off"}
+			("abm_mgun")
+		}
+		{place "mgun1"
+			{type "mgun_hull"}
+			{weapon "browning_m19" filled}
+			{foresight "foresight4"}
+			{gunner "driver"}
+			{charger "driver"}
+			("abm_mgun")
+		}
+		{place "mgun2"
+			{type "mgun_coaxial"}
+			{weapon "browning_m19_optic" filled}
+			{foresight "foresight5"}
+			("abm_mgun")
+			{basic}
+		}
+	}
+
+	{Extension "m4a3e8.mdl"}
+
+	{mass 33300}
+	{Chassis
+		("tank_trace" fx("tracks_sm") step(0.3) len(0.65))
+		{Locomotion ("locomotion")
+			{maxspeed   33}
+			{maxSpeedAtMaxTurn 4.5}
+			{StartTime  22.5}
+			{TurnTime   13.6}
+			{TurnStart  1.6}
+			{TurnRadius 8}
+    		{TurnStop   0.8}
+			{BrakeTime  1.5}
+			{StopTime   2.5}
+			{Gears   0.21 0.31 0.41 1}
+			{RearGears  0.27}
+		}
+		{FuelBag
+			{volume 660 }	
+			{rate	35 }   
+			{remain 660 }
+			{fuel "fuel"}
+		}
+		{speed
+        	{Normal  33}
+        	{Slow  33}
+    	}
+	{DisableMoveWhileFiring}
+	}
+	{bone "turret_mgun"
+		{limits -15 15}
+		{speed 0.03}
+		{terminator}
+	}
+	{bone "turret"
+		{speed 0.0043}
+	}
+	{bone "mantlet"
+		{speed 0.0016}
+	}
+}
+

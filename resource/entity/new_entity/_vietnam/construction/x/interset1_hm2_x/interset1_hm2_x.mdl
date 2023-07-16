@@ -1,0 +1,64 @@
+;Exported by: Loskutov_K
+;Date:        Wed Mar 31 18:32:21 2010
+;File:        D:\_Vietnam\Art\Models\Houses\X\House_middle_2_x\House_middle_2_x.max
+{Skeleton
+	{bone "interset1_hm2_x"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "piece01"
+			{Matrix34
+				0	0.076261	-0.997088
+				0	-0.997088	-0.076261
+				-1	0	0
+				1.98076	-0.197533	-9.57432
+			}
+			{VolumeView "piece01.ply"}
+		}
+		{bone "piece03"
+			{Matrix34
+				-1	0	0
+				0	0	-1
+				0	-1	0
+				4.31197	-0.00483704	10.7331
+			}
+			{VolumeView "piece03.ply"}
+		}
+		{bone "piece02"
+			{Matrix34
+				-1	0	0
+				0	-1	0
+				0	0	1
+				-19.3303	-1.66845	14.5783
+			}
+			{VolumeView "piece02.ply"}
+		}
+	}
+}
+{Volume "piece01"
+	{Box 28.3316 0.694557 16.3152}
+	{Bone "piece01"}
+	{Matrix34
+		0	0	1
+		0.00306272	0.999995	0
+		-0.999995	0.00306272	0
+		-0.0272629	0.151648	-0.22553
+	}
+}
+{Volume "piece02"
+	{Cylinder 3.50836 2.8326}
+	{Bone "piece02"}
+	{Matrix34
+		1	0	0
+		0	-0.0871457	0.996195
+		0	-0.996195	-0.0871457
+		-0.0283012	-0.17427	-0.286352
+	}
+}
+{Volume "piece03"
+	{Polyhedron "piece03.vol"}
+	{Bone "piece03"}
+	{Position -0.0341338	-0.123046	-2.72242}
+}

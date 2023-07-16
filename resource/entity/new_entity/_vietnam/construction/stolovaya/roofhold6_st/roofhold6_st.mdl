@@ -1,0 +1,30 @@
+;Exported by: Loskutov_K
+;Date:        Thu Mar 11 11:08:58 2010
+;File:        D:\_Vietnam\Art\Models\Houses\stolovaya\stolovaya.max
+{Skeleton
+	{bone "roofhold6_st"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "roofhold6_st.ply"}
+		{bone "exterior"
+			{Position -18.5463	2.32019	5.34549}
+			{VolumeView "exterior.ply"}
+		}
+		{bone "fix26"
+			{Position 0.00836228	0.677795	-1.4632}
+		}
+	}
+}
+{Volume "roof"
+	{Box 57.489 2.79606 36.7848}
+	{Bone "exterior"}
+	{Matrix34
+		0	1	0
+		-0.365423	0	-0.930842
+		-0.930842	0	0.365423
+		8.42449	-1.68131	3.93999
+	}
+}

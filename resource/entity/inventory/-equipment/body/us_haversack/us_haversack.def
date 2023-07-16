@@ -1,0 +1,7 @@
+{actor
+	(include "/properties/stuff_small.ext")
+	{Extension "us_haversack.mdl"}
+	{extender "stuff"
+		{item "us_haversack"}
+	}
+}

@@ -1,0 +1,12 @@
+{game_entity
+	{Extension "jap_bunker.mdl"}
+	{placer}
+	{extender "structure"
+		{place "basic" "jap_bunker_land_mort"}
+		{place "wall1" "jap_bunker_wall_03"}
+		{place "wall2" "jap_bunker_wall_01"}
+		{place "wall3" "jap_bunker_wall_02"}
+		{place "roof" "jap_bunker_roof_land_mort_close" "jap_bunker_roof_land_mort_open" "jap_bunker_roof_land"}
+		{place "wall4" "jap_bunker_wall_04"}
+	}
+}

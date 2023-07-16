@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/entity/flags/flag_cour_jap_2"}
+	{blend test}
+}

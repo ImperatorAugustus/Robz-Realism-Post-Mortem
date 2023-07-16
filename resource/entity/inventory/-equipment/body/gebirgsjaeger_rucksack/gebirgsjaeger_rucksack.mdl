@@ -1,0 +1,51 @@
+;Exported by: Kalinski
+;Date:        Sat Oct 15 20:05:26 2016
+;File:        C:\Users\Kalinski\Desktop\gebirgs\rucksack_exp.max
+{Skeleton
+	{bone "gebirgsjaeger_rucksack"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "gebirgsjaeger_rucksack.ply"}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "gebirgsjaeger_rucksack"}
+}
+{Volume "select"
+	{Box 7.12156 10.0843 14.346}
+	{Bone "gebirgsjaeger_rucksack"}
+	{Matrix34
+		1.0387	0	0
+		0	1.0387	0
+		0	0	1.0387
+		-5.99165	-0.0923841	-0.0695057
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -27.8548	-1.38499	-0.446239}
+			{lookat -8.87489	-1.22389	-0.301666}
+			{fov 45}
+			{horizon -90.2265}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -10.6478	0.32717	-4.29672}
+			}
+			{"1"
+				{type point}
+				{position -10.4728	0.132331	4.23072}
+			}
+			{"2"
+				{type directional}
+				{direction 0.5	0.000193347	-0.000592811}
+			}
+		}
+	}
+}

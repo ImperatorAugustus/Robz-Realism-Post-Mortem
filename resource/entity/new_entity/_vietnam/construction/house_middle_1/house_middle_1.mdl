@@ -1,0 +1,135 @@
+;Exported by: Kislov_A
+;Date:        Thu Apr 15 10:34:56 2010
+;File:        E:\Men of war red tide2\Art\Models\Houses\House_middle_1\hm1_complete.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "1"
+			{Position 65.1315	0.197269	6.32726}
+		}
+		{bone "2"
+			{Position 68.7878	-30.729	7.12644}
+		}
+		{bone "3"
+			{Position 0.148962	-48.1704	19.7823}
+		}
+		{bone "4"
+			{Position 1.8271	-11.0418	31.323}
+		}
+		{bone "5"
+			{Position -30.9859	-16.3208	30.7535}
+		}
+		{bone "6"
+			{Position -32.2624	23.9221	30.7535}
+		}
+		{bone "7"
+			{Position -58.9697	4.33524	56.2558}
+		}
+		{bone "8"
+			{Position 1.82473	55.8469	6.75674}
+		}
+		{bone "9"
+			{Position 31.0783	27.4998	30.7484}
+		}
+		{bone "10"
+			{Position 1.05396	15.896	31.323}
+		}
+		{bone "11"
+			{Position 60.0359	4.47517	54.3521}
+		}
+		{bone "12"
+			{Position 35.4684	-13.9188	30.7535}
+		}
+		{bone "13"
+			{Position -52.2016	-38.9205	69.8145}
+		}
+		{bone "14"
+			{Position -52.2919	4.61229	69.8145}
+		}
+		{bone "15"
+			{Position -52.3408	47.8802	69.8145}
+		}
+		{bone "16"
+			{Position 1.01692	-38.9694	69.8145}
+		}
+		{bone "17"
+			{Position 1.06984	4.61232	69.7945}
+		}
+		{bone "18"
+			{Position 1.42263	47.9072	69.8145}
+		}
+		{bone "20"
+			{Position 53.2663	4.61238	69.8316}
+		}
+		{bone "21"
+			{Position 53.3329	47.9341	69.8145}
+		}
+		{bone "22"
+			{Position 65.6107	-1.30295	26.1443}
+		}
+		{bone "23"
+			{Position 39.2052	-41.4986	39.828}
+		}
+		{bone "24"
+			{Position -25.4898	-41.4986	40.4614}
+		}
+		{bone "25"
+			{Position -54.6518	4.33529	41.8187}
+		}
+		{bone "26"
+			{Position -38.266	50.2947	41.4671}
+		}
+		{bone "27"
+			{Position 26.429	50.2914	41.3831}
+		}
+		{bone "28"
+			{Position 55.0831	27.1261	42.3869}
+		}
+		{bone "29"
+			{Position 55.0503	-28.86	40.4759}
+		}
+		{bone "31"
+			{Position 55.968	-24.916	39.0509}
+		}
+		{bone "32"
+			{Position 28.1988	-30.5085	28.2992}
+		}
+		{bone "33"
+			{Position -0.405914	-24.7191	44.6908}
+		}
+		{bone "34"
+			{Position -25.6619	0.0740776	59.2716}
+		}
+		{bone "35"
+			{Position -41.5153	12.3136	24.1944}
+		}
+		{bone "36"
+			{Position 18.0111	42.469	26.9712}
+		}
+		{bone "37"
+			{Position -39.3307	39.6662	24.4462}
+		}
+		{bone "38"
+			{Position -30.1732	45.5078	37.023}
+		}
+		{bone "39"
+			{Position 0.599424	35.0215	55.7283}
+		}
+		{bone "40"
+			{Position 43.6472	29.9758	37.5828}
+		}
+		{bone "42"
+			{Position 31.6728	4.29096	31.893}
+		}
+		{bone "43"
+			{Position -36.0511	4.29096	31.893}
+		}
+		{bone "19"
+			{Position 53.3497	-38.9596	69.8145}
+		}
+	}
+}

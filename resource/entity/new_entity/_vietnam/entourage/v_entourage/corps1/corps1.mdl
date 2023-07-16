@@ -1,0 +1,75 @@
+;Exported by: Loskutov_K
+;Date:        Thu Apr 08 10:05:14 2010
+;File:        D:\_Vietnam\Art\Models\Anturage\cross_corps1\cross_corps1.max
+{Skeleton
+	{bone "corps1"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "corps1.ply"}
+	}
+}
+{Obstacle "body1"
+	{Obb2
+		{Center -3.76965 2.44176}
+		{Extent 1.43934 11.1688}
+		{Axis 0.927257 0.374426}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Obstacle "body2"
+	{Obb2
+		{Center -3.32964 -1.73312}
+		{Extent 11.8123 1.48395}
+		{Axis 0.469956 0.88269}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Obstacle "body3"
+	{Obb2
+		{Center -8.5984 0.486424}
+		{Extent 5.48256 0.877964}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Volume "body1"
+	{Box 2.1866 2.13327 43.828}
+	{Bone "corps1"}
+	{Matrix34
+		0.985501	-0.097496	0.138859
+		0.0281455	0.901016	0.432871
+		-0.167317	-0.422687	0.890697
+		-3.76966	-2.44176	21.1883
+	}
+}
+{Volume "body2"
+	{Box 2.1866 2.13327 43.828}
+	{Bone "corps1"}
+	{Matrix34
+		0.974415	0.0983192	0.202111
+		0	0.899245	-0.437447
+		-0.224756	0.426256	0.876237
+		-3.32964	1.73312	21.1883
+	}
+}
+{Volume "body3"
+	{Box 1.66186 1.75593 23.2879}
+	{Bone "corps1"}
+	{Matrix34
+		0.91404	0	-0.405623
+		0	1	0
+		0.405623	0	0.914041
+		-8.59839	-0.486422	11.1323
+	}
+}
+{Volume "body4"
+	{Polyhedron "body4.vol"}
+	{Bone "corps1"}
+	{Position -1.2308	-0.223679	20.787}
+}

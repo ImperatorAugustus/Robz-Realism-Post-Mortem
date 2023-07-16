@@ -1,0 +1,20 @@
+;Exported by: Фёдор
+;Date:        Thu Jul 24 01:27:53 2014
+;File:        C:\Users\Фёдор\Documents\3dsmax\scenes\wheat_round_01.max
+{Skeleton
+	{bone "basic"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "piece01"
+			{VolumeView "piece01.ply"}
+		}
+	}
+}
+{Volume "piece01"
+	{Cylinder 1.62844 30.3638}
+	{Bone "piece01"}
+	{Position 0.159264	0.0610847	12.9639}
+}

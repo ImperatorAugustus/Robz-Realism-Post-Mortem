@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "revolver clip"}
+	{blend none}
+}

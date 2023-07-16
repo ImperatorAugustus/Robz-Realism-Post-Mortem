@@ -1,0 +1,114 @@
+;Exported by: Loskutov_K
+;Date:        Tue May 04 14:21:55 2010
+;File:        D:\_Vietnam\Art\Models\Houses\stolovaya\stolovaya.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "1"
+			{Position -8.86385	46.4201	28.6428}
+		}
+		{bone "2"
+			{Position -25.4226	48.1566	26.0425}
+		}
+		{bone "3"
+			{Position -21.1763	84.4217	27.1044}
+		}
+		{bone "4"
+			{Position 40.5117	84.3656	27.1044}
+		}
+		{bone "5"
+			{Position 47.2185	46.4995	26.0425}
+		}
+		{bone "6"
+			{Position 32.9276	46.8334	28.6338}
+		}
+		{bone "7"
+			{Position 73.2631	49.7869	27.1044}
+		}
+		{bone "8"
+			{Position 33.9585	-0.748957	30.2319}
+		}
+		{bone "9"
+			{Position 81.7904	0.195124	5.94242}
+		}
+		{bone "10"
+			{Position -50.2374	49.4479	27.1044}
+		}
+		{bone "11"
+			{Position -57.9895	0.195192	5.94243}
+		}
+		{bone "12"
+			{Position -7.12732	-2.32678	30.2319}
+		}
+		{bone "13"
+			{Position 12.1693	-1.93652	30.2319}
+		}
+		{bone "14"
+			{Position -31.9587	-51.8914	26.0425}
+		}
+		{bone "15"
+			{Position -6.03357	-50.5287	28.6338}
+		}
+		{bone "16"
+			{Position -50.2501	-51.6525	27.1044}
+		}
+		{bone "17"
+			{Position -21.0504	-88.4161	27.1044}
+		}
+		{bone "18"
+			{Position 15.5454	-27.7792	30.7495}
+		}
+		{bone "19"
+			{Position 34.0223	-49.4207	28.6338}
+		}
+		{bone "20"
+			{Position 26.0157	-78.334	36.5082}
+		}
+		{bone "21"
+			{Position 63.8545	-54.6979	37.7908}
+		}
+		{bone "22"
+			{Position 73.0772	-51.6183	37.1454}
+		}
+		{bone "23"
+			{Position 40.9367	-88.2847	34.2664}
+		}
+		{bone "24"
+			{Position 72.8949	83.4833	61.4457}
+		}
+		{bone "25"
+			{Position 7.82682	83.4833	61.4457}
+		}
+		{bone "26"
+			{Position -50.1271	83.4833	61.4457}
+		}
+		{bone "27"
+			{Position -50.1271	-2.86444	61.4457}
+		}
+		{bone "28"
+			{Position 7.82682	-2.86444	61.4457}
+		}
+		{bone "29"
+			{Position 72.8949	-2.86444	61.4457}
+		}
+		{bone "30"
+			{Position -50.1271	-88.2745	61.4457}
+		}
+		{bone "31"
+			{Position 7.82682	-88.2745	61.4457}
+		}
+		{bone "32"
+			{Position 72.8949	-88.2745	61.4457}
+		}
+		{bone "33"
+			{Position 11.2125	-51.2635	26.1107}
+		}
+		{bone "34"
+			{Position 11.2554	42.885	26.1107}
+		}
+	}
+}

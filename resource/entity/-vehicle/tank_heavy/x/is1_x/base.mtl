@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "is_crash"}
+	{bump "$/model/is1/is_nm"}
+	{specular "$/model/is1/is_sm"}
+	{color "229 229 229 25"}
+	{blend test}
+}

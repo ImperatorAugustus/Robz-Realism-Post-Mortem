@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "axis_lod0_gear_marinetropicalengineer"}
+	{bump "axis_lod0_gear_marinetropicalengineer-fx"}
+	{specular "axis_lod0_gear_marinetropicalengineer-gg"}
+	{color "229 229 229 9"}
+	{blend none}
+}

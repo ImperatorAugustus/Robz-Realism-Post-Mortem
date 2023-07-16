@@ -1,0 +1,11 @@
+{game_entity
+	(include "/properties/stuff_small.ext")
+	{extender "stuff"
+		{item "dfr_gear2"}
+	}
+	{Extension "ger-ammo-back.mdl"}
+	{Volume "body"
+	}
+	{Volume "select"
+	}
+}

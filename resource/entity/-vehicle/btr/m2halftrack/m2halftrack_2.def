@@ -110,8 +110,8 @@
 			{fuel "fuel"}
 		}
 		{speed
-        	{Normal  12}
-        	{Slow  20}
+        	{Normal  35}
+        	{Slow  35}
     	}
 		; left track must be first
 		("tank_trace" fx("tracks_sm") step(0.3) len(0.4) boneleft("wheell4") boneright("wheelr4"))

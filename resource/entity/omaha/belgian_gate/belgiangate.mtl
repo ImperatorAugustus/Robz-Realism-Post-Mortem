@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/bon/belgiangate"}
+	{specular "$/bon/belgiangate_sp"}
+	{bump "$/bon/belgiangate_bp"}
+	{color "229 229 229 50"}
+	{blend none}
+}

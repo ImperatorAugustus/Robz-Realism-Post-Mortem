@@ -1,0 +1,60 @@
+;Exported by: Kislov_A
+;Date:        Wed Apr 14 14:26:56 2010
+;File:        E:\Men of war red tide2\Art\Models\Houses\House_small_1\hs1.max
+{Skeleton
+	{bone "roofhold_hs1"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "roofhold_hs1.ply"}
+		{bone "fix08"
+			{Position -33.8059	35.3074	-10.4611}
+		}
+		{bone "exterior"
+			{Position 0.134377	0.649025	-9.06575}
+			{VolumeView "exterior.ply"}
+		}
+	}
+}
+{Volume "body1"
+	{Box 2.08661 2.08661 46.3831}
+	{Bone "roofhold_hs1"}
+	{Matrix34
+		0	1	0
+		-1	0	0
+		0	0	1
+		-0.0172091	35.9068	-7.90117
+	}
+}
+{Volume "body2"
+	{Box 2.08661 2.08661 46.3831}
+	{Bone "roofhold_hs1"}
+	{Matrix34
+		0	1	0
+		-1	0	0
+		0	0	1
+		-0.0172091	-35.4938	-7.90117
+	}
+}
+{Volume "roof1"
+	{Box 89.413 2.08661 56.3202}
+	{Bone "exterior"}
+	{Matrix34
+		0	1	0
+		-0.707107	0	-0.707107
+		-0.707107	0	0.707107
+		19.7163	0.538499	7.41411
+	}
+}
+{Volume "roof2"
+	{Box 89.413 2.08661 56.3202}
+	{Bone "exterior"}
+	{Matrix34
+		0	-1	0
+		0.707107	0	-0.707107
+		0.707107	0	0.707107
+		-19.4691	0.538505	7.41411
+	}
+}

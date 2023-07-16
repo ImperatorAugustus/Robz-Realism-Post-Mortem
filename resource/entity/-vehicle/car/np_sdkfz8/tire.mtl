@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "protector"}
+	{bump "$/model/protector_bp"}
+	{blend none}
+}

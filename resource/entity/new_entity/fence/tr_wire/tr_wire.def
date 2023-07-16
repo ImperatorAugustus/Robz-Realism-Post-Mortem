@@ -1,0 +1,13 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{props "one" "staged" "steel" "construction" "disable_area" "no_destroyed_stamp"}
+	("armor_disable_damage_acc")
+	{Extension "tr_wire.mdl"}
+	{ObstacleId "construction"}
+	{Volume "body"
+		{Tags  "body"}
+		{thickness 3}
+		{able {bullet 1} {visible 0}}
+	}
+	{lodclass "decor_medium"}
+}

@@ -1,0 +1,159 @@
+{game_entity
+	(include "/properties/tank.ext")
+	(include "/properties/selection/vehicle.inc" scale(1.2))
+	{props "vehicle" "armored_car" "tractor" "tank" "-turret" "opened" "vision_vehicle_low" "muzzle_small"}
+
+	{extender "enumerator"}
+	
+	{volume "sticky"
+		{tags "grenade_fg_target"}
+		{able clear {contact} {touch}}
+		{component "sticky_body"}
+	}
+
+	{volume "body1"
+		{component "body"}
+		{tags "body"}
+		{thickness 8}
+	}
+	{volume "body2"
+		{component "body"}
+		{tags "body"}
+		{thickness 8}
+	}
+	{volume "body3"
+		{component "body"}
+		{tags "body"}
+		{thickness 8}
+	}
+	{volume "body4"
+		{component "body"}
+		{tags "body"}
+		{thickness 8}
+	}
+	{volume "body5"
+		{component "body"}
+		{tags "body"}
+		{thickness 8}
+	}
+	{volume "body6"
+		{component "body"}
+		{tags "body"}
+		{thickness 8}
+	}
+	{volume "body7"
+		{component "body"}
+		{tags "body"}
+		{thickness 8}
+	}
+	{volume "body8"
+		{component "body"}
+		{tags "body"}
+		{thickness 8}
+	}
+	{volume "body9"
+		{component "body"}
+		{tags "body"}
+		{thickness 8}
+	}
+	{volume "body10"
+		{component "body"}
+		{tags "body"}
+		{thickness 8}
+	}
+	{volume "body11"
+		{component "body"}
+		{tags "body"}
+		{thickness 8}
+	}
+	{volume "body12"
+		{component "body"}
+		{tags "body"}
+		{thickness 8}
+	}
+
+	{volume "inventory"
+        		{thickness 2}
+	}
+
+	("armor_medium" turret(0) body(12 8 8 8))
+
+
+	{boarder
+		{anm "driver"
+			{forward	{begin	"board_tank_left"} {end "seat_driver_car"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+		{anm "commander"
+			{forward	{begin	"board_tank_left"} {end "seat_passenger"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+	}
+	("crew_human_visible_anm" place(driver)		door1(emit1) door2(emit2) anm_left(driver) anm_right(driver) visor(driver))
+	("crew_human_visible_anm" place(commander)	door1(emit1) door2(emit2) anm_left(commander) anm_right(commander) visor(main))
+	{placer 
+		{place "driver" {group "crew"} {visor "driver"}{openForCrush 0}}
+	}	
+
+	{sensor
+		{visor "main"
+			{vision "tank_main-l"}
+			{bone "foresight4"}
+		}
+	}
+	{Placer
+	         {place "attach01"
+	            {entity "balloon_tank"}
+	            {Linkbone "attach01"}
+	            {handlebone "basis"}
+	            {obstacle disable}
+	         }
+	         {place "attach02"
+	            {entity "balloon_tank"}
+	            {Linkbone "attach02"}
+	            {handlebone "basis"}
+	            {obstacle disable}
+	         }
+	}
+	{extender "inventory"
+		{box
+			{item "tank_balloon" filled}
+		}
+	}
+	{Weaponry
+		{place "flamer1"
+			{type "mgun_hull"}
+			{weapon "flamer_t_uk" filled}
+			{LinkBone "mgun"}
+			{LinkAnimation "off"}
+			{foresight "foresight4"}
+			{gunner "commander"}
+			{charger "commander"}
+			("abm_mgun")
+		}
+	}  	
+
+	{mass 24000}
+	{Chassis
+		("tank_trace" fx("tracks_mid") step(0.56) len(0.4))
+		{Locomotion ("locomotion")
+			{maxspeed   28}
+			{maxSpeedAtMaxTurn 5}
+			{StartTime  15}
+			{TurnTime   10}
+			{TurnStart  0.6}			
+			{TurnRadius 6} 
+    		{TurnStop   0.5}
+			{BrakeTime  1}
+			{StopTime   1.5}
+   			{Gears  0.15 0.25 0.35 1}
+			{RearGears  0.30} 
+		}
+		{speed
+        	{Normal  28}
+        	{Slow  28}
+    	}
+	}
+
+	{Extension "wasp.mdl"}
+}

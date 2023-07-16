@@ -1,0 +1,18 @@
+;Exported by: ?????
+;Date:        Mon Mar 02 16:21:26 2015
+;File:        C:\Users\?????\Documents\3dsmax\scenes\jap_bunk.max
+{Skeleton
+	{bone "beam"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "beam.ply"}
+	}
+}
+{Volume "body"
+	{Box 22.8181 53.919 36.4205}
+	{Bone "beam"}
+	{Position 9.81434	4.36461	18.2102}
+}

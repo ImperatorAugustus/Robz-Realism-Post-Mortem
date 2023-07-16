@@ -1,0 +1,154 @@
+{game_entity
+	(include "/properties/tank.ext")
+	(include "/properties/selection/vehicle.inc"  scale(1.2))
+	{props "medium" "-turret" "vision_vehicle_medium" "muzzle_large_sides" "stuh42"}
+
+	{extender "enumerator"
+		{digit_folder "ger2"}
+	}
+
+	{volume "body1"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "body2"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "body3"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "mgun_shield1"
+		{thickness 5}
+	} 	
+	{volume "mgun_shield2"
+		{thickness 5}
+	}
+	{Volume "mantlet"
+		{tags "gun"}
+		{component "gun"}
+	}
+	{Volume "gun2"
+		{tags "gun"}
+		{component "gun"}
+	}
+
+	("armor_spa_light" armor(80 30 30 30))
+	("armor_engine"  t(30 30 30 17))
+	("armor_mantlet" t(80))	
+	("ger_5x8_sight")
+
+	("shield" args 8)
+	{extender "shield"
+		{on}
+	}
+
+	{component "shieldl1" {tags "shield"}}
+	{component "shieldl2" {tags "shield"}}
+	{component "shieldl3" {tags "shield"}}
+	{component "shieldl4" {tags "shield"}}
+	{component "shieldl5" {tags "shield"}}
+	{component "shieldr1" {tags "shield"}}
+	{component "shieldr2" {tags "shield"}}
+	{component "shieldr3" {tags "shield"}}
+	{component "shieldr4" {tags "shield"}}
+	{component "shieldr5" {tags "shield"}}
+	("crew_4_human")
+
+	("gunner_visible")
+	("seat_human" place(seat1) bone(seat01) door(emit3)  animation(armor1))
+	("seat_human" place(seat2) bone(seat02) door(emit4)  animation(armor))
+	("seat_human" place(seat3) bone(seat03) door(emit5)  animation(armor))
+	("seat_human" place(seat4) bone(seat04) door(emit6)  animation(armor1))
+
+	{boarder
+		{anm "left"
+			{forward	{begin	"board_Kv"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+		{anm "right"
+			{forward	{begin	"board_tank_right"} {end "pose_mgun_pz6"}}
+			{reverse 	{end	"emit_tank_2_hold"}}
+		}
+
+		{anm "armor"
+			{forward	{begin	"board_HighArmor"} 	{end "seat_armor"}}
+			{reverse 	{end	"emit_tank_2"}}
+		}
+		{anm "armor1"
+			{forward	{begin	"board_HighArmor"} {end "seat_armor"}}
+			{reverse 	{end	"emit_body"}}
+		}
+	}
+
+
+	{extender "inventory"
+		{weapon "mgun"
+			{mask "weapon mgun"}
+		}
+		{box
+			{item "bullet105 ger apc" 12}
+			{item "bullet105 ger fg" 14}
+			{item "bullet105 ger heat" 6}
+			{item "bullet105 ger sm" 4}
+			{item "mg42" filled {user "mgun"}}
+			{item  "ammo mg_mauser belt" 600}
+		}
+	}
+	
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "105mm_stuh42_vet" filling "ammo bullet105 ger fg" 1}	
+			("abm_veteran")
+		}
+		{place "mgun"
+			{type "mgun_aa"}
+			{gunner "gunner2"}
+			{charger "gunner2"}
+			{LinkBone "mgun_rot"}
+			{LinkAnimation "off"}
+			{basic}
+		}
+	}
+
+
+	{mass 21000}
+	{Chassis
+		("tank_trace" fx("tracks_mid") step(0.52) len(0.7))
+		{Locomotion ("locomotion")
+			{MaxSpeed   30}
+			{maxSpeedAtMaxTurn 6}
+			{StartTime 	 29.75}
+			{TurnTime  	 13.5}
+    		{TurnStart 1.4}
+     		{BrakeTime   1} 
+    		{StopTime    2}
+     		{TurnRadius  8} 
+    		{TurnStop   0.7}
+     		{Gears  0.13 0.23 0.33 1}
+     		{RearGears 0.28}
+		}
+		{FuelBag
+			{volume 310 }	
+			{rate	24 }   
+			{remain 310 }
+			{fuel "fuel"}
+		}
+		{speed
+        	{Normal  30}
+        	{Slow  30}
+    	}
+	}
+
+	{Extension "stuh42.mdl"}
+
+	{bone "gun_rot2"
+		{speed 0.0012}
+	}
+	{bone "gun_rot"
+		{speed 0.0012}
+	}
+}

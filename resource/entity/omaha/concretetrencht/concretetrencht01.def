@@ -1,0 +1,10 @@
+{
+	(include "/properties/trench.inc")
+	{Extension "concretetrencht01.mdl"}
+	{props "wood"}
+	("boneLand"  args "trench_ground2")
+	("volume" args "body03")
+	("volume" args "body04")
+	("volume" args "body05")
+	("volume" args "body06")
+}

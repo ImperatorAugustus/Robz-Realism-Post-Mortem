@@ -1,0 +1,7 @@
+{game_entity
+	{Extension "table_2_x.mdl"}
+	{Volume "piece01"
+	}
+	{Volume "piece02"
+	}
+}

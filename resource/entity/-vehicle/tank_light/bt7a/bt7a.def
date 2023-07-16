@@ -1,0 +1,134 @@
+{game_entity
+    (include "/properties/tank.ext")
+    (include "/properties/selection/vehicle.inc" scale(1.2))
+    {collider "tank.light"}
+    {props "light" "turret_rotator" "vision_vehicle_medium" "muzzle_medium"}
+    {targetClass "light_tank"}
+    {patherId "tank.light"}
+	
+	{extender "enumerator"}
+
+    {Volume "Body1"
+        {tags "body"}
+        {component "body"}
+    }
+    {Volume "Body2"
+        {tags "body"}
+        {component "body"}
+    }
+
+    ("armor_light" turret(15) body(13))
+    ("armor_engine"  t(13))
+	("rus_2-5x_sight")
+
+    {extender "inventory"
+        {box
+            {item "ammo bullet76 rus fg" 75}
+	    {item "ammo dt29_mag" 2400}
+        }
+    }
+    {Weaponry
+        ("restore_ik_time")
+        {place "gun"
+            {RestoreIKAfterAim}
+            {weapon "76mm_kt26" filling "ammo bullet76 rus fg" 1}
+            {charger "gunner"}
+            ("abm_low")
+        }
+        {place "mgun2"
+            {type "mgun_coaxial"}
+            {weapon "dt_optic" filled}
+            {foresight "foresight5"}
+            {charger "gunner"}
+			("abm_mgun")
+            {basic}
+        }
+        {place "mgun1"
+            {type "mgun_rear"}
+            {weapon "dt" filled}
+            {foresight "foresight4"}
+            {gunner "commander"}
+            {charger "commander"}
+			("abm_mgun")
+        }
+    }
+
+    ("crew_2_human")
+    ("crew_human" place(commander)  door1(emit1) door2(emit2) visor(back))
+
+    {boarder
+        {anm "left"
+            {forward    {begin  "board_kv"}}
+            {reverse    {end    "emit_tank_1_hold"}}
+        }
+        {anm "right"
+            {forward    {begin  "board_tank_right"}}
+            {reverse    {end    "emit_tank_1_hold"}}
+        }
+        {anm "armor"
+            {forward    {begin  "board_MiddleArmor"}    {end "pose_seat_armor_1"}}
+            {reverse    {end    "emit_tank_1"}}
+        }
+        {anm "armor1"
+            {forward    {begin  "board_MiddleArmor"}    {end "pose_seat_armor_2"}}
+            {reverse    {end    "emit_body"}}
+        }
+    }
+
+    ("seat_human" place(seat1) bone(seat01) door(emit3)  animation(armor))
+    ("seat_human" place(seat2) bone(seat02) door(emit4)  animation(armor1))
+    ("seat_human" place(seat3) bone(seat03) door(emit5)  animation(armor))
+    ("seat_human" place(seat4) bone(seat04) door(emit6)  animation(armor))
+
+    {mass 13900}
+    {Chassis
+        ("tank_trace_ex" fx("tracks_sm") step(0.3) len(1.0) boneleft("wheell4") boneright("wheelr4"))
+        {Locomotion ("locomotion")
+            {maxspeed   40}
+            {maxSpeedAtMaxTurn 6}
+            {StartTime  25}
+            {TurnTime   13}
+            {TurnStart  1.1}
+            {TurnRadius 7}
+            {TurnStop   0.6}
+            {BrakeTime  1.5}
+            {StopTime   2.5}
+            {Gears  0.1 0.2 0.3 1}
+            {RearGears  0.2}
+        }
+        {FuelBag
+            {volume 360 }
+            {rate   10 }
+            {remain 360 }
+            {fuel "fuel"}
+        }
+		{speed
+        	{Normal  40}
+        	{Slow  40}
+    	}
+    }
+    {sensor
+        {visor "back"
+            {vision "tank_back"}
+            {bone "foresight4"}
+        }
+    }
+
+    {Extension "bt7a.mdl"}
+
+    {bone "gun_rot"
+        {speed 0.001}
+        {limits -35 7}
+    }
+    {bone "turret"
+        {speed 0.003}
+    }
+	{bone "mgun"
+        {limits 20}
+        {speed2 80}
+	}
+	{bone "coaxial_mgun"
+        {limits 10}
+        {speed2 80}
+    }
+}

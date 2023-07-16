@@ -1,0 +1,21 @@
+;Exported by: Loskutov_K
+;Date:        Thu Feb 11 17:26:03 2010
+;File:        D:\_Vietnam\Models\Bolvanki_diz\Bamboo_tower\tower.max
+{Skeleton
+	{bone "tower_roof"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "tower_roof.ply"}
+		{bone "fix02"
+			{Position -34.1717	-32.9628	-29.5915}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "tower_roof"}
+	{Position 0.485025	-0.121298	-9.75809}
+}

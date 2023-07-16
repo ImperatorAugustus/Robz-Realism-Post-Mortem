@@ -1,0 +1,50 @@
+;Exported by: loskutov_k
+;Date:        Wed May 12 11:12:42 2010
+;File:        D:\_Vietnam\Art\Models\Houses\X\House_big_2_x\House_big_2_x.max
+{Skeleton
+	{bone "roofhold9_hb2_x"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "piece02"
+			{Matrix34
+				1	0	0
+				0	-0.631942	-0.775016
+				0	0.775016	-0.631942
+				9.19064	-20.0189	21.4349
+			}
+			{VolumeView "piece02.ply"}
+		}
+		{bone "piece01"
+			{Matrix34
+				-1	0	0
+				0	-0.631942	-0.775016
+				0	-0.775016	0.631942
+				-4.15035	-5.01894	8.74712
+			}
+			{VolumeView "piece01.ply"}
+		}
+	}
+}
+{Volume "piece01"
+	{Box 45.3427 27.9446 2.31305}
+	{Bone "piece01"}
+	{Matrix34
+		-1	0	0
+		0	0.0162615	-0.999868
+		0	-0.999868	-0.0162615
+		0.264115	0.19346	-2.05078
+	}
+}
+{Volume "piece02"
+	{Box 25.8453 27.9446 2.31305}
+	{Bone "piece02"}
+	{Matrix34
+		1	0	0
+		0	-0.0151807	0.999885
+		0	-0.999885	-0.0151807
+		-0.74189	0.507673	-1.95755
+	}
+}

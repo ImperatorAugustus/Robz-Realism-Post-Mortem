@@ -1,0 +1,18 @@
+;Exported by: Loskutov_K
+;Date:        Fri Apr 09 13:46:56 2010
+;File:        D:\_Vietnam\Art\Models\Anturage\utvar\table_3\table_3.max
+{Skeleton
+	{bone "table_3"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "table_3.ply"}
+	}
+}
+{Volume "body"
+	{Box 19.7646 19.6002 9.86187}
+	{Bone "table_3"}
+	{Position -0.234489	0.073308	4.93093}
+}

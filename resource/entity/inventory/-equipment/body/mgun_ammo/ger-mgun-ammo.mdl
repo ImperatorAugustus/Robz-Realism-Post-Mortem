@@ -1,0 +1,24 @@
+;Exported by: Vlad
+;Date:        Sat May 17 16:58:51 2014
+;File:        D:\маё\Проги всякие\3д проэкты\lenta.max
+{Skeleton
+	{bone "body"
+{Matrix34
+		1	0	0
+		0	-1	0
+		0	0	1
+                0.1	-0.2	0
+		}
+		{VolumeView "body.ply"}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "body"}
+	{Position 1.88857	-2.0889	-4.90678}
+}
+{Volume "select"
+	{Polyhedron "select.vol"}
+	{Bone "body"}
+	{Position 1.88857	-2.0889	-4.93624}
+}

@@ -1,0 +1,18 @@
+;Exported by: Loskutov_K
+;Date:        Thu Apr 08 14:37:13 2010
+;File:        D:\_Vietnam\Art\Models\Anturage\utvar\korzina_1rice\korzina_1rice.max
+{Skeleton
+	{bone "korzina_1rice"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "korzina_1rice.ply"}
+	}
+}
+{Volume "body"
+	{Box 9.94403 10.4964 14.5595}
+	{Bone "korzina_1rice"}
+	{Position -0.576653	-0.118042	7.27975}
+}

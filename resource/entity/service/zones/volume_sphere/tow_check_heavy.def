@@ -1,0 +1,20 @@
+{game_entity
+	{extension "/properties/piece.ext"}
+	{simulation {able 1} {state 1}}
+	{constrain none}
+	{props "piece"}
+	{obstacleID "nothing"}
+	{collider "tow_checker"}
+	{mass 0.01}
+	{volume "body"
+		{sphere 40}
+		{able clear {contact 1}}
+		{bone "basis"}
+		{material "dummy"}
+		{density 0}
+	}
+	{body
+		{proper body}
+		{permit body}
+	}
+}

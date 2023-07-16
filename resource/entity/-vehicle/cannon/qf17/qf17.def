@@ -1,0 +1,89 @@
+{game_entity
+	(include "/properties/cannon.ext")
+	{props "vehicle" "cannon" "wheeled" "round_sandbag2" "vision_cannon_high" "muzzle_large_sides" "big_weapons"}
+	
+	("armor_medium")
+
+	{volume "body1"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "body2"
+		{tags "body"}
+		{component "body"}
+	}
+
+	("crew_wheeled_gun")
+	{boarder
+		{anm "gunner"
+			{forward	{end "pose_pak40_gunlayer" 10}}
+		}
+		{anm "commander"
+			{forward	{end "pose_pak40_charger" 10}}
+		}
+		{anm "driver1"
+			{forward {end "cannon_pak40_pusher_left" 10}}
+		}
+		{anm "driver2"
+			{forward {end "cannon_pak40_pusher_right" 10}}
+		}
+		{anm "seat1"
+			{forward {end "pose_seat_cannon_left" 10}}
+		}
+		{anm "seat2"
+			{forward {end "pose_seat_cannon_right" 10}}
+		}
+	}
+	("eng_6x_sight")
+	("wheel" args "wheelright")
+	("wheel" args "wheelleft")
+
+	{extender "inventory"
+		{box
+			{item "bullet76 eng apc" 2}
+			{item "bullet76 eng apcbc" 3}
+			{item "bullet76 eng fg" 5}
+			{item "bullet76 eng apds" 4}
+			{item "sandbag_kit2"}
+		}
+	}
+	{Weaponry
+
+		{place "gun"
+			{weapon "76mm_mk4_2" filling "bullet76 eng apcbc" 1}
+
+			{Rotate}
+			("abm_field_gun")
+		}
+	}
+
+	{mass 2000}
+	{Extension "qf17.mdl"}
+	(include "/properties/selection/cannon.inc"  scale(0.7))
+
+	{extender "cannon"
+		{animation
+			{switch "close"}
+			{move "cannon_pak40_pusher_left" "cannon_pak40_pusher_right"}
+			{aim "cannon_zis3_gunlayer" ""}
+			{fire  "Cannon_gunlayer_fire-alert" "cannon_zis3_charger_fire 0.13"}
+			{reload  "" "Cannon_zis3_charger"}
+		}
+		{move {obstacle "close"}}
+		{attack {obstacle "open"}}
+		(mod "mp" {rotate_ik_Limit 0})
+	}
+
+	{Chassis "track"
+		("car_trace" fx("tracewheel03") step(0.09) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
+		("loco_massive")
+	}
+	{bone "turret"
+		{limits -22 22}
+		{speed 0.0007}
+	}
+	{bone "gun_rot"
+		{limits -20 5}		
+		{speed 0.0005}
+	}
+}

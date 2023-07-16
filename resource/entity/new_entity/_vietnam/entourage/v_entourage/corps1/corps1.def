@@ -1,0 +1,21 @@
+{game_entity
+	(include "/properties/building.inc")
+	{props "flag" "one" "staged" "wood" "construction" "burning" "disable_area" "no_destroyed_stamp"}
+
+	{Extension "corps1.mdl"}
+	{Volume "body1"
+		{Tags  "body" "fire"}
+	}
+	{Volume "body2"
+		{Tags  "body" "fire"}
+	}
+	{Volume "body3"
+		{Tags  "body" "fire"}
+	}
+	{Volume "body4"
+		{Tags  "body" "fire"}
+		{able {obstacle 0}}
+                {material "flesh"}
+	}
+}
+

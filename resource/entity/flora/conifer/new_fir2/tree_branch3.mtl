@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/flora/tree_branch3"}
+	{blend test}
+}

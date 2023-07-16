@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "barrel case"}
+	{blend none}
+}

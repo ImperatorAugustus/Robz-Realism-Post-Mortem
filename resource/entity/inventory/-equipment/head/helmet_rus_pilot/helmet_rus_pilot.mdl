@@ -1,0 +1,52 @@
+;Exported by: Kalinski
+;Date:        Sat Jan 14 19:16:07 2017
+;File:        C:\Users\Kalinski\Desktop\pilots\rus pilot helmet.max
+{Skeleton
+	{bone "helmet_rus_pilot"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "helmet_rus_pilot.ply"}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "helmet_rus_pilot"}
+	{Position 0.703094	0.124126	3.3988}
+}
+{Volume "select"
+	{Box 5.59662 5.08766 5.14459}
+	{Bone "helmet_rus_pilot"}
+	{Matrix34
+		1.0387	0	0
+		0	1.0387	0
+		0	0	1.0387
+		0.919993	0.260123	3.58528
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 5.98897	-5.23126	2.82859}
+			{lookat 0.716744	-0.249929	2.76627}
+			{fov 45}
+			{horizon -0.239031}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.354828	0.33419	-0.11142}
+			}
+			{"1"
+				{type point}
+				{position 1.3762	-2.3209	3.85514}
+			}
+			{"2"
+				{type point}
+				{position 2.83572	-1.25747	3.08308}
+			}
+		}
+	}
+}

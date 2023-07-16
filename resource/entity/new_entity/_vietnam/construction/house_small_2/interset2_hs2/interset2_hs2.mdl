@@ -1,0 +1,73 @@
+;Exported by: Kislov_A
+;Date:        Wed Apr 14 15:14:14 2010
+;File:        E:\Men of war red tide2\Art\Models\Houses\House_small_2\hs2_bumpspec.max
+{Skeleton
+	{bone "interset2_hs2"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "interset2_hs2.ply"}
+		{bone "fix25"
+			{Position -16.2321	-8.85115	-9.00804}
+		}
+	}
+}
+{Obstacle "body1"
+	{Obb2
+		{Center 12.2627 3.01201}
+		{Extent 5.75431 6.63545}
+		{Axis 0.999848 0.0174436}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body2"
+	{Obb2
+		{Center 0.106266 -3.23048}
+		{Extent 4.77879 5.51055}
+		{Axis 0.999848 0.0174436}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body3"
+	{Obb2
+		{Center -12.5652 -2.31326}
+		{Extent 5.75431 6.63545}
+		{Axis 0.999848 0.0174436}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body1"
+	{Cylinder 6.63547 15.0795}
+	{Bone "interset2_hs2"}
+	{Matrix34
+		-0.0198067	-0.999804	0
+		0.999804	-0.0198067	0
+		0	0	1
+		12.2627	-3.01201	-1.03211
+	}
+}
+{Volume "body2"
+	{Cylinder 5.51056 15.0795}
+	{Bone "interset2_hs2"}
+	{Matrix34
+		-0.0198067	-0.999804	0
+		0.999804	-0.0198067	0
+		0	0	1
+		0.106266	3.23048	-1.03211
+	}
+}
+{Volume "body3"
+	{Cylinder 6.63547 15.0795}
+	{Bone "interset2_hs2"}
+	{Matrix34
+		-0.0198067	-0.999804	0
+		0.999804	-0.0198067	0
+		0	0	1
+		-12.5652	2.31326	-1.03211
+	}
+}

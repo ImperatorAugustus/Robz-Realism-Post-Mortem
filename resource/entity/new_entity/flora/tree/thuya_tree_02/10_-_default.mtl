@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/flora/thuya_tree"}
+	{bump "$/flora/thuya_tree_bp"}
+
+	{color "229 229 229 50"}
+	{blend test}
+}

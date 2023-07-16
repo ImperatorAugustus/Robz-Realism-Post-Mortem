@@ -1,0 +1,52 @@
+;Exported by: Kalinski
+;Date:        Wed Aug 03 03:31:56 2016
+;File:        C:\Users\Kalinski\Desktop\magazynki\gotowe\colt\welrod_mag_rdy.max
+{Skeleton
+	{bone "welrod_mag"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "welrod_mag.ply"}
+	}
+}
+{Volume "body"
+	{Box 0.955027 2.47066 0.677647}
+	{Bone "welrod_mag"}
+	{Position -0.00322589	-0.0274697	0.00200084}
+}
+{Volume "select"
+	{Box 1.16844 2.56495 0.74358}
+	{Bone "welrod_mag"}
+	{Matrix34
+		1.0387	0	0
+		0	1.0387	0
+		0	0	1.0387
+		-0.00758443	-0.0521467	0.0186898
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -0.224444	-0.259021	4.31959}
+			{lookat -0.224444	-0.286535	0.0318984}
+			{fov 45}
+			{horizon -0.239031}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -0.329693	-1.93913	0.684929}
+			}
+			{"1"
+				{type point}
+				{position -0.305518	1.17772	0.72634}
+			}
+			{"2"
+				{type directional}
+				{direction -0.0260877	0.0026428	-0.499312}
+			}
+		}
+	}
+}

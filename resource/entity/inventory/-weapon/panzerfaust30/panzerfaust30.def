@@ -1,0 +1,8 @@
+{Actor
+	(include "/properties/stuff_small.ext")
+	{Extension "panzerfaust30.mdl"}
+	{extender "stuff"
+		{item "weapon panzerfaust_30" filled}
+	}
+	{nogroupmesh 1}
+}

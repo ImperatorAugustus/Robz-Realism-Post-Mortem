@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "leong_lod0_head_normal"}
+	{bump "leong_lod0_head_normal_bp"}
+	{specular "leong_lod0_head_normal_sp"}
+	{color "229 229 229 9"}
+	{blend none}
+}

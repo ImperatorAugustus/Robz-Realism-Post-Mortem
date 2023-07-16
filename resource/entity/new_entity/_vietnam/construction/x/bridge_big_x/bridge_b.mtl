@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "bridge_b_x"}
+	{blend test}
+}

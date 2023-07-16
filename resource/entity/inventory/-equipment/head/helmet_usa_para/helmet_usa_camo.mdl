@@ -1,0 +1,52 @@
+;Exported by: Kalinski
+;Date:        Tue Mar 21 16:39:39 2017
+;File:        C:\Users\Kalinski\Desktop\us officer\helmet camo fin.max
+{Skeleton
+	{bone "helmet_usa_camo"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "helmet_usa_camo.ply"}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "helmet_usa_camo"}
+	{Position 0.703094	0.124126	3.3988}
+}
+{Volume "select"
+	{Box 5.59662 5.08766 5.14459}
+	{Bone "helmet_usa_camo"}
+	{Matrix34
+		1.0387	0	0
+		0	1.0387	0
+		0	0	1.0387
+		0.919993	0.260123	3.58528
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 6.18788	-5.01337	3.41734}
+			{lookat 0.915647	-0.0320437	3.35502}
+			{fov 45}
+			{horizon -0.239031}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.354828	0.33419	-0.11142}
+			}
+			{"1"
+				{type point}
+				{position 1.04606	-2.6528	3.85514}
+			}
+			{"2"
+				{type point}
+				{position 3.12733	-1.44366	4.35588}
+			}
+		}
+	}
+}

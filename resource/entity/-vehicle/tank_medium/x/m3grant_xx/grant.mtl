@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "m3_grant"}
+	{blend test}
+}

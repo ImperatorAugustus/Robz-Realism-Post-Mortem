@@ -1,0 +1,24 @@
+;Exported by: Loskutov_K
+;Date:        Mon Mar 08 19:29:45 2010
+;File:        D:\_Vietnam\Art\Models\Houses\House_big_1\hb1_complete.max
+{Skeleton
+	{bone "firelight1_hb1"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "firelight1_hb1.ply"}
+		{bone "fix46"
+			{Position 21.5311	42.8223	-27.9076}
+		}
+		{bone "fix47"
+			{Position 21.5311	-45.2879	-27.9076}
+		}
+	}
+}
+{Volume "fire0"
+	{Box 53.0563 121.062 6.4685}
+	{Bone "firelight1_hb1"}
+	{Position -0.285851	-0.072557	-3.12313}
+}

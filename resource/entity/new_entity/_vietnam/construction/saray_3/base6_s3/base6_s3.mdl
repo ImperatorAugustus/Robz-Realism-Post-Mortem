@@ -1,0 +1,75 @@
+;Exported by: Loskutov_K
+;Date:        Fri Feb 26 11:27:14 2010
+;File:        D:\_Vietnam\Art\Models\Houses\Saray_3\saray_3_complete.max
+{Skeleton
+	{bone "base6_s3"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "base6_s3.ply"}
+	}
+}
+{Obstacle "body1"
+	{Obb2
+		{Center -24.1149 6.06232}
+		{Extent 1.37795 14.2092}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body2"
+	{Obb2
+		{Center -7.21505 18.2878}
+		{Extent 18.9553 1.37796}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body3"
+	{Obb2
+		{Center -22.9947 17.1388}
+		{Extent 1.72694 1.72694}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Volume "body1"
+	{Box 28.4184 2.75591 9.01775}
+	{Bone "base6_s3"}
+	{Matrix34
+		0	1	0
+		-1	0	0
+		0	0	1
+		-24.1149	-6.06232	-18.2678
+	}
+}
+{Volume "body2"
+	{Box 37.9106 2.75591 9.01775}
+	{Bone "base6_s3"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		-7.21505	-18.2878	-18.2678
+	}
+}
+{Volume "body3"
+	{Box 3.45388 3.45388 48.4864}
+	{Bone "base6_s3"}
+	{Position -22.9947	-17.1388	0.4797}
+}
+{Volume "body4"
+	{Box 3.42831 3.66782 33.7586}
+	{Bone "base6_s3"}
+	{Matrix34
+		-1	0	0
+		0	0	-1
+		0	-1	0
+		-22.9377	-8.70928	21.1465
+	}
+}

@@ -1,0 +1,19 @@
+{construction
+	(include "/properties/building.inc")
+	{props "concrete" "burning"}
+	{obstacleid "unbreakable"}
+	("armor_heavy" args 1.0)
+	{Extension "bunker_tunn_wall_a.mdl"}
+	{Volume "body_02"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {visible 1}}
+	}
+	{Volume "body_1"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {visible 1}}
+	}
+}
+
+

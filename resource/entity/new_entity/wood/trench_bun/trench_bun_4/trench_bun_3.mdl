@@ -1,0 +1,19 @@
+;Exported by: Руслан
+;Date:        Tue Aug 13 15:01:24 2013
+;File:        C:\Users\Руслан\Documents\3dsmax\scenes\new_trench_and_fortific\trench_1.max
+{Skeleton
+	{bone "trench_bun_4"
+		{parameters "land;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "trench_bun_4.ply" {Ground} {DecalTarget}}
+	}
+}
+{Volume "body"
+	{Box 9.23773 54.2195 27.1472}
+	{Bone "trench_bun_4"}
+	{Position -1.40189	6.16362	13.5736}
+}

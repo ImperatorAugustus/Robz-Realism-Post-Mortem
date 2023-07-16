@@ -1,0 +1,18 @@
+;Exported by: Loskutov_K
+;Date:        Fri Apr 09 13:14:01 2010
+;File:        D:\_Vietnam\Art\Models\Anturage\stelaj_2\s2.max
+{Skeleton
+	{bone "body"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "body.ply"}
+	}
+}
+{Volume "body"
+	{Box 33.2914 8.88971 33.0462}
+	{Bone "body"}
+	{Position 1.11334	0.314367	16.5231}
+}

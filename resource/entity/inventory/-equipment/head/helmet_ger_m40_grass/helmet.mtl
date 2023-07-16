@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "helmet wire"}
+	{bump "wire bp"}
+	{specular "wire sp"}
+	{color "229 229 229 152"}
+	{blend test}
+}

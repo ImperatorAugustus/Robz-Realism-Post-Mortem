@@ -1,0 +1,54 @@
+;Exported by: Kislov_A
+;Date:        Wed Apr 14 14:26:57 2010
+;File:        E:\Men of war red tide2\Art\Models\Houses\House_small_1\hs1.max
+{Skeleton
+	{bone "ladder_hs1"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "ladder_hs1.ply"}
+		{bone "land"
+			{parameters "Land;Ground;"}
+			{Matrix34
+				0.515774	0	-0.856724
+				0	1	0
+				0.856724	0	0.515774
+				5.99638	-0.195248	-8.86193
+			}
+			{VolumeView "land.ply" {Ground}}
+		}
+		{bone "fix01"
+			{Position -7.66562	-21.7219	7.74276}
+		}
+	}
+}
+{Obstacle "obstacle1"
+	{Obb2
+		{Center 7.61886 12.0624}
+		{Extent 9.39092 1.28739}
+		{Axis -1 0}
+	}
+	{Rotate}
+}
+{Volume "body1"
+	{Box 2.08661 2.08661 31.2487}
+	{Bone "ladder_hs1"}
+	{Matrix34
+		0.861109	0	0.50842
+		0	1	0
+		-0.50842	0	0.861109
+		1.35165	-7.64958	-2.23683
+	}
+}
+{Volume "body2"
+	{Box 2.08661 2.08661 31.2487}
+	{Bone "ladder_hs1"}
+	{Matrix34
+		0.861109	0	0.50842
+		0	1	0
+		-0.50842	0	0.861109
+		1.35165	11.4743	-2.23683
+	}
+}

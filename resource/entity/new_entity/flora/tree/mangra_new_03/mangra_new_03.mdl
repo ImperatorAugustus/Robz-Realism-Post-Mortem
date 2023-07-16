@@ -1,0 +1,64 @@
+;Exported by: ?????
+;Date:        Sun Feb 22 18:10:00 2015
+;File:        C:\Users\?????\Documents\3dsmax\scenes\mangra.max
+{Skeleton
+	{bone "tree"
+		{parameters "CommonMesh;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "tree.ply"}
+	}
+}
+{Volume "bole"
+	{Cylinder 2.79946 49.3641}
+	{Bone "tree"}
+	{Position 19.028	-4.89653	24.6821}
+}
+{Volume "bole009"
+	{Cylinder 2.79946 49.3641}
+	{Bone "tree"}
+	{Position 3.26722	-2.24712	24.6821}
+}
+{Volume "bole010"
+	{Cylinder 1.39973 54.7942}
+	{Bone "tree"}
+	{Position -3.64108	10.5436	27.3971}
+}
+{Volume "bole011"
+	{Cylinder 1.39973 63.6797}
+	{Bone "tree"}
+	{Position -9.72218	3.15207	31.8398}
+}
+{Volume "bole012"
+	{Cylinder 1.39973 61.7051}
+	{Bone "tree"}
+	{Position -3.7769	-14.804	30.8526}
+}
+{Volume "bole013"
+	{Cylinder 1.39973 59.2369}
+	{Bone "tree"}
+	{Position 9.05667	-16.2702	29.6185}
+}
+{Volume "bole014"
+	{Cylinder 1.39973 66.6415}
+	{Bone "tree"}
+	{Position 34.5738	-8.78911	33.3208}
+}
+{Volume "bole015"
+	{Cylinder 1.39973 67.1352}
+	{Bone "tree"}
+	{Position 42.9625	2.42595	33.5676}
+}
+{Volume "bole016"
+	{Cylinder 1.39973 67.1352}
+	{Bone "tree"}
+	{Position 15.2483	12.2434	33.5676}
+}
+{Volume "crown"
+	{Cylinder 69.5433 67.4249}
+	{Bone "tree"}
+	{Position 12.4245	5.87851	86.096}
+}

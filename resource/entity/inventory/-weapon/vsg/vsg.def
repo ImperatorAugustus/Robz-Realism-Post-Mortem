@@ -1,0 +1,8 @@
+{actor
+	(include "/properties/stuff_small.ext")
+	{extension "vsg.mdl"}
+	{extender "stuff"
+		{item "vsg"}
+	}
+	{nogroupmesh 1}
+}

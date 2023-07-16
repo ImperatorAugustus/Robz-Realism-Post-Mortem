@@ -1,0 +1,43 @@
+{game_entity
+	(include "churchill_mk_vii.inc")
+	{extender "inventory"
+		{box
+			{item "ammo bullet95 eng fg" 41}
+			{item "ammo bullet95 eng heat" 6}
+            		{item "ammo mg_mauser belt red" 3475}
+			{item "besa" filled {user "mgun"}}
+		}
+	}
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "95mm_oqf" filling "ammo bullet95 eng fg" 1}	
+			("abm_high")
+		}
+		{place "mgun1"
+			{type "mgun_hull"}
+			{weapon "besa" filling "mg_mauser belt red" 225}
+			{foresight "foresight4"}
+			{gunner "driver"}
+			{charger "driver"}
+			("abm_mgun")
+		}
+		{place "mgun"
+			{type "mgun_coaxial"}
+			{weapon "besa_optic" filling "mg_mauser belt red" 225}
+			{foresight "foresight3"}
+			("abm_mgun")
+			{basic}
+		}
+	}
+
+{Extension "churchill_mk_v_cs.mdl"}
+	{bone "turret"
+		{speed 0.0025}
+	}
+	{bone "gun_rot"
+		{speed 0.0008}
+	}
+}
+

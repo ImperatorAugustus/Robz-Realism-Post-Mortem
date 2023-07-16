@@ -1,0 +1,70 @@
+;Exported by: Administrator
+;Date:        Thu Mar 26 03:39:29 2015
+;File:        F:\我的文档\3d\工事类\0-碉堡类\mil_101_10_ConcreteTrencht\ConcreteTrencht.max
+{Skeleton
+	{bone "trench_ground1"
+		{parameters "CommonMesh;Ground;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "trench_ground1.ply" {Ground} {DecalTarget}}
+	}
+}
+{Obstacle "body00"
+	{Obb2
+		{Center -11.1305 -9.87272}
+		{Extent 24.5274 4.31986}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body01"
+	{Obb2
+		{Center 8.66301 4.74127}
+		{Extent 4.31986 10.4807}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body02"
+	{Obb2
+		{Center -11.2413 19.1286}
+		{Extent 24.6382 4.31985}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Area "cut"
+	{Polygon2
+		{Radius 0}
+		{Vertex -35.9846 20.0747}
+		{Vertex -35.9846 -15.5059}
+		{Vertex 12.8815 -15.1313}
+		{Vertex 12.6942 20.4492}
+	}	{Rotate}
+}
+{Volume "body00"
+	{Polyhedron "body00.vol"}
+	{Bone "trench_ground1"}
+	{Position 2.49664	10.5995	-0.0407057}
+}
+{Volume "body01"
+	{Polyhedron "body01.vol"}
+	{Bone "trench_ground1"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		8.66301	-0.428467	-0.0407057
+	}
+}
+{Volume "body02"
+	{Polyhedron "body02.vol"}
+	{Bone "trench_ground1"}
+	{Position 2.49664	-15.2352	-0.0407057}
+}

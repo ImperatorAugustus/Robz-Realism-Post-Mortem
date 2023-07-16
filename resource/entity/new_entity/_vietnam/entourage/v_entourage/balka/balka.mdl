@@ -1,0 +1,27 @@
+;Exported by: Loskutov_K
+;Date:        Thu Jan 28 09:53:00 2010
+;File:        D:\_Vietnam\Models\Anturage\Balka\balka.max
+{Skeleton
+	{bone "balka"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "balka.ply"}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -0.0700787 0.823004}
+		{Extent 1.65401 1.42444}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Volume "body"
+	{Box 13.30802 12.84887 85.3033}
+	{Bone "balka"}
+	{Position -0.0700787	-0.823004	42.6516}
+}

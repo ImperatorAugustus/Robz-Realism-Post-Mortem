@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "fg42_c"}
+	{blend none}
+}

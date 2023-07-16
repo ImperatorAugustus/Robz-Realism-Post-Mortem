@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "m1 garand"}
+	{specular "m1 garand_sp"}
+	{color "229 229 229 152"}
+	{blend test}
+}

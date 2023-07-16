@@ -1,0 +1,16 @@
+{game_entity
+	(include "/properties/stuff_small.ext")
+	{collider "ammo"}
+	{Volume "body"
+		{thickness 4}
+		{able {touch} {bullet} {blast}}
+	}
+	{lodclass "stuff_small"}
+	{props "steel" "explosive_stuff"}
+	{constrain none}
+	{fogable never}
+	{Extension "nebel_ammo.mdl"}
+	{extender "stuff"
+		{item "ammo nebel incendiary"}
+	}
+}

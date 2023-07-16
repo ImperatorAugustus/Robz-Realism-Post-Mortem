@@ -1,0 +1,132 @@
+{game_entity
+	(include "/properties/armoredcar.ext")
+	(include "/properties/selection/vehicle.inc"  scale(1.0))
+	{props "vehicle" "armored_car" "tank" "turret" "turret_rotator" "wheeled_8" "with_gun" "vision_vehicle_low" "muzzle_medium_sides" "switch_mgun"}
+	{targetClass "armoredcar" "ap fg bullet"}
+	{targetSelector "tank"}
+
+	{extender "enumerator"
+		{digit_folder "ger"}
+	}
+	{extension "crew.ext"}
+
+	{volume "body"
+		{tags "body"}
+		{component "body"}
+		{thickness 10
+			{front	30}
+		}
+	}
+	{volume "turret"
+		{component "turret"}
+		{tags "turret"}
+		{thickness 15}
+	}
+	{component "turret"
+		{RepairTime 20}
+	}
+	{volume "crew"
+		{able {contact_ground 0}}
+	}
+	{volume "engine"
+		{thickness 10
+			{rear	15}
+		}
+	}
+	{Volume "Gun"
+		{thickness 10}
+		{tags "no_target"}
+		{able {Visible 0} {Obstacle 0} {Contact 0}}
+	}
+	{component "Gun"
+		{RepairTime 20}
+	}
+
+	("armor_medium" args 1.1)
+
+	{extender "inventory"
+		{weapon "mgun"
+			{mask "weapon mgun"}
+		}
+		{box
+			{item "mg34" filled {user "mgun"}}
+			{item "bullet75 gerp apcbc" 30}
+			{item "bullet75 gerp fg" 10}
+			{item "bullet75 gerp apcr" 3}
+			{item "bullet75 gerp heatc" 5}
+			{item "ammo mg_mauser belt" 1200}
+		}
+	}
+	("ger_5x8_sight")
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon			"75mm_pak40" filling "ammo bullet75 gerp apcbc" 1}
+			{charger		"commander"}
+			("abm_low")
+		}
+		{place "mgun"
+			{type			"mgun_aa"}
+			{LinkBone		"mgun_rot"}
+			{LinkAnimation	"off"}
+			{gunner			"commander"}
+			{charger		"commander"}
+			("abm_mgun_heavy")
+			{basic}
+		}
+	}
+	{sensor
+		{visor "main"
+			{vision "tank_main-l"}
+		}
+	}
+
+	("wheel" args "wheelright1")
+	("wheel" args "wheelleft1")
+	("wheel" args "wheelright2")
+	("wheel" args "wheelleft2")
+	("wheel" args "wheelright3")
+	("wheel" args "wheelleft3")
+	("wheel" args "wheelright4")
+	("wheel" args "wheelleft4")
+
+	{mass 11750}
+	{Chassis
+		{Locomotion ("locomotion")
+			{MaxSpeed	38}
+	  		{maxSpeedAtMaxTurn 8}		
+			{StartTime	20}
+			{BrakeTime	1.5}	
+			{StopTime	3}
+			{TurnRadius	7}
+     			{Gears  0.1 0.2 0.3 1}
+			{RearGears  0.25}
+		}
+		{FuelBag
+			{volume 360}
+			{rate	11}
+			{remain 360}
+			{fuel "fuel"}
+		}
+		{speed
+			{Normal  38}
+			{Slow  38}
+		}
+		("car_trace" fx("tracewheel02") step(0.09) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
+		("car_trace" fx("tracewheel02") step(0.09) wheell("wlr") wheelr("wrr") bonel("FXtraceL3") boner("FXtraceR3"))
+	}
+	{Extension "sdkfz234_4.mdl"}
+	
+	{bone "mgun_turret"
+		{limits -45 45}		;gun min right to max left
+		{speed 0.002}
+	}
+	{bone "turret"
+		{speed 0.0015}
+	}
+	{bone "gun_rot"
+		{speed 0.0007}
+		{limits -8 8}		;gun min down to max up
+	}
+}

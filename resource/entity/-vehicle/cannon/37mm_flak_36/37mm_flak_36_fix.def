@@ -1,0 +1,55 @@
+{game_entity
+	(include "/properties/cannon.ext")
+	{props "vehicle" "cannon" "flak" "barrel1" "turret" "turret_rotator" "vision_cannon_medium" "muzzle_zenite" "medium_weapons"}
+
+	("armor_medium")
+
+	{Volume "body"
+		{tags "body"}
+		{component "body"}
+	}
+
+	("crew_2_human")
+
+	{Boarder
+		{place "gunner"}
+		{place "commander"}
+		{door "emit1"}
+		{door "emit2"}
+		{link "emit1" "gunner"}
+		{link "emit2" "commander"}
+		{anm "gunner"
+			{forward	{end "pose_flak38-1_gunlayer" 10}}
+		}
+		{anm "commander"
+			{forward	{end "pose_flak38_charger_left" 10}}
+		}
+	}
+	
+	{extender "cannon"
+		{animation
+			{aim	"cannon_flak38-1_gunlayer" ""}
+			{reload	"" "cannon_flak38_charger_left"}
+		}
+		{move {workers clear} {obstacle "close"}}
+		{attack {workers "gunner" "commander"} {obstacle "open"}}
+	}
+	("ger_3x8_sight")
+	{extender "inventory"
+		{box
+			{item "bullet37 ger zenite aphe" 200}
+			{item "bullet37 ger zenite fg" 200}
+		}
+	}
+	{Weaponry
+		{place "gun"
+			{weapon "37mm_flak_36" filled}
+			("abm_zenite")
+		}
+	}  	
+
+	{mass 1550}
+	{Extension "37mm_flak_36.mdl"}
+	(include "/properties/selection/cannon.inc"  scale(0.7))
+}
+

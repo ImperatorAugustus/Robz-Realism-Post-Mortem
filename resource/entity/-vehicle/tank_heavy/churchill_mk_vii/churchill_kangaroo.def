@@ -1,0 +1,155 @@
+{game_entity
+	(include "/properties/Kangaroo_crew.ext")
+	(include "/properties/tank.ext")
+	(include "/properties/selection/vehicle.inc"  scale(1.2))
+	{collider "tank.heavy"}
+	{props "heavy" "vision_vehicle_maximum" "tractor"}
+	{tag "heavy_trailer"}
+
+	(include "/properties/resupply_generic.inc")
+	("kangaroo_eng")
+
+	{extender "enumerator"}
+
+
+	{Volume "body1"
+		{tags "body"}
+		{component "body"}
+	}
+	{Volume "body2"
+		{tags "body"}
+		{component "body"}
+	}
+	{Volume "body3"
+		{tags "body"}
+		{component "body"}
+	}
+
+	("armor_heavy" turret(0) body(152 95 51 20) body2(57 95 51 20) body3(140 95 51 25))
+	("armor_engine"  t(10 95 51 20))
+
+	("shield" args 8)
+	{extender "shield"
+		{on}
+	}
+
+	{component "shieldl1" {tags "shield"}}
+	{component "shieldl2" {tags "shield"}}
+	{component "shieldr1" {tags "shield"}}
+	{component "shieldr2" {tags "shield"}}
+	{boarder
+		{anm "left"
+			{forward	{begin	"board_tank_left"} {end "seat_gunner_stand"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+		{anm "right"
+			{forward	{begin	"board_tank_right"} {end "seat_gunner_stand"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+	}
+
+	("crew_2_human")
+	("crew_human_visible" place(gunner)	door1(emit1) door2(emit2) visor(main))
+	("crew_kangaroo_visible" place(seat00)	door1(emit1) door2(emit2) visor(main))
+		{boarder
+		{anm "left"
+			{forward	{begin	"board_tank_left"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+		{anm "right"
+			{forward	{begin	"board_tank_right"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+		{anm "armor"
+			{forward	{begin	"board_lowArmor"} 	{end "pose_seat_armor_2"}}
+			{reverse 	{end	"emit_tank_2"}}
+		}
+		{anm "armor1"
+			{forward	{begin	"board_lowArmor"} {end "pose_seat_armor_2"}}
+			{reverse 	{end	"emit_body"}}
+		}
+		{anm "armor2"
+			{forward	{begin	"board_lowArmor"} {end "pose_seat_armor_1"}}
+			{reverse 	{end	"emit_body"}}
+		}
+	}
+  	("kangaroo_4_passengers")
+	("crew_kangaroo_visible" place(seat01)	door1(emit1) door2(emit2) visor(main))
+	("crew_kangaroo_visible" place(seat02)	door1(emit1) door2(emit2) visor(main))
+	("crew_kangaroo_visible" place(seat03)	door1(emit1) door2(emit2) visor(main))
+	("crew_kangaroo_visible" place(seat04)	door1(emit1) door2(emit2) visor(main))
+	("crew_kangaroo_visible" place(seat05)	door1(emit1) door2(emit2) visor(main))
+	("crew_kangaroo_visible" place(seat06)	door1(emit1) door2(emit2) visor(main))
+	("crew_kangaroo_visible" place(seat07)	door1(emit1) door2(emit2) visor(main))
+	("crew_kangaroo_visible" place(seat08)	door1(emit1) door2(emit2) visor(main))
+  {boarder
+    {anm "passenger"
+      {forward  {begin  "board_body"} {end "seat_passenger"}}
+      {reverse  {end  "emit_body" 1}}
+    }
+  }
+
+	{extender "inventory"
+		{box
+			{item "browning" filled {user "mgun"}}
+            		{item "ammo hmgun" 2000}
+            		{item "ammo mg_mauser belt red" 5000}
+		}
+	}
+	{Weaponry
+		("restore_ik_time")
+		{place "mgun"
+			{type "mgun_main"}
+			{gunner "gunner"}
+			{charger "gunner"}
+			{LinkBone "mgun_rot"}
+			{LinkAnimation "off"}
+			("abm_mgun_heavy")
+		}
+		{place "mgun1"
+			{type "mgun_hull"}
+			{weapon "besa" filling "mg_mauser belt red" 225}
+			{foresight "foresight4"}
+			{gunner "driver"}
+			{charger "driver"}
+			("abm_mgun")
+		}
+	}
+
+{Extension "churchill_Kangaroo.mdl"}
+
+	{mass 40500}
+	{Chassis
+		("tank_trace" fx("tracks_mid") step(0.52) len(0.2))
+		{Locomotion ("locomotion")
+			{MaxSpeed   15}
+			{maxSpeedAtMaxTurn 4}
+			{StartTime  20}
+			{TurnStart  1.8}			
+			{TurnTime   30}
+			{TurnRadius 9} 
+    		{TurnStop   0.8}
+			{BrakeTime  2}
+			{StopTime   3}
+			{Gears 0.1 0.2 0.3 1}
+			{RearGears  0.1 0.3}		
+		}
+		{FuelBag
+			{volume 680 }	
+			{rate	76 }   
+			{remain 680 }
+			{fuel "fuel"}
+		}
+		{speed
+        	{Normal  15}
+        	{Slow  15}
+    	}
+	}
+	{bone "turret_mgun"
+		{limits -30 30}
+		{speed 0.005}
+		{terminator}
+	}
+
+}
+

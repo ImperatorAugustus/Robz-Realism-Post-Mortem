@@ -1,0 +1,6 @@
+{material multiply
+	{diffuse "bridge_b"}
+	{diffuse1 "bridge_b_lm"}
+	{blend none}
+	{Modulate2x}
+}

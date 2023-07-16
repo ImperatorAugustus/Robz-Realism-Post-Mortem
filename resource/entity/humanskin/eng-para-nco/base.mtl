@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/humanskin/eng/para/para uniform_nco"}
+	{blend none}
+}

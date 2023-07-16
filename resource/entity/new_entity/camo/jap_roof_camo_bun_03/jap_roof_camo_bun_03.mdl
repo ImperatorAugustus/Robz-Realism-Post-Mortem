@@ -1,0 +1,18 @@
+;Exported by: ?????
+;Date:        Mon Mar 02 20:55:59 2015
+;File:        C:\Users\?????\Documents\3dsmax\scenes\jap_bunk.max
+{Skeleton
+	{bone "plane006"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "plane006.ply"}
+	}
+}
+{Volume "crown"
+	{Box 129.162 170.708 44.4392}
+	{Bone "plane006"}
+	{Position 3.48749	4.16772	22.2196}
+}

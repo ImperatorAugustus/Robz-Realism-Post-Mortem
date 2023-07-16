@@ -1,0 +1,126 @@
+;Exported by: Loskutov_K
+;Date:        Wed Apr 21 13:39:50 2010
+;File:        D:\_Vietnam\Art\Models\Houses\X\Saray_3_x\saray_3_x.max
+{Skeleton
+	{bone "base3_s3_x"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "piece02"
+			{Matrix34
+				0	-1	0
+				0	0	1
+				-1	0	0
+				7.39184	15.9969	-18.0035
+			}
+			{VolumeView "piece02.ply"}
+		}
+		{bone "piece06"
+			{Matrix34
+				0	0	-1
+				1	0	0
+				0	-1	0
+				20.8828	-3.39581	-17.2424
+			}
+			{VolumeView "piece06.ply"}
+		}
+		{bone "piece05"
+			{Matrix34
+				0	-1	0
+				1	0	0
+				0	0	1
+				22.9696	16.6215	-8.96423
+			}
+			{VolumeView "piece05.ply"}
+		}
+		{bone "piece04"
+			{Matrix34
+				-1	0	0
+				0	-1	0
+				0	0	1
+				0.199318	18.0219	-12.707
+			}
+			{VolumeView "piece04.ply"}
+		}
+		{bone "piece03"
+			{Matrix34
+				-0.392986	0	0.919544
+				0.919544	0	0.392986
+				0	1	0
+				18.9668	64.9871	-4.22939
+			}
+			{VolumeView "piece03.ply"}
+		}
+		{bone "piece01"
+			{Matrix34
+				0.392986	0	0.919544
+				-0.919544	0	0.392986
+				0	-1	0
+				22.6021	3.54389	21.6328
+			}
+			{VolumeView "piece01.ply"}
+		}
+	}
+}
+{Volume "piece01"
+	{Polyhedron "piece01.vol"}
+	{Bone "piece01"}
+	{Matrix34
+		0	0	1
+		0.919544	0.392986	0
+		-0.392986	0.919544	0
+		-7.19793	-3.72718	-4.7779
+	}
+}
+{Volume "piece02"
+	{Box 18.2505 2.39777 2.12757}
+	{Bone "piece02"}
+	{Matrix34
+		0	0	-1
+		1	0	0
+		0	-1	0
+		0.117142	-0.545205	-1.14055
+	}
+}
+{Volume "piece03"
+	{Box 13.265 17.1269 1.30896}
+	{Bone "piece03"}
+	{Matrix34
+		0	0	-1
+		0.919544	0.392986	0
+		0.392986	-0.919544	0
+		-8.86916	0.668732	-62.5255
+	}
+}
+{Volume "piece04"
+	{Box 34.8344 17.1269 2.04652}
+	{Bone "piece04"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		1.59124	0.660755	-0.341131
+	}
+}
+{Volume "piece05"
+	{Box 22.2567 2.39777 2.12757}
+	{Bone "piece05"}
+	{Matrix34
+		0	0	-1
+		1	0	0
+		0	-1	0
+		-0.00337224	-0.247148	-1.53891
+	}
+}
+{Volume "piece06"
+	{Box 28.2159 2.39777 2.12757}
+	{Bone "piece06"}
+	{Matrix34
+		0	0	1
+		-1	0	0
+		0	-1	0
+		-0.305134	0.252913	-2.5546
+	}
+}

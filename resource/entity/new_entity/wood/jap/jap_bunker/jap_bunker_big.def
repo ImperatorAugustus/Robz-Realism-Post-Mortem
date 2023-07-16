@@ -1,0 +1,15 @@
+{game_entity
+	{Extension "jap_bunker_big.mdl"}
+	{placer}
+	{extender "structure"
+		{place "basic" "jap_bunker_land_big"}
+		{place "wall1" "jap_bunker_wall_big_mgun"}
+		{place "wall2" "jap_bunker_wall_01"}
+		{place "wall5" "jap_bunker_wall_05"}
+		{place "wall6" "jap_bunker_wall_06"}
+		{place "wall_07" "jap_bunker_wall_07"}
+		{place "roof" "jap_bunker_big_roof_land" "jap_bunker_big_roof_land_mort_close" "jap_bunker_big_roof_land_mort_open"}
+		{place "wall4" "jap_bunker_wall_04"}
+		{place "wall_door_01" "jap_bunker_wall_04"}
+	}
+}

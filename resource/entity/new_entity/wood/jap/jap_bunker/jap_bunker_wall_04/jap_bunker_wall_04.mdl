@@ -1,0 +1,46 @@
+;Exported by: Фёдор
+;Date:        Wed Nov 19 14:00:29 2014
+;File:        C:\Users\Фёдор\Documents\3dsmax\scenes\new_okop_baza_6_bun_02.max
+{Skeleton
+	{bone "jap_wall"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "jap_wall.ply"}
+	}
+}
+{Obstacle "body1"
+	{Obb2
+		{Center -51.2961 40.3663}
+		{Extent 4.27588 36.317}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body2"
+	{Obb2
+		{Center -51.2961 -35.009}
+		{Extent 4.27588 17.2857}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body1"
+	{Box 8.55176 72.634 49.5702}
+	{Bone "jap_wall"}
+	{Position -51.2961	-40.3663	-14.5787}
+}
+{Volume "body2"
+	{Box 8.55176 34.5715 49.5702}
+	{Bone "jap_wall"}
+	{Position -51.2961	35.009	-14.5787}
+}
+{Volume "body3_r"
+	{Box 8.55176 21.78 12.3925}
+	{Bone "jap_wall"}
+	{Position -51.2961	6.60467	4.01015}
+}

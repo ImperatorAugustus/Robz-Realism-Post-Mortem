@@ -1,0 +1,73 @@
+;Exported by: Kislov_A
+;Date:        Wed Apr 14 15:14:13 2010
+;File:        E:\Men of war red tide2\Art\Models\Houses\House_small_2\hs2_bumpspec.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "1"
+			{Position 2.19109	-0.062561	24.4003}
+		}
+		{bone "2"
+			{Position 51.4505	0.0320625	12.2564}
+		}
+		{bone "3"
+		}
+		{bone "4"
+		}
+		{bone "6"
+			{Position 43.9728	-0.330265	45.9939}
+		}
+		{bone "7"
+			{Position 2.5645	35.7001	43.9562}
+		}
+		{bone "8"
+			{Position 3.63662	-36.1617	44.4229}
+		}
+		{bone "9"
+			{Position -39.403	0.775806	50.6959}
+		}
+		{bone "11"
+			{Position 3.43631	0.378819	70.9542}
+		}
+		{bone "12"
+			{Position 2.35361	0.0627098	86.6626}
+		}
+		{bone "13"
+			{Position -26.4164	-28.5719	45.1976}
+		}
+		{bone "14"
+			{Position -15.9957	24.8568	52.7545}
+		}
+		{bone "15"
+			{Position -25.4787	23.4787	29.8268}
+		}
+		{bone "16"
+			{Position -17.1024	-24.6568	33.7574}
+		}
+		{bone "17"
+			{Position -14.9818	-37.088	28.5254}
+		}
+		{bone "18"
+			{Position 16.2468	37.1619	29.0102}
+		}
+		{bone "19"
+			{Position 3.31549	26.9091	31.4666}
+		}
+		{bone "20"
+			{Position 33.2117	23.6643	27.53}
+		}
+		{bone "21"
+			{Position 15.829	-33.7633	53.0113}
+		}
+		{bone "22"
+			{Position 43.3587	-5.16292	49.6784}
+		}
+		{bone "23"
+			{Position 1.30379	-0.216911	23.7654}
+		}
+	}
+}

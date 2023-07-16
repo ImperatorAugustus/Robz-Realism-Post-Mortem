@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "helmet_japmc"}
+	{specular "helmet_japmc sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

@@ -1,0 +1,53 @@
+;Exported by: Kalinski
+;Date:        Fri Sep 16 01:50:10 2016
+;File:        C:\Users\Kalinski\Desktop\ger helmet\m40.max
+{Skeleton
+	{bone "helmet_ger_m38"
+		{Matrix34
+			1	0	0
+			0	-1	0
+			0	0	1
+                        0.3	-0.07	0
+		}
+		{VolumeView "helmet_ger_m38.ply"}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "helmet_ger_m38"}
+	{Position 0	6.15179	0}
+}
+{Volume "select"
+	{Box 5.59662 5.08766 5.14459}
+	{Bone "helmet_ger_m38"}
+	{Matrix34
+		1.0387	0	0
+		0	1.0387	0
+		0	0	1.0387
+		1.05468	0.260123	2.34829
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 6.58307	-4.60426	3.60966}
+			{lookat 1.29437	0.377072	3.51748}
+			{fov 45}
+			{horizon -0.239031}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.00242178	0.00152097	-0.499992}
+			}
+			{"1"
+				{type point}
+				{position 1.3762	-2.3209	2.53304}
+			}
+			{"2"
+				{type point}
+				{position 3.55957	-1.33044	3.47408}
+			}
+		}
+	}
+}

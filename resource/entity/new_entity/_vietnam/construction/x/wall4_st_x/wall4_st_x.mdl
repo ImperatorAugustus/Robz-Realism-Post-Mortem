@@ -1,0 +1,64 @@
+;Exported by: Loskutov_K
+;Date:        Tue Apr 20 17:38:11 2010
+;File:        D:\_Vietnam\Art\Models\Houses\X\Stolovaya_x\stolovaya_x.max
+{Skeleton
+	{bone "wall4_st_x"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "piece02"
+			{Matrix34
+				-1	0	0
+				0	-1	0
+				0	0	1
+				-15.1574	0.171097	2.9912
+			}
+			{VolumeView "piece02.ply"}
+		}
+		{bone "piece01"
+			{Matrix34
+				-1	0	0
+				0	-1	0
+				0	0	1
+				13.7353	0.170395	2.78328
+			}
+			{VolumeView "piece01.ply"}
+		}
+		{bone "piece03"
+			{Matrix34
+				-1	0	0
+				0	-1	0
+				0	0	1
+				26.6012	0.0774689	0.50745
+			}
+			{VolumeView "piece03.ply"}
+		}
+	}
+}
+{Volume "piece01"
+	{Box 23.4407 15.8932 1.9442}
+	{Bone "piece01"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		0.12294	0.384614	-0.0470829
+	}
+}
+{Volume "piece02"
+	{Box 19.5218 18.3607 2.27803}
+	{Bone "piece02"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		1.12288	0.218416	-1.12587
+	}
+}
+{Volume "piece03"
+	{Box 1.53756 1.01863 24.1392}
+	{Bone "piece03"}
+	{Position -0.00743866	0.0148621	-0.173418}
+}

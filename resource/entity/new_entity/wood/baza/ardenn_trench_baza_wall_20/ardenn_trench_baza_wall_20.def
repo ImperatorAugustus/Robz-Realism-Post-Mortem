@@ -1,0 +1,23 @@
+{game_entity
+(include "/properties/construction.inc")
+	("armor_light" args 0.5)
+	{Extension "ardenn_trench_baza_wall_20.mdl"}
+	{props "construction" "parts" "wood" "no_destroyed_stamp" "disable_area" "small" "burning"} 
+	("armor_heavy" args 0.8)
+	{obstacleID "small_building"}
+	{Volume "body"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {visible 1}}
+	}
+	{Volume "body2"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {visible 1}}
+	}
+	{Volume "body3"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {visible 0}{obstacle 0}}
+	}
+}

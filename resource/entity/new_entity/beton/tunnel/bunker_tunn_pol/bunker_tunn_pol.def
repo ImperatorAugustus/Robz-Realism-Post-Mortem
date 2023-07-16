@@ -1,0 +1,5 @@
+{game_entity
+	{Extension "bunker_tunn_pol.mdl"}
+	{Extender "land_patch"
+	}
+}

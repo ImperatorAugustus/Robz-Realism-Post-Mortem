@@ -1,0 +1,40 @@
+;Exported by: Kislov_A
+;Date:        Thu Apr 15 10:34:56 2010
+;File:        E:\Men of war red tide2\Art\Models\Houses\House_middle_1\hm1_complete.max
+{Skeleton
+	{bone "roofhold9_hm1"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "roofhold9_hm1.ply"}
+		{bone "exterior"
+			{Position -7.02672	19.7408	4.51036}
+			{VolumeView "exterior.ply"}
+		}
+		{bone "fix06"
+			{Position -4.02458	0.147659	-2.2354}
+		}
+	}
+}
+{Volume "roof1"
+	{Polyhedron "roof1.vol"}
+	{Bone "exterior"}
+	{Matrix34
+		0	1	0
+		-0.81454	0	-0.580108
+		-0.580108	0	0.81454
+		32.4203	-1.43755	-19.4923
+	}
+}
+{Volume "roof2"
+	{Polyhedron "roof2.vol"}
+	{Bone "exterior"}
+	{Matrix34
+		-1	0	0
+		0	-0.700599	0.713555
+		0	0.713555	0.700599
+		3.29743	-33.1018	-18.7953
+	}
+}

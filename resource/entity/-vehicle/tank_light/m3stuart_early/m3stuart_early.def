@@ -1,0 +1,122 @@
+{game_entity
+	;© 2008 Zeke Wolff & Ngvede.
+	(include "/properties/tank.ext")
+	(include "/properties/selection/vehicle.inc"  scale(1.0))
+	{patherId "tank.light"}
+	{collider "tank.light"}
+	{props "light" "turret_rotator" "vision_vehicle_low" "muzzle_minimum" "switch_mgun_coax"}
+
+	{volume "body"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "body2"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "body3"
+		{tags "body"}
+		{component "body"}
+	}
+	
+	("armor_light" turret(38 25 25 13) body(29 25 25 13))
+	("us_3x_sight")
+
+	("crew_4_human")
+	{boarder
+		{anm "left"
+			{forward	{begin	"board_tank_left"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+		{anm "right"
+			{forward	{begin	"board_tank_right"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+	}	
+
+	{extender "inventory"
+		{box
+			{size 6 7}
+			{item "bullet37 us ap" 70}
+			{item "bullet37 us fg" 32}
+			{item "ammo springfield_belt" 3000}
+			{item "grenade mk1" 6}
+			{item "ammo thompson_m1a1_mag" 450}
+			{item "thompson" filled}
+			{item "smoke grenade" 4}		
+		}
+	}
+
+	{Weaponry
+		{place "gun"
+			{weapon "37mm_m6" filling "bullet37 us ap" 1}
+			{gunner "gunner"}
+			{charger "commander"}
+			("abm_stabilized")
+		}
+		{place "mgun"
+			{type "mgun_coaxial"}
+			{weapon "browning_m19_optic" filled}
+			{foresight "foresight3"}
+			{gunner "gunner"}
+			{charger "commander"}
+			("abm_mgun")
+			{basic}
+		}
+		{place "mgun1"
+			{type "mgun_hull"}		
+			{weapon "browning_m19" filled}
+			{foresight "foresight4"}
+			{gunner "gunner3"}
+			{charger "gunner3"}	
+			("abm_mgun")					
+		}
+		{place "mgun2"
+			{type "mgun_hull"}
+			{weapon "browning_m19" filled}
+			{foresight "foresight5"}
+			{gunner "driver"}
+			{charger "driver"}
+			{barrels 2}
+			("abm_mgun")
+		}
+	}
+
+	{mass 15200}
+	{Chassis
+		("tank_trace" fx("tracks_sm") step(0.3) len(0.3))
+		{Locomotion ("locomotion")
+			{maxspeed   38}
+			{maxSpeedAtMaxTurn 6}
+			{StartTime  25}
+			{TurnTime   14}
+			{TurnStart  1.1}			
+			{TurnRadius 7} 
+    		{TurnStop   0.6}
+			{BrakeTime  1.5}
+			{StopTime   2}
+			{Gears  0.1 0.2 0.3 1}
+			{RearGears  0.25}
+		}
+		{FuelBag
+			{volume 212 }	; liters
+			{rate	29}   ; liters per kilometer
+			{remain 212 }
+			{fuel "fuel"}
+		}
+		{speed
+        		{Normal  38}
+        		{Slow  38}
+		}
+	
+	}
+	{Extension "m3stuartus.mdl"}
+	
+	{bone  "turret"       
+		{speed 0.003}     ;24° per second = 15 seconds / 360°
+	}
+        {bone "gun_rot"
+		{speed 0.001}
+        }
+	
+}	

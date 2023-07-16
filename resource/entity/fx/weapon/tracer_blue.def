@@ -1,0 +1,14 @@
+{fx
+	{lightview
+		{delay 0.1}
+		{animator
+			{highlight 0xff0000ff}
+		}
+		{type point}
+		{radius 100}
+		{attenuation0 0.08}
+		{attenuation1 0.08}
+		{effectonground}
+		{offset 0 0 50}
+	}
+}

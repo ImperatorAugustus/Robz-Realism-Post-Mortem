@@ -1,0 +1,21 @@
+;Exported by: Kislov_A
+;Date:        Wed Apr 14 15:14:13 2010
+;File:        E:\Men of war red tide2\Art\Models\Houses\House_small_2\hs2_bumpspec.max
+{Skeleton
+	{bone "firelight_hs2"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "firelight_hs2.ply"}
+		{bone "fix02"
+			{Position 42.9062	-14.9018	0.689726}
+		}
+	}
+}
+{Volume "fire0"
+	{Box 85.0271 72.7538 2.92913}
+	{Bone "firelight_hs2"}
+	{Position -0.138032	0.0374856	-0.331484}
+}

@@ -1,0 +1,93 @@
+;Exported by: Kalinski
+;Date:        Wed Feb 28 23:35:56 2018
+;File:        C:\Users\Kalinski\Desktop\new weapons pack\panzerfaust30.max
+{Skeleton
+	{bone "panzerfaust30"
+		{parameters "CommonMesh;ID=rifle;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "panzerfaust30.ply"}
+		{bone "foresight3"
+			{Position 11.7705	0	0}
+		}
+		{bone "handle"
+			{Position 3.60654	0	0}
+		}
+		{bone "fxshot"
+			{Matrix34
+				-1	0	0
+				0	1	0
+				0	0	-1
+				-6.00427	0	0
+			}
+		}
+		{bone "faustrocket"
+			{VolumeView "faustrocket.ply"}
+		}
+	}
+}
+{Volume "body"
+	{Box 17.4636 1.2916 2.03874}
+	{Bone "panzerfaust30"}
+	{Position 2.9102	0	0.45814}
+}
+{Volume "select"
+	{Box 22.1747 4.62889 3.47063}
+	{Bone "panzerfaust30"}
+	{Matrix34
+		1.0774	0	0
+		0	1.0774	0
+		0	0	1.2924
+		4.58298	0	1.36612
+	}
+}
+{Extender "preview"
+	{"stuff_primary"
+		{camera
+			{origin 5.57677	28.7647	0.552605}
+			{lookat 5.57677	0	0.552605}
+			{fov 45}
+			{horizon 8.78617}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -3.48545	1.55828	0.0206528}
+			}
+			{"1"
+				{type point}
+				{position 12.2284	2.9692	1.20224}
+			}
+			{"2"
+				{type directional}
+				{direction 0	-0.5	0}
+				{ambient 0xffffff}
+			}
+		}
+	}
+	{"stuff"
+		{camera
+			{origin 5.5771	28.7685	0}
+			{lookat 5.5771	0	0}
+			{fov 45}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 12.2245	2.97015	1.1984}
+			}
+			{"1"
+				{type point}
+				{position -3.48068	1.57989	0.0228424}
+			}
+			{"2"
+				{type directional}
+				{direction 0	-0.5	0}
+				{ambient 0xffffff}
+			}
+		}
+	}
+}

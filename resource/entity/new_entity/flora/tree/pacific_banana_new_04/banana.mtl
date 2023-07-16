@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "$/flora/jap/pacific_banana"}
+	{bump "$/flora/jap/pacific_banana_bp"}
+	{color "229 229 229 50"}
+	{blend test}
+}

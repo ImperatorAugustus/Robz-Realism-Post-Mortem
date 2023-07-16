@@ -1,0 +1,135 @@
+{game_entity
+	(include "/properties/tank.ext")
+	(include "/properties/selection/vehicle.inc"  scale(1.2))
+	{collider "tank.heavy"}
+	{props "heavy" "-turret" "vision_vehicle_maximum" "muzzle_maximum"}
+	
+	{extender "enumerator"}
+	
+	{Volume "body1"
+		{tags "body"}
+		{component "body"}
+	}
+	{Volume "body2"
+		{tags "body"}
+		{component "body"}
+	}
+	{Volume "body3"
+		{tags "body"}
+		{component "body"}
+	}
+	{Volume "body4"
+		{tags "body"}
+		{component "body"}
+	}
+	{Volume "mantlet1"
+		{tags "mantlet"}
+		{component "mantlet"}
+	}
+	{Volume "mantlet2"
+		{tags "mantlet"}
+		{component "mantlet"}
+	}
+	
+	("armor_spa_heavy" armor(125 55 35 20) armor2(125 55 35 20) armor3(125 55 35 20) armor4(125 55 35 20))
+	("armor_engine"  t(40 55 35 20))
+	("armor_mantlet" t(250))
+	
+	("crew_4_human")
+
+	("crew_4_human")
+	("seat_human" place(seat1) bone(seat01) door(emit3)  animation(armor1))
+	("seat_human" place(seat2) bone(seat02) door(emit4)  animation(armor))
+	("seat_human" place(seat3) bone(seat03) door(emit5)  animation(armor))
+	("seat_human" place(seat4) bone(seat04) door(emit6)  animation(armor1))
+
+	{boarder
+		{anm "left"
+			{forward	{begin	"board_Kv"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+		{anm "right"
+			{forward	{begin	"board_tank_right"} {end "pose_mgun_pz6"}}
+			{reverse 	{end	"emit_tank_2_hold"}}
+		}
+
+		{anm "armor"
+			{forward	{begin	"board_HighArmor"} 	{end "seat_armor"}}
+			{reverse 	{end	"emit_tank_2"}}
+		}
+		{anm "armor1"
+			{forward	{begin	"board_HighArmor"} {end "seat_armor"}}
+			{reverse 	{end	"emit_body"}}
+		}
+	}
+
+	{extender "inventory"
+		{box
+			{item "ammo bullet105 japl aphe" 25}
+			{item "ammo bullet105 japl fg" 27}
+			{item "ammo bullet37 jap aphe" 30}
+			{item "ammo bullet37 jap fg" 30}
+			{item "ammo type97_mag" 3500}
+		}
+	}
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "105mm_type6" filling "ammo bullet105 japl aphe" 1}
+			("abm_medium")
+		}
+		{place "gun2"
+			{type "secondary_main"}
+			{weapon "37mm_hori" filling "bullet37 jap aphe" 1}
+			{foresight "foresight4"}
+			{gunner "driver"}
+			{charger "driver"}
+			("abm_medium")
+			{basic}
+		}
+		{place "mgun"
+			{type "mgun_hull"}
+			{weapon "type97_mg" filled}
+			{foresight "foresight5"}
+			("abm_mgun")
+			{basic}
+		}
+	}
+	
+	{mass 71700}
+	{Chassis
+		("tank_trace" fx("tracks_mid") step(0.52) len(0.15))
+		{Locomotion ("locomotion")
+			{maxspeed   26}
+			{maxSpeedAtMaxTurn 2.5}
+			{StartTime   50}
+			{BrakeTime  2.5}		
+			{StopTime   3.5}			
+			{TurnStart  2.5}
+			{TurnTime    30}		
+			{TurnStop     1}
+			{TurnRadius   14}
+			{Gears     0.1 0.2 0.3 1.0}
+			{RearGears 0.1 0.2}
+		}
+		{FuelBag
+			{volume 950 }	
+			{rate	105 }   
+			{remain 950 }
+			{fuel "fuel"}
+		}
+		{speed
+        	{Normal  26}
+        	{Slow  26}
+    	}
+	}
+	{Extension "ho-ri_1.mdl"}
+	{bone "gun_rot2"
+		{speed 0.001}
+	}
+	{bone "gun_rot"
+		{speed 0.001}
+	}
+}
+

@@ -1,0 +1,117 @@
+{game_entity
+	(include "/properties/tank.ext")
+	(include "/properties/selection/vehicle.inc"  scale(1.2))
+	{props "medium" "turret_rotator" "vision_vehicle_medium" "muzzle_minimum" "switch_mgun_coax"}
+
+	{extender "enumerator"}
+	
+	{volume "body1"
+		{component "body"}
+		{tags "body"}
+	}
+	{volume "body2"
+		{component "body"}
+		{tags "body"}
+	}
+	{volume "body3"
+		{component "body"}
+		{tags "body"}
+	}
+	{volume "body4"
+		{component "body"}
+		{tags "body"}
+	}
+	{volume "body5"
+		{component "body"}
+		{tags "body"}
+	}
+	
+	("armor_medium" turret(65 60 65 20) body(60 60 60 22))
+	("eng_1-9x_sight")
+	
+	("crew_4_human")
+
+	{boarder
+		{anm "left"
+			{forward	{begin	"board_tank_left"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+		{anm "right"
+			{forward	{begin	"board_tank_right"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+		{anm "armor"
+			{forward	{begin	"board_LowArmor"} 	{end "seat_armor"}}
+			{reverse 	{end	"emit_tank_1"}}
+		}
+	}
+
+	("seat_human" place(seat1) bone(seat01) door(emit6)  animation(armor))
+	("seat_human" place(seat2) bone(seat02) door(emit5)  animation(armor))
+	("seat_human" place(seat3) bone(seat03) door(emit4)  animation(armor))
+	("seat_human" place(seat4) bone(seat04) door(emit3)  animation(armor))
+
+	{extender "inventory"
+		{box
+            {item "ammo bullet40 eng ap" 61}
+            ;{item "ammo bullet40 fg" 25}
+            ;{item "ammo bullet40 apcr" 3}
+            {item "ammo mg_mauser belt red" 3150}
+		}
+	}
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "40mm_oqf2pdr" filling "ammo bullet40 eng ap" 1}
+			("abm_medium")
+		}
+		{place "mgun"
+			{type "mgun_coaxial"}
+			{weapon "besa_optic" filling "mg_mauser belt red" 225}
+			("abm_mgun")
+			{basic}
+		}
+	}
+
+	{mass 16200}
+	{Chassis
+		("tank_trace" fx("tracks_mid") step(0.52) len(0.2))
+		{Locomotion ("locomotion")
+			{MaxSpeed   22}
+			{maxSpeedAtMaxTurn 4}
+			{StartTime  30}
+			{TurnStart  1.7}			
+			{TurnTime   18}
+			{TurnRadius 8} 
+    		{TurnStop   0.7}
+			{BrakeTime  1.5}
+			{StopTime   2.5}
+			{Gears 0.1 0.2 0.3 1}
+			{RearGears  0.24}		
+		}
+		{FuelBag
+			{volume 165 }	
+			{rate	24 }   
+			{remain 165 }
+			{fuel "fuel"}
+		}
+		{speed
+        	{Normal  22}
+        	{Slow  22}
+    	}
+	}
+
+	{Extension "mk3.mdl"}
+
+	{bone "gun_rot"
+		{speed 0.001}
+		{limits -8 20}
+	}
+	{bone "turret"
+		{speed 0.003}
+	}
+	{bone "foresight3"
+		{limits 1}
+	}
+}

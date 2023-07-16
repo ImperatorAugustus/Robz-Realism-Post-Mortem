@@ -1,0 +1,12 @@
+;Exported by: Loskutov_K
+;Date:        Wed Mar 31 18:32:26 2010
+;File:        D:\_Vietnam\Art\Models\Houses\X\House_middle_2_x\House_middle_2_x.max
+{Skeleton
+	{bone "firelight_hm2_x"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+	}
+}

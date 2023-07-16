@@ -1,0 +1,71 @@
+;Exported by: Vlad
+;Date:        Wed Feb 04 16:37:45 2015
+;File:        D:\маё\Проги всякие\3д проэкты\MOD\usa\usa-helmet1.max
+{Skeleton
+	{bone revolute "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "helmet"
+			{Matrix34
+				0.976364	0.0242306	0.214769
+				-0.0269708	0.999588	0.00983757
+				-0.214443	-0.0153988	0.976615
+				0.698422	0.0741734	2.21425
+			}
+			{VolumeView "helmet.ply"}
+		}
+		{bone "handle"
+			{Matrix34
+				0.999935	-0.00499127	0.0102568
+				-0.00172024	0.999969	-0.00772345
+				-0.00553886	0.0077328	0.999955
+				0.891197	0	3.4233
+			}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "helmet"}
+	{Orientation
+		1	0	0
+		0	1	0
+		0	0	1
+	}
+}
+{Volume "select"
+	{Polyhedron "select.vol"}
+	{Bone "helmet"}
+	{Orientation
+		1	0	0
+		0	1	0
+		0	0	1
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 9.85153	-8.39751	4.05603}
+			{lookat 1.52162	-1.24505	2.75668}
+			{fov 22.6199}
+			{horizon -3.38634}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.171162	0.146829	-0.446256}
+			}
+			{"1"
+				{type directional}
+				{direction -0.189277	0.266067	0.378659}
+			}
+			{"2"
+				{type directional}
+				{direction -0.105484	-0.229601	-0.431458}
+			}
+		}
+	}
+}

@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/flora/jap/bamboo"}
+	{blend test}
+}

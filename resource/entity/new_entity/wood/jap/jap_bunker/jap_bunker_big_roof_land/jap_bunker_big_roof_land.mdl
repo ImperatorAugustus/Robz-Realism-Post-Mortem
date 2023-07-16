@@ -1,0 +1,26 @@
+;Exported by: Фёдор
+;Date:        Thu Nov 20 14:28:08 2014
+;File:        C:\Users\Фёдор\Documents\3dsmax\scenes\jap_bunk_big.max
+{Skeleton
+	{bone "exterior"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "exterior.ply"}
+	}
+}
+{Area "interior"
+	{Obb2
+		{Center 11.5644 2.8051}
+		{Extent 60.5863 71.2312}
+		{Axis 1 0}
+	}
+	{Rotate}
+}
+{Volume "body"
+	{Box 125.595 152.751 18.3449}
+	{Bone "exterior"}
+	{Position 12.1197	-8.92818	9.17245}
+}

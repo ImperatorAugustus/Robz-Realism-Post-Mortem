@@ -1,0 +1,24 @@
+{game_entity
+	{Extension "t70_xx.mdl"}
+	{volume "body1"
+		{tags "body"}
+		{component "body"}
+		{thickness 35
+			{top	15}
+			{bottom	 15}
+		}
+	}
+	{volume "body2"
+		{tags "body"}
+		{component "body"}
+		{thickness 35
+			{top	 15}
+			{bottom	 15}
+		}
+	}
+	{volume "turret"
+		{thickness 35 0.3 
+			{front	35}
+		}
+	}
+}

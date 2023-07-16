@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "kv-85_x"}
+	{bump "$/model/kv-85_bp"}
+	{specular "$/model/kv-85_sp"}
+	{color "230 230 230 25"}
+	{blend test}
+}

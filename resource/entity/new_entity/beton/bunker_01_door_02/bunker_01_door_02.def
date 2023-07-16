@@ -1,0 +1,11 @@
+{game_entity
+	(include "/properties/building.inc")
+	{props "cornered" "steel" "parts" "construction" "wall" "burning"}
+	("armor_heavy" args 1.0)
+	{Extension "bunker_02_door.mdl"}
+	{Volume "body"
+		{Tags "body"}
+		{Thickness 50}
+		{able {visible 1}}
+	}
+}

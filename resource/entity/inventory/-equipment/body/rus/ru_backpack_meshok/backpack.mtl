@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "equipment"}
+	{blend none}
+}

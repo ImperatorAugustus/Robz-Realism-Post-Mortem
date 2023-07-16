@@ -1,0 +1,49 @@
+;Exported by: Loskutov_K
+;Date:        Fri Apr 09 11:13:34 2010
+;File:        D:\_Vietnam\Art\Models\Anturage\utvar\x\ochag_x\ochagx.max
+{Skeleton
+	{bone "ochag_x"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "piece02"
+			{Position -0.261604	6.65883	1.67863}
+			{VolumeView "piece02.ply"}
+		}
+		{bone "piece03"
+			{Position -6.56236	0.136703	1.55332}
+			{VolumeView "piece03.ply"}
+		}
+		{bone "piece01"
+			{Position 1.41634	-0.426682	1.50663}
+			{VolumeView "piece01.ply"}
+		}
+	}
+}
+{Volume "piece01"
+	{Polyhedron "piece01.vol"}
+	{Bone "piece01"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		1.65274	-6.01361	-1.13083
+	}
+}
+{Volume "piece02"
+	{Box 10.4478 0.431589 2.6742}
+	{Bone "piece02"}
+	{Position 0.645309	-0.00207543	0.0342685}
+}
+{Volume "piece03"
+	{Box 7.52239 0.431589 2.6742}
+	{Bone "piece03"}
+	{Matrix34
+		0	1	0
+		-1	0	0
+		0	0	1
+		-0.0236664	-0.159546	0.159574
+	}
+}

@@ -1,0 +1,57 @@
+;Exported by: Kalinski
+;Date:        Wed Feb 14 03:08:50 2018
+;File:        C:\Users\Kalinski\Desktop\rus reduxo\roll exp.max
+{Skeleton
+	{bone "ru_roll"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "ru_roll.ply"}
+	}
+}
+{Volume "body"
+	{Box 1.85666 6.86735 4.74018}
+	{Bone "ru_roll"}
+	{Matrix34
+		1.0387	0	0
+		0	1.0387	0
+		0	0	1.0387
+		-0.141841	2.75244	0.143537
+	}
+}
+{Volume "select"
+	{Box 7.12156 10.0843 8.94763}
+	{Bone "ru_roll"}
+	{Matrix34
+		1.0387	0	0
+		0	1.0387	0
+		0	0	1.0387
+		-0.0118068	2.64377	1.47101
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -15.3686	-2.14397	1.22368}
+			{lookat -2.54749	-2.03019	1.36825}
+			{fov 45}
+			{horizon -90.2265}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -4.00068	-7.16879	-3.11654}
+			}
+			{"1"
+				{type point}
+				{position -3.60798	0.5801	2.65881}
+			}
+			{"2"
+				{type directional}
+				{direction 0.499997	-0.00070763	-0.00145834}
+			}
+		}
+	}
+}

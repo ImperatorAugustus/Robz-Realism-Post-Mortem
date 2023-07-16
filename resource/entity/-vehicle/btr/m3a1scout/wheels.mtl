@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/wheels_m3scout"}
+	{blend none}
+}

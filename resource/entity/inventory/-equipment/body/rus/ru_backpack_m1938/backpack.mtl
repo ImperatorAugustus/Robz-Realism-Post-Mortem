@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "1938 backpack"}
+	{blend none}
+}

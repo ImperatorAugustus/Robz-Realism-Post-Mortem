@@ -1,0 +1,49 @@
+;Exported by: Loskutov_K
+;Date:        Wed Apr 07 12:32:40 2010
+;File:        D:\_Vietnam\Art\Models\Anturage\x\Balka_x\balka_x.max
+{Skeleton
+	{bone "balka_x"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "piece01"
+			{Matrix34
+				1	0	0
+				0	-1	0
+				0	0	-1
+				-0.299698	0.243698	53.3346
+			}
+			{VolumeView "piece01.ply"}
+		}
+		{bone "piece02"
+			{Position -0.180122	0.496159	32.2985}
+			{VolumeView "piece02.ply"}
+		}
+		{bone "piece03"
+			{Position -0.121605	0.0387688	10.8858}
+			{VolumeView "piece03.ply"}
+		}
+	}
+}
+{Volume "piece01"
+	{Box 3.99183 3.99345 18.2052}
+	{Bone "piece01"}
+	{Matrix34
+		1	0	0
+		0	-1	0
+		0	0	-1
+		0.311718	0.313018	-1.89447
+	}
+}
+{Volume "piece02"
+	{Box 3.19346 3.27463 15.1103}
+	{Bone "piece02"}
+	{Position -0.316589	-0.539845	0.559257}
+}
+{Volume "piece03"
+	{Box 3.99183 3.99345 18.2052}
+	{Bone "piece03"}
+	{Position 0.13361	-0.703701	-1.88872}
+}

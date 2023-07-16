@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "pz1b_track"}
+	{blend test}
+}

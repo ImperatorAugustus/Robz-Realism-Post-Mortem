@@ -1,0 +1,28 @@
+;Exported by: ?????
+;Date:        Wed Jun 01 23:20:13 2016
+;File:        C:\Users\?????\Documents\3DS MAX Scenes\OLD\american_pine.max
+{Skeleton
+	{bone "tree"
+		
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "tree.ply"}
+			{VolumeView "tree_lod.ply"}
+			{VolumeView "tree_lod_1.ply"}
+		}
+	}
+}
+{Volume "bole"
+	{Cylinder 4.74152 320.845}
+	{Bone "tree"}
+	{Position 0.655396	-0.171661	160.422}
+}
+{Volume "crown"
+	{Cylinder 41.4441 215.634}
+	{Bone "tree"}
+	{Position 2.39722	4.16876	218.102}
+}

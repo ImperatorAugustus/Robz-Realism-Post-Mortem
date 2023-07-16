@@ -157,8 +157,8 @@
 			{fuel "fuel"}
 		}
 		{speed
-        			{Normal  10}
-        			{Slow  16}
+        			{Normal  27}
+        			{Slow  27}
     		}
 		{DisableMoveWhileFiring}
 	}

@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "radio earmufs"}
+	{specular "radio earmufs_specular"}
+	{color "229 229 229 81"}
+	{blend none}
+}

@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/entity/nor_01"}
+	{specular "$/entity/nor_01_sp"}
+	{bump "$/entity/nor_01_bp"}
+	{color "229 229 229 50"}
+	{blend none}
+}

@@ -1,0 +1,207 @@
+{entity
+	(include "/properties/armoredcar.ext")
+	(include "/properties/selection/vehicle.inc"  scale(1.3))
+	{props "vehicle" "armored_car" "tank" "turret" "wheeled_8" "with_gun"  "vision_vehicle_medium" "muzzle_large_nodust" "gun_mode_change"}
+	;{targetClass "armoredcar" "ap bullet"}
+	{targetSelector "tank"}
+	("armor_medium" args 1.0)
+	
+(define "abm_howitzer"
+    ("accuracy_by_motion"
+        max_linear(10) accuracy_by_linear(0.9)
+        max_angular(4) accuracy_by_angular(0.9)
+        disorder_time(1.2) order_time(1.0)
+    )
+)
+	{boarder
+		{anm "driver"
+			{forward	{begin	"board_SdKfz251-1"} {end "seat_driver_car"}}
+			{reverse 	{end	"emit_body" 1}}
+		}
+		{anm "gunner"
+			{forward	{begin	"board_SdKfz251-1"} {end "pose_flak41_gunlayer" 10}}
+			{reverse 	{end	"emit_body" 1}}
+		}
+		{anm "charger"
+			{forward	{begin	"board_SdKfz251-1"} {end "pose_pdr25_gunlayer" 10}}
+			{reverse 	{end	"emit_body" 1}}
+		}
+	}
+	(define "crew_human"
+		{placer
+			{place "%place" {group "%group"} {linkbone "%bone"} {turnoff {sensor} {shadow}}}
+		}
+		{boarder
+			{door "%door"}
+			{link "%door" "%place" {anm "%animation"} {forward putoff} {reverse puton}}
+		}
+	)
+
+	{placer
+		{place "driver" {visor "driver"}}
+		{place "gunner" {visor "main"}}
+	}
+	("crew_human" place(driver)	door(emit1) bone(driver) animation(driver)		group(crew))
+	("crew_human" place(gunner)	door(emit2) bone(gunner) animation(gunner)		group(crew))	
+	("crew_human" place(charger)	door(emit1) bone(charger) animation(charger)		group(crew))
+
+	("wheel" args "wheelright1")
+	("wheel" args "wheelleft1")
+	("tracks")
+    	{sensor
+    		{visor "main"
+        		{vision "tank_main_ger_5x8"}
+        		{bone "turret"}
+   		}
+    	}	
+
+
+	{Extension "sdkfz8_flak.mdl"}
+	{mass 15000}
+	{Chassis
+		{Locomotion ("locomotion")
+			{MaxSpeed	28}
+	  		{maxSpeedAtMaxTurn 6}	
+			{StartTime	20}
+			{BrakeTime	1.5}
+			{StopTime	2.5}
+			{TurnRadius	8}
+     			{Gears  0.1 0.2 0.35 1}
+			{RearGears  0.25}
+		}
+		{FuelBag
+			{volume 250}
+			{rate	14} 
+			{remain 250 }
+			{fuel "fuel"}
+		}
+		{speed
+        	{Normal  28}
+        	{Slow  28}
+		}
+		{DisableMoveWhileFiring}
+	}
+
+	{extender "inventory"
+		{box
+			{item "bullet88 ger apcbc" 16}
+			{item "bullet88 ger fg" 15}
+			{item "bullet88 ger apcr" 4}
+			{item "bullet88 ger heat" 5}
+		}
+	}
+	{Weaponry
+		{place "gun"
+			{weapon "88mm_flak36" filling "bullet88 ger apcbc" 1}
+			("abm_low")
+		}
+		{place "gun1_2"
+			{type "gun_change_arty"}
+			{weapon "88mm_flak36_2"}
+			{basic}
+			{charger "gunner"}
+			{StationaryFiring}
+			("abm_howitzer")
+		}
+	} 
+	(define "tank_trace"
+   		{Track "left"
+	    		{Tracer
+    				{View %fx} ; "tracks"
+    				{Bone %boneleft}
+	    			{Step %step}			; 0.7 meters
+    			}
+			{TextureScroller
+	    			{Bone "TrackL"}
+    				{Length %len}		; 0.6 meters per animation
+    			}
+    		}
+    		{Track "right"
+    			{Tracer 
+	    			{View %fx}
+    				{Bone %boneright}
+    				{Step %step}			; in meters
+	    		}
+			{TextureScroller
+	    			{Bone "TrackR"}
+    				{Length %len}		; meters per animation
+    			}
+    		}
+	)
+	
+	{Chassis
+		; left track must be first
+		("tank_trace" fx("tracks_mid") step(0.52) len(1.0) boneleft("FXtraceL2") boneright("FXtraceR2"))
+		("car_trace" fx("tracewheel02") step(0.09) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
+		;{DisableMoveWhileFiring}
+	}
+	
+	 (define "define_place"
+	          {placer
+	             {place "%place"
+	                {linkbone "%place"}
+	                {attach squat_lie}
+	                {turnoff {shadow}}
+	                {obstacle disable}
+	             }
+	          }
+	          {Volume "%place"
+	             {tags "attach" "attach_%place"}
+	             {able clear {bullet 0} {touch 1}}
+	          }
+	)
+	
+	{Volume "body"
+		{tags "body"}
+		{component "body"}
+		{thickness 15}
+	}
+	{Volume "body2"
+		{tags "body"}
+		{component "body"}
+		{thickness 15}
+	}
+	{component "cabin"	
+		{RepairTime 7}
+	}
+	{Volume "cabin2"
+		{tags "cabin"}
+		{component "cabin"}
+		{thickness 15}
+	}
+	{Volume "cabin"
+		{tags "cabin"}
+		{component "cabin"}
+		{thickness 15}
+	}
+	{component "engine"	
+		{RepairTime 10}
+	}
+	{volume "engine"
+		{thickness 15}
+	}
+	{Volume "turret"
+		{thickness 10}
+	}
+	{volume "shield_front"	
+		{thickness 25}
+	}
+	{Volume "gun"
+		{thickness 10}
+	}
+
+	{component "shield_front"	
+		{RepairTime 20}
+	}
+	{extender "shield"
+			{on}
+	}
+	{bone "turret"
+		{speed 0.002}
+	}
+	{bone "gun_rot"
+		{speed 0.0005}
+	}
+}
+
+

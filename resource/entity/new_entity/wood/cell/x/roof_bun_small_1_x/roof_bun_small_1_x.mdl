@@ -1,0 +1,13 @@
+;Exported by: Руслан
+;Date:        Tue Aug 20 16:18:34 2013
+;File:        C:\Users\Руслан\Documents\3dsmax\scenes\Новая папка\new_okop_2.max
+{Skeleton
+	{bone "roof_bun_small_1_x"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "roof_bun_small_1_x.ply"}
+	}
+}

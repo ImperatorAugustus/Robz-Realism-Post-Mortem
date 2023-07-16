@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/humanskin/german/para/ger para officer"}
+	{blend none}
+}

@@ -1,0 +1,82 @@
+;Exported by: Sergey
+;Date:        Mon Sep 03 10:53:46 2012
+;File:        D:\Documents\3dsmax\scenes\Ordnance, ML 2-inch Mortar Mk II\2_inch_mortar_final_01.max
+{Skeleton
+	{animation
+		{sequence "close" {speed 0.6}}
+	}
+	{bone revolute "basis"
+		{limits -15 15}
+		{speed 0.002}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "body"
+			{parameters "ID=body;"}
+			{Position 0.359703	-0.0234729	0.42965}
+			{VolumeView "body.ply"}
+			{bone revolute "gun_root"
+				{parameters "ID=gun;"}
+				{limits -45 0}
+				{speed 0.002}
+				{Matrix34
+					1	0	0
+					0	0	1
+					0	-1	0
+					-0.0653501	0.317548	0.477991
+				}
+				{VolumeView "gun_root.ply"}
+				{bone "gun"
+					{parameters "ID=gun;"}
+					{Matrix34
+						1	0	0
+						0	0	-1
+						0	1	0
+						-0.294362	1.4202	0.294076
+					}
+					{VolumeView "gun.ply"}
+					{bone "foresight"
+						{Matrix34
+							0	0	1
+							-1	0	0
+							0	-1	0
+							0.0415754	0	10.0474
+						}
+					}
+				}
+				{bone "visor"
+					{Position -1.47467	1.4491	0.294075}
+				}
+			}
+			{bone "gunner"
+				{Position -11.3494	3.77729	-0.429645}
+			}
+		}
+		{bone "visor2"
+			{Matrix34
+				1	0	0
+				0	0	1
+				0	-1	0
+				2.60655	0	10.0645
+			}
+		}
+		{bone "emit1"
+			{Position -15.0898	2.87747	0}
+		}
+		{bone "driver"
+			{Position 2.51211	-1.02879	0}
+		}
+	}
+}
+{Volume "body"
+	{Box 2.26206 4.47386 0.770777}
+	{Bone "body"}
+	{Position -0.224668	0.0203624	-0.191778}
+}
+{Volume "gun"
+	{Cylinder 0.767309 11.9094}
+	{Bone "gun"}
+	{Position 0.00937369	0.0220236	4.19786}
+}

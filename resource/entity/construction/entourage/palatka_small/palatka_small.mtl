@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "palatka_small"}
+	{bump "palatka_small_bp"}
+	{specular "palatka_small_sp"}
+	{color "229 229 229 25"}
+	{blend test}
+}

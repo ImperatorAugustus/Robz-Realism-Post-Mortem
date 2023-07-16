@@ -1,0 +1,51 @@
+
+{game_entity
+	(include "/properties/construction.inc")
+	("armor_light" args 0.5)
+	{Extension "trench_box_roof_01_x.mdl"}
+	{props "construction" "parts" "wood" "no_destroyed_stamp" "disable_area" "small" "burning"} 
+	("armor_heavy" args 0.8)
+	{obstacleID "small_building"}
+
+
+	{Volume "body2"
+		{Tags  "body"}
+	}
+	{Volume "body3"
+		{Tags  "body"}
+	}
+	{Volume "piece01"
+		{Tags  "body"}
+	}
+	{Volume "piece02"
+		{Tags  "body"}
+	}
+	{Volume "piece03"
+		{Tags  "body"}
+	}
+	{Volume "piece04"
+		{Tags  "body"}
+	}
+	{Volume "piece05"
+		{Tags  "body"}
+	}
+	{Volume "piece07"
+		{Tags  "body"}
+	}
+	{Volume "piece09"
+		{Tags  "body"}
+	}
+	{Volume "piece11"
+		{Tags  "body"}
+	}
+	{Volume "piece13"
+		{Tags  "body"}
+	}
+	{Volume "piece15"
+		{Tags  "body"}
+	}
+	{Volume "piece19"
+		{Tags  "body"}
+	}
+
+}

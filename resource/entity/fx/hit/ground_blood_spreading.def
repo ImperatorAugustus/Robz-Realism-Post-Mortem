@@ -1,0 +1,102 @@
+{fx
+	{##+ spriteview
+		{sprite "$/particle/bloodstain"
+			{visibility 1
+				{linear
+					{min 1}
+					{max 1}
+				}
+			}
+			{timer
+				{duration 30}
+			}
+			{scale 1
+				{linear
+					{min 0.05}
+					{max 0.18}
+				}
+			}
+			{preturn 90 90}
+		}
+		{ground}
+		{layer groundstatic}
+		{notifyowner}
+	}
+	{##+ spriteview
+		{sprite "$/particle/bloodspot03"
+			{visibility 1
+				{linear
+					{min 0.3 0.1}
+					{max 0}
+				}
+			}
+			{timer
+				{duration 300}
+			}
+			{scale 0.325 0.025}
+			{preturn 90 90}
+		}
+		{ground}
+		{layer groundshadow}
+		{notifyowner}
+	}
+	{##+ spriteview
+		{delay 90}
+		{sprite "$/particle/bloodstain"
+			{visibility 1
+				{linear
+					{min 0.9 0.1}
+					{max 0}
+				}
+			}
+			{timer
+				{duration 210}
+			}
+			{scale 1
+				{linear
+					{min 0.2}
+					{max 0.2}
+				}
+			}
+			{preturn 90 90}
+		}
+		{ground}
+		{layer groundshadow}
+		{notifyowner}
+	}
+	{#+ particleview
+		{generator
+			{emissionarea}
+			{particleinit
+				{speed 0}
+				{lifetime 30}
+			}
+			{totalparticles 1}
+			{particlesinblock 1}
+			{timetolive 0.1}
+		}
+		{mover
+			{nodependonwind}
+		}
+		{visualizer
+			{stage 
+				{sprite "/texture/fx/particle/bloodstain"
+					{timer
+						{mode play}
+						{duration 30}
+					}
+					{visibility 1}
+					{scale 1
+						{linear
+							{min 0.05}
+							{max 0.18}
+						}
+					}
+					{preturn 90 90}
+				}
+				{flags ground}
+			}
+		}
+		{ground}
+	}
+}

@@ -1,0 +1,17 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{props "cornered" "wood" "parts" "construction" "burning" "no_destroyed_stamp"}
+	("armor_medium" args 0.7)
+
+	{Extension "balka.mdl"}
+	{Volume "body"
+		{Tags  "body" "fire"}
+		{able {touch}}
+	}
+	{extender "inventory"
+		{box
+			{weight 5000}
+			{size 8 6}
+		}
+	}
+}

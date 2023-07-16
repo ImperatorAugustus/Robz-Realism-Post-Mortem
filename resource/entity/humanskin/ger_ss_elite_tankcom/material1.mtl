@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "ger_ss_tankcom"}
+	{specular "ger_ss_tankcom_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+	{tile}
+}

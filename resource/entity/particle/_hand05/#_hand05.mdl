@@ -1,0 +1,16 @@
+{Skeleton
+	{bone "bras01"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "bras01.ply"}
+	}
+}
+{xform scale 1}
+{Volume "body"
+	{Box 2.97754 2.5074 2.50741}
+	{Bone "bras01"}
+	{Position 0.0934448	-0.0472107	1.28407}
+}

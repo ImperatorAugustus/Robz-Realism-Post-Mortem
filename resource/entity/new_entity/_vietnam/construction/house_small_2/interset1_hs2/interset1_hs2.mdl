@@ -1,0 +1,54 @@
+;Exported by: Kislov_A
+;Date:        Wed Apr 14 15:14:14 2010
+;File:        E:\Men of war red tide2\Art\Models\Houses\House_small_2\hs2_bumpspec.max
+{Skeleton
+	{bone "interset1_hs2"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "interset1_hs2.ply"}
+		{bone "fix27"
+			{Matrix34
+				0.997816	-0.066051	0
+				0.066051	0.997816	0
+				0	0	1
+				-8.31823	10.5406	-5.0774
+			}
+		}
+	}
+}
+{Obstacle "body1"
+	{Obb2
+		{Center -0.344383 -3.24513}
+		{Extent 9.13188 5.71549}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body2"
+	{Obb2
+		{Center -0.835392 3.98183}
+		{Extent 3.45458 3.58436}
+		{Axis 0.961301 0.275501}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body1"
+	{Box 18.2638 11.431 9.73094}
+	{Bone "interset1_hs2"}
+	{Position -0.344383	3.24513	0.3285}
+}
+{Volume "body2"
+	{Box 6.9037 7.16347 8.07202}
+	{Bone "interset1_hs2"}
+	{Matrix34
+		0.96109	-0.276234	0
+		0.276234	0.96109	0
+		0	0	1
+		-0.835392	-3.98183	-1.87887
+	}
+}

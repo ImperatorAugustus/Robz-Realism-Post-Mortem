@@ -1,0 +1,105 @@
+;Exported by: Wibi
+;Date:        Sat May 23 05:17:51 2015
+;File:        C:\Program Files (x86)\3dmax plugin for GEM 2.0\samples\Type 100 LV2.max
+{Skeleton
+	{bone "jp_type100_40_upgd2"
+		{parameters "Type = game_entity;Model = entity/weapon/type100var2;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{position	
+			2	0.1	0
+		}
+		{VolumeView "jp_type100_40_upgd2.ply"}
+		{bone "handle"
+			{parameters "Voxels=0;"}
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				5.45195	1.99267	-0.245876
+			}
+		}
+		{bone "foresight3"
+			{parameters "Voxels=0;"}
+			{Position 10.8571	1.45356	0.0102171}
+		}
+		{bone "fxshell"
+			{Matrix34
+				0	0	1
+				0	1	0
+				-1	0	0
+				4.93906	1.68481	0.553917
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 27.7845 9.72703 4.3449}
+	{Bone "jp_type100_40_upgd2"}
+	{Matrix34
+		0.7473	0	0
+		0	0.580135	0
+		0	0	0.808853
+		2.7472	0.321504	0.00211394
+	}
+}
+{Volume "select"
+	{Box 28.1887 10.2504 1.26089}
+	{Bone "jp_type100_40_upgd2"}
+	{Matrix34
+		0.808853	0	0
+		0	0.808853	0
+		0	0	4.12764
+		2.89159	0.191795	0.353236
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 4.43629	-6.25126	20.5693}
+			{lookat 3.3997	-0.144536	-0.0831118}
+			{fov 45}
+			{horizon -174.307}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 3.90175	1.11756	25.5722}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0100676	0.497035	0.0534302}
+			}
+			{"2"
+				{type point}
+				{position 3.90175	35.7241	1.69555}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin 4.28355	-3.67509	21.6941}
+			{lookat 3.95602	-2.33914	13.553}
+			{fov 45}
+			{horizon 174.956}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.005234	0.497439	0.0502673}
+			}
+			{"1"
+				{type point}
+				{position 3.92574	1.65296	25.5668}
+			}
+			{"2"
+				{type point}
+				{position 3.92574	35.6318	1.90969}
+			}
+		}
+	}
+}
+

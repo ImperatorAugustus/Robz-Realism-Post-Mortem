@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "$/model/wheels_m42_x"}
+	{specular "$/model/wheels_m42_sp"}
+	{color "230 230 230 76"}
+	{blend none}
+}

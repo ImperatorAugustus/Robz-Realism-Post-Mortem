@@ -1,0 +1,65 @@
+;Exported by: 因诚之名
+;Date:        Wed Oct 26 15:09:12 2011
+;File:        C:\Documents and Settings\因诚之名\My Documents\3dsmax\scenes\jap\jap_cap\japan_cap.max
+{Skeleton
+	{bone "japan_cap"
+		{parameters "CommonMesh;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "japan_cap.ply"}
+		{bone "handle"
+			{Matrix34
+				0.998622	0.00980802	0.0515603
+				-0.00876995	0.999839	-0.0156758
+				-0.0553006	0.0198016	0.998273
+				0.451321	-0.0624029	0.868185
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 4.14813 3.61352 3.32807}
+	{Bone "japan_cap"}
+	{Matrix34
+		0.998437	0.00980634	0.0515507
+		-0.0087692	0.999767	-0.0156746
+		-0.0553168	0.0198075	0.998565
+		0.0163776	-0.0231453	3.6587
+	}
+}
+{Volume "select"
+	{Box 8.33811 5.92873 4.67327}
+	{Bone "japan_cap"}
+	{Matrix34
+		0.998437	0.00980634	0.0515507
+		-0.0087692	0.999767	-0.0156746
+		-0.0553168	0.0198075	0.998565
+		-0.133894	0.0252621	3.67593
+	}
+}
+{Extender "preview"
+	{"stuff"
+		{camera
+			{origin 27.0443	-28.8141	7.25528}
+			{lookat -0.193452	0.152956	2.4989}
+			{fov 8.28224}
+			{horizon 3.41088}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 2.48216	0.243556	6.2318}
+			}
+			{"1"
+				{type spot}
+				{position 17.4066	-6.34271	6.51096}
+				{direction -0.45737	0.182519	-0.085734}
+				{theta 43}
+				{phi 45}
+			}
+		}
+	}
+}

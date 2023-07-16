@@ -1,0 +1,70 @@
+;Exported by: Loskutov_K
+;Date:        Thu Feb 25 11:43:07 2010
+;File:        D:\_Vietnam\Art\Models\Houses\House_middle_2\hm2_complete.max
+{Skeleton
+	{bone "base6_hm2"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "base6_hm2.ply"}
+	}
+}
+{Obstacle "body1"
+	{Obb2
+		{Center -6.02658 26.401}
+		{Extent 22.9785 1.37796}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body2"
+	{Obb2
+		{Center -27.7464 5.19581}
+		{Extent 1.37795 22.8768}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body3"
+	{Obb2
+		{Center -26.2916 24.738}
+		{Extent 1.69291 1.69291}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Volume "body1"
+	{Box 45.957 2.75591 9.01775}
+	{Bone "base6_hm2"}
+	{Position -6.02659	-26.401	-21.6495}
+}
+{Volume "body2"
+	{Box 45.7536 2.75591 9.01775}
+	{Bone "base6_hm2"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		-27.7464	-5.19581	-21.6495
+	}
+}
+{Volume "body3"
+	{Box 3.38583 3.38583 52.0516}
+	{Bone "base6_hm2"}
+	{Position -26.2916	-24.738	-1.25841}
+}
+{Volume "body4"
+	{Box 2.95544 3.30434 53.0158}
+	{Bone "base6_hm2"}
+	{Matrix34
+		-1	0	0
+		0	0	-1
+		0	-1	0
+		-26.1446	-6.38405	25.0514
+	}
+}

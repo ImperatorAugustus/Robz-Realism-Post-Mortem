@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "52k"}
+	{specular "52k_sp"}	
+	{bump "52k_bp"}	
+	{blend test}
+}

@@ -1,0 +1,52 @@
+;Exported by: Kalinski
+;Date:        Tue Jan 09 04:55:21 2018
+;File:        C:\Users\Kalinski\Desktop\para\para helmet.max
+{Skeleton
+	{bone "helmet_eng_para_camo"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "helmet_eng_para_camo.ply"}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "helmet_eng_para_camo"}
+	{Position 0.703094	0.124126	3.3988}
+}
+{Volume "select"
+	{Box 5.59662 5.08766 5.14459}
+	{Bone "helmet_eng_para_camo"}
+	{Matrix34
+		1.0387	0	0
+		0	1.0387	0
+		0	0	1.0387
+		0.919993	0.260123	3.58528
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 6.14035	-4.72809	2.58394}
+			{lookat 0.923717	-0.0320009	2.52163}
+			{fov 45}
+			{horizon -0.237388}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.354828	0.33419	-0.11142}
+			}
+			{"1"
+				{type point}
+				{position 1.3762	-2.3209	3.85514}
+			}
+			{"2"
+				{type point}
+				{position 2.83572	-1.25747	3.08308}
+			}
+		}
+	}
+}

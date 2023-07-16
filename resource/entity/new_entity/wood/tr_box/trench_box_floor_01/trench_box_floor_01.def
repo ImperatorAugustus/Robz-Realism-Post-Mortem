@@ -1,0 +1,5 @@
+{game_entity
+	{Extension "trench_box_floor_01.mdl"}
+	{Extender "land_patch"
+	}
+}

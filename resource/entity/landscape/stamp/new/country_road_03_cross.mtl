@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "country_road_03_cross"
+		{Axis 512 400}
+	}
+	{bump "country_road_03_cross_bp"}
+	{specular "country_road_03_cross_sp"}
+	{color "230 230 230 25"} {Blend blend}
+}

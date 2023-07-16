@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/humanskin/eng/hg/rank_sgt"}
+	{blend none}
+}

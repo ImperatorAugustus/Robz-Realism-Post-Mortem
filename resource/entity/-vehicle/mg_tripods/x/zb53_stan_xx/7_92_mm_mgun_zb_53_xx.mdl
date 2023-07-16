@@ -1,0 +1,49 @@
+;Exported by: Sergey
+;Date:        Wed Sep 05 13:47:34 2012
+;File:        D:\Documents\3dsmax\scenes\ZB-53\zb-309_xx.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "stan"
+			{parameters "ID=stan;"}
+			{Position 6.16451	0.496323	0.903148}
+			{VolumeView "stan.ply"}
+			{bone "support1"
+				{Matrix34
+					0.0189914	-0.00412087	-0.999811
+					-0.977074	0.212012	-0.0194333
+					0.212052	0.977259	0
+					0.334994	-0.49941	-0.533055
+				}
+				{VolumeView "support1.ply"}
+			}
+			{bone "support3"
+				{Matrix34
+					0.0245836	-0.0262731	0.999352
+					0.682796	-0.729722	-0.035981
+					0.730195	0.683239	0
+					-7.6989	2.6534	-0.850412
+				}
+				{VolumeView "support3.ply"}
+				{bone "support31"
+					{Matrix34
+						-1	0	0
+						0	0	-1
+						0	-1	0
+						0	9.10241	0
+					}
+					{VolumeView "support31.ply"}
+				}
+			}
+		}
+	}
+}
+{Volume "stan"
+	{Box 12.3206 9.62546 1.25131}
+	{Bone "stan"}
+	{Position -4.75696	-0.560309	0.158305}
+}

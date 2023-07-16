@@ -1,0 +1,46 @@
+;Exported by: Фёдор
+;Date:        Thu Nov 20 14:23:56 2014
+;File:        C:\Users\Фёдор\Documents\3dsmax\scenes\jap_bunk_big.max
+{Skeleton
+	{bone "jap_wall"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "jap_wall.ply"}
+		{bone "gun_nest"
+			{Matrix34
+				-0.00519361	0.999987	0
+				-0.999987	-0.00519361	0
+				0	0	1
+				41.0319	54.6707	-42.8814
+			}
+		}
+	}
+}
+{Volume "body1"
+	{Box 81.9983 11.9965 57.9761}
+	{Bone "jap_wall"}
+	{Matrix34
+		0.996195	0.0871557	0
+		-0.0871557	0.996195	0
+		0	0	1
+		-5.85702	51.8781	-18.2595
+	}
+}
+{Volume "body2"
+	{Box 10.1232 11.9965 20.8119}
+	{Bone "jap_wall"}
+	{Position 40.6812	52.7083	-34.8477}
+}
+{Volume "body3"
+	{Box 50.6162 11.9965 55.003}
+	{Bone "jap_wall"}
+	{Position 71.1175	52.7083	-16.7729}
+}
+{Volume "body4_r"
+	{Box 10.1232 11.9965 16.0252}
+	{Bone "jap_wall"}
+	{Position 40.6812	52.7083	2.84075}
+}

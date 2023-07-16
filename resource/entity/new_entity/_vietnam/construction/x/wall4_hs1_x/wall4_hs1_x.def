@@ -1,0 +1,9 @@
+{game_entity
+	{Extension "wall4_hs1_x.mdl"}
+	{Volume "piece01"
+	}
+	{Volume "piece02"
+	}
+	{Volume "piece03"
+	}
+}

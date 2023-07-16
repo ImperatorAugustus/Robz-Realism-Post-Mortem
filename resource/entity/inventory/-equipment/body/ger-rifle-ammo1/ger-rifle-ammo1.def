@@ -1,0 +1,11 @@
+{actor
+	(include "/properties/stuff_small.ext")
+	{Extension "ger-rifle-ammo1.mdl"}
+	{Volume "body"
+	}
+	{Volume "select"
+	}
+	{extender "stuff"
+		{item "ger-rifle-ammo1"}
+	}
+}

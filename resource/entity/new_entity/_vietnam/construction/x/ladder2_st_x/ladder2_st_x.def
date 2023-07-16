@@ -1,0 +1,9 @@
+{game_entity
+	{Extension "ladder2_st_x.mdl"}
+	{Volume "piece01"
+	}
+	{Volume "piece02"
+	}
+	{Volume "piece03"
+	}
+}

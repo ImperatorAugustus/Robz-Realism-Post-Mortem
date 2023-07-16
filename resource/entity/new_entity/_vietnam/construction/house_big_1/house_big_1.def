@@ -1,0 +1,52 @@
+{game_entity
+	{Extension "house_big_1.mdl"}
+	{placer}
+	{extender "structure"
+		{place "1" "ladder_hb1"}
+		{place "2" "porchwall1_hb1"}
+		{place "3" "porchwall2_hb1"}
+		{place "4" "porch2_hb1"}
+		{place "5" "porch1_hb1"}
+		{place "6" "interset2_hb1"}
+		{place "7" "interset3_hb1"}
+		{place "8" "interset1_hb1"}
+		{place "9" "interset4_hb1"}
+		{place "10" "base8_hb1"}
+		{place "11" "base3_hb1"}
+		{place "12" "wall1_hb1"}
+		{place "13" "wall10_hb1"}
+		{place "14" "base1_hb1"}
+		{place "15" "interset5_hb1"}
+		{place "16" "wall2_hb1"}
+		{place "17" "wall9_hb1"}
+		{place "18" "interset6_hb1"}
+		{place "19" "interset7_hb1"}
+		{place "20" "wall8_hb1"}
+		{place "21" "base7_hb1"}
+		{place "22" "interset8_hb1"}
+		{place "23" "interset9_hb1"}
+		{place "24" "base4_hb1"}
+		{place "25" "wall3_hb1"}
+		{place "26" "interset10_hb1"}
+		{place "27" "interset11_hb1"}
+		{place "28" "wall4_hb1"}
+		{place "29" "interset12_hb1"}
+		{place "30" "base5_hb1"}
+		{place "31" "wall5_hb1"}
+		{place "32" "base2_hb1"}
+		{place "33" "wall6_hb1"}
+		{place "34" "base6_hb1"}
+		{place "35" "wall7_hb1"}
+		{place "36" "roofhold1_hb1"}
+		{place "37" "roofhold2_hb1"}
+		{place "38" "roofhold3_hb1"}
+		{place "39" "roofhold6_hb1"}
+		{place "40" "roofhold5_hb1"}
+		{place "41" "roofhold4_hb1"}
+		{place "42" "roofhold9_hb1"}
+		{place "43" "roofhold8_hb1"}
+		{place "44" "roofhold7_hb1"}
+		{place "45" "firelight1_hb1"}
+		{place "46" "firelight2_hb1"}
+	}
+}

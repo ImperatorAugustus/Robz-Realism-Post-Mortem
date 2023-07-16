@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/construction/v_temp_tex/wood_spark"}
+	{blend add}
+}

@@ -1,0 +1,82 @@
+;Exported by: Loskutov_K
+;Date:        Mon Apr 26 13:47:30 2010
+;File:        D:\_Vietnam\Art\Models\Houses\X\House_big_1_x\hb1_completex.max
+{Skeleton
+	{bone "interset5_hb1_x"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "piece03"
+			{Matrix34
+				0	1	0
+				-1	0	0
+				0	0	1
+				4.07042	6.46254	-3.11129
+			}
+			{VolumeView "piece03.ply"}
+		}
+		{bone "piece01"
+			{Matrix34
+				0	1	0
+				-1	0	0
+				0	0	1
+				5.86949	1.95263	-11.4432
+			}
+			{VolumeView "piece01.ply"}
+		}
+		{bone "piece02"
+			{Matrix34
+				0	1	0
+				-1	0	0
+				0	0	1
+				7.66853	-2.55728	-3.11129
+			}
+			{VolumeView "piece02.ply"}
+		}
+		{bone "piece05"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				-5.90604	3.21436	1.46918
+			}
+			{VolumeView "piece05.ply"}
+		}
+		{bone "piece04"
+			{Position -4.71717	4.77934	-11.3676}
+			{VolumeView "piece04.ply"}
+		}
+	}
+}
+{Volume "piece01"
+	{Polyhedron "piece01.vol"}
+	{Bone "piece01"}
+	{Position -0.0341339	-0.123047	-2.72242}
+}
+{Volume "piece02"
+	{Polyhedron "piece02.vol"}
+	{Bone "piece02"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		-1.23492	0.228516	-0.0542107
+	}
+}
+{Volume "piece03"
+	{Polyhedron "piece03.vol"}
+	{Bone "piece03"}
+	{Position 1.234	-0.238163	-0.0542107}
+}
+{Volume "piece04"
+	{Polyhedron "piece04.vol"}
+	{Bone "piece04"}
+	{Position 0.0716133	-0.652153	-3.04329}
+}
+{Volume "piece05"
+	{Polyhedron "piece05.vol"}
+	{Bone "piece05"}
+	{Position 0.0215378	0.013401	-1.03585}
+}

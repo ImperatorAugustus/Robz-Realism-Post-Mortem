@@ -1,0 +1,16 @@
+{Skeleton
+	{bone "torse01"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "torse01.ply"}
+	}
+}
+{xform scale 1.8}
+{Volume "body"
+	{Box 2.97754 2.5074 2.50741}
+	{Bone "torse01"}
+	{Position 0.0934448	-0.0472107	1.28407}
+}

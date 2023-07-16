@@ -1,0 +1,24 @@
+;Exported by: Фёдор
+;Date:        Fri Aug 08 01:50:38 2014
+;File:        C:\Users\Фёдор\Documents\3dsmax\scenes\airborne.max
+{Skeleton
+	{animation
+		{sequence "flight" {speed 0.5}}
+		{sequence "landing" {speed 0.5}}
+	}
+	{bone "basic"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone revolute "attach"
+			{Position -0.0654411	-0.794941	0}
+		}
+		{bone "para"
+			{parameters "CommonMesh;"}
+			{Position -1.47474	-0.928309	106.999}
+			{VolumeView "para.ply"}
+		}
+	}
+}

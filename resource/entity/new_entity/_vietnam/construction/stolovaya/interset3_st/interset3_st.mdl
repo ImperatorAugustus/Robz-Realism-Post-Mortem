@@ -1,0 +1,40 @@
+;Exported by: Loskutov_K
+;Date:        Thu Mar 11 11:09:23 2010
+;File:        D:\_Vietnam\Art\Models\Houses\stolovaya\stolovaya.max
+{Skeleton
+	{bone "interset3_st"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "interset3_st.ply"}
+		{bone "fix05"
+			{Position -6.7878	13.7916	9.05051}
+		}
+	}
+}
+{Obstacle "body1"
+	{Obb2
+		{Center -0.939421 -0.165943}
+		{Extent 5.55736 12.215}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Volume "body1"
+	{Box 11.1147 24.43 19.7559}
+	{Bone "interset3_st"}
+	{Position -0.939421	0.165943	-3.72299}
+}
+{Volume "body2"
+	{Box 4.70098 5.31514 4.46169}
+	{Bone "interset3_st"}
+	{Matrix34
+		-0.999999	0.00142017	0
+		-0.00142017	-0.999999	0
+		0	0	1
+		0.0202749	-6.19193	8.40599
+	}
+}

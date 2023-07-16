@@ -1,0 +1,137 @@
+;Exported by: Loskutov_K
+;Date:        Sat Feb 27 14:12:11 2010
+;File:        D:\_Vietnam\Art\Models\Houses\Naves_1\naves1.max
+{Skeleton
+	{bone "naves_1"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "naves_1.ply"}
+	}
+}
+{Obstacle "body2"
+	{Obb2
+		{Center 13.9262 -24.5517}
+		{Extent 2.52243 1.30906}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Obstacle "body3"
+	{Obb2
+		{Center -17.4861 -25.0715}
+		{Extent 1.6082 1.86319}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Obstacle "body4"
+	{Obb2
+		{Center -17.8144 26.2609}
+		{Extent 1.6082 1.95849}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Obstacle "body5"
+	{Obb2
+		{Center 16.0741 26.0993}
+		{Extent 3.20607 2.58116}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Obstacle "body6"
+	{Obb2
+		{Center -0.869308 27.368}
+		{Extent 17.8786 1.18111}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Obstacle "body7"
+	{Obb2
+		{Center -0.887977 -26.144}
+		{Extent 17.8704 1.18111}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Volume "body1"
+	{Box 70.3335 2.72835 40.1576}
+	{Bone "naves_1"}
+	{Matrix34
+		0	-1	0
+		-0.42878	0	-0.903409
+		0.903409	0	-0.42878
+		-0.770589	0.472917	47.2721
+	}
+}
+{Volume "body2"
+	{Box 3.2164 2.61811 50.5523}
+	{Bone "naves_1"}
+	{Matrix34
+		0.999344	0	-0.0362114
+		0	1	0
+		0.0362114	0	0.999344
+		13.9262	24.5517	13.9928
+	}
+}
+{Volume "body3"
+	{Box 3.2164 2.61811 67.3964}
+	{Bone "naves_1"}
+	{Matrix34
+		1	0	0
+		0	0.999865	0.0164493
+		0	-0.0164493	0.999865
+		-17.4861	25.0715	22.4269
+	}
+}
+{Volume "body4"
+	{Box 3.2164 2.61811 67.3964}
+	{Bone "naves_1"}
+	{Matrix34
+		1	0	0
+		0	0.999814	-0.0192792
+		0	0.0192792	0.999814
+		-17.8144	-26.2609	22.4252
+	}
+}
+{Volume "body5"
+	{Box 3.2164 2.61811 51.0578}
+	{Bone "naves_1"}
+	{Matrix34
+		0.998031	0.00312304	0.0626368
+		0	0.998759	-0.0497947
+		-0.0627146	0.0496967	0.996793
+		16.0741	-26.0993	14.1803
+	}
+}
+{Volume "body6"
+	{Box 2.3622 2.3622 35.6805}
+	{Bone "naves_1"}
+	{Matrix34
+		0.0573109	0	0.998356
+		0	1	0
+		-0.998356	0	0.0573109
+		-0.869308	-27.368	16.851
+	}
+}
+{Volume "body7"
+	{Box 2.3622 2.3622 35.6805}
+	{Bone "naves_1"}
+	{Matrix34
+		-0.0345549	0	0.999403
+		0	1	0
+		-0.999403	0	-0.0345549
+		-0.887976	26.144	17.259
+	}
+}

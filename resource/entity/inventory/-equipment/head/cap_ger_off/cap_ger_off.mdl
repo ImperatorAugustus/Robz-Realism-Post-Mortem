@@ -1,0 +1,53 @@
+;Exported by: Kalinski
+;Date:        Wed Sep 14 03:13:59 2016
+;File:        C:\Users\Kalinski\Desktop\IVE BECOME SO NUMB\officer cap.max
+{Skeleton
+	{bone "cap_ger_off"
+		{Matrix34
+			1	0	0
+			0	-1	0
+			0	0	1
+                        0.43	-0.05	-0.3
+		}
+		{VolumeView "cap_ger_off.ply"}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "cap_ger_off"}
+	{Position 0	-16.6395	0}
+}
+{Volume "select"
+	{Box 5.54121 4.25807 3.29254}
+	{Bone "cap_ger_off"}
+	{Matrix34
+		1.0387	0	0
+		0	1.0387	0
+		0	0	1.0387
+		0.141396	0.0288334	4.54457
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 6.58307	-4.60426	3.60966}
+			{lookat 1.29437	0.377072	3.51748}
+			{fov 45}
+			{horizon -0.239031}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.00242178	0.00152097	-0.499992}
+			}
+			{"1"
+				{type point}
+				{position 1.3762	-2.3209	2.53304}
+			}
+			{"2"
+				{type point}
+				{position 3.55957	-1.33044	3.47408}
+			}
+		}
+	}
+}

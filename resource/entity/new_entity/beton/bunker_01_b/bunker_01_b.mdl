@@ -1,0 +1,321 @@
+;Exported by: Руслан
+;Date:        Tue Sep 03 18:17:36 2013
+;File:        C:\Users\Руслан\Documents\3dsmax\scenes\Новая папка\new_okop_baza_6_bun_03.max
+{Skeleton
+	{bone "bunker_01_b"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "bunker_01_b.ply"}
+		{bone "bun_pol"
+			{parameters "Land;"}
+			{Matrix34
+				0	-1	0
+				1	0	0
+				0	0	1
+				0	0	1.86995
+			}
+			{VolumeView "bun_pol.ply"}
+		}
+		{bone "gun_nest_01"
+			{Matrix34
+				0	-1	0
+				1	0	0
+				0	0	1
+				-23.0751	-60.1179	-42.8814
+			}
+		}
+		{bone "gun_nest_02"
+			{Matrix34
+				0	-1	0
+				1	0	0
+				0	0	1
+				5.25522	-59.679	-42.8814
+			}
+		}
+		{bone "roof"
+		}
+		{bone "win"
+			{Orientation
+				0	-1	0
+				1	0	0
+				0	0	1
+			}
+		}
+		{bone "door"
+			{Orientation
+				0	-1	0
+				1	0	0
+				0	0	1
+			}
+		}
+		{bone "wall"
+			{Orientation
+				0	-1	0
+				1	0	0
+				0	0	1
+			}
+		}
+
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -129.382 -26.7391}
+		{Extent 7.57434 73.8189}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body10"
+	{Obb2
+		{Center -4.09538 -85.6322}
+		{Extent 2.4016 6.05032}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body11"
+	{Obb2
+		{Center 19.8206 -85.6322}
+		{Extent 2.4016 6.05032}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+
+{Obstacle "body13"
+	{Obb2
+		{Center -70.078 -92.1742}
+		{Extent 59.0551 6.88977}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body14"
+	{Obb2
+		{Center -104.933 50.3911}
+		{Extent 34.4553 5.94345}
+		{Axis 0.891115 0.453778}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+
+{Obstacle "body3"
+	{Obb2
+		{Center -9.97698 62.846}
+		{Extent 68.9388 7.3139}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body4"
+	{Obb2
+		{Center -56.2604 62.8459}
+		{Extent 21.6956 7.02297}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body5"
+	{Obb2
+		{Center 38.8674 62.8459}
+		{Extent 20.7113 7.01691}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body6"
+	{Obb2
+		{Center 62.514 1.18798}
+		{Extent 7.87403 63.9764}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body7"
+	{Obb2
+		{Center 44.7513 -76.3033}
+		{Extent 24.6441 5.69294}
+		{Axis 0.81933 0.573323}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body8"
+	{Obb2
+		{Center 26.512 -104.074}
+		{Extent 5.7552 22.6378}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body9"
+	{Obb2
+		{Center -10.5798 -104.074}
+		{Extent 5.7552 22.6378}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Area "interior"
+	{Obb2
+		{Center -32.3109 -11.9693}
+		{Extent 98.4252 68.8977}
+		{Axis 1 0}
+	}
+	{Rotate}
+}
+{Volume "body"
+	{Box 147.638 15.1486 100.394}
+	{Bone "bunker_01_b"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		-129.382	26.7391	-44.0317
+	}
+}
+{Volume "body10"
+	{Box 12.1006 4.80319 63.1644}
+	{Bone "bunker_01_b"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		-4.09538	85.6322	-25.6197
+	}
+}
+{Volume "body11"
+	{Box 12.1006 4.80319 63.1644}
+	{Bone "bunker_01_b"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		19.8206	85.6322	-25.6197
+	}
+}
+{Volume "body12_r"
+	{Box 11.811 19.7964 8.93837}
+	{Bone "bunker_01_b"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		7.14325	85.8175	1.49326
+	}
+}
+{Volume "body13"
+	{Box 13.7795 118.11 98.4252}
+	{Bone "bunker_01_b"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		-70.078	92.1742	-43.2501
+	}
+}
+{Volume "body14"
+	{Box 11.811 68.8976 98.4252}
+	{Bone "bunker_01_b"}
+	{Matrix34
+		-0.454759	-0.890615	0
+		0.890615	-0.454759	0
+		0	0	1
+		-104.933	-50.3911	-43.2501
+	}
+}
+{Volume "body2_r"
+	{Box 13.7795 137.795 16.7323}
+	{Bone "bunker_01_b"}
+	{Matrix34
+		0.00615767	-0.999981	0
+		0.999981	0.00615767	0
+		0	0	1
+		-8.72671	-62.8459	-2.40366
+	}
+}
+{Volume "body3"
+	{Box 13.7795 137.795 78.7402}
+	{Bone "bunker_01_b"}
+	{Matrix34
+		0.00615767	-0.999981	0
+		0.999981	0.00615767	0
+		0	0	1
+		-9.97698	-62.846	-55.5174
+	}
+}
+{Volume "body4"
+	{Box 13.7795 43.3071 8.85827}
+	{Bone "bunker_01_b"}
+	{Matrix34
+		0.00615767	-0.999981	0
+		0.999981	0.00615767	0
+		0	0	1
+		-56.2604	-62.8459	-13.0794
+	}
+}
+{Volume "body5"
+	{Box 13.7795 41.3386 8.85827}
+	{Bone "bunker_01_b"}
+	{Matrix34
+		0.00615767	-0.999981	0
+		0.999981	0.00615767	0
+		0	0	1
+		38.8674	-62.8459	-13.0794
+	}
+}
+{Volume "body6"
+	{Box 127.953 15.748 98.4252}
+	{Bone "bunker_01_b"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		62.514	-1.18798	-43.2501
+	}
+}
+{Volume "body7"
+	{Box 11.0442 49.2126 59.0551}
+	{Bone "bunker_01_b"}
+	{Matrix34
+		-0.579001	-0.815327	0
+		0.815327	-0.579001	0
+		0	0	1
+		44.7513	76.3033	-23.565
+	}
+}
+{Volume "body8"
+	{Polyhedron "body8.vol"}
+	{Bone "bunker_01_b"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		26.512	104.074	4.2934
+	}
+}
+{Volume "body9"
+	{Polyhedron "body9.vol"}
+	{Bone "bunker_01_b"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		-10.5798	104.074	4.2934
+	}
+}

@@ -1,0 +1,154 @@
+;Exported by: Loskutov_K
+;Date:        Thu Mar 11 11:09:27 2010
+;File:        D:\_Vietnam\Art\Models\Houses\stolovaya\stolovaya.max
+{Skeleton
+	{bone "base6_st"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "base6_st.ply"}
+		{bone "land"
+			{parameters "Land;Ground;"}
+			{Position -7.12797	-6.19852	-9.66105}
+			{VolumeView "land.ply" {Ground}}
+		}
+	}
+}
+{Obstacle "body2"
+	{Obb2
+		{Center -44.229 37.7174}
+		{Extent 1.85893 1.95372}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Obstacle "body3"
+	{Obb2
+		{Center -43.0148 1.36531}
+		{Extent 1.04334 36.9768}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body4"
+	{Obb2
+		{Center -15.8908 36.7651}
+		{Extent 29.134 1.04334}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body6"
+	{Obb2
+		{Center 14.0224 37.9522}
+		{Extent 1.85893 1.95372}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Obstacle "body9"
+	{Obb2
+		{Center 14.6112 23.2601}
+		{Extent 0.841583 13.2115}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "obstacle1"
+	{Obb2
+		{Center -47.8733 13.5291}
+		{Extent 27.2871 1.28739}
+		{Axis 0 1}
+	}
+	{Rotate}
+}
+{Obstacle "obstacle2"
+	{Obb2
+		{Center -13.5315 40.1479}
+		{Extent 32.4879 1.28739}
+		{Axis 1 -3.52257e-007}
+	}
+	{Rotate}
+}
+{Volume "body1"
+	{Box 3.91425 3.98908 61.7409}
+	{Bone "base6_st"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		-44.0231	-12.5242	31.7976
+	}
+}
+{Volume "body2"
+	{Box 3.71786 3.90744 68.947}
+	{Bone "base6_st"}
+	{Position -44.229	-37.7174	-0.0946503}
+}
+{Volume "body3"
+	{Box 73.9537 2.08661 9.99663}
+	{Bone "base6_st"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		-43.0148	-1.36531	-9.64382
+	}
+}
+{Volume "body4"
+	{Box 58.2679 2.08661 9.99663}
+	{Bone "base6_st"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		-15.8908	-36.7651	-9.64382
+	}
+}
+{Volume "body5"
+	{Box 62.8094 68.578 4.34579}
+	{Bone "base6_st"}
+	{Position -11.371	-3.60255	-12.439}
+}
+{Volume "body6"
+	{Box 3.71786 3.90744 68.947}
+	{Bone "base6_st"}
+	{Position 14.0224	-37.9522	-0.0946503}
+}
+{Volume "body7"
+	{Box 29.4276 2.08661 13.2362}
+	{Bone "base6_st"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		28.4894	-36.8277	19.705
+	}
+}
+{Volume "body8"
+	{Box 3.91425 3.98908 61.7409}
+	{Bone "base6_st"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		13.7659	-12.5242	31.7976
+	}
+}
+{Volume "body9"
+	{Box 26.4187 1.61055 37.034}
+	{Bone "base6_st"}
+	{Matrix34
+		-0.00274847	-0.999996	0
+		0.999996	-0.00274847	0
+		0	0	1
+		14.6112	-23.2602	8.36912
+	}
+}

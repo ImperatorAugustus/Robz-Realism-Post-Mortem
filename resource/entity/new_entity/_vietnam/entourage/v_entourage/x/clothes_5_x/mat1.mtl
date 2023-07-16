@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/construction/v_temp_tex/utvar"}
+	{blend test}
+}

@@ -1,0 +1,7 @@
+{game_entity
+                  (include "/properties/trench_new.inc")       
+	{Extension "trench_bun_2_x.mdl"}
+	{Extender "land_patch"
+	}
+	("volume" args "body")
+}

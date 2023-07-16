@@ -1,0 +1,31 @@
+;Exported by: Loskutov_K
+;Date:        Thu Mar 18 17:40:15 2010
+;File:        D:\_Vietnam\Art\Models\Houses\X\House_small_1_x\hs1_x.max
+{Skeleton
+	{bone "interset6_hs1_x"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "piece01"
+			{Matrix34
+				0	0	-1
+				0	1	0
+				1	0	0
+				0.970884	0.814735	-0.246651
+			}
+			{VolumeView "piece01.ply"}
+		}
+	}
+}
+{Volume "piece01"
+	{Box 28.5831 14.2658 1.6794}
+	{Bone "piece01"}
+	{Matrix34
+		0	0	1
+		-1	0	0
+		0	-1	0
+		0.00871788	0.068212	-0.167411
+	}
+}

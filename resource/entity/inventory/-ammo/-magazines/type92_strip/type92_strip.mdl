@@ -1,0 +1,52 @@
+;Exported by: Kalinski
+;Date:        Sat Sep 24 15:29:54 2016
+;File:        C:\Users\Kalinski\Desktop\magazynki\gotowe\lewis gun\type92_stripe_rdy.max
+{Skeleton
+	{bone "type92_strip"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "type92_strip.ply"}
+	}
+}
+{Volume "body"
+	{Box 1.93613 9.6207 0.493029}
+	{Bone "type92_strip"}
+	{Position 0.368279	-0.298475	-0.318587}
+}
+{Volume "select"
+	{Box 2.14679 9.39818 0.6139}
+	{Bone "type92_strip"}
+	{Matrix34
+		1.0387	0	0
+		0	1.0387	0
+		0	0	1.0387
+		0.378935	-0.298488	-0.319568
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -0.515285	0.326369	11.5535}
+			{lookat 0.0304587	0.334546	0.189569}
+			{fov 45}
+			{horizon -0.239031}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.0260877	0.00264281	-0.499312}
+			}
+			{"1"
+				{type point}
+				{position 0.448655	3.48975	0.0656638}
+			}
+			{"2"
+				{type point}
+				{position 0.255115	-3.03254	0.124305}
+			}
+		}
+	}
+}

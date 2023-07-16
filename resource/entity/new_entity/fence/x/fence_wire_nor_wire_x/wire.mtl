@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/entity/fence_wire"}
+	{bump "$/entity/fence_wire_bp"}
+	{specular "$/entity/fence_wire_sp"}
+	{color "229 229 229 25"}
+	{blend test}
+}

@@ -1,0 +1,112 @@
+{entity
+	(include "/properties/tank.ext")
+	(include "/properties/selection/vehicle.inc" scale(1.2))
+
+	{collider "tank.light"}
+	{props "light" "turret_rotator"}
+	{patherId "tank.light"}
+
+	{extender "enumerator"}
+
+	{Volume "gun2"
+		{tags "gun"}
+		{component "gun"}
+	}
+	{volume "body1"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "body2"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "body3"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "body4"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "engine"
+		{thickness 15}
+	}
+
+	
+	("armor_light" turret(20 20 20 10) body(35 15 25 15))
+
+	("crew_2_human")
+
+	{boarder
+		{anm "left"
+			{forward	{begin	"board_tank_left"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+		{anm "right"
+			{forward	{begin	"board_tank_right"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+	}
+
+	("seat_human" place(seat1) bone(seat01) door(emit3)  animation(armor))
+	("seat_human" place(seat2) bone(seat02) door(emit4)  animation(armor))
+
+	{Weaponry
+		{place "gun"
+			{weapon "weapon bm8" filling "ammo bm8" 24}
+			{Barrels 24}
+			{charger "gunner"}
+			{StationaryFiring}
+			{basic}
+		}
+	}
+
+	{extender "inventory"
+		{box
+			{item "ammo bm8" 48}
+		}
+	}
+	
+	{mass 9800}
+	{Chassis
+		("tank_trace" fx("tracks_sm2") step(0.15) len(0.6))
+		{Locomotion ("locomotion")
+			{maxspeed   34}
+			{maxSpeedAtMaxTurn 5}
+			{StartTime   25}
+			{TurnStart  1.1}
+			{TurnTime  14}
+			{TurnRadius  7} 
+    		{TurnStop   0.5}
+			{BrakeTime   1}
+			{StopTime    2}
+			{Gears   0.1 0.2 0.3 1}
+			{RearGears  0.25}
+		}
+		{FuelBag
+			{volume 440 }	
+			{rate	 13 }   
+			{remain 440 }
+			{fuel "fuel"}
+		}
+		{speed
+			{Normal  34}
+			{Slow  34}
+		}
+		{DisableMoveWhileFiring}
+	}
+	{Extension "bm_8_24.mdl"}
+	(mod "mp"
+		{brain
+			{properties
+				{fire_mode hold}
+			}
+		}
+	)
+	{bone "turret"
+		{speed 0.003}
+	}
+	{bone "gun_rot"
+		{speed 0.002}
+	}
+}

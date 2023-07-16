@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "boots high rus"}
+	{blend none}
+}

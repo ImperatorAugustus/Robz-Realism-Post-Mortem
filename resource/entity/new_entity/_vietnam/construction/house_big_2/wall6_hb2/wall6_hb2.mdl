@@ -1,0 +1,26 @@
+;Exported by: Loskutov_K
+;Date:        Mon May 31 10:30:00 2010
+;File:        D:\_Vietnam\Art\Models\Houses\House_big_2\hb2_complete.max
+{Skeleton
+	{bone "wall6_hb2"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "wall6_hb2.ply"}
+		{bone "fix20"
+			{Position 4.45901	22.8661	8.92459}
+		}
+	}
+}
+{Volume "body"
+	{Box 47.7765 2.52898 42.443}
+	{Bone "wall6_hb2"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		0.949272	0.439175	2.07748
+	}
+}

@@ -1,0 +1,7 @@
+{actor
+	(include "/properties/stuff_small.ext")
+	{Extension "barrel_case.mdl"}
+	{extender "stuff"
+		{item "barrel_case"}
+	}
+}

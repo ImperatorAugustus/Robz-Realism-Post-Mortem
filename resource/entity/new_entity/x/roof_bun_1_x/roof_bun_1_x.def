@@ -1,0 +1,16 @@
+{game_entity
+	{Extension "roof_bun_1_x.mdl"}
+	{props "cornered" "wood" "parts" "burning" "no_destroyed_stamp"}
+	{Volume "piece1"
+		{Tags  "fire"}
+	}
+	{Volume "piece2"
+		{Tags  "fire"}
+	}
+	{Volume "piece3"
+		{Tags  "fire"}
+	}
+	{Volume "piece4"
+		{Tags  "fire"}
+	}
+}

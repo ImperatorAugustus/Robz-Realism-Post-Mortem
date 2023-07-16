@@ -1,0 +1,14 @@
+;Exported by: Руслан
+;Date:        Sun Sep 15 19:30:09 2013
+;File:        C:\Users\Руслан\Documents\3dsmax\scenes\new_trench_and_fortific\bunker_2222.max
+{Skeleton
+	{bone "trench_box_04"
+		{parameters "land;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "trench_box_04.ply" {Ground} {DecalTarget}}
+	}
+}

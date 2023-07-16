@@ -1,0 +1,9 @@
+{game_entity
+	{Extension "saray_2.mdl"}
+	{placer}
+	{extender "structure"
+		{place "2" "base2_s2"}
+		{place "1" "base1_s2"}
+		{place "3" "firelight_s2"}
+	}
+}

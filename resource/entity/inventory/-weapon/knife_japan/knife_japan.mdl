@@ -1,0 +1,60 @@
+;Exported by: Mauzer
+;Date:        Thu Mar 01 16:44:57 2012
+;File:        E:\Autodesk\Low poly\freelance\DMS\knifes\Japan\Japan+.max
+{Skeleton
+	{bone "knife"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "knife.ply"}
+			{VolumeView "knife_lod1.ply"}
+		}
+	}
+}
+{Volume "body"
+	{Box 0.477527 0.812312 5.66235}
+	{Bone "knife"}
+	{Matrix34
+		0	0	1
+		-1	0	0
+		0	-1	0
+		0.839032	1.52083	0.000863782
+	}
+}
+{Volume "select"
+	{Box 2.36824 6.70253 2.59872}
+	{Bone "knife"}
+	{Matrix34
+		0	0	1
+		0	1	0
+		-1	0	0
+		0.836797	1.5258	-0.04296
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -1.2254	-0.990011	14.3912}
+			{lookat 0.902392	-1.35728	0.0173197}
+			{fov 22.6199}
+			{horizon -149.444}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0.0359801	-0.497973	-0.0269761}
+			}
+			{"1"
+				{type directional}
+				{direction 0.185814	0.0186558	-0.463816}
+			}
+			{"2"
+				{type directional}
+				{direction 0.331325	0.310448	0.209392}
+			}
+		}
+	}
+}

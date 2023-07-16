@@ -1,0 +1,7 @@
+{game_entity
+	{Skeleton}
+	{props "airstrike_rp3"}
+	{extender "stuff"
+		{item "airstrike_rp3"}
+	}
+}

@@ -1,0 +1,71 @@
+;Exported by: Руслан
+;Date:        Wed Aug 28 17:45:32 2013
+;File:        C:\Users\Руслан\Documents\3dsmax\scenes\Новая папка\new_okop_baza_5_x.max
+{Skeleton
+	{bone "ardenn_trench_baza_wall_roof_7_x"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "ardenn_trench_baza_wall_roof_7_x.ply"}
+	}
+		
+}
+{Obstacle "body1"
+	{Obb2
+		{Center 3.47416 -25.9919}
+		{Extent 64.9539 2.4231}
+		{Axis 0.999848 0.0174436}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body2"
+	{Obb2
+		{Center 3.76097 25.4167}
+		{Extent 65.2397 2.42809}
+		{Axis 0.999848 0.0174436}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body5"
+	{Obb2
+		{Center 43.6819 -7.5639}
+		{Extent 2.36573 65.191}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body1"
+	{Box 130.372 4.43849 5.27837}
+	{Bone "ardenn_trench_baza_wall_roof_7_x"}
+	{Matrix34
+		0.990767	-0.0142524	0.134823
+		0.0141223	0.999898	0.00192179
+		-0.134837	0	0.990868
+		3.47416	25.9919	2.61509
+	}
+}
+{Volume "body2"
+	{Box 130.372 4.43849 5.27837}
+	{Bone "ardenn_trench_baza_wall_roof_7_x"}
+	{Matrix34
+		0.999556	-0.0142525	0.0261582
+		0.0142477	0.999898	0.000372865
+		-0.0261609	0	0.999658
+		3.76097	-25.4167	3.62617
+	}
+}
+{Volume "body5"
+	{Box 130.372 4.43849 5.27837}
+	{Bone "ardenn_trench_baza_wall_roof_7_x"}
+	{Matrix34
+		0.00224717	-0.999997	0
+		0.999997	0.00224717	0
+		0	0	1
+		43.6819	7.5639	0.021553
+	}
+}

@@ -1,0 +1,110 @@
+{game_entity
+	(include "/properties/tank.ext")
+	(include "/properties/selection/vehicle.inc"  scale(1.2))
+	{collider "tank.light"}
+	{props "light" "turret_rotator" "zenite" "vision_vehicle_medium" "muzzle_zenite"}
+	{targetClass "light_tank"}
+	{patherId "tank.light"}
+	
+	{extender "enumerator"
+		{digit_folder "ger"}
+	}
+	
+	{volume "body1"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "body2"
+		{tags "body"}
+		{component "body"}
+	}
+
+	("armor_light" turret(35 15) body(35 20 15 15))
+	("armor_engine"  t(10 15 15 8))
+	("armor_mantlet" t(30))
+	 
+	{extender "inventory"
+		{box
+            {item "ammo bullet20 ger zenite ap" 160}
+            {item "ammo bullet20 ger zenite apcr" 60}
+	    {item "ammo bullet20 ger zenite fg" 160}
+            {item "ammo mg_mauser belt" 2280}
+		}
+	}
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+            {weapon "20mm_kwk30" filling "ammo bullet20 ger zenite ap" 10}         
+			{charger "gunner"}        
+			("abm_zenite")
+		}
+		{place "mgun"
+            {type "mgun_coaxial"}
+            {weapon "mg34_optic" filled}
+			{gunner "commander"}
+			{charger "commander"}
+			("abm_mgun")
+			{basic}
+		}
+	}
+
+	("crew_2_human")
+	("crew_human" place(commander) door1(emit1) door2(emit2) visor(main))
+
+	{boarder
+		{anm "left"
+			{forward	{begin	"board_Kv"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+		{anm "right"
+			{forward	{begin	"board_tank_right"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+		{anm "armor"
+			{forward	{begin	"board_MiddleArmor"} 	{end "seat_armor"}}
+			{reverse 	{end	"emit_tank_1"}}
+		}
+	}
+
+	("seat_human" place(seat1) bone(seat01) door(emit3)  animation(armor))
+	("seat_human" place(seat2) bone(seat02) door(emit4)  animation(armor))
+	("seat_human" place(seat3) bone(seat03) door(emit5)  animation(armor))
+;	("seat_human" place(seat4) bone(seat04) door(emit6)  animation(armor))
+
+	{mass 9200}
+	{Chassis
+		("tank_trace" fx("tracks_sm") step(0.3) len(0.1))
+		{Locomotion ("locomotion")
+			{maxspeed   34}
+			{maxSpeedAtMaxTurn 6}
+			{StartTime  25}
+			{TurnTime   15}
+			{TurnStart  1.2}			
+			{TurnRadius 7} 
+    		{TurnStop   0.6}
+			{BrakeTime  1.5}
+			{StopTime   2}
+     		{Gears  0.1 0.2 0.3 1}
+			{RearGears  0.25}
+		}
+		{FuelBag
+			{volume 175 }	
+			{rate	9 }   
+			{remain 175 }
+			{fuel "fuel"}
+		}
+		{speed
+        	{Normal  34}
+        	{Slow  34}
+    	}
+	}
+	{Extension "pz2f.mdl"}
+
+	{bone "turret"
+		{speed 0.003}
+	}
+	{bone "gun_rot"
+		{speed 0.002}
+	}
+}

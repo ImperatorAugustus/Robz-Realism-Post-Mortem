@@ -1,0 +1,7 @@
+{material simple
+	{diffuse "sdkfz_222_gun"}
+	;{bump "sdkfz_222_gun_bp"}
+	;{specular "sdkfz_222_gun_sp"}
+	;{color "229 229 229 25"}
+	{blend test}
+}

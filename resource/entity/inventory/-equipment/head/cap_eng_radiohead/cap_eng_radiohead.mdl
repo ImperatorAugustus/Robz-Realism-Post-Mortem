@@ -1,0 +1,53 @@
+;Exported by: Kalinski
+;Date:        Sun Sep 11 04:36:37 2016
+;File:        C:\Users\Kalinski\Desktop\fs cap\fin.max
+{Skeleton
+	{bone "cap_eng_radiohead"
+		{Matrix34
+			1	0	0
+			0	-1	0
+			0	0	1
+                        -0.6	0	0.32
+		}
+		{VolumeView "cap_eng_radiohead.ply"}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "cap_eng_radiohead"}
+	{Position 0	-9.47029	0}
+}
+{Volume "select"
+	{Box 5.54121 3.67075 2.93976}
+	{Bone "cap_eng_radiohead"}
+	{Matrix34
+		1.0387	0	0
+		0	1.0387	0
+		0	0	1.0387
+		1.84838	-0.121986	3.6221
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 6.58307	-4.60426	3.60966}
+			{lookat 1.29437	0.377072	3.51748}
+			{fov 45}
+			{horizon -0.239031}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.00242178	0.00152097	-0.499992}
+			}
+			{"1"
+				{type point}
+				{position 1.3762	-2.3209	2.53304}
+			}
+			{"2"
+				{type point}
+				{position 3.55957	-1.33044	3.47408}
+			}
+		}
+	}
+}

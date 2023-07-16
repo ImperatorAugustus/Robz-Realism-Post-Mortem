@@ -1,0 +1,58 @@
+;Exported by: ?????
+;Date:        Mon Mar 16 18:25:38 2015
+;File:        C:\Users\?????\Documents\3dsmax\scenes\jap_bunk.max
+{Skeleton
+	{bone "box005"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "box005.ply"}
+		{bone "land1"
+			{parameters "land;"}
+			{Position 4.06207	-35.8109	0}
+			{visibility 0}
+			{VolumeView "land1.ply" {Ground} {DecalTarget}}
+		}
+		{bone "land2"
+			{parameters "land;"}
+			{Position 4.06207	35.3863	0}
+			{visibility 0}
+			{VolumeView "land2.ply" {Ground} {DecalTarget}}
+		}
+	}
+}
+{Obstacle "body1"
+	{Obb2
+		{Center -0.610184 -15.8175}
+		{Extent 38.4772 4.349}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body2"
+	{Obb2
+		{Center -0.610184 16.5709}
+		{Extent 38.0635 4.349}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body1"
+	{Box 76.9544 8.69801 44.6531}
+	{Bone "box005"}
+	{Position -0.610184	15.8175	22.3266}
+}
+{Volume "body2"
+	{Box 76.127 8.69801 44.6531}
+	{Bone "box005"}
+	{Position -0.610184	-16.5709	22.3266}
+}
+{Volume "body_ro"
+	{Box 75.5894 36.2718 31.4251}
+	{Bone "box005"}
+	{Position -1.34892	1.33487	58.0164}
+}

@@ -1,0 +1,11 @@
+{Actor
+	(include "/properties/stuff_small.ext")
+	{extender "stuff"
+		{item "snlf_cap2"}
+	}
+	{Extension "snlf_cap2.mdl"}
+	{Volume "body"
+	}
+	{Volume "select"
+	}
+}

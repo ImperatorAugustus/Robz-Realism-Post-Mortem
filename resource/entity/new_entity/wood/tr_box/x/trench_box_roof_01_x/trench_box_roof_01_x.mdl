@@ -1,0 +1,303 @@
+;Exported by: Руслан
+;Date:        Wed Sep 18 17:31:28 2013
+;File:        C:\Users\Руслан\Documents\3dsmax\scenes\new_trench_and_fortific\bunker_2222.max
+{Skeleton
+	{bone "trench_box_roof_01_x"
+		{parameters "land;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "trench_box_roof_01_x.ply"}
+		{bone "piece04"
+			{parameters "land;"}
+			{Position 18.4862	14.0944	19.479}
+			{VolumeView "piece04.ply"}
+		}
+		{bone "piece01"
+			{parameters "land;"}
+			{Matrix34
+				-1	0	0
+				0	-1	0
+				0	0	1
+				18.6788	-13.2145	19.479
+			}
+			{VolumeView "piece01.ply"}
+		}
+		{bone "piece05"
+			{parameters "land;"}
+			{Matrix34
+				0	1	0
+				-1	0	0
+				0	0	1
+				-2.01081	0.872528	19.479
+			}
+			{VolumeView "piece05.ply"}
+		}
+		{bone "piece07"
+			{parameters "land;"}
+			{Matrix34
+				0	-1	0
+				1	0	0
+				0	0	1
+				-20.0314	0.872528	19.479
+			}
+			{VolumeView "piece07.ply"}
+		}
+		{bone "piece03"
+			{parameters "land;"}
+			{Position -6.76606	14.0944	19.479}
+			{VolumeView "piece03.ply"}
+		}
+		{bone "piece02"
+			{parameters "land;"}
+			{Matrix34
+				-1	0	0
+				0	-1	0
+				0	0	1
+				-6.1621	-14.5155	19.479
+			}
+			{VolumeView "piece02.ply"}
+		}
+		{bone "piece08"
+			{parameters "land;"}
+			{Matrix34
+				0	1	0
+				-1	0	0
+				0	0	1
+				16.1857	0.872528	19.479
+			}
+			{VolumeView "piece08.ply"}
+		}
+		{bone "piece10"
+			{parameters "land;"}
+			{Matrix34
+				-1	0	0
+				0	-1	0
+				0	0	1
+				6.23701	-14.5155	19.479
+			}
+			{VolumeView "piece10.ply"}
+		}
+		{bone "piece12"
+			{parameters "land;"}
+			{Matrix34
+				-1	0	0
+				0	-1	0
+				0	0	1
+				-19.1203	-14.5155	19.479
+			}
+			{VolumeView "piece12.ply"}
+		}
+		{bone "piece14"
+			{parameters "land;"}
+			{Matrix34
+				-1	0	0
+				0	-1	0
+				0	0	1
+				-19.1203	14.835	19.479
+			}
+			{VolumeView "piece14.ply"}
+		}
+	}
+}
+{Obstacle "body2"
+	{Obb2
+		{Center -15.9968 1.3421}
+		{Extent 2.90094 19.685}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body3"
+	{Obb2
+		{Center 20.0093 1.3421}
+		{Extent 2.90094 19.685}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "piece01"
+	{Obb2
+		{Center 18.9721 13.2582}
+		{Extent 5.96428 8.95874}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "piece02"
+	{Obb2
+		{Center -5.77172 14.3074}
+		{Extent 5.96428 8.95874}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "piece03"
+	{Obb2
+		{Center -6.60921 -14.814}
+		{Extent 5.96428 8.95874}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "piece04"
+	{Obb2
+		{Center 18.944 -14.814}
+		{Extent 5.96428 8.95874}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "piece05"
+	{Obb2
+		{Center -2.36631 -0.725601}
+		{Extent 8.95875 5.96428}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "piece07"
+	{Obb2
+		{Center -21.3183 -0.725601}
+		{Extent 8.95875 5.96428}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "piece09"
+	{Obb2
+		{Center 15.8302 -0.725601}
+		{Extent 8.95875 5.96428}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "piece11"
+	{Obb2
+		{Center 6.62739 14.3074}
+		{Extent 5.96428 8.95874}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "piece13"
+	{Obb2
+		{Center -18.7299 14.3074}
+		{Extent 5.96428 8.95874}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "piece15"
+	{Obb2
+		{Center -18.7299 -15.0431}
+		{Extent 5.96428 8.95874}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body2"
+	{Box 5.80187 39.3701 44.3632}
+	{Bone "trench_box_roof_01_x"}
+	{Position -15.9968	-1.3421	-5.84355}
+}
+{Volume "body3"
+	{Box 5.80187 39.3701 44.3632}
+	{Bone "trench_box_roof_01_x"}
+	{Position 20.0093	-1.3421	-5.84355}
+}
+{Volume "piece01"
+	{Box 11.9286 17.9175 2.28797}
+	{Bone "piece01"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		-0.293297	0.0437012	1.40106
+	}
+}
+{Volume "piece02"
+	{Box 11.9286 17.9175 2.28797}
+	{Bone "piece02"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		-0.390384	-0.208084	1.40106
+	}
+}
+{Volume "piece03"
+	{Box 11.9286 17.9175 2.28797}
+	{Bone "piece03"}
+	{Position 0.156847	0.719601	1.40106}
+}
+{Volume "piece04"
+	{Box 11.9286 17.9175 2.28797}
+	{Bone "piece04"}
+	{Position 0.457806	0.719601	1.40106}
+}
+{Volume "piece05"
+	{Box 11.9286 17.9175 2.28797}
+	{Bone "piece05"}
+	{Position -0.146927	0.355501	1.40106}
+}
+{Volume "piece07"
+	{Box 11.9286 17.9175 2.28797}
+	{Bone "piece07"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		0.146927	-1.28682	1.40106
+	}
+}
+{Volume "piece09"
+	{Box 11.9286 17.9175 2.28797}
+	{Bone "piece08"}
+	{Position -0.146927	0.355501	1.40106}
+}
+{Volume "piece11"
+	{Box 11.9286 17.9175 2.28797}
+	{Bone "piece10"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		-0.390384	-0.208084	1.40106
+	}
+}
+{Volume "piece13"
+	{Box 11.9286 17.9175 2.28797}
+	{Bone "piece12"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		-0.390385	-0.208084	1.40106
+	}
+}
+{Volume "piece15"
+	{Box 11.9286 17.9175 2.28797}
+	{Bone "piece14"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		-0.390385	-0.208084	1.40106
+	}
+}
+

@@ -1,0 +1,125 @@
+{game_entity
+	(include "/properties/tank.ext")
+	(include "/properties/selection/vehicle.inc"  scale(1.2))
+	{props "medium" "turret_rotator" "vision_vehicle_medium" "muzzle_minimum" "switch_mgun_coax"}
+
+	{extender "enumerator"}
+	
+	{volume "body1"
+		{component "body"}
+		{tags "body"}
+	}
+	{volume "body2"
+		{component "body"}
+		{tags "body"}
+	}
+	{volume "body3"
+		{component "body"}
+		{tags "body"}
+	}
+	{Volume "engine"
+		{tags "engine"}
+		{component "engine"}
+	}
+	{Volume "engine1"
+		{tags "engine"}
+		{component "engine"}
+	}
+	{Volume "engine2"
+		{tags "engine"}
+		{component "engine"}
+	}
+	
+	("armor_medium" turret(75 75 75 20) body(78 70 55 22))
+	("armor_engine"  t(30 70 55 22))
+	("eng_1-9x_sight")
+	
+	("crew_4_human")
+
+	{boarder
+		{anm "left"
+			{forward	{begin	"board_sherman_left"}}
+			{reverse 	{end	"emit_tank_2_hold"}}
+		}
+		{anm "right"
+			{forward	{begin	"board_sherman_right"}}
+			{reverse 	{end	"emit_tank_2_hold"}}
+		}
+		{anm "armor"
+			{forward	{begin	"board_HighArmor"} 	{end "pose_seat_armor_1"}}
+			{reverse 	{end	"emit_tank_2"}}
+		}
+		{anm "armor1"
+			{forward	{begin	"board_HighArmor"} 	{end "pose_seat_armor_1"}}
+			{reverse 	{end	"emit_body"}}
+		}
+	}
+
+	("seat_human" place(seat1) bone(seat01) door(emit3)  animation(armor1))
+	("seat_human" place(seat2) bone(seat02) door(emit4)  animation(armor))
+	("seat_human" place(seat3) bone(seat03) door(emit5)  animation(armor1))
+	("seat_human" place(seat4) bone(seat04) door(emit6)  animation(armor))
+
+	{extender "inventory"
+        {box
+            {item "ammo bullet40 eng ap" 93}
+            ;{item "ammo bullet40 fg" 43}
+            ;{item "ammo bullet40 apcr" 3}
+            {item "ammo mg_mauser belt red" 2950}
+        }
+	}
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "40mm_oqf2pdr" filling "ammo bullet40 eng ap" 1}
+			("abm_medium")
+		}
+		{place "mgun"
+			{type "mgun_coaxial"}
+			{weapon "besa_optic" filling "mg_mauser belt red" 225}
+			("abm_mgun")
+			{basic}
+		}
+	}
+
+	{mass 26500}
+	{Chassis
+		("tank_trace" fx("tracks_mid") step(0.52) len(0.7))
+		{Locomotion ("locomotion")
+			{MaxSpeed   20}
+			{maxSpeedAtMaxTurn 4}
+			{StartTime  30}
+			{TurnStart  1.7}			
+			{TurnTime   18}
+			{TurnRadius 8} 
+    		{TurnStop   0.8}
+			{BrakeTime  1.5}
+			{StopTime   2.5}
+			{Gears  0.1 0.2 0.3 1}
+			{RearGears  0.24}		
+		}
+		{FuelBag
+			{volume 210 }	
+			{rate	24 }   
+			{remain 210 }
+			{fuel "fuel"}
+		}
+		{speed
+        	{Normal  20}
+        	{Slow  20}
+    	}
+	}
+	{Extension "mk2a.mdl"}
+	
+	{bone "gun_rot"
+		{speed 0.001}
+		{limits -15 20}
+	}
+	{bone "turret"
+		{speed 0.003}
+	}
+    {bone "foresight3"
+		{limits 1}
+	}
+}

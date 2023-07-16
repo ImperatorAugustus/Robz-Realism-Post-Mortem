@@ -1,0 +1,97 @@
+;Exported by: Mauzer
+;Date:        Sun Sep 11 18:10:11 2011
+;File:        E:\Autodesk\Low poly\freelance\DMS\Weapons\Lee-Enfield\Lee Enfield_grenade.max
+{Skeleton
+	{bone "lee_enfield_mk3_g"
+		{parameters "ID=mgun;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "lee_enfield_mk3_g.ply"}
+			{VolumeView "lee_enfield_mk3_g_lod1.ply"}
+		}
+		{bone "foresight3"
+			{Position 19.3031	1.41637	-0.0151268}
+		}
+		{bone "handle"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				-0.316072	0.248538	0.0145942
+			}
+		}
+		{bone "fxshell"
+			{Matrix34
+				0	0.573577	0.819152
+				1	0	0
+				0	0.819152	-0.573577
+				2.05743	1.39409	0.0145942
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 25.7384 4.13013 0.911203}
+	{Bone "lee_enfield_mk3_g"}
+	{Matrix34
+		0.997564	0.0697566	0
+		-0.0697566	0.997564	0
+		0	0	1
+		6.28702	0.44987	0.00468063
+	}
+}
+{Volume "select"
+	{Box 26.7282 9.83128 2.39379}
+	{Bone "lee_enfield_mk3_g"}
+	{Position 6.55245	0.765441	0.0284367}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 6.68775	-0.937917	46.6219}
+			{lookat 6.68775	-0.937917	0.0145942}
+			{fov 30.7899}
+			{horizon 16.9996}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0	0.325948	-0.379154}
+			}
+			{"1"
+				{type point}
+				{position 14.7329	-4.61464	4.33676}
+			}
+			{"2"
+				{type point}
+				{position -8.00733	-2.97026	2.93529}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin 6.69075	-0.948338	49.2131}
+			{lookat 6.69075	-0.94834	0.0145923}
+			{fov 30.7899}
+			{horizon 9.99963}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -8.00733	-2.97045	2.95937}
+			}
+			{"1"
+				{type point}
+				{position 14.7329	-4.61483	4.2783}
+			}
+			{"2"
+				{type directional}
+				{direction 0	0.325948	-0.379154}
+			}
+		}
+	}
+}

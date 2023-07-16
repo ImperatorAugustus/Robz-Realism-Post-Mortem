@@ -1,0 +1,27 @@
+;Exported by: Loskutov_K
+;Date:        Thu Apr 08 12:46:59 2010
+;File:        D:\_Vietnam\Art\Models\Anturage\utvar\kastrulya\kastrulya.max
+{Skeleton
+	{bone "kastrulya"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "kastrulya.ply"}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -0.0225382 0.011673}
+		{Extent 4.68586 4.45652}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Cylinder 4.68586 7.84547}
+	{Bone "kastrulya"}
+	{Position -0.0225382	-0.011673	3.92273}
+}

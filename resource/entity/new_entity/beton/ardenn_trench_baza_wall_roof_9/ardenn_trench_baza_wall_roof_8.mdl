@@ -1,0 +1,31 @@
+;Exported by: Руслан
+;Date:        Wed Aug 28 17:21:39 2013
+;File:        C:\Users\Руслан\Documents\3dsmax\scenes\Новая папка\new_okop_baza_5.max
+{Skeleton
+	{bone "exterior"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "exterior.ply"}
+	}
+}
+{Area "interior"
+	{Obb2
+		{Center -4.45975 3.5447}
+		{Extent 71.2313 57.1569}
+		{Axis 1 0}
+	}
+	{Rotate}
+}
+{Volume "body15"
+	{Polyhedron "body15_r.vol"}
+	{Bone "exterior"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		-14.0563	-8.78146	0
+	}
+}

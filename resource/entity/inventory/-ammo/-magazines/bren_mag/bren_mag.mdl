@@ -1,0 +1,52 @@
+;Exported by: Kalinski
+;Date:        Tue Aug 02 14:00:09 2016
+;File:        C:\Users\Kalinski\Desktop\magazynki\gotowe\bren\bren_mag_rdy.max
+{Skeleton
+	{bone "bren_mag"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "bren_mag.ply"}
+	}
+}
+{Volume "body"
+	{Box 3.30574 4.37982 0.38358}
+	{Bone "bren_mag"}
+	{Position -0.00431776	0.00978494	-0.0113167}
+}
+{Volume "select"
+	{Box 3.52258 4.50831 0.38358}
+	{Bone "bren_mag"}
+	{Matrix34
+		1.0387	0	0
+		0	1.0387	0
+		0	0	1.0387
+		-0.00431776	0.00978494	-0.00389442
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 0.0739703	0.413176	3.99717}
+			{lookat 0.0739704	0.079579	0.0318985}
+			{fov 45}
+			{horizon -0.239031}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -0.0312786	-1.57302	0.684929}
+			}
+			{"1"
+				{type point}
+				{position -0.00710379	1.54384	0.726341}
+			}
+			{"2"
+				{type directional}
+				{direction -0.0260877	0.00264281	-0.499312}
+			}
+		}
+	}
+}

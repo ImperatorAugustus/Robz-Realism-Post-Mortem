@@ -1,0 +1,24 @@
+;Exported by: Фёдор
+;Date:        Fri Dec 12 21:23:10 2014
+;File:        C:\Users\Фёдор\Documents\3dsmax\scenes\pine_and_fir.max
+{Skeleton
+	{bone "pine_new_07"
+		{parameters "CommonMesh;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "pine_new_07.ply"}
+	}
+}
+{Volume "bole"
+	{Cylinder 2.96379 80.4299}
+	{Bone "pine_new_07"}
+	{Position 9.58471	0.915253	40.2149}
+}
+{Volume "crown"
+	{Cylinder 25.0105 67.7614}
+	{Bone "pine_new_07"}
+	{Position 8.1266	5.60818	57.8228}
+}

@@ -1,0 +1,60 @@
+;Exported by: Vlad
+;Date:        Fri Dec 12 22:48:43 2014
+;File:        D:\маё\Проги всякие\3д проэкты\MOD\ger\ger-Helmet-W.max
+{Skeleton
+	{bone revolute "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "helm"
+			{Matrix34
+				0.966515	0.0710233	0.246585
+				-0.0782137	0.996746	0.019476
+				-0.2444	-0.0381108	0.968925
+				0.805031	0.11014	2.42015
+			}
+			{VolumeView "helm.ply"}
+			{bone "handle"
+				{Matrix34
+					0.968627	-0.0829836	-0.234256
+					0.0674538	0.996699	-0.0451715
+					0.241771	0.0276157	0.96994
+					0.651041	0.00084652	0.718106
+				}
+			}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "helm"}
+}
+{Volume "select"
+	{Polyhedron "select.vol"}
+	{Bone "helm"}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 5.24045	-4.19781	3.54011}
+			{lookat -7.29194	7.92646	2.35238}
+			{fov 45}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.171162	0.146829	-0.446256}
+			}
+			{"1"
+				{type directional}
+				{direction -0.189277	0.266067	0.378659}
+			}
+			{"2"
+				{type directional}
+				{direction -0.105484	-0.229601	-0.431458}
+			}
+		}
+	}
+}

@@ -1,0 +1,78 @@
+;Exported by: Loskutov_K
+;Date:        Wed Apr 21 10:16:08 2010
+;File:        D:\_Vietnam\Art\Models\Houses\Saray_3\saray_3_complete.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "1"
+			{Position 1.49535	-24.8754	66.945}
+		}
+		{bone "2"
+			{Position 1.49537	33.27	66.9475}
+		}
+		{bone "3"
+			{Position 0.998076	-21.5696	65.4157}
+		}
+		{bone "4"
+			{Position 0.94733	29.7525	65.5578}
+		}
+		{bone "5"
+			{Position 12.7226	-34.1817	22.9031}
+		}
+		{bone "6"
+			{Position -9.15779	-31.9451	22.9031}
+		}
+		{bone "7"
+			{Position 1.40342	-49.937	38.9257}
+		}
+		{bone "8"
+			{Position -10.5851	3.17607	23.9737}
+		}
+		{bone "9"
+			{Position 13.822	3.72402	24.1019}
+		}
+		{bone "10"
+			{Position 32.9979	-49.1737	48.0223}
+		}
+		{bone "11"
+			{Position 13.1647	37.7381	22.903}
+		}
+		{bone "12"
+			{Position -10.9572	38.2813	22.896}
+		}
+		{bone "13"
+			{Position 1.40341	54.7019	37.8749}
+		}
+		{bone "14"
+			{Position -28.7853	-49.1737	48.0223}
+		}
+		{bone "15"
+			{Position -28.7853	53.8124	48.0223}
+		}
+		{bone "16"
+			{Position 33.7789	53.8124	48.0223}
+		}
+		{bone "17"
+			{Position 37.5127	-42.0981	23.5163}
+		}
+		{bone "18"
+			{Position 1.40342	-51.7995	25.6181}
+		}
+		{bone "19"
+			{Position -34.4999	2.09397	23.4363}
+		}
+		{bone "20"
+			{Position 1.40342	56.7983	28.0524}
+		}
+		{bone "21"
+			{Position 37.5127	20.4956	23.1876}
+		}
+		{bone "22"
+			{Position 0.978783	1.49666	5.54961}
+		}
+	}
+}

@@ -1,0 +1,50 @@
+;Exported by: Loskutov_K
+;Date:        Wed Mar 31 15:00:46 2010
+;File:        D:\_Vietnam\Art\Models\Houses\X\House_middle_1_x\House_middle_1_x.max
+{Skeleton
+	{bone "roofhold8_hm1_x"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "piece02"
+			{Matrix34
+				-1	0	0
+				0	0.707107	-0.707107
+				0	-0.707107	-0.707107
+				-15.7802	13.6254	14.5814
+			}
+			{VolumeView "piece02.ply"}
+		}
+		{bone "piece01"
+			{Matrix34
+				-1	0	0
+				0	0.707107	-0.707107
+				0	-0.707107	-0.707107
+				6.65529	0.856742	2.55921
+			}
+			{VolumeView "piece01.ply"}
+		}
+	}
+}
+{Volume "piece01"
+	{Box 23.0166 27.9446 2.31305}
+	{Bone "piece01"}
+	{Matrix34
+		-1	0	0
+		0	0.00598013	-0.999982
+		0	-0.999982	-0.00598013
+		-0.00656484	0.292422	0.780968
+	}
+}
+{Volume "piece02"
+	{Box 17.4368 27.9446 2.31305}
+	{Bone "piece02"}
+	{Matrix34
+		-1	0	0
+		0	0.00598013	-0.999982
+		0	-0.999982	-0.00598013
+		-0.575131	0.238789	1.39842
+	}
+}

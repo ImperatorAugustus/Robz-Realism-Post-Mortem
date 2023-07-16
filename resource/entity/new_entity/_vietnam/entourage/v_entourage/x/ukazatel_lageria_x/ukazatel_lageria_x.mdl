@@ -1,0 +1,82 @@
+;Exported by: Loskutov_K
+;Date:        Fri Apr 09 15:08:22 2010
+;File:        D:\_Vietnam\Art\Models\Anturage\x\ukazatel_lageria_x\ukazatel_lageria_x.max
+{Skeleton
+	{bone "body_x"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "piece02"
+			{Matrix34
+				-1	0	0
+				0	1	0
+				0	0	-1
+				33.4312	0.827501	60.6584
+			}
+			{VolumeView "piece02.ply"}
+		}
+		{bone "piece01"
+			{Position 33.749	0.764421	24.5113}
+			{VolumeView "piece01.ply"}
+		}
+		{bone "piece04"
+			{Position -25.7716	2.65168	61.3349}
+			{VolumeView "piece04.ply"}
+		}
+		{bone "piece03"
+			{Matrix34
+				-1	0	0
+				0	0	-1
+				0	-1	0
+				-26.29	7.20432	71.4803
+			}
+			{VolumeView "piece03.ply"}
+		}
+		{bone "piece05"
+			{Position -34.3718	0.577944	21.6516}
+			{VolumeView "piece05.ply"}
+		}
+	}
+}
+{Volume "piece01"
+	{Box 1.97711 1.84531 26.773}
+	{Bone "piece01"}
+	{Position -0.0642014	-0.133157	-4.14573}
+}
+{Volume "piece02"
+	{Polyhedron "piece02.vol"}
+	{Bone "piece02"}
+	{Matrix34
+		-1	0	0
+		0	0	-1
+		0	-1	0
+		6.28474	1.95503	-10.7459
+	}
+}
+{Volume "piece03"
+	{Polyhedron "piece03.vol"}
+	{Bone "piece03"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		6.12478	0.0760117	4.42179
+	}
+}
+{Volume "piece04"
+	{Box 38.2046 4.06079 1.40885}
+	{Bone "piece04"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		2.68474	0.062227	0.0718536
+	}
+}
+{Volume "piece05"
+	{Box 1.97711 1.84531 26.773}
+	{Bone "piece05"}
+	{Position -0.111877	0.0533209	-1.28605}
+}

@@ -1,0 +1,96 @@
+{game_entity
+    (include "/properties/construction.inc")
+	{Extension "bridge_big.mdl"}
+	{props "parts" "construction" "no_destroyed_stamp" "wood" "burning"}
+	{Volume "body"
+		{Tags  "body" "fire"}
+		{Thickness 50}
+		{able clear {blast}}
+	}
+	{Volume "body10"
+		{Tags  "body" "fire"}
+		{Thickness 50}
+		{able {obstacle 0}}
+	}
+	{Volume "body11"
+		{Tags  "body" "fire"}
+		{Thickness 50}
+		{able {obstacle 0}}
+	}
+	{Volume "body12"
+		{Tags  "body" "fire"}
+		{Thickness 50}
+		{able {obstacle 0}}
+	}
+	{Volume "body13"
+		{Tags  "body" "fire"}
+		{Thickness 50}
+		{able {obstacle 0}}
+	}
+	{Volume "body14"
+		{Tags  "body" "fire"}
+		{Thickness 50}
+		{able {obstacle 0}}
+	}
+	{Volume "body15"
+		{Tags  "body" "fire"}
+		{Thickness 50}
+		{able {obstacle 0}}
+	}
+	{Volume "body16"
+		{Tags  "body" "fire"}
+		{Thickness 50}
+		{able {obstacle 0}}
+	}
+	{Volume "body17"
+		{Tags  "body" "fire"}
+		{Thickness 50}
+		{able {obstacle 0}}
+	}
+	{Volume "body1"
+		{Tags  "body" "fire"}
+		{Thickness 40}
+	}
+	{Volume "body2"
+		{Tags  "body" "fire"}
+		{Thickness 40}
+	}
+	{Volume "body3"
+		{Tags  "body" "fire"}
+		{Thickness 50}
+		{able {obstacle 0}}
+	}
+	{Volume "body4"
+		{Tags  "body" "fire"}
+		{Thickness 50}
+		{able {obstacle 0}}
+	}
+	{Volume "body5"
+		{Tags  "body" "fire"}
+		{Thickness 50}
+		{able {obstacle 0}}
+	}
+	{Volume "body6"
+		{Tags  "body" "fire"}
+		{Thickness 50}
+		{able {obstacle 0}}
+	}
+	{Volume "body7"
+		{Tags  "body" "fire"}
+		{Thickness 50}
+		{able {obstacle 0}}
+	}
+	{Volume "body8"
+		{Tags  "body" "fire"}
+		{Thickness 50}
+		{able {obstacle 0}}
+	}
+	{Volume "body9"
+		{Tags  "body" "fire"}
+		{Thickness 50}
+		{able {obstacle 0}}
+	}
+	{Extender "land_patch"
+		{TerrainType "road" "bridge_wood"}
+	}
+}

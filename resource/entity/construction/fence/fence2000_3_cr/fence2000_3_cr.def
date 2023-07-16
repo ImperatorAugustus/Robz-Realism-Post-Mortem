@@ -1,0 +1,18 @@
+{game_entity
+    (include "/properties/construction.inc")
+    	("armor_medium" args 0.1)
+	{Extension "fence2000_3_cr.mdl"}
+    {props "concrete" "small" "parts" "construction" "no_destroyed_stamp"}
+
+	{Volume "fence2000_3_cr"
+		{Tags  "body"}
+		{Thickness 20}
+		{able {visible 1}}
+	}
+	{Volume "fence2000_3_cr1"
+		{Tags  "body" "climb"}
+		{Thickness 20}
+		{able {visible 1}{touch 1}}
+	}
+	{lodclass "decor_medium"}
+}

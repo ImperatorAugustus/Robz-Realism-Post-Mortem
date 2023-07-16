@@ -1,0 +1,16 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{Extension "firelight_hm2.mdl"}
+	{props "cornered" "wood" "parts" "construction" "burning" "wall" "fire_light" "no_destroyed_stamp"}
+	("armor_house_wood")
+        {mass 10000}
+
+	{extender "structure_bone"
+		{hold  "21"}
+                {hold  "22"}
+	}
+	{Volume "fire0"
+		{Tags  "body" "fire"}
+		{able {obstacle 0}}
+	}
+}

@@ -1,0 +1,49 @@
+;Exported by: Kislov_A
+;Date:        Mon Apr 05 12:42:26 2010
+;File:        E:\Men of war red tide2\Art\Models\Structure\bridge_small\brs01.max
+{Skeleton
+	{bone "beams"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "beams.ply"}
+		{bone "road"
+			{parameters "Land;Ground;"}
+			{Position 0.186539	0.674805	3.77419}
+			{VolumeView "road.ply" {Ground}}
+		}
+	}
+}
+{Obstacle "rectangle01"
+	{Obb2
+		{Center 0.415665 -13.8247}
+		{Extent 49.8659 1.22852}
+		{Axis -1 0}
+	}
+	{Rotate}
+}
+{Obstacle "rectangle02"
+	{Obb2
+		{Center 0.415665 13.418}
+		{Extent 49.8659 1.22852}
+		{Axis -1 0}
+	}
+	{Rotate}
+}
+{Volume "body1"
+	{Box 92.9465 1.64698 26.0303}
+	{Bone "beams"}
+	{Position -1.28219	-12.2293	15.4355}
+}
+{Volume "body2"
+	{Box 92.9465 1.64698 26.0303}
+	{Bone "beams"}
+	{Position -2.80832	13.5415	15.4355}
+}
+{Volume "body"
+	{Box 99.3143 24.5508 5.48114}
+	{Bone "beams"}
+	{Position 0.142326	0.83074	2.72237}
+}

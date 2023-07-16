@@ -1,0 +1,7 @@
+
+{material bump
+	{diffuse "$/new_fortification/wood_trench3_wire"}
+	{bump "$/new_fortification/wood_trench3_wire_bp"}
+	{color "229 229 229 50"}
+	{blend test}
+}

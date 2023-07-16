@@ -1,0 +1,89 @@
+;Exported by: Mauzer
+;Date:        Fri Apr 29 20:31:01 2011
+;File:        E:\Autodesk\Low poly\freelance\DMS\Weapons\MG 42\MG 42.max
+{Skeleton
+	{bone "mg42"
+		{parameters "ID=mgun;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "mg42.ply"}
+			{VolumeView "mg42_lod1.ply"}
+		}
+		{bone "foresight3"
+			{Position 18.1824	1.31573	-0.0469966}
+		}
+		{bone "handle"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				-0.552233	0.442033	-0.0301796
+			}
+		}
+		{bone "fxshell"
+			{Matrix34
+				0	-0.995396	0.0958456
+				-1	0	0
+				0	-0.0958456	-0.995396
+				3.18439	0.73178	-0.0855648
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 23.2302 3.37151 1.18138}
+	{Bone "mg42"}
+	{Matrix34
+		0.99863	0.0523359	0
+		-0.0523359	0.99863	0
+		0	0	1
+		5.82339	1.10196	0.0437012
+	}
+}
+{Volume "select"
+	{Box 26.8339 10.6014 2.39379}
+	{Bone "mg42"}
+	{Position 5.72589	0.222519	-0.13759}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 8.17229	-15.1799	25.4071}
+			{lookat 5.63124	-0.445608	-0.135292}
+			{fov 45}
+			{horizon -170.307}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 5.76904	3.07322	20.0795}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0792752	0.197722	-0.452351}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin 6.84195	-5.82194	30.8414}
+			{lookat 6.14445	-2.97695	13.5042}
+			{fov 45}
+			{horizon 177.956}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 5.79304	3.06894	20.2202}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0792752	0.197722	-0.452351}
+			}
+		}
+	}
+}

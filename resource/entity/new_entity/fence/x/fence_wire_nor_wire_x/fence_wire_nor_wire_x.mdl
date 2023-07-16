@@ -1,0 +1,15 @@
+;Exported by: Фёдор
+;Date:        Thu Jul 24 01:27:52 2014
+;File:        C:\Users\Фёдор\Documents\3dsmax\scenes\wheat_round_01.max
+{Skeleton
+	{bone "basic01"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "wire"
+			{VolumeView "wire.ply"}
+		}
+	}
+}

@@ -1,0 +1,226 @@
+;Exported by: Loskutov_K
+;Date:        Fri Mar 12 15:37:51 2010
+;File:        D:\_Vietnam\Art\Models\Houses\House_big_2\hb2_complete.max
+{Skeleton
+	{bone "porch_hb2"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "porch_hb2.ply"}
+		{bone "land"
+			{parameters "Land;Ground;"}
+			{Position 28.1981	88.8984	-21.2885}
+			{VolumeView "land.ply" {Ground}}
+		}
+		{bone "fix06"
+			{Position 39.015	32.9837	-15.2417}
+		}
+		{bone "fix05"
+			{Position -27.9877	32.9837	-15.2417}
+		}
+	}
+}
+{Obstacle "body10"
+	{Obb2
+		{Center -32.476 -0.703762}
+		{Extent 0.930969 28.2209}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body11"
+	{Obb2
+		{Center 33.3925 -13.8571}
+		{Extent 0.930967 16.3639}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body1"
+	{Obb2
+		{Center 33.4969 25.1146}
+		{Extent 1.03288 0.926306}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Obstacle "body2"
+	{Obb2
+		{Center 33.3959 1.0848}
+		{Extent 1.56664 1.38712}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Obstacle "body3"
+	{Obb2
+		{Center 0.787876 26.4826}
+		{Extent 1.03288 0.926306}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Obstacle "body4"
+	{Obb2
+		{Center -32.7127 24.927}
+		{Extent 1.03288 0.926306}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Obstacle "body5"
+	{Obb2
+		{Center -31.6671 -0.440674}
+		{Extent 1.03288 0.926306}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Obstacle "body7"
+	{Obb2
+		{Center -24.5452 20.1765}
+		{Extent 2.6132 2.64923}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Obstacle "body8"
+	{Obb2
+		{Center 28.1832 20.1765}
+		{Extent 2.6132 2.64923}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Obstacle "body9"
+	{Obb2
+		{Center -0.10014 25.9838}
+		{Extent 33.9044 0.93097}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "obstacle1"
+	{Obb2
+		{Center -36.4729 0.441238}
+		{Extent 27.7945 1.28739}
+		{Axis 0 -1}
+	}
+	{Rotate}
+}
+{Obstacle "obstacle2"
+	{Obb2
+		{Center -0.117596 29.8272}
+		{Extent 37.5439 1.28739}
+		{Axis 1 -3.04819e-007}
+	}
+	{Rotate}
+}
+{Obstacle "obstacle3"
+	{Obb2
+		{Center 36.0071 23.2173}
+		{Extent 5.01182 1.27451}
+		{Axis 0 -1}
+	}
+	{Rotate}
+}
+{Obstacle "obstacle4"
+	{Obb2
+		{Center 36.0071 -10.7673}
+		{Extent 15.6609 1.27451}
+		{Axis 0 -1}
+	}
+	{Rotate}
+}
+{Volume "body10"
+	{Box 1.86193 2.13466 56.4052}
+	{Bone "porch_hb2"}
+	{Matrix34
+		1	0	0
+		0	0.0494387	-0.998777
+		0	0.998777	0.0494387
+		-32.476	0.703759	18.2097
+	}
+}
+{Volume "body11"
+	{Box 1.86193 2.13466 32.715}
+	{Bone "porch_hb2"}
+	{Matrix34
+		1	0	0
+		0	-0.00630391	-0.99998
+		0	0.99998	-0.00630391
+		33.3925	13.8571	19.4007
+	}
+}
+{Volume "body1"
+	{Box 2.06577 1.85261 24.5077}
+	{Bone "porch_hb2"}
+	{Position 33.4969	-25.1146	11.3883}
+}
+{Volume "body2"
+	{Box 2.06577 1.85261 29.6543}
+	{Bone "porch_hb2"}
+	{Matrix34
+		0.99935	-0.00111936	0.0360263
+		0	0.999518	0.0310515
+		-0.0360437	-0.0310313	0.998868
+		33.3959	-1.0848	8.15518
+	}
+}
+{Volume "body3"
+	{Box 2.06577 1.85261 23.7725}
+	{Bone "porch_hb2"}
+	{Position 0.787876	-26.4826	11.0207}
+}
+{Volume "body4"
+	{Box 2.06577 1.85261 23.7725}
+	{Bone "porch_hb2"}
+	{Position -32.7127	-24.927	11.0207}
+}
+{Volume "body5"
+	{Box 2.06577 1.85261 23.7725}
+	{Bone "porch_hb2"}
+	{Position -31.6671	0.440674	11.0207}
+}
+{Volume "body6"
+	{Box 57.469 5.26355 64.2799}
+	{Bone "porch_hb2"}
+	{Matrix34
+		0	1	0
+		0	0	-1
+		-1	0	0
+		-0.365849	1.19122	0.0137499
+	}
+}
+{Volume "body7"
+	{Box 5.22639 5.29847 21.3952}
+	{Bone "porch_hb2"}
+	{Position -24.5452	-20.1765	-12.3424}
+}
+{Volume "body8"
+	{Box 5.22639 5.29847 21.3952}
+	{Bone "porch_hb2"}
+	{Position 28.1832	-20.1765	-12.3424}
+}
+{Volume "body9"
+	{Box 1.86193 2.13466 67.7865}
+	{Bone "porch_hb2"}
+	{Matrix34
+		0	1	0
+		-0.013184	0	-0.999913
+		-0.999913	0	0.013184
+		-0.100139	-25.9838	19.4367
+	}
+}

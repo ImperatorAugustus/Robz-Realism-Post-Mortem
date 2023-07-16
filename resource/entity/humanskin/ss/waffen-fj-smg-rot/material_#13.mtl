@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/humanskin/ss/para/fjr-uniform_rot"}
+	{blend none}
+}

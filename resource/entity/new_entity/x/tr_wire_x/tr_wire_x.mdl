@@ -1,0 +1,17 @@
+;Exported by: Руслан
+;Date:        Mon Sep 16 19:25:44 2013
+;File:        C:\Users\Руслан\Documents\3dsmax\scenes\new_trench_and_fortific\belgiangate.max
+{Skeleton
+	{bone "tr_wire_x"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+
+                                {LODView
+		{VolumeView "tr_wire_x.ply"}
+		{VolumeView "tr_wire_x_lod.ply"}
+		}
+	}
+}

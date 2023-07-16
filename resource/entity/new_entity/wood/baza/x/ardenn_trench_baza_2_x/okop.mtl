@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "shellhole_tif#snow"}
+	{blend none}
+}

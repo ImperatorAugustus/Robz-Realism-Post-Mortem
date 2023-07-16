@@ -1,0 +1,17 @@
+{game_entity
+	{Extension "m3grant_xx.mdl"}
+	{Volume "body"
+	}
+	{Volume "engine"
+	}
+	{Volume "gun2_rot"
+	}
+	{Volume "gun2"
+	}
+	{Volume "gun"
+	}
+	{Volume "mantlet"
+	}
+	{Volume "turret"
+	}
+}

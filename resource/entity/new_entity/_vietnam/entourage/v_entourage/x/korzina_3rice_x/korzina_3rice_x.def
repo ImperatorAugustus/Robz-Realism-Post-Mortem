@@ -1,0 +1,5 @@
+{game_entity
+	{Extension "korzina_3rice_x.mdl"}
+	{Volume "piece01"
+	}
+}

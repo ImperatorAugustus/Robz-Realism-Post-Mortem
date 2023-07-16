@@ -1,0 +1,23 @@
+;Exported by: Руслан
+;Date:        Tue Aug 20 15:55:33 2013
+;File:        C:\Users\Руслан\Documents\3dsmax\scenes\Новая папка\new_okop_1_roof.max
+{Skeleton
+	{bone "roof_bun_small_1"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "roof_bun_small_1.ply"}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "roof_bun_small_1"}
+	{Matrix34
+		1	0	0
+		0	0.968182	0.250249
+		0	-0.250249	0.968182
+		4.54926	6.14529	24.7631
+	}
+}

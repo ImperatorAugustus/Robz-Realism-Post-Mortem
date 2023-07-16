@@ -1,0 +1,23 @@
+;Exported by: Фёдор
+;Date:        Mon Jul 14 17:39:12 2014
+;File:        C:\Users\Фёдор\Documents\3dsmax\scenes\fqw\belgiangate.max
+{Skeleton
+	{bone "wire"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "wire.ply"}
+	}
+}
+{Volume "body_w"
+	{Cylinder 9.84548 57.0495}
+	{Bone "wire"}
+	{Matrix34
+		0	0	1
+		-1	0	0
+		0	-1	0
+		0.285419	-0.617563	8.35905
+	}
+}

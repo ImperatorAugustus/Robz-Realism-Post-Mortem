@@ -1,0 +1,7 @@
+{actor
+	(include "/properties/stuff_small.ext")
+	{extender "stuff"
+		{item "helmet_rus_ssh40_cover_camo"}
+	}
+	{Extension "helmet_rus_ssh40_cover.mdl"}
+}

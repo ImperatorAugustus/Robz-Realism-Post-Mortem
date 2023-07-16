@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "svt40"}
+	{blend none}
+}

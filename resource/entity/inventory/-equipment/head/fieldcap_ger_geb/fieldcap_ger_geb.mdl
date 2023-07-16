@@ -1,0 +1,52 @@
+;Exported by: Kalinski
+;Date:        Fri Aug 26 20:22:38 2016
+;File:        C:\Users\Kalinski\Desktop\cappo\fieldcap geb.max
+{Skeleton
+	{bone "fieldcap_ger_geb"
+		{Matrix34
+			1	0	0
+			0	-1	0
+			0	0	1
+                        -0.45	0	0.5
+		}
+		{VolumeView "fieldcap_ger_geb.ply"}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "fieldcap_ger_geb"}
+}
+{Volume "select"
+	{Box 5.54121 3.67075 2.93976}
+	{Bone "fieldcap_ger_geb"}
+	{Matrix34
+		1.0387	0	0
+		0	1.0387	0
+		0	0	1.0387
+		1.84838	0.139949	3.21578
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 6.58307	-4.60426	1.54701}
+			{lookat 1.29437	0.377072	3.51748}
+			{fov 45}
+			{horizon -0.239031}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 3.55957	-1.33045	3.47408}
+			}
+			{"1"
+				{type point}
+				{position 1.3762	-2.3209	2.53304}
+			}
+			{"2"
+				{type directional}
+				{direction -0.0024218	0.00152097	-0.499992}
+			}
+		}
+	}
+}

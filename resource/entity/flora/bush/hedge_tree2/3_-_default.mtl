@@ -1,0 +1,5 @@
+{material simple
+	{diffuse "$/flora/thuya_tree2"}
+	{blend test}
+	{alphatocoverage}
+}

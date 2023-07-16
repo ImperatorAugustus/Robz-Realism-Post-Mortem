@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "$/flora/jap/palms_new"}
+	{bump "$/flora/jap/palms_new_bp"}
+	{color "229 229 229 50"}
+	{blend test}
+}

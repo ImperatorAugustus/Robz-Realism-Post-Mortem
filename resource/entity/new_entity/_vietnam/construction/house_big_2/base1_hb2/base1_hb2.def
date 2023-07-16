@@ -1,0 +1,14 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{Extension "base1_hb2.mdl"}
+	{props "cornered" "wood" "parts" "construction" "burning" "wood_stamp" "wall"}
+	("armor_house_wood")
+        {mass 1000}
+	{obstacleID "small_building"}
+
+	{Volume "body"
+		{Tags  "body"}
+		{Thickness 10}
+		{able {obstacle 0}}
+	}
+}

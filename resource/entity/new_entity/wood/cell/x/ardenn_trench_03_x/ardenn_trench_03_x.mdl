@@ -1,0 +1,132 @@
+;Exported by: Руслан
+;Date:        Tue Aug 20 10:41:42 2013
+;File:        C:\Users\Руслан\Documents\3dsmax\scenes\Новая папка\new_okop_x.max
+{Skeleton
+	{bone "ardenn_trench_03_x"
+		{parameters "Land;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "ardenn_trench_03_x.ply" {Ground} {DecalTarget}}
+	}
+}
+{Obstacle "body1"
+	{Obb2
+		{Center -21.7188 -4.36117}
+		{Extent 3.77544 7.61823}
+		{Axis 0.999391 0.0348818}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body2"
+	{Obb2
+		{Center -18.65 3.62936}
+		{Extent 7.60456 3.7474}
+		{Axis 0.883064 0.469253}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body3"
+	{Obb2
+		{Center -16.0297 -11.9816}
+		{Extent 3.75767 7.60958}
+		{Axis 0.358938 0.933361}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body4"
+	{Obb2
+		{Center -11.7443 15.4094}
+		{Extent 10.7057 3.77547}
+		{Axis 0.276267 0.961081}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body5"
+	{Obb2
+		{Center 0.0488358 -20.7596}
+		{Extent 10.6895 3.72889}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body6"
+	{Obb2
+		{Center 15.4685 2.14105}
+		{Extent 4.51582 24.3488}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body7"
+	{Obb2
+		{Center 0.0488358 21.0333}
+		{Extent 10.6895 3.72889}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body1"
+	{Box 15.191 7.45779 31.839}
+	{Bone "ardenn_trench_03_x"}
+	{Matrix34
+		-0.0410148	-0.999159	0
+		0.999159	-0.0410148	0
+		0	0	1
+		-21.7188	4.36117	-12.1674
+	}
+}
+{Volume "body2"
+	{Box 15.191 7.45779 31.839}
+	{Bone "ardenn_trench_03_x"}
+	{Matrix34
+		0.884205	-0.467099	0
+		0.467099	0.884205	0
+		0	0	1
+		-18.65	-3.62936	-12.1674
+	}
+}
+{Volume "body3"
+	{Box 15.191 7.45779 31.839}
+	{Bone "ardenn_trench_03_x"}
+	{Matrix34
+		-0.934716	-0.355395	0
+		0.355395	-0.934716	0
+		0	0	1
+		-16.0297	11.9816	-12.1674
+	}
+}
+{Volume "body4"
+	{Box 21.3791 7.45779 31.839}
+	{Bone "ardenn_trench_03_x"}
+	{Matrix34
+		0.280455	-0.959867	0
+		0.959867	0.280455	0
+		0	0	1
+		-11.7443	-15.4094	-12.1674
+	}
+}
+{Volume "body5"
+	{Box 21.3791 7.45779 31.839}
+	{Bone "ardenn_trench_03_x"}
+	{Position 0.0488358	20.7596	-12.1674}
+}
+{Volume "body6"
+	{Box 9.03165 48.6976 31.839}
+	{Bone "ardenn_trench_03_x"}
+	{Position 15.4685	-2.14105	-12.1674}
+}
+{Volume "body7"
+	{Box 21.3791 7.45779 31.839}
+	{Bone "ardenn_trench_03_x"}
+	{Position 0.0488358	-21.0333	-12.1674}
+}

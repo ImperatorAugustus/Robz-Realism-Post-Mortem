@@ -1,0 +1,146 @@
+{game_entity
+	(include "/properties/tank.ext")
+	(include "/properties/selection/vehicle.inc"  scale(1.2))
+	{collider "tank.heavy"}
+	{props "heavy" "-turret" "vision_vehicle_maximum" "muzzle_maximum"}
+
+	{extender "enumerator"
+		{digit_folder "ger"}
+	}
+
+	{volume "body1"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "body2"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "body3"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "body4"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "body5"
+		{tags "body"}
+		{component "body"}
+	}
+
+	("armor_heavy" body(100 50 30 20) turret(100 50 30 20))
+	("armor_engine"  t(10 50 30 20))
+	("shield" args 10)
+
+	{extender "shield"
+		{on}
+	}
+	{component "shieldl1" {tags "shield"}}
+	{component "shieldl2" {tags "shield"}}
+	{component "shieldl3" {tags "shield"}}
+	{component "shieldl4" {tags "shield"}}
+	{component "shieldl5" {tags "shield"}}
+	{component "shieldl6" {tags "shield"}}
+	{component "shieldr1" {tags "shield"}}
+	{component "shieldr2" {tags "shield"}}
+	{component "shieldr3" {tags "shield"}}
+	{component "shieldr4" {tags "shield"}}
+	{component "shieldr5" {tags "shield"}}
+	{component "shieldr6" {tags "shield"}}
+
+	("crew_4_human")
+
+	{boarder
+		{anm "right"
+			{forward	{begin	"board_Is-2"} {end "seat_m7_mgunner"}}
+			{reverse	{end	"emit_tank_1_hold"}}
+		}
+		{anm "armor"
+			{forward	{begin	"board_HighArmor"} 	{end "pose_seat_armor_1"}}
+			{reverse	{end	"emit_tank_2"}}
+		}
+		{anm "armor1"
+			{forward	{begin	"board_HighArmor"} 	{end "pose_seat_armor_1"}}
+			{reverse	{end	"emit_body"}}
+		}
+		{anm "armor2"
+			{forward	{begin	"board_body"} {end "pose_seat_armor_1"}}
+			{reverse	{end	"emit_body"}}
+		}
+		{anm "armor3"
+			{forward	{begin	"board_body"} 	{end "seat_isu"}}
+			{reverse	{end	"emit_tank_2"}}
+		}
+	}
+
+	("seat_human" place(seat3) bone(seat03) door(emit3)  animation(armor))
+	("seat_human" place(seat4) bone(seat04) door(emit4)  animation(armor1))
+	("seat_human" place(seat1) bone(seat01) door(emit5)  animation(armor2))
+	("seat_human" place(seat2) bone(seat02) door(emit6)  animation(armor1))
+
+	{extender "inventory"
+		{box
+			{item "ammo bullet150 gers fg" 23}
+			{item "ammo bullet150 gers sm" 6}
+			{item "ammo bullet150 gers heat" 4}
+			{item "ammo mg_mauser belt" 1000}
+		}
+	}
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon		"150mm_Stuh43" filling "ammo bullet150 ger fg" 1}	
+			("abm_direct_how")
+		}
+		{place "mgun"
+			{type		"mgun_hull"}
+			{weapon		"mg34" filled}
+			{foresight	"foresight2"}
+			{gunner		"driver"}
+			{charger	"driver"}
+			("abm_mgun")
+			{basic}
+		}
+	}
+
+	{mass 28200}
+	{Chassis
+		("tank_trace" fx("tracks_big") step(0.47) len(0.23))
+		{Locomotion ("locomotion")
+			{MaxSpeed			28}
+			{maxSpeedAtMaxTurn		4}
+			{StartTime			45}
+			{TurnTime			19}
+			{TurnStart			2}
+			{BrakeTime			1}
+			{StopTime			2}
+			{TurnRadius			10}
+			{TurnStop			1}
+			{Gears				0.1 0.2 0.3 1.0}
+			{RearGears			0.28}
+		}
+		{FuelBag
+			{volume		470 }
+			{rate		36 }
+			{remain		470 }
+			{fuel		"fuel"}
+		}
+		{speed
+			{Normal		28}
+			{Slow		28}
+		}
+	}
+
+	{Extension "brummbar.mdl"}
+
+	{bone "gun_rot2"
+		{limits -10 10}		;gun min right to max left
+		{speed 0.0005}
+	}
+	{bone "gun_rot1"
+		{limits -30 8}		;gun min up to max down
+		{speed 0.0005}
+	}
+}

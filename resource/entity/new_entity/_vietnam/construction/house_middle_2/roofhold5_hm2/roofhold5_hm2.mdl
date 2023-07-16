@@ -1,0 +1,40 @@
+;Exported by: Loskutov_K
+;Date:        Thu Feb 25 11:42:45 2010
+;File:        D:\_Vietnam\Art\Models\Houses\House_middle_2\hm2_complete.max
+{Skeleton
+	{bone "roofhold5_hm2"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "roofhold5_hm2.ply"}
+		{bone "exterior"
+			{Position -2.15733	-23.6563	19.8243}
+			{VolumeView "exterior.ply"}
+		}
+		{bone "fix16"
+			{Position -11.3544	0.113026	-0.189075}
+		}
+	}
+}
+{Volume "roof1"
+	{Box 56.5316 2.79606 32.6253}
+	{Bone "exterior"}
+	{Matrix34
+		0	-1	0
+		0.661887	0	0.749603
+		-0.749603	0	0.661887
+		13.8205	6.40109	7.47054
+	}
+}
+{Volume "roof2"
+	{Box 62.1226 2.79606 32.6253}
+	{Bone "exterior"}
+	{Matrix34
+		0	1	0
+		-0.661887	0	0.749603
+		0.749603	0	0.661887
+		-9.37964	6.30385	7.47054
+	}
+}

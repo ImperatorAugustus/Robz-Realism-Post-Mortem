@@ -1,0 +1,23 @@
+{fx
+	{particleview "mortar shells"
+		{entitygenerator
+			{totalparticles 20}
+			{particlesinblock 1}
+			{emissionarea
+				{radius 250 250}
+				{alpha0 0}
+				{alpha1 0}
+				{## distributionlaw disk}
+				{speed 0.005}
+			}
+			{particleinit
+				{speed -25}
+				{lifetime 5}
+			}
+			{entity "mortar_shell_dropping"}
+			{axisz}
+			{timetolive 60}
+		}
+		{offset 0 0 1000}
+	}
+}

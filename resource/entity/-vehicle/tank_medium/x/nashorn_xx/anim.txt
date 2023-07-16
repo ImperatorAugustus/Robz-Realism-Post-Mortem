@@ -1,0 +1,33 @@
+-= Animation: break, Node trackR =-
+	Frame 275 {
+		Visibility 1
+		Position	2.45051	5.8619	-3.84353
+		Orientation	0 0 0 1
+	}
+	Frame 295 {
+		Visibility 1
+		Position	2.45051	5.8619	-3.84353
+		Orientation	0 0 0 1
+	}
+-= Animation: break, Node trackL =-
+	Frame 250 {
+		Visibility 1
+		Position	-1.44925	5.8619	3.84354
+		Orientation	0 0 0 1
+	}
+	Frame 270 {
+		Visibility 1
+		Position	-1.44925	5.8619	3.84354
+		Orientation	0 0 0 1
+	}
+-= Animation: break, Node body =-
+	Frame 130 {
+		Visibility 1
+		Position	4.13103	0	30.5811
+		Orientation	0 -0.0119195 0 0.999929
+	}
+	Frame 142 {
+		Visibility 1
+		Position	4.13103	0	30.5811
+		Orientation	0 -0.0119195 0 0.999929
+	}

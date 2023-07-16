@@ -1,0 +1,96 @@
+;Exported by: Kislov_A
+;Date:        Wed Apr 14 15:14:15 2010
+;File:        E:\Men of war red tide2\Art\Models\Houses\House_small_2\hs2_bumpspec.max
+{Skeleton
+	{bone "base2_hs2"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "base2_hs2.ply"}
+		{bone "fix10"
+			{Position 37.7065	32.8646	-46.8838}
+		}
+	}
+}
+{Volume "body1"
+	{Box 2.08661 2.08661 77.3051}
+	{Bone "base2_hs2"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		-40.1149	-0.235271	-6.08567
+	}
+}
+{Volume "body2"
+	{Box 2.08661 2.08661 77.3051}
+	{Bone "base2_hs2"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		39.059	-0.235287	-6.08567
+	}
+}
+{Volume "body3"
+	{Box 2.08661 2.08661 99.4917}
+	{Bone "base2_hs2"}
+	{Matrix34
+		0	1	0
+		0	0	-1
+		-1	0	0
+		-0.936333	-31.2341	4.26379
+	}
+}
+{Volume "body4"
+	{Box 2.08661 2.08661 99.8396}
+	{Bone "base2_hs2"}
+	{Matrix34
+		0	1	0
+		0	0	-1
+		-1	0	0
+		0.509846	31.0186	4.1097
+	}
+}
+{Volume "body5"
+	{Box 2.08661 2.08661 41.4062}
+	{Bone "base2_hs2"}
+	{Matrix34
+		0	1	0
+		-1	0	0
+		0	0	1
+		37.6459	33.0633	-6.80021
+	}
+}
+{Volume "body6"
+	{Box 2.08661 2.08661 39.3514}
+	{Bone "base2_hs2"}
+	{Matrix34
+		0	1	0
+		-1	0	0
+		0	0	1
+		37.5208	-33.3457	-4.30255
+	}
+}
+{Volume "body7"
+	{Box 2.08661 2.08661 42.691}
+	{Bone "base2_hs2"}
+	{Matrix34
+		0	1	0
+		-1	0	0
+		0	0	1
+		-37.3554	-33.3141	-3.62336
+	}
+}
+{Volume "body8"
+	{Box 2.08661 2.08661 40.5203}
+	{Bone "base2_hs2"}
+	{Matrix34
+		0	1	0
+		-1	0	0
+		0	0	1
+		-37.423	32.9914	-3.04949
+	}
+}

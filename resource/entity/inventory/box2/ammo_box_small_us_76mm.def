@@ -1,0 +1,11 @@
+{game_entity
+	(include "/properties/box.ext")
+	(include "/properties/resupply_generic.inc")
+	("box_ammo_small_us_76mm")
+	{props "-steel" "wood" "ammo_box_small"}
+
+	{extender "stuff"
+		{item "ammo_box_small_us_76mm"}
+	}
+	{Extension "box2.mdl"}
+}

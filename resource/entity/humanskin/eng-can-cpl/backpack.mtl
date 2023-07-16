@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/humanskin/eng/can/brit rucksack"}
+	{blend none}
+}

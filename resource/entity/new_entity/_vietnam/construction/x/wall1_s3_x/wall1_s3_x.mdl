@@ -1,0 +1,64 @@
+;Exported by: Loskutov_K
+;Date:        Wed Apr 21 13:39:52 2010
+;File:        D:\_Vietnam\Art\Models\Houses\X\Saray_3_x\saray_3_x.max
+{Skeleton
+	{bone "wall1_s3_x"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "piece02"
+			{Matrix34
+				0	1	0
+				-1	0	0
+				0	0	1
+				0.0338287	-2.19392	12.8421
+			}
+			{VolumeView "piece02.ply"}
+		}
+		{bone "piece01"
+			{Matrix34
+				0	1	0
+				-1	0	0
+				0	0	1
+				0.0154419	0.0743256	-10.5095
+			}
+			{VolumeView "piece01.ply"}
+		}
+		{bone "piece03"
+			{Matrix34
+				0	0	-1
+				-1	0	0
+				0	1	0
+				0.300095	0.142059	-0.545326
+			}
+			{VolumeView "piece03.ply"}
+		}
+	}
+}
+{Volume "piece01"
+	{Box 15.5304 17.4172 1.81429}
+	{Bone "piece01"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		0.575161	0.431903	-2.86692
+	}
+}
+{Volume "piece02"
+	{Box 19.5218 18.3607 2.27803}
+	{Bone "piece02"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		1.12288	0.21842	-1.12587
+	}
+}
+{Volume "piece03"
+	{Box 1.07629 1.01863 22.3795}
+	{Bone "piece03"}
+	{Position -0.0686169	-0.0171051	-0.591425}
+}

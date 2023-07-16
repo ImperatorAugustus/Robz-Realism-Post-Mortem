@@ -1,0 +1,29 @@
+{game_entity
+	{Extension "hetzer_xx.mdl"}
+	{Volume "body2"
+	}
+	{Volume "body"
+	}
+	{Volume "engine"
+	}
+	{Volume "gun"
+	}
+	{Volume "mantlet"
+	}
+	{Volume "shieldl1"
+	}
+	{Volume "shieldl2"
+	}
+	{Volume "shieldl3"
+	}
+	{Volume "shieldr1"
+	}
+	{Volume "shieldr2"
+	}
+	{Volume "shieldr3"
+	}
+	{Volume "trackleft"
+	}
+	{Volume "trackright"
+	}
+}

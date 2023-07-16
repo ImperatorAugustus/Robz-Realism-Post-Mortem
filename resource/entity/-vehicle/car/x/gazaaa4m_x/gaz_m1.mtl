@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "gaz-mm_death"}
+	{bump "$/model/gaz-mm_sp"}
+	{blend test}
+}

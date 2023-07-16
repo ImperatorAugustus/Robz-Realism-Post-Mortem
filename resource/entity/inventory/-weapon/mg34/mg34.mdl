@@ -1,0 +1,86 @@
+;Exported by: þæ
+;Date:        Thu Feb 05 20:38:10 2009
+;File:        C:\Users\þæ\Desktop\mg34.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "handle"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				6.41076	1.47644	0.274144
+			}
+		}
+		{bone "foresight3"
+			{Position 17.6665	1.98192	0.326127}
+		}
+		{bone "mg34"
+			{parameters "ID=mgun;"}
+			{Matrix34
+				0	0	1
+				0	1	0
+				1	0	0
+				0.570342	-2.86064	0.276723
+			}
+			{VolumeView "mg34.ply"}
+		}
+		{bone "fxshell"
+			{Matrix34
+				0	0.130526	0.991445
+				-1	0	0
+				0	-0.991445	0.130526
+				2.64041	1.41395	0.336599
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 23.4625 3.40523 1.18138}
+	{Bone "basis"}
+	{Matrix34
+		0.999962	0.00872651	0
+		-0.00872651	0.999962	0
+		0	0	1
+		5.65136	0.654298	0.0437012
+	}
+}
+{Volume "select"
+	{Box 26.8339 10.6014 2.39379}
+	{Bone "basis"}
+	{Position 5.81856	-0.134959	-0.13759}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 6.62818	-6.3698	32.1661}
+			{lookat 6.14337	-3.61943	15.6367}
+			{fov 45}
+			{horizon -177.044}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 14.5696	-4.38938	7.74909}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin 6.63234	-6.4833	32.8271}
+			{lookat 6.12813	-3.62293	15.6366}
+			{fov 45}
+			{horizon -177.044}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 14.5696	-4.38938	7.74909}
+			}
+		}
+	}
+}

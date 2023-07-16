@@ -1,0 +1,21 @@
+{game_entity
+                  (include "/properties/trench_new.inc")           
+	{Extension "ardenn_trench_baza_6.mdl"}
+	{props "wood"}
+	{placer}
+	{extender "structure"
+		{place "wall_01" "ardenn_trench_baza_wall_19"}
+		{place "wall_02" "ardenn_trench_baza_wall_12"}
+		{place "wall_03" "ardenn_trench_baza_wall_17"}
+		{place "wall_04" "ardenn_trench_baza_wall_14"}
+		{place "wall_05" "ardenn_trench_baza_wall_15"}
+		{place "wall_06" "ardenn_trench_baza_wall_18"}
+		{place "wall_07" "ardenn_trench_baza_wall_20"}
+		{place "wall_roof_1" "ardenn_trench_baza_wall_roof_7"}
+		{place "wall_roof_2" "ardenn_trench_baza_wall_roof_8" "ardenn_trench_baza_wall_roof_tent"}
+		{place "gun_nest" "browning_stan" "mg42_stan" "type1hmg_stan_fix"}
+
+	}
+	{Extender "land_patch"
+	}
+}

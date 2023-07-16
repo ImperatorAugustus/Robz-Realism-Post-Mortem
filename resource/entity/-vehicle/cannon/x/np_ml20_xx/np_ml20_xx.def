@@ -1,0 +1,23 @@
+{game_entity
+	{Extension "np_ml20_xx.mdl"}
+	{Volume "body1"
+	}
+	{Volume "body"
+	}
+	{Volume "gun_rot"
+	}
+	{Volume "gun"
+	}
+	{Volume "standl"
+	}
+	{Volume "standr"
+	}
+	{Volume "part2"
+	}
+	{Volume "turret2"
+	}
+	{Volume "part1"
+	}
+	{Volume "wheelright"
+	}
+}

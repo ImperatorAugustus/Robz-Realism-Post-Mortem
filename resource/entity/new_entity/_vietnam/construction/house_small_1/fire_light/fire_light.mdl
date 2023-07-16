@@ -1,0 +1,21 @@
+;Exported by: Kislov_A
+;Date:        Wed Apr 14 14:26:49 2010
+;File:        E:\Men of war red tide2\Art\Models\Houses\House_small_1\hs1.max
+{Skeleton
+	{bone "fire_light"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "fire_light.ply"}
+		{bone "fix23"
+			{Position 30.2894	-35.3999	17.0472}
+		}
+	}
+}
+{Volume "fire0"
+	{Box 73.2992 75.7382 5.51181}
+	{Bone "fire_light"}
+	{Position -3.22982	-0.759352	20.972}
+}

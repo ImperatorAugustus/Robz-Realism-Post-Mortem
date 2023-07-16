@@ -1,0 +1,21 @@
+;Exported by: Kislov_A
+;Date:        Wed Apr 14 14:26:57 2010
+;File:        E:\Men of war red tide2\Art\Models\Houses\House_small_1\hs1.max
+{Skeleton
+	{bone "wall3_hs1"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "wall3_hs1.ply"}
+		{bone "fix05"
+			{Position 0.980342	1.3967	-21.7826}
+		}
+	}
+}
+{Volume "body"
+	{Box 70.9627 2.08661 42.9925}
+	{Bone "wall3_hs1"}
+	{Position 1.91107	2.15245	12.4666}
+}

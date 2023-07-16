@@ -1,0 +1,21 @@
+;Exported by: Kislov_A
+;Date:        Thu Apr 15 10:34:56 2010
+;File:        E:\Men of war red tide2\Art\Models\Houses\House_middle_1\hm1_complete.max
+{Skeleton
+	{bone "firelight2_hm"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "firelight2_hm.ply"}
+		{bone "fix39"
+			{Position -16.1851	-43.1491	-15.867}
+		}
+	}
+}
+{Volume "fire0"
+	{Box 44.9878 94.5799 2.59516}
+	{Bone "firelight2_hm"}
+	{Position 0.921486	0.208083	-13.7462}
+}

@@ -1,0 +1,6 @@
+{Game_entity
+	(include "/properties/human_part.ext")
+	{props "ps_dummy" "flesh"}
+	{Extension "#_hand05.mdl"}
+	{mass 10}
+}

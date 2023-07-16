@@ -1,0 +1,6 @@
+{material simple
+	{diffuse "$/flora/hedge4"}
+	{blend test}
+	{tile}
+	{alphatocoverage}
+}

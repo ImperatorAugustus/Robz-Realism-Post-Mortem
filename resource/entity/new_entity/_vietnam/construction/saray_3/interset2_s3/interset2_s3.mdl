@@ -1,0 +1,24 @@
+;Exported by: Loskutov_K
+;Date:        Wed Apr 21 14:05:04 2010
+;File:        D:\_Vietnam\Art\Models\Houses\Saray_3\saray_3_complete.max
+{Skeleton
+	{bone "interset2_s3"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "interset2_s3.ply"}
+		{bone "fix04"
+			{Position -24.8737	24.3948	-18.4858}
+		}
+		{bone "fix03"
+			{Position -24.8737	-23.6399	-18.4858}
+		}
+	}
+}
+{Volume "body"
+	{Box 27.4331 52.3653 3.49977}
+	{Bone "interset2_s3"}
+	{Position 0.150264	-0.0604515	-15.3309}
+}

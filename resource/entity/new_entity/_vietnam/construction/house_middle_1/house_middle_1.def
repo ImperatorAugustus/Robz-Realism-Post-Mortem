@@ -1,0 +1,47 @@
+{game_entity
+	{Extension "house_middle_1.mdl"}
+	{placer}
+	{extender "structure"
+		{place "1" "porch1_hm1"}
+		{place "2" "ladder_hm1"}
+		{place "3" "porch2_hm1"}
+		{place "4" "base4_hm1"}
+		{place "5" "base5_hm1"}
+		{place "6" "base6_hm1"}
+		{place "7" "base2_hm1"}
+		{place "8" "porch3_hm1"}
+		{place "9" "base8_hm1"}
+		{place "10" "base7_hm1"}
+		{place "11" "base1_hm1"}
+		{place "12" "base3_hm1"}
+		{place "13" "roofhold7_hm1"}
+		{place "14" "roofhold3_hm1"}
+		{place "15" "roofhold6_hm1"}
+		{place "16" "roofhold8_hm1"}
+		{place "17" "roofhold2_hm1"}
+		{place "18" "roofhold5_hm1"}
+		{place "20" "roofhold1_hm1"}
+		{place "21" "roofhold4_hm1"}
+		{place "22" "perila_hm1"}
+		{place "23" "wall7_hm1"}
+		{place "24" "wall6_hm1"}
+		{place "25" "wall5_hm1"}
+		{place "26" "wall4_hm1"}
+		{place "27" "wall3_hm1"}
+		{place "28" "wall2_hm1"}
+		{place "29" "wall1_hm1"}
+		{place "31" "interset2_hm1"}
+		{place "32" "interset3_hm1"}
+		{place "33" "interset4_hm1"}
+		{place "34" "interset5_hm1"}
+		{place "35" "interset6_hm1"}
+		{place "36" "interset10_hm1"}
+		{place "37" "interset7_hm1"}
+		{place "38" "interset8_hm1"}
+		{place "39" "interset9_hm1"}
+		{place "40" "interset11_hm1"}
+		{place "42" "firelight1_hm1"}
+		{place "43" "firelight2_hm1"}
+		{place "19" "roofhold9_hm1"}
+	}
+}

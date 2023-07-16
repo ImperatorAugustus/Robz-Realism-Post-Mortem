@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "russelite_extras_colspec"}
+	{blend none}
+}

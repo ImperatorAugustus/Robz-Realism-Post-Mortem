@@ -1,0 +1,68 @@
+;Exported by: Kislov_A
+;Date:        Thu Apr 15 10:34:58 2010
+;File:        E:\Men of war red tide2\Art\Models\Houses\House_middle_1\hm1_complete.max
+{Skeleton
+	{bone "interset3_hm1"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "interset3_hm1.ply"}
+		{bone "fix29"
+			{Position 3.39761	-10.4411	20.8059}
+		}
+	}
+}
+{Obstacle "body1"
+	{Obb2
+		{Center -5.33748 8.9682}
+		{Extent 19.8094 1.28537}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body2"
+	{Obb2
+		{Center 3.56495 2.90039}
+		{Extent 3.52446 3.59019}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body3"
+	{Obb2
+		{Center 17.3687 0.575016}
+		{Extent 4.95833 6.05122}
+		{Axis 0.920584 0.390544}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body1"
+	{Box 0.686718 39.6154 16.4215}
+	{Bone "interset3_hm1"}
+	{Matrix34
+		0.0013448	-0.993738	-0.111726
+		-0.999999	-0.00135336	0
+		-0.000151999	0.111726	-0.993739
+		-5.33748	-8.9682	-0.831903
+	}
+}
+{Volume "body2"
+	{Box 7.04891 7.18039 7.39009}
+	{Bone "interset3_hm1"}
+	{Position 3.56495	-2.90039	-5.45668}
+}
+{Volume "body3"
+	{Box 9.86848 12.0631 15.7409}
+	{Bone "interset3_hm1"}
+	{Matrix34
+		0.919014	-0.394224	0
+		0.394224	0.919014	0
+		0	0	1
+		17.3687	-0.575016	-1.28128
+	}
+}

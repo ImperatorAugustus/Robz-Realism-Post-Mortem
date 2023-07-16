@@ -1,0 +1,69 @@
+;Exported by: Loskutov_K
+;Date:        Fri Mar 26 15:10:16 2010
+;File:        D:\_Vietnam\Art\Models\Houses\X\House_small_2\x_hs2.max
+{Skeleton
+	{bone "ladder_hs2_x"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "piece03"
+			{Matrix34
+				0.432807	0	-0.901487
+				-0.901487	0	-0.432807
+				0	1	0
+				5.50165	-1.53603	-7.77978
+			}
+			{VolumeView "piece03.ply"}
+		}
+		{bone "piece02"
+			{Matrix34
+				0.432807	0	-0.901487
+				-0.901487	0	-0.432807
+				0	1	0
+				1.37012	0.543821	-0.283041
+			}
+			{VolumeView "piece02.ply"}
+		}
+		{bone "piece01"
+			{Matrix34
+				0.432807	0	-0.901487
+				-0.901487	0	-0.432807
+				0	1	0
+				-1.9948	-0.245765	6.01443
+			}
+			{VolumeView "piece01.ply"}
+		}
+	}
+}
+{Volume "piece01"
+	{Box 0.923401 1.06768 15.6751}
+	{Bone "piece01"}
+	{Matrix34
+		0.432807	-0.901487	0
+		-0.901487	-0.432807	0
+		0	0	-1
+		-0.0839692	-0.00230495	0.0487938
+	}
+}
+{Volume "piece02"
+	{Box 0.923401 1.06768 22.393}
+	{Bone "piece02"}
+	{Matrix34
+		0.432807	-0.901487	0
+		-0.901487	-0.432807	0
+		0	0	-1
+		0.015883	0.00890054	-0.266068
+	}
+}
+{Volume "piece03"
+	{Polyhedron "piece03.vol"}
+	{Bone "piece03"}
+	{Matrix34
+		0.998061	-0.0622385	0
+		-0.0622385	-0.998061	0
+		0	0	-1
+		-0.122494	0.799869	7.93576
+	}
+}

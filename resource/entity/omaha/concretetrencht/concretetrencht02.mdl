@@ -1,0 +1,51 @@
+;Exported by: Administrator
+;Date:        Thu Mar 26 03:39:28 2015
+;File:        F:\我的文档\3d\工事类\0-碉堡类\mil_101_10_ConcreteTrencht\ConcreteTrencht.max
+{Skeleton
+	{bone "trench_ground3"
+		{parameters "CommonMesh;Ground;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "trench_ground3.ply" {Ground} {DecalTarget}}
+	}
+}
+{Obstacle "body07"
+	{Obb2
+		{Center -0.769583 -16.915}
+		{Extent 64.024 4.31985}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body08"
+	{Obb2
+		{Center -0.769583 12.3961}
+		{Extent 64.024 4.31985}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Area "cut"
+	{Polygon2
+		{Radius 0}
+		{Vertex -64.9071 15.5886}
+		{Vertex -64.9071 -19.992}
+		{Vertex 65.0047 -19.6174}
+		{Vertex 64.8174 15.9632}
+	}	{Rotate}
+}
+{Volume "body07"
+	{Polyhedron "body07.vol"}
+	{Bone "trench_ground3"}
+	{Position 2.11659	14.7505	0.0221572}
+}
+{Volume "body08"
+	{Polyhedron "body08.vol"}
+	{Bone "trench_ground3"}
+	{Position 2.11659	-10.5281	0.0221572}
+}

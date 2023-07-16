@@ -148,8 +148,8 @@
 			{fuel "fuel"}
 		}
 		{speed
-        	{Normal  10}
-        	{Slow  16}
+        	{Normal  26}
+        	{Slow  26}
     	}
 	}
 

@@ -1,0 +1,212 @@
+;Exported by: Kislov_A
+;Date:        Wed Apr 14 15:14:22 2010
+;File:        E:\Men of war red tide2\Art\Models\Houses\House_small_2\hs2_bumpspec.max
+{Skeleton
+	{bone "base1_hs2"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "base1_hs2.ply"}
+		{bone "land"
+			{parameters "Land;Ground;"}
+			{Position 0.918169	-0.0555534	0.579514}
+			{VolumeView "land.ply" {Ground}}
+		}
+	}
+}
+{Obstacle "body1"
+	{Obb2
+		{Center 0.0358849 -34.5672}
+		{Extent 41.868 1.04331}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body2"
+	{Obb2
+		{Center -40.6287 0.571239}
+		{Extent 1.04331 35.4814}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body3"
+	{Obb2
+		{Center 0.0358849 35.1891}
+		{Extent 41.868 1.04331}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body4"
+	{Obb2
+		{Center 41.4871 22.0104}
+		{Extent 1.04331 13.6975}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body5"
+	{Obb2
+		{Center 41.4871 -22.374}
+		{Extent 1.04331 12.8959}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body6"
+	{Obb2
+		{Center -36.4123 -33.4772}
+		{Extent 1.04331 1.04331}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Obstacle "body7"
+	{Obb2
+		{Center 38.7831 33.1743}
+		{Extent 1.04331 1.04331}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Obstacle "body8"
+	{Obb2
+		{Center -35.9272 33.3583}
+		{Extent 1.04331 1.04331}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Obstacle "body9"
+	{Obb2
+		{Center 38.8535 -33.6098}
+		{Extent 1.04331 1.04331}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Area "interior"
+	{Obb2
+		{Center 0.487396 0.366111}
+		{Extent 39.6004 34.0625}
+		{Axis -1 0}
+	}
+	{Rotate}
+}
+{Obstacle "obstacle1"
+	{Obb2
+		{Center -0.18837 38.0523}
+		{Extent 45.6046 1.28739}
+		{Axis -1 0}
+	}
+	{Rotate}
+}
+{Obstacle "obstacle1"
+	{Obb2
+		{Center 44.0923 23.3522}
+		{Extent 13.1215 1.28739}
+		{Axis 0 1}
+	}
+	{Rotate}
+}
+{Obstacle "obstacle2"
+	{Obb2
+		{Center -0.279816 -37.7771}
+		{Extent 45.2277 1.28739}
+		{Axis -1 0}
+	}
+	{Rotate}
+}
+{Obstacle "obstacle3"
+	{Obb2
+		{Center -45.2056 0.23082}
+		{Extent 35.8017 1.00172}
+		{Axis 0 1}
+	}
+	{Rotate}
+}
+{Obstacle "obstacle3"
+	{Obb2
+		{Center 43.8864 -23.5721}
+		{Extent 12.3918 1.28739}
+		{Axis 0 1}
+	}
+	{Rotate}
+}
+{Volume "body10"
+	{Box 86.4319 75.2212 0.928619}
+	{Bone "base1_hs2"}
+	{Position -0.893842	-0.543925	-3.08342}
+}
+{Volume "body1"
+	{Box 83.736 2.08661 12.9456}
+	{Bone "base1_hs2"}
+	{Position 0.0358868	34.5672	0.847393}
+}
+{Volume "body2"
+	{Box 70.9627 2.08661 9.99663}
+	{Bone "base1_hs2"}
+	{Matrix34
+		0	1	0
+		-1	0	0
+		0	0	1
+		-40.6287	-0.571238	1.58088
+	}
+}
+{Volume "body3"
+	{Box 83.736 2.08661 12.9456}
+	{Bone "base1_hs2"}
+	{Position 0.0358868	-35.1891	0.847393}
+}
+{Volume "body4"
+	{Box 27.395 2.08661 9.99663}
+	{Bone "base1_hs2"}
+	{Matrix34
+		0	1	0
+		-1	0	0
+		0	0	1
+		41.4871	-22.0104	1.58088
+	}
+}
+{Volume "body5"
+	{Box 25.7919 2.08661 9.99663}
+	{Bone "base1_hs2"}
+	{Matrix34
+		0	1	0
+		-1	0	0
+		0	0	1
+		41.4871	22.374	1.58088
+	}
+}
+{Volume "body6"
+	{Box 2.08661 2.08661 54.1363}
+	{Bone "base1_hs2"}
+	{Position -36.4123	33.4772	0.0324421}
+}
+{Volume "body7"
+	{Box 2.08661 2.08661 53.4867}
+	{Bone "base1_hs2"}
+	{Position 38.7831	-33.1743	-0.292376}
+}
+{Volume "body8"
+	{Box 2.08661 2.08661 50.1952}
+	{Bone "base1_hs2"}
+	{Position -35.9272	-33.3583	-1.93812}
+}
+{Volume "body9"
+	{Box 2.08661 2.08661 50.3057}
+	{Bone "base1_hs2"}
+	{Position 38.8535	33.6098	-1.88287}
+}

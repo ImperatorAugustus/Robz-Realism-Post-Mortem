@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "t34_85_shield"}
+	{specular "t34_85_shield_sp"}
+	{color "229 229 229 25"}
+	{blend test}
+}

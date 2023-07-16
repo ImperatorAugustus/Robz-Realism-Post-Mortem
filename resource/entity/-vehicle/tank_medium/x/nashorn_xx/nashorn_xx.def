@@ -1,0 +1,17 @@
+{game_entity
+	{Extension "nashorn_xx.mdl"}
+	{Volume "body1"
+	}
+	{Volume "body2"
+	}
+	{Volume "body3"
+	}
+	{Volume "gun"
+	}
+	{Volume "sticky"
+	}
+	{Volume "trackleft"
+	}
+	{Volume "trackright"
+	}
+}

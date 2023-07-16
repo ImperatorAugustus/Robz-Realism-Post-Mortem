@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "jappilotcap1"}
+	{bump "jappilotcap1_bp"}
+	{specular "jappilotcap1_sp"}
+	{color "255 255 255 25"}
+	{blend none}
+}

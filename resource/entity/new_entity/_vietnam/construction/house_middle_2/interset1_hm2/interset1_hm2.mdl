@@ -1,0 +1,55 @@
+;Exported by: Loskutov_K
+;Date:        Thu Feb 25 11:42:59 2010
+;File:        D:\_Vietnam\Art\Models\Houses\House_middle_2\hm2_complete.max
+{Skeleton
+	{bone "interset1_hm2"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "interset1_hm2.ply"}
+		{bone "fix13"
+			{Position -7.51763	-4.70925	23.054}
+		}
+	}
+}
+{Obstacle "body1"
+	{Obb2
+		{Center 2.66147 0.106463}
+		{Extent 19.8094 1.28538}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body1"
+	{Box 0.686718 39.6154 16.4215}
+	{Bone "interset1_hm2"}
+	{Matrix34
+		0.0013451	-0.993738	-0.111726
+		-0.999999	-0.00135364	0
+		-0.000151794	0.111726	-0.993739
+		2.66147	-0.106463	-10.0572
+	}
+}
+{Volume "body2"
+	{Box 3.83625 5.66222 6.03083}
+	{Bone "interset1_hm2"}
+	{Matrix34
+		-0.00274817	-0.999996	0
+		0.999996	-0.00274817	0
+		0	0	1
+		-19.2822	-1.51226	14.3772
+	}
+}
+{Volume "body3"
+	{Box 3.83625 10.2949 9.88661}
+	{Bone "interset1_hm2"}
+	{Matrix34
+		-0.00274817	-0.999996	0
+		0.999996	-0.00274817	0
+		0	0	1
+		4.38693	-0.64045	11.2116
+	}
+}

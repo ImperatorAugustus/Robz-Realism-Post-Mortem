@@ -1,0 +1,19 @@
+;Exported by: Фёдор
+;Date:        Thu Jul 17 13:46:36 2014
+;File:        C:\Users\Фёдор\Documents\3dsmax\scenes\wheat_round_01.max
+{Skeleton
+	{bone "bur_01"
+		{parameters "Land;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "bur_01.ply" {Ground} {DecalTarget}}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "bur_01"}
+	{Position -0.295853	-1.27037	0}
+}

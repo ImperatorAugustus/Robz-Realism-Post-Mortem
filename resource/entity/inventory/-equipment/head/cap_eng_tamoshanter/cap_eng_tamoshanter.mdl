@@ -1,0 +1,53 @@
+;Exported by: Kalinski
+;Date:        Thu Oct 27 14:49:26 2016
+;File:        C:\Users\Kalinski\Desktop\tam o shanter\tam fin2.max
+{Skeleton
+	{bone "cap_eng_tamoshanter"
+		{Matrix34
+			1	0	0
+			0	-1	0
+			0	0	1
+                        0	0	-1
+		}
+		{VolumeView "cap_eng_tamoshanter.ply"}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "cap_eng_tamoshanter"}
+	{Position 0	-2.11931	0}
+}
+{Volume "select"
+	{Box 5.54121 3.67075 2.93976}
+	{Bone "cap_eng_tamoshanter"}
+	{Matrix34
+		1.0387	0	0
+		0	1.0387	0
+		0	0	1.0387
+		0.718869	-0.121986	5.05067
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 6.14341	-4.19769	5.70643}
+			{lookat 0.849857	-0.183388	4.64739}
+			{fov 45}
+			{horizon -0.239031}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.392405	0.297641	-0.0861897}
+			}
+			{"1"
+				{type point}
+				{position 0.0457586	-2.3552	4.95259}
+			}
+			{"2"
+				{type point}
+				{position 3.39782	0.0542126	4.38713}
+			}
+		}
+	}
+}

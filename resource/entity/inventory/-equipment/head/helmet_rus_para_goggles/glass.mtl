@@ -1,0 +1,6 @@
+{material envmap
+ {diffuse "rus goggles"}
+ {mask "rus goggles sp"}
+ {envmap "$/environment/envmap_town_day02"}
+ {blend blend}
+}

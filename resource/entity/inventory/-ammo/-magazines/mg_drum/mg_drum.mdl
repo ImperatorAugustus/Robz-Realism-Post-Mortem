@@ -1,0 +1,52 @@
+;Exported by: Kalinski
+;Date:        Wed Sep 21 21:29:04 2016
+;File:        C:\Users\Kalinski\Desktop\mg can\mg_drum_rdy.max
+{Skeleton
+	{bone "mg_drum"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "mg_drum.ply"}
+	}
+}
+{Volume "body"
+	{Box 2.76719 2.46819 2.00329}
+	{Bone "mg_drum"}
+	{Position -0.141029	-0.0274697	0.393916}
+}
+{Volume "select"
+	{Box 3.06155 2.5393 2.02075}
+	{Bone "mg_drum"}
+	{Matrix34
+		1.0387	0	0
+		0	1.0387	0
+		0	0	1.0387
+		-0.167742	-0.0521467	0.402935
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 0.671538	-2.76101	3.99941}
+			{lookat -0.0521114	-0.286535	0.189569}
+			{fov 45}
+			{horizon -0.239848}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -0.15736	-1.93913	0.842599}
+			}
+			{"1"
+				{type point}
+				{position -0.133186	1.17772	0.884011}
+			}
+			{"2"
+				{type directional}
+				{direction -0.0260877	0.00264281	-0.499312}
+			}
+		}
+	}
+}

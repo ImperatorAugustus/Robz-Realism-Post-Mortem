@@ -1,0 +1,29 @@
+;Exported by: Loskutov_K
+;Date:        Tue Apr 20 18:15:41 2010
+;File:        D:\_Vietnam\Art\Models\Houses\stolovaya\stolovaya.max
+{Skeleton
+	{bone "firelight2_st"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "firelight2_st.ply"}
+		{bone "fix17"
+			{Position -61.4875	-37.218	1.80263}
+		}
+		{bone "fix18"
+			{Position 61.6907	-37.218	1.80263}
+		}
+	}
+}
+{Volume "fire0"
+	{Box 77.8267 127.115 6.4685}
+	{Bone "firelight2_st"}
+	{Matrix34
+		0	1	0
+		-1	0	0
+		0	0	1
+		0.282562	0.264122	-10.3204
+	}
+}

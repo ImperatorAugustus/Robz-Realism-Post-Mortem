@@ -1,0 +1,18 @@
+;Exported by: Фёдор
+;Date:        Thu Jul 17 14:49:28 2014
+;File:        C:\Users\Фёдор\Documents\3dsmax\scenes\wheat_round_01.max
+{Skeleton
+	{bone "bush_nor_07"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "bush_nor_07.ply"}
+	}
+}
+{Volume "crown02"
+	{Box 68.4973 38.5048 45.0366}
+	{Bone "bush_nor_07"}
+	{Position -22.8942	2.6024	22.5183}
+}

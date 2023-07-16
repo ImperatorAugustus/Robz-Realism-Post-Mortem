@@ -1,0 +1,196 @@
+;Exported by: Sergey
+;Date:        Tue Aug 28 15:17:12 2012
+;File:        D:\Documents\3dsmax\scenes\Ordnance, SB 4.2-Inch Mortar Mk II\4.2-Inch Mortar Mk II_04.max
+{Skeleton
+	{animation
+		{sequence "close" {speed 0.6}}
+	}
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "body"
+			{parameters "ID=body;"}
+			{Position 0	0	2.41792}
+			{VolumeView "body.ply"}
+			{bone revolute "turret"
+				{parameters "ID=body;"}
+				{limits -25 25}
+				{speed 0.0005}
+				{Position -0.297416	-0.00536152	-1.20373}
+				{VolumeView "turret.ply"}
+				{bone "gun_root"
+					{parameters "ID=gun;"}
+					{Position 0.217954	0.0129231	0.888494}
+					{VolumeView "gun_root.ply"}
+					{bone "gun"
+						{parameters "ID=gun;"}
+						{Position 2.95654	-0.0129232	3.08472}
+						{VolumeView "gun.ply"}
+						{bone "homut"
+							{parameters "ID=gun;"}
+							{Position 15.3429	0	15.8856}
+							{VolumeView "homut.ply"}
+							{bone revolute "stanok"
+								{parameters "ID=body;"}
+								{Matrix34
+									0.884611	0	0.466329
+									0.466329	0	-0.884611
+									0	1	0
+									1.34572	-0.0575032	-1.14994
+								}
+								{VolumeView "stanok.ply"}
+								{bone "support1"
+									{parameters "ID=body;"}
+									{Matrix34
+										1	0	0
+										0	0	1
+										0	-1	0
+										-0.0134411	6.64842	-0.0183811
+									}
+									{VolumeView "support1.ply"}
+									{bone revolute "sharnir"
+										{parameters "ID=body;"}
+										{Matrix34
+											0.585038	0	-0.811006
+											0.811006	0	0.585038
+											0	-1	0
+											-0.664192	-0.102385	-0.574286
+										}
+										{VolumeView "sharnir.ply"}
+										{bone revolute "support2"
+											{parameters "ID=body;"}
+											{Matrix34
+												0.025135	0.279303	-0.959874
+												0.00731233	-0.960203	-0.279207
+												-0.999658	0	-0.0261771
+												-0.577201	-0.0245476	-0.676281
+											}
+											{VolumeView "support2.ply"}
+											{bone revolute "styazhka2"
+												{parameters "ID=body;"}
+												{Matrix34
+													0.265755	-0.964016	0.00695905
+													0.963685	0.265846	0.0252346
+													-0.0261766	0	0.999658
+													-0.4293	5.37218	-0.00288773
+												}
+												{VolumeView "styazhka2.ply"}
+											}
+										}
+										{bone revolute "support3"
+											{parameters "ID=body;"}
+											{Matrix34
+												0.0251582	0.276042	0.960816
+												0.0072276	-0.961146	0.275947
+												-0.999658	0	0.0261758
+												-0.577199	-0.0245457	0.565514
+											}
+											{VolumeView "support3.ply"}
+											{bone revolute "styazhka3"
+												{parameters "ID=body;"}
+												{Matrix34
+													0.290554	-0.956827	0.00774017
+													0.956488	0.290657	0.0254839
+													0.0266334	0	-0.999645
+													-0.422504	5.39218	0.0044775
+												}
+												{VolumeView "styazhka3.ply"}
+											}
+										}
+									}
+								}
+							}
+							{bone "pricel"
+								{Matrix34
+									-0.998981	-0.0133243	0.0431113
+									0.0430153	0.00741206	0.999047
+									-0.0136311	0.999884	-0.00683136
+									-0.226351	2.91946	2.07918
+								}
+								{VolumeView "pricel.ply"}
+								{bone "visor"
+									{Matrix34
+										-0.998981	0.0430153	-0.0136311
+										0.0431113	0.999047	-0.00683152
+										0.0133242	-0.00741222	-0.999884
+										-1.34781	2.79525	-2.95312
+									}
+								}
+							}
+						}
+						{bone "handle1"
+							{Matrix34
+								1	0	0
+								0	0	1
+								0	-1	0
+								18.6879	0.00536264	17.7087
+							}
+						}
+						{bone revolute "foresight"
+							{limits -20 25}
+							{speed 0.0005}
+							{Matrix34
+								0.646785	0	0.762672
+								-0.762672	0	0.646785
+								0	-1	0
+								22.1287	0.00536264	22.7839
+							}
+						}
+					}
+				}
+				{bone "visor2"
+					{Matrix34
+						1	0	0
+						0	0	1
+						0	-1	0
+						22.8946	0.00536253	18.2412
+					}
+				}
+			}
+			{bone "handle2"
+				{Matrix34
+					1	0	0
+					0	0	1
+					0	-1	0
+					-5.9612	0	0.0916483
+				}
+			}
+		}
+		{bone "driver1"
+			{Position 21.3027	-3.07682	0}
+		}
+		{bone "driver2"
+			{Position -9.70893	-0.0213958	0}
+		}
+		{bone "emit1"
+			{Position -15.165	15.0599	0}
+		}
+		{bone "emit2"
+			{Position -15.0798	-10.4164	0}
+		}
+		{bone "gunner"
+			{Position 10.1409	12.5889	0}
+		}
+		{bone "commander"
+			{Position 10.0557	-12.2057	0}
+		}
+	}
+}
+{Volume "body"
+	{Box 13.315 15.5442 5.11811}
+	{Bone "body"}
+	{Position -0.222485	-0.0691628	-0.771203}
+}
+{Volume "gun"
+	{Cylinder 1.88166 37.5954}
+	{Bone "gun"}
+	{Matrix34
+		0.73385	0	-0.679311
+		0	1	0
+		0.679311	0	0.73385
+		8.97014	-0.0638011	9.07126
+	}
+}

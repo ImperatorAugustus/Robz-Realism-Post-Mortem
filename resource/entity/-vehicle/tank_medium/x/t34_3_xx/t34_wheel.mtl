@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "wheelst34_85"}
+	{specular "wheelst34_85_sp"}
+	{color "229 229 229 25"}
+	{blend test}
+}

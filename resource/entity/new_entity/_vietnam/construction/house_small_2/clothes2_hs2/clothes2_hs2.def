@@ -1,0 +1,13 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{Extension "clothes2_hs2.mdl"}
+	{props "flag" "one" "staged" "wood" "construction" "burning" "disable_area" "no_destroyed_stamp"}
+
+	{extender "structure_bone"
+		{hold "09"}
+	}
+	{Volume "body"
+		{Tags  "body" "fire"}
+		{able {bullet 0}{obstacle 0}}
+	}
+}

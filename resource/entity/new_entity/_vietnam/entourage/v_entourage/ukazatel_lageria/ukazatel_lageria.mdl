@@ -1,0 +1,28 @@
+;Exported by: Loskutov_K
+;Date:        Thu Dec 03 17:29:24 2009
+;File:        D:\_Vietnam\Models\Anturage\ukazatel_lageria\ukazatel_lageria.max
+{Skeleton
+	{bone "body"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "body.ply"}
+	}
+}
+{Volume "body1"
+	{Box 3.99901 5.05353 78.1919}
+	{Bone "body"}
+	{Position -34.6387	0.945376	39.096}
+}
+{Volume "body2"
+	{Box 92.3962 1.3716 21.2225}
+	{Bone "body"}
+	{Position -0.796572	1.97282	68.3374}
+}
+{Volume "body"
+	{Box 3.99901 5.05353 78.1919}
+	{Bone "body"}
+	{Position 34.182	0.945376	39.096}
+}

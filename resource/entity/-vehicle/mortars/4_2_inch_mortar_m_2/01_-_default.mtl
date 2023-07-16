@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "dark_olive_green"}
+	{specular "dark_olive_green_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

@@ -1,0 +1,43 @@
+;Exported by: Loskutov_K
+;Date:        Fri Apr 09 12:45:47 2010
+;File:        D:\_Vietnam\Art\Models\Anturage\risovibivalka\risovibivalka.max
+{Skeleton
+	{bone "risovibivalka"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "risovibivalka.ply"}
+	}
+}
+{Volume "body1"
+	{Box 1.72867 1.5201 18.6813}
+	{Bone "risovibivalka"}
+	{Position -1.76665	-9.47615	9.34067}
+}
+{Volume "body2"
+	{Box 1.40023 17.7244 39.5447}
+	{Bone "risovibivalka"}
+	{Matrix34
+		0.919613	0	0.392826
+		0	1	0
+		-0.392826	0	0.919613
+		0.887082	-0.187608	18.1829
+	}
+}
+{Volume "body3"
+	{Box 1.72867 1.5201 18.6813}
+	{Bone "risovibivalka"}
+	{Position -1.76665	9.13182	9.34067}
+}
+{Volume "body4"
+	{Box 1.72867 1.5201 28.022}
+	{Bone "risovibivalka"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		-1.37058	0.141502	19.3331
+	}
+}

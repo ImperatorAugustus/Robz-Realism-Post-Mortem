@@ -1,0 +1,108 @@
+;Exported by: Sergey
+;Date:        Thu Oct 04 19:36:41 2012
+;File:        D:\Documents\3dsmax\scenes\ѕулемЄты Browning\Tripod Browning M1917A1_xx.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "body"
+			{parameters "ID=body;"}
+			{Position 16.9922	-0.00139381	0.0963306}
+			{VolumeView "body.ply"}
+		}
+		{bone revolute "turret"
+			{parameters "ID=gun_rot;"}
+			{Matrix34
+				1	0	0
+				0	-0.0334939	-0.999439
+				0	0.999439	-0.0334939
+				-1.24571	12.0685	1.15199
+			}
+			{VolumeView "turret.ply"}
+			{bone revolute "gun_rot"
+				{parameters "ID=gun_rot;"}
+				{limits -5 10}
+				{Matrix34
+					1	0	0
+					0	0	1
+					0	-1	0
+					-1.32354	0.00652957	6.82487
+				}
+				{VolumeView "gun_rot.ply"}
+			}
+		}
+		{bone "support03"
+			{parameters "ID=support03;"}
+			{Matrix34
+				0.0121962	0.00792565	-0.999894
+				-0.838414	-0.54484	-0.0145453
+				-0.544897	0.838503	0
+				7.25538	1.07336	0.358785
+			}
+			{VolumeView "support03.ply"}
+		}
+		{bone "support02"
+			{parameters "ID=support02;"}
+			{Matrix34
+				-0.0127968	0.00740845	-0.999891
+				-0.865339	0.500969	0.0147867
+				0.501024	0.865434	0
+				-4.88334	-1.26539	0.358785
+			}
+			{VolumeView "support02.ply"}
+		}
+		{bone "support01"
+			{parameters "ID=support01;"}
+			{Matrix34
+				-0.00749621	0	-0.999972
+				0.999972	0	-0.00749621
+				0	-1	0
+				-13.7472	0.279354	0.364318
+			}
+			{VolumeView "support01.ply"}
+		}
+	}
+}
+{Volume "body"
+	{Cylinder 1.62672 3.93701}
+	{Bone "body"}
+	{Position 0.0147476	0.00195085	1.05867}
+}
+{Volume "gun_rot"
+	{Box 10.0237 5.35543 3.14961}
+	{Bone "gun_rot"}
+	{Position -1.87291	-2.22825	0.00392032}
+}
+{Volume "support01"
+	{Cylinder 0.374016 9.84252}
+	{Bone "support01"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		-0.00364566	-4.56739	0.278765
+	}
+}
+{Volume "support02"
+	{Cylinder 0.374016 9.84252}
+	{Bone "support02"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		-0.00192501	-4.94998	0.150881
+	}
+}
+{Volume "support03"
+	{Cylinder 0.374016 9.84252}
+	{Bone "support03"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		-0.00192497	-4.94998	0.150881
+	}
+}

@@ -1,0 +1,23 @@
+{game_entity
+	{Extension "sdkfz8_flak_xx.mdl"}
+	{Volume "body2"
+	}
+	{Volume "body"
+	}
+	{Volume "cabin2"
+	}
+	{Volume "cabin"
+	}
+	{Volume "engine"
+	}
+	{Volume "inventory"
+	}
+	{Volume "trackleft"
+	}
+	{Volume "trackright"
+	}
+	{Volume "wheelleft1"
+	}
+	{Volume "wheelright1"
+	}
+}

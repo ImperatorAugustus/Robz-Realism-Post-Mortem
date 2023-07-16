@@ -1,0 +1,52 @@
+;Exported by: Kalinski
+;Date:        Tue Aug 02 13:57:00 2016
+;File:        C:\Users\Kalinski\Desktop\magazynki\gotowe\type 2 smg\type2_mag_rdy.max
+{Skeleton
+	{bone "type2_mag"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "type2_mag.ply"}
+	}
+}
+{Volume "body"
+	{Box 1.74453 5.04587 0.38358}
+	{Bone "type2_mag"}
+	{Position -0.0939346	0.00978494	-0.0113167}
+}
+{Volume "select"
+	{Box 1.74453 5.04587 0.38358}
+	{Bone "type2_mag"}
+	{Matrix34
+		1.0387	0	0
+		0	1.0387	0
+		0	0	1.0387
+		-0.08394	0.00978494	-0.00389442
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -0.00143974	0.133356	4.31951}
+			{lookat -0.00143961	0.0587974	0.0318184}
+			{fov 45}
+			{horizon -0.239031}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -0.0312786	-1.57302	0.684929}
+			}
+			{"1"
+				{type point}
+				{position -0.00710379	1.54384	0.726341}
+			}
+			{"2"
+				{type directional}
+				{direction -0.0260877	0.00264281	-0.499312}
+			}
+		}
+	}
+}

@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/enumerator/ger/1"}
+	{blend blend}
+}

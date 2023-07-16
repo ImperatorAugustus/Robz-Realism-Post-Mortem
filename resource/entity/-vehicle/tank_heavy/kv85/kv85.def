@@ -1,0 +1,170 @@
+{game_entity
+	(include "/properties/tank.ext")
+	(include "/properties/selection/vehicle.inc"  scale(1.2))
+	{collider "tank.heavy"}
+	{props "heavy" "turret_rotator" "vision_vehicle_maximum" "muzzle_large"}
+	{tag "diesel_exhaust"}
+	
+	{volume "body1"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "body2"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "body3"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "turret1"
+		{tags "turret"}
+		{component "turret"}
+	}
+	{volume "turret2"
+		{tags "turret"}
+		{component "turret"}
+	}
+	{volume "turret3"
+		{tags "turret"}
+		{component "turret"}
+	}	
+	{Volume "engine"
+		{tags "engine"}
+		{component "engine"}
+	}
+	
+	("armor_heavy" turret(100 90 60 20) body(100 75 75 40))
+	("armor_engine"  t(40 60 75 70))
+	("armor_mantlet" t(95))
+	("rus_2-5x_sight")
+
+	{extender "enumerator"}
+
+	{sensor
+		{visor "back"
+			{vision "tank_back"}
+			{bone "Foresight4"}
+		}
+	}
+	("crew_4_human")
+	{placer 
+		{place "commander" {visor "back"}}
+	}
+	{boarder
+		{anm "left"
+			{forward	{begin	"board_Kv-85"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+		{anm "right"
+			{forward	{begin	"board_Kv-85"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+		{anm "armor"
+			{forward	{begin	"board_HighArmor"} 	{end "seat_armor"}}
+			{reverse 	{end	"emit_tank_2"}}
+		}
+		{anm "armor1"
+			{forward	{begin	"board_HighArmor"} {end "seat_armor"}}
+			{reverse 	{end	"emit_body"}}
+		}
+	}
+
+	("seat_human" place(seat1) bone(seat01) door(emit3)  animation(armor1))
+	("seat_human" place(seat2) bone(seat02) door(emit4)  animation(armor))
+	("seat_human" place(seat3) bone(seat03) door(emit5)  animation(armor))
+	("seat_human" place(seat4) bone(seat04) door(emit6)  animation(armor1))
+	("seat_human" place(seat5) bone(seat05) door(emit7)  animation(armor))
+	("seat_human" place(seat6) bone(seat06) door(emit8)  animation(armor1))
+	("seat_human" place(seat7) bone(seat07) door(emit9)  animation(armor))
+	("seat_human" place(seat8) bone(seat08) door(emit10)  animation(armor1))
+	("seat_human" place(seat9) bone(seat09) door(emit11)  animation(armor))
+
+	{sensor
+		{visor "back"
+			{vision "tank_back"}
+			{bone "foresight4"}
+		}
+        {visor "main"
+            {vision "tank_main-m"}
+        }
+    }
+	
+	{extender "inventory"
+		{box
+			{item "ammo bullet85 rus aphe" 19}
+			;{item "ammo bullet85 rus aphebc" 22}
+			{item "ammo bullet85 rus fg" 46}
+			{item "ammo bullet85 rus apcr" 4}
+            {item "ammo dt29_mag" 1080}
+		}
+	}	
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "85mm_d5t" filling "ammo bullet85 rus aphe" 1}
+			("abm_medium")
+		}
+		{place "mgun2"
+			{type "mgun_coaxial"}
+			{weapon "dt_optic" filled}
+			{foresight "foresight5"}
+			{charger "commander"}
+			("abm_mgun")
+			{basic}
+		}
+		{place "mgun3"
+			{type "mgun_hull"}
+			{weapon "dt" filled}
+			{foresight "foresight6"}
+			{gunner "driver"}
+			{charger "driver"}
+			("abm_mgun")
+		}	
+		{place "mgun1"
+			{type "mgun_rear"}
+			{weapon "dt" filled}
+			{foresight "foresight4"}
+			{gunner "commander"}
+			{charger "commander"}
+			("abm_mgun")
+		}
+	}
+
+	{mass 46000}
+	{Chassis
+		("tank_trace" fx("tracks_big") step(0.47) len(0.3))
+		{Locomotion ("locomotion")
+			{MaxSpeed	27}
+			{maxSpeedAtMaxTurn 3}
+			{StartTime	55}
+			{TurnTime	25}
+			{TurnStart  2} 
+    		{BrakeTime  3}
+     		{StopTime   4} 
+    		{TurnRadius 10} 
+    		{TurnStop   1}
+		{Gears      0.1 0.18 0.25 1.0}
+    		{RearGears  0.1 0.2} 
+		}
+		{FuelBag
+			{volume 550 }	
+			{rate	34 }   
+			{remain 550 }
+			{fuel "fuel"}
+		}
+		{speed
+        	{Normal  27}
+        	{Slow  27}
+    	}
+	}
+	{Extension "kv-85.mdl"}
+	
+	{bone "turret"
+		{speed 0.002}
+	}
+	{bone "gun_rot"
+		{speed 0.0005}
+	}
+}

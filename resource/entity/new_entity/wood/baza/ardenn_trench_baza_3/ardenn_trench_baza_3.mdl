@@ -1,0 +1,90 @@
+;Exported by: Руслан
+;Date:        Mon Aug 26 17:04:37 2013
+;File:        C:\Users\Руслан\Documents\3dsmax\scenes\Новая папка\new_okop_3_baza_5.max
+{Skeleton
+	{bone "ardenn_trench_baza_3"
+		{parameters "Land;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "ardenn_trench_baza_3.ply" {Ground} {DecalTarget}}
+		{bone "wall_01"
+		}
+		{bone "wall_02"
+		}
+		{bone "wall_03"
+		}
+		{bone "wall_04"
+		}
+		{bone "wall_05"
+		}
+		{bone "wall_06"
+		}
+		{bone "wall_07"
+		}
+		{bone "wall_08"
+		}
+		{bone "wall_roof"
+		}
+		{bone "gun_nest"
+			{Position 50.4484	6.84421	-15.3193}
+		}
+		{bone "crate"
+			{Position -16.0355	25.3841	-30.1413}
+		}
+		{bone "radio"
+			{Position -16.0355	23.2857	-15.5215}
+		}
+		{bone "gramm"
+			{Matrix34
+				0.897332	0.441357	0
+				-0.441357	0.897332	0
+				0	0	1
+				-9.84438	19.2927	-15.5215
+			}
+		}
+		{bone "megaf"
+			{Position 6.1798	-7.67988	4.40041}
+		}
+		{bone "barell"
+			{Position -30.7759	-24.9986	-30.29}
+		}
+		{bone "weap"
+			{Matrix34
+				0.993813	-0.111065	0
+				0.111065	0.993813	0
+				0	0	1
+				-30.0942	1.10895	-30.29
+			}
+		}
+		{bone "post"
+			{Position -19.3633	-13.352	-30.29}
+		}
+		{bone "gun_nest_2"
+			{Matrix34
+				0.664973	0.746868	0
+				-0.746868	0.664973	0
+				0	0	1
+				40.5033	51.4331	-15.3193
+			}
+		}
+		{bone "gun_nest_3"
+			{Matrix34
+				0.0462623	0.998929	0
+				-0.998929	0.0462623	0
+				0	0	1
+				7.94935	68.193	-15.3193
+			}
+		}
+		{bone "gun_nest_4"
+			{Matrix34
+				-0.737811	0.675007	0
+				-0.675007	-0.737811	0
+				0	0	1
+				-33.274	59.1473	-15.3193
+			}
+		}
+	}
+}

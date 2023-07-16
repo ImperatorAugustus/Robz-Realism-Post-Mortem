@@ -1,0 +1,24 @@
+;Exported by: Loskutov_K
+;Date:        Tue Feb 09 17:48:19 2010
+;File:        D:\_Vietnam\Models\Bolvanki_diz\Yama\Yama.max
+{Skeleton
+	{bone "yama"
+		{parameters "CommonMesh;Land;Align;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "yama.ply"}
+	}
+}
+{Area "cut"
+	{Polygon2
+		{Radius 0}
+		{Vertex 11.7604 11.9811}
+		{Vertex -12.0496 11.9811}
+		{Vertex -12.0496 -10.5598}
+		{Vertex 11.7604 -10.5598}
+	}
+	{Rotate}
+}

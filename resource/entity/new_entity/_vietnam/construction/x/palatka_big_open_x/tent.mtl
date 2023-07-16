@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "palatka_big_x"}
+	{blend test}
+}

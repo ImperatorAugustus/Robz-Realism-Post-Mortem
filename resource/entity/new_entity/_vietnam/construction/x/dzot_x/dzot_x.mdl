@@ -1,0 +1,135 @@
+;Exported by: Kislov_A
+;Date:        Mon Apr 05 13:44:40 2010
+;File:        E:\Men of war red tide2\Art\Models\Structure\x\Dzot_x\dzot_x.max
+{Skeleton
+	{bone "dzot_x"
+		{parameters "Ground;Land;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "dzot_x.ply" {Ground}}
+		{bone "fx_sand2"
+			{Matrix34
+				0.886706	0.462334	0
+				-0.462334	0.886706	0
+				0	0	1
+				51.0621	55.4318	19.3414
+			}
+		}
+		{bone "fx_sand2a"
+			{Matrix34
+				0.886706	0.462334	0
+				-0.462334	0.886706	0
+				0	0	1
+				51.0621	55.4318	19.3414
+			}
+		}
+		{bone "fx_wood2"
+			{Matrix34
+				0.94069	-0.339267	0
+				0.339267	0.94069	0
+				0	0	1
+				54.5668	-39.2976	13.1085
+			}
+		}
+		{bone "piece01"
+			{Matrix34
+				0	1	0
+				-1	0	0
+				0	0	1
+				42.5514	2.74959	16.7742
+			}
+			{VolumeView "piece01.ply"}
+		}
+		{bone "piece02"
+			{Position 8.009	46.7236	27.0889}
+			{VolumeView "piece02.ply"}
+		}
+		{bone "piece03"
+			{Position 8.72232	-44.6286	32.0128}
+			{VolumeView "piece03.ply"}
+		}
+		{bone "piece04"
+			{Position 32.7665	-36.558	37.0732}
+			{VolumeView "piece04.ply"}
+		}
+		{bone "piece05"
+			{Position -45.9071	41.1237	56.8144}
+			{VolumeView "piece05.ply"}
+		}
+		{bone "piece06"
+			{Position -48.4379	-42.2649	42.7698}
+			{VolumeView "piece06.ply"}
+		}
+		{bone "piece07"
+			{Matrix34
+				1	0	0
+				0	0	1
+				0	-1	0
+				42.8237	-4.59809	27.3788
+			}
+			{VolumeView "piece07.ply"}
+		}
+		{bone "piece08"
+			{Position 41.9246	46.42	38.8906}
+			{VolumeView "piece08.ply"}
+		}
+	}
+}
+{Volume "piece01"
+	{Box 35.136 15.372 1.73368}
+	{Bone "piece01"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		-3.40997	0.0245357	-0.0661927
+	}
+}
+{Volume "piece02"
+	{Box 42.8797 10.5177 1.96484}
+	{Bone "piece02"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		1.54294	-0.423731	1.40808
+	}
+}
+{Volume "piece03"
+	{Box 39.1812 16.2966 1.84926}
+	{Bone "piece03"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		-1.6622	-0.358125	-0.520477
+	}
+}
+{Volume "piece04"
+	{Box 2.49686 2.45305 24.8564}
+	{Bone "piece04"}
+	{Position -0.260345	-0.39864	-0.140878}
+}
+{Volume "piece05"
+	{Box 2.49686 2.45305 32.0648}
+	{Bone "piece05"}
+	{Position -0.00979614	0.00776291	1.34648}
+}
+{Volume "piece06"
+	{Box 2.49686 2.45305 23.7279}
+	{Bone "piece06"}
+	{Position -0.167328	-0.16515	-3.56126}
+}
+{Volume "piece07"
+	{Box 2.49686 2.45305 25.8635}
+	{Bone "piece07"}
+	{Position 0.0418701	-0.285145	-2.4935}
+}
+{Volume "piece08"
+	{Box 2.49686 2.45305 25.8635}
+	{Bone "piece08"}
+	{Position -0.118408	-0.384235	-2.41531}
+}

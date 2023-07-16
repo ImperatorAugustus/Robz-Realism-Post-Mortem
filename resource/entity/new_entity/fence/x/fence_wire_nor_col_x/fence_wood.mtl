@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "$/entity/fence_wire_nor"}
+	{bump "$/entity/fence_wire_nor_bp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

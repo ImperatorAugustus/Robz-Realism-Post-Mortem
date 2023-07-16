@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/t-26_1933_body_xx"}
+	{bump "$/model/t-26_1933_body_nm"}
+	{specular "$/model/t-26_1933_body_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

@@ -1,0 +1,5 @@
+{material multiply
+	{diffuse "water_barrel_x"}
+	{diffuse1 "dot_sandbags_x_lm"}
+	{blend none}
+}

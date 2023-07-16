@@ -1,0 +1,24 @@
+;Exported by: Loskutov_K
+;Date:        Thu Mar 25 16:29:14 2010
+;File:        D:\_Vietnam\Art\Models\Structure\Trap_spikeless\Trap_spikeless.max
+{Skeleton
+	{bone "trap_spikeless"
+		{parameters "CommonMesh;Land;Align;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "trap_spikeless.ply"}
+	}
+}
+{Area "cut"
+	{Polygon2
+		{Radius 0}
+		{Vertex 11.7604 12.5244}
+		{Vertex -12.0496 12.5244}
+		{Vertex -12.0496 -11.7117}
+		{Vertex 11.7604 -11.7117}
+	}
+	{Rotate}
+}

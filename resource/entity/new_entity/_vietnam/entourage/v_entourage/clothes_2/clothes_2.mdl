@@ -1,0 +1,55 @@
+;Exported by: Loskutov_K
+;Date:        Wed Apr 07 14:27:11 2010
+;File:        D:\_Vietnam\Art\Models\Anturage\utvar\clothes_2\clothes_2.max
+{Skeleton
+	{animation
+		{sequence "flattern" {speed 0.5} {autostart}}
+	}
+	{bone "clothes_2"
+		{parameters "CommonMesh;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "clothes_2.ply"}
+	}
+}
+{Obstacle "body1"
+	{Obb2
+		{Center 0.724091 -23.2862}
+		{Extent 0.471344 0.471342}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Obstacle "body2"
+	{Obb2
+		{Center -0.186035 23.4615}
+		{Extent 0.471344 0.471342}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Volume "body1"
+	{Box 0.942688 0.942685 33.9272}
+	{Bone "clothes_2"}
+	{Position 0.724091	23.2862	16.9636}
+}
+{Volume "body2"
+	{Box 0.942688 0.942685 33.9272}
+	{Bone "clothes_2"}
+	{Position -0.186035	-23.4615	16.9636}
+}
+{Volume "body3"
+	{Box 34.422 15.9766 0.697562}
+	{Bone "clothes_2"}
+	{Matrix34
+		0	1	0
+		0	0	1
+		1	0	0
+		0.723598	-0.00257872	23.6444
+	}
+}

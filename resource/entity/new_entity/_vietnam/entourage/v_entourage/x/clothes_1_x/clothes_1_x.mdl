@@ -1,0 +1,17 @@
+;Exported by: Loskutov_K
+;Date:        Wed Apr 07 16:28:18 2010
+;File:        D:\_Vietnam\Art\Models\Anturage\utvar\x\clothes_1_x\clothes_1_x.max
+{Skeleton
+	{animation
+		{sequence "crush2"}
+	}
+	{bone "clothes_1_x"
+		{parameters "CommonMesh;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "clothes_1_x.ply"}
+	}
+}

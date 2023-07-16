@@ -1,0 +1,106 @@
+{Entity
+	(include "/properties/tank.ext")
+	(include "/properties/selection/vehicle.inc"  scale(1.2))
+	{props "medium" "turret_rotator"  "vision_vehicle_medium" "muzzle_large_sides"}
+	
+	{volume "body"
+		{component "body"}
+		{tags "body"}
+	}
+	;{volume "body1"
+	;	{component "body"}
+	;	{tags "body"}
+	;}
+	
+	("armor_medium" turret(101 20 40 40) body(64 51 51 38))
+	("armor_engine"  t(38 38 38 38))
+	("eng_6x_sight")
+
+	("crew_51_human")
+
+	{extender "enumerator"}
+
+	{boarder
+		{anm "left"
+			{forward	{begin	"board_cromwell"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+		{anm "right"
+			{forward	{begin	"board_cromwell"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+		{anm "armor"
+			{forward	{begin	"board_MiddleArmor"} 	{end "seat_armor"}}
+			{reverse 	{end	"emit_tank_1"}}
+		}
+	}
+
+	("seat_human" place(seat1) bone(seat01) door(emit3)  animation(armor))
+	("seat_human" place(seat2) bone(seat02) door(emit6)  animation(armor))
+	("seat_human" place(seat3) bone(seat03) door(emit4)  animation(armor))
+	("seat_human" place(seat4) bone(seat04) door(emit5)  animation(armor))
+	;("seat_human" place(seat6) bone(seat06) door(emit7)  animation(armor))
+	;("seat_human" place(seat5) bone(seat05) door(emit8)  animation(armor))
+
+	{extender "inventory"
+		{box
+			{item "ammo bullet76 eng ap" 20}
+			{item "ammo bullet76 eng apc" 25}
+			{item "ammo bullet76 eng fg" 32}
+			{item "ammo springfield_belt" 2450}
+		}
+	}
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "76mm_mk4" filling "ammo bullet76 eng apc" 1}
+			("abm_high")
+		}
+		{place "mgun"
+			{type "mgun_coaxial"}
+			{weapon "browning_m19_optic" filled}
+			{foresight "foresight3"}
+			("abm_mgun")
+			{basic}
+		}
+	}
+
+	{mass 28000}
+	{Chassis
+		("tank_trace" fx("tracks_mid") step(0.52) len(0.2))
+		{Locomotion ("locomotion")
+            		{MaxSpeed   32}
+			{maxSpeedAtMaxTurn 4}
+			{StartTime  45}
+			{TurnStart  1.7}			
+			{TurnTime   20}
+			{TurnRadius 9} 
+    		{TurnStop   0.8}
+			{BrakeTime  1.5}
+			{StopTime   3}
+			{Gears   0.1 0.2 0.3 1}
+			{RearGears  0.25}
+		}
+		{FuelBag
+			{volume 540 }	
+			{rate	33 }
+			{remain 540 }
+			{fuel "fuel"}
+		}
+		{speed
+        		{Normal  32}
+        		{Slow  32}
+    		}
+	}
+
+	{Extension "challenger_a30.mdl"}
+
+	{bone "turret"		
+		{speed 0.003}
+	}
+	{bone "gun_rot"
+		{speed 0.0007}
+	}
+	
+}

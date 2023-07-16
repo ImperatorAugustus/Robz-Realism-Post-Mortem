@@ -1,0 +1,107 @@
+;Exported by: Loskutov_K
+;Date:        Thu Mar 18 12:59:44 2010
+;File:        D:\_Vietnam\Art\Models\Houses\X\House_small_1_x\hs1_x.max
+{Skeleton
+	{bone "perila_hs1_x"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "piece05"
+			{Matrix34
+				0	1	0
+				0	0	1
+				1	0	0
+				-0.223686	37.529	10.835
+			}
+			{VolumeView "piece05.ply"}
+		}
+		{bone "piece04"
+			{Matrix34
+				0	1	0
+				-1	0	0
+				0	0	1
+				12.7408	35.9951	-2.95384
+			}
+			{VolumeView "piece04.ply"}
+		}
+		{bone "piece03"
+			{Matrix34
+				0	1	0
+				-1	0	0
+				0	0	1
+				13.2743	12.1371	-2.3434
+			}
+			{VolumeView "piece03.ply"}
+		}
+		{bone "piece02"
+			{Matrix34
+				0	0	-1
+				-1	0	0
+				0	1	0
+				13.9445	-17.1138	9.50643
+			}
+			{VolumeView "piece02.ply"}
+		}
+		{bone "piece01"
+			{Matrix34
+				0	1	0
+				-1	0	0
+				0	0	1
+				12.6211	-34.6818	-2.34343
+			}
+			{VolumeView "piece01.ply"}
+		}
+	}
+}
+{Volume "piece01"
+	{Box 1.32938 1.42532 17.409}
+	{Bone "piece01"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		0.0478061	-0.082053	-0.280282
+	}
+}
+{Volume "piece02"
+	{Box 1.32938 1.42532 31.6844}
+	{Bone "piece02"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		-0.129268	-0.0826896	-0.534879
+	}
+}
+{Volume "piece03"
+	{Box 1.32938 1.42532 24.87}
+	{Bone "piece03"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		-0.0650831	-0.0469123	-0.0333519
+	}
+}
+{Volume "piece04"
+	{Box 1.32938 1.42532 27.6333}
+	{Bone "piece04"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		-0.0574986	0.0477169	0.296919
+	}
+}
+{Volume "piece05"
+	{Box 1.32938 1.42532 18.0601}
+	{Bone "piece05"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		-0.0181942	0.0309052	0.278185
+	}
+}

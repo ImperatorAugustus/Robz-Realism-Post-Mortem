@@ -1,0 +1,35 @@
+;Exported by: Руслан
+;Date:        Wed Aug 21 00:48:01 2013
+;File:        C:\Users\Руслан\Documents\3dsmax\scenes\Новая папка\new_okop_3_baza_x.max
+{Skeleton
+	{bone "baza_02_x"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "wall_baza_02"
+			{Position 7.70128	-1.43524	0}
+			{VolumeView "wall_baza_02.ply"}
+		}
+	}
+}
+{Obstacle "body2"
+	{Obb2
+		{Center -43.9033 18.5858}
+		{Extent 22.0152 4.3588}
+		{Axis 0.174345 0.984685}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body2"
+	{Box 5.90551 43.5315 33.6472}
+	{Bone "wall_baza_02"}
+	{Matrix34
+		0.980806	0.177486	0.0807383
+		-0.176887	0.984123	-0.0145611
+		-0.0820408	0	0.996629
+		-51.6046	-17.1505	-8.74775
+	}
+}

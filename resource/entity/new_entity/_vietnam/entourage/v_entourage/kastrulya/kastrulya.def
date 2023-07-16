@@ -1,0 +1,19 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{props "cornered" "wood" "parts" "construction" "break_on_burn" "no_destroyed_stamp"  }
+	("armor_medium" args 0.7)
+	{mass 50}
+
+	{Extension "kastrulya.mdl"}
+	{Volume "body"
+		{Tags  "body"}
+		{thickness 1}
+		{material "steel"}
+
+	}
+{obstacleID "construction"}
+{collider "stuff"}
+{props "steel" "stuff" "collectable"}
+{simulation {able 1} {disableLinked 1}}
+{constrain ground}
+}

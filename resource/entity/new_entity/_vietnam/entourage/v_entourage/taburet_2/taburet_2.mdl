@@ -1,0 +1,18 @@
+;Exported by: Loskutov_K
+;Date:        Fri Apr 09 14:12:15 2010
+;File:        D:\_Vietnam\Art\Models\Anturage\utvar\taburet_2\taburet_2.max
+{Skeleton
+	{bone "taburet_2"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "taburet_2.ply"}
+	}
+}
+{Volume "body"
+	{Box 7.96318 8.37616 7.14628}
+	{Bone "taburet_2"}
+	{Position 0.00869751	-0.0053215	3.57314}
+}

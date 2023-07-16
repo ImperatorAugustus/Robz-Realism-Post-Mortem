@@ -1,0 +1,47 @@
+;Exported by: Loskutov_K
+;Date:        Thu Apr 08 14:35:27 2010
+;File:        D:\_Vietnam\Art\Models\Anturage\utvar\x\korzina_1fish_x\korzina_1fish_x01.max
+{Skeleton
+	{bone "korzina_1fish_x"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "piece01"
+			{Position 0.121117	-0.0424194	2.72041}
+			{VolumeView "piece01.ply"}
+		}
+		{bone "piece02"
+			{Position -4.3888	-1.84149	11.0523}
+			{VolumeView "piece02.ply"}
+		}
+		{bone "piece03"
+			{Position 4.63102	1.75665	11.0523}
+			{VolumeView "piece03.ply"}
+		}
+		{bone "fx_wood1a"
+			{Position -0.0341358	-0.123032	-2.88782}
+		}
+	}
+}
+{Volume "piece01"
+	{Polyhedron "piece01.vol"}
+	{Bone "piece01"}
+	{Position -0.0341358	-0.123032	-2.88782}
+}
+{Volume "piece02"
+	{Polyhedron "piece02.vol"}
+	{Bone "piece02"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		-1.61123	0.115631	-0.0542107
+	}
+}
+{Volume "piece03"
+	{Polyhedron "piece03.vol"}
+	{Bone "piece03"}
+	{Position 1.52604	-0.150543	-0.0542107}
+}

@@ -1,0 +1,8 @@
+{game_entity
+        (include "/properties/trench_new.inc")      
+	{Extension "jap_bunker_land_big.mdl"}
+	{props "wood"}
+	{Extender "land_patch"
+		{TerrainType "ground" "bridge"}
+	}
+}

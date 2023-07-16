@@ -1,0 +1,77 @@
+;Exported by: Loskutov_K
+;Date:        Fri Mar 12 15:37:07 2010
+;File:        D:\_Vietnam\Art\Models\Houses\House_big_2\hb2_complete.max
+{Skeleton
+	{bone "interset9_hb2"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "interset9_hb2.ply"}
+		{bone "fix14"
+			{Position 12.2203	4.27057	6.39061}
+		}
+	}
+}
+{Obstacle "body1"
+	{Obb2
+		{Center 7.13196 13.2513}
+		{Extent 5.79233 16.4797}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body2"
+	{Obb2
+		{Center 7.92943 -7.72501}
+		{Extent 3.70709 4.27251}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body3"
+	{Obb2
+		{Center 7.92945 -21.951}
+		{Extent 3.70709 10.2113}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body4"
+	{Obb2
+		{Center -8.20156 28.7788}
+		{Extent 3.54108 3.38995}
+		{Axis 0.996199 0.0871117}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body1"
+	{Box 11.5846 32.9594 34.1981}
+	{Bone "interset9_hb2"}
+	{Position 7.13197	-13.2513	-1.75927}
+}
+{Volume "body2"
+	{Box 7.41417 8.54502 19.6408}
+	{Bone "interset9_hb2"}
+	{Position 7.92942	7.72501	-9.03792}
+}
+{Volume "body3"
+	{Box 7.41417 20.4226 9.23118}
+	{Bone "interset9_hb2"}
+	{Position 7.92945	21.951	-14.2427}
+}
+{Volume "body4"
+	{Box 7.04347 6.73946 7.52388}
+	{Bone "interset9_hb2"}
+	{Matrix34
+		0.996684	-0.0813747	0
+		0.0813747	0.996684	0
+		0	0	1
+		-8.20156	-28.7788	-15.0964
+	}
+}

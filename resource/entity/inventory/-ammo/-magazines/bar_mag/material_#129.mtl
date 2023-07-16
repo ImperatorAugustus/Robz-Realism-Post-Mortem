@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "bar18a2_c"}
+	{blend none}
+}

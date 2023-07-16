@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "palatka"}
+	{bump "palatka_bp"}
+	{blend none}
+	{tile}
+}

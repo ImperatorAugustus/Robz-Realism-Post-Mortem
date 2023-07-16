@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/humanskin/forma-ger-ss#3"}
+	{blend none}
+}

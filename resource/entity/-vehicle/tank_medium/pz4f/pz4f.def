@@ -1,0 +1,129 @@
+{game_entity
+	(include "/properties/tank.ext")
+	(include "/properties/selection/vehicle.inc"  scale(1.2))
+	{props "medium" "turret_rotator" "vision_vehicle_high" "muzzle_medium_sides"}
+
+	{extender "enumerator"
+		{digit_folder "ger"}
+	}
+	
+	{volume "body1"
+		{tags "body"}
+		{component "body"}
+		{thickness 30}
+	}
+	{volume "body2"
+		{tags "body"}
+		{component "body"}
+		{thickness 30}
+	}
+	("armor_medium" turret(50 30 30 10) body(50 30 20 22))
+	("armor_engine"  t(30 30 20 22))
+	("armor_mantlet" t(50))
+	
+	("crew_4_human_extended")
+	{boarder
+		{anm "driver"
+			{forward	{begin	"board_pz4_driver"} {end "seat_gunner_stand"} {base "open_driver"}}
+			{reverse 	{end	"board_pz4_driver" -1} {base "open_driver" -1}}
+		}
+		{anm "left"
+			{forward	{begin	"board_tank_right"} {end "seat_gunner_stand"}}
+			{reverse 	{end	"emit_tank_2_hold"}}
+		}
+		{anm "right"
+			{forward	{begin	"board_tank_left"} {end "seat_gunner_stand"}}
+			{reverse 	{end	"emit_tank_2_hold"}}
+		}
+		{anm "armor"
+			{forward	{begin	"board_highArmor"} 	{end "pose_seat_armor_1"}}
+			{reverse 	{end	"emit_tank_2"}}
+		}
+		{anm "armor1"
+			{forward	{begin	"board_lowArmor"} {end "pose_seat_armor_2"}}
+			{reverse 	{end	"emit_body"}}
+		}
+		{anm "armor2"
+			{forward	{begin	"board_lowArmor"} {end "pose_seat_armor_1"}}
+			{reverse 	{end	"emit_body"}}
+		}
+	}
+
+	("gunner_visible")
+
+	("seat_human" place(seat1) bone(seat01) door(emit3)  animation(armor))
+	("seat_human" place(seat2) bone(seat02) door(emit4)  animation(armor1))
+	("seat_human" place(seat3) bone(seat03) door(emit5)  animation(armor2))
+	("seat_human" place(seat4) bone(seat04) door(emit6)  animation(armor1))
+
+	{extender "inventory"
+		{box
+			{item "ammo bullet75 ger apcbc" 39}
+			{item "ammo bullet75 ger fg" 40}
+			{item "ammo bullet75 ger apcr" 2}
+			{item "ammo bullet75 ger heatb" 5}
+			{item "ammo mg_mauser belt" 1250}
+		}
+	}
+
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "75mm_kwk40" filling "ammo bullet75 ger apcbc" 1}	
+			("abm_medium")
+		}
+		{place "mgun1"
+			{type "mgun_hull"}
+			{weapon "mg34_optic" filled}
+			{foresight "foresight4"}
+			{gunner "driver"}
+			{charger "driver"}
+			("abm_mgun")
+		}
+		{place "mgun2"
+			{type "mgun_coaxial"}
+			{weapon "mg34_optic" filled}
+			{foresight "foresight5"}
+			("abm_mgun")
+            {basic}
+		}
+	}
+
+	{mass 23500}
+	{Chassis
+		("tank_trace" fx("tracks_mid") step(0.52) len(0.21))
+		{Locomotion ("locomotion")
+			{MaxSpeed	 28}
+			{maxSpeedAtMaxTurn 4}
+			{StartTime	  45}
+			{TurnTime  	  19}
+    		{TurnStart  1.4} 
+    		{BrakeTime    1} 
+    		{StopTime     2} 
+    		{TurnRadius   8} 
+    		{TurnStop   0.8}
+     		{Gears  0.1 0.2 0.3 1}
+    		{RearGears 0.28}
+		}
+		{FuelBag
+			{volume 470 }	
+			{rate	36 }   
+			{remain 470 }
+			{fuel "fuel"}
+		}
+		{speed
+        	{Normal  28}
+        	{Slow  28}
+    	}
+	}
+	
+	{Extension "pz4f.mdl"}
+	
+	{bone "turret"
+		{speed 0.0036}
+	}
+	{bone "gun_rot"
+		{speed 0.0008}
+	}
+}

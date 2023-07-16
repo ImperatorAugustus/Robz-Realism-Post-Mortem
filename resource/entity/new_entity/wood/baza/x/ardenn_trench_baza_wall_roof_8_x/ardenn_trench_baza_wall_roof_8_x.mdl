@@ -1,0 +1,26 @@
+;Exported by: Руслан
+;Date:        Wed Aug 28 17:45:32 2013
+;File:        C:\Users\Руслан\Documents\3dsmax\scenes\Новая папка\new_okop_baza_5_x.max
+{Skeleton
+	{bone "ardenn_trench_baza_wall_roof_8_x"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "ardenn_trench_baza_wall_roof_8_x.ply"}
+	}
+}
+{Area "interior"
+	{Obb2
+		{Center 3.54469 3.73151}
+		{Extent 57.1569 71.2312}
+		{Axis 1 0}
+	}
+	{Rotate}
+}
+{Volume "body2"
+	{Box 32.5132 54.1172 9.27633}
+	{Bone "ardenn_trench_baza_wall_roof_8_x"}
+	{Position -64.5697	8.58595	4.63817}
+}

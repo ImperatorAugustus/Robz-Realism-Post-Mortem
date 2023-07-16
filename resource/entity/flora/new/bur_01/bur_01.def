@@ -1,0 +1,17 @@
+{game_entity
+	{props "hedge_bump" "construction"}
+	{collider "construction"}
+	
+
+	{extender "land_patch"
+		{TerrainType "no_pass" "bridge"}
+	}
+	(define "volume" 
+		{Volume %0 {thickness 20} {tags "body"} {able {contact 0} {obstacle 1}}}
+	)
+
+	
+	{Extension "bur_01.mdl"}
+
+	("volume" args "body")
+}

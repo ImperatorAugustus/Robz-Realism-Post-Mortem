@@ -1,0 +1,103 @@
+;Exported by: Normand
+;Date:        Sun Jun 17 20:21:35 2018
+;File:        C:\Users\Normand\raketenwerfer_x.max
+{Skeleton
+	{bone revolute "basis"
+		{speed 0.01}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "emit2"
+			{Position -21.1128	-26.9147	-0.0444988}
+			{visibility 0}
+		}
+		{bone "emit1"
+			{Position -20.5162	22.7855	-0.0445015}
+			{visibility 0}
+		}
+		{bone "pivot_front"
+			{Position -0.379535	0.0144859	15.2661}
+			{VolumeView "pivot_front.ply"}
+			{bone revolute "wheelr"
+				{parameters "ID=wheelright;Radius=0.4;"}
+				{Matrix34
+					0.7	0	0
+					0	0	-0.7
+					0	0.48	0
+					0.966023	-10.1334	-8.53723
+				}
+				{VolumeView "wheelr.ply"}
+			}
+			{bone revolute "wheell"
+				{parameters "ID=wheelleft;Radius=0.4;"}
+				{Matrix34
+					0.7	0	0
+					0	0	-0.7
+					0	0.48	0
+					0.966023	10.1868	-8.53723
+				}
+				{VolumeView "wheell.ply"}
+			}
+		}
+		{bone "body"
+			{parameters "ID=body;"}
+			{animation
+				{sequence "break" {file "body_b.anm"} {speed 0.3}}
+			}
+			{Matrix34
+				0.988431	0	0.151672
+				0	1	0
+				-0.151672	0	0.988431
+				0.53456	0.0144863	6.75848
+			}
+			{VolumeView "body.ply"}
+			{bone "detail1"
+				{Position -12.3033	-2.02444	-1.36924}
+				{VolumeView "detail1.ply"}
+			}
+			{bone "detail2"
+				{Position -12.3033	-2.02444	-1.90769}
+				{VolumeView "detail2.ply"}
+			}
+			{bone revolute "turret"
+				{parameters "ID=turret;"}
+				{animation
+					{sequence "break" {file "turret_b.anm"} {speed 0.3}}
+				}
+				{limits -30 30}
+				{Position -1.05357	0.000144596	1.57791}
+				{VolumeView "turret.ply"}
+				{bone revolute "gun_rot"
+					{parameters "ID=gun;"}
+					{limits -15 15}
+					{Matrix34
+						0.999871	0	0.016048
+						-0.016048	0	0.999871
+						0	-1	0
+						-0.237913	-0.000145197	4.36655
+					}
+					{VolumeView "gun_rot.ply"}
+					{bone "gun"
+						{parameters "ID=gun;"}
+						{animation
+							{sequence "break" {file "gun_b.anm"} {speed 0.3}}
+						}
+						{Matrix34
+							1	0	0
+							0	0	-1
+							0	1	0
+							-5.66007	-0.742411	0
+						}
+						{VolumeView "gun.ply"}
+					}
+				}
+				{bone "dempfer"
+					{Position 0	0	0}
+					{VolumeView "dempfer.ply"}
+				}
+			}
+		}
+	}
+}

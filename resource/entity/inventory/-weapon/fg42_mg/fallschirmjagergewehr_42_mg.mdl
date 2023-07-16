@@ -1,0 +1,103 @@
+;Exported by: Joe
+;Date:        Tue Oct 16 21:30:13 2012
+;File:        C:\Users\Joe\Desktop\Models\Completed Full Models\BF2 Completed, Full Models\Fg42\complete\fg42mg.max
+{Skeleton
+	{bone "fallschirmjagergewehr_42_mg"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "fallschirmjagergewehr_42_mg.ply"}
+		{bone "fxshell"
+			{Matrix34
+				0	0	1
+				0	1	0
+				-1	0	0
+				0.61002	1.75965	0.2994
+			}
+		}
+		{bone "foresight3"
+			{Matrix34
+				0.999892	0.0101343	0.0106099
+				-0.0101338	0.999949	-0.000104422
+				-0.0106104	0	0.999944
+				14.1259	1.57399	-0.523095
+			}
+		}
+		{bone "handle"
+			{Matrix34
+				0.999892	-0.0101287	-0.0106147
+				-0.0106097	0.000546655	-0.999943
+				0.0101339	0.999949	0.000439518
+				6.85733	2.12952	-0.0445457
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 6.96701 28.3822 4.84364}
+	{Bone "fallschirmjagergewehr_42_mg"}
+	{Matrix34
+		0	0	0.54265
+		0.678061	2.73057e-005	0
+		-1.21853e-005	1.52197	0
+		3.9277	-0.91942	-1.19629
+	}
+}
+{Volume "select"
+	{Box 6.96701 28.3822 4.84364}
+	{Bone "fallschirmjagergewehr_42_mg"}
+	{Matrix34
+		0	0	0.54265
+		0.678061	2.73057e-005	0
+		-1.21853e-005	1.52197	0
+		3.9277	-0.91942	-1.19629
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 6.05646	-0.301023	-22.9859}
+			{lookat 5.91326	-0.285156	-21.2031}
+			{fov 45}
+			{horizon 83.7992}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 5.99944	-1.63799	-20.3912}
+			}
+			{"1"
+				{type directional}
+				{direction -0.16522	0.052377	0.468998}
+			}
+			{"2"
+				{type point}
+				{position 5.75678	0.286247	-20.1744}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin 6.05646	-0.301023	-22.9859}
+			{lookat 5.91326	-0.285156	-21.2031}
+			{fov 45}
+			{horizon 83.7992}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 5.99944	-1.63799	-20.3912}
+			}
+			{"1"
+				{type directional}
+				{direction -0.16522	0.052377	0.468998}
+			}
+			{"2"
+				{type point}
+				{position 5.75678	0.286247	-20.1744}
+			}
+		}
+	}
+}

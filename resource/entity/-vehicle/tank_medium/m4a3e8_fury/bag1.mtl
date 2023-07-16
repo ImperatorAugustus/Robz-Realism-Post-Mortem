@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "csomagok"}
+	{bump "csomagok_bp"}
+	{specular "csomagok_sp"}
+	{color "229 229 229 25"}
+	{blend test}
+}

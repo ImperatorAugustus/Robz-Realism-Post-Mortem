@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "pz1b_x"}
+	{specular "$/model/pz1b_sp"}
+	{color "229 229 229 25"}
+	{blend test}
+}

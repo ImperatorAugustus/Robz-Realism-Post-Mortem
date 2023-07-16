@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "axis_lod0_gear_armygilly"}
+	{specular "axis_lod0_gear_armygilly_sp"}
+	{color "229 229 229 9"}
+	{blend none}
+}

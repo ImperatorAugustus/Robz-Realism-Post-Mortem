@@ -1,0 +1,12 @@
+;Exported by: Loskutov_K
+;Date:        Thu Apr 01 12:45:54 2010
+;File:        D:\_Vietnam\Art\Models\Houses\X\Saray_2_x\saray2_x.max
+{Skeleton
+	{bone "firelight_s2_x"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+	}
+}

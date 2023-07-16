@@ -1,0 +1,97 @@
+;Exported by: ftiger
+;Date:        Tue Feb 10 21:15:54 2015
+;File:        D:\PROGRAMS\3ds_max\3dsmax9_saves\scenes\88mm_flak18\flak36a_xx.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "body"
+			{parameters "ID=body;"}
+			{Position 0.0479498	1.18166e-005	14.5121}
+			{VolumeView "body.ply"}
+			{bone "part2"
+				{parameters "ID=gun;"}
+				{Position -34.8909	-6.15707	21.8305}
+				{VolumeView "part2.ply"}
+			}
+			{bone "part1"
+				{parameters "ID=part1;"}
+				{Position 12.274	-19.7878	9.49706}
+				{VolumeView "part1.ply"}
+			}
+		}
+	}
+}
+{Volume "body1"
+	{Cylinder 7.13117 11.3402}
+	{Bone "body"}
+	{Matrix34
+		1	0	0
+		0	0.976367	0.21612
+		0	-0.216119	0.976367
+		0.0125012	-0.0615208	0.388945
+	}
+}
+{Volume "body2"
+	{Cylinder 20.193 5.34372}
+	{Bone "body"}
+	{Matrix34
+		1	0	0
+		0	0.976367	0.21612
+		0	-0.216119	0.976367
+		-0.301829	1.51648	-7.70964
+	}
+}
+{Volume "body3"
+	{Polyhedron "body3.vol"}
+	{Bone "body"}
+	{Matrix34
+		1	0	0
+		0	0.976367	0.21612
+		0	-0.21612	0.976367
+		-2.54565	-3.71208	16.5126
+	}
+}
+{Volume "body4"
+	{Cylinder 2.22032 93.051}
+	{Bone "body"}
+	{Matrix34
+		0	1	0
+		0.0466974	0	0.998909
+		0.998909	0	-0.0466974
+		14.4543	-4.27901	17.6152
+	}
+}
+{Volume "inventory"
+	{Box 7.12071 8.93317 7.30896}
+	{Bone "body"}
+	{Matrix34
+		1	0	0
+		0	-0.216119	0.976367
+		0	-0.976367	-0.21612
+		-0.0448625	0.322401	-1.38167
+	}
+}
+{Volume "part1"
+	{Box 20.8882 36.3487 0.986842}
+	{Bone "part1"}
+	{Matrix34
+		-0.00341191	0.904644	0.426155
+		-0.260309	-0.412269	0.873083
+		0.96552	-0.107953	0.236893
+		-0.884937	3.28722	2.20867
+	}
+}
+{Volume "part2"
+	{Cylinder 4.11476 14.4213}
+	{Bone "part2"}
+	{Matrix34
+		0	1	0
+		0.10056	0	0.994932
+		0.994931	0	-0.100559
+		-0.107026	1.54974	-1.39096
+	}
+}

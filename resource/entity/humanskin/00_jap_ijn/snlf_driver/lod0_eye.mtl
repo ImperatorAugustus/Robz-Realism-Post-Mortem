@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "allied_lod0_eye_darkbrown"}
+	{blend none}
+}

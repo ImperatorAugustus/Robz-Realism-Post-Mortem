@@ -1,0 +1,118 @@
+;Exported by: Loskutov_K
+;Date:        Fri Feb 26 18:59:32 2010
+;File:        D:\_Vietnam\Art\Models\Houses\Saray_1\saray_1.max
+{Skeleton
+	{animation
+		{sequence "open" {speed 0.7} {resume}}
+	}
+	{bone "base2_s1"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "base2_s1.ply"}
+		{bone "door_s1"
+			{parameters "CommonMesh;"}
+			{Position 21.1696	-2.12794	-5.14999}
+			{VolumeView "door_s1.ply"}
+		}
+	}
+}
+{Obstacle "body1"
+	{Obb2
+		{Center 20.8359 -16.0614}
+		{Extent 1.37795 19.115}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Obstacle "body2"
+	{Obb2
+		{Center -1.17324 -32.5556}
+		{Extent 22.9743 1.37796}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Obstacle "body3"
+	{Obb2
+		{Center -23.0666 -10.0918}
+		{Extent 1.37796 25.1216}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Obstacle "close"
+	{Obb2
+		{Center 21.3897 13.1004}
+		{Extent 2.16938 10.2962}
+		{Axis -1 0}
+	}
+	{Rotate}
+}
+{Obstacle "right"
+	{Obb2
+		{Center 28.2318 -6.27264}
+		{Extent 2.16938 10.2962}
+		{Axis 0.752394 0.658713}
+	}
+	{Rotate}
+}
+{Area "switch"
+	{Obb2
+		{Center 20.4618 13.4139}
+		{Extent 1.37795 9.41947}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "door_lock"}
+}
+{Volume "body1"
+	{Box 38.23 2.75591 47.1964}
+	{Bone "base2_s1"}
+	{Matrix34
+		0	1	0
+		-1	0	0
+		0	0	1
+		20.8359	16.0614	-2.55908
+	}
+}
+{Volume "body2"
+	{Box 45.9486 2.75591 47.1964}
+	{Bone "base2_s1"}
+	{Position -1.17324	32.5556	-2.55908}
+}
+{Volume "body3"
+	{Box 50.2433 2.75591 43.4207}
+	{Bone "base2_s1"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		-23.0666	10.0918	-4.44694
+	}
+}
+{Volume "body4"
+	{Box 50.2433 2.75591 48.121}
+	{Bone "base2_s1"}
+	{Matrix34
+		0	-1	0
+		0.109946	0	-0.993938
+		0.993938	0	0.109946
+		-2.24935	11.9117	20.0481
+	}
+}
+{Volume "switch"
+	{Box 18.8389 2.75591 39.173}
+	{Bone "door_s1"}
+	{Matrix34
+		0	1	0
+		-1	0	0
+		0	0	1
+		-0.707841	-11.286	0.938377
+	}
+}

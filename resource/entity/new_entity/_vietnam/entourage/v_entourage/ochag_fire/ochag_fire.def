@@ -1,0 +1,14 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{props "wood" "parts" "small" "parts" "ochag_fire" "ochag_wood" "construction" "burning" "break_on_burn" "no_destroyed_stamp"}
+	{collider "particle"}
+	("armor_fabric")
+	{mass 50}
+
+	{Extension "ochag_fire.mdl"}
+	{Volume "body"
+		{Tags  "body" "fire"}
+		{Thickness 1}
+	}
+	{lodclass "decor_small"}
+}

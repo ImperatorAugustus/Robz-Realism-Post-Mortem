@@ -1,0 +1,280 @@
+;Exported by: Loskutov_K
+;Date:        Thu Feb 11 17:26:02 2010
+;File:        D:\_Vietnam\Models\Bolvanki_diz\Bamboo_tower\tower.max
+{Skeleton
+	{bone "tower_base"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "tower_base.ply"}
+		{bone "emit"
+			{parameters "Group=gunner;"}
+			{Matrix34
+				0	1	0
+				-1	0	0
+				0	0	1
+				0.928478	-49.0264	-92.7862
+			}
+		}
+		{bone "node_ladder_bottom"
+			{Matrix34
+				0	1	0
+				-1	0	0
+				0	0	1
+				0.895544	-34.8352	-77.3985
+			}
+		}
+		{bone "node_ladder_top"
+			{Matrix34
+				0	1	0
+				-1	0	0
+				0	0	1
+				0.895544	-34.8352	26.7664
+			}
+		}
+		{bone "attach"
+			{Matrix34
+				0	1	0
+				-1	0	0
+				0	0	1
+				1.7347	23.0496	44.9229
+			}
+		}
+	}
+}
+{Obstacle "body11"
+	{Obb2
+		{Center -35.9646 -2.72732}
+		{Extent 0.923393 34.778}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body12"
+	{Obb2
+		{Center 37.9516 -2.72733}
+		{Extent 34.4968 0.96121}
+		{Axis 0.0182398 0.999834}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body13"
+	{Obb2
+		{Center 36.4741 0.788414}
+		{Extent 1.17719 34.1486}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body14"
+	{Obb2
+		{Center -37.006 0.788391}
+		{Extent 32.8435 1.03669}
+		{Axis 0.0356776 0.999363}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body15"
+	{Obb2
+		{Center 0.325554 -36.5113}
+		{Extent 34.62 1.04424}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body16"
+	{Obb2
+		{Center 0.325554 -37.7519}
+		{Extent 1.14532 34.9688}
+		{Axis 0.0356776 0.999363}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body1"
+	{Obb2
+		{Center -32.5496 32.4852}
+		{Extent 1.78211 1.92573}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Obstacle "body2"
+	{Obb2
+		{Center 33.924 32.9786}
+		{Extent 1.7821 1.92573}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Obstacle "body3"
+	{Obb2
+		{Center 34.0349 -33.0863}
+		{Extent 1.7821 1.92573}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Obstacle "body4"
+	{Obb2
+		{Center -32.5884 -33.9758}
+		{Extent 1.78211 1.92573}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Obstacle "body5"
+	{Obb2
+		{Center 1.10486 32.7633}
+		{Extent 7.94819 1.05915}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Volume "body10"
+	{Box 61.9889 9.4885 66.8335}
+	{Bone "tower_base"}
+	{Matrix34
+		0	1	0
+		0	0	-1
+		-1	0	0
+		0.157555	1.19491	40.1602
+	}
+}
+{Volume "body11"
+	{Box 1.84679 1.82797 87.3284}
+	{Bone "tower_base"}
+	{Matrix34
+		1	0	0
+		0	-0.621417	-0.78348
+		0	0.78348	-0.621417
+		-35.9646	2.72732	-55.5317
+	}
+}
+{Volume "body12"
+	{Box 1.84679 1.82797 87.3284}
+	{Bone "tower_base"}
+	{Matrix34
+		0.999813	0.0193361	0
+		0.0121756	-0.629574	-0.776845
+		-0.0150209	0.7767	-0.629692
+		37.9516	2.72733	-56.6151
+	}
+}
+{Volume "body13"
+	{Box 1.84679 1.82797 87.3284}
+	{Bone "tower_base"}
+	{Matrix34
+		0.999577	0.0223379	-0.0186513
+		0.0286284	-0.639809	0.768
+		0.00522217	-0.768209	-0.640178
+		36.4741	-0.78842	-56.2935
+	}
+}
+{Volume "body14"
+	{Box 1.84679 1.82797 87.3284}
+	{Bone "tower_base"}
+	{Matrix34
+		0.998659	0.0487332	-0.0174647
+		0.045775	-0.673711	0.737575
+		0.0241783	-0.737386	-0.675038
+		-37.006	-0.788398	-52.5191
+	}
+}
+{Volume "body15"
+	{Box 1.84679 1.82797 87.3284}
+	{Bone "tower_base"}
+	{Matrix34
+		-0.0194831	0.999595	-0.0207518
+		0.626288	0.0283807	0.779075
+		0.779348	0.00218218	-0.626587
+		0.325558	36.5113	-57.1298
+	}
+}
+{Volume "body16"
+	{Box 1.84679 1.82797 87.3284}
+	{Bone "tower_base"}
+	{Matrix34
+		0.0460049	-0.998726	-0.0207147
+		-0.614712	-0.0446492	0.787486
+		-0.787408	-0.0234946	-0.615984
+		0.325556	37.7519	-57.1298
+	}
+}
+{Volume "body1"
+	{Box 3.56421 3.85145 189.808}
+	{Bone "tower_base"}
+	{Position -32.5496	-32.4852	-0.467636}
+}
+{Volume "body2"
+	{Box 3.56421 3.85145 189.808}
+	{Bone "tower_base"}
+	{Position 33.924	-32.9786	-0.467644}
+}
+{Volume "body3"
+	{Box 3.56421 3.85145 189.808}
+	{Bone "tower_base"}
+	{Position 34.0349	33.0863	-0.467644}
+}
+{Volume "body4"
+	{Box 3.56421 3.85145 189.808}
+	{Bone "tower_base"}
+	{Position -32.5884	33.9758	-0.467636}
+}
+{Volume "body5"
+	{Box 15.8964 2.1183 134.763}
+	{Bone "tower_base"}
+	{Position 1.10486	-32.7633	-27.9898}
+}
+{Volume "body6"
+	{Box 3.10086 3.11968 80.1178}
+	{Bone "tower_base"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		-29.708	0.763546	-30.4161
+	}
+}
+{Volume "body7"
+	{Box 3.10086 3.11968 80.1178}
+	{Bone "tower_base"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		30.5226	0.763546	-30.4161
+	}
+}
+{Volume "body8"
+	{Box 3.10086 3.11968 80.1178}
+	{Bone "tower_base"}
+	{Matrix34
+		0	1	0
+		0	0	-1
+		-1	0	0
+		0.361294	-29.2905	-27.8247
+	}
+}
+{Volume "body9"
+	{Box 3.10086 3.11968 80.1178}
+	{Bone "tower_base"}
+	{Matrix34
+		0	1	0
+		0	0	-1
+		-1	0	0
+		0.361286	30.1276	-27.9325
+	}
+}

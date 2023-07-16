@@ -1,0 +1,4 @@
+{actor
+	{extension "/properties/piece.ext"}
+	{simulation {able 0}}
+}

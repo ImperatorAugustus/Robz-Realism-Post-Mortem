@@ -1,0 +1,31 @@
+;Exported by: Vlad
+;Date:        Tue Mar 25 18:05:49 2014
+;File:        D:\маё\Проги всякие\3д проэкты\example_bodyarmor.max
+{Skeleton
+	{bone revolute "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "ammo"
+			{Matrix34
+				-0.105275	0.0384536	-0.993699
+				-0.677813	-0.73436	0.0358351
+				-0.699722	0.705394	0.113172
+				-0.144643	0.181471	0.208946
+			}
+			{VolumeView "ammo.ply"}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "ammo"}
+	{Position 0.746461	3.68279	1.63289}
+}
+{Volume "select"
+	{Polyhedron "select.vol"}
+	{Bone "ammo"}
+	{Position 0.749392	3.69335	1.64374}
+}

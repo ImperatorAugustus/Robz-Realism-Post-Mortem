@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "m2_halftrack"}
+	{specular "m2_halftrack_sp"}
+	{color "229 229 229 25"}
+	{blend test}
+}

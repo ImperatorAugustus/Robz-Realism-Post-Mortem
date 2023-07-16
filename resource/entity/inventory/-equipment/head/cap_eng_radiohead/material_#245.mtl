@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "radio operator"}
+	{blend none}
+}

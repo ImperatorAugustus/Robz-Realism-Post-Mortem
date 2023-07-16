@@ -1,0 +1,41 @@
+;Exported by: Kislov_A
+;Date:        Thu Apr 15 10:35:06 2010
+;File:        E:\Men of war red tide2\Art\Models\Houses\House_middle_1\hm1_complete.max
+{Skeleton
+	{bone "ladder_hm1"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "ladder_hm1.ply"}
+		{bone "land"
+			{parameters "Land;Ground;"}
+			{Position 0.108414	-0.363117	-0.985052}
+			{VolumeView "land.ply" {Ground}}
+		}
+		{bone "fix24"
+			{Position 7.45368	10.3333	8.83656}
+		}
+	}
+}
+{Volume "body1"
+	{Box 1.91164 1.77091 35.3935}
+	{Bone "ladder_hm1"}
+	{Matrix34
+		1	0	0
+		0	0.852365	-0.522948
+		0	0.522948	0.852365
+		5.75189	-0.099205	-0.145131
+	}
+}
+{Volume "body2"
+	{Box 1.91164 1.77091 35.3935}
+	{Bone "ladder_hm1"}
+	{Matrix34
+		1	0	0
+		0	0.852365	-0.522948
+		0	0.522948	0.852365
+		-6.83808	-0.099205	-0.145131
+	}
+}

@@ -1,0 +1,17 @@
+{actor
+	(include "/properties/cannon_mgun.ext")
+	(include "/properties/resupply_generic.inc")
+	("para_ammo")
+	{props "vision_cannon_low" "cannon" "cannon_small"}
+	{collider "cannon_small"}
+	{Extension "crate7.mdl"}
+
+
+	{Volume "body1"
+	{tags "body"}
+	{able{obstacle 0}}
+	{thickness 1}
+	{component "body"}
+	}
+}
+

@@ -1,0 +1,28 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{Extension "perila_hm1.mdl"}
+	{props "cornered" "wood" "parts" "construction" "burning" "wall" "no_destroyed_stamp"}
+	("armor_house_wood")
+        {mass 100}
+	{obstacleID "small_building"}
+
+	{extender "structure_bone"
+		{hold "23"}
+	}
+	{Volume "body1"
+		{Tags  "body" "fire"}
+		{Thickness 10}
+	}
+	{Volume "body2"
+		{Tags  "body" "fire"}
+		{Thickness 10}
+	}
+	{Volume "body3"
+		{Tags  "body" "fire"}
+		{Thickness 10}
+	}
+	{Volume "body4"
+		{Tags  "body" "fire"}
+		{Thickness 10}
+	}
+}

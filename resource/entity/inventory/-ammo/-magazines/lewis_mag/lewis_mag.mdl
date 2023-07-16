@@ -1,0 +1,52 @@
+;Exported by: Kalinski
+;Date:        Tue Aug 02 03:05:08 2016
+;File:        C:\Users\Kalinski\Desktop\magazynki\gotowe\lewis gun\lewisgun_mag_rdy.max
+{Skeleton
+	{bone "lewis_mag"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "lewis_mag.ply"}
+	}
+}
+{Volume "body"
+	{Box 4.53638 4.57073 1.21976}
+	{Bone "lewis_mag"}
+	{Position 0.0169972	-0.0274697	0.00215155}
+}
+{Volume "select"
+	{Box 4.63871 4.6169 1.27896}
+	{Bone "lewis_mag"}
+	{Matrix34
+		1.0387	0	0
+		0	1.0387	0
+		0	0	1.0387
+		0.0126387	-0.0521467	0.0258302
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 0.805722	-4.93091	6.45616}
+			{lookat -0.0521114	-0.286535	0.189569}
+			{fov 45}
+			{horizon -0.239031}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -0.15736	-1.93913	0.842599}
+			}
+			{"1"
+				{type point}
+				{position -0.133186	1.17772	0.884011}
+			}
+			{"2"
+				{type directional}
+				{direction -0.0260877	0.00264281	-0.499312}
+			}
+		}
+	}
+}

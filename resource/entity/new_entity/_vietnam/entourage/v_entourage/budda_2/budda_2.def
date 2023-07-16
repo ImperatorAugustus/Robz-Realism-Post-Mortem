@@ -1,0 +1,16 @@
+{construction
+	(include "/properties/construction.inc")
+
+	{Extension "budda_2.mdl"}
+        {props "concrete" "construction" "parts" "small" "no_destroyed_stamp"}
+
+	{Volume "body1"
+		{Tags  "body"}
+	}
+	{Volume "body2"
+		{Tags  "body"}
+	}
+	{Volume "body"
+		{Tags  "body"}
+	}
+}

@@ -1,0 +1,146 @@
+;Exported by: Loskutov_K
+;Date:        Fri Apr 16 12:50:38 2010
+;File:        D:\_Vietnam\Art\Models\Structure\x\bridge_big_x\brbx.max
+{Skeleton
+	{bone "beams_x"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "beams_x.ply"}
+		{bone "piece07"
+			{Matrix34
+				0	-1	0
+				0	0	-1
+				1	0	0
+				67.6992	-14.8293	138.427
+			}
+			{VolumeView "piece07.ply"}
+		}
+		{bone "piece06"
+			{Matrix34
+				-1	0	0
+				0	1	0
+				0	0	-1
+				1.02387	-88.6315	127.413
+			}
+			{VolumeView "piece06.ply"}
+		}
+		{bone "piece02"
+			{Matrix34
+				0	-1	0
+				0	0	-1
+				1	0	0
+				-1.454	47.8838	137.677
+			}
+			{VolumeView "piece02.ply"}
+		}
+		{bone "piece01"
+			{Matrix34
+				-1	0	0
+				0	0	-1
+				0	-1	0
+				-63.0359	75.6327	127.512
+			}
+			{VolumeView "piece01.ply"}
+		}
+		{bone "piece04"
+			{Matrix34
+				1	0	0
+				0	-1	0
+				0	0	-1
+				76.1357	99.766	127.413
+			}
+			{VolumeView "piece04.ply"}
+		}
+		{bone "piece05"
+			{Matrix34
+				0	1	0
+				0	0	-1
+				-1	0	0
+				-49.5097	-39.2681	137.677
+			}
+			{VolumeView "piece05.ply"}
+		}
+		{bone "piece03"
+			{Matrix34
+				-1	0	0
+				0	1	0
+				0	0	-1
+				13.3154	79.7359	144.105
+			}
+			{VolumeView "piece03.ply"}
+		}
+	}
+}
+{Volume "piece01"
+	{Box 65.0798 34.4708 10.8226}
+	{Bone "piece01"}
+	{Matrix34
+		0	0	-1
+		1	0	0
+		0	-1	0
+		-0.280031	-0.355574	9.62578
+	}
+}
+{Volume "piece02"
+	{Box 65.0798 34.4708 8.46975}
+	{Bone "piece02"}
+	{Matrix34
+		-1	0	0
+		0	0	-1
+		0	-1	0
+		4.32793	1.7453	-0.570545
+	}
+}
+{Volume "piece03"
+	{Box 20.1795 52.6957 9.83418}
+	{Bone "piece03"}
+	{Matrix34
+		0	0.976345	-0.216217
+		0	-0.216217	-0.976346
+		-1	0	0
+		4.85215	8.55106	14.4479
+	}
+}
+{Volume "piece04"
+	{Box 65.0798 34.4708 8.46975}
+	{Bone "piece04"}
+	{Matrix34
+		0	-1	0
+		-1	0	0
+		0	0	-1
+		-2.94437	25.1244	-5.30127
+	}
+}
+{Volume "piece05"
+	{Box 65.0798 34.4708 10.8226}
+	{Bone "piece05"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		0.773029	3.19621	0.694874
+	}
+}
+{Volume "piece06"
+	{Box 65.0798 34.4708 10.8226}
+	{Bone "piece06"}
+	{Matrix34
+		0	1	0
+		1	0	0
+		0	0	-1
+		-0.529563	30.0667	-4.55743
+	}
+}
+{Volume "piece07"
+	{Box 84.5192 43.6339 10.8226}
+	{Bone "piece07"}
+	{Matrix34
+		0	0	1
+		-1	0	0
+		0	-1	0
+		8.58514	5.0882	8.28389
+	}
+}

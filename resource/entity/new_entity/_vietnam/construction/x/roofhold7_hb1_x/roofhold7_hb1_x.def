@@ -1,0 +1,7 @@
+{game_entity
+	{Extension "roofhold7_hb1_x.mdl"}
+	{Volume "piece01"
+	}
+	{Volume "piece02"
+	}
+}

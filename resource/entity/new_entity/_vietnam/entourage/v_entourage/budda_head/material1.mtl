@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "budda"}
+	{specular "budda_sp"}
+	{color "50 50 50 50"}
+	{blend none}
+}

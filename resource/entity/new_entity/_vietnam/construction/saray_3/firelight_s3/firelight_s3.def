@@ -1,0 +1,18 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{Extension "firelight_s3.mdl"}
+	{props "cornered" "wood" "parts" "construction" "burning" "wall" "fire_light"}
+        ("armor_light" args 1.0)
+        {mass 10000}
+	{obstacleID "small_building"}
+
+	{extender "structure_bone"
+		{hold  "25"}
+                {hold  "24"}
+                {hold  "23"}
+	}
+	{Volume "fire0"
+		{Tags  "body" "fire"}
+		{able {obstacle 0}}
+	}
+}

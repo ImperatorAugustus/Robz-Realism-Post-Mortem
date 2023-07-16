@@ -1,0 +1,131 @@
+;Model created by: EngineerDen
+{entity
+	(include "/properties/tank.ext")
+	(include "/properties/selection/vehicle.inc" scale(1.2))
+	{collider "tank.light"}
+	{props "light" "turret_rotator"  "vision_vehicle_low" "muzzle_minimum" "switch_mgun_coax"}
+
+    {targetClass "light_tank"}
+    {patherId "tank.light"}
+
+	{Volume "Body1"
+		{tags "body"}
+		{component "body"}
+	}
+	{Volume "Body2"
+		{tags "body"}
+		{component "body"}
+	}
+	
+	("armor_light" turret(15 15 15 10) body(22 13 13 10))
+	("armor_engine"  t(13))
+	("rus_2-5x_sight")
+
+	{extender "enumerator"}
+	
+	{extender "inventory"
+		{box
+			{item "ammo dt29_mag" 2400}
+			{item "ammo bullet45 rus aphebc" 79}
+			{item "ammo bullet45 rus fg" 108}
+                        ;{item "grenade rpg40" 1}
+                        {item "grenade f1" 3}
+		}
+	}
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			("abm_low")
+			{weapon "45mm_20k" filling "ammo bullet45 rus aphebc" 1}
+			{charger "gunner"}
+		}
+		{place "mgun"
+            ("abm_mgun")
+			{type "mgun_coaxial"}
+			{weapon "dt_optic" filled}
+			;{foresight "foresight3"}
+			{charger "gunner"}
+			{basic}
+		}
+	}
+
+	("crew_2_human")
+	("crew_human" place(commander)	door1(emit1) door2(emit2) visor(main))
+
+	{boarder
+		{anm "left"
+			{forward	{begin	"board_kv"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+		{anm "right"
+			{forward	{begin	"board_tank_right"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+		{anm "armor"
+			{forward	{begin	"board_MiddleArmor"} 	{end "pose_seat_armor_1"}}
+			{reverse 	{end	"emit_tank_1"}}
+		}
+		{anm "armor1"
+			{forward	{begin	"board_MiddleArmor"} 	{end "pose_seat_armor_2"}}
+			{reverse 	{end	"emit_body"}}
+		}
+	}
+
+	("seat_human" place(seat1) bone(seat01) door(emit3)  animation(armor))
+	("seat_human" place(seat2) bone(seat02) door(emit4)  animation(armor1))
+	("seat_human" place(seat3) bone(seat03) door(emit5)  animation(armor))
+	("seat_human" place(seat4) bone(seat04) door(emit6)  animation(armor))
+        
+	{mass 13800}
+        {sensor
+		{visor "main"
+			{vision "tank_main-l"}
+		}
+		{visor "main1"
+			{vision "tank_main-m"}
+			{bone "foresight1"}
+		}
+	}
+        {Chassis
+		("tank_trace_ex" fx("tracks_sm") step(0.3) len(0.55) boneleft("wheell4") boneright("wheelr4"))
+		{Locomotion ("locomotion")
+			{MaxSpeed 	    38} ; максимальная скорость, kmph
+            {maxSpeedAtMaxTurn 6}
+			{StartTime 		 26} ; время разгона до макс. скорости с 0, seconds
+			{BrakeTime        1.5}
+			{StopTime         2.5}
+			{TurnRadius     	7} ; мин. радиус разворота, meter
+			{TurnTime		13} ; время на разворот на 360 градусов при макс. скорости разворота, seconds
+			{TurnStart		 1.1}	; время разгона до макс. угловой скорости с 0, seconds
+			{TurnStop	   0.6}	; время остановки с макс. угловой скорости до 0, seconds
+			{Gears 0.1 0.2 0.3 1.0} ; передаточные коэф-ты коробки передач
+                        {RearGears 0.2} ; передаточные коэф-ты коробки передач
+		}
+        {speed
+			{Slow	19}
+			{Normal	25}
+			{Fast	38}
+		}
+		{FuelBag	;bt7_37
+			{volume 790 }	; liters
+			{rate	10 } 	; liters per kilometer
+			{remain 790 }
+			{fuel "fuel"}
+		}
+	}
+
+	{extension "bt7_37_0.mdl"}
+
+	{bone "gun_rot"
+		{speed 0.001}
+		{limits -40 4}
+	}
+	{bone "turret"
+		{speed 0.003}
+	}
+	{bone "coaxial_mgun"
+		{limits 0}
+	}
+	{texmod "m"}
+}

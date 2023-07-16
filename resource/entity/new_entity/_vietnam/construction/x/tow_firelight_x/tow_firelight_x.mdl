@@ -1,0 +1,12 @@
+;Exported by: Loskutov_K
+;Date:        Thu Apr 01 16:10:27 2010
+;File:        D:\_Vietnam\Art\Models\Structure\x\Bamboo_tower_x\tower_x.max
+{Skeleton
+	{bone "tow_firelight_x"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+	}
+}

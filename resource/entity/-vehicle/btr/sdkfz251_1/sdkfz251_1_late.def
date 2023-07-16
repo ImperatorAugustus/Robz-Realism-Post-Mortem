@@ -1,0 +1,146 @@
+{game_entity
+	(include "/properties/armoredcar.ext")
+	(include "/properties/selection/vehicle.inc"  scale(1.0))
+	{Extension "sdkfz251_d.mdl"}
+	{extension "crew.ext"}
+	{props "vehicle" "armored_car" "tank" "turret" "wheeled_8" "explosion_throw_crew" "vision_vehicle_medium" "switch_mgun" "sdkfz251_1"}
+	
+	{extender "enumerator"
+		{digit_folder "ger"}
+	}
+	(include "/properties/resupply_generic.inc")
+	("halftrack_ammo_ger_inf")
+	{extender "shield"
+			{on}
+	}
+	{volume "sticky"
+		{tags "grenade_fg_target"}
+		{able clear {contact} {touch}}
+		{component "sticky_body"}
+	}
+	{component "sticky_body"}
+
+	{volume "body1"
+		{tags "body"}
+		{component "body"}
+		{thickness 15}   
+	}
+	{volume "body2"
+		{tags "body"}
+		{component "body"}
+		{thickness 15}
+	}
+	{volume "body3"
+		{tags "body"}
+		{component "body"}
+		{thickness 15}
+	}
+	{volume "body4"
+		{tags "body"}
+		{component "body"}
+		{thickness 15}
+	}
+	{volume "body5"
+		{tags "body"}
+		{component "body"}
+		{thickness 15}
+	}
+	{volume "body6"
+		{tags "body"}
+		{component "body"}
+		{thickness 15}   
+	}
+	{volume "engine1"
+		{tags "engine"}
+		{component "engine"}
+		{thickness 20}
+	}
+	{volume "engine2"
+		{tags "engine"}
+		{component "engine"}
+		{thickness 20}
+	}
+	{Volume "fuel"
+		{thickness 1}
+	}
+	{Volume "mgun_shield"
+		{thickness 10}
+	}
+
+	("armor_medium" args 1.0)
+
+	("crew_2_human")
+ 	("crew_human" place(seat1) bone(seat01) door(emit3) animation(passenger1))
+	("crew_human" place(seat2) bone(seat02) door(emit4) animation(passenger2))
+ 	("crew_human" place(seat3) bone(seat03) door(emit5) animation(passenger1))
+	("crew_human" place(seat4) bone(seat04) door(emit6) animation(passenger2))
+ 	("crew_human" place(seat5) bone(seat05) door(emit7) animation(passenger1))
+	("crew_human" place(seat6) bone(seat06) door(emit8) animation(passenger2))
+ 	("crew_human" place(seat7) bone(seat07) door(emit9) animation(passenger1))
+	("crew_human" place(seat8) bone(seat08) door(emit10) animation(passenger2))
+
+
+	{placer
+		{place "driver"		{group "driver"} {visor "driver"}}
+		{place "gunner"		{group "driver"} {visor "main"} {turnoff {targetable 0}}}
+	}
+
+
+
+	{extender "inventory"
+		{weapon "mgun"
+			{mask "weapon mgun"}
+		}
+		{Box
+			{item "m24x5" "grenade" 10}
+			{item "m24" "grenade" 25}
+			{item "smoke" "grenade" 10}
+			{item "bandage" 10}
+			{item "dynamite"}
+			{item "mg42" filled {user "mgun"}}
+			{item "mg_mauser drum ammo" 2500}
+			{item "panzerfaust_60 weapon" 2 filled}
+		}
+	}
+	{Weaponry
+		{place "mgun"
+			{type "mgun_main"}
+			{LinkBone "mgun2"}
+			{LinkAnimation "off"}
+			{charger "gunner"}
+			{gunner "gunner"}
+			("abm_mgun")
+		}
+	}  	
+
+	("wheel" args "wheelright1")
+	("wheel" args "wheelleft1")
+	("tracks")
+
+	{Chassis
+		{Locomotion ("locomotion")
+			{MaxSpeed	33}
+	  		{maxSpeedAtMaxTurn 6}	
+			{StartTime	30}
+			{BrakeTime	1.5}	
+			{StopTime	2.5}
+			{TurnRadius	8}
+     			{Gears  0.1 0.2 0.3 1}
+			{RearGears  0.25}
+		}
+		{FuelBag
+			{volume 160}
+			{rate	10} 
+			{remain 160 }
+			{fuel "fuel"}
+		}
+		{speed
+        	{Normal  33}
+        	{Slow  33}
+    	}
+		; left track must be first
+		("tank_trace" fx("tracks_mid") step(0.5) len(0.86) boneleft("FXtraceL2") boneright("FXtraceR2"))
+		("car_trace" fx("tracewheel02") step(0.09) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
+	}
+	{mass 8500}
+}

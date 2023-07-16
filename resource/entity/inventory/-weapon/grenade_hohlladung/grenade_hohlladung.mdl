@@ -1,0 +1,88 @@
+;Exported by: Zeke Wolff
+;Date:        Fri Dec 12 14:23:41 2014
+;File:        E:\DCG\MoW\hohlladung.ms3d
+{Skeleton
+	{bone "hohlladung"
+		{parameters "ID=mgun;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "hohlladung.ply"}
+		{bone "handle"
+			{Matrix34
+				0	-1	0
+				-1	0	0
+				0	0	-1
+				-0.019277	3.29158	0.00385642
+			}
+		}
+	}
+}
+{Volume "body"
+	{Sphere 1.73234}
+	{Bone "hohlladung"}
+	{Matrix34
+		-1	0	0
+		0	0	-1
+		0	-1	0
+		0	-0.374772	0
+	}
+}
+{Volume "select"
+	{Box 5.06684 5.70816 2.59872}
+	{Bone "hohlladung"}
+	{Matrix34
+		-1	0	0
+		0	1	0
+		0	0	-1
+		0.04296	0.472886	-0.24773
+	}
+}
+{Extender "preview"
+	{"Stuff_secondary"
+		{camera
+			{origin -10.6511	-0.906988	-12.0542}
+			{lookat -0.0679071	-0.187256	0.0707245}
+			{fov 30}
+			{horizon -157.5}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.0315292	-0.497682	0.0362998}
+			}
+			{"1"
+				{type directional}
+				{direction 0.458432	0.04186	0.195161}
+			}
+			{"2"
+				{type directional}
+				{direction -0.257213	0.267925	0.334749}
+			}
+		}
+	}
+	{"Stuff"
+		{camera
+			{origin -0.0239439	-4.07862	-11.221}
+			{lookat -0.0156555	-0.323327	0.109034}
+			{fov 30}
+			{horizon -36.0799}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0.179177	0.466783	-0.00293408}
+			}
+			{"1"
+				{type directional}
+				{direction 0.0912436	-0.482524	0.0940478}
+			}
+			{"2"
+				{type directional}
+				{direction -0.468187	0.153709	0.0846983}
+			}
+		}
+	}
+}

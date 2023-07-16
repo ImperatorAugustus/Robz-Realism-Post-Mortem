@@ -1,0 +1,26 @@
+;Exported by: Фёдор
+;Date:        Wed Nov 19 14:00:30 2014
+;File:        C:\Users\Фёдор\Documents\3dsmax\scenes\new_okop_baza_6_bun_02.max
+{Skeleton
+	{bone "exterior"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "exterior.ply"}
+	}
+}
+{Area "interior"
+	{Obb2
+		{Center 6.17822 2.8051}
+		{Extent 57.1569 71.2312}
+		{Axis 1 0}
+	}
+	{Rotate}
+}
+{Volume "body"
+	{Box 112.138 152.751 18.3449}
+	{Bone "exterior"}
+	{Position 7.43964	-8.92818	9.17245}
+}

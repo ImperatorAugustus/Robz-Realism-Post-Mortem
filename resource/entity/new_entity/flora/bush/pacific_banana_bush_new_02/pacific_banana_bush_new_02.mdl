@@ -1,0 +1,24 @@
+;Exported by: ?????
+;Date:        Sun Mar 08 16:40:37 2015
+;File:        C:\Users\?????\Documents\3dsmax\scenes\bamboo.max
+{Skeleton
+	{bone "bush"
+		{parameters "CommonMesh;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "bush.ply"}
+	}
+}
+{Volume "crown"
+	{Cylinder 27.4763 18.5145}
+	{Bone "bush"}
+	{Matrix34
+		0.884122	-0.467256	0
+		0.467256	0.884122	0
+		0	0	1
+		0.772232	-15.3435	9.25726
+	}
+}

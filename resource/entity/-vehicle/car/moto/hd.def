@@ -1,0 +1,10 @@
+{game_entity
+	(include "moto.inc")
+	{extender "inventory"
+		{Box
+			{item "browning_m19" filled {user "mgun"}}
+			{item  "ammo springfield_belt" 500 }
+		}
+	}
+	{texmod "ally"}
+}

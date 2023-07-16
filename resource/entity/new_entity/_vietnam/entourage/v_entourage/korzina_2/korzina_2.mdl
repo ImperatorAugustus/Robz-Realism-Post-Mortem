@@ -1,0 +1,18 @@
+;Exported by: Loskutov_K
+;Date:        Thu Apr 08 14:54:37 2010
+;File:        D:\_Vietnam\Art\Models\Anturage\utvar\korzina_2\korzina_2.max
+{Skeleton
+	{bone "korzina_2"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "korzina_2.ply"}
+	}
+}
+{Volume "body"
+	{Box 13.325 11.1262 14.5595}
+	{Bone "korzina_2"}
+	{Position 2.39905	0.0544434	7.27975}
+}

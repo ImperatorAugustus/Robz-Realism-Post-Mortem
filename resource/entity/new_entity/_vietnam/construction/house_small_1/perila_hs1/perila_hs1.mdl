@@ -1,0 +1,121 @@
+;Exported by: Kislov_A
+;Date:        Wed Apr 14 14:26:56 2010
+;File:        E:\Men of war red tide2\Art\Models\Houses\House_small_1\hs1.max
+{Skeleton
+	{bone "perila_hs1"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "perila_hs1.ply"}
+		{bone "fix19"
+			{Position 12.4335	1.0791	-12.4935}
+		}
+	}
+}
+{Obstacle "body1"
+	{Obb2
+		{Center 12.4965 34.444}
+		{Extent 0.999706 0.772049}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Obstacle "body2"
+	{Obb2
+		{Center 13.2939 -12.6456}
+		{Extent 0.99988 1.14295}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Obstacle "body4"
+	{Obb2
+		{Center -0.0221906 -37.1975}
+		{Extent 14.7935 0.866169}
+		{Axis 0.999848 0.0174436}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Obstacle "body5"
+	{Obb2
+		{Center -0.0221944 35.9032}
+		{Extent 14.7726 0.820721}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Obstacle "body6"
+	{Obb2
+		{Center 14.1629 12.5812}
+		{Extent 0.937376 25.8695}
+		{Axis 0.999848 0.0174436}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Volume "body1"
+	{Box 1.64843 1.54409 29.5481}
+	{Bone "perila_hs1"}
+	{Matrix34
+		0.999929	0	-0.0118824
+		0	1	0
+		0.0118824	0	0.999929
+		12.4965	-34.444	-0.378435
+	}
+}
+{Volume "body2"
+	{Box 1.64843 1.54409 29.5481}
+	{Bone "perila_hs1"}
+	{Matrix34
+		0.999929	0	-0.0118824
+		0.000298507	0.999684	0.02512
+		0.0118786	-0.0251218	0.999614
+		13.2939	12.6456	-0.378436
+	}
+}
+{Volume "body3"
+	{Box 1.64843 1.54409 29.5481}
+	{Bone "perila_hs1"}
+	{Matrix34
+		0.999929	0	-0.0118824
+		7.44887e-005	0.99998	0.00626839
+		0.0118822	-0.00626883	0.99991
+		12.2206	35.5853	-0.378436
+	}
+}
+{Volume "body4"
+	{Box 1.64843 1.54409 29.5481}
+	{Bone "perila_hs1"}
+	{Matrix34
+		-0.0224797	0.000389872	0.999747
+		0.0110741	0.999939	-0.000140942
+		-0.999686	0.0110681	-0.0224826
+		-0.0221901	37.1975	11.3859
+	}
+}
+{Volume "body5"
+	{Box 1.64843 1.54409 29.5481}
+	{Bone "perila_hs1"}
+	{Matrix34
+		0.115673	-0.000348614	0.993287
+		-0.003213	0.999995	0.000725136
+		-0.993282	-0.00327531	0.115671
+		-0.0221939	-35.9032	12.3984
+	}
+}
+{Volume "body6"
+	{Box 1.64843 1.54409 51.7092}
+	{Bone "perila_hs1"}
+	{Matrix34
+		-0.000389853	0.0175775	0.999845
+		-0.999939	0.01106	-0.000584326
+		-0.0110685	-0.999784	0.0175721
+		14.1629	-12.5812	9.16809
+	}
+}

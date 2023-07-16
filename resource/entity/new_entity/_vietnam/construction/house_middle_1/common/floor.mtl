@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/construction/v_temp_tex/floor"}
+	{bump "$/construction/v_temp_tex/floor_bp"}
+	{specular "$/construction/v_temp_tex/floor_sp"}
+	{color "150 150 150 50"}
+	{blend test}
+}

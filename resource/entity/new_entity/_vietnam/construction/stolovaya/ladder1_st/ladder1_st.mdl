@@ -1,0 +1,62 @@
+;Exported by: Loskutov_K
+;Date:        Tue Apr 20 15:29:46 2010
+;File:        D:\_Vietnam\Art\Models\Houses\stolovaya\stolovaya.max
+{Skeleton
+	{bone "ladder1_st"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "ladder1_st.ply"}
+		{bone "land"
+			{parameters "Land;Ground;"}
+			{Matrix34
+				0	-1	0
+				0.983171	0	-0.182686
+				0.182686	0	0.983171
+				-7.07209	2.34756	0.00925159
+			}
+			{VolumeView "land.ply" {Ground}}
+		}
+		{bone "fix01"
+			{Position 8.37237	14.8567	9.5788}
+		}
+	}
+}
+{Obstacle "obstacle1"
+	{Obb2
+		{Center -3.66209 9.528}
+		{Extent 9.32183 1.28739}
+		{Axis 1 -3.06916e-007}
+	}
+	{Rotate}
+}
+{Obstacle "obstacle2"
+	{Obb2
+		{Center -3.66209 -9.6438}
+		{Extent 9.32183 1.28739}
+		{Axis 1 -3.06916e-007}
+	}
+	{Rotate}
+}
+{Volume "body1"
+	{Box 5.34923 1.77819 29.1187}
+	{Bone "ladder1_st"}
+	{Matrix34
+		0.845673	-0.00120113	-0.5337
+		0.00142032	0.999999	0
+		0.5337	-0.000758026	0.845674
+		-0.380452	8.99255	-0.782059
+	}
+}
+{Volume "body2"
+	{Box 5.34923 1.77819 29.1187}
+	{Bone "ladder1_st"}
+	{Matrix34
+		0.845673	-0.00120113	-0.5337
+		0.00142032	0.999999	0
+		0.5337	-0.000758026	0.845674
+		-0.380452	-9.23125	-0.782059
+	}
+}

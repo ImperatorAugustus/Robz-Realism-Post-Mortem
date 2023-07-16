@@ -1,0 +1,70 @@
+;Exported by: Руслан
+;Date:        Tue Aug 20 02:05:22 2013
+;File:        C:\Users\Руслан\Documents\3dsmax\scenes\Новая папка\new_okop.max
+{Skeleton
+	{bone "ardenn_trench_04"
+		{parameters "Land;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "ardenn_trench_04.ply" {Ground} {DecalTarget}}
+	}
+}
+{Obstacle "body1"
+	{Obb2
+		{Center 12.9287 0.737244}
+		{Extent 4.17029 17.709}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body2"
+	{Obb2
+		{Center -0.260757 -19.9928}
+		{Extent 10.6895 3.72889}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body3"
+	{Obb2
+		{Center -14.6023 0.737244}
+		{Extent 4.17029 17.709}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body4"
+	{Obb2
+		{Center -0.260757 20.2755}
+		{Extent 10.6895 3.72889}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body1"
+	{Box 8.34058 35.4179 31.839}
+	{Bone "ardenn_trench_04"}
+	{Position 12.9287	-0.737244	-12.1674}
+}
+{Volume "body2"
+	{Box 21.3791 7.45779 31.839}
+	{Bone "ardenn_trench_04"}
+	{Position -0.260757	19.9928	-12.1674}
+}
+{Volume "body3"
+	{Box 8.34058 35.4179 31.839}
+	{Bone "ardenn_trench_04"}
+	{Position -14.6023	-0.737244	-12.1674}
+}
+{Volume "body4"
+	{Box 21.3791 7.45779 31.839}
+	{Bone "ardenn_trench_04"}
+	{Position -0.260757	-20.2755	-12.1674}
+}

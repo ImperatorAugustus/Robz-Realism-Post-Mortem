@@ -1,0 +1,5 @@
+{
+	(include "/properties/crater.inc")
+	{Extension "trap_spikeless.mdl"}
+	{props "big"}
+}

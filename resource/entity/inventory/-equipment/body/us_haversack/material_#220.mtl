@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "haversack"}
+	{blend none}
+}

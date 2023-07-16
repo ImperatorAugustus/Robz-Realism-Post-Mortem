@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "cover_x"}
+	{specular "cover_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

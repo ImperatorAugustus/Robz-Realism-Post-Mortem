@@ -1,0 +1,173 @@
+{game_entity
+	(include "/properties/tank.ext")
+	(include "/properties/selection/vehicle.inc"  scale(1.2))
+
+	{collider "tank.light"}
+	{props "light" "turret_rotator" "vision_vehicle_medium" "muzzle_small"}
+	
+	{extender "enumerator"}
+
+	{Volume "body01"
+		{component "body"}
+		{tags "body"}
+	}
+	{Volume "body02"
+		{component "body"}
+		{tags "body"}
+	}
+	{Volume "body03"
+		{component "body"}
+		{tags "body"}
+	}
+	{Volume "cover1"
+		{able {holed}}
+	}
+	{Volume "cover2"
+	}
+	{Volume "engine01"
+		{component "engine"}
+		{tags "engine"}
+	}
+	{Volume "engine02"
+		{component "engine"}
+		{tags "engine"}
+	}
+	{Volume "gun1"
+		{component "gun"}
+		{tags "gun"}
+	}
+	{Volume "gun2"
+		{component "gun"}
+		{tags "gun"}
+	}
+	{Volume "hole1"
+		{able clear {hole}}
+	}
+	{Volume "mantlet"
+		{component "turret"}
+		{tags "turret"}
+	}
+	{Volume "turret1"
+		{component "turret"}
+		{tags "turret"}
+	}
+	{Volume "turret2"
+		{component "turret"}
+		{tags "turret"}
+	}
+	{Volume "turret3"
+		{component "turret"}
+		{tags "turret"}
+	}
+
+	("armor_light" turret(25 25 12 8) body(25 15 7 8))
+	("armor_mantlet" t(25))
+	 
+	{extender "inventory"
+		{box
+			{item "ammo bullet57 jap aphe" 25}
+			{item "ammo bullet57 jap fg" 60}
+			{item "ammo bullet57 jap heat" 15}
+			{item "ammo type97_mag" 2300}
+		}
+	}
+		
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "57mm_type97" filling "ammo bullet57 jap aphe" 1}
+			("abm_low")
+		}
+
+		{place "mgun"
+			{basic}
+			{type "mgun_hull"}
+			{weapon "type97_mg" filled}     
+			{gunner "driver"}
+			{charger "driver"}
+			{foresight "foresight3"}
+			("abm_mgun")
+            {basic}
+		}
+		{place "mgun2"
+			{type "mgun_rear"}
+			{weapon "type97_mg" filled}
+			{gunner "commander"}
+			{charger "commander"}
+			{foresight "foresight5"}
+			("abm_mgun")
+		}			
+	}
+	{sensor
+		{visor "back"
+			{vision "tank_back"}
+			{bone "foresight5"}
+		}
+	}
+
+	("crew_4_human")
+	{placer 
+		{place "commander" {visor "back"}}
+	}
+	{boarder
+		{anm "left"
+			{forward	{begin	"board_Kv"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+		{anm "right"
+			{forward	{begin	"board_tank_right"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+			{anm "armor"
+			{forward	{begin	"board_MiddleArmor"} {end "pose_seat_armor_1"}}
+			{reverse 	{end	"emit_tank_2"}}
+		}
+		{anm "armor1"
+			{forward	{begin	"board_MiddleArmor"} {end "pose_seat_armor_2"}}
+			{reverse 	{end	"emit_body"}}
+		}
+
+	}
+	("seat_human" place(seat1) bone(seat01) door(emit3)  animation(armor1))
+	("seat_human" place(seat2) bone(seat02) door(emit3)  animation(armor))
+	("seat_human" place(seat3) bone(seat03) door(emit4)  animation(armor1))
+	("seat_human" place(seat4) bone(seat04) door(emit4)  animation(armor))
+
+	{mass 15000}
+	{Chassis
+		("tank_trace" fx("tracks_mid") step(0.56) len(0.3))
+		{Locomotion ("locomotion")
+			{MaxSpeed	34}
+			{maxSpeedAtMaxTurn 6}
+			{StartTime	 25}
+			{TurnTime	14}
+			{TurnStart  1.5} 
+			{BrakeTime  1.5}
+			{StopTime   2.5} 
+			{TurnRadius 9} 
+			{TurnStop   0.7} 
+			{Gears      0.1 0.2 0.3 1.0}
+			{RearGears  0.25}
+		}
+		{speed
+        	{Normal  34}
+        	{Slow  34}
+    	}
+		{FuelBag
+			{volume 390 }	
+			{rate	 15 }   
+			{remain 390 }
+			{fuel "fuel"}
+		}
+	}
+	{Extension "chi-ha57.mdl"}
+
+	{bone "gun_rot"
+		{limits -8 25}
+		{speed 0.001}
+	}
+	{bone "turret"
+		{speed 0.003}
+	}
+}

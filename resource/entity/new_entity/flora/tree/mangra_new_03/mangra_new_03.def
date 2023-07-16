@@ -1,0 +1,46 @@
+{game_entity
+	(include "/properties/tree_q.inc")
+	{props "tree_q" "normal_light" "invisible_crown"}
+	{Extension "mangra_new_03.mdl"}
+	{Volume "crown"
+		{able {visible 0}}
+	}
+	{Volume "bole"
+		{able {touch 0} {visible 0}}
+		{thickness 3}
+	}
+	{Volume "bole009"
+		{able {touch 0} {visible 0}}
+		{thickness 3}
+	}
+	{Volume "bole010"
+		{able {touch 0} {visible 0}}
+		{thickness 3}
+	}
+	{Volume "bole011"
+		{able {touch 0} {visible 0}}
+		{thickness 3}
+	}
+	{Volume "bole012"
+		{able {touch 0} {visible 0}}
+		{thickness 3}
+	}
+	{Volume "bole013"
+		{able {touch 0} {visible 0}}
+		{thickness 3}
+	}
+	{Volume "bole014"
+		{able {touch 0} {visible 0}}
+		{thickness 3}
+	}
+	{Volume "bole015"
+		{able {touch 0} {visible 0}}
+		{thickness 3}
+	}
+	{Volume "bole016"
+		{able {touch 0} {visible 0}}
+		{thickness 3}
+	}
+	{Volume "crown"
+	}
+}

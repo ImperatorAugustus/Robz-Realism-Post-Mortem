@@ -1,0 +1,24 @@
+;Exported by: Руслан
+;Date:        Tue Aug 27 01:54:45 2013
+;File:        C:\Users\Руслан\Documents\3dsmax\scenes\Новая папка\new_okop_3_baz4_ек_ьпгт.max
+{Skeleton
+	{bone "trench_bun_mgun"
+		{parameters "land;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "trench_bun_mgun.ply" {Ground} {DecalTarget}}
+		{bone "gun_nest"
+			{Position 5.49098	7.10158	2.84243}
+		}
+	}
+}
+{Volume "body"
+	{Box 7.25589 55.5124 24.6346}
+	{Bone "trench_bun_mgun"}
+	{Position 6.07677	6.18486	12.3173}
+}
+
+

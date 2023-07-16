@@ -1,0 +1,32 @@
+{game_entity
+	(include "/properties/construction.inc")
+	("armor_light" args 0.5)
+	{Extension "jap_bunker_wall_mgun.mdl"}
+	{props "construction" "parts" "wood" "no_destroyed_stamp" "disable_area" "small" "burning"} 
+	("armor_heavy" args 0.8)
+	{obstacleID "small_building"}
+	{extender "structure"
+		{place "gun_nest" "mg34_stan" "mg42_stan" "type1hmg_stan" "browning_stan"}
+	}
+	{Volume "body1"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {visible 1}}
+	}
+
+	{Volume "body2"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {visible 0}{obstacle 0}}
+	}
+	{Volume "body3"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {visible 1}}
+	}
+	{Volume "body4_r"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {visible 1}}
+	}
+}

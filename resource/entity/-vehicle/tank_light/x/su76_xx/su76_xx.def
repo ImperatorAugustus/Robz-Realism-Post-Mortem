@@ -1,0 +1,31 @@
+{game_entity
+	{Extension "su76m_xx.mdl"}
+	{Volume "body1"
+	}
+	{Volume "body2"
+	}
+	{Volume "body3"
+	}
+	{Volume "body4"
+	}
+	{Volume "body5"
+	}
+	{Volume "body6"
+	}
+	{Volume "body7"
+	}
+	{Volume "body8"
+	}
+	{Volume "body9"
+	}
+	{Volume "body"
+	}
+	{Volume "engine"
+	}
+	{Volume "gun_rot"
+	}
+	{Volume "gun"
+	}
+	{Volume "mantlet"
+	}
+}

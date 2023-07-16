@@ -1,0 +1,127 @@
+;Exported by: Фёдор
+;Date:        Tue Jul 15 16:44:58 2014
+;File:        C:\Users\Фёдор\Documents\3dsmax\scenes\fqw\belgiangate.max
+{Skeleton
+	{bone "basic"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "piece01"
+			{Matrix34
+				1	0	0
+				0	0	1
+				0	-1	0
+				0.0522308	12.7004	9.94922
+			}
+			{VolumeView "piece01.ply"}
+		}
+		{bone "piece02"
+			{Matrix34
+				0.707107	0	0.707107
+				0	1	0
+				-0.707107	0	0.707107
+				9.26483	13.5027	0
+			}
+			{VolumeView "piece02.ply"}
+		}
+		{bone "piece03"
+			{Matrix34
+				0.707107	0	-0.707107
+				0	1	0
+				0.707107	0	0.707107
+				-9.63504	13.5027	0
+			}
+			{VolumeView "piece03.ply"}
+		}
+		{bone "piece04"
+			{Matrix34
+				0.707107	0	0.707107
+				0	1	0
+				-0.707107	0	0.707107
+				9.26483	-13.7553	0
+			}
+			{VolumeView "piece04.ply"}
+		}
+		{bone "piece05"
+			{Matrix34
+				0.707107	0	-0.707107
+				0	1	0
+				0.707107	0	0.707107
+				-9.63504	-13.7553	0
+			}
+			{VolumeView "piece05.ply"}
+		}
+	}
+}
+{Obstacle "piece01"
+	{Obb2
+		{Center 0.31916 0.0949278}
+		{Extent 0.980827 12.7953}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "piece02"
+	{Obb2
+		{Center 0.484129 -13.5027}
+		{Extent 9.74117 1.02362}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "piece03"
+	{Obb2
+		{Center -0.320493 -13.5027}
+		{Extent 9.74118 1.02362}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "piece04"
+	{Obb2
+		{Center 0.484129 13.7553}
+		{Extent 9.74117 1.02362}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "piece05"
+	{Obb2
+		{Center -0.320493 13.7553}
+		{Extent 9.74118 1.02362}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "piece01"
+	{Box 1.96165 2.04724 25.5906}
+	{Bone "piece01"}
+	{Position 0.26693	0	12.7953}
+}
+{Volume "piece02"
+	{Box 1.96165 2.04724 25.5906}
+	{Bone "piece02"}
+	{Position 0.188744	0	12.6065}
+}
+{Volume "piece03"
+	{Box 1.96165 2.04724 25.5906}
+	{Bone "piece03"}
+	{Position 0.188747	0	12.984}
+}
+{Volume "piece04"
+	{Box 1.96165 2.04724 25.5906}
+	{Bone "piece04"}
+	{Position 0.188744	0	12.6065}
+}
+{Volume "piece05"
+	{Box 1.96165 2.04724 25.5906}
+	{Bone "piece05"}
+	{Position 0.188747	0	12.984}
+}

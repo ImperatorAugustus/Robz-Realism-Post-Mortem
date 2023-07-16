@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "m50 reising"}
+	{blend none}
+}

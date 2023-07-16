@@ -1,0 +1,10 @@
+{game_entity
+	(include "/properties/stuff_small.ext")
+	{extender "stuff"
+		{item "trench_spade"}
+	}
+	{Extension "spade_inv.mdl"}
+	{Volume "body"
+		{Thickness 10}
+	}
+}

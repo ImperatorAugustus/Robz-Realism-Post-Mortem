@@ -1,0 +1,18 @@
+;Exported by: Loskutov_K
+;Date:        Wed Nov 11 13:55:19 2009
+;File:        D:\_Vietnam\Models\Flora\Slon_trava_1\Slon_trava_1.max
+{Skeleton
+	{bone "slon_trava_1"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "slon_trava_1.ply"}
+	}
+}
+{Volume "crown"
+	{Box 36.6965 35.0655 28.8204}
+	{Bone "slon_trava_1"}
+	{Position -0.999596	0.395049	14.4102}
+}

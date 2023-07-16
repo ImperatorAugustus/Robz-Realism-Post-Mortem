@@ -1,0 +1,52 @@
+;Exported by: Kalinski
+;Date:        Tue Aug 02 18:16:42 2016
+;File:        C:\Users\Kalinski\Desktop\magazynki\gotowe\m1941lmg\m1941lmg_mag_rdy.max
+{Skeleton
+	{bone "m1941lmg_mag"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "m1941lmg_mag.ply"}
+	}
+}
+{Volume "body"
+	{Box 3.30574 6.17554 0.38358}
+	{Bone "m1941lmg_mag"}
+	{Position -0.00431776	0.00978494	-0.0113167}
+}
+{Volume "select"
+	{Box 3.52258 6.31163 0.38358}
+	{Bone "m1941lmg_mag"}
+	{Matrix34
+		1.0387	0	0
+		0	1.0387	0
+		0	0	1.0387
+		-0.00431776	0.00978494	-0.00389442
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 0.0739704	0.106387	4.31959}
+			{lookat 0.0739704	0.079579	0.0318985}
+			{fov 45}
+			{horizon -0.239031}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -0.0312786	-1.57302	0.684929}
+			}
+			{"1"
+				{type point}
+				{position -0.0071038	1.54384	0.726341}
+			}
+			{"2"
+				{type directional}
+				{direction -0.0260877	0.00264281	-0.499312}
+			}
+		}
+	}
+}

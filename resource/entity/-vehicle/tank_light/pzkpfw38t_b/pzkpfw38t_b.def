@@ -1,0 +1,136 @@
+{Entity
+	(include "/properties/tank.ext")
+	(include "/properties/selection/vehicle.inc" scale(1.0))
+	{props "light" "turret" "vision_vehicle_low" "muzzle_small" "switch_mgun_coax"}
+	
+	{collider "tank.light"}
+	{targetClass "light_tank"}
+	{patherId "tank.light"}
+	
+	{extender "enumerator"
+		{digit_folder "ger2"}
+	}
+	
+	{volume "body1"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "body2"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "body3"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "body4"
+		{tags "body"}
+		{component "body"}
+	}
+	
+	("armor_light" turret(25 15 15 10) body(30 15 15 8))
+
+	("crew_4_human_extended")
+	("seat_4_human")
+
+	{boarder
+		{anm "driver"
+			{forward	{begin	"board_pz4_driver"} {end "seat_gunner_stand"} {base "open_driver" -0.4}}
+			{reverse 	{end	"emit_tank_2_hold"} {base "open_driver" 0.9}}
+		}
+	}
+	{extender "inventory"
+		{box
+			{item "ammo bullet37 ger apcbc" 40}
+            		{item "ammo bullet37 ger fg" 50}
+			{item "ammo bullet37 ger apcr" 10}
+			{item "ammo mg_mauser belt" 2400}
+                        {item "grenade m39" 3}
+		}
+	}
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{weapon "37mm_kwk38t" filling "ammo bullet37 ger apcbc" 1}
+			{RestoreIKAfterAim}
+			{gunner "commander"}
+			{charger "charger"}
+			("abm_low")
+		}
+		{place "mgun"
+			("abm_mgun")
+			{type "mgun_coaxial"}
+			{weapon "zb53" filled}
+			{foresight "foresight3"}
+			{gunner "commander"}
+			{charger "charger"}
+			{basic}
+		}
+		{place "mgun1"
+			("abm_mgun")
+			{type "mgun_hull"}
+			{weapon "zb53" filled}
+			{foresight "foresight4"}
+			{gunner "driver"}
+			{charger "driver"}
+		}
+	}
+
+	{mass 9400}
+       	 {sensor
+		{visor "main"
+			{vision "tank_main-l"}
+		}
+		{visor "main1"
+			{vision "tank_main-m"}
+			{bone "foresight1"}
+		}
+		{visor "view-around"
+			{vision "vehicle_top_turret"}
+			{bone "turret"}
+		}
+	}
+
+	{Chassis
+		("tank_trace" fx("tracks_sm") step(0.52) len(-1.1))
+		{Locomotion ("locomotion")
+			{maxspeed   24}
+			{maxSpeedAtMaxTurn 5}
+			{StartTime  25}
+			{TurnStart  1.7}			
+			{TurnTime   15}
+			{TurnRadius 10} 
+    			{TurnStop   0.9}
+			{BrakeTime  1}
+			{StopTime   2}
+			{Gears      0.1 0.2 0.3 1}
+			{RearGears  0.3}
+		}
+                {speed
+				{Slow	12}
+				{Normal	16}
+				{Fast	24}
+		}
+		{FuelBag
+			{volume 220 }	; liters
+			{rate	14}  	; liters per kilometer
+			{remain 220 }
+			{fuel "fuel"}
+		}
+	}	
+
+	{Extension "pz38t.mdl"}
+
+	{bone "turret"
+		{speed 0.003}
+	}
+	{bone "gun_rot"
+		{speed 0.001}
+	}
+	{Volume "gun"
+	}
+	{Volume "mantlet"
+	}
+	{Volume "turret"
+	}
+}

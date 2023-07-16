@@ -1,0 +1,31 @@
+{game_entity
+	{Extension "m4a3e8_x.mdl"}
+	{Volume "body1"
+	}
+	{Volume "body2"
+	}
+	{Volume "body3"
+	}
+	{Volume "gun"
+	}
+	{Volume "mantlet"
+	}
+	{Volume "shieldl1"
+	}
+	{Volume "shieldl2"
+	}
+	{Volume "shieldl3"
+	}
+	{Volume "shieldr1"
+	}
+	{Volume "shieldr2"
+	}
+	{Volume "trackleft"
+	}
+	{Volume "trackright"
+	}
+	{Volume "turret2"
+	}
+	{Volume "turret"
+	}
+}

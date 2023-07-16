@@ -1,0 +1,69 @@
+;Exported by: Loskutov_K
+;Date:        Thu Apr 08 17:24:58 2010
+;File:        D:\_Vietnam\Art\Models\Anturage\koyka\koyka.max
+{Skeleton
+	{bone "body"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "body.ply"}
+	}
+}
+{Obstacle "body1"
+	{Obb2
+		{Center -0.379034 0.174669}
+		{Extent 8.89751 21.6991}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body2"
+	{Obb2
+		{Center -0.855743 20.3595}
+		{Extent 9.2465 0.621826}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Obstacle "body3"
+	{Obb2
+		{Center -0.855743 0.0896072}
+		{Extent 9.2465 0.621826}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Obstacle "body4"
+	{Obb2
+		{Center -0.855744 -20.3464}
+		{Extent 9.2465 0.621826}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Volume "body1"
+	{Box 17.795 43.3982 1.15857}
+	{Bone "body"}
+	{Position -0.379034	-0.17467	9.75727}
+}
+{Volume "body2"
+	{Polyhedron "body2.vol"}
+	{Bone "body"}
+	{Position -0.426132	-20.3595	0}
+}
+{Volume "body3"
+	{Polyhedron "body3.vol"}
+	{Bone "body"}
+	{Position -0.426133	-0.0896072	0}
+}
+{Volume "body4"
+	{Polyhedron "body4.vol"}
+	{Bone "body"}
+	{Position -0.426134	20.3464	0}
+}

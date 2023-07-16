@@ -1,0 +1,7 @@
+{game_entity
+	{Extension "porchwall2_hb1_x.mdl"}
+	{Volume "piece01"
+	}
+	{Volume "piece02"
+	}
+}

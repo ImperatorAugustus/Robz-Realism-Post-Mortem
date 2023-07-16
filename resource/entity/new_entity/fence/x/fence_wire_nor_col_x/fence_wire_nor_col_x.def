@@ -1,0 +1,5 @@
+{game_entity
+	{Extension "fence_wire_nor_col_x.mdl"}
+	{Volume "piece01"
+	}
+}

@@ -1,0 +1,35 @@
+;Exported by: Loskutov_K
+;Date:        Fri Apr 09 11:03:18 2010
+;File:        D:\_Vietnam\Art\Models\Anturage\utvar\ochag\ochag.max
+{Skeleton
+	{bone "ochag"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "ochag.ply"}
+		{bone "fx_ochag"
+			{Matrix34
+				0	0	1
+				0	1	0
+				-1	0	0
+				0.0914729	0.013504	2.03946
+			}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -0.0492392 -0.147964}
+		{Extent 6.96082 6.98014}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Volume "body"
+	{Box 13.9216 13.9603 3.7811}
+	{Bone "ochag"}
+	{Position -0.0492392	0.147964	1.89055}
+}

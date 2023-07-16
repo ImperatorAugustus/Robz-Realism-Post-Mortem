@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "airborne_1"}
+	{bump "airborne_1"}
+	{blend none}
+}

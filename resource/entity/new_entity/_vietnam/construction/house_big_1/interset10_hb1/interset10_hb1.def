@@ -1,0 +1,51 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{Extension "interset10_hb1.mdl"}
+	{props "wood" "small" "construction" "parts" "no_destroyed_stamp" "burning" "break_on_burn"}
+	("armor_light")
+	{mass 100}
+
+	{extender "structure_bone"
+		{hold "25"}
+	}
+	{Volume "body1"
+		{Tags  "body"}
+		{Thickness 5}
+		{material "steel"}
+	}
+	{Volume "body2"
+		{Tags  "body"}
+		{Thickness 5}
+	}
+	{Volume "body3"
+		{Tags  "body"}
+		{Thickness 5}
+	}
+	{Volume "body4"
+		{Tags  "body"}
+		{Thickness 5}
+	}
+	{Volume "body5"
+		{Tags  "body"}
+		{Thickness 5}
+	}
+	{Volume "body6"
+		{Tags  "body"}
+		{Thickness 5}
+	}
+	{Volume "body7"
+		{Tags  "body"}
+		{Thickness 5}
+		{material "steel"}
+	}
+	{Volume "body8"
+		{Tags  "body"}
+		{Thickness 5}
+		{material "steel"}
+	}
+	{Volume "body9"
+		{Tags  "body"}
+		{Thickness 5}
+		{material "steel"}
+	}
+}

@@ -1,0 +1,7 @@
+{game_entity
+                  (include "/properties/trench_new.inc")           
+	{Extension "ardenn_trench_baza_4_x.mdl"}
+	{props "wood"}
+	{Extender "land_patch"
+	}
+}

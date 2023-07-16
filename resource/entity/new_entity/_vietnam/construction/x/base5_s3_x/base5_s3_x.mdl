@@ -1,0 +1,126 @@
+;Exported by: Loskutov_K
+;Date:        Wed Apr 21 13:39:49 2010
+;File:        D:\_Vietnam\Art\Models\Houses\X\Saray_3_x\saray_3_x.max
+{Skeleton
+	{bone "base5_s3_x"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "piece01"
+			{Matrix34
+				0	-1	0
+				0	0	-1
+				1	0	0
+				-4.96096	2.46922	22.2373
+			}
+			{VolumeView "piece01.ply"}
+		}
+		{bone "piece02"
+			{Matrix34
+				0	0	-1
+				1	0	0
+				0	-1	0
+				-21.4564	3.85125	20.3885
+			}
+			{VolumeView "piece02.ply"}
+		}
+		{bone "piece03"
+			{Matrix34
+				0	-1	0
+				1	0	0
+				0	0	1
+				-23.1134	4.72632	13.8708
+			}
+			{VolumeView "piece03.ply"}
+		}
+		{bone "piece06"
+			{Matrix34
+				0	-1	0
+				1	0	0
+				0	0	1
+				-21.3402	2.34571	-6.53159
+			}
+			{VolumeView "piece06.ply"}
+		}
+		{bone "piece05"
+			{Matrix34
+				0	-1	0
+				1	0	0
+				0	0	1
+				-24.307	13.5549	-10.4279
+			}
+			{VolumeView "piece05.ply"}
+		}
+		{bone "piece04"
+			{Matrix34
+				0	0	-1
+				1	0	0
+				0	-1	0
+				-22.0735	-20.6285	20.3549
+			}
+			{VolumeView "piece04.ply"}
+		}
+	}
+}
+{Volume "piece01"
+	{Box 2.68184 2.61643 29.5502}
+	{Bone "piece01"}
+	{Matrix34
+		1	0	0
+		0	-1	0
+		0	0	-1
+		0.0245166	-0.382438	-1.29372
+	}
+}
+{Volume "piece02"
+	{Box 2.68184 2.61643 38.1197}
+	{Bone "piece02"}
+	{Matrix34
+		0	-1	0
+		-1	0	0
+		0	0	-1
+		-0.27242	-0.138862	-1.61269
+	}
+}
+{Volume "piece03"
+	{Polyhedron "piece03.vol"}
+	{Bone "piece03"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		-0.543687	2.47727	-0.341141
+	}
+}
+{Volume "piece04"
+	{Box 2.68184 2.61643 13.9289}
+	{Bone "piece04"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		-0.0947037	-0.0464096	-0.272647
+	}
+}
+{Volume "piece05"
+	{Box 15.5304 17.4172 1.81429}
+	{Bone "piece05"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		-0.433508	1.01733	-2.86692
+	}
+}
+{Volume "piece06"
+	{Box 2.68184 2.61643 24.0154}
+	{Bone "piece06"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		0.222897	-0.521843	-3.98579
+	}
+}

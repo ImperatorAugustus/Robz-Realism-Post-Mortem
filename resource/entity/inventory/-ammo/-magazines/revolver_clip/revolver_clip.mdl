@@ -1,0 +1,52 @@
+;Exported by: Kalinski
+;Date:        Tue Aug 02 13:06:40 2016
+;File:        C:\Users\Kalinski\Desktop\magazynki\gotowe\revolver clip\revolver_clip_rdy.max
+{Skeleton
+	{bone "revolver_clip"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "revolver_clip.ply"}
+	}
+}
+{Volume "body"
+	{Box 0.726807 0.756359 0.65858}
+	{Bone "revolver_clip"}
+	{Position -0.00431776	0.00978494	0.000210613}
+}
+{Volume "select"
+	{Box 0.871838 0.874223 0.69358}
+	{Bone "revolver_clip"}
+	{Matrix34
+		1.0387	0	0
+		0	1.0387	0
+		0	0	1.0387
+		-0.00431776	0.00978494	0.0311314
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -1.37443	0.434949	2.84856}
+			{lookat 0.0793399	0.025435	0.036459}
+			{fov 45}
+			{horizon -0.239031}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -0.0312786	-1.57302	0.684929}
+			}
+			{"1"
+				{type point}
+				{position -0.00710392	1.54384	0.726341}
+			}
+			{"2"
+				{type directional}
+				{direction -0.0260877	0.00264281	-0.499312}
+			}
+		}
+	}
+}

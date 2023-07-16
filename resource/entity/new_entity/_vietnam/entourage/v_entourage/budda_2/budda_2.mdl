@@ -1,0 +1,55 @@
+;Exported by: Loskutov_K
+;Date:        Thu Dec 03 15:02:39 2009
+;File:        D:\_Vietnam\Models\Anturage\Budda_2\b2.max
+{Skeleton
+	{bone "body"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "body.ply"}
+	}
+}
+{Obstacle "body1"
+	{Obb2
+		{Center 1.60946 -1.08534}
+		{Extent 24.7404 28.9403}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body2"
+	{Obb2
+		{Center 1.60946 -11.759}
+		{Extent 24.7404 18.2666}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 0.672752 0.609844}
+		{Extent 33.551 33.0864}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body1"
+	{Polyhedron "body1.vol"}
+	{Bone "body"}
+	{Position 1.60946	4.70838	20.2541}
+}
+{Volume "body2"
+	{Polyhedron "body2.vol"}
+	{Bone "body"}
+	{Position 1.60946	4.70838	11.1706}
+}
+{Volume "body"
+	{Box 67.102 66.1729 21.5759}
+	{Bone "body"}
+	{Position 0.672752	-0.609844	10.2087}
+}

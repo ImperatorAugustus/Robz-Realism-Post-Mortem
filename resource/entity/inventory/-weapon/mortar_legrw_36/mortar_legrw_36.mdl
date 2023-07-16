@@ -1,0 +1,80 @@
+;Exported by: Sergey
+;Date:        Thu May 12 21:15:44 2016
+;File:        D:\Sergey\documents\3dsMax\scenes\_resource_MoW_old\-vehicle_mortar\5 cm le Gr W 36\5cm_legrw36_weapon.max
+{Skeleton
+	{bone "legrw36"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "legrw36.ply"}
+		{bone "handle"
+			{Matrix34
+				0.72529	0.688444	0
+				-0.688444	0.72529	0
+				0	0	1
+				-1.05126	-0.745457	0
+			}
+		}
+		{bone revolute "foresight3"
+			{Position 5.82076	5.27348	0}
+		}
+	}
+}
+{Volume "body"
+	{Box 10.4956 11.1848 4.73773}
+	{Bone "legrw36"}
+	{Position 1.03576	0.2498	1.42155}
+}
+{Volume "select"
+	{Box 11.5937 12.355 5.4459}
+	{Bone "legrw36"}
+	{Position 1.03576	0.2498	1.44563}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -28.2133	-35.9497	63.6766}
+			{lookat -17.5951	-23.6509	42.2387}
+			{fov 9}
+			{horizon -127}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0.161571	0.197948	-0.429781}
+			}
+			{"1"
+				{type point}
+				{position 21.692	-17.8185	-9.85194}
+			}
+			{"2"
+				{type point}
+				{position -1.04826	-16.1741	-9.92637}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin -34.1144	-46.9507	77.8521}
+			{lookat -26.5849	-38.2293	62.65}
+			{fov 7}
+			{horizon -157}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -1.04826	-16.1741	-9.00232}
+			}
+			{"1"
+				{type point}
+				{position 21.692	-17.8185	-8.92789}
+			}
+			{"2"
+				{type directional}
+				{direction 0.16241	0.197074	-0.429866}
+			}
+		}
+	}
+}

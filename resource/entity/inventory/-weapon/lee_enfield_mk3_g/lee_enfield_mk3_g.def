@@ -1,0 +1,8 @@
+{Actor
+	(include "/properties/stuff_small.ext")
+	{Extension "lee_enfield_mk3_g.mdl"}
+	{extender "stuff"
+		{item "em3_mark1"}
+	}
+	{nogroupmesh 1}	
+}

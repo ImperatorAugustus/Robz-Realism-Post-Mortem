@@ -1,0 +1,81 @@
+{construction
+	(include "/properties/building.inc")
+	{props "concrete" "burning"}
+	{obstacleid "unbreakable"}
+	("armor_heavy" args 1.0)
+	{Extension "bunker_01_m.mdl"}
+	{placer}
+	{extender "structure"
+		{place "roof" "ardenn_trench_baza_wall_roof_9"}
+		{place "door" "bunker_01_door_01" "bunker_01_door_02"}
+		{place "win" "bunker_win_01" "bunker_win_02"}
+		{place "wall" "bunker_01_wall_caz"}
+		{place "gun_nest_01" "mg42_stan" "browning_stan"}
+		{place "gun_nest_02" "mg42_stan" "browning_stan"}
+	}
+	{Volume "body"
+		{Tags "body"}
+		{Thickness 50}
+	}
+	{Volume "body10"
+			{Tags "body"}
+		{Thickness 50}
+	}
+	{Volume "body11"
+			{Tags "body"}
+		{Thickness 50}
+	}
+	{Volume "body12"
+			{Tags "body"}
+		{Thickness 50}
+		{able {visible 0}{obstacle 0}}
+	}
+	{Volume "body13"
+			{Tags "body"}
+		{Thickness 50}
+	}
+	{Volume "body14"
+			{Tags "body"}
+		{Thickness 50}
+	}
+	{Volume "body15"
+			{Tags "body"}
+		{Thickness 50}
+		{able {visible 0}{obstacle 0}}
+}
+	{Volume "body2"
+			{Tags "body"}
+		{Thickness 50}
+		{able {visible 0}{obstacle 0}}
+}
+	{Volume "body3"
+			{Tags "body"}
+		{Thickness 50}
+	}
+	{Volume "body4"
+			{Tags "body"}
+		{Thickness 50}
+	}
+	{Volume "body5"
+			{Tags "body"}
+		{Thickness 50}
+	}
+	{Volume "body6"
+			{Tags "body"}
+		{Thickness 50}
+	}
+	{Volume "body7"
+			{Tags "body"}
+		{Thickness 50}
+	}
+	{Volume "body8"
+		{Tags "body"}
+		{Thickness 50}
+	}
+	{Volume "body9"
+			{Tags "body"}
+		{Thickness 50}
+	}
+	{Extender "land_patch"
+	}
+}

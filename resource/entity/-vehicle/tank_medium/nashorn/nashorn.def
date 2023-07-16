@@ -1,0 +1,137 @@
+{game_entity
+	(include "/properties/tank.ext")
+	(include "/properties/selection/vehicle.inc" scale(1.2))
+	{props "medium" "-turret" "opened" "vision_vehicle_high" "muzzle_large_sides"}
+	
+	{extender "enumerator"
+		{digit_folder "ger"}
+	}
+
+	{volume "sticky"
+		{tags "grenade_fg_target"}
+		{able clear {contact} {touch}}
+		{component "sticky_body"}
+	}
+	
+	{component "sticky_body"}
+	{volume "body1"
+		{component "body"}
+		{tags "body"}
+	}
+	{volume "body2"
+		{component "body"}
+		{tags "body"}
+	}
+	{volume "body3"
+		{component "body"}
+		{tags "body"}
+	}
+	{volume "inventory"
+        {thickness 2}
+	}
+
+	("armor_spa_heavy" armor(30 20 20 15))
+	("shield" args 15)
+	("ger_5x8_sight")
+
+	{boarder
+		{anm "driver"
+			{forward	{begin	"board_hummel_driver"} {end "seat_gunner_stand"} {base "open_driver"}}
+			{reverse 	{end	"board_hummel_driver" -1} {base "open_driver" }}
+		}
+		{anm "charger"
+			{forward	{begin	"board_hummel"} {end "pose_pak40_gunlayer"} {base "open_back_door"}}
+			{reverse 	{end	"emit_body" 1} {base "open_back_door" -1}}
+		}
+		{anm "gunner"
+			{forward	{begin	"board_hummel"} {end "pose_pak40_charger"} {base "open_back_door"}}
+			{reverse 	{end	"emit_body" 1} {base "open_back_door" -1}}
+		}
+		{anm "commander"
+			{forward	{begin	"board_hummel"} {end "pose_pak40_gunlayer"} {base "open_back_door"}}
+			{reverse 	{end	"emit_body" 1} {base "open_back_door" -1}}
+		}
+	}
+
+	(define "crew_human"
+		{placer
+			{place "%place" {group "crew"} {linkbone "%place"} {turnoff {sensor} {shadow}}}
+		}
+		{boarder
+			{door "%door1"}
+			{door "%door2"}
+			{link "%door1" "%place" {anm "%place"} {forward putoff} {reverse puton}}
+			{link "%door2" "%place" {anm "%place"} {forward putoff} {reverse puton}}
+		}
+	)
+
+	{placer
+		{place "driver" {group "crew"} {visor "driver"}}
+	}
+	{placer
+		{place "gunner" {visor "main"}}
+	}
+	{boarder
+		{door "emit0"}
+		{door "emit1"}
+		{link "emit0" "driver" {anm "driver"} {forward putoff} {reverse puton}}
+	}
+
+	("crew_human" place(commander)	door1(emit1))
+	("crew_human" place(gunner)	    door1(emit1))
+	("crew_human" place(charger)	door1(emit1))
+
+	{extender "inventory"
+		{box
+            {item "bullet88 gerl apcbc" 35}
+            {item "bullet88 gerl fg" 26}
+            ;{item "bullet88 gerl apcr" 4}
+		}
+	}
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "88mm_pak43" filling "ammo bullet88 gerl apcbc" 1}	
+			("abm_medium")
+		}
+	}
+
+	{mass 24000}
+	{Chassis
+		("tank_trace" fx("tracks_mid") step(0.56) len(0.167))
+		{Locomotion ("locomotion")
+			{MaxSpeed	 27}
+			{maxSpeedAtMaxTurn 4}
+			{StartTime	  45}
+			{TurnTime  	  19}
+    		{TurnStart  1.4} 
+    		{BrakeTime    1} 
+    		{StopTime     2} 
+    		{TurnRadius   8} 
+    		{TurnStop   0.8}
+     		{Gears  0.1 0.2 0.3 1}
+    		{RearGears 0.28}
+		}
+		{FuelBag
+			{volume 470 }	
+			{rate	36 }   
+			{remain 470 }
+			{fuel "fuel"}
+		}
+		{speed
+        	{Normal  27}
+        	{Slow  27}
+    	}
+		{DisableMoveWhileFiring}
+	}
+	{Extension "nashorn.mdl"}
+	
+	{bone "gun_rot"
+		{speed 0.001}
+	}
+	{bone "gun_rot1"
+		{speed 0.001}
+	}
+
+}

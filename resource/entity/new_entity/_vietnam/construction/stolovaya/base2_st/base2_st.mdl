@@ -1,0 +1,115 @@
+;Exported by: Loskutov_K
+;Date:        Thu Mar 11 11:09:39 2010
+;File:        D:\_Vietnam\Art\Models\Houses\stolovaya\stolovaya.max
+{Skeleton
+	{bone "base2_st"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "base2_st.ply"}
+		{bone "land"
+			{parameters "Land;Ground;"}
+			{Position 6.83553	-1.77075	-11.2592}
+			{VolumeView "land.ply" {Ground}}
+		}
+	}
+}
+{Obstacle "body5"
+	{Obb2
+		{Center 39.068 14.229}
+		{Extent 1.85893 1.95372}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Obstacle "body6"
+	{Obb2
+		{Center 39.068 -15.8801}
+		{Extent 1.85893 1.95372}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Area "interior"
+	{Obb2
+		{Center -22.5694 1.51706}
+		{Extent 58.2441 82.2667}
+		{Axis -1 0}
+	}
+	{Rotate}
+}
+{Obstacle "obstacle1"
+	{Obb2
+		{Center 43.2841 22.9103}
+		{Extent 12.5005 1.28739}
+		{Axis 0 1}
+	}
+	{Rotate}
+}
+{Obstacle "obstacle2"
+	{Obb2
+		{Center 43.2841 -24.8879}
+		{Extent 12.5005 1.28739}
+		{Axis 0 1}
+	}
+	{Rotate}
+}
+{Volume "body1"
+	{Box 3.50458 3.67707 20.5462}
+	{Bone "base2_st"}
+	{Matrix34
+		0	1	0
+		0	0	-1
+		-1	0	0
+		29.3155	-15.1871	33.813
+	}
+}
+{Volume "body2"
+	{Box 3.50458 3.67707 28.3538}
+	{Bone "base2_st"}
+	{Matrix34
+		0	1	0
+		0	0	-1
+		-1	0	0
+		25.4117	15.4513	33.813
+	}
+}
+{Volume "body3"
+	{Box 3.91425 3.98908 68.9581}
+	{Bone "base2_st"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		39.241	1.02176	30.1995
+	}
+}
+{Volume "body4"
+	{Box 18.4715 2.08661 12.8234}
+	{Bone "base2_st"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		38.6178	-23.5306	21.8669
+	}
+}
+{Volume "body5"
+	{Box 3.71786 3.90744 68.947}
+	{Bone "base2_st"}
+	{Position 39.068	-14.229	-1.69276}
+}
+{Volume "body6"
+	{Box 3.71786 3.90744 68.947}
+	{Bone "base2_st"}
+	{Position 39.068	15.8801	-1.69276}
+}
+{Volume "body7"
+	{Box 62.8094 51.4335 4.34579}
+	{Bone "base2_st"}
+	{Position 5.7649	5.08423	-14.0371}
+}

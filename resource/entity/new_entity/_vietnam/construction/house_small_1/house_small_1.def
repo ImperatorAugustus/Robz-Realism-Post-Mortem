@@ -1,0 +1,27 @@
+{game_entity
+	{Extension "house_small_1.mdl"}
+	{placer}
+	{extender "structure"
+		{place "1" "base_hs1"}
+		{place "2" "porch_hs1"}
+		{place "3" "ladder_hs1"}
+		{place "4" "wall1_hs1"}
+		{place "5" "wall2_hs1"}
+		{place "6" "wall3_hs1"}
+		{place "7" "wall4_hs1"}
+		{place "8" "base2_hs1"}
+		{place "9" "roofhold_hs1"}
+		{place "10" "perila_hs1"}
+		{place "15" "interset6_hs1"}
+		{place "16" "interset7_hs1"}
+		{place "17" "interset3_hs1"}
+		{place "18" "interset4_hs1"}
+		{place "20" "interset5_hs1"}
+		{place "21" "interset1_hs1"}
+		{place "22" "interset8_hs1"}
+		{place "19" "interset2_hs1"}
+		{place "13" "clothes2_hs1"}
+		{place "14" "clothes1_hs1"}
+		{place "23" "fire_light"}
+	}
+}

@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/new_fortification/sack1"}
+	{blend none}
+}

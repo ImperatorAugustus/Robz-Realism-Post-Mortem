@@ -1,0 +1,18 @@
+;Exported by: Фёдор
+;Date:        Thu Jul 24 01:27:54 2014
+;File:        C:\Users\Фёдор\Documents\3dsmax\scenes\wheat_round_01.max
+{Skeleton
+	{bone "basic"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "col2"
+			{Position 0.0874405	33.8582	0}
+		}
+		{bone "col1"
+			{Position 0.0874405	-34.885	0}
+		}
+	}
+}

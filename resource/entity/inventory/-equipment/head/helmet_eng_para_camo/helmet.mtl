@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "para helmet net"}
+	{bump "para helmet net bp"}
+	{specular "para helmet net sp"}
+	{color "229 229 229 152"}
+	{blend test}
+}

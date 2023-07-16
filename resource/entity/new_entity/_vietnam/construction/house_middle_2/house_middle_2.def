@@ -1,0 +1,28 @@
+{game_entity
+	{Extension "house_middle_2.mdl"}
+	{placer}
+	{extender "structure"
+		{place "1" "wall1_hm2"}
+		{place "2" "wall5_hm2"}
+		{place "3" "wall4_hm2"}
+		{place "4" "wall3_hm2"}
+		{place "5" "wall2_hm2"}
+		{place "6" "base3_hm2"}
+		{place "7" "base1_hm2"}
+		{place "8" "base6_hm2"}
+		{place "9" "base5_hm2"}
+		{place "10" "base2_hm2"}
+		{place "11" "base4_hm2"}
+		{place "12" "interset3_hm2"}
+		{place "13" "interset4_hm2"}
+		{place "14" "interset1_hm2"}
+		{place "15" "interset2_hm2"}
+		{place "16" "roofhold2_hm2"}
+		{place "17" "roofhold4_hm2"}
+		{place "18" "roofhold1_hm2"}
+		{place "19" "roofhold5_hm2"}
+		{place "20" "roofhold3_hm2"}
+		{place "21" "roofhold6_hm2"}
+		{place "22" "firelight_hm2"}
+	}
+}

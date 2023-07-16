@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/animation/track_tiger2"}
+	{bump "$/animation/track_tiger2_bp"}
+	{specular "$/animation/track_tiger2_sp"}
+	{color "229 229 229 25"}
+	{blend blend}
+}

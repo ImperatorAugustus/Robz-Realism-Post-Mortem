@@ -1,0 +1,80 @@
+;Exported by: Sergey
+;Date:        Thu May 12 22:02:57 2016
+;File:        D:\Sergey\documents\3dsMax\scenes\_resource_MoW_old\-vehicle_mortar\Ordnance, SBML 2-inch Mortar Mk VII\2-inch mortar Mk VII weapon.max
+{Skeleton
+	{bone "mk_vii"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "mk_vii.ply"}
+		{bone revolute "foresight3"
+			{Matrix34
+				0.696804	0.717261	0
+				-0.717261	0.696804	0
+				0	0	1
+				7.98157	4.22802	0
+			}
+		}
+		{bone "handle"
+			{Position 2.3396	1.53103	0}
+		}
+	}
+}
+{Volume "body"
+	{Box 13.7639 11.47 1.98399}
+	{Bone "mk_vii"}
+	{Position 1.7351	-0.70096	0.00546694}
+}
+{Volume "select"
+	{Box 15.5096 12.67 2.42085}
+	{Bone "mk_vii"}
+	{Position 1.7351	-0.70096	-0.0165266}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -30.2133	-35.9497	63.6766}
+			{lookat -19.5951	-23.6509	42.2387}
+			{fov 9}
+			{horizon -127}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0.161571	0.197948	-0.429781}
+			}
+			{"1"
+				{type point}
+				{position 21.692	-17.8185	-9.85194}
+			}
+			{"2"
+				{type point}
+				{position -1.04826	-16.1741	-9.92637}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin -34.1144	-46.9507	77.8521}
+			{lookat -26.5849	-38.2293	62.65}
+			{fov 7}
+			{horizon -157}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -1.04826	-16.1741	-9.00232}
+			}
+			{"1"
+				{type point}
+				{position 21.692	-17.8185	-8.92789}
+			}
+			{"2"
+				{type directional}
+				{direction 0.16241	0.197074	-0.429866}
+			}
+		}
+	}
+}

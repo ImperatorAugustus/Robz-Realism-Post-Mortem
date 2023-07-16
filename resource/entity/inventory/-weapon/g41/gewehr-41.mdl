@@ -1,0 +1,86 @@
+;Exported by: sergienko
+;Date:        Tue Jul 12 14:20:01 2005
+;File:        D:\tmp\g41\G41.max
+{Skeleton
+	{bone "g41"
+		{Matrix34
+			1.1	0	0
+			0	-1.1	0
+			0	0	1.1
+			-1.5	0.2	0.0
+		}
+		{LODView
+			{VolumeView "gewehr-41.ply"}
+		}
+		{bone "Foresight3"
+			{Position 18.9448	1.9094	0.0543}
+		}
+		{bone "handle"
+			{Position 7.8623	1.7995	0.0022}
+		}
+		{bone "run_holder"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				1.93331	0.977613	-0.264447
+			}
+		}
+	}
+}
+{Volume "select"
+	{Box 29.9047 11.1349 3.05727}
+	{Bone "g41"}
+	{Position 6.24056	1.138	-0.237407}
+}
+{Volume "body"
+	{Box 23.1538 4.30972 1.17113}
+	{Bone "g41"}
+	{Position 5.66393	0.41708	-0.265553}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -7.11999	-2.97043	23.1842}
+			{lookat 3.16164	-0.0502528	0.806723}
+			{fov 45}
+			{horizon -87.9999}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 9.63253	-6.92531	2.73429}
+			}
+			{"1"
+				{type directional}
+				{direction -0.223068	0.250131	-0.371046}
+			}
+			{"2"
+				{type point}
+				{position -4.57094	-2.89268	1.06071}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin -8.02158	-3.27191	25.5229}
+			{lookat 3.30467	-0.0550357	0.871814}
+			{fov 45}
+			{horizon -97}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.223068	0.250131	-0.371046}
+			}
+			{"1"
+				{type point}
+				{position 9.63253	-6.92531	2.73429}
+			}
+			{"2"
+				{type point}
+				{position -4.57094	-2.89268	1.06071}
+			}
+		}
+	}
+}

@@ -1,0 +1,5 @@
+{game_entity
+	{Extension "taburet_1_x.mdl"}
+	{Volume "piece01"
+	}
+}

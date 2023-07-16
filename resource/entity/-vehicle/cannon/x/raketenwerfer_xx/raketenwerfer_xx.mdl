@@ -1,0 +1,125 @@
+;Exported by: Normand
+;Date:        Sun Jun 17 20:41:56 2018
+;File:        C:\Users\Normand\raketenwerfer_xx.max
+{Skeleton
+	{bone revolute "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "pivot_front"
+			{Position -0.379535	0.0144859	15.2661}
+			{VolumeView "pivot_front.ply"}
+			{bone revolute "wheelr"
+				{Matrix34
+					-1	0	0
+					0	0.196052	0.980594
+					0	0.980594	-0.196052
+					0.966023	-10.1334	-8.53723
+				}
+			}
+			{bone revolute "wheell"
+				{Matrix34
+					-1	0	0
+					0	-0.387241	0.921979
+					0	0.921979	0.387241
+					0.966023	10.1868	-8.53723
+				}
+			}
+		}
+		{bone "body"
+			{parameters "ID=body;"}
+			{Matrix34
+				0.993193	-0.0106662	0.115994
+				0.00249944	0.997521	0.0703249
+				-0.116457	-0.0695562	0.990757
+				0.53456	0.0144863	5.31709
+			}
+			{VolumeView "body.ply"}
+			{bone "detail1"
+				{Position -12.3033	-2.02444	-1.36924}
+				{VolumeView "detail1.ply"}
+			}
+			{bone "detail2"
+				{Position -12.3033	-2.02444	-1.90769}
+				{VolumeView "detail2.ply"}
+			}
+			{bone revolute "turret"
+				{parameters "ID=turret;"}
+				{limits -30 30}
+				{Matrix34
+					0.953052	-0.0205694	-0.302107
+					0.0599444	0.990761	0.121648
+					0.296814	-0.134047	0.94548
+					-1.05357	0.000144601	1.57791
+				}
+				{VolumeView "turret.ply"}
+				{bone revolute "gun_rot"
+					{limits -15 15}
+					{Matrix34
+						0.999871	0	0.016048
+						-0.016048	0	0.999871
+						0	-1	0
+						-0.237913	-0.000145316	4.36655
+					}
+					{VolumeView "gun_rot.ply"}
+					{bone "gun"
+						{parameters "ID=gun;"}
+						{Matrix34
+							1	0	0
+							0	0	-1
+							0	1	0
+							-11.6904	-0.742412	0
+						}
+						{VolumeView "gun.ply"}
+					}
+				}
+				{bone "dempfer"
+					{Position 0	0	0}
+					{VolumeView "dempfer.ply"}
+				}
+			}
+		}
+	}
+}
+{Volume "body2"
+	{Box 8.44078 18.1428 4.07486}
+	{Bone "body"}
+	{Matrix34
+		0.99998	0	0.00625274
+		0	1	0
+		-0.00625271	0	0.999981
+		-0.298718	-0.0753008	-2.42764
+	}
+}
+{Volume "body"
+	{Box 32.8101 3.7952 3}
+	{Bone "body"}
+	{Matrix34
+		0.999789	0	0.0205469
+		0	1	0
+		-0.0205469	0	0.999789
+		-12.7468	-0.191579	-0.931929
+	}
+}
+{Volume "gun"
+	{Cylinder 1.26723 34}
+	{Bone "gun"}
+	{Matrix34
+		0	-1	0
+		0.00289749	0	0.999996
+		-0.999996	0	0.00289738
+		14.418	0.0402752	-0.0234631
+	}
+}
+{Volume "turret"
+	{Box 16.7007 12.6294 0.75}
+	{Bone "turret"}
+	{Matrix34
+		0	-1	0
+		0.00344276	0	0.999994
+		-0.999994	0	0.00344266
+		5.54575	0.0993301	2.99163
+	}
+}

@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/humanskin/heer/g43 pouch"}
+	{blend none}
+}

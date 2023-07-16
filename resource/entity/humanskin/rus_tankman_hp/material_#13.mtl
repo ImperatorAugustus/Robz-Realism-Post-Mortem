@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "rus_tank_skin"}
+	{blend none}
+}

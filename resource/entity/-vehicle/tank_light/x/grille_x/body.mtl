@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "grille_x"}
+	{bump "$/model/grille_bp"}
+        {specular "$/model/grille_sp"}
+	{blend none}
+}

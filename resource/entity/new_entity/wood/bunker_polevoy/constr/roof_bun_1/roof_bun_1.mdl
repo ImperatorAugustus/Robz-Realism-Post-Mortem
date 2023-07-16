@@ -1,0 +1,18 @@
+;Exported by: Руслан
+;Date:        Mon Aug 12 11:33:16 2013
+;File:        C:\Users\Руслан\Documents\3dsmax\scenes\new_trench_and_fortific\bunker_roof_1.max
+{Skeleton
+	{bone "roof_bun_1"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "roof_bun_1.ply"}
+	}
+}
+{Volume "body"
+	{Box 57.419 54.5739 5.96107}
+	{Bone "roof_bun_1"}
+	{Position -18.7166	0.428905	18.1322}
+}

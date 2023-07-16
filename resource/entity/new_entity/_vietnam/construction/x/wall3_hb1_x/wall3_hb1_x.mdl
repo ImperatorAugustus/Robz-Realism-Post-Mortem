@@ -1,0 +1,45 @@
+;Exported by: Loskutov_K
+;Date:        Mon Apr 26 13:47:42 2010
+;File:        D:\_Vietnam\Art\Models\Houses\X\House_big_1_x\hb1_completex.max
+{Skeleton
+	{bone "wall3_hb1_x"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "piece02"
+			{Matrix34
+				0	0	-1
+				0	1	0
+				1	0	0
+				5.59102	-0.107689	-9.2153
+			}
+			{VolumeView "piece02.ply"}
+		}
+		{bone "piece01"
+			{Matrix34
+				1	0	0
+				0	-1	0
+				0	0	-1
+				1.8949	0.0351334	4.69624
+			}
+			{VolumeView "piece01.ply"}
+		}
+	}
+}
+{Volume "piece01"
+	{Box 38.1002 17.5624 1.85203}
+	{Bone "piece01"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		-0.744113	0.431422	0.948158
+	}
+}
+{Volume "piece02"
+	{Box 1.07629 1.01863 22.3795}
+	{Bone "piece02"}
+	{Position -0.0686188	-0.0171051	-0.591427}
+}

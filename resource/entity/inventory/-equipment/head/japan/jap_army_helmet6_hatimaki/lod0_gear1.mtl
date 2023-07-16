@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "axis_lod0_gear_armycap"}
+	{bump "axis_lod0_gear_armycap-fx"}
+	{blend none}
+}

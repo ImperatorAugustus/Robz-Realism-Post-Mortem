@@ -1,0 +1,10 @@
+{entity 
+	{DecalView 
+		{Sprite "path_big.mtl"
+			{Scale 0.15}
+		}
+		{orientation normal}
+		{layer grounddecal }
+		{UseDirection }
+	}
+}

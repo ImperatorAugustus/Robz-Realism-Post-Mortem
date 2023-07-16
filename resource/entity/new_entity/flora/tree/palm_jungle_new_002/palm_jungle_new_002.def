@@ -1,0 +1,9 @@
+{game_entity
+	(include "/properties/tree_q.inc")
+	{props "tree" "normal_light" "invisible_crown"}
+	{Extension "palm_jungle_new_002.mdl"}
+	{Volume "crown"
+		{able {visible 0}}
+	}
+	{NoGroupMesh 1}
+}

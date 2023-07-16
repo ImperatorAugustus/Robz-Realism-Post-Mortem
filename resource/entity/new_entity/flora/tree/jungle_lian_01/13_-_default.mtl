@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "$/flora/jap/lian"}
+	{bump "$/flora/jap/lian_bp"}
+	{color "229 229 229 50"}
+	{blend test}
+}

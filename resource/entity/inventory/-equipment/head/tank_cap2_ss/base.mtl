@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "field cap m40"}
+	{color "229 229 229 76"}
+	{blend test}
+}

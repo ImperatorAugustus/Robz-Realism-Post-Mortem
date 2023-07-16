@@ -1,0 +1,29 @@
+{game_entity
+	(include "/properties/construction.inc")
+	("armor_light" args 0.5)
+	{Extension "bun_1_fort.mdl"}
+	{props "construction" "parts" "wood" "no_destroyed_stamp" "disable_area" "small" "burning"} 
+	("armor_heavy" args 0.8)
+	{obstacleID "small_building"}
+	{Volume "body_1"
+		{Tags  "body"}
+	}
+	{Volume "body_2"
+		{Tags  "body"}
+	}
+	{Volume "body_3"
+		{Tags  "body"}
+	}
+	{Volume "body_4"
+		{Tags  "body"}
+	}
+	{Volume "body_5"
+		{Tags  "body"}
+	}
+	{Volume "body_6"
+		{Tags  "body"}
+	}
+	{Volume "body_7"
+		{Tags  "body"}
+	}
+}

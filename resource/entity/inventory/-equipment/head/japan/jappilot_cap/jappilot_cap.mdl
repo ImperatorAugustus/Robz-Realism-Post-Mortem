@@ -1,0 +1,65 @@
+;Exported by: Administrator
+;Date:        Thu Oct 04 17:30:30 2012
+;File:        C:\Documents and Settings\Administrator\My Documents\3dsMax\scenes\jap\jap_cap\jappilot_cap.max
+{Skeleton
+	{bone "jappilot"
+		{parameters "CommonMesh;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "jappilot.ply"}
+		{bone "handle"
+			{Matrix34
+				0.999923	0.00877977	0.00874267
+				-0.00877993	0.999961	0
+				-0.00874244	-7.67446e-005	0.999962
+				-0.0123749	0.00898477	0.84676
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 4.14813 3.61352 3.32807}
+	{Bone "jappilot"}
+	{Matrix34
+		0.999924	0.00877951	0.00874249
+		-0.00877934	0.999963	0
+		-0.00874257	-7.66813e-005	0.999963
+		-0.316918	-0.00732215	3.65297
+	}
+}
+{Volume "select"
+	{Box 8.33811 5.92873 4.67327}
+	{Bone "jappilot"}
+	{Matrix34
+		0.999924	0.00877996	0.00874256
+		-0.00877977	0.999963	0
+		-0.00874256	-7.66753e-005	0.999963
+		-0.466214	0.0407363	3.67738
+	}
+}
+{Extender "preview"
+	{"stuff"
+		{camera
+			{origin 27.5512	-27.8404	8.46727}
+			{lookat 0.0964061	1.02865	4.44443}
+			{fov 8.28224}
+			{horizon 1.00015}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 2.26627	0.278939	6.11348}
+			}
+			{"1"
+				{type spot}
+				{position 17.1946	-6.30101	5.8518}
+				{direction -0.46107	0.180791	-0.0687651}
+				{theta 43}
+				{phi 45}
+			}
+		}
+	}
+}

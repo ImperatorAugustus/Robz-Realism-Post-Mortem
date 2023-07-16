@@ -1,0 +1,192 @@
+;Exported by: Loskutov_K
+;Date:        Wed Mar 31 13:39:15 2010
+;File:        D:\_Vietnam\Art\Models\Houses\X\House_middle_1_x\House_middle_1_x.max
+{Skeleton
+	{bone "base6_hm1_x"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "piece01"
+			{Matrix34
+				0	0.392986	0.919544
+				0	-0.919544	0.392986
+				1	0	0
+				-11.8999	25.4305	36.7451
+			}
+			{VolumeView "piece01.ply"}
+		}
+		{bone "piece02"
+			{Matrix34
+				-1	0	0
+				0	-1	0
+				0	0	1
+				-20.2424	24.1307	1.74244
+			}
+			{VolumeView "piece02.ply"}
+		}
+		{bone "piece03"
+			{Matrix34
+				0	-0.392986	0.919544
+				0	0.919544	0.392986
+				-1	0	0
+				-70.7517	21.6459	1.70421
+			}
+			{VolumeView "piece03.ply"}
+		}
+		{bone "piece04"
+			{Matrix34
+				0	-1	0
+				1	0	0
+				0	0	1
+				-22.9026	3.03283	-8.19409
+			}
+			{VolumeView "piece04.ply"}
+		}
+		{bone "piece05"
+			{Position -20.1462	24.1608	-25.2526}
+			{VolumeView "piece05.ply"}
+		}
+		{bone "piece06"
+			{Matrix34
+				0	0	-1
+				0	1	0
+				1	0	0
+				8.32578	9.14778	-14.7207
+			}
+			{VolumeView "piece06.ply"}
+		}
+		{bone "piece07"
+			{Matrix34
+				-1	0	0
+				0	-1	0
+				0	0	1
+				-0.14698	14.8201	-22.0165
+			}
+			{VolumeView "piece07.ply"}
+		}
+		{bone "piece08"
+			{Matrix34
+				-1	0	0
+				0	-1	0
+				0	0	1
+				-2.45013	-1.72466	-16.4803
+			}
+			{VolumeView "piece08.ply"}
+		}
+		{bone "piece09"
+			{Matrix34
+				-1	0	0
+				0	0	-1
+				0	-1	0
+				-3.23741	-15.0388	-11.5527
+			}
+			{VolumeView "piece09.ply"}
+		}
+		{bone "piece10"
+			{Position -20.0477	-6.11295	-27.5717}
+			{VolumeView "piece10.ply"}
+		}
+	}
+}
+{Volume "piece01"
+	{Polyhedron "piece01.vol"}
+	{Bone "piece01"}
+	{Matrix34
+		0	0	1
+		0.919544	0.392986	0
+		-0.392986	0.919544	0
+		-7.19793	-3.72718	-4.7779
+	}
+}
+{Volume "piece02"
+	{Polyhedron "piece02.vol"}
+	{Bone "piece02"}
+	{Matrix34
+		0	0	-1
+		1	0	0
+		0	-1	0
+		0.47567	1.30984	-2.69071
+	}
+}
+{Volume "piece03"
+	{Box 13.265 17.1269 1.30896}
+	{Bone "piece03"}
+	{Matrix34
+		0	0	-1
+		0.919545	0.392986	0
+		0.392986	-0.919545	0
+		-8.86916	0.668732	-62.5255
+	}
+}
+{Volume "piece04"
+	{Box 34.8344 17.1269 2.04652}
+	{Bone "piece04"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		1.59124	0.660756	-0.341131
+	}
+}
+{Volume "piece05"
+	{Box 22.2567 2.39777 2.12757}
+	{Bone "piece05"}
+	{Matrix34
+		0	0	-1
+		1	0	0
+		0	-1	0
+		-0.00337414	-0.247146	-1.53891
+	}
+}
+{Volume "piece06"
+	{Box 28.2159 2.39777 2.12757}
+	{Bone "piece06"}
+	{Matrix34
+		0	0	1
+		-1	0	0
+		0	-1	0
+		-0.305134	0.252914	-2.5546
+	}
+}
+{Volume "piece07"
+	{Box 36.1529 1.60993 19.7855}
+	{Bone "piece07"}
+	{Matrix34
+		-1	0	0
+		0	0	1
+		0	1	0
+		2.98053	0.133963	10.4407
+	}
+}
+{Volume "piece08"
+	{Box 32.8663 1.60993 10.409}
+	{Bone "piece08"}
+	{Matrix34
+		-1	0	0
+		0	0	1
+		0	1	0
+		4.40662	-0.229113	4.90456
+	}
+}
+{Volume "piece09"
+	{Box 37.1389 1.60993 4.89224}
+	{Bone "piece09"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		-0.44376	0.0231169	0.0947218
+	}
+}
+{Volume "piece10"
+	{Box 18.2505 2.39777 2.12757}
+	{Bone "piece10"}
+	{Matrix34
+		0	0	-1
+		1	0	0
+		0	-1	0
+		0.117141	-0.545206	-1.14055
+	}
+}

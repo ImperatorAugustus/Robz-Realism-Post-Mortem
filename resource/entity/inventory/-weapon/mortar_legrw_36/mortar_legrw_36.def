@@ -1,0 +1,9 @@
+{actor
+	(include "/properties/stuff_small.ext")
+	{Extension "mortar_legrw_36.mdl"}
+	{extender "stuff"
+		{item "mortar_legrw_36"}
+	}
+	{nogroupmesh 1}
+	{lodclass "human"}
+}

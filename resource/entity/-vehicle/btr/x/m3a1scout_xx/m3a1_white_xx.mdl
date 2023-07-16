@@ -1,0 +1,203 @@
+;Exported by: trax
+;Date:        Thu Oct 11 21:05:59 2012
+;File:        C:\Users\trax\Documents\3dsmax\scenes\M3A1 White Scout Car\m3a1_xx.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "body"
+			{parameters "ID=Body;"}
+			{Matrix34
+				0.999255	-0.000891498	-0.0385716
+				-2.12939e-005	0.99972	-0.023658
+				0.0385819	0.0236412	0.998976
+					0.467848	-0.059055	23.0572
+			}
+			{VolumeView "body.ply"}
+			{bone "engine"
+				{parameters "CommonMesh;ID=Engine;"}
+				{Position 27.7684	-0.10018	1.24609}
+				{VolumeView "engine.ply"}
+			}
+			{bone "part1"
+				{parameters "CommonMesh;ID=Body;"}
+				{Position 9.45321	15.4889	3.37049}
+				{VolumeView "doorl.ply"}
+				{bone "shieldl2"
+					{parameters "ID=shieldl2;"}
+					{Position -8.48353	1.68642	5.92395}
+					{VolumeView "shieldl2.ply"}
+				}
+			}
+			{bone "doorr"
+				{parameters "CommonMesh;ID=Body;"}
+				{Position 9.38715	-15.5331	3.37051}
+				{VolumeView "doorr.ply"}
+				{bone "shieldr3"
+					{parameters "ID=shieldr3;"}
+					{Position -8.41747	-1.66781	5.92395}
+					{VolumeView "shieldr3.ply"}
+				}
+			}
+			{bone "part2"
+				{parameters "ID=shieldl1;"}
+				{Position 7.35519	0.0326765	12.3542}
+				{VolumeView "shieldl1.ply"}
+			}
+			{bone revolute "steer"
+				{Matrix34
+					0	1	0
+					0.5	0	0.866026
+					0.866026	0	-0.5
+					13.7567	10.1465	-1.92968
+				}
+				{bone "steer_w"
+					{parameters "ID=Body;"}
+					{Matrix34
+						0	0.5	0.866025
+						1	0	0
+						0	0.866025	-0.5
+						0	0	0
+					}
+					{VolumeView "steer_w.ply"}
+				}
+			}
+			{bone revolute "front_mgun"
+				{parameters "ID=Body;"}
+				{limits -25 25}
+				{speed 0.05}
+				{Position 3.10152	-2.97345	15.3763}
+				{VolumeView "front_mgun.ply"}
+			}
+		}
+		{bone "pivot_front"
+			{parameters "ID=pivot_front;"}
+			{Position 36.6182	-0.0471025	8.03784}
+			{VolumeView "pivot_front.ply"}
+			{bone revolute "steerl"
+				{Matrix34
+					1	0	0
+					0	-1	0
+					0	0	-1
+					-0.0131989	15.6322	-0.0777521
+				}
+				{bone revolute "part3"
+					{parameters "ID=wheelleft1;Radius=0.37;"}
+					{Matrix34
+						1	0	0
+						0	0.0348991	0.999391
+						0	-0.999391	0.0348991
+						0.0888748	-0.192122	-0.0371375
+					}
+					{VolumeView "wheell1.ply"}
+				}
+			}
+			{bone revolute "steerr"
+				{Matrix34
+					1	0	0
+					0	-1	0
+					0	0	-1
+					-0.0131989	-15.7384	-0.0777521
+				}
+				{bone revolute "wheelr1"
+					{parameters "ID=wheelright1;Radius=0.27;"}
+					{Matrix34
+						1	0	0
+						0	-0.0348996	0.999391
+						0	-0.999391	-0.0348996
+						0.0509109	-2.120481	-0.0474496
+					}
+					{VolumeView "wheelr1.ply"}
+				}
+			}
+			{bone "springl"
+				{parameters "ID=Body;"}
+				{Position -38.9877	-0.0412275	15.2343}
+				{VolumeView "springl.ply"}
+			}
+			{bone "springr"
+				{parameters "ID=Body;"}
+				{Position -38.9877	-0.0412275	15.2343}
+				{VolumeView "springr.ply"}
+			}
+		}
+		{bone "pivot_back"
+			{parameters "ID=pivot_back;"}
+			{Position -28.9626	-0.0470978	8.03784}
+			{VolumeView "pivot_back.ply"}
+			{bone revolute "wheell2"
+				{parameters "ID=wheelleft2;Radius=0.2;"}
+				{Matrix34
+					1	0	0
+					0	0	-1
+					0	1	0
+					0.0577259	16.217	-0.0406418
+				}
+				{VolumeView "wheell2.ply"}
+			}
+			{bone revolute "wheelr2"
+				{parameters "ID=wheelright2;Radius=0.2;"}
+				{Matrix34
+					1	0	0
+					0	0	-1
+					0	1	0
+					0.0198021	-14.216	-0.0302763
+				}
+				{VolumeView "wheelr2.ply"}
+			}
+			{bone "springl1"
+				{parameters "ID=Body;"}
+				{Position 26.5931	-0.0412322	15.2343}
+				{VolumeView "springl1.ply"}
+			}
+			{bone "springr1"
+				{parameters "ID=Body;"}
+				{Position 26.5931	-0.0412322	15.2343}
+				{VolumeView "springr1.ply"}
+			}
+		}
+	}
+}
+{Volume "wheelleft1"
+	{Cylinder 8.59073 5.82026}
+	{Bone "part3"}
+	{Matrix34
+		-0.914197	-0.405024	-0.0141438
+		0.405271	-0.91364	-0.0319048
+		0	-0.0348994	0.999391
+		-0.123897	-0.00298449	-0.0183809
+	}
+}
+{Volume "wheelleft2"
+	{Cylinder 8.59073 5.82026}
+	{Bone "wheell2"}
+	{Matrix34
+		-0.914197	-0.40527	0
+		0.40527	-0.914197	0
+		0	0	1
+		-0.0252532	-0.00365146	0.310787
+	}
+}
+{Volume "wheelright1"
+	{Cylinder 8.59073 5.82026}
+	{Bone "wheelr1"}
+	{Matrix34
+		-0.914197	-0.405024	0.0141439
+		0.405271	-0.91364	0.031905
+		0	0.0348995	0.999391
+		-0.0859288	0.00948589	0.0800097
+	}
+}
+{Volume "wheelright2"
+	{Cylinder 8.59073 5.82026}
+	{Bone "wheelr2"}
+	{Matrix34
+		-0.914197	-0.405271	0
+		0.405271	-0.914197	0
+		0	0	1
+		0.0126728	0.00671726	0.472969
+	}
+}

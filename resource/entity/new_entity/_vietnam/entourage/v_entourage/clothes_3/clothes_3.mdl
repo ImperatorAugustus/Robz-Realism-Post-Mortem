@@ -1,0 +1,65 @@
+;Exported by: Loskutov_K
+;Date:        Wed Apr 07 14:50:16 2010
+;File:        D:\_Vietnam\Art\Models\Anturage\utvar\clothes_3\clothes_3.max
+{Skeleton
+	{animation
+		{sequence "flattern" {speed 0.5} {autostart}}
+	}
+	{bone "clothes_3"
+		{parameters "CommonMesh;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "clothes_3.ply"}
+	}
+}
+{Obstacle "body1"
+	{Obb2
+		{Center 0.634669 -37.3576}
+		{Extent 0.487265 1.24574}
+		{Axis 0.0356777 0.999363}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Obstacle "body2"
+	{Obb2
+		{Center -0.887731 36.7398}
+		{Extent 0.649139 1.58336}
+		{Axis 0.866158 0.49977}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Volume "body1"
+	{Box 0.942688 0.942685 33.9272}
+	{Bone "clothes_3"}
+	{Matrix34
+		0.998999	0.00136416	0.0447167
+		-0.00143429	0.999998	0.00153626
+		-0.0447145	-0.00159886	0.998999
+		0.634669	37.3576	16.9636
+	}
+}
+{Volume "body2"
+	{Box 0.942688 0.942685 33.9272}
+	{Bone "clothes_3"}
+	{Matrix34
+		0.999623	0	-0.0274718
+		-0.00132333	0.998839	-0.0481523
+		0.0274399	0.0481705	0.998462
+		-0.88773	-36.7398	16.9636
+	}
+}
+{Volume "body3"
+	{Box 58.8617 15.9766 0.697562}
+	{Bone "clothes_3"}
+	{Matrix34
+		0	1	0
+		0	0	1
+		1	0	0
+		0.0623277	-0.227455	20.6276
+	}
+}

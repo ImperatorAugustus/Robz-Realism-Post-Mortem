@@ -1,0 +1,51 @@
+{game_entity
+	(include "churchill_mk_vii.inc")
+	{extender "inventory"
+		{box
+			{item "ammo bullet75 us ap" 30}
+			{item "ammo bullet75 us fg" 54}
+            		{item "ammo mg_mauser belt red" 3475}
+		}
+	}
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "75mm_mk5" filling "ammo bullet75 us ap" 1}	
+			("abm_medium")
+			{basic}
+		}
+		{place "mgun"
+			{type "mgun_aa"}
+			{gunner "gunner2"}
+			{charger "gunner2"}
+			{LinkBone "mgun1_rot"}
+			{LinkAnimation "off"}
+			("abm_mgun_heavy")
+		}
+		{place "mgun1"
+			{type "mgun_hull"}
+			{weapon "besa" filling "mg_mauser belt red" 225}
+			{foresight "foresight4"}
+			{gunner "driver"}
+			{charger "driver"}
+			("abm_mgun")
+		}
+		{place "mgun2"
+			{type "mgun_coaxial"}
+			{weapon "besa_optic" filling "mg_mauser belt red" 225}
+			{foresight "foresight5"}
+			("abm_mgun")
+			{basic}
+		}
+	}
+
+{Extension "churchill_mk_vii.mdl"}
+	{bone "turret"
+		{speed 0.0025}
+	}
+	{bone "gun_rot"
+		{speed 0.0008}
+	}
+}
+

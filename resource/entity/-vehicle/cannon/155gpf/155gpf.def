@@ -1,0 +1,82 @@
+{game_entity
+	(include "/properties/cannon.ext")
+	{props "vehicle" "cannon" "wheeled" "vision_cannon_maximum" "muzzle_maximum_nodust"}
+	{PatherID  "cannon.large"}
+	("armor_heavy")
+	("wheel" args "wheelright")
+	("wheel" args "wheelleft")
+
+	("crew_wheeled_gun")
+	{boarder
+		{anm "gunner"
+			{forward	{end "pose_155gpf_gunlayer" 10}}
+		}
+		{anm "commander"
+			{forward	{end "pose_155gpf_charger" 10}}
+		}
+		{anm "driver1"
+			{forward {end "cannon_pak40_pusher_left" 10}}
+		}
+		{anm "driver2"
+			{forward {end "cannon_pak40_pusher_right" 10}}
+		}
+		{anm "seat1"
+			{forward {end "pose_seat_cannon_left" 10}}
+		}
+		{anm "seat2"
+			{forward {end "pose_seat_cannon_right" 10}}
+		}
+
+	}
+
+	{extender "inventory"
+		{box
+			{item "bullet155 fg" 6}
+		}
+	}
+	{Weaponry
+		{place "gun"
+			{weapon "155mm_gpf" filling "bullet155 fg" 3}
+			{Rotate}
+			("abm_howitzer")
+		}
+	}
+	{mass 4000}
+	{Extension "155gpf.mdl"}
+	(include "/properties/selection/cannon.inc"  scale(0.7))
+
+	{bone "basis"
+		{limits}
+		{speed 0.005}
+	}
+	{bone "turret"
+		{limits -5 5}
+		{speed 0.0005}
+	}
+	{bone "gun_rot"
+		{limits -6 45}
+		{speed 0.0005}
+	}
+
+	{extender "cannon"
+		{animation
+			{switch "close"}
+			{move	"cannon_pak40_pusher_left" "cannon_pak40_pusher_right"}
+			{aim	"cannon_155gpf_gunlayer" ""}
+			{fire	"Cannon_gunlayer_fire-alert" "cannon_zis3_charger_fire"}
+			{reload	"" "Cannon_155gpf_charger"}
+		}
+		{move {obstacle "close"}}
+		{attack {obstacle "open"}}
+		(mod "mp" {rotate_ik_Limit 0})
+	}
+	{Chassis "track"
+		("car_trace" fx("tracks_sm") step(0.4) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
+		("loco_big")
+	}
+	{sensor
+		{visor "main"
+			{vision "cannon_main"}
+		}
+	}
+}

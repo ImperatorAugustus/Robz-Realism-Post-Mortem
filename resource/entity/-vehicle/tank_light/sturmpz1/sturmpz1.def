@@ -1,0 +1,130 @@
+{actor
+	(include "/properties/tank.ext")
+	(include "/properties/selection/vehicle.inc"  scale(1.0))
+
+	{collider "tank.light"}
+	{props "light" "-turret" "vision_vehicle_medium" "muzzle_maximum" "gun_mode_change"}
+	{targetClass "light_tank"}
+	;{targetSelector "tank_sup"}
+
+	{extension "crew.ext"}
+	{patherId "tank.light"}
+	
+	{volume "body1"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "body2"	
+		{thickness 10}
+		{tags "turret"}
+		{component "turret"}
+	}
+	{volume "body3"	
+		{thickness 10}
+		{tags "turret"}
+		{component "turret"}
+	}
+	{volume "body4"	
+		{thickness 10}
+		{tags "turret"}
+		{component "turret"}
+	}
+	{Volume "Fuel"
+		{thickness 1}
+	}
+	{volume "engine"	
+		{thickness 10}
+	}
+	{volume "shield1"
+		{tags "shield1"}
+		{component "shield1"}
+	}
+	
+	("armor_light_custom" turret(8 6 0 0) body(10))
+	("armor_engine"  t(10))
+	("shield" args 6)
+	
+	{component "engine"	
+		{RepairTime 10}
+	}
+	{component "turret"
+		{RepairTime 20}
+	}
+	{component "gun"
+		{RepairTime 15}
+	}
+
+	{extender "shield"
+		{on}
+	}
+	{component "shield1"}
+	{component "shield2"}
+	{component "shield3"}
+
+ 	{sensor
+		{visor "main"
+			{bone "foresight1"}
+		}
+	}
+	{extender "inventory"
+		{box
+            		{item "bullet150 gers fg" 3}
+            		{item "bullet150 gers heat" 2}
+		}
+	}
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "150mm_sig33" filling "bullet150 gers fg"}        
+			("abm_direct_how")
+		}
+		{place "gun1_2"
+			{type "gun_change_arty"}
+			{weapon "150mm_sig33_2"}
+			{StationaryFiring}
+			("abm_howitzer")
+		}
+	}
+
+	("tracks")
+
+	{Extension "sturmpz1.mdl"}
+
+	{mass 8500}
+	{Chassis
+		("tank_trace" fx("tracks_sm2") step(0.15) len(1.2))
+		{Locomotion ("locomotion")
+			{maxspeed   24}
+			{maxSpeedAtMaxTurn 5}
+			{StartTime  30}
+			{TurnTime   14}
+			{TurnStart  1.3}			
+			{TurnRadius 7} 
+	    		{TurnStop   0.7}
+			{BrakeTime  1.5}
+			{StopTime   2}
+     			{Gears  0.1 0.2 0.3 1}
+			{RearGears  0.3}
+		}
+		{FuelBag
+			{volume 140 }	
+			{rate	9 }   
+			{remain 140 }
+			{fuel "fuel"}
+		}
+		{speed
+        		{Normal  12}
+    		}
+	{DisableMoveWhileFiring}
+	}
+
+
+	{bone "gun_rot"
+		{speed 0.0005}
+		{limits -4 75}
+	}
+	{bone "turret"
+		{speed 0.001}
+	}
+}

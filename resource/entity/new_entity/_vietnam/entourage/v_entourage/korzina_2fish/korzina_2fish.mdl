@@ -1,0 +1,18 @@
+;Exported by: Loskutov_K
+;Date:        Thu Apr 08 15:09:03 2010
+;File:        D:\_Vietnam\Art\Models\Anturage\utvar\korzina_2fish\korzina_2fish.max
+{Skeleton
+	{bone "korzina_2fish"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "korzina_2fish.ply"}
+	}
+}
+{Volume "body"
+	{Box 12.3032 11.2312 14.5595}
+	{Bone "korzina_2fish"}
+	{Position 2.73317	0.0544434	7.27975}
+}

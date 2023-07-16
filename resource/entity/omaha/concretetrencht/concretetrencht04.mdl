@@ -1,0 +1,124 @@
+;Exported by: Administrator
+;Date:        Thu Mar 26 03:39:31 2015
+;File:        F:\我的文档\3d\工事类\0-碉堡类\mil_101_10_ConcreteTrencht\ConcreteTrencht.max
+{Skeleton
+	{bone "trench_ground5"
+		{parameters "CommonMesh;Ground;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "trench_ground5.ply" {Ground} {DecalTarget}}
+	}
+}
+{Obstacle "body15"
+	{Obb2
+		{Center -0.144684 56.5435}
+		{Extent 108.094 4.31985}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body16"
+	{Obb2
+		{Center -57.6083 27.2068}
+		{Extent 50.6307 4.31989}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body17"
+	{Obb2
+		{Center 61.2117 27.2068}
+		{Extent 46.6574 4.31989}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body18"
+	{Obb2
+		{Center -10.6066 -13.5977}
+		{Extent 4.31986 36.848}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body19"
+	{Obb2
+		{Center 18.6789 -13.5977}
+		{Extent 4.31986 36.848}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body20"
+	{Obb2
+		{Center 3.98846 -55.3237}
+		{Extent 18.7518 4.31989}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Area "cut"
+	{Polygon2
+		{Radius 0}
+		{Vertex 107.148 54.4859}
+		{Vertex -107.459 54.8604}
+		{Vertex -107.084 31.6395}
+		{Vertex -5.58616 -51.8812}
+		{Vertex 13.8895 -52.2557}
+		{Vertex 108.272 30.8904}
+	}	{Rotate}
+}
+{Volume "body15"
+	{Polyhedron "body15.vol"}
+	{Bone "trench_ground5"}
+	{Position -58.2142	-52.8857	-0.195259}
+}
+{Volume "body16"
+	{Polyhedron "body16.vol"}
+	{Bone "trench_ground5"}
+	{Position -58.2142	-27.2068	-0.195259}
+}
+{Volume "body17"
+	{Polyhedron "body17.vol"}
+	{Bone "trench_ground5"}
+	{Position 62.7923	-27.2068	-0.195259}
+}
+{Volume "body18"
+	{Polyhedron "body18.vol"}
+	{Bone "trench_ground5"}
+	{Matrix34
+		0	1	0
+		-1	0	0
+		0	0	1
+		-9.14718	26.7745	-0.195259
+	}
+}
+{Volume "body19"
+	{Polyhedron "body19.vol"}
+	{Bone "trench_ground5"}
+	{Matrix34
+		0	1	0
+		-1	0	0
+		0	0	1
+		16.8923	26.7745	-0.195259
+	}
+}
+{Volume "body20"
+	{Polyhedron "body20.vol"}
+	{Bone "trench_ground5"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		3.77011	55.3237	-0.195259
+	}
+}

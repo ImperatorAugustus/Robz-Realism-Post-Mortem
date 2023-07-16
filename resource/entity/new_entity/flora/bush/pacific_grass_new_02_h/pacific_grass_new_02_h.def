@@ -1,0 +1,7 @@
+{game_entity
+	(include "/properties/bush.inc")
+;	(include "/properties/shadow/bush.inc"  sx(0.9) sy(0.9))
+	{props  "normal_light" }
+	{Extension "pacific_grass_new_02_h.mdl"}
+	{NoGroupMesh 1}
+}

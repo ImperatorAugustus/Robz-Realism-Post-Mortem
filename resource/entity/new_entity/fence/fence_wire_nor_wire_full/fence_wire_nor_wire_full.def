@@ -1,0 +1,9 @@
+{game_entity
+	{Extension "fence_wire_nor_wire_full.mdl"}
+	{placer}
+	{extender "structure"
+		{place "basic" "fence_wire_nor_wire"}
+		{place "col1" "fence_wire_nor_col"}
+		{place "col2" "fence_wire_nor_col"}
+	}
+}

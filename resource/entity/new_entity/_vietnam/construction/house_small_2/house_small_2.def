@@ -1,0 +1,27 @@
+{game_entity
+	{Extension "house_small_2.mdl"}
+	{placer}
+	{extender "structure"
+		{place "1" "base1_hs2"}
+		{place "2" "ladder_hs2"}
+		{place "3" "clothes1_hs2"}
+		{place "4" "clothes2_hs2"}
+		{place "6" "wall1_hs2"}
+		{place "7" "wall2_hs2"}
+		{place "8" "wall3_hs2"}
+		{place "9" "wall4_hs2"}
+		{place "11" "base2_hs2"}
+		{place "12" "roofhold_hs2"}
+		{place "13" "interset5_hs2"}
+		{place "14" "interset4_hs2"}
+		{place "15" "interset1_hs2"}
+		{place "16" "interset2_hs2"}
+		{place "17" "interset10_hs2"}
+		{place "18" "interset9_hs2"}
+		{place "19" "interset3_hs2"}
+		{place "20" "interset7_hs2"}
+		{place "21" "interset8_hs2"}
+		{place "22" "interset6_hs2"}
+		{place "23" "firelight_hs2"}
+	}
+}

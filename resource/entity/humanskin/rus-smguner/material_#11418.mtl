@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/humanskin/rus/russiansoldier_body_colspec"}
+	{blend none}
+}

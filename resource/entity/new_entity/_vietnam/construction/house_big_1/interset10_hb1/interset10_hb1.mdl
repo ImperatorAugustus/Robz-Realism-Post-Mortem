@@ -1,0 +1,187 @@
+;Exported by: Loskutov_K
+;Date:        Mon Mar 08 19:30:28 2010
+;File:        D:\_Vietnam\Art\Models\Houses\House_big_1\hb1_complete.max
+{Skeleton
+	{bone "interset10_hb1"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "interset10_hb1.ply"}
+		{bone "fix25"
+			{Position 3.0534	-3.85324	10.7716}
+		}
+	}
+}
+{Obstacle "body1"
+	{Obb2
+		{Center 0.196194 18.5047}
+		{Extent 2.74735 2.80429}
+		{Axis 0.997567 0.0697212}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body2"
+	{Obb2
+		{Center 0.0161858 17.8055}
+		{Extent 6.68929 6.85182}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body3"
+	{Obb2
+		{Center 13.9112 17.4365}
+		{Extent 3.1074 4.428}
+		{Axis 0.485282 0.874358}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body4"
+	{Obb2
+		{Center -17.1636 0.461311}
+		{Extent 3.26924 8.90974}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body5"
+	{Obb2
+		{Center -7.64857 0.461311}
+		{Extent 5.55013 9.80348}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body6"
+	{Obb2
+		{Center 10.7614 0.461311}
+		{Extent 5.55013 9.80348}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body7"
+	{Obb2
+		{Center -6.90353 -5.56478}
+		{Extent 2.44538 2.52363}
+		{Axis 0.997567 0.0697212}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body8"
+	{Obb2
+		{Center 13.758 -6.17236}
+		{Extent 2.44538 2.52363}
+		{Axis 0.997567 0.0697212}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body9"
+	{Obb2
+		{Center 10.7713 1.71334}
+		{Extent 4.13269 4.26494}
+		{Axis 0.997567 0.0697212}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body1"
+	{Box 5.4474 5.56227 4.56673}
+	{Bone "interset10_hb1"}
+	{Matrix34
+		0.996935	-0.0782371	0
+		0.0782371	0.996935	0
+		0	0	1
+		0.196194	-18.5047	-0.286118
+	}
+}
+{Volume "body2"
+	{Box 13.3576 13.6832 4.56673}
+	{Bone "interset10_hb1"}
+	{Matrix34
+		0.999999	0.00153228	0
+		-0.00153228	0.999999	0
+		0	0	1
+		0.0161857	-17.8055	-5.17926
+	}
+}
+{Volume "body3"
+	{Box 8.81604 6.15744 5.24934}
+	{Bone "interset10_hb1"}
+	{Matrix34
+		0.877504	0.479569	0
+		-0.479569	0.877504	0
+		0	0	1
+		13.9112	-17.4365	-4.83795
+	}
+}
+{Volume "body4"
+	{Box 6.5132 17.8102 6.00152}
+	{Bone "interset10_hb1"}
+	{Matrix34
+		0.999999	-0.0014205	0
+		0.0014205	0.999999	0
+		0	0	1
+		-17.1636	-0.461313	-5.24844
+	}
+}
+{Volume "body5"
+	{Box 11.0724 19.5913 11.2228}
+	{Bone "interset10_hb1"}
+	{Matrix34
+		0.999999	-0.0014205	0
+		0.0014205	0.999999	0
+		0	0	1
+		-7.64857	-0.461312	-2.63778
+	}
+}
+{Volume "body6"
+	{Box 11.0724 19.5913 11.2228}
+	{Bone "interset10_hb1"}
+	{Matrix34
+		0.999999	-0.0014205	0
+		0.0014205	0.999999	0
+		0	0	1
+		10.7614	-0.461311	-2.63778
+	}
+}
+{Volume "body7"
+	{Box 4.84819 5.00605 3.10538}
+	{Bone "interset10_hb1"}
+	{Matrix34
+		0.996935	-0.0782371	0
+		0.0782371	0.996935	0
+		0	0	1
+		-6.90353	5.56478	4.30619
+	}
+}
+{Volume "body8"
+	{Box 4.84819 5.00605 3.75751}
+	{Bone "interset10_hb1"}
+	{Matrix34
+		0.996935	-0.0782371	0
+		0.0782371	0.996935	0
+		0	0	1
+		13.758	6.17236	4.63226
+	}
+}
+{Volume "body9"
+	{Box 8.19343 8.46022 1.7247}
+	{Bone "interset10_hb1"}
+	{Matrix34
+		0.996935	-0.0782371	0
+		0.0782371	0.996935	0
+		0	0	1
+		10.7713	-1.71335	3.61585
+	}
+}

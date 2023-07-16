@@ -1,0 +1,52 @@
+;Exported by: Kalinski
+;Date:        Tue Aug 02 13:45:47 2016
+;File:        C:\Users\Kalinski\Desktop\magazynki\gotowe\ppd\ppsh_mag_rdy.max
+{Skeleton
+	{bone "ppsh_mag"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "ppsh_mag.ply"}
+	}
+}
+{Volume "body"
+	{Box 2.64116 2.97706 1.05858}
+	{Bone "ppsh_mag"}
+	{Position -0.00431776	0.00978494	-0.000617623}
+}
+{Volume "select"
+	{Box 2.94329 3.07294 1.08858}
+	{Bone "ppsh_mag"}
+	{Matrix34
+		1.0387	0	0
+		0	1.0387	0
+		0	0	1.0387
+		-0.00431776	0.00978494	0.0354463
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 0.0739703	0.108091	4.31959}
+			{lookat 0.0739704	0.079579	0.0318985}
+			{fov 45}
+			{horizon -0.239031}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -0.0312786	-1.57302	0.684929}
+			}
+			{"1"
+				{type point}
+				{position -0.00710379	1.54384	0.726341}
+			}
+			{"2"
+				{type directional}
+				{direction -0.0260877	0.00264281	-0.499312}
+			}
+		}
+	}
+}

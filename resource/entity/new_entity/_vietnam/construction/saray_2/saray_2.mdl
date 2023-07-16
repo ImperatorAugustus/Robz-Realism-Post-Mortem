@@ -1,0 +1,21 @@
+;Exported by: Loskutov_K
+;Date:        Fri Feb 26 19:08:02 2010
+;File:        D:\_Vietnam\Art\Models\Houses\Saray_2\saray2.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "2"
+			{Position -1.01897	9.95699	25.2221}
+		}
+		{bone "1"
+			{Position -0.753983	-19.7771	25.2221}
+		}
+		{bone "3"
+			{Position -3.83012	-3.74504	40.9026}
+		}
+	}
+}

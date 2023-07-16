@@ -1,0 +1,56 @@
+;Exported by: Loskutov_K
+;Date:        Fri Feb 26 19:08:04 2010
+;File:        D:\_Vietnam\Art\Models\Houses\Saray_2\saray2.max
+{Skeleton
+	{bone "base1_s2"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "base1_s2.ply"}
+	}
+}
+{Obstacle "body2"
+	{Obb2
+		{Center -1.43823 30.4566}
+		{Extent 22.9743 1.37795}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Obstacle "body3"
+	{Obb2
+		{Center -23.3316 7.16991}
+		{Extent 1.37796 25.1216}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Volume "body2"
+	{Box 45.9486 2.75591 47.1964}
+	{Bone "base1_s2"}
+	{Position -1.43823	-30.4566	-2.55909}
+}
+{Volume "body3"
+	{Box 50.2433 2.75591 44.8833}
+	{Bone "base1_s2"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		-23.3316	-7.16991	-3.71563
+	}
+}
+{Volume "body4"
+	{Box 50.2433 2.75591 48.121}
+	{Bone "base1_s2"}
+	{Matrix34
+		0	-1	0
+		0.109946	0	-0.993938
+		0.993938	0	0.109946
+		-2.51434	-7.16991	20.0481
+	}
+}

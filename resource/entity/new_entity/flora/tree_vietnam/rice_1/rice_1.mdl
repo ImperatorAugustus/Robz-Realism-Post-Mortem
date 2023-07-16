@@ -1,0 +1,22 @@
+;Exported by: Luzhbin_M
+;Date:        Wed Mar 31 12:55:39 2010
+;File:        D:\Redtide2\ART\Models\Flora\Max\Rice_1\Rice1.max
+{Skeleton
+	{animation
+		{sequence "stir"}
+	}
+	{bone "rice"
+		{parameters "CommonMesh;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "rice.ply"}
+	}
+}
+{Volume "crown"
+	{Box 8.85672 9.89678 12.3742}
+	{Bone "rice"}
+	{Position -0.824183	0.247738	6.1871}
+}

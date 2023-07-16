@@ -1,0 +1,11 @@
+{game_entity
+	(include "/properties/stuff_small.ext")
+	{collider "ammo"}
+	{extender "stuff"
+		{item "sks_clip"}
+	}
+	{Volume "body"
+		{thickness 2}
+	}
+	{Extension "sks_clip.mdl"}
+}

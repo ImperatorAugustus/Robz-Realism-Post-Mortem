@@ -1,0 +1,22 @@
+{game_entity
+    (include "/properties/construction.inc")
+	{Extension "bridge_small.mdl"}
+	{props "parts" "construction" "no_destroyed_stamp" "wood" "burning"}
+
+	{Volume "body"
+		{Tags  "body" "fire"}
+		{Thickness 30}
+		{able clear {blast}}
+	}
+	{Volume "body1"
+		{Tags  "body" "fire"}
+		{Thickness 30}
+	}
+	{Volume "body2"
+		{Tags  "body" "fire"}
+		{Thickness 30}
+	}
+	{Extender "land_patch"
+		{TerrainType "road" "bridge_wood"}
+	}
+}

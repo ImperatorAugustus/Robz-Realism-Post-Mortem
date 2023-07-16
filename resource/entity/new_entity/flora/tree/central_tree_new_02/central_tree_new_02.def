@@ -1,0 +1,9 @@
+{game_entity
+	(include "/properties/tree.inc")
+	{props "tree" "normal_light" "invisible_crown"}
+	{Extension "central_tree_new_02.mdl"}
+	{Volume "crown"
+		{able {visible 0}}
+	}
+	{NoGroupMesh 1}
+}

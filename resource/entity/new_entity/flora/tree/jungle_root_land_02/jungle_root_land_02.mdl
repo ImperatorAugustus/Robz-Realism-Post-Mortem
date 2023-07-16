@@ -1,0 +1,14 @@
+;Exported by: ?????
+;Date:        Fri Feb 20 18:57:14 2015
+;File:        C:\Users\?????\Documents\3dsmax\scenes\palm_andtree4.max
+{Skeleton
+	{bone "root"
+		{parameters "Land;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "root.ply"}
+	}
+}

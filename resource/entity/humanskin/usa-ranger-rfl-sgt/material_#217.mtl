@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/humanskin/american/ranger/rifle bandolier"}
+	{blend none}
+}

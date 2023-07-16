@@ -1,0 +1,127 @@
+;Exported by: Фёдор
+;Date:        Tue Jul 15 16:49:20 2014
+;File:        C:\Users\Фёдор\Documents\3dsmax\scenes\fqw\belgiangate.max
+{Skeleton
+	{bone "basic"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "st_10"
+			{Matrix34
+				1	0	0
+				0	0	1
+				0	-1	0
+				0.0522308	12.7004	9.94922
+			}
+			{VolumeView "st_10.ply"}
+		}
+		{bone "st_11"
+			{Matrix34
+				0.707107	0	0.707107
+				0	1	0
+				-0.707107	0	0.707107
+				9.26483	13.5027	0
+			}
+			{VolumeView "st_11.ply"}
+		}
+		{bone "st_12"
+			{Matrix34
+				0.707107	0	-0.707107
+				0	1	0
+				0.707107	0	0.707107
+				-9.63504	13.5027	0
+			}
+			{VolumeView "st_12.ply"}
+		}
+		{bone "st_15"
+			{Matrix34
+				0.707107	0	0.707107
+				0	1	0
+				-0.707107	0	0.707107
+				9.26483	-13.7553	0
+			}
+			{VolumeView "st_15.ply"}
+		}
+		{bone "st_16"
+			{Matrix34
+				0.707107	0	-0.707107
+				0	1	0
+				0.707107	0	0.707107
+				-9.63504	-13.7553	0
+			}
+			{VolumeView "st_16.ply"}
+		}
+	}
+}
+{Obstacle "body24"
+	{Obb2
+		{Center 0.319157 0.0949278}
+		{Extent 0.980827 12.7953}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body25"
+	{Obb2
+		{Center 0.484129 -13.5027}
+		{Extent 9.74117 1.02362}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body26"
+	{Obb2
+		{Center -0.320493 -13.5027}
+		{Extent 9.74118 1.02362}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body29"
+	{Obb2
+		{Center 0.484129 13.7553}
+		{Extent 9.74117 1.02362}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body30"
+	{Obb2
+		{Center -0.320493 13.7553}
+		{Extent 9.74118 1.02362}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body24"
+	{Box 1.96165 2.04724 25.5906}
+	{Bone "st_10"}
+	{Position 0.266926	0	12.7953}
+}
+{Volume "body25"
+	{Box 1.96165 2.04724 25.5906}
+	{Bone "st_11"}
+	{Position 0.18874	0	12.6065}
+}
+{Volume "body26"
+	{Box 1.96165 2.04724 25.5906}
+	{Bone "st_12"}
+	{Position 0.188749	0	12.984}
+}
+{Volume "body29"
+	{Box 1.96165 2.04724 25.5906}
+	{Bone "st_15"}
+	{Position 0.18874	0	12.6065}
+}
+{Volume "body30"
+	{Box 1.96165 2.04724 25.5906}
+	{Bone "st_16"}
+	{Position 0.188749	0	12.984}
+}

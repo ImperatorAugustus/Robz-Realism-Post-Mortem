@@ -167,8 +167,8 @@
 			{fuel "fuel"}
 		}
 		{speed
-        	{Normal  10}
-        	{Slow  12}
+        	{Normal  26}
+        	{Slow  26}
     	}
 	}
 	{bone "turret_mgun"

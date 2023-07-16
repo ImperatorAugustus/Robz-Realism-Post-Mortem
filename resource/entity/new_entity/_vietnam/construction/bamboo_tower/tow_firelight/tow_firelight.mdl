@@ -1,0 +1,21 @@
+;Exported by: Loskutov_K
+;Date:        Fri Feb 12 09:54:56 2010
+;File:        D:\_Vietnam\Art\Models\Structure\Bamboo_tower\tower.max
+{Skeleton
+	{bone "tow_firelight"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "tow_firelight.ply"}
+		{bone "fix03"
+			{Position -33.6555	-32.7738	-17.3569}
+		}
+	}
+}
+{Volume "fire0"
+	{Box 73.9754 74.0186 25.1895}
+	{Bone "tow_firelight"}
+	{Position 0	0	4.90173}
+}

@@ -1,0 +1,10 @@
+{game_entity
+	{Extension "bamboo_tower.mdl"}
+	{placer}
+	{extender "structure"
+		{place "3" "tower_roof"}
+		{place "2" "tower_walls"}
+		{place "1" "tower_base"}
+		{place "4" "tow_firelight"}
+	}
+}

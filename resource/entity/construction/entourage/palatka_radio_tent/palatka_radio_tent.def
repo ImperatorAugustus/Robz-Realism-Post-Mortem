@@ -1,0 +1,17 @@
+{game_entity
+(include "/properties/building.inc")
+	{obstacleid "unbreakable" "construction" }
+	{props "wood" "shed" "delete_after_blast" "burning"}
+	{Extension "palatka_radio_tent.mdl"}
+	{Volume "body"
+		{Tags  "body"}
+		{Thickness 10}
+		{able {visible 1}}
+	}
+	{Volume "body_vol2"
+		{Tags  "body"}
+		{Thickness 10}
+		{able {visible 1}}
+	}
+	{lodclass "decor_small"}
+}

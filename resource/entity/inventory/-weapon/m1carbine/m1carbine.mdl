@@ -1,0 +1,85 @@
+;Exported by: w
+;Date:        Fri Mar 04 07:48:37 2011
+;File:        C:\Users\w\Desktop\1\模型\模型\m1carbine\m1_carbine.max
+{Skeleton
+	{bone "m1_carbine"
+		{parameters "CommonMesh;ID=mgun;"}
+		{Orientation
+			0.85	0	0
+			0	-0.8	0
+			0	0	0.9
+		}
+		{VolumeView "m1_carbine.ply"}
+		{bone "foresight3"
+			{Position 15.6262	1.59209	-0.480543}
+		}
+		{bone "handle"
+			{Position 3.83561	2.68665	-0.480542}
+		}
+		{bone "fxshell"
+			{Matrix34
+				0	-0.995396	0.0958456
+				-1	0	0
+				0	-0.0958456	-0.995396
+				0.436873	0.740014	-0.0635516
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 15.9646 3.93701 0.984252}
+	{Bone "m1_carbine"}
+	{Position 3.49429	0.361807	-0.0760124}
+}
+{Volume "select"
+	{Box 15.9646 3.93701 0.984252}
+	{Bone "m1_carbine"}
+	{Position 3.49429	0.361807	-0.0760124}
+}
+{Extender "preview"
+	{"Stuff_primary"
+		{camera
+			{origin 1.10384	-4.31293	21.7445}
+			{lookat 1.54829	-2.95495	13.4691}
+			{fov 45}
+			{horizon -157.989}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 3.04553	-13.2517	-38.7774}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0761825	0.382457	-0.312926}
+			}
+			{"2"
+				{type point}
+				{position 3.04553	1.54378	20.2422}
+			}
+		}
+	}
+	{"Stuff"
+		{camera
+			{origin 0.66116	-9.63894	18.4539}
+			{lookat 2.19346	-0.548192	-0.123811}
+			{fov 45}
+			{horizon -155.307}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0.0587524	0.479244	-0.129897}
+			}
+			{"1"
+				{type point}
+				{position 3.02153	-1.45834	20.1015}
+			}
+			{"2"
+				{type point}
+				{position 3.02153	-22.9681	-48.1114}
+			}
+		}
+	}
+}
+

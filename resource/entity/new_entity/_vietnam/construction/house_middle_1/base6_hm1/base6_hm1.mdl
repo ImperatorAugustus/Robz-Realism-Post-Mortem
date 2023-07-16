@@ -1,0 +1,115 @@
+;Exported by: Kislov_A
+;Date:        Thu Apr 15 10:35:05 2010
+;File:        E:\Men of war red tide2\Art\Models\Houses\House_middle_1\hm1_complete.max
+{Skeleton
+	{bone "base6_hm1"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "base6_hm1.ply"}
+		{bone "land"
+			{parameters "Land;Ground;"}
+			{Position -4.22329	-0.355299	-11.3944}
+			{VolumeView "land.ply" {Ground}}
+		}
+	}
+}
+{Obstacle "body1"
+	{Obb2
+		{Center -19.9559 -23.8957}
+		{Extent 1.22541 1.28327}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Obstacle "body3"
+	{Obb2
+		{Center -6.06359 -25.7456}
+		{Extent 17.943 1.04331}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body4"
+	{Obb2
+		{Center -22.1623 -1.69385}
+		{Extent 1.04331 24.4698}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body5"
+	{Obb2
+		{Center -20.0033 7.26514}
+		{Extent 1.22541 1.28327}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Obstacle "obstacle1"
+	{Obb2
+		{Center -3.40605 -40.4325}
+		{Extent 24.1177 1.28739}
+		{Axis -1 0}
+	}
+	{Rotate}
+}
+{Obstacle "obstacle2"
+	{Obb2
+		{Center -27.5391 -8.45677}
+		{Extent 30.3883 1.28739}
+		{Axis 1.88298e-007 -1}
+	}
+	{Rotate}
+}
+{Volume "body1"
+	{Box 2.45082 2.56654 77.3122}
+	{Bone "base6_hm1"}
+	{Position -19.9559	23.8957	0.642239}
+}
+{Volume "body2"
+	{Box 2.95544 2.92419 36.0414}
+	{Bone "base6_hm1"}
+	{Matrix34
+		0	1	0
+		0	0	-1
+		-1	0	0
+		-16.8293	24.0799	36.6678
+	}
+}
+{Volume "body3"
+	{Box 35.886 2.08661 9.99663}
+	{Bone "base6_hm1"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		-6.06359	25.7456	-8.86896
+	}
+}
+{Volume "body4"
+	{Box 48.9397 2.08661 9.99663}
+	{Bone "base6_hm1"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		-22.1623	1.69385	-8.86896
+	}
+}
+{Volume "body5"
+	{Box 2.45082 2.56654 24.8636}
+	{Bone "base6_hm1"}
+	{Position -20.0033	-7.26514	-25.582}
+}
+{Volume "body6"
+	{Box 36.1017 43.0861 3.93701}
+	{Bone "base6_hm1"}
+	{Position -4.66627	3.44751	-12.638}
+}

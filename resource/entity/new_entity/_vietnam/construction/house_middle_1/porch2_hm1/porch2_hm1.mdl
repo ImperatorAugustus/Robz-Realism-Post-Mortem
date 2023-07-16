@@ -1,0 +1,24 @@
+;Exported by: Kislov_A
+;Date:        Thu Apr 15 10:35:05 2010
+;File:        E:\Men of war red tide2\Art\Models\Houses\House_middle_1\hm1_complete.max
+{Skeleton
+	{bone "porch2_hm1"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "porch2_hm1.ply"}
+		{bone "fix20"
+			{Position 53.2326	9.24493	-0.723745}
+		}
+		{bone "fix19"
+			{Position -52.5324	9.24493	-1.30775}
+		}
+	}
+}
+{Volume "body"
+	{Box 115.615 11.1346 1.33721}
+	{Bone "porch2_hm1"}
+	{Position 0.613762	0.724628	0.248663}
+}

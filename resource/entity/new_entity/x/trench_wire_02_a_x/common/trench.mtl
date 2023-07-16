@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "$/new_fortification/trench_1"}
+	{bump "$/new_fortification/trench_1_bp"}
+	{color "229 229 229 50"}
+	{blend none}
+}

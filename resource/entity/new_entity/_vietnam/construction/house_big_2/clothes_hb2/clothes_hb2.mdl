@@ -1,0 +1,30 @@
+;Exported by: Loskutov_K
+;Date:        Fri Mar 12 15:36:28 2010
+;File:        D:\_Vietnam\Art\Models\Houses\House_big_2\hb2_complete.max
+{Skeleton
+	{animation
+		{sequence "flattern" {speed 0.7} {autostart}}
+	}
+	{bone "clothes_hb2"
+		{parameters "CommonMesh;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "clothes_hb2.ply"}
+		{bone "fix02"
+			{Position -0.0579185	-108.44	6.31952}
+		}
+	}
+}
+{Volume "body"
+	{Box 35.8797 2.63835 13.6647}
+	{Bone "clothes_hb2"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		-25.8958	-114.713	29.6647
+	}
+}

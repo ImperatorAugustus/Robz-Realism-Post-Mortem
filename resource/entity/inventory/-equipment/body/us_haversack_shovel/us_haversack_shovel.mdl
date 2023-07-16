@@ -1,0 +1,57 @@
+;Exported by: Kalinski
+;Date:        Tue Feb 21 05:38:57 2017
+;File:        C:\Users\Kalinski\Desktop\us officer\template haversack.max
+{Skeleton
+	{bone "us_haversack_shovel"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "us_haversack_shovel.ply"}
+	}
+}
+{Volume "body"
+	{Box 2.63281 7.70747 4.74018}
+	{Bone "us_haversack_shovel"}
+	{Matrix34
+		1.0387	0	0
+		0	1.0387	0
+		0	0	1.0387
+		-4.11478	2.64377	0.143537
+	}
+}
+{Volume "select"
+	{Box 7.12156 10.0843 8.94763}
+	{Bone "us_haversack_shovel"}
+	{Matrix34
+		1.0387	0	0
+		0	1.0387	0
+		0	0	1.0387
+		-4.3414	2.64377	0.109252
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -14.7505	-2.98711	-0.33551}
+			{lookat -2.53797	-2.87334	-0.190938}
+			{fov 45}
+			{horizon -90.2265}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -7.11839	-7.16879	-3.11654}
+			}
+			{"1"
+				{type point}
+				{position -6.7257	0.5801	2.65881}
+			}
+			{"2"
+				{type directional}
+				{direction 0.499997	-0.00070763	-0.00145834}
+			}
+		}
+	}
+}

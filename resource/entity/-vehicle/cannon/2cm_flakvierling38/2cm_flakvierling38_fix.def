@@ -1,0 +1,67 @@
+{game_entity
+	(include "/properties/cannon.ext")
+	{props "vehicle" "cannon" "flak" "vision_cannon_low"  "muzzle_zenite" "medium_weapons"}
+
+	("armor_medium")
+
+	{volume "body1"
+		{tags "body"}
+	}
+	{volume "body2"
+		{tags "body"}
+	}
+	{volume "body3"
+		{tags "body"}
+	}
+	{volume "body4"
+		{tags "body"}
+	}
+
+	("crew_2_human")
+	("crew_human" place(commander1)	bone(commander1)	door(emit3) animation(commander))
+	{placer
+		{place "commander1" {group "crew"}}
+	}
+	{boarder
+		{anm "gunner"
+			{forward	{end "pose_flak38_gunlayer" 10}}
+		}
+		{anm "commander"
+			{forward	{end "pose_flak38_charger_right" 10}}
+		}
+		{anm "commander1"
+			{forward	{end "pose_flak38_charger_left" 10}}
+		}
+	}
+	{extender "cannon"
+		{animation
+			{aim "cannon_flak38_gunlayer" "" ""}
+			{reload  "" "cannon_flak38_charger_right" "cannon_flak38_charger_left"}
+		}
+		{move {workers clear} {obstacle "close"}}
+		{attack {workers "gunner" "commander" "commander1"} {obstacle "open"}}
+	}
+	("ger_3x8_sight")
+	{extender "inventory"
+		{box
+			{item "bullet20 ger zenite" 320}
+			{item "bullet20 ger zenite apcr" 80}
+			{item "bullet20 ger zenite fg" 320}
+		}
+	}	
+	{Weaponry
+		{place "gun"
+			{weapon "20mm_flak38_x4" filling "bullet20 ger zenite ap" 80}
+			{Barrels 4}
+			("abm_zenite")
+		}
+	}
+	
+	{mass 1500}
+	{Extension "2cm_flakvierling38_fix.mdl"}
+	{bone "turret"
+		{speed 0.015}
+	}					
+	(include "/properties/selection/cannon.inc"  scale(0.7))
+	{Texmod "panzergrau"}
+}

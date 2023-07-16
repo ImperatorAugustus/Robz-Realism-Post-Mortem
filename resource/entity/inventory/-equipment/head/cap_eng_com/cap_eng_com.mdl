@@ -1,0 +1,53 @@
+;Exported by: Kalinski
+;Date:        Sat Sep 10 17:57:39 2016
+;File:        C:\Users\Kalinski\Desktop\commando beanie\beanie_fin.max
+{Skeleton
+	{bone "cap_eng_com"
+		{Matrix34
+			1	0	0
+			0	-1	0
+			0	0	1
+                        -0.50	-0.15	0
+		}
+		{VolumeView "cap_eng_com.ply"}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "cap_eng_com"}
+	{Position 1.20245	0	3.85743}
+}
+{Volume "select"
+	{Box 5.54121 3.67075 2.93976}
+	{Bone "cap_eng_com"}
+	{Matrix34
+		1.0387	0	0
+		0	1.0387	0
+		0	0	1.0387
+		1.84838	0.139949	3.21578
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 6.58307	-2.83121	3.4509}
+			{lookat 1.29437	0.377072	3.51748}
+			{fov 45}
+			{horizon -0.239031}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 1.47219	-0.124215	2.74794}
+			}
+			{"1"
+				{type point}
+				{position 0.341551	-1.34004	5.04042}
+			}
+			{"2"
+				{type directional}
+				{direction -0.408436	0.261933	-0.120711}
+			}
+		}
+	}
+}

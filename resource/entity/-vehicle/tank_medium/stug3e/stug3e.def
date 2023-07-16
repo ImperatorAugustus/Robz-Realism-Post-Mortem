@@ -1,0 +1,94 @@
+{entity
+	(include "/properties/tank.ext")
+	(include "/properties/selection/vehicle.inc"  scale(1.2))
+	{props "medium" "-turret"  "vision_vehicle_medium" "muzzle_medium"}
+
+	{extender "enumerator"}
+
+ 	{volume "body1"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "body2"
+		{tags "body"}
+		{component "body"}
+	}
+ 	{volume "body3"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "body4"
+		{tags "body"}
+		{component "body"}
+	}
+
+	("crew_4_human")
+
+	{boarder
+		{anm "left"
+			{forward	{begin	"board_tank_left"}}
+			{reverse 	{end	"emit_tank_1"}}
+		}
+		{anm "right"
+			{forward	{begin	"board_tank_right"}}
+			{reverse 	{end	"emit_tank_2_hold"}}
+		}
+	}
+	("gunner_visible")
+
+	("armor_spa_light" armor(50 30 30 17))
+	("armor_mantlet" t(50))
+	("armor_engine"  t(10 30 30 17))
+
+	{extender "inventory"
+		{box
+                      	{item "ammo bullet75 gers apc" 14}
+			{item "ammo bullet75 gers fg" 24}
+			{item "ammo bullet75 gers heat" 6}
+		}
+	}
+	
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "75mm_stuk37" filling "ammo bullet75 gers fg" 1}	
+			("abm_medium")
+		}
+	}
+
+	{mass 20200}
+	{Chassis
+		("tank_trace" fx("tracks_sm") step(0.52) len(0.8))
+		{Locomotion ("locomotion")
+			{MaxSpeed   30}
+			{maxSpeedAtMaxTurn 6}
+			{StartTime 	 35}
+			{TurnTime  	 15}
+    		{TurnStart 1.4}
+     		{BrakeTime   1} 
+    		{StopTime    2}
+     		{TurnRadius  8} 
+    		{TurnStop   0.7}
+     		{Gears  0.1 0.2 0.3 1}
+     		{RearGears 0.28}
+		}
+		{FuelBag
+			{volume 320 }	
+			{rate	24 }   
+			{remain 320 }
+			{fuel "fuel"}
+		}
+		{speed
+        			{Normal  30}
+        			{Slow  30}
+    		}
+	}
+	{Extension "stug3.mdl"}
+
+	{bone "gun_rot"
+		{speed 0.002}
+		{speed2 10}
+	}
+}
+

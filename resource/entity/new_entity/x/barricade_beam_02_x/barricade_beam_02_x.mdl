@@ -1,0 +1,13 @@
+;Exported by: ?????
+;Date:        Mon Mar 02 16:21:25 2015
+;File:        C:\Users\?????\Documents\3dsmax\scenes\jap_bunk.max
+{Skeleton
+	{bone "beam"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "beam.ply"}
+	}
+}

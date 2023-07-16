@@ -1,0 +1,29 @@
+{game_entity
+                  (include "/properties/trench_new.inc")           
+	{Extension "ardenn_trench_baza_2.mdl"}
+	{props "wood"}
+	{placer}
+	{extender "structure"
+		{place "wall_01" "ardenn_trench_baza_wall_01"}
+		{place "wall_03" "ardenn_trench_baza_wall_03" "ardenn_trench_baza_wall_03t"}
+		{place "wall_04" "ardenn_trench_baza_wall_04"}
+		{place "wall_05" "ardenn_trench_baza_wall_05"}
+		{place "wall_06" "ardenn_trench_baza_wall_06"}
+		{place "wall_07" "ardenn_trench_baza_wall_07" "ardenn_trench_baza_wall_07t"}
+		{place "wall_08" "ardenn_trench_baza_wall_08"}
+		{place "wall_roof" "ardenn_trench_baza_wall_roof" "ardenn_trench_baza_wall_roof_2"}
+		{place "gun_nest" "mg42_stan"}
+		{place "gun_nest_2" "mg42_stan"}
+		{place "tent" "ardenn_trench_baza_tent"}
+
+		{place "crate" "crate4"}
+		{place "radio" "radiostation_big"}
+		{place "megaf" "megaphone1"}
+		{place "barell" "barrel3"}
+		{place "post" "post_small"}
+		{place "weap" "weapon_shelve"}
+	}
+	{Extender "land_patch"
+		{TerrainType "ground" "bridge"}
+	}
+}

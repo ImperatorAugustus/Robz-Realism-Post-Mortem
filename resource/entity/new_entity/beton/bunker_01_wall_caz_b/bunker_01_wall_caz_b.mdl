@@ -1,0 +1,121 @@
+;Exported by: Руслан
+;Date:        Tue Sep 03 18:29:43 2013
+;File:        C:\Users\Руслан\Documents\3dsmax\scenes\Новая папка\new_okop_baza_6_bun_03.max
+{Skeleton
+	{bone "bunker_01_wall_caz_b"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "bunker_01_wall_caz_b.ply"}
+		{bone "gun_nest"
+			{Matrix34
+				-0.00519361	0.999987	0
+				-0.999987	-0.00519361	0
+				0	0	1
+				-58.4558	-37.5023	-42.8814
+			}
+		}
+	}
+}
+{Obstacle "body1"
+	{Obb2
+		{Center -39.7852 33.9132}
+		{Extent 2.95275 6.88976}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body2"
+	{Obb2
+		{Center -39.7852 -25.3384}
+		{Extent 2.95275 34.4488}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body3"
+	{Obb2
+		{Center -48.944 38.0576}
+		{Extent 6.88977 2.95276}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body4"
+	{Obb2
+		{Center -75.6441 38.0576}
+		{Extent 14.7638 2.95276}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body6"
+	{Obb2
+		{Center -58.592 38.0576}
+		{Extent 3.14961 2.95275}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body1"
+	{Box 5.90551 13.7795 49.2126}
+	{Bone "bunker_01_wall_caz_b"}
+	{Position -39.7852	-33.9132	-18.6439}
+}
+{Volume "body2"
+	{Box 5.90551 68.8976 49.2126}
+	{Bone "bunker_01_wall_caz_b"}
+	{Position -39.7852	25.3384	-18.6439}
+}
+{Volume "body3"
+	{Box 5.90551 13.7795 49.2126}
+	{Bone "bunker_01_wall_caz_b"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		-48.944	-38.0576	-18.6439
+	}
+}
+{Volume "body4"
+	{Box 5.90551 29.5276 49.2126}
+	{Bone "bunker_01_wall_caz_b"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		-75.6441	-38.0576	-18.6439
+	}
+}
+{Volume "body5_r"
+	{Box 5.90551 6.29921 10.5515}
+	{Bone "bunker_01_wall_caz_b"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		-58.8105	-38.0576	0.686719
+	}
+}
+{Volume "body6"
+	{Box 5.90551 6.29921 25.5906}
+	{Bone "bunker_01_wall_caz_b"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		-58.592	-38.0576	-31.1692
+	}
+}
+{Volume "body_r"
+	{Box 5.90551 19.7964 8.93837}
+	{Bone "bunker_01_wall_caz_b"}
+	{Position -39.7852	-18.664	1.49326}
+}

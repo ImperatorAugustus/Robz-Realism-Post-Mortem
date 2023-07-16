@@ -1,0 +1,21 @@
+;Exported by: Loskutov_K
+;Date:        Thu Feb 25 11:43:01 2010
+;File:        D:\_Vietnam\Art\Models\Houses\House_middle_2\hm2_complete.max
+{Skeleton
+	{bone "interset4_hm2"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "interset4_hm2.ply"}
+		{bone "fix14"
+			{Position -13.7821	-19.2777	9.29152}
+		}
+	}
+}
+{Volume "body"
+	{Box 23.1935 34.487 0.530569}
+	{Bone "interset4_hm2"}
+	{Position 0.113224	0.189835	-0.0208406}
+}

@@ -1,0 +1,63 @@
+;Exported by: Loskutov_K
+;Date:        Fri Apr 09 13:24:34 2010
+;File:        D:\_Vietnam\Art\Models\Anturage\x\stelaj_2x\s2x.max
+{Skeleton
+	{bone "body_x"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "piece03"
+			{Position 0.525344	2.34576	22.1027}
+			{VolumeView "piece03.ply"}
+		}
+		{bone "piece02"
+			{Position -15.5291	0.200986	12.4771}
+			{VolumeView "piece02.ply"}
+		}
+		{bone "piece01"
+			{Position 9.43344	-0.299075	16.0753}
+			{VolumeView "piece01.ply"}
+		}
+		{bone "piece04"
+			{Position -7.84744	-0.346652	25.691}
+			{VolumeView "piece04.ply"}
+		}
+	}
+}
+{Volume "piece01"
+	{Polyhedron "piece01.vol"}
+	{Bone "piece01"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		7.85825	6.02454	-0.140686
+	}
+}
+{Volume "piece02"
+	{Polyhedron "piece02.vol"}
+	{Bone "piece02"}
+	{Matrix34
+		-1	0	0
+		0	0	1
+		0	1	0
+		-0.340607	-2.03918	3.4575
+	}
+}
+{Volume "piece03"
+	{Box 25.2481 6.22263 0.852412}
+	{Bone "piece03"}
+	{Position -0.0134277	-0.0981445	0.00398004}
+}
+{Volume "piece04"
+	{Polyhedron "piece04.vol"}
+	{Bone "piece04"}
+	{Matrix34
+		-1	0	0
+		0	0	1
+		0	1	0
+		-8.02231	-1.49152	11.2249
+	}
+}

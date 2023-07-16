@@ -1,0 +1,11 @@
+{game_entity
+	(include "/properties/stuff_small.ext")
+	{extender "stuff"
+		{item "ammo_ger4"}
+	}
+	{Extension "armor_fondina.mdl"}
+	{Volume "body"
+	}
+	{Volume "select"
+	}
+}

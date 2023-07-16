@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "5aec5f63.dds"}
+	{blend test}
+}

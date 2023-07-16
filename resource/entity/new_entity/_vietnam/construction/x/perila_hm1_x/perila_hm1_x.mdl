@@ -1,0 +1,69 @@
+;Exported by: Loskutov_K
+;Date:        Wed Mar 31 13:39:25 2010
+;File:        D:\_Vietnam\Art\Models\Houses\X\House_middle_1_x\House_middle_1_x.max
+{Skeleton
+	{bone "perila_hm1_x"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "piece03"
+			{Matrix34
+				0	-1	0
+				1	0	0
+				0	0	1
+				12.4214	70.6405	-11.8099
+			}
+			{VolumeView "piece03.ply"}
+		}
+		{bone "piece01"
+			{Matrix34
+				-1	0	0
+				0	0	1
+				0	1	0
+				94.4585	1.95825	7.03294
+			}
+			{VolumeView "piece01.ply"}
+		}
+		{bone "piece02"
+			{Matrix34
+				0	-1	0
+				0	0	1
+				-1	0	0
+				15.9496	112.974	7.06682
+			}
+			{VolumeView "piece02.ply"}
+		}
+	}
+}
+{Volume "piece01"
+	{Box 1.46859 1.44914 39.8882}
+	{Bone "piece01"}
+	{Matrix34
+		-1	0	0
+		0	1	0
+		0	0	-1
+		80.9011	0.0588178	0.632328
+	}
+}
+{Volume "piece02"
+	{Box 1.46859 1.44914 29.1184}
+	{Bone "piece02"}
+	{Matrix34
+		-1	0	0
+		0	1	0
+		0	0	-1
+		91.4964	0.0249411	12.1513
+	}
+}
+{Volume "piece03"
+	{Box 1.46859 1.44914 29.1184}
+	{Bone "piece03"}
+	{Matrix34
+		-1	0	0
+		0	1	0
+		0	0	-1
+		91.4964	0.0249371	12.055
+	}
+}

@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "rus uniform early"}
+	{blend none}
+}

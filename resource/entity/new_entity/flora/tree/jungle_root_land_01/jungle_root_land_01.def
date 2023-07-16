@@ -1,0 +1,5 @@
+{game_entity
+	{Extension "jungle_root_land_01.mdl"}
+	{Extender "land_patch"
+	}
+}

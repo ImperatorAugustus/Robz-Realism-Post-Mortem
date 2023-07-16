@@ -1,0 +1,16 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{props "cornered" "wood" "parts" "construction" "break_on_burn" "no_destroyed_stamp"}
+	("armor_medium" args 0.7)
+	{mass 100}
+
+	{Extension "kazan.mdl"}
+	{Volume "body"
+		{Tags  "body"}
+	}
+{obstacleID "stuff"}
+{collider "stuff"}
+{props "steel" "stuff" "collectable"}
+{simulation {able 1} {disableLinked 1}}
+{constrain ground}
+}

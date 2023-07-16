@@ -1,0 +1,101 @@
+;Exported by: Loskutov_K
+;Date:        Mon Mar 08 19:30:55 2010
+;File:        D:\_Vietnam\Art\Models\Houses\House_big_1\hb1_complete.max
+{Skeleton
+	{bone "base3_hb1"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "base3_hb1.ply"}
+		{bone "land"
+			{parameters "Land;Ground;"}
+			{Position -2.4928	8.66758	-8.27439}
+			{VolumeView "land.ply" {Ground}}
+		}
+	}
+}
+{Obstacle "body2"
+	{Obb2
+		{Center 15.1718 -25.6575}
+		{Extent 2.46307 2.69486}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Obstacle "body4"
+	{Obb2
+		{Center 18.3917 -16.8997}
+		{Extent 1.04333 25.8504}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body5"
+	{Obb2
+		{Center 4.95935 -41.9675}
+		{Extent 14.4415 1.04332}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Area "interior"
+	{Obb2
+		{Center -45.787 18.6333}
+		{Extent 61.8644 57.5291}
+		{Axis -1 0}
+	}
+	{Rotate}
+}
+{Obstacle "obstacle1"
+	{Obb2
+		{Center 2.70964 -43.6745}
+		{Extent 12.913 1.28739}
+		{Axis -1 0}
+	}
+	{Rotate}
+}
+{Volume "body1"
+	{Box 5.50579 5.59795 40.5743}
+	{Bone "base3_hb1"}
+	{Matrix34
+		0	1	0
+		0	0	-1
+		-1	0	0
+		0.593647	25.6312	31.4643
+	}
+}
+{Volume "body2"
+	{Box 4.92614 5.38972 70.3541}
+	{Bone "base3_hb1"}
+	{Position 15.1718	25.6575	0.281746}
+}
+{Volume "body3"
+	{Box 40.5269 66.5806 7.37699}
+	{Bone "base3_hb1"}
+	{Position -3.07875	8.20104	-12.7522}
+}
+{Volume "body4"
+	{Box 51.7007 2.08661 9.99663}
+	{Bone "base3_hb1"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		18.3917	16.8997	-5.1346
+	}
+}
+{Volume "body5"
+	{Box 28.8831 2.08661 9.99663}
+	{Bone "base3_hb1"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		4.95935	41.9675	-5.1346
+	}
+}

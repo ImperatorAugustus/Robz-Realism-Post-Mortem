@@ -1,0 +1,101 @@
+;Exported by: Kislov_A
+;Date:        Wed Apr 14 15:14:15 2010
+;File:        E:\Men of war red tide2\Art\Models\Houses\House_small_2\hs2_bumpspec.max
+{Skeleton
+	{bone "wall4_hs2"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "wall4_hs2.ply"}
+		{bone "attach1"
+			{Matrix34
+				-1	0	0
+				0	-1	0
+				0	0	1
+				11.6544	-4.69318	-25.5155
+			}
+		}
+		{bone "fix33"
+			{Position 2.78757	-4.0993	14.214}
+		}
+	}
+}
+{Obstacle "body2"
+	{Obb2
+		{Center 1.41221 22.1238}
+		{Extent 1.04331 13.5666}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Obstacle "body3"
+	{Obb2
+		{Center 1.41221 -20.6415}
+		{Extent 1.09547 13.2796}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Obstacle "body4"
+	{Obb2
+		{Center 1.4122 0.649467}
+		{Extent 1.04331 8.50906}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Volume "body2"
+	{Box 27.1333 2.08661 41.4564}
+	{Bone "wall4_hs2"}
+	{Matrix34
+		0	1	0
+		-1	0	0
+		0	0	1
+		1.41221	-22.1238	-1.17425
+	}
+}
+{Volume "body3"
+	{Box 26.5592 2.19094 41.5419}
+	{Bone "wall4_hs2"}
+	{Matrix34
+		0	1	0
+		-1	0	0
+		0	0	1
+		1.41221	20.6415	-1.83503
+	}
+}
+{Volume "body4"
+	{Box 17.0181 2.08661 9.74737}
+	{Bone "wall4_hs2"}
+	{Matrix34
+		0	1	0
+		-1	0	0
+		0	0	1
+		1.4122	-0.649467	-17.5651
+	}
+}
+{Volume "body5"
+	{Box 17.9464 2.08661 12.5657}
+	{Bone "wall4_hs2"}
+	{Matrix34
+		0	1	0
+		-1	0	0
+		0	0	1
+		1.4122	-0.649467	12.8018
+	}
+}
+{Volume "hole"
+	{Box 13.9641 18.6342 10.2173}
+	{Bone "wall4_hs2"}
+	{Matrix34
+		0	1	0
+		0	0	1
+		1	0	0
+		1.31176	-0.893721	-1.83452
+	}
+}

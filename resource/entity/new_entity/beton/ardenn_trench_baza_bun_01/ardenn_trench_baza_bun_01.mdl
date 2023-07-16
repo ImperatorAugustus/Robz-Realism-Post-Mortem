@@ -1,0 +1,21 @@
+;Exported by: Руслан
+;Date:        Sat Aug 31 17:37:10 2013
+;File:        C:\Users\Руслан\Documents\3dsmax\scenes\Новая папка\new_okop_baza_6_bun_01.max
+{Skeleton
+	{bone "ardenn_trench_baza_bun_01"
+		{parameters "Land;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "ardenn_trench_baza_bun_01.ply" {Ground} {DecalTarget}}
+		{bone "wall_01"
+			{Orientation
+				0	1	0
+				-1	0	0
+				0	0	1
+			}
+		}
+	}
+}

@@ -1,0 +1,7 @@
+{actor
+	(include "/properties/stuff_small.ext")
+	{Extension "rzgruz_ddr_soldier2.mdl"}
+	{extender "stuff"
+		{item "rzgruz_pnr_soldier"}
+	}
+}

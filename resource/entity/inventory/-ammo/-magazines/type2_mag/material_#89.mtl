@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "type 2 smg"}
+	{blend none}
+}

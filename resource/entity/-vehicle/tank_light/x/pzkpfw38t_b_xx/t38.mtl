@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "pz38t"}
+	{specular "pz38t_sp"}
+	{color "229 229 229 25"}
+	{blend test}
+}

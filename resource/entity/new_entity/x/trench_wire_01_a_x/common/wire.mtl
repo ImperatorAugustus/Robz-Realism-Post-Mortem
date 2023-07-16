@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "$/new_fortification/barbedwire"}
+	{bump "$/new_fortification/barbedwire_bp"}
+	{blend test}
+	{tile}
+}

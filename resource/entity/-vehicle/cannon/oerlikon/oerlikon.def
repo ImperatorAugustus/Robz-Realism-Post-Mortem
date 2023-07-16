@@ -1,0 +1,134 @@
+{game_entity
+	(include "/properties/cannon.ext")
+	{props "vehicle" "cannon" "cannon_small" "flak" "barrel1" "wheeled" "vision_cannon_low" "muzzle_zenite" "medium_weapons" "switch_cannon"}
+	{collider "cannon_small"}
+	
+	("wheel" args "wheelright")	
+	("wheel" args "wheelleft")
+	
+	{Volume "gun1"
+		{tags "gun"}
+		{component "gun"}
+	}
+	{Volume "gun_rot1"
+		{tags "gun"}
+		{component "gun"}
+		{thickness 7}
+	}
+	{Volume "gun_rot2"
+		{tags "gun"}
+		{component "gun"}
+		{thickness 7}
+	}
+	{Volume "gun_rot3"
+		{tags "gun"}
+		{component "gun"}
+		{thickness 7}
+	}
+	{Volume "gun_rot4"
+		{tags "gun"}
+		{component "gun"}
+		{thickness 7}
+	}
+	{Volume "gun_rot5"
+		{tags "gun"}
+		{component "gun"}
+		{thickness 7}
+	}
+	{Volume "gun_rot6"
+		{tags "gun"}
+		{component "gun"}
+		{thickness 7}
+	}
+	{Volume "gun_rot7"
+		{tags "gun"}
+		{component "gun"}
+		{thickness 7}
+	}
+	{Volume "gun_rot"
+		{tags "gun"}
+		{component "gun"}
+		{thickness 7}
+	}
+	{Volume "standl1"
+		{tags "body"}
+		{component "body"}
+		{thickness 7}
+	}
+	{Volume "standl2"
+		{tags "body"}
+		{component "body"}
+		{thickness 7}
+	}
+	{Volume "standr1"
+		{tags "body"}
+		{component "body"}
+		{thickness 7}
+	}
+	{Volume "standr2"
+		{tags "body"}
+		{component "body"}
+		{thickness 7}
+	}
+	{Volume "turret1"
+		{tags "turret"}
+		{component "turret"}
+	}
+
+	
+	("armor_medium")
+
+	("crew_inside")
+	("crew_human" place(driver) bone(driver)	door(emit1) animation(driver))
+	("crew_human" place(gunner)	bone(gunner)	door(emit1) animation(gunner))
+	("crew_human" place(seat1) bone(seat1)		door(emit1) animation(seat1))
+	{placer
+		{place "gunner" {UseVision 0}}
+		{place "commander" remove}
+	}
+	
+	{boarder
+		{anm "gunner"
+			{forward	{end "pose_oerlikon_charger" 10}}
+		}
+		{anm "driver"
+			{forward	{end "cannon_pak40_pusher_left" 10}}
+		}
+		{anm "seat1"
+			{forward 	{end "pose_oerlikon_charger" 10}}
+		}
+		{link "driver" "gunner"}
+		{link "seat1" "gunner"}
+	}
+	
+	{mass 300}
+	{Extension "oerlikon.mdl"}
+	(include "/properties/selection/vehicle.inc"  scale(0.7))
+	
+	{extender "cannon"
+		{animation
+			{move "cannon_pak40_pusher_left"}
+			{reload "Cannon_oerlikon_charger"}
+		}
+		{move {workers "driver"} {obstacle "close"}}
+		{attack {workers "gunner"} {obstacle "open"}}
+	}
+	{extender "inventory"
+		{box
+			{size 8 6}
+			{item "bullet20 eng zenite ap" 80}
+			{item "bullet20 eng zenite fg" 80}
+		}
+	}
+	{Weaponry
+		{place "gun"
+			{weapon "20mm_oerlikon" filled}
+			("abm_zenite")
+		}
+	}
+
+	{Chassis "track"
+		("car_trace" fx("tracewheel01a") step(0.08) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
+		("loco_small")
+	}
+}

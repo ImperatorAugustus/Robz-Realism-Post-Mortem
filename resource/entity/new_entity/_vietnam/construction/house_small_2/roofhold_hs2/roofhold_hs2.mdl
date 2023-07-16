@@ -1,0 +1,60 @@
+;Exported by: Kislov_A
+;Date:        Wed Apr 14 15:14:15 2010
+;File:        E:\Men of war red tide2\Art\Models\Houses\House_small_2\hs2_bumpspec.max
+{Skeleton
+	{bone "roofhold_hs2"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "roofhold_hs2.ply"}
+		{bone "exterior"
+			{Position 0.00842047	0.0445747	-5.26604}
+			{VolumeView "exterior.ply"}
+		}
+		{bone "fix04"
+			{Position 38.1323	33.1385	-7.30263}
+		}
+	}
+}
+{Volume "body1"
+	{Box 2.08661 2.08661 43.2104}
+	{Bone "roofhold_hs2"}
+	{Matrix34
+		0	1	0
+		-1	0	0
+		0	0	1
+		-38.9966	-0.072019	0.0412273
+	}
+}
+{Volume "body2"
+	{Box 2.08661 2.08661 43.1689}
+	{Bone "roofhold_hs2"}
+	{Matrix34
+		0	1	0
+		-1	0	0
+		0	0	1
+		40.9878	-0.22209	0.703283
+	}
+}
+{Volume "roof1"
+	{Box 92.9896 2.79606 58.0098}
+	{Bone "exterior"}
+	{Matrix34
+		-1	0	0
+		0	-0.709365	-0.704841
+		0	-0.704841	0.709365
+		0.540797	19.5351	7.55105
+	}
+}
+{Volume "roof2"
+	{Box 91.2102 2.96299 56.8834}
+	{Bone "exterior"}
+	{Matrix34
+		1	0	0
+		0	0.707107	-0.707107
+		0	0.707107	0.707107
+		0.193751	-19.4518	7.94117
+	}
+}

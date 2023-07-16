@@ -1,0 +1,18 @@
+;Exported by: Loskutov_K
+;Date:        Thu Dec 03 17:31:13 2009
+;File:        D:\_Vietnam\Models\Anturage\ukazatel\ukazatel.max
+{Skeleton
+	{bone "body"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "body.ply"}
+	}
+}
+{Volume "body"
+	{Box 2.69012 2.74236 49.7072}
+	{Bone "body"}
+	{Position -1.08437	-0.104143	24.8536}
+}

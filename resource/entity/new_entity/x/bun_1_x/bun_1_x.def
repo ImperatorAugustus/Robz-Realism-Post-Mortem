@@ -1,0 +1,7 @@
+{game_entity
+                  (include "/properties/trench_new.inc")            
+	{Extension "bun_1_x.mdl"}
+	{props "wood"}
+	{Extender "land_patch"
+	}
+}

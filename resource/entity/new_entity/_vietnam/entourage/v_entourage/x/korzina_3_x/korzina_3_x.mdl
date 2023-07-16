@@ -1,0 +1,24 @@
+;Exported by: Loskutov_K
+;Date:        Thu Apr 08 15:21:12 2010
+;File:        D:\_Vietnam\Art\Models\Anturage\utvar\x\korzina_3_x\korzina_3x.max
+{Skeleton
+	{bone "korzina_3_x"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "piece01"
+			{Position 0.0976868	0.056488	5.54452}
+			{VolumeView "piece01.ply"}
+		}
+		{bone "fx_wood1a"
+			{Position -0.056263	-0.0928192	-5.50787}
+		}
+	}
+}
+{Volume "piece01"
+	{Polyhedron "piece01.vol"}
+	{Bone "piece01"}
+	{Position -0.056263	-0.0928192	-5.50787}
+}

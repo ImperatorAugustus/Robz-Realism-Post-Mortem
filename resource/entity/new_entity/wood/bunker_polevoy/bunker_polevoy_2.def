@@ -1,0 +1,8 @@
+{game_entity
+	{Extension "bunker_polevoy_2.mdl"}
+	{placer}
+	{extender "structure"
+		{place "basic" "bun_1_fort"}
+		{place "basic_1" "bun_2"}
+	}
+}

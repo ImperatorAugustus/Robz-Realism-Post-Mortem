@@ -1,0 +1,11 @@
+{Actor
+	(include "/properties/stuff_small.ext")
+	{extender "stuff"
+		{item "japarmy_cap_hohei2"}
+	}
+	{Extension "japarmy_cap2.mdl"}
+	{Volume "body"
+	}
+	{Volume "select"
+	}
+}

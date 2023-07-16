@@ -1,0 +1,27 @@
+;Exported by: Loskutov_K
+;Date:        Wed Apr 21 10:16:08 2010
+;File:        D:\_Vietnam\Art\Models\Houses\Saray_3\saray_3_complete.max
+{Skeleton
+	{bone "firelight_s3"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "firelight_s3.ply"}
+		{bone "fix25"
+			{Position 34.2967	52.0457	7.07012}
+		}
+		{bone "fix24"
+			{Position -32.8902	4.17126	7.07012}
+		}
+		{bone "fix23"
+			{Position 34.0084	-50.71	7.07012}
+		}
+	}
+}
+{Volume "fire0"
+	{Box 73.1862 109.713 1.1811}
+	{Bone "firelight_s3"}
+	{Position 0.40292	0.943342	-4.52444}
+}

@@ -1,0 +1,17 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{Extension "interset6_hs2.mdl"}
+	{props "flag" "one" "staged" "wood" "construction" "burning" "disable_area" "no_destroyed_stamp"}
+
+	{extender "structure_bone"
+		{hold "30"}
+	}
+	{Volume "body1"
+		{Tags  "body"}
+		{able {bullet 0}{obstacle 0}}
+	}
+	{Volume "body2"
+		{Tags  "body"}
+		{able {bullet 0}{obstacle 0}}
+	}
+}

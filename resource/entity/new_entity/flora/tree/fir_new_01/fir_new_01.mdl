@@ -1,0 +1,24 @@
+;Exported by: ?????
+;Date:        Wed Mar 25 21:33:57 2015
+;File:        C:\Users\?????\Documents\3dsmax\scenes\pine_and_fir.max
+{Skeleton
+	{bone "tree"
+		{parameters "CommonMesh;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "tree.ply"}
+	}
+}
+{Volume "bole"
+	{Cylinder 3.99756 91.9255}
+	{Bone "tree"}
+	{Position 0.0892334	0.276173	45.9627}
+}
+{Volume "crown"
+	{Cylinder 41.4441 83.053}
+	{Bone "tree"}
+	{Position -8.06238	4.16876	58.9086}
+}

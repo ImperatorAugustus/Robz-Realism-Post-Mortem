@@ -1,0 +1,43 @@
+;Exported by: Loskutov_K
+;Date:        Fri Apr 09 13:45:21 2010
+;File:        D:\_Vietnam\Art\Models\Anturage\utvar\x\table_2_x\table_2x.max
+{Skeleton
+	{bone "table_2_x"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "piece02"
+			{Matrix34
+				0	1	0
+				-1	0	0
+				0	0	1
+				1.36985	1.78861	4.66879
+			}
+			{VolumeView "piece02.ply"}
+		}
+		{bone "piece01"
+			{Matrix34
+				0	1	0
+				-1	0	0
+				0	0	1
+				-1.24099	-3.40234	4.68202
+			}
+			{VolumeView "piece01.ply"}
+		}
+		{bone "fx_wood1a"
+			{Position -2.52788	-0.0217288	4.18719}
+		}
+	}
+}
+{Volume "piece01"
+	{Polyhedron "piece01.vol"}
+	{Bone "piece01"}
+	{Position -2.52788	-0.0217288	4.18719}
+}
+{Volume "piece02"
+	{Polyhedron "piece02.vol"}
+	{Bone "piece02"}
+	{Position 2.42993	0.0562744	3.94268}
+}

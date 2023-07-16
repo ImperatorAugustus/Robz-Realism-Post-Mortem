@@ -1,0 +1,4 @@
+{material bump
+	{diffuse "$/new_fortification/bun_01"}
+	{blend none}
+}

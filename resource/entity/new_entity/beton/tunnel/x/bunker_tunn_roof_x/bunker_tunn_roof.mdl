@@ -1,0 +1,66 @@
+;Exported by: Руслан
+;Date:        Sun Sep 08 23:58:22 2013
+;File:        C:\Users\Руслан\Documents\3dsmax\scenes\Новая папка\new_okop_baza_6_bun_04_x.max
+{Skeleton
+	{bone "exterior"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "exterior.ply"}
+		{bone "gr_01"
+			{Matrix34
+				0	1	0
+				-1	0	0
+				0	0	1
+				-21.9858	-22.0356	1.45328
+			}
+		}
+		{bone "gr_02"
+			{Matrix34
+				-0.192168	0.981362	0
+				-0.981362	-0.192168	0
+				0	0	1
+				-21.9858	17.78	1.45328
+			}
+		}
+		{bone "gr_03"
+			{Matrix34
+				-0.731354	0.681998	0
+				-0.681998	-0.731354	0
+				0	0	1
+				18.0205	17.78	1.45328
+			}
+		}
+		{bone "gr_04"
+			{Matrix34
+				0.358368	0.933581	0
+				-0.933581	0.358368	0
+				0	0	1
+				18.0205	-20.3672	1.45328
+			}
+		}
+		{bone "gr_05"
+			{Matrix34
+				0.53694	0.84362	0
+				-0.84362	0.53694	0
+				0	0	1
+				-0.312424	-2.38452	1.45328
+			}
+		}
+	}
+}
+{Area "interior"
+	{Obb2
+		{Center -0.99189 -0.332703}
+		{Extent 42.6334 38.3741}
+		{Axis 1 0}
+	}
+	{Rotate}
+}
+{Volume "body_r"
+	{Polyhedron "body_r.vol"}
+	{Bone "exterior"}
+	{Position -0.99189	0.332703	13.0825}
+}

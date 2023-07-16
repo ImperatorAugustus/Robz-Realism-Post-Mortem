@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "nashorn_pak43_xx"}
+	{blend none}
+}

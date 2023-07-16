@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "bush9"}
+	{blend test}
+}

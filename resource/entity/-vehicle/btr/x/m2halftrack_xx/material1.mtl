@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "sgrw42_x"}
+	{bump "sw42_bp"}
+	{blend test}
+}

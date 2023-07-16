@@ -1,0 +1,20 @@
+;Exported by: Фёдор
+;Date:        Thu Jul 24 01:27:54 2014
+;File:        C:\Users\Фёдор\Documents\3dsmax\scenes\wheat_round_01.max
+{Skeleton
+	{bone "basic"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "fence_wire_nor_col"
+			{VolumeView "fence_wire_nor_col.ply"}
+		}
+	}
+}
+{Volume "body"
+	{Cylinder 1.62844 30.3638}
+	{Bone "fence_wire_nor_col"}
+	{Position 0.159264	0.0610847	12.9639}
+}

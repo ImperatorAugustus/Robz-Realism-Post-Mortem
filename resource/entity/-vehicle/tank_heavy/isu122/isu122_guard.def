@@ -1,0 +1,133 @@
+{Entity
+	(include "/properties/tank.ext")
+	(include "/properties/selection/vehicle.inc"  scale(1.2))
+	{collider "tank.heavy"}
+	{props "heavy" "-turret" "vision_vehicle_maximum" "muzzle_maximum" "isu122"}
+	{tag "diesel_exhaust"}
+
+	{extender "enumerator"}
+	
+	{volume "body1"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "body2"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "body3"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "body4"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "body5"
+		{tags "body"}
+		{component "body"}
+	}
+
+	("armor_spa_heavy" armor(90 75 60 30))
+	("armor_mantlet" t(60))
+	("armor_engine"  t(40 75 60 30))
+	("shield" args 20)
+	("rus_4x_sight")
+	
+	{Volume "mantlet"
+		{tags "gun"}
+		{component "gun"}
+		{thickness 60}
+	}
+	
+	{volume "gun"
+		{tags "gun"}
+		{component "gun"}
+	}
+	
+	("crew_4_human")
+	
+	{boarder
+		{anm "left"
+			{forward	{begin	"board_kv"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+		{anm "right"
+			{forward	{begin	"board_kv"} {end "pose_gunner_isu"}}
+			{reverse 	{end	"emit_tank_2_hold"}}
+		}
+		{anm "armor"
+			{forward	{begin	"board_body"} 	{end "seat_isu"}}
+			{reverse 	{end	"emit_tank_2"}}
+		}
+		{anm "armor1"
+			{forward	{begin	"board_body"} {end "seat_isu1"}}
+			{reverse 	{end	"emit_body"}}
+		}
+		{anm "armor2"
+			{forward	{begin	"board_body"} {end "seat_isu2"}}
+			{reverse 	{end	"emit_body"}}
+		}
+		{anm "armor3"
+			{forward	{begin	"board_body"} {end "seat_isu3"}}
+			{reverse 	{end	"emit_body"}}
+		}
+	}
+	
+	("seat_human" place(seat1) bone(seat01) door(emit3)  animation(armor))
+	("seat_human" place(seat2) bone(seat02) door(emit4)  animation(armor1))
+	("seat_human" place(seat3) bone(seat03) door(emit5)  animation(armor2))
+	("seat_human" place(seat4) bone(seat04) door(emit6)  animation(armor3))
+	
+	{extender "inventory"
+		{box
+			{item "ammo bullet122 rusl aphebc" 14}
+            {item "ammo bullet122 rusl fg" 15}
+		}
+	}
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "122mm_a19s_vet" filling "ammo bullet122 rusl aphebc" 1}
+			("abm_veteran")
+		}
+	}
+
+	{mass 41800}
+	{Chassis
+		("tank_trace" fx("tracks_big") step(0.47) len(0.13))
+		{Locomotion ("locomotion")
+			{MaxSpeed	26}
+			{maxSpeedAtMaxTurn 3}
+			{StartTime	46.75}
+			{TurnTime	23.4}
+			{TurnStart  2} 
+    		{BrakeTime  2}
+     		{StopTime   3} 
+    		{TurnRadius 10} 
+    		{TurnStop   1}
+			{Gears     0.13 0.21 0.29 1.0}
+    		{RearGears 0.1 0.2} 
+		}
+		{FuelBag
+			{volume 860 }	
+			{rate	32 }   
+			{remain 860 }
+			{fuel "fuel"}
+		}
+		{speed
+        	{Normal  26}
+        	{Slow  26}
+    	}
+	}
+
+	{Extension "isu122.mdl"}	
+	{bone "gun_rot"	
+		{speed 0.0012}
+	}
+	{bone "gun_rot1"	
+		{speed 0.0012}
+	}
+}
+

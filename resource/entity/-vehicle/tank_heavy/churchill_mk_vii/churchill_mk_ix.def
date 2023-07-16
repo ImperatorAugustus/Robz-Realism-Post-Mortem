@@ -1,0 +1,55 @@
+{game_entity
+	(include "churchill_mk_vii.inc")
+	("armor_heavy_custom" turret(152 95 95 20) body(102 76 64 20) body2(57 76 51 20) body3(102 76 51 25))
+	{extender "shield"
+		{off}
+	}
+	{extender "inventory"
+		{box
+			{item "ammo bullet57 eng apcbc" 48}
+			{item "ammo bullet57 eng fg" 36}
+			{item "ammo bullet57 eng apds" 4}
+            		{item "ammo mg_mauser belt red" 3475}
+		}
+	}
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "57mm_oqf" filling "ammo bullet57 eng apcbc" 1}
+			("abm_medium")
+		}
+		{place "mgun"
+			{type "mgun_aa"}
+			{gunner "gunner2"}
+			{charger "gunner2"}
+			{LinkBone "mgun1_rot"}
+			{LinkAnimation "off"}
+			("abm_mgun_heavy")
+		}
+		{place "mgun1"
+			{type "mgun_hull"}
+			{weapon "besa" filling "mg_mauser belt red" 225}
+			{foresight "foresight4"}
+			{gunner "driver"}
+			{charger "driver"}
+			("abm_mgun")
+		}
+		{place "mgun2"
+			{type "mgun_coaxial"}
+			{weapon "besa_optic" filling "mg_mauser belt red" 225}
+			{foresight "foresight5"}
+			("abm_mgun")
+			{basic}
+		}
+	}
+
+{Extension "churchill_mk_ix.mdl"}
+	{bone "turret"
+		{speed 0.0033}
+	}
+	{bone "gun_rot"
+		{speed 0.001}
+	}
+}
+

@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "brit uniform"}
+	{blend none}
+}

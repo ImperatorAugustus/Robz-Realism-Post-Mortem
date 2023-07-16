@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/new_fortification/bun_1_wood#jap2"}
+	{blend none}
+}

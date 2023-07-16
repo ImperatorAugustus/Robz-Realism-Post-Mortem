@@ -1,0 +1,52 @@
+;Exported by: Kalinski
+;Date:        Sun Sep 11 19:40:51 2016
+;File:        C:\Users\Kalinski\Desktop\eng helmet\eng_helmet_2222.max
+{Skeleton
+	{bone "helmet_eng_2"
+		{Matrix34
+			1	0	0
+			0	-1	0
+			0	0	1
+                        0.40	-0.050	-0.15
+		}
+		{VolumeView "helmet_eng_2.ply"}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "helmet_eng_2"}
+}
+{Volume "select"
+	{Box 7.29106 6.15587 5.46933}
+	{Bone "helmet_eng_2"}
+	{Matrix34
+		1.0387	0	0
+		0	1.0387	0
+		0	0	1.0387
+		-0.00758443	-0.0521467	2.45339
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 6.42502	-5.08807	2.75291}
+			{lookat 0.132761	0.149201	3.51748}
+			{fov 45}
+			{horizon -0.239031}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 0.876576	-2.46137	5.42704}
+			}
+			{"1"
+				{type point}
+				{position 1.02269	1.7822	5.55558}
+			}
+			{"2"
+				{type directional}
+				{direction -0.0150072	0.0015203	-0.499772}
+			}
+		}
+	}
+}

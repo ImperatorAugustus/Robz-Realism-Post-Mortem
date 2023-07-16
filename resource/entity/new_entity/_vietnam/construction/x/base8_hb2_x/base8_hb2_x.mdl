@@ -1,0 +1,88 @@
+;Exported by: loskutov_k
+;Date:        Wed May 12 11:12:58 2010
+;File:        D:\_Vietnam\Art\Models\Houses\X\House_big_2_x\House_big_2_x.max
+{Skeleton
+	{bone "base8_hb2_x"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "piece02"
+			{Matrix34
+				0	1	0
+				-1	0	0
+				0	0	1
+				0.816208	-37.7847	-2.14146
+			}
+			{VolumeView "piece02.ply"}
+		}
+		{bone "piece01"
+			{Matrix34
+				0	1	0
+				-1	0	0
+				0	0	1
+				0.624954	26.9398	-5.61765
+			}
+			{VolumeView "piece01.ply"}
+		}
+		{bone "piece04"
+			{Matrix34
+				-1	0	0
+				0	0.0317746	-0.999495
+				0	-0.999495	-0.0317746
+				-2.0092	7.64331	2.37613
+			}
+			{VolumeView "piece04.ply"}
+		}
+		{bone "piece03"
+			{Matrix34
+				-1	0	0
+				0	0	-1
+				0	-1	0
+				-1.6295	39.8641	1.80756
+			}
+			{VolumeView "piece03.ply"}
+		}
+	}
+}
+{Volume "piece01"
+	{Box 34.8344 17.1269 2.04652}
+	{Bone "piece01"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		1.55385	-0.00402045	-0.341133
+	}
+}
+{Volume "piece02"
+	{Polyhedron "piece02.vol"}
+	{Bone "piece02"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		0.575157	1.86843	-2.86691
+	}
+}
+{Volume "piece03"
+	{Box 2.56769 2.78166 26.0741}
+	{Bone "piece03"}
+	{Matrix34
+		1	0	0
+		0	-1	0
+		0	0	-1
+		0.00827026	-0.557636	-2.87943
+	}
+}
+{Volume "piece04"
+	{Box 2.56769 2.78166 13.5585}
+	{Bone "piece04"}
+	{Matrix34
+		1	0	0
+		0	-0.999496	-0.0317748
+		0	0.0317748	-0.999496
+		-0.371414	-0.0389391	1.56894
+	}
+}

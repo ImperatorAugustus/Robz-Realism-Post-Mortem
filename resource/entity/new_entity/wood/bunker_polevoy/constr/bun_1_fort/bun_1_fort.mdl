@@ -1,0 +1,138 @@
+;Exported by: Руслан
+;Date:        Mon Aug 12 00:28:15 2013
+;File:        C:\Users\Руслан\Documents\3dsmax\scenes\new_trench_and_fortific\bunker_1.max
+{Skeleton
+	{bone "bun_1_fort"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "roof_wall_l"
+			{Position -16.5439	26.7207	1.96751}
+			{VolumeView "roof_wall_l.ply" {Ground} {DecalTarget}}
+		}
+		{bone "wall_center"
+			{Position 10.347	-1.41194	-0.147358}
+			{VolumeView "wall_center.ply" {Ground} {DecalTarget}}
+		}
+		{bone "roof_wall_r"
+			{Position -16.5439	-26.5534	1.82579}
+			{VolumeView "roof_wall_r.ply" {Ground} {DecalTarget}}
+		}
+		{bone "wall_r_1"
+			{Position -15.6068	-25.7768	0.59631}
+			{VolumeView "wall_r_1.ply" {Ground} {DecalTarget}}
+		}
+		{bone "wall+r_2"
+			{Position -15.6068	-25.7768	-14.8748}
+			{VolumeView "wall+r_2.ply" {Ground} {DecalTarget}}
+		}
+		{bone "wall_l_2"
+			{Position -15.6068	23.751	-14.8748}
+			{VolumeView "wall_l_2.ply" {Ground} {DecalTarget}}
+		}
+		{bone "wall_l_1"
+			{Position -15.6068	24.0444	0.59631}
+			{VolumeView "wall_l_1.ply" {Ground} {DecalTarget}}
+		}
+	}
+}
+{Obstacle "body_1"
+	{Obb2
+		{Center -17.9024 -31.2096}
+		{Extent 28.7398 8.06013}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_2"
+	{Obb2
+		{Center 7.69304 -3.60727}
+		{Extent 1.49989 33.3495}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_3"
+	{Obb2
+		{Center -17.5736 31.2398}
+		{Extent 28.2794 7.66616}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_4"
+	{Obb2
+		{Center -16.9125 24.1668}
+		{Extent 30.0632 1.51975}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_5"
+	{Obb2
+		{Center -16.9125 24.1668}
+		{Extent 30.0632 1.51975}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_6"
+	{Obb2
+		{Center -18.2853 -25.6438}
+		{Extent 28.3127 2.66482}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_7"
+	{Obb2
+		{Center -18.2558 -24.8601}
+		{Extent 28.0378 1.50406}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body_1"
+	{Box 57.4796 16.1203 3.78838}
+	{Bone "bun_1_fort"}
+	{Position -17.9024	31.2096	1.89419}
+}
+{Volume "body_2"
+	{Box 2.99979 66.699 29.5276}
+	{Bone "bun_1_fort"}
+	{Position 7.69304	3.60727	-13.2417}
+}
+{Volume "body_3"
+	{Box 56.5588 15.3323 2.99858}
+	{Bone "bun_1_fort"}
+	{Position -17.5736	-31.2398	1.49929}
+}
+{Volume "body_4"
+	{Box 60.1264 3.0395 12.0805}
+	{Bone "bun_1_fort"}
+	{Position -16.9125	-24.1668	-6.04027}
+}
+{Volume "body_5"
+	{Box 60.1264 3.0395 12.0805}
+	{Bone "bun_1_fort"}
+	{Position -16.9125	-24.1668	-18.4847}
+}
+{Volume "body_6"
+	{Box 56.6254 5.32964 10.6088}
+	{Bone "bun_1_fort"}
+	{Position -18.2853	25.6438	-18.356}
+}
+{Volume "body_7"
+	{Box 56.0757 3.00811 12.9309}
+	{Bone "bun_1_fort"}
+	{Position -18.2558	24.8601	-6.46547}
+}

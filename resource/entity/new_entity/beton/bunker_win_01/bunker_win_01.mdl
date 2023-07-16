@@ -1,0 +1,19 @@
+;Exported by: Руслан
+;Date:        Sat Aug 31 18:27:27 2013
+;File:        C:\Users\Руслан\Documents\3dsmax\scenes\Новая папка\new_okop_baza_6_bun_01.max
+{Skeleton
+	{bone "bun_win_01"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "bun_win_01.ply"}
+	}
+}
+
+{Volume "body"
+	{Box 1.01877 63.9117 10.0146}
+	{Bone "bun_win_01"}
+	{Position 69.9647	-7.35143	-13.5367}
+}

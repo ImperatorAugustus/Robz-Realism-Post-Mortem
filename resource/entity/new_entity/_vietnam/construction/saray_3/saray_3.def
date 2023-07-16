@@ -1,0 +1,28 @@
+{game_entity
+	{Extension "saray_3.mdl"}
+	{placer}
+	{extender "structure"
+		{place "1" "roofhold1_s3"}
+		{place "2" "roofhold2_s3"}
+		{place "3" "interset1_s3"}
+		{place "4" "interset2_s3"}
+		{place "5" "base1_s3"}
+		{place "6" "base6_s3"}
+		{place "7" "base7_s3"}
+		{place "8" "base5_s3"}
+		{place "9" "base2_s3"}
+		{place "10" "roofhold3_s3"}
+		{place "11" "base3_s3"}
+		{place "12" "base4_s3"}
+		{place "13" "base8_s3"}
+		{place "14" "roofhold4_s3"}
+		{place "15" "roofhold5_s3"}
+		{place "16" "roofhold6_s3"}
+		{place "17" "wall1_s3"}
+		{place "18" "wall5_s3"}
+		{place "19" "wall4_s3"}
+		{place "20" "wall3_s3"}
+		{place "21" "wall2_s3"}
+		{place "22" "firelight_s3"}
+	}
+}

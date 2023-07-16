@@ -1,0 +1,9 @@
+{Game_entity
+	(include "/properties/human_part.ext")
+	{Extension "#_sguts01.mdl"}
+	{mass 1}
+        {Volume "body"
+		{able {float}}
+	}
+	{simulatorID "water"}
+}

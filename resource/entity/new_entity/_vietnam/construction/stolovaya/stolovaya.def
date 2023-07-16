@@ -1,0 +1,40 @@
+{game_entity
+	{Extension "stolovaya.mdl"}
+	{placer}
+	{extender "structure"
+		{place "1" "base4_st"}
+		{place "2" "interset5_st"}
+		{place "3" "wall5_st"}
+		{place "4" "wall4_st"}
+		{place "5" "interset6_st"}
+		{place "6" "base3_st"}
+		{place "7" "wall3_st"}
+		{place "8" "base2_st"}
+		{place "9" "ladder2_st"}
+		{place "10" "wall6_st"}
+		{place "11" "ladder1_st"}
+		{place "12" "base5_st"}
+		{place "13" "base7_st"}
+		{place "14" "interset4_st"}
+		{place "15" "base6_st"}
+		{place "16" "wall7_st"}
+		{place "17" "wall8_st"}
+		{place "18" "interset3_st"}
+		{place "19" "base1_st"}
+		{place "20" "interset2_st"}
+		{place "21" "interset1_st"}
+		{place "22" "wall2_st"}
+		{place "23" "wall1_st"}
+		{place "24" "roofhold9_st"}
+		{place "25" "roofhold8_st"}
+		{place "26" "roofhold7_st"}
+		{place "27" "roofhold4_st"}
+		{place "28" "roofhold5_st"}
+		{place "29" "roofhold6_st"}
+		{place "30" "roofhold1_st"}
+		{place "31" "roofhold2_st"}
+		{place "32" "roofhold3_st"}
+		{place "33" "firelight2_st"}
+		{place "34" "firelight1_st"}
+	}
+}

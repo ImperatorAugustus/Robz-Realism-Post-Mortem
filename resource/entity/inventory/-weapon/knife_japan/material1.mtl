@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "knife_japan"}
+	{specular "knife_japan_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

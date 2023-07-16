@@ -1,0 +1,100 @@
+;Exported by: Sergey
+;Date:        Wed Sep 05 13:47:51 2012
+;File:        D:\Documents\3dsmax\scenes\ZB-53\zb-309_x.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "stan"
+			{parameters "ID=stan;"}
+			{Position 6.16451	0.496323	7.98424}
+			{VolumeView "stan.ply"}
+			{bone "support1"
+				{Matrix34
+					0.793361	0	0.608752
+					0.608752	0	-0.793361
+					0	1	0
+					0.334994	-0.49941	-0.533055
+				}
+				{VolumeView "support1.ply"}
+				{bone "support11"
+					{Matrix34
+						1	0	0
+						0	0	1
+						0	-1	0
+						0.012372	9.32178	0
+					}
+					{VolumeView "support11.ply"}
+				}
+			}
+			{bone "support2"
+				{Matrix34
+					0.728435	0.265128	-0.631736
+					-0.593637	-0.216066	-0.775184
+					-0.34202	0.939693	0
+					-7.69601	-3.70296	-0.79948
+				}
+				{VolumeView "support2.ply"}
+				{bone "support21"
+					{Matrix34
+						-1	0	0
+						0	0	-1
+						0	-1	0
+						0	9.12079	0
+					}
+					{VolumeView "support21.ply"}
+				}
+			}
+			{bone "support3"
+				{Matrix34
+					0.736831	-0.268185	-0.62061
+					-0.583183	0.212261	-0.784119
+					0.34202	0.939693	0
+					-7.6989	2.6534	-0.850412
+				}
+				{VolumeView "support3.ply"}
+				{bone "support31"
+					{Matrix34
+						-1	0	0
+						0	0	-1
+						0	-1	0
+						0	9.10241	0
+					}
+					{VolumeView "support31.ply"}
+				}
+			}
+			{bone revolute "turret"
+				{limits -20 20}
+				{speed 0.01}
+				{Position -0.433072	-0.202005	-0.0756297}
+				{VolumeView "turret.ply"}
+				{bone revolute "gun_root"
+					{limits -50 10}
+					{speed 0.01}
+					{Matrix34
+						1	0	0
+						0	0	1
+						0	-1	0
+						0.230793	0.0664362	1.45614
+					}
+					{VolumeView "gun_root.ply"}
+					{bone "mgun"
+						{Position -13.6133	-1.19664	0.360758}
+						{bone "ruchki"
+							{Position -2.21676	0.99888	-2.38482}
+							{VolumeView "ruchki.ply"}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+{Volume "stan"
+	{Box 12.3206 9.62546 1.25131}
+	{Bone "stan"}
+	{Position -4.75696	-0.560309	0.158305}
+}

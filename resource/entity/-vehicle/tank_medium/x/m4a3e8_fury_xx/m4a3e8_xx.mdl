@@ -1,0 +1,166 @@
+;Exported by: ftiger
+;Date:        Mon Dec 15 12:43:29 2014
+;File:        D:\PROGRAMS\3ds_max\3dsmax9_saves\scenes\Fury_M4A3E8\fury_xx.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "body"
+			{parameters "ID=Body;"}
+			{Matrix34
+				0.99978	0	-0.0209759
+				-0.000585682	0.99961	-0.0279155
+				0.0209678	0.0279216	0.99939
+				-1.07205	-0.0856621	18.0326
+			}
+			{VolumeView "body.ply"}
+			{bone revolute "turret"
+				{parameters "ID=turret;"}
+				{Matrix34
+					0.953531	-0.301246	0.00547311
+					0.301186	0.953517	0.00965982
+					-0.00812868	-0.00756252	0.999938
+					0.022319	0.121642	24.7916
+				}
+				{VolumeView "turret.ply"}
+				{bone "part1"
+					{parameters "ID=part1;"}
+					{Matrix34
+						0.953612	0.300763	0.0128442
+						-0.300975	0.953415	0.0203603
+						-0.00612221	-0.0232817	0.99971
+						51.3092	3.4352	-4.33333
+					}
+					{VolumeView "part1.ply"}
+				}
+			}
+			{bone "detail4"
+				{Matrix34
+					0	-1	0
+					1	0	0
+					0	0	1
+					7.97416	-0.190598	-21.6191
+				}
+				{VolumeView "others.ply"}
+			}
+			{bone "part2"
+				{parameters "ID=part2;"}
+				{Matrix34
+					0.99978	-0.000585904	0.0209679
+					0	0.99961	0.0279219
+					-0.020976	-0.0279158	0.99939
+					48.3923	-21.7898	-7.19434
+				}
+				{VolumeView "part2.ply"}
+			}
+			{bone "part3"
+				{parameters "ID=part3;"}
+				{Matrix34
+					0.99978	-0.000585904	0.0209679
+					0	0.99961	0.0279219
+					-0.020976	-0.0279158	0.99939
+					-47.3575	21.7017	-7.32759
+				}
+				{VolumeView "part3.ply"}
+			}
+			{bone "part4"
+				{parameters "ID=part4;"}
+				{Matrix34
+					0.99978	-0.000585904	0.0209679
+					0	0.99961	0.0279214
+					-0.020976	-0.0279152	0.99939
+					-57.2936	19.267	7.35399
+				}
+				{VolumeView "part4.ply"}
+			}
+		}
+	}
+}
+{Volume "body1"
+	{Polyhedron "body1.vol"}
+	{Bone "body"}
+	{Position -6.8408	0.0233267	8.27398}
+}
+{Volume "body2"
+	{Polyhedron "body2.vol"}
+	{Bone "body"}
+	{Position 4.63498	0.257316	-5.63031}
+}
+{Volume "body3"
+	{Polyhedron "body3.vol"}
+	{Bone "body"}
+	{Position -52.5473	0.0219901	-0.00959587}
+}
+{Volume "mantlet"
+	{Polyhedron "mantlet.vol"}
+	{Bone "turret"}
+	{Position 18.5946	-0.00831074	-2.09764}
+}
+{Volume "part1"
+	{Cylinder 1.35169 51.4416}
+	{Bone "part1"}
+	{Matrix34
+		-0.188471	-0.981965	0.0149584
+		0.0758672	0.000627665	0.997118
+		-0.979144	0.189064	0.0743807
+		-1.96133	0.256284	0.159305
+	}
+}
+{Volume "part2"
+	{Cylinder 6.84127 8.16324}
+	{Bone "part2"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		0.435136	0.0326438	0.203552
+	}
+}
+{Volume "part3"
+	{Cylinder 5.81508 7.83671}
+	{Bone "part3"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		-0.128085	-0.122025	-0.0231559
+	}
+}
+{Volume "part4"
+	{Box 3.15552 9.45503 6.27305}
+	{Bone "part4"}
+	{Matrix34
+		0.936127	0	-0.351662
+		0.351662	0	0.936127
+		0	-1	0
+		-0.0739212	-0.308078	-0.160234
+	}
+}
+{Volume "trackleft"
+	{Polyhedron "trackleft.vol"}
+	{Bone "body"}
+	{Matrix34
+		0.99978	-0.000585904	0.0209679
+		0	0.99961	0.0279216
+		-0.020976	-0.0279155	0.99939
+		0.821003	21.5377	-8.28205
+	}
+}
+{Volume "trackright"
+	{Polyhedron "trackright.vol"}
+	{Bone "body"}
+	{Matrix34
+		0.99978	-0.000585904	0.0209679
+		0	0.99961	0.0279216
+		-0.020976	-0.0279155	0.99939
+		0.820994	-21.2134	-9.4762
+	}
+}
+{Volume "turret"
+	{Polyhedron "turret.vol"}
+	{Bone "turret"}
+	{Position -4.96111	1.43051e-005	-2.30568}
+}

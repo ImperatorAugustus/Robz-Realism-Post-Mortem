@@ -1,0 +1,13 @@
+{entity
+	(include "/properties/stuff_grenade.ext")
+	{Extension "grenade_hohlladung.mdl"}
+	{props "grenade" "contact"}
+	{extender "stuff"
+		{item "hohlladung"}
+	}	
+	{nogroupmesh 1}
+	{volume "body"
+		{able clear {bullet} {select} {contact_ground} {touch} {contact}}
+		{thickness 1}
+	}
+}

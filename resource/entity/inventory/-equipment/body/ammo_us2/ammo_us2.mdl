@@ -1,0 +1,58 @@
+;Exported by: User
+;Date:        Wed Feb 13 10:20:57 2013
+;File:        C:\Documents and Settings\User\Мои документы\Downloads\example_bodyarmor.max
+{Skeleton
+	{bone "drawcall_5"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "drawcall_5.ply"}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "drawcall_5"}
+	{Matrix34
+		0.999951	-0.00706841	-0.0068893
+		0.0070854	0.999972	0.00244551
+		0.00687182	-0.0024942	0.999973
+		0.0996644	1.26027	-4.58471
+	}
+}
+{Volume "select"
+	{Polyhedron "select.vol"}
+	{Bone "drawcall_5"}
+	{Matrix34
+		0.999951	-0.00706841	-0.0068893
+		0.0070854	0.999972	0.00244551
+		0.00687182	-0.0024942	0.999973
+		0.0996644	1.26027	-4.58471
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -5.90326	-7.66707	-8.74031}
+			{lookat -3.12631	-4.0852	-0.748297}
+			{fov 45}
+			{horizon -40.8812}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0.0221821	0.216647	0.45008}
+			}
+			{"1"
+				{type point}
+				{position 8.1214	-3.47159	-5.5179}
+			}
+			{"2"
+				{type point}
+				{position -12.0947	-3.50238	-5.32873}
+			}
+		}
+	}
+}
+

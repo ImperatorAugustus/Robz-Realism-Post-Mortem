@@ -1,0 +1,22 @@
+;Exported by: Loskutov_K
+;Date:        Mon Apr 19 10:34:14 2010
+;File:        D:\_Vietnam\Art\Models\Structure\Palatka_small\Palatka_small_reactor.max
+{Skeleton
+	{animation
+		{sequence "crush" {speed 0.4}}
+	}
+	{bone "palatka_small"
+		{parameters "CommonMesh;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "palatka_small.ply"}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "palatka_small"}
+	{Position 1.61911	-0.0531347	0}
+}

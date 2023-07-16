@@ -1,0 +1,40 @@
+{fx
+	{sound "weapon/shot/reactive/mortar_light/lightmortar1"}
+	{particleview rockets
+		{##+ visualizer
+			{stage 
+				{sprite "/texture/fx/flash/halo02"
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{light 1}
+					{scale 1}
+				}
+			}
+		}
+		{entitygenerator
+			{totalparticles 1}
+			{particlesinblock 1}
+			{emissionarea
+				{radius 1}
+				{## alpha0 5 5}
+				{alpha1 3 3}
+				{## distributionlaw sphere}
+				{theta -25}
+				{psi -30}
+				{## speed 2}
+			}
+			{particleinit
+				{speed 15}
+				{lifetime 10}
+			}
+			{entity "smoke_launcher_grenade"
+				{## fx "rocket_smoke_rp3"}
+			}
+			{## axisz}
+			{## timetolive 10}
+		}
+		{## offset 0 -3000 1000}
+	}
+}

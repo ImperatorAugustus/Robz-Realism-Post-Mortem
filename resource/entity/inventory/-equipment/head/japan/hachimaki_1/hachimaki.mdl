@@ -1,0 +1,14 @@
+;Exported by: Wibi
+;Date:        Sat May 23 03:55:01 2015
+;File:        C:\Program Files (x86)\3dmax plugin for GEM 2.0\samples\Hachimaki.max
+{Skeleton
+	{bone "jap_bandana_ija"
+		{parameters "Type = game_entity;Model = entity/cap/Hachimaki;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "jap_bandana_ija.ply"}
+	}
+}

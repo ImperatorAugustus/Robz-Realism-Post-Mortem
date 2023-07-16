@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "$/entity/bur"}
+	{bump "$/entity/bur_bp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

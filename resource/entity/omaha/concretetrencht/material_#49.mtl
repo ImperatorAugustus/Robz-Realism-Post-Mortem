@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "mil_101_10_concretetrench_am"}
+	{bump "mil_101_10_concretetrench_anm"}
+	{specular "mil_101_10_concretetrench_gmm"}
+	{color "229 229 229 25"}
+	{blend none}
+}

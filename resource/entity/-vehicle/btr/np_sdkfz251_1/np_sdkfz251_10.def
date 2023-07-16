@@ -1,0 +1,198 @@
+{game_entity
+	(include "/properties/armoredcar.ext")
+	(include "/properties/selection/vehicle.inc"  scale(1.0))
+	{Extension "sdkfz251_10.mdl"}
+	{extension "crew1.ext"}
+	{props "vehicle" "armored_car" "tank" "turret" "wheeled_8" "explosion_throw_crew" "vision_cannon_medium" "muzzle_minimum"}
+	
+	{extender "enumerator"
+		{digit_folder "ger2"}
+	}
+	{volume "body"
+		{tags "body"}
+		{component "body"}
+		{thickness 15}   
+	}
+	{volume "body2"
+		{tags "body"}
+		{component "body"}
+		{thickness 15}   
+	}
+	{volume "body3"
+		{tags "body"}
+		{component "body"}
+		{thickness 15}   
+	}
+	{volume "body4"
+		{tags "body"}
+		{component "body"}
+		{thickness 15}   
+	}
+	{volume "body5"
+		{tags "body"}
+		{component "body"}
+		{thickness 15}   
+	}
+	{volume "body6"
+		{tags "body"}
+		{component "body"}
+		{thickness 15}   
+	}
+	{volume "body7"
+		{tags "body"}
+		{component "body"}
+		{thickness 15}   
+	}
+	{volume "body8"
+		{tags "body"}
+		{component "body"}
+		{thickness 15}   
+	}
+	{volume "body9"
+		{tags "body"}
+		{component "body"}
+		{thickness 15}   
+	}
+	{volume "body10"
+		{tags "body"}
+		{component "body"}
+		{thickness 15}   
+	}
+	{volume "body11"
+		{tags "body"}
+		{component "body"}
+		{thickness 15}   
+	}
+	{volume "body12"
+		{tags "body"}
+		{component "body"}
+		{thickness 15}   
+	}
+	{volume "body13"
+		{tags "body"}
+		{component "body"}
+		{thickness 15}   
+	}
+	{volume "engine"
+		{tags "engine"}
+		{component "engine"}
+		{thickness 15}   
+	}
+	{Volume "body_l"
+		{tags "body"}
+		{component "body"}
+		{thickness 10}
+	}
+	{Volume "body_r"
+		{tags "body"}
+		{component "body"}
+		{thickness 10}
+	}
+	{Volume "mgun_turret"
+		{tags "body"}
+		{component "body"}
+		{thickness 10}
+	}
+	{Volume "turret"
+		{tags "turret"}
+		{component "turret"}
+		{thickness 15}
+	}
+	{component "body"
+		{RepairTime 15}
+	}
+	{component "engine"
+		{RepairTime 20}
+	}
+	{component "turret"
+		{RepairTime 10}
+	}
+	{component "gun"
+		{RepairTime 10}
+	}
+	("armor_medium" args 1.0)
+
+	 {Placer
+	          {place "attach01"
+	             {entity "can"}
+	             {Linkbone "attach01"}
+	             {handlebone "basis"}
+	             {obstacle disable}
+	          }
+	}
+	 (define "define_place"
+	          {placer
+	             {place "%place"
+	                {linkbone "%place"}
+	                {attach squat_lie}
+	                {turnoff {shadow}}
+	                {obstacle disable}
+	             }
+	          }
+	          {Volume "%place"
+	             {tags "attach" "attach_%place"}
+	             {able clear {bullet 0} {touch 1}}
+	          }
+	)
+	{extender "inventory"
+		{box
+			{item "bullet37 ger ap" 100}
+			{item "bullet37 ger apcr" 8}
+			{item "bullet37 ger fg" 52}
+			{item "mg_mauser drum ammo" 1000}
+		}
+	}
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "37mm_pak35" filled}
+			{RestoreIKAfterAim}
+			{charger "gunner"}
+			("abm_low")
+			{basic}
+		}
+		{place "mgun"
+			{type "mgun_main"}
+			{weapon "mg34" filled}
+			{LinkBone "mgun1"}
+			{LinkAnimation "off"}
+			{charger "gunner1"}
+			{gunner "gunner1"}
+			{foresight "foresight3"}
+			("abm_mgun")
+			{basic}
+		}
+	}  	
+
+	("wheel" args "wheelright1")
+	("wheel" args "wheelleft1")
+	("tracks")
+
+	{Chassis
+		{Locomotion ("locomotion")
+			{MaxSpeed	33}
+	  		{maxSpeedAtMaxTurn 6}	
+			{StartTime	30}
+			{BrakeTime	1.5}	
+			{StopTime	2.5}
+			{TurnRadius	8}
+     			{Gears  0.1 0.2 0.3 1}
+			{RearGears  0.25}
+		}
+		{FuelBag
+			{volume 160}
+			{rate	10} 
+			{remain 160 }
+			{fuel "fuel"}
+		}
+		{speed
+        	{Normal  33}
+        	{Slow  33}
+    	}
+		; left track must be first
+		("tank_trace" fx("tracks_mid") step(0.5) len(0.86) boneleft("FXtraceL2") boneright("FXtraceR2"))
+		("car_trace" fx("tracewheel02") step(0.09) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
+	}
+	{mass 8500}
+}

@@ -1,0 +1,62 @@
+;Exported by: Loskutov_K
+;Date:        Mon Mar 08 19:31:11 2010
+;File:        D:\_Vietnam\Art\Models\Houses\House_big_1\hb1_complete.max
+{Skeleton
+	{bone "ladder_hb1"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "ladder_hb1.ply"}
+		{bone "land"
+			{parameters "Land;Ground;"}
+			{Matrix34
+				0	1	0
+				-0.983171	0	-0.182686
+				-0.182686	0	0.983171
+				3.47264	-2.0101	-1.84602
+			}
+			{VolumeView "land.ply" {Ground}}
+		}
+		{bone "fix01"
+			{Position -20.5321	-30.3359	-5.065}
+		}
+	}
+}
+{Obstacle "obstacle1"
+	{Obb2
+		{Center 3.03404 10.7145}
+		{Extent 10.9408 1.28739}
+		{Axis -1 0}
+	}
+	{Rotate}
+}
+{Obstacle "obstacle2"
+	{Obb2
+		{Center 3.03404 -9.93369}
+		{Extent 11.1362 1.28739}
+		{Axis -1 0}
+	}
+	{Rotate}
+}
+{Volume "body1"
+	{Box 3.97621 3.55953 29.0227}
+	{Bone "ladder_hb1"}
+	{Matrix34
+		0.0182392	0.999619	-0.0207045
+		-0.724059	-0.00107483	-0.689737
+		-0.689497	0.0275715	0.723764
+		0.131579	-3.88401	-1.40981
+	}
+}
+{Volume "body2"
+	{Box 3.97621 3.55953 29.0227}
+	{Bone "ladder_hb1"}
+	{Matrix34
+		-0.00220648	0.999994	0.00250482
+		-0.724049	0.000130097	-0.689748
+		-0.689745	-0.00333553	0.724045
+		0.131587	3.3903	-1.40981
+	}
+}

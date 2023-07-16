@@ -1,0 +1,16 @@
+	
+{entity
+game_entity
+{Extension "inventory/-ammo/howitzer_shell/howitzer_shell.mdl"}		
+{simulation {able 1}}	
+{mass 10}
+{props "-steel" "flesh" "-dummy" "-tank" "-human"}	
+;{body {proper body sensible} {permit body}}			
+;(include "/properties/shadow/round.inc")				
+{volume "body1"
+	{thickness 1000}
+	{material "flesh"}
+	{able clear {contact 1} {bullet 1}}
+}
+{collider "stuff"}
+}	

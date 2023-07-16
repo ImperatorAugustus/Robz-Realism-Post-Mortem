@@ -1,0 +1,65 @@
+{game_entity
+	(include "/properties/cannon_mgun.ext")
+	{collider "cannon_small"}
+	{props "cannon" "cannon_small" "round_sandbag2" "vision_cannon_minimum" "mgun_tripod"}
+
+	{Weaponry
+		{place "mgun"
+			{type "mgun_main"}
+			{weapon "besa_mount" filling "mg_mauser belt red" 225}
+		}
+	} 
+	{extender "inventory"
+		{box
+			{item "ammo mg_mauser belt red" 450}
+			{item "plant" 5}
+		}
+	} 	
+	
+	{Extension "7_92_mm_mgun_zb_53.mdl"}
+	
+
+	{boarder
+		{anm "gunner"
+			{forward	{end "pose_maxim_gunlaeyr" 10}}
+		}
+		{anm "commander"
+			{forward	{end "lie_take_item_end" 10}}
+		}
+		{anm "driver1"
+			{forward {end "walk_1hand"}}
+		}
+		{anm "driver2"
+			{forward {end "mortar_driver_l"}}
+		}
+		{link "driver1" "gunner"}
+		{link "driver2" "commander"}
+	
+	}
+
+	{sensor 
+		{visor "main" 
+			{vision "cannon_mgun"}
+			{bone "turret"}
+		}
+	}
+	
+
+	{extender "cannon"
+		{animation
+			{switch "close"}
+			{move "walk_1hand" "mortar_driver_l"}
+			{aim "" ""}
+			{fire  "" ""}
+			{reload  "" "lie_take_small end lie_take_item_end"}
+		}
+		{move {obstacle "close"}}
+		{attack {obstacle "open"}}
+		{rotate_ik_Limit 0}
+	}
+	{bone "turret" 
+		{limits -20 20}
+	}
+{Texmod "brit"}
+
+}

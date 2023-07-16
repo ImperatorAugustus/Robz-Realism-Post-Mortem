@@ -1,0 +1,112 @@
+{game_entity
+	(include "/properties/tank.ext")
+	(include "/properties/selection/vehicle.inc" scale(1.2))
+	{props "medium" "-turret" "vision_vehicle_medium" "muzzle_medium" "hetzer"}
+	
+	{extender "enumerator"
+		{digit_folder "ger"}
+	}
+
+	("armor_spa_light" armor(60 20 20 10))
+	
+	{Volume "turret"
+		{tags "gun"}
+		{component "gun"}
+		{thickness 60}
+	}
+	
+	("crew_3_human")
+
+	{boarder
+		{anm "left"
+			{forward	{begin	"board_hetzer"} {end "seat_armor"}}
+			{reverse 	{end	"emit_tank_1"}}
+		}
+		{anm "right"
+			{forward	{begin	"board_hetzer"} {end "seat_gunner_stand"}}
+			{reverse 	{end	"emit_tank_2_hold"}}
+		}
+	}
+     
+	("crew_human" place(gunner3) door1(emit1) door2(emit2) visor(top))
+	{sensor
+		{visor "top"
+			{vision "vehicle_top_mgun"}
+			{bone "foresight3"}
+		}
+	}
+
+	{extender "inventory"	
+		{weapon "mgun"
+			{mask "weapon mgun"}
+		}
+		{box
+			{item "bullet75 ger apcbc" 29}
+			{item "bullet75 ger fg" 20}
+			{item "bullet75 ger apcr" 4}
+			{item "bullet75 ger heatc" 5}
+			{item "mg42" filled {user "mgun"}}
+			{item "ammo mg_mauser belt" 1200}
+		}
+	}
+
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "75mm_pak39_vet" filling "ammo bullet75 ger apcbc" 1}
+			("abm_veteran")
+		}
+		{place "mgun"
+			{type "mgun_aa"}
+			{gunner "gunner3"}
+			{charger "gunner3"}
+			{LinkBone "mgun2"}
+			{LinkAnimation "off"}
+			("abm_mgun")
+			{basic}
+		}
+	}
+
+	{mass 15750}
+	{Chassis
+		("tank_trace" fx("tracks_mid") step(0.52) len(0.7))
+		{Locomotion ("locomotion")
+			{MaxSpeed   28}
+			{maxSpeedAtMaxTurn 5}
+			{StartTime  25.5}
+			{TurnStart  1.1}
+			{TurnTime   16.2}
+			{TurnRadius 8}
+    		{TurnStop   0.6}
+			{BrakeTime  1}
+			{StopTime   2}
+			{Gears 0.13 0.23 0.33 1}
+			{RearGears  0.37}
+    	}
+		{FuelBag
+			{volume 320}	
+			{rate	29}   
+			{remain 320}
+			{fuel "fuel"}
+		}
+		{speed
+        	{Normal  28}
+        	{Slow  28}
+    	}
+	}
+
+	{Extension "Hetzer.mdl"}
+
+	{bone "gun_rot2"
+		{limits -11 5}		;gun min right to max left
+		{speed 0.0022}
+	}
+	{bone "gun_rot1"
+		{limits -12 6}		;gun min up to max down
+		{speed 0.0022}
+	}
+	{bone "mgun2"
+		{speed 0.003}
+	}
+}

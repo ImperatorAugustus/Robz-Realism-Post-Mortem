@@ -1,0 +1,65 @@
+{game_entity
+	(include "/properties/armoredcar.ext")
+	(include "/properties/selection/vehicle.inc" scale(1.2))
+	{props "vehicle" "armored_car" "tank" "turret" "wheeled_8" "explosion_throw_crew" "vision_vehicle_medium"}
+
+	{Extension "crew.ext"}
+
+	{volume "sticky"
+		{tags "grenade_fg_target"}
+		{able clear {contact} {touch}}
+		{component "sticky_body"}
+	}
+	{component "sticky_body"}
+
+	{volume "body1"
+		{tags "body"}
+		{component "body"}
+		{thickness 8}
+	}
+	{volume "body2"
+		{tags "body"}
+		{component "body"}
+		{thickness 8}
+	}
+	{volume "engine"
+		{tags "engine"}
+		{component "engine"}
+		{thickness 10}
+	}
+
+	("armor_medium" args 1.0)
+
+	("wheel" args "wheelleft1_volume")
+	("wheel" args "wheelright1_volume")
+	("tracks")
+
+	{mass 9700}
+	{Chassis
+		{Locomotion ("locomotion")
+			{MaxSpeed			33}
+			{maxSpeedAtMaxTurn		7}
+			{StartTime			15}
+			{BrakeTime			1.5}
+			{StopTime			2.5}
+			{TurnRadius			8}
+     			{Gears  0.2 0.3 0.4 1}
+			{RearGears  0.25}
+		}
+		{FuelBag
+			{volume 215}
+			{rate	14}
+			{remain 215}
+			{fuel "fuel"}
+		}
+		{speed
+			{Normal  33}
+			{Slow  33}
+		}
+		; left track must be first
+		("tank_trace" fx("tracks_mid") step(0.5) len(0.86) boneleft("FXtraceL2") boneright("FXtraceR2"))
+		("car_trace" fx("tracewheel02") step(0.09) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
+	}
+
+	{Extension "sdkfz7.mdl"}
+}

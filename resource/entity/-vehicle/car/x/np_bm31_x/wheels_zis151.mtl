@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "zis151_wheels_x"}
+	{blend none}
+}

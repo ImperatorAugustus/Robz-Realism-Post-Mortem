@@ -1,0 +1,24 @@
+;Exported by: Loskutov_K
+;Date:        Fri Feb 26 19:08:02 2010
+;File:        D:\_Vietnam\Art\Models\Houses\Saray_2\saray2.max
+{Skeleton
+	{bone "firelight_s2"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "firelight_s2.ply"}
+		{bone "fix02"
+			{Position -21.0454	27.4927	-27.9613}
+		}
+		{bone "fix01"
+			{Position -21.0454	-34.2371	-27.9613}
+		}
+	}
+}
+{Volume "fire0"
+	{Box 47.0953 98.8204 6.4685}
+	{Bone "firelight_s2"}
+	{Position 1.18734	0.170222	-0.0819101}
+}

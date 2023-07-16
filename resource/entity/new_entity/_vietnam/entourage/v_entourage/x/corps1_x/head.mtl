@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "vc_mgun_head"}
+	{blend none}
+}

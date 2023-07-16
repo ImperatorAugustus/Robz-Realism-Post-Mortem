@@ -1,0 +1,253 @@
+;Exported by: Loskutov_K
+;Date:        Wed Feb 03 08:30:15 2010
+;File:        D:\_Vietnam\Models\Bolvanki_diz\Dzot\dzot.max
+{Skeleton
+	{bone "bunker"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "bunker.ply"}
+		{bone "land"
+			{parameters "Ground;Land;"}
+			{Position -60.3967	0.144243	-9.59779}
+			{VolumeView "land.ply" {Ground}}
+		}
+		{bone "attach2"
+			{Position 26.5781	-15.1331	-23.6718}
+		}
+		{bone "attach1"
+			{Position 26.5781	18.4443	-23.6718}
+		}
+	}
+}
+{Obstacle "body10"
+	{Obb2
+		{Center 22.0171 65.591}
+		{Extent 25.4365 23.7246}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body11"
+	{Obb2
+		{Center 47.9776 60.3605}
+		{Extent 25.4543 24.5061}
+		{Axis 0.798832 0.601554}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body3"
+	{Obb2
+		{Center 58.2313 1.67316}
+		{Extent 22.8499 54.8328}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body4"
+	{Obb2
+		{Center 49.2637 -62.3395}
+		{Extent 26.5297 24.0388}
+		{Axis 0.515485 0.856898}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body5"
+	{Obb2
+		{Center 22.017 -67.8907}
+		{Extent 25.4364 23.7246}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body6"
+	{Obb2
+		{Center -45.1101 -67.8907}
+		{Extent 41.6907 23.7246}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body7"
+	{Obb2
+		{Center -66.186 -32.0189}
+		{Extent 20.6147 12.597}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body8"
+	{Obb2
+		{Center -66.186 29.7193}
+		{Extent 20.6147 12.597}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body9"
+	{Obb2
+		{Center -45.1101 65.591}
+		{Extent 41.6907 23.7246}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Area "cut"
+	{Polygon2
+		{Radius 0}
+		{Vertex 43.9028 47.7934}
+		{Vertex -51.6837 46.8335}
+		{Vertex -109.222 15.1558}
+		{Vertex -109.222 -14.122}
+		{Vertex -51.6837 -46.7596}
+		{Vertex 43.7227 -46.5196}
+	}
+	{Rotate}
+}
+{Obstacle "obstacle1"
+	{Obb2
+		{Center -79.0298 14.7567}
+		{Extent 31.5837 3.52292}
+		{Axis -1 0}
+	}
+	{Rotate}
+}
+{Obstacle "obstacle2"
+	{Obb2
+		{Center -79.0298 -14.1749}
+		{Extent 31.5837 3.52292}
+		{Axis -1 0}
+	}
+	{Rotate}
+}
+{Volume "body10"
+	{Polyhedron "body10.vol"}
+	{Bone "bunker"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		22.0171	-65.591	-5.24221
+	}
+}
+{Volume "body11"
+	{Polyhedron "body11.vol"}
+	{Bone "bunker"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		62.6969	-58.0875	-5.24221
+	}
+}
+{Volume "body1"
+	{Polyhedron "body1.vol"}
+	{Bone "bunker"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		-2.4462	1.14816	-5.24221
+	}
+}
+{Volume "body2"
+	{Polyhedron "body2.vol"}
+	{Bone "bunker"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		50.5104	1.23525	-5.24221
+	}
+}
+{Volume "body3"
+	{Polyhedron "body3.vol"}
+	{Bone "bunker"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		60.7241	1.14988	-5.24221
+	}
+}
+{Volume "body4"
+	{Polyhedron "body4.vol"}
+	{Bone "bunker"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		62.6969	59.7126	-5.24221
+	}
+}
+{Volume "body5"
+	{Polyhedron "body5.vol"}
+	{Bone "bunker"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		22.017	67.8907	-5.24221
+	}
+}
+{Volume "body6"
+	{Polyhedron "body6.vol"}
+	{Bone "bunker"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		-45.1101	67.8907	-5.24221
+	}
+}
+{Volume "body7"
+	{Polyhedron "body7.vol"}
+	{Bone "bunker"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		-66.186	32.0189	-5.24221
+	}
+}
+{Volume "body8"
+	{Polyhedron "body8.vol"}
+	{Bone "bunker"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		-66.186	-29.7193	-5.24221
+	}
+}
+{Volume "body9"
+	{Polyhedron "body9.vol"}
+	{Bone "bunker"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		-45.1101	-65.5911	-5.24221
+	}
+}
+{Volume "hole1"
+	{Box 14.94 14.3946 11.7787}
+	{Bone "bunker"}
+	{Position 44.3193	-18.6534	6.54594}
+}
+{Volume "hole"
+	{Box 14.94 14.3946 11.7787}
+	{Bone "bunker"}
+	{Position 44.3193	19.4122	6.54594}
+}

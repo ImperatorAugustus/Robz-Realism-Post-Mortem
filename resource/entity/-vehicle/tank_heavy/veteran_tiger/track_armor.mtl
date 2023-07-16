@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/track/tigertracksdiffusemap_dirt"}
+	{bump "$/model/track/tigertracksnormalsmap_dirt"}
+	{specular "$/model/track/tigertracksspecularmap_dirt.dds"}
+	{color "229 229 229 25"}
+	{blend test}
+}

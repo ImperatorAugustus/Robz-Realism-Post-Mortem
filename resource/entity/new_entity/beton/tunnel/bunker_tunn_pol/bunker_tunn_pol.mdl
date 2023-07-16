@@ -1,0 +1,14 @@
+;Exported by: Руслан
+;Date:        Sun Sep 08 19:45:12 2013
+;File:        C:\Users\Руслан\Documents\3dsmax\scenes\Новая папка\new_okop_baza_6_bun_04.max
+{Skeleton
+	{bone "pol"
+		{parameters "Land;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "pol.ply"}
+	}
+}

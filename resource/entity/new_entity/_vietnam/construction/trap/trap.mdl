@@ -1,0 +1,27 @@
+;Exported by: Loskutov_K
+;Date:        Sat Feb 27 15:26:22 2010
+;File:        D:\_Vietnam\Art\Models\Structure\Trap\trap.max
+{Skeleton
+	{bone "trap"
+		{parameters "CommonMesh;Land;Align;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "trap.ply"}
+		{bone "spikes"
+			{VolumeView "spikes.ply"}
+		}
+	}
+}
+{Area "cut"
+	{Polygon2
+		{Radius 0}
+		{Vertex 11.7604 12.5244}
+		{Vertex -12.0496 12.5244}
+		{Vertex -12.0496 -11.7117}
+		{Vertex 11.7604 -11.7117}
+	}
+	{Rotate}
+}

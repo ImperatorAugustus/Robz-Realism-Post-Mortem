@@ -1,0 +1,52 @@
+;Exported by: Kalinski
+;Date:        Thu Feb 09 03:28:57 2017
+;File:        C:\Users\Kalinski\Desktop\helmet ger\helmet.max
+{Skeleton
+	{bone "helmet_ger_exp"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "helmet_ger_exp.ply"}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "helmet_ger_exp"}
+	{Position 0.703094	0.124126	3.3988}
+}
+{Volume "select"
+	{Box 5.59662 5.08766 5.14459}
+	{Bone "helmet_ger_exp"}
+	{Matrix34
+		1.0387	0	0
+		0	1.0387	0
+		0	0	1.0387
+		0.919993	0.260123	3.58528
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 6.00953	-5.20999	2.7888}
+			{lookat 0.73731	-0.22866	2.72648}
+			{fov 45}
+			{horizon -0.238211}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.354828	0.33419	-0.11142}
+			}
+			{"1"
+				{type point}
+				{position 1.3762	-2.3209	3.85514}
+			}
+			{"2"
+				{type point}
+				{position 2.83572	-1.25747	3.08308}
+			}
+		}
+	}
+}

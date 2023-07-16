@@ -1,0 +1,30 @@
+;Exported by: Kislov_A
+;Date:        Wed Apr 14 15:14:19 2010
+;File:        E:\Men of war red tide2\Art\Models\Houses\House_small_2\hs2_bumpspec.max
+{Skeleton
+	{animation
+		{sequence "flattern" {speed 0.3} {autostart}}
+	}
+	{bone "clothes1_hs2"
+		{parameters "CommonMesh;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "clothes1_hs2.ply"}
+		{bone "fix08"
+			{Position 45.8846	31.6262	75.0683}
+		}
+	}
+}
+{Volume "body"
+	{Box 69.4858 13.8038 8.98678}
+	{Bone "clothes1_hs2"}
+	{Matrix34
+		0	1	0
+		0	0	1
+		1	0	0
+		48.3031	0.424999	67.981
+	}
+}

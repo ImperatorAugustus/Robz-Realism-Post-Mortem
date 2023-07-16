@@ -1,0 +1,57 @@
+;Exported by: Kislov_A
+;Date:        Wed Apr 14 15:14:22 2010
+;File:        E:\Men of war red tide2\Art\Models\Houses\House_small_2\hs2_bumpspec.max
+{Skeleton
+	{bone "ladder_hs2"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "ladder_hs2.ply"}
+		{bone "land"
+			{parameters "Land;Ground;"}
+			{Position -1.48713	0.137022	-0.369917}
+			{VolumeView "land.ply" {Ground}}
+		}
+		{bone "fix01"
+			{Position -7.05622	19.7783	14.671}
+		}
+	}
+}
+{Obstacle "obstacle1"
+	{Obb2
+		{Center 4.68153 -11.9818}
+		{Extent 7.99355 1.17152}
+		{Axis -1 0}
+	}
+	{Rotate}
+}
+{Obstacle "obstacle2"
+	{Obb2
+		{Center 4.68153 11.6691}
+		{Extent 7.99355 1.17152}
+		{Axis -1 0}
+	}
+	{Rotate}
+}
+{Volume "body1"
+	{Box 2.08661 2.08661 31.2487}
+	{Bone "ladder_hs2"}
+	{Matrix34
+		0.874007	0	0.485914
+		0	1	0
+		-0.485914	0	0.874007
+		0.500564	-7.74315	-1.19512
+	}
+}
+{Volume "body2"
+	{Box 2.08661 2.08661 31.2487}
+	{Bone "ladder_hs2"}
+	{Matrix34
+		0.874007	0	0.485914
+		0	1	0
+		-0.485914	0	0.874007
+		0.500564	8.20105	-1.19512
+	}
+}

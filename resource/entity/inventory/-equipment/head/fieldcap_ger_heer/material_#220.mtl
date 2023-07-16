@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "m43 heer"}
+	{blend none}
+}

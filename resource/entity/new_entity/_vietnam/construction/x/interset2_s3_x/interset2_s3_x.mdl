@@ -1,0 +1,45 @@
+;Exported by: Loskutov_K
+;Date:        Wed Apr 21 13:39:47 2010
+;File:        D:\_Vietnam\Art\Models\Houses\X\Saray_3_x\saray_3_x.max
+{Skeleton
+	{bone "interset2_s3_x"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "piece01"
+			{Matrix34
+				0	1	0
+				0	0	-1
+				-1	0	0
+				0.45051	-8.22819	-17.7759
+			}
+			{VolumeView "piece01.ply"}
+		}
+		{bone "piece02"
+			{Matrix34
+				-1	0	0
+				0	-0.900306	-0.435257
+				0	-0.435257	0.900306
+				-7.5114	5.40496	-11.5577
+			}
+			{VolumeView "piece02.ply"}
+		}
+	}
+}
+{Volume "piece01"
+	{Box 43.022 1.60993 19.7855}
+	{Bone "piece01"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		3.54785	-0.313808	0.60208
+	}
+}
+{Volume "piece02"
+	{Polyhedron "piece02.vol"}
+	{Bone "piece02"}
+	{Position -0.0341349	-0.123039	-2.72243}
+}

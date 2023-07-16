@@ -1,0 +1,82 @@
+;Exported by: Kislov_A
+;Date:        Thu Apr 15 10:35:00 2010
+;File:        E:\Men of war red tide2\Art\Models\Houses\House_middle_1\hm1_complete.max
+{Skeleton
+	{bone "perila_hm1"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "perila_hm1.ply"}
+		{bone "fix23"
+			{Position 11.4852	17.5416	-10.0483}
+		}
+	}
+}
+{Obstacle "body1"
+	{Obb2
+		{Center 13.4381 0.724207}
+		{Extent 0.955819 23.3817}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Obstacle "body2"
+	{Obb2
+		{Center 2.96811 -21.3351}
+		{Extent 13.3406 0.981597}
+		{Axis 0.999391 0.0348818}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Obstacle "body3"
+	{Obb2
+		{Center 12.2898 -19.9298}
+		{Extent 0.955819 0.885454}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Obstacle "body4"
+	{Obb2
+		{Center 12.1604 20.4225}
+		{Extent 0.955819 0.885454}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Volume "body1"
+	{Box 1.91164 1.77091 46.7377}
+	{Bone "perila_hm1"}
+	{Matrix34
+		1	0	0
+		0	-0.0194175	0.999811
+		0	-0.999811	-0.0194175
+		13.4381	-0.724207	6.94239
+	}
+}
+{Volume "body2"
+	{Box 1.91164 1.77091 26.6405}
+	{Bone "perila_hm1"}
+	{Matrix34
+		0.0329502	0.999457	0
+		0.10645	-0.00350945	0.994312
+		0.993772	-0.0327628	-0.106508
+		2.96811	21.3351	10.2907
+	}
+}
+{Volume "body3"
+	{Box 1.91164 1.77091 24.678}
+	{Bone "perila_hm1"}
+	{Position 12.2898	19.9298	0.111224}
+}
+{Volume "body4"
+	{Box 1.91164 1.77091 24.678}
+	{Bone "perila_hm1"}
+	{Position 12.1604	-20.4225	0.111224}
+}

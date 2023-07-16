@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "raketenwerfer_x"}
+	{specular "$/model/raketenwerfer_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

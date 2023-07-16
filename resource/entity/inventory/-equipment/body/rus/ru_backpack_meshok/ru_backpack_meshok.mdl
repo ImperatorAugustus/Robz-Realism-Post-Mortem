@@ -1,0 +1,57 @@
+;Exported by: Kalinski
+;Date:        Wed Feb 14 02:48:42 2018
+;File:        C:\Users\Kalinski\Desktop\rus reduxo\backpack 38 exp.max
+{Skeleton
+	{bone "ru_backpack_meshok"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "ru_backpack_meshok.ply"}
+	}
+}
+{Volume "body"
+	{Box 1.85666 4.23911 4.74018}
+	{Bone "ru_backpack_meshok"}
+	{Matrix34
+		1.0387	0	0
+		0	1.0387	0
+		0	0	1.0387
+		-3.49838	0.485606	0.143537
+	}
+}
+{Volume "select"
+	{Box 7.12156 10.0843 8.94763}
+	{Bone "ru_backpack_meshok"}
+	{Matrix34
+		1.0387	0	0
+		0	1.0387	0
+		0	0	1.0387
+		-2.45682	2.64377	0.109252
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -15.3686	-2.14397	-0.0921603}
+			{lookat -2.54749	-2.03019	0.0524115}
+			{fov 45}
+			{horizon -90.2265}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -7.11839	-7.16879	-3.11654}
+			}
+			{"1"
+				{type point}
+				{position -6.7257	0.5801	2.65881}
+			}
+			{"2"
+				{type directional}
+				{direction 0.499997	-0.00070763	-0.00145834}
+			}
+		}
+	}
+}

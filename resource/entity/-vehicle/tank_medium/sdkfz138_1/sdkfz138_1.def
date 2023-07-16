@@ -1,0 +1,105 @@
+{game_entity
+	(include "/properties/tank.ext")
+	(include "/properties/selection/vehicle.inc" scale(1.2))
+	{props "light" "-turret" "opened" "vision_vehicle_high" "muzzle_maximum_nodust" "gun_mode_change_art"}
+	
+	{extender "enumerator"
+		{digit_folder "ger"}
+	}
+	{extension "crew.ext"}
+
+	{volume "sticky"
+		{tags "grenade_fg_target"}
+		{able clear {contact} {touch}}
+		{component "sticky_body"}
+	}
+	
+	{component "sticky_body"}
+	{volume "body1"
+		{component "body"}
+		{tags "body"}
+	}
+	{volume "body2"
+		{component "body"}
+		{tags "body"}
+	}
+	{volume "body3"
+		{component "body"}
+		{tags "body"}
+	}
+	{volume "body4"
+		{component "body"}
+		{tags "body"}
+	}
+	{volume "inventory"
+        {thickness 2}
+	}
+
+	("armor_medium" body(50 15 15 15) turret(15 15 15 15))
+	("armor_engine"  t(15 15 15 15))
+
+	{extender "inventory"
+		{box
+            		{item "bullet150 gers fg" 9}
+			{item "bullet150 gers sm" 6}
+		}
+	}
+	{Weaponry
+		{place "gun"
+			{weapon "150mm_sig33a" filling "bullet150 gers fg" 3}
+			{StationaryFiring}
+			("abm_howitzer")
+		}
+		{place "gun1_2"
+			{RestoreIKAfterAim}
+			{type "gun_change_direct"}
+			{weapon "150mm_sig33a_2" filling "bullet150 gers fg" 1}
+			{basic}
+			("abm_medium")
+		}
+	}
+
+	{mass 11500}
+	{Chassis
+		("tank_trace" fx("tracks_mid") step(0.56) len(0.167))
+		{Locomotion ("locomotion")
+			{maxspeed   24}
+			{maxSpeedAtMaxTurn 5}
+			{StartTime  30}
+			{TurnStart  1.7}			
+			{TurnTime   15}
+			{TurnRadius 10} 
+    			{TurnStop   0.9}
+			{BrakeTime  1}
+			{StopTime   2}
+			{Gears      0.1 0.2 0.3 1}
+			{RearGears  0.3}		
+		}
+		{FuelBag
+			{volume 220 }	
+			{rate	14 }   
+			{remain 220 }
+			{fuel	"fuel"}
+		}
+		{speed
+        	{Normal	24}
+        	{Slow	24}
+    	}
+		{DisableMoveWhileFiring}
+	}
+	{Extension "sdkfz138_1.mdl"}
+	
+	{bone "gun_rot1"
+		{speed 0.001}
+	}
+	{bone "gun_rot"
+		{speed 0.001}
+	}
+	(mod "mp"
+		{brain
+			{properties
+				{fire_mode hold}
+			}
+		}
+	)
+}

@@ -1,0 +1,6 @@
+{game_entity
+	(include "/properties/tree.inc")
+	{props "tree" "normal_light" "invisible_crown"}
+	{Extension "palm_new_005_burn.mdl"}
+	{NoGroupMesh 1}
+}

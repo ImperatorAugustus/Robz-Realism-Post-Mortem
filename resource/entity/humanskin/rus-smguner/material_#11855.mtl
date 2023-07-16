@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/humanskin/rus/sov_rifleman_equipment1"}
+	{blend none}
+}

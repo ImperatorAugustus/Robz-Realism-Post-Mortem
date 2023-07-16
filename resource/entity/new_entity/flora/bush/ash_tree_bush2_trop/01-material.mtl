@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/flora/jap/plant_ash2"}
+	{blend test}
+}

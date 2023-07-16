@@ -1,0 +1,30 @@
+;Exported by: Loskutov_K
+;Date:        Fri Apr 09 14:14:03 2010
+;File:        D:\_Vietnam\Art\Models\Anturage\utvar\x\taburet_2_x\taburet_2x.max
+{Skeleton
+	{bone "taburet_2-x"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "piece02"
+			{Position 2.16245	0.00423431	3.53992}
+			{VolumeView "piece02.ply"}
+		}
+		{bone "piece01"
+			{Position -1.31446	1.97213	3.53992}
+			{VolumeView "piece01.ply"}
+		}
+	}
+}
+{Volume "piece01"
+	{Polyhedron "piece01.vol"}
+	{Bone "piece01"}
+	{Position -0.492523	0.192566	-3.55164}
+}
+{Volume "piece02"
+	{Polyhedron "piece02.vol"}
+	{Bone "piece02"}
+	{Position 1.92281	0.026062	-3.55164}
+}

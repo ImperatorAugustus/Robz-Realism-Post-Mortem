@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/new_fortification/tent_bun"}
+	{blend test}
+}

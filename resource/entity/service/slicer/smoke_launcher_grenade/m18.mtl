@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "smoke_gray"}
+	{specular "smoke_sp"}
+	{color "229 229 229 152"}
+	{blend test}
+}

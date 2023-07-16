@@ -1,0 +1,78 @@
+;Exported by: Loskutov_K
+;Date:        Wed Mar 31 16:09:46 2010
+;File:        D:\_Vietnam\Art\Models\Houses\House_middle_2\hm2_complete.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "1"
+			{Position 41.9575	-18.1964	25.7304}
+		}
+		{bone "2"
+			{Position -1.26009	-46.3133	29.4908}
+		}
+		{bone "3"
+			{Position -44.9763	-0.601269	26.7871}
+		}
+		{bone "4"
+			{Position -1.26011	44.1892	30.2072}
+		}
+		{bone "5"
+			{Position 42.9511	28.9559	25.7304}
+		}
+		{bone "6"
+			{Position 15.8951	-18.4094	26.08}
+		}
+		{bone "7"
+			{Position -1.26009	-47.7109	46.3917}
+		}
+		{bone "8"
+			{Position -16.6675	-19.779	26.4238}
+		}
+		{bone "9"
+			{Position -17.0166	19.0844	26.4361}
+		}
+		{bone "10"
+			{Position -1.26008	45.517	46.3499}
+		}
+		{bone "11"
+			{Position 14.752	19.3577	26.4035}
+		}
+		{bone "12"
+			{Position -1.33687	40.8807	26.1463}
+		}
+		{bone "13"
+			{Position -28.9151	-24.9661	0.286125}
+		}
+		{bone "14"
+			{Position 15.3267	-41.1545	18.3934}
+		}
+		{bone "15"
+			{Position -39.0408	-19.5346	35.5364}
+		}
+		{bone "16"
+			{Position 37.8943	-49.5557	53.5266}
+		}
+		{bone "17"
+			{Position 37.8943	47.139	53.5266}
+		}
+		{bone "18"
+			{Position -1.04008	-49.7225	53.5266}
+		}
+		{bone "19"
+			{Position -1.0758	47.139	53.5266}
+		}
+		{bone "20"
+			{Position -40.6322	-49.5557	53.5266}
+		}
+		{bone "21"
+			{Position -40.7377	47.139	53.5266}
+		}
+		{bone "22"
+			{Position -1.6725	-1.53813	5.54961}
+		}
+	}
+}

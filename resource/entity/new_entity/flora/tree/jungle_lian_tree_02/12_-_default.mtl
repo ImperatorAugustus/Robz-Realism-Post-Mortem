@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "$/flora/jap/foliage"}
+	{bump "$/flora/jap/foliage_bp"}
+	{color "229 229 229 50"}
+	{blend test}
+}

@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/humanskin/ss/TK/Schutze/ger_soldier"}
+	{blend none}
+}

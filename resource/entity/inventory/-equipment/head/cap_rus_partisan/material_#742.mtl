@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "partisan cap1"}
+	{blend none}
+}

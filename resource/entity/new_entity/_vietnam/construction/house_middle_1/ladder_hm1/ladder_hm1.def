@@ -1,0 +1,25 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{Extension "ladder_hm1.mdl"}
+	{props "cornered" "wood" "parts" "construction" "wall" "burning" "no_destroyed_stamp"}
+	("armor_house_wood")
+	{mass 100}
+	{obstacleID "small_building"}
+
+	{extender "structure_bone"
+		{hold "24"}
+	}
+	{Volume "body1"
+		{Tags  "body" "fire"}
+		{Thickness 10}
+		{able {obstacle 0}}
+	}
+	{Volume "body2"
+		{Tags  "body" "fire"}
+		{Thickness 10}
+		{able {obstacle 0}}
+	}
+	{Extender "land_patch"
+		{nonormals 1}
+	}
+}

@@ -1,0 +1,76 @@
+;Exported by: lz
+;Date:        Tue Sep 27 11:30:57 2011
+;File:        E:\我的3D文件\CSonline\警察人物模型\spetsnaz(已完善)\spetsnaz头盔导入.max
+{Skeleton
+	{bone "jp-helmet"
+		{parameters "CommonMesh;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "jp-helmet.ply"}
+	{bone "jap_bandana_ija"
+		{Orientation
+			1.12	0	0
+			0	1.272	0
+			0	0	1
+		}
+		{position
+			-0.05	0.05	0.1
+		}
+		{VolumeView "jap_bandana_ija.ply"}
+	}
+		{bone "handle"
+			{Matrix34
+				0.999923	0.00877735	0.0087427
+				-0.00877768	0.999961	0
+				-0.00874236	-7.67407e-005	0.999962
+				0.314825	-0.00709289	1.0196
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 4.14813 3.61352 3.32807}
+	{Bone "jp-helmet"}
+	{Matrix34
+		0.999924	0.00877735	0.00874271
+		-0.00877768	0.999962	0
+		-0.00874236	-7.6741e-005	0.999962
+		0.0102819	-0.0233999	3.82582
+	}
+}
+{Volume "select"
+	{Box 8.33811 5.92873 4.67327}
+	{Bone "jp-helmet"}
+	{Matrix34
+		0.999924	0.00877735	0.00874271
+		-0.00877768	0.999962	0
+		-0.00874236	-7.6741e-005	0.999962
+		-0.139014	0.0246585	3.85022
+	}
+}
+{Extender "preview"
+	{"stuff"
+		{camera
+			{origin 27.2013	-28.7389	6.69737}
+			{lookat -0.253461	0.1301	2.67454}
+			{fov 8.28224}
+			{horizon 0.999951}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 2.59348	0.295014	6.28632}
+			}
+			{"1"
+				{type spot}
+				{position 17.5219	-6.28493	6.02464}
+				{direction -0.461071	0.180791	-0.0687651}
+				{theta 43}
+				{phi 45}
+			}
+		}
+	}
+}

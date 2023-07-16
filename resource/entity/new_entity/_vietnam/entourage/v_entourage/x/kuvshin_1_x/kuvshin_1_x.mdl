@@ -1,0 +1,36 @@
+;Exported by: Loskutov_K
+;Date:        Thu Apr 08 16:12:37 2010
+;File:        D:\_Vietnam\Art\Models\Anturage\utvar\x\kuvshin_1_x\kuvshin_1x.max
+{Skeleton
+	{bone "kuvshin_1_x"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "piece01"
+			{Position -3.20237	0.937622	11.0341}
+			{VolumeView "piece01.ply"}
+		}
+		{bone "piece03"
+			{Position 2.28904	1.25774	5.55325}
+			{VolumeView "piece03.ply"}
+		}
+		{bone "piece02"
+			{Position 1.23734	1.28178	11.1037}
+			{VolumeView "piece02.ply"}
+		}
+	}
+}
+{Volume "piece01"
+	{Polyhedron "piece01.vol"}
+	{Bone "piece01"}
+}
+{Volume "piece02"
+	{Polyhedron "piece02.vol"}
+	{Bone "piece02"}
+}
+{Volume "piece03"
+	{Polyhedron "piece03.vol"}
+	{Bone "piece03"}
+}

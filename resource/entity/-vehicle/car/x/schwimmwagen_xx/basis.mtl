@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "schwimmwagen_xx"}
+	{specular "schwimmwagen_sp"}
+	{color "229 229 229 25"}
+	{blend test}
+}

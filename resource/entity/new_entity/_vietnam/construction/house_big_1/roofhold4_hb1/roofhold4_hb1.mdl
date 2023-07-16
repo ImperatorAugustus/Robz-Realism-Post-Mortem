@@ -1,0 +1,46 @@
+;Exported by: Loskutov_K
+;Date:        Mon Mar 08 19:29:55 2010
+;File:        D:\_Vietnam\Art\Models\Houses\House_big_1\hb1_complete.max
+{Skeleton
+	{bone "roofhold4_hb1"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "roofhold4_hb1.ply"}
+		{bone "exterior"
+			{Position -32.2654	0.0214233	21.2702}
+			{VolumeView "exterior.ply"}
+		}
+		{bone "fix08"
+			{Position -0.563278	11.5811	-1.7065}
+		}
+		{bone "fix07"
+			{Position -0.563278	-13.0377	-1.7065}
+		}
+		{bone "fix09"
+			{Position -25.5659	-3.69693	-1.7065}
+		}
+	}
+}
+{Volume "roof1"
+	{Box 52.281 2.79606 43.4613}
+	{Bone "exterior"}
+	{Matrix34
+		-1	0	0
+		0	-0.664645	-0.747159
+		0	-0.747159	0.664645
+		12.2043	14.9197	5.71959
+	}
+}
+{Volume "roof2"
+	{Box 59.0751 2.79606 43.4613}
+	{Bone "exterior"}
+	{Matrix34
+		1	0	0
+		0	0.664645	-0.747159
+		0	0.747159	0.664645
+		7.97712	-15.5959	5.97575
+	}
+}

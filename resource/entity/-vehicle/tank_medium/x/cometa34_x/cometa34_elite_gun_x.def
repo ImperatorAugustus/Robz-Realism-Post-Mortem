@@ -1,0 +1,7 @@
+{game_entity
+	{Extension "cometa34_x.mdl"}
+	{Volume "crew"
+	}
+	{Volume "inventory"
+	}
+}

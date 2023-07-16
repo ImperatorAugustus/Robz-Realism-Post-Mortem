@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "t_3rdp_type100-40_diff"}
+	{blend none}
+}

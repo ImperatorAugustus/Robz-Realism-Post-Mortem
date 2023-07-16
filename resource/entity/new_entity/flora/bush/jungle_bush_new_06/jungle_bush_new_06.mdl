@@ -1,0 +1,18 @@
+;Exported by: ?????
+;Date:        Sat Feb 28 18:41:08 2015
+;File:        C:\Users\?????\Documents\3dsmax\scenes\palm_andtree4.max
+{Skeleton
+	{bone "bush"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "bush.ply"}
+	}
+}
+{Volume "crown"
+	{Box 62.2438 78.6916 52.3885}
+	{Bone "bush"}
+	{Position -4.09695	-6.73471	26.1942}
+}

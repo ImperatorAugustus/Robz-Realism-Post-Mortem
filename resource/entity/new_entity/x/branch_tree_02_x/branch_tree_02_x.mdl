@@ -1,0 +1,13 @@
+;Exported by: Фёдор
+;Date:        Thu Nov 27 20:41:20 2014
+;File:        C:\Users\Фёдор\Documents\3dsmax\scenes\wheat_round_01.max
+{Skeleton
+	{bone "tree_nor_02_x"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "tree_nor_02_x.ply"}
+	}
+}

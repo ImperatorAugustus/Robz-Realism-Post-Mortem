@@ -1,0 +1,125 @@
+;Exported by: Loskutov_K
+;Date:        Thu Mar 11 11:09:49 2010
+;File:        D:\_Vietnam\Art\Models\Houses\stolovaya\stolovaya.max
+{Skeleton
+	{bone "base4_st"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "base4_st.ply"}
+		{bone "land"
+			{parameters "Land;Ground;"}
+			{Position -7.28188	6.63524	-9.67004}
+			{VolumeView "land.ply" {Ground}}
+		}
+	}
+}
+{Obstacle "body1"
+	{Obb2
+		{Center 16.9731 -37.595}
+		{Extent 1.85893 1.95372}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Obstacle "body3"
+	{Obb2
+		{Center -13.0605 -37.7415}
+		{Extent 29.134 1.04334}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body5"
+	{Obb2
+		{Center -41.3865 -37.9306}
+		{Extent 1.85893 1.95372}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Obstacle "body7"
+	{Obb2
+		{Center -40.1845 -3.2764}
+		{Extent 1.04334 35.1646}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "obstacle1"
+	{Obb2
+		{Center -45.0298 -14.5964}
+		{Extent 23.945 1.28739}
+		{Axis 0 1}
+	}
+	{Rotate}
+}
+{Obstacle "obstacle2"
+	{Obb2
+		{Center -11.6757 -40.1788}
+		{Extent 33.807 1.28739}
+		{Axis 1 -5.64187e-007}
+	}
+	{Rotate}
+}
+{Volume "body1"
+	{Box 3.71786 3.90744 68.947}
+	{Bone "base4_st"}
+	{Position 16.9731	37.595	-0.103649}
+}
+{Volume "body2"
+	{Box 3.91425 3.98908 58.7773}
+	{Bone "base4_st"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		16.5962	15.2881	31.7886
+	}
+}
+{Volume "body3"
+	{Box 58.2679 2.08661 9.99663}
+	{Bone "base4_st"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		-13.0605	37.7415	-9.65282
+	}
+}
+{Volume "body4"
+	{Box 62.8094 56.9197 4.34579}
+	{Bone "base4_st"}
+	{Position -8.54071	10.1131	-12.448}
+}
+{Volume "body5"
+	{Box 3.71786 3.90744 68.947}
+	{Bone "base4_st"}
+	{Position -41.3865	37.9306	-0.103649}
+}
+{Volume "body6"
+	{Box 3.91425 3.98908 59.5372}
+	{Bone "base4_st"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		-41.1928	15.4035	31.7886
+	}
+}
+{Volume "body7"
+	{Box 70.3292 2.08661 9.99663}
+	{Bone "base4_st"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		-40.1845	3.2764	-9.65282
+	}
+}

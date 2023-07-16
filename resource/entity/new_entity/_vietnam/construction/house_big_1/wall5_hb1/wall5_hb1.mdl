@@ -1,0 +1,44 @@
+;Exported by: Loskutov_K
+;Date:        Mon Mar 08 19:30:20 2010
+;File:        D:\_Vietnam\Art\Models\Houses\House_big_1\hb1_complete.max
+{Skeleton
+	{bone "wall5_hb1"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "wall5_hb1.ply"}
+		{bone "attach1"
+			{Matrix34
+				-1	0	0
+				0	-1	0
+				0	0	1
+				12.9771	-36.4711	-20.4225
+			}
+		}
+		{bone "fix36"
+			{Position 2.64021	-13.4328	22.1121}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "wall5_hb1"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		1.04619	1.87644	-13.7355
+	}
+}
+{Volume "hole"
+	{Box 15.6872 28.5201 10.2173}
+	{Bone "wall5_hb1"}
+	{Matrix34
+		0	1	0
+		0	0	1
+		1	0	0
+		1.20093	-33.3351	-3.93385
+	}
+}

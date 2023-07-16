@@ -1,0 +1,30 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{Extension "wall4_hb2.mdl"}
+	{props "cornered" "wood" "parts" "construction" "burning" "wall" "no_destroyed_stamp"}
+	("armor_house_wood")
+        {mass 500}
+	{obstacleID "small_building"}
+
+	{placer
+		{place "1" {attach  squat_lie} 		{linkbone "attach1"}}
+	}
+	{boarder}
+
+	{extender "structure_bone"
+		{hold  "23"}
+	}
+	{Volume "body1"
+		{Tags  "body" "fire"}
+		{Thickness 10}
+		{able {obstacle 0}}
+	}
+	{Volume "body2"
+		{Tags  "body"}
+		{Thickness 10}
+	}
+	{Volume "hole"
+		{Tags  "attach" "1"}
+		{able clear {hole}{touch 1}}
+	}
+}

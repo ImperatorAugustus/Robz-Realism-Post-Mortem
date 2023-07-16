@@ -1,0 +1,24 @@
+;Exported by: ?????
+;Date:        Wed Feb 25 14:45:27 2015
+;File:        C:\Users\?????\Documents\3dsmax\scenes\palm_andtree.max
+{Skeleton
+	{bone "spring018"
+		{parameters "CommonMesh;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "spring018.ply"}
+	}
+}
+{Volume "bole"
+	{Box 27.4675 58.1481 136.571}
+	{Bone "spring018"}
+	{Position 11.7869	6.26434	68.2855}
+}
+{Volume "crown"
+	{Cylinder 72.5413 118.564}
+	{Bone "spring018"}
+	{Position 9.04138	-0.289154	113.414}
+}

@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "/entity/-vehicle/tank_medium/jagdpanzer_iv/jagdpanzer iv"}
+	{bump "$/model/jagdpanzer iv_bp"}
+	{specular "$/model/jagdpanzer iv_sp"}
+	{color "229 229 229 25"}
+	{blend test}
+}

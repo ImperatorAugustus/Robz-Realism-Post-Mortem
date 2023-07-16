@@ -115,8 +115,8 @@
 			{fuel "fuel"}
 		}
 		{speed
-	        		{Normal  12}
-        			{Slow  20}
+	        		{Normal  35}
+        			{Slow  35}
 
 	    	}
 		; left track must be first

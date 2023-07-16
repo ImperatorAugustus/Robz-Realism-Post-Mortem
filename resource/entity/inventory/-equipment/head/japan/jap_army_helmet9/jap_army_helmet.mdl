@@ -1,0 +1,65 @@
+;Exported by: 因诚之名
+;Date:        Wed Oct 26 14:34:15 2011
+;File:        C:\Documents and Settings\因诚之名\My Documents\3dsmax\scenes\jap\japhelmet1\2.max
+{Skeleton
+	{bone "japan-helmet"
+		{parameters "CommonMesh;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "japan-helmet.ply"}
+		{bone "handle"
+			{Matrix34
+				0.997526	0.00877819	-0.0697485
+				-0.00875145	0.999961	0.000688833
+				0.0697518	-7.67285e-005	0.997564
+				0.138627	0.0153821	1.15979
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 4.14813 3.61352 3.32807}
+	{Bone "japan-helmet"}
+	{Matrix34
+		0.997526	0.00877819	-0.0697485
+		-0.00875145	0.999962	0.000688833
+		0.0697519	-7.67285e-005	0.997565
+		0.0552275	-0.000924876	3.98125
+	}
+}
+{Volume "select"
+	{Box 8.33811 5.92873 4.67327}
+	{Bone "japan-helmet"}
+	{Matrix34
+		0.997526	0.00877819	-0.0697485
+		-0.00875145	0.999962	0.000688833
+		0.0697519	-7.67285e-005	0.997565
+		-0.0916932	0.0471335	4.01729
+	}
+}
+{Extender "preview"
+	{"stuff"
+		{camera
+			{origin 27.3877	-28.7614	4.71026}
+			{lookat -0.298052	0.107622	2.85422}
+			{fov 8.28224}
+			{horizon -2.2633}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 2.82353	0.272535	6.23146}
+			}
+			{"1"
+				{type spot}
+				{position 17.6853	-6.3074	4.79915}
+				{direction -0.465045	0.180791	-0.0323727}
+				{theta 43}
+				{phi 45}
+			}
+		}
+	}
+}

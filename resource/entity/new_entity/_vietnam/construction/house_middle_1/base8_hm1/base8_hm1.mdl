@@ -1,0 +1,123 @@
+;Exported by: Kislov_A
+;Date:        Thu Apr 15 10:35:04 2010
+;File:        E:\Men of war red tide2\Art\Models\Houses\House_middle_1\hm1_complete.max
+{Skeleton
+	{bone "base8_hm1"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "base8_hm1.ply"}
+		{bone "land"
+			{parameters "Land;Ground;"}
+			{Position 2.47008	1.14942	-11.3893}
+			{VolumeView "land.ply" {Ground}}
+		}
+	}
+}
+{Obstacle "body1"
+	{Obb2
+		{Center 23.9077 -0.45816}
+		{Extent 1.04331 22.052}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body3"
+	{Obb2
+		{Center 22.3389 -20.3983}
+		{Extent 1.22541 1.28327}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Obstacle "body4"
+	{Obb2
+		{Center 7.13404 -22.6413}
+		{Extent 17.5945 1.04331}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body5"
+	{Obb2
+		{Center 23.7035 10.2138}
+		{Extent 1.22541 1.28327}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Area "interior"
+	{Obb2
+		{Center -30.5731 23.1906}
+		{Extent 53.9492 44.85}
+		{Axis -1 0}
+	}
+	{Rotate}
+}
+{Obstacle "obstacle1"
+	{Obb2
+		{Center 29.6024 -18.8187}
+		{Extent 19.6629 1.28739}
+		{Axis 0 1}
+	}
+	{Rotate}
+}
+{Obstacle "obstacle2"
+	{Obb2
+		{Center 9.48394 -36.8548}
+		{Extent 18.1527 1.28739}
+		{Axis -1 0}
+	}
+	{Rotate}
+}
+{Volume "body1"
+	{Box 44.1041 2.08661 9.99663}
+	{Bone "base8_hm1"}
+	{Matrix34
+		0	1	0
+		-1	0	0
+		0	0	1
+		23.9077	0.45816	-8.86386
+	}
+}
+{Volume "body2"
+	{Box 2.95544 2.92419 42.6021}
+	{Bone "base8_hm1"}
+	{Matrix34
+		0	1	0
+		0	0	-1
+		-1	0	0
+		15.7395	20.5022	36.6729
+	}
+}
+{Volume "body3"
+	{Box 2.45082 2.56654 77.3122}
+	{Bone "base8_hm1"}
+	{Position 22.3389	20.3983	0.647335}
+}
+{Volume "body4"
+	{Box 35.1889 2.08661 9.99663}
+	{Bone "base8_hm1"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		7.13404	22.6413	-8.86386
+	}
+}
+{Volume "body5"
+	{Box 2.45082 2.56654 24.8636}
+	{Bone "base8_hm1"}
+	{Position 23.7035	-10.2138	-25.5769}
+}
+{Volume "body6"
+	{Box 42.4726 44.5385 3.93701}
+	{Bone "base8_hm1"}
+	{Position 6.3587	-0.595642	-12.6125}
+}

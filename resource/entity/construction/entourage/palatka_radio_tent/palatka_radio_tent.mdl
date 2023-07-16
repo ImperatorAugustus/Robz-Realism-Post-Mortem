@@ -1,0 +1,59 @@
+;Exported by: user
+;Date:        Fri Aug 08 00:32:26 2014
+;File:        C:\Users\user\Desktop\Моддинг\Модели нов\Codename Panzers Cold War\Окружение\palatka_radio_tent\palatka_radio_tent.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "group001"
+			{Matrix34
+				1	0	0
+				0	0.185162	-0.982708
+				0	0.982708	0.185162
+				-0.857715	-11.6229	25.1207
+			}
+			{VolumeView "group001.ply"}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -0.25527 -1.39646}
+		{Extent 25.8786 20.2875}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_vol2"
+	{Obb2
+		{Center -0.338857 23.4949}
+		{Extent 7.62455 4.46177}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 51.7572 40.5751 32.5879}
+	{Bone "group001"}
+	{Matrix34
+		1	0	0
+		0	0.185162	0.982708
+		0	-0.982708	0.185162
+		0.602444	11.0848	11.1598
+	}
+}
+{Volume "body_vol2"
+	{Box 15.2491 8.92355 32.3055}
+	{Bone "group001"}
+	{Matrix34
+		1	0	0
+		0	0.185162	0.982708
+		0	-0.982708	0.185162
+		0.518858	6.6146	-13.3273
+	}
+}

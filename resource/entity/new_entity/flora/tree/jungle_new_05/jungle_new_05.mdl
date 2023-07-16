@@ -1,0 +1,29 @@
+;Exported by: ?????
+;Date:        Sun Feb 08 20:51:17 2015
+;File:        C:\Users\?????\Documents\3dsmax\scenes\palm_andtree.max
+{Skeleton
+	{bone "tree"
+		{parameters "CommonMesh;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "tree.ply"}
+	}
+}
+{Volume "bole"
+	{Cylinder 4.83588 131.236}
+	{Bone "tree"}
+	{Matrix34
+		0.960155	0.198739	0.196483
+		-0.171769	0.97425	-0.146057
+		-0.220451	0.106488	0.969568
+		-4.69361	33.1698	63.621
+	}
+}
+{Volume "crown"
+	{Cylinder 60.0682 67.2247}
+	{Bone "tree"}
+	{Position -12.6434	21.9468	132.502}
+}

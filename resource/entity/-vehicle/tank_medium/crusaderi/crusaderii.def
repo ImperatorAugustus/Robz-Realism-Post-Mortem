@@ -1,0 +1,162 @@
+{game_entity
+	(include "/properties/tank.ext")
+	(include "/properties/selection/vehicle.inc" scale(1.2))
+	{collider "tank.light"}
+	{props "light" "turret_rotator" "vision_vehicle_medium" "muzzle_small" "switch_mgun_coax"}
+	
+	{extender "enumerator"}
+	
+	{volume "body1"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "body2"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "body3"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "box2"
+		{thickness 5}
+	}
+	{volume "box3"
+		{thickness 5}
+	}
+	{volume "engine"
+		{component "engine"}
+		{thickness 15}
+	}
+	{Volume "mantlet"
+		{thickness 20}
+	}
+	("shield" args 10)
+	
+	{extender "shield"
+		{on}
+	}
+	{component "shieldl1" {tags "shield"}}
+	{component "shieldl2" {tags "shield"}}
+	{component "shieldl3" {tags "shield"}}
+	{component "shieldr1" {tags "shield"}}
+	{component "shieldr2" {tags "shield"}}
+	{component "shieldr3" {tags "shield"}}
+	
+	("armor_medium" turret(42 24 29 12) body(32 27 27 9))
+	("armor_engine"  t(10 27 27 7))
+	
+	("crew_inside")
+	
+	("crew_human" place(gunner)		door1(emit1) door2(emit2) visor(main))
+	
+	("crew_human" place(driver)		door1(emit1) door2(emit2) visor(driver))
+
+	("crew_human" place(charger)		door1(emit1) door2(emit2) visor(none))
+	
+	("crew_human" place(commander)	door1(emit1) door2(emit2) visor(around))
+
+	
+	
+	{boarder
+		{anm "left"
+			{forward	{begin	"board_tank_left"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+		{anm "right"
+			{forward	{begin	"board_tank_right"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+		{anm "armor"
+			{forward	{begin	"board_LowArmor"} 	{end "seat_armor"}}
+			{reverse 	{end	"emit_tank_1"}}
+		}
+	}
+	("seat_human" place(seat1) bone(seat01) door(emit3)  animation(armor))
+	("seat_human" place(seat2) bone(seat02) door(emit4)  animation(armor))
+	("seat_human" place(seat3) bone(seat03) door(emit5)  animation(armor))
+	("seat_human" place(seat4) bone(seat04) door(emit6)  animation(armor))
+	
+	{sensor 
+		
+		{visor "main"
+			{vision "tank_main-l"}
+
+			{bone "visor1"}
+
+		}
+
+		{visor "none"
+
+			{vision "none"}
+
+		}
+
+	}
+
+
+	{extender "inventory"
+		{box
+            			 {item "ammo bullet40 eng apcbc" 75}
+            			 {item "ammo mg_mauser belt red" 3150}
+		}
+	}
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "40mm_oqf2pdr" filling "ammo bullet40 eng apcbc" 1}
+			{gunner "gunner"}
+
+			{charger "charger"}
+
+			("abm_medium")
+		}
+		{place "mgun"
+			{type "mgun_coaxial"}
+			{foresight "foresight4"}
+			{weapon "besa_optic" filling "mg_mauser belt red" 225}
+			{gunner "gunner"}
+
+			{charger "charger"}
+
+			("abm_mgun")
+			{basic}
+		}
+	}
+	
+	{mass 20100}
+		{Chassis
+		("tank_trace" fx("tracks_sm2") step(0.15) len(0.2))
+		{Locomotion ("locomotion")
+			{MaxSpeed   34}
+			{StartTime  20}
+			{TurnStart  1.5}			
+			{TurnTime   15}
+			{TurnRadius 9} 
+    		{TurnStop   0.7}
+			{BrakeTime  1.5}
+			{StopTime   2.5}
+			{Gears  0.1 0.2 0.3 1}
+			{RearGears  0.23}
+		}
+		{FuelBag
+			{volume 500 }	
+			{rate	32 }   
+			{remain 500 }
+			{fuel "fuel"}
+		}
+		{speed
+        	{Normal  34}
+        	{Slow  34}
+    	}
+	}
+	{Extension "crusaderii.mdl"}
+	{bone "gun_rot"
+		{speed 0.001}
+	}
+	{bone "turret"
+		{speed 0.0025}
+	}
+}
+

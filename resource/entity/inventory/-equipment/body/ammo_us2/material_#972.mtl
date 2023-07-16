@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "char_usa_marine_gear1_c"}
+	{blend none}
+}

@@ -1,0 +1,35 @@
+;Exported by: Руслан
+;Date:        Wed Sep 04 18:37:10 2013
+;File:        C:\Users\Руслан\Documents\3dsmax\scenes\Новая папка\new_okop_baza_6_bun_02_xxx.max
+{Skeleton
+	{bone "bunker_01_door_01_x"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "bunker_01_door_01_x.ply"}
+		{bone "piece01"
+			{VolumeView "piece01.ply"}
+		}
+	}
+}
+{Obstacle "piece01"
+	{Obb2
+		{Center -51.4153 -8.42232}
+		{Extent 11.4174 2.93204}
+		{Axis 0.515485 0.856898}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "piece01"
+	{Box 1.1811 19.571 41.3386}
+	{Bone "piece01"}
+	{Matrix34
+		0.84666	0.519981	0.113085
+		-0.513774	0.854116	-0.0807559
+		-0.138579	0.0102728	0.990298
+		-51.4153	8.42232	-24.697
+	}
+}

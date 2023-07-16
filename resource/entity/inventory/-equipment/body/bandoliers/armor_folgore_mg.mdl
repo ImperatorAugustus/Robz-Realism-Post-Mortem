@@ -1,0 +1,24 @@
+;Exported by: Bars
+;Date:        Sun Mar 10 16:14:56 2013
+;File:        C:\Users\Bars\Documents\3dsmax\scenes\Бронежилет пулемётчика в подгонке.max
+{Skeleton
+	{bone "body"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+
+		}
+		{VolumeView "body.ply"}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "body"}
+	{Position 0.392131	1.24989	-4.58687}
+}
+{Volume "select"
+	{Polyhedron "select.vol"}
+	{Bone "body"}
+	{Position 0.392131	1.24989	-4.58687}
+}

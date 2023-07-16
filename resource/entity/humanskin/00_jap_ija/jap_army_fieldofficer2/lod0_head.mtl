@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "machinegunnera_lod0_head_normal"}
+	{bump "machinegunnera_lod0_head_normal-fx"}
+	{specular "machinegunnera_lod0_head_normal-gg"}
+	{color "229 229 229 9"}
+	{blend none}
+}

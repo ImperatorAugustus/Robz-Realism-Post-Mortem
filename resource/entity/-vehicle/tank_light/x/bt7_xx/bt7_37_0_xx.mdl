@@ -1,0 +1,223 @@
+;переделал Инженер Ден февраль 2008
+;Model created by: EngineerDen
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "body"
+			{parameters "ID=body;"}
+			{Matrix34
+				1	0	0
+				0	0.999391	0.0348995
+				0	-0.0348995	0.999391
+				0.587862	-0.313796	20.8987
+			}
+			{VolumeView "body.ply"}
+			{bone "engine"
+				{parameters "ID=engine;"}
+				{Matrix34
+					-0.00122756	0	0.999999
+					0	1	0
+					-0.999999	0	-0.00122776
+					-37.2818	0.171324	-1.40874
+				}
+			}
+			{bone "part1"
+				{Position 0	0	0}
+				{VolumeView "part1.ply"}
+			}
+			{bone "part3"
+				{Position 39.1593	-19.9051	4.07404}
+				{VolumeView "part3.ply"}
+			}
+			;-----
+			{bone "place_turret"
+				{parameters "ID=turret;"}
+				{Position 0.2000	0.0000	0.0000}
+			;-----
+			{bone "turret"
+				{parameters "ID=turret;"}
+				{Matrix34
+					1	0	0
+					0	0.999848	-0.0174523
+					0	0.0174523	0.999848
+					7.53386	1.47973	18.8781
+				}
+				{VolumeView "turret37_0.ply"}
+				;-----
+				{bone "place_gunrot"
+					{Position -4.2000	1.0000	-0.8000}
+				;-----
+				{bone "gun_rot"
+					{Matrix34
+						1	0	0
+						0	0	-1
+						0	1	0
+						18.8713	0.0463692	-1.71294
+					}
+					{VolumeView "gun_rot.ply"}
+					{bone "gun"
+						{parameters "ID=gun;"}
+						{Position 12.3917	-1.92855	-0.0485508}
+						{VolumeView "gun.ply"}
+					}
+				}
+				;-----
+				}
+				;-----
+				{bone "enumerator"
+					{Matrix34
+						-0.951719	-0.306718	-0.0124875
+						0.0575503	-0.218237	0.974198
+						-0.301529	0.926443	0.225351
+						-10.4084	10.8293	-0.831332
+					}
+					{VolumeView "enumerator.ply"}
+				}
+			}
+			;-----
+			}
+			;-----
+			{bone "wheell6"
+				{parameters "ID=trackleft;Radius=0.4;"}
+				{Matrix34
+					1	0	0
+					0	-0.0174531	-0.999848
+					0	-0.999848	0.0174531
+					-49.5795	21.0144	-8.21856
+				}
+				{VolumeView "wheell6.ply"}
+			}
+			{bone "wheelr1"
+				{parameters "ID=trackleft;Radius=0.2;"}
+				{Matrix34
+					1	0	0
+					0	-0.0174531	-0.999848
+					0	-0.999848	0.0174531
+					48.2671	-17.9996	-6.88337
+				}
+				{VolumeView "wheelr1.ply"}
+			}
+			{bone "wheelr6"
+				{parameters "ID=trackright;Radius=0.4;"}
+				{Matrix34
+					1	0	0
+					0	-0.0174531	-0.999848
+					0	-0.999848	0.0174531
+					-49.5795	-18.011	-7.53736
+				}
+				{VolumeView "wheell6.ply"}
+			}
+		}
+		{bone "wheelsl"
+			{parameters "ID=trackleft;"}
+			{Matrix34
+				1	0	0
+				0	0.999848	0.0174526
+				0	-0.0174525	0.999848
+				7.27926	21.8511	8.65835
+			}
+			{bone "wheell2"
+				{parameters "ID=trackleft;"}
+				{Matrix34
+					1	0	0
+					0	0	-1
+					0	-1	0
+					25.2533	-1.01626	1.44705
+				}
+				{VolumeView "wheell2.ply"}
+			}
+			{bone "part2"
+				{Matrix34
+					1	0	0
+					0	0	-1
+					0	-1	0
+					-23.1647	-1.01627	1.44704
+				}
+				{VolumeView "part2.ply"}
+			}
+			{bone "wheell5"
+				{parameters "ID=trackleft;"}
+				{Matrix34
+					1	0	0
+					0	0	-1
+					0	-1	0
+					-40.8679	-1.01627	1.44704
+				}
+				{VolumeView "wheell2.ply"}
+			}
+		}
+		{bone "wheelsr"
+			{parameters "ID=trackright;"}
+			{Matrix34
+				1	0	0
+				0	0.999848	0.0174526
+				0	-0.0174525	0.999848
+				7.27926	-19.7929	7.93145
+			}
+			{bone "wheelr3"
+				{parameters "ID=trackright;"}
+				{Matrix34
+					1	0	0
+					0	0	-1
+					0	-1	0
+					2.15497	1.80152	1.44705
+				}
+				{VolumeView "wheelr3.ply"}
+			}
+			{bone "wheelr2"
+				{parameters "ID=trackright;"}
+				{Matrix34
+					0.996195	-0.0871568	0
+					0	0	-1
+					-0.0871568	-0.996195	0
+					25.2533	1.80152	1.44704
+				}
+				{VolumeView "wheell2.ply"}
+			}
+		}
+	}
+}
+{Volume "body1"
+	{Polyhedron "body1.vol"}
+	{Bone "body"}
+	{Position -6.01022	0.356096	-23.4908}
+}
+{Volume "part1"
+	{Box 22.9584 4.79917 2.93013}
+	{Bone "part1"}
+	{Position -20.5133	20.1478	5.32292}
+}
+{Volume "part2"
+	{Cylinder 8.41505 4.29808}
+	{Bone "part2"}
+	{Matrix34
+		-1	0	0
+		0	-0.967478	0.252956
+		0	-0.252957	-0.967478
+		0	0	0
+	}
+}
+{Volume "part3"
+	{Box 21.3894 8.58562 8.91454}
+	{Bone "part3"}
+	{Matrix34
+		0.928247	-0.31775	0.193369
+		0.311193	0.948174	0.0642252
+		-0.203755	0.000558067	0.979022
+		0.186014	-0.000512831	-0.893786
+	}
+}
+{Volume "turret"
+	{Polyhedron "turret37.vol"}
+	{Bone "turret"}
+	{Matrix34
+		1	0	0
+		0	0.999962	-0.00872666
+		0	0.00872666	0.999962
+		0	0	-8.44808
+	}
+}

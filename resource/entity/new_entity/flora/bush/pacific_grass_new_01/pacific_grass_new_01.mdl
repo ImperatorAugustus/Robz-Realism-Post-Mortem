@@ -1,0 +1,19 @@
+;Exported by: ?????
+;Date:        Sun Mar 08 17:15:49 2015
+;File:        C:\Users\?????\Documents\3dsmax\scenes\bamboo.max
+{Skeleton
+	{bone "grass"
+		{parameters "CommonMesh;Align;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "grass.ply"}
+	}
+}
+{Volume "box005"
+	{Box 40.3904 49.1681 10.9864}
+	{Bone "grass"}
+	{Position -15.691	9.02747	5.37278}
+}

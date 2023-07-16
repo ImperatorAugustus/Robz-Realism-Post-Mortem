@@ -1,0 +1,41 @@
+;Exported by: Руслан
+;Date:        Mon Sep 09 15:21:22 2013
+;File:        C:\Users\Руслан\Documents\3dsmax\scenes\Новая папка\new_okop_baza_6_bun_04_a.max
+{Skeleton
+	{bone "bunker_tunn_wall_01_a"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "bunker_tunn_wall_01_a.ply"}
+	}
+}
+{Obstacle "body_02"
+	{Obb2
+		{Center -9.78798 19.7521}
+		{Extent 4.92126 14.7638}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body_1"
+	{Obb2
+		{Center 0.0487947 4.64241}
+		{Extent 4.92126 30.1269}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body_02"
+	{Box 9.84252 29.5276 6.92933}
+	{Bone "bunker_tunn_wall_01_a"}
+	{Position -9.78798	-19.7521	-0.504245}
+}
+{Volume "body_1"
+	{Polyhedron "body_1.vol"}
+	{Bone "bunker_tunn_wall_01_a"}
+	{Position 0.0487947	-0.320526	2.96042}
+}

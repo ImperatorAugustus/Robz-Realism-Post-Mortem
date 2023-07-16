@@ -1,0 +1,19 @@
+;Exported by: Фёдор
+;Date:        Thu Jul 17 14:49:41 2014
+;File:        C:\Users\Фёдор\Documents\3dsmax\scenes\wheat_round_01.max
+{Skeleton
+	{bone "grass_nor_03"
+		{parameters "Land;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "grass_nor_03.ply"}
+	}
+}
+{Volume "crown"
+	{Box 40.7987 55.9185 12.6064}
+	{Bone "grass_nor_03"}
+	{Position -10.8642	-8.60899	6.30319}
+}

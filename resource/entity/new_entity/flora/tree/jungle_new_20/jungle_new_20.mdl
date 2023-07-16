@@ -1,0 +1,64 @@
+;Exported by: ?????
+;Date:        Sun Feb 22 18:17:54 2015
+;File:        C:\Users\?????\Documents\3dsmax\scenes\jungle_top.max
+{Skeleton
+	{bone "tree"
+		{parameters "CommonMesh;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "tree.ply"}
+	}
+}
+{Volume "bole"
+	{Cylinder 2.57926 124.027}
+	{Bone "tree"}
+	{Position -21.8433	-12.2622	62.0135}
+}
+{Volume "bole001"
+	{Cylinder 2.57926 124.027}
+	{Bone "tree"}
+	{Position -21.8433	1.8647	62.0135}
+}
+{Volume "bole002"
+	{Cylinder 2.57926 124.027}
+	{Bone "tree"}
+	{Position -21.8433	12.0525	62.0135}
+}
+{Volume "bole003"
+	{Cylinder 2.57926 124.027}
+	{Bone "tree"}
+	{Position 11.5096	15.377	62.0135}
+}
+{Volume "bole004"
+	{Cylinder 2.57926 124.027}
+	{Bone "tree"}
+	{Position 15.9057	12.7477	62.0135}
+}
+{Volume "bole005"
+	{Cylinder 2.57926 124.027}
+	{Bone "tree"}
+	{Position 20.7019	-6.60667	62.0135}
+}
+{Volume "bole006"
+	{Cylinder 2.57926 124.027}
+	{Bone "tree"}
+	{Position 9.3835	-14.1081	62.0135}
+}
+{Volume "bole007"
+	{Cylinder 2.57926 124.027}
+	{Bone "tree"}
+	{Position 5.0279	-10.2294	62.0135}
+}
+{Volume "bole008"
+	{Cylinder 4.72004 124.027}
+	{Bone "tree"}
+	{Position -6.06421	0.199768	62.0135}
+}
+{Volume "crown"
+	{Cylinder 177.528 64.5783}
+	{Bone "tree"}
+	{Position -6.28462	-12.0277	140.327}
+}

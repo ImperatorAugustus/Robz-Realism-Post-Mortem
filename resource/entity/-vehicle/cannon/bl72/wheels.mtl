@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/praga_rv_wheels"}
+	{blend none}
+}

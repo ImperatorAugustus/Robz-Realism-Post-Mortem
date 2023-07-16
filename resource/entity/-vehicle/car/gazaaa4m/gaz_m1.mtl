@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "gaz-mm"}
+	{bump "$/model/gaz-mm_bp"}
+	{specular "$/model/gaz-mm_sp"}
+	{blend test}
+}

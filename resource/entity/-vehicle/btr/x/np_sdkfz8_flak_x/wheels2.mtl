@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "sdkfz8_wheels2"}
+	{blend test}
+}

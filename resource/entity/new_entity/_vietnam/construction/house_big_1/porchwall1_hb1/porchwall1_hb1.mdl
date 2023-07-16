@@ -1,0 +1,54 @@
+;Exported by: Loskutov_K
+;Date:        Tue May 04 14:46:34 2010
+;File:        D:\_Vietnam\Art\Models\Houses\House_big_1\hb1_complete.max
+{Skeleton
+	{bone "porchwall1_hb1"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "porchwall1_hb1.ply"}
+		{bone "fix02"
+			{Position 11.8425	6.63699	16.5465}
+		}
+	}
+}
+{Obstacle "body1"
+	{Obb2
+		{Center 14.2775 -0.368141}
+		{Extent 0.950245 8.72379}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Obstacle "body2"
+	{Obb2
+		{Center -0.543106 7.34784}
+		{Extent 14.656 0.950249}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Volume "body1"
+	{Box 17.4476 1.90049 27.8906}
+	{Bone "porchwall1_hb1"}
+	{Matrix34
+		0	1	0
+		-1	0	0
+		0	0	1
+		14.2775	0.368141	-2.9513
+	}
+}
+{Volume "body2"
+	{Box 29.3119 1.90049 30.1218}
+	{Bone "porchwall1_hb1"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		-0.543106	-7.34784	-1.83568
+	}
+}

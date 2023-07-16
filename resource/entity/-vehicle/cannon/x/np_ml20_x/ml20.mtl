@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "ml20"}
+	{specular "ml20_sp"}
+	{color "229 229 229 25"}
+	;{bump "ml20_bp"}
+	{blend test}
+}

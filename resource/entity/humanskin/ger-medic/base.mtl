@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "ger-medic"}
+	{blend none}
+}

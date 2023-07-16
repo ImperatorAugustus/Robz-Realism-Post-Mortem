@@ -1,0 +1,218 @@
+;Exported by: Loskutov_K
+;Date:        Fri Apr 02 16:49:39 2010
+;File:        D:\_Vietnam\Art\Models\Structure\x\bridge_small_x\bridge_small_x.max
+{Skeleton
+	{bone "beams_x"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "beams_x.ply"}
+		{bone "piece15"
+			{Position 38.4236	13.9824	20.3841}
+			{VolumeView "piece15.ply"}
+		}
+		{bone "piece06"
+			{Position 43.2648	-10.9721	16.8572}
+			{VolumeView "piece06.ply"}
+		}
+		{bone "piece13"
+			{Position -2.47302	12.2968	17.1906}
+			{VolumeView "piece13.ply"}
+		}
+		{bone "piece08"
+			{Position -1.21961	-12.8015	18.0304}
+			{VolumeView "piece08.ply"}
+		}
+		{bone "piece01"
+			{Matrix34
+				0	1	0
+				0	0	1
+				1	0	0
+				22.4507	-3.13269	2.32583
+			}
+			{VolumeView "piece01.ply"}
+		}
+		{bone "piece04"
+			{Matrix34
+				0	1	0
+				0	0	1
+				1	0	0
+				-1.20244	10.5518	2.76893
+			}
+			{VolumeView "piece04.ply"}
+		}
+		{bone "piece02"
+			{Matrix34
+				0	1	0
+				0	0	1
+				1	0	0
+				-11.3158	-8.07855	2.58741
+			}
+			{VolumeView "piece02.ply"}
+		}
+		{bone "piece05"
+			{Matrix34
+				0	1	0
+				0	0	1
+				1	0	0
+				-10.6852	3.14464	2.32056
+			}
+			{VolumeView "piece05.ply"}
+		}
+		{bone "piece03"
+			{Matrix34
+				0	1	0
+				0	0	1
+				1	0	0
+				31.4268	10.0102	2.65001
+			}
+			{VolumeView "piece03.ply"}
+		}
+		{bone "piece07"
+			{Matrix34
+				0	0	-1
+				0	1	0
+				1	0	0
+				19.8204	-12.121	21.6965
+			}
+			{VolumeView "piece07.ply"}
+		}
+		{bone "piece14"
+			{Matrix34
+				0	0	-1
+				0	1	0
+				1	0	0
+				22.3542	12.6833	10.1484
+			}
+			{VolumeView "piece14.ply"}
+		}
+		{bone "piece11"
+			{Matrix34
+				0	0	-1
+				0	1	0
+				1	0	0
+				-35.3439	12.6587	20.8147
+			}
+			{VolumeView "piece11.ply"}
+		}
+		{bone "piece09"
+			{Matrix34
+				0	0	-1
+				0	1	0
+				1	0	0
+				-19.933	-12.1105	9.7895
+			}
+			{VolumeView "piece09.ply"}
+		}
+		{bone "piece10"
+			{Position -44.7968	-13.8042	20.3841}
+			{VolumeView "piece10.ply"}
+		}
+		{bone "piece12"
+			{Matrix34
+				0	0	-1
+				0	1	0
+				1	0	0
+				-15.479	12.6587	10.1625
+			}
+			{VolumeView "piece12.ply"}
+		}
+	}
+}
+{Volume "beams_x1"
+	{Box 17.7024 4.91217 24.5646}
+	{Bone "beams_x"}
+	{Matrix34
+		0	1	0
+		0	0	1
+		1	0	0
+		37.8784	-3.2714	2.52567
+	}
+}
+{Volume "beams_x2"
+	{Box 17.7024 4.91217 24.5646}
+	{Bone "beams_x"}
+	{Matrix34
+		0	1	0
+		0	0	1
+		1	0	0
+		-39.0393	4.14444	2.52567
+	}
+}
+{Volume "piece01"
+	{Box 3.46459 3.54378 41.6565}
+	{Bone "piece01"}
+	{Position 0.27755	0.138743	-0.58782}
+}
+{Volume "piece02"
+	{Box 3.46459 3.54378 32.4921}
+	{Bone "piece02"}
+	{Position -0.35883	-0.122835	-3.07341}
+}
+{Volume "piece03"
+	{Box 3.46459 3.54378 12.3978}
+	{Bone "piece03"}
+	{Position -0.368729	-0.185434	-0.0807366}
+}
+{Volume "piece04"
+	{Box 3.46459 3.54378 32.6257}
+	{Bone "piece04"}
+	{Position -0.397388	-0.304359	-0.715731}
+}
+{Volume "piece05"
+	{Box 3.46459 3.54378 16.2317}
+	{Bone "piece05"}
+	{Position -0.0349741	0.144007	1.5027}
+}
+{Volume "piece06"
+	{Box 0.707784 0.797866 21.1572}
+	{Bone "piece06"}
+	{Position 0.00588989	-0.0688305	-0.0935059}
+}
+{Volume "piece07"
+	{Box 0.707784 0.797866 36.2976}
+	{Bone "piece07"}
+	{Position -0.161186	0.197084	-0.637804}
+}
+{Volume "piece08"
+	{Box 0.707784 0.797866 15.1661}
+	{Bone "piece08"}
+	{Position -0.13798	0.02458	-0.0943155}
+}
+{Volume "piece09"
+	{Box 0.707784 0.797866 26.4973}
+	{Bone "piece09"}
+	{Position 0.237537	-0.265961	-0.521881}
+}
+{Volume "piece10"
+	{Box 0.707784 0.797866 15.6563}
+	{Bone "piece10"}
+	{Position 0.109383	-0.237194	-0.576324}
+}
+{Volume "piece11"
+	{Box 0.707784 0.797866 25.2067}
+	{Bone "piece11"}
+	{Position -0.118046	-0.104797	-0.183365}
+}
+{Volume "piece12"
+	{Box 0.707784 0.797866 25.2067}
+	{Bone "piece12"}
+	{Position -0.106366	-0.0361691	0.0161419}
+}
+{Volume "piece13"
+	{Box 0.707784 0.797866 22.2942}
+	{Bone "piece13"}
+	{Position 0.136938	-0.179976	-0.365529}
+}
+{Volume "piece14"
+	{Box 0.707784 0.797866 36.2976}
+	{Bone "piece14"}
+	{Position -0.0698408	-0.181942	-1.39665}
+}
+{Volume "piece15"
+	{Box 0.707784 0.797866 16.2748}
+	{Bone "piece15"}
+	{Position 0.173592	-0.161231	-0.610777}
+}

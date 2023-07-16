@@ -1,0 +1,17 @@
+{game_entity
+	{Extension "base6_hm2_x.mdl"}
+	{Volume "piece01"
+	}
+	{Volume "piece03"
+	}
+	{Volume "piece04"
+	}
+	{Volume "piece05"
+	}
+	{Volume "piece06"
+	}
+	{Volume "piece07"
+	}
+	{Volume "piece10"
+	}
+}

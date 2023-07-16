@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "pioneer"}
+	{blend none}
+}

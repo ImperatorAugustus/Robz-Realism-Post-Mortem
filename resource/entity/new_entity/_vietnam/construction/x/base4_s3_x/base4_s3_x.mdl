@@ -1,0 +1,130 @@
+;Exported by: Loskutov_K
+;Date:        Wed Apr 21 13:39:51 2010
+;File:        D:\_Vietnam\Art\Models\Houses\X\Saray_3_x\saray_3_x.max
+{Skeleton
+	{bone "base4_s3_x"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "piece04"
+			{Matrix34
+				0	0	-1
+				0	-1	0
+				-1	0	0
+				7.17802	16.2362	-18.563
+			}
+			{VolumeView "piece04.ply"}
+		}
+		{bone "piece07"
+			{Matrix34
+				0	0	1
+				-1	0	0
+				0	-1	0
+				-20.4064	-4.20408	-18.3524
+			}
+			{VolumeView "piece07.ply"}
+		}
+		{bone "piece01"
+			{Matrix34
+				0	0	-1
+				-1	0	0
+				0	1	0
+				-21.6586	-7.25663	21.6929
+			}
+			{VolumeView "piece01.ply"}
+		}
+		{bone "piece06"
+			{Matrix34
+				0	0	1
+				0	-1	0
+				1	0	0
+				-15.4171	15.355	-21.2515
+			}
+			{VolumeView "piece06.ply"}
+		}
+		{bone "piece05"
+			{Matrix34
+				0	1	0
+				-1	0	0
+				0	0	1
+				-21.8824	15.7193	-5.7324
+			}
+			{VolumeView "piece05.ply"}
+		}
+		{bone "piece03"
+			{Matrix34
+				0	-1	0
+				-1	0	0
+				0	0	-1
+				-21.6618	16.477	10.4076
+			}
+			{VolumeView "piece03.ply"}
+		}
+		{bone "piece02"
+			{Matrix34
+				0	0	1
+				-1	0	0
+				0	-1	0
+				-22.6346	13.0586	21.635
+			}
+			{VolumeView "piece02.ply"}
+		}
+	}
+}
+{Volume "piece01"
+	{Box 2.60522 2.69509 13.8104}
+	{Bone "piece01"}
+	{Position -0.083786	0.424988	-0.14106}
+}
+{Volume "piece02"
+	{Box 2.60522 2.69509 19.1812}
+	{Bone "piece02"}
+	{Matrix34
+		-1	0	0
+		0	1	0
+		0	0	-1
+		0.141653	-0.551022	-1.1257
+	}
+}
+{Volume "piece03"
+	{Box 2.60522 2.69509 19.5726}
+	{Bone "piece03"}
+	{Matrix34
+		-1	0	0
+		0	1	0
+		0	0	-1
+		0.00531006	0.0999803	-0.363225
+	}
+}
+{Volume "piece04"
+	{Box 2.60522 2.69509 18.6323}
+	{Bone "piece04"}
+	{Position 0.355278	0.0603905	-1.10935}
+}
+{Volume "piece05"
+	{Box 2.60522 2.69509 28.6651}
+	{Bone "piece05"}
+	{Position 0.0221176	-0.43203	-1.70711}
+}
+{Volume "piece06"
+	{Box 2.60522 2.69509 18.8577}
+	{Bone "piece06"}
+	{Matrix34
+		-1	0	0
+		0	1	0
+		0	0	-1
+		0.125745	-0.320419	-0.448344
+	}
+}
+{Volume "piece07"
+	{Box 2.60522 2.69509 40.1228}
+	{Bone "piece07"}
+	{Matrix34
+		-1	0	0
+		0	1	0
+		0	0	-1
+		-0.0683525	-0.100962	0.228912
+	}
+}

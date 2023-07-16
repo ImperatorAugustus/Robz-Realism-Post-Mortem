@@ -1,0 +1,10 @@
+{game_entity
+	(include "/properties/tree_q.inc")
+	{props "tree_q" "normal_light" "invisible_crown"}
+	{Extension "jungle_lian_tree_03.mdl"}
+	{Volume "crown"
+		{able {visible 0}}
+	}
+
+	{NoGroupMesh 1}
+}

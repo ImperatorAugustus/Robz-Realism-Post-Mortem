@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/humanskin/rus/par/partisan"}
+	{blend none}
+}

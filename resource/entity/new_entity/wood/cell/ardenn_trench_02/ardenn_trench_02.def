@@ -1,0 +1,27 @@
+{game_entity
+                  (include "/properties/trench_new.inc")           
+	{Extension "ardenn_trench_02.mdl"}
+	{props "wood"}
+{Volume "body1"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {visible 1}}
+	}
+	{Volume "body2"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {visible 1}}
+	}
+	{Volume "body3"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {visible 1}}
+	}
+	{Volume "body4"
+		{Tags  "body"}
+		{Thickness 50}
+		{able {visible 1}}
+	}
+	{Extender "land_patch"
+	}
+}

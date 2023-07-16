@@ -1,0 +1,107 @@
+;Exported by: Administrator
+;Date:        Thu Mar 26 03:39:27 2015
+;File:        F:\我的文档\3d\工事类\0-碉堡类\mil_101_10_ConcreteTrencht\ConcreteTrencht.max
+{Skeleton
+	{bone "trench_ground7"
+		{parameters "CommonMesh;Ground;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "trench_ground7.ply" {Ground} {DecalTarget}}
+	}
+}
+{Obstacle "body27"
+	{Obb2
+		{Center 50.8517 30.3287}
+		{Extent 20.7524 4.83058}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body28"
+	{Obb2
+		{Center -29.5375 -12.0513}
+		{Extent 41.845 4.69698}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body29"
+	{Obb2
+		{Center -29.5662 17.6325}
+		{Extent 41.8163 4.80464}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body30"
+	{Obb2
+		{Center 21.0817 -18.542}
+		{Extent 3.73492 13.8856}
+		{Axis 0.588172 0.808736}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body31"
+	{Obb2
+		{Center 21.1672 23.9564}
+		{Extent 13.674 3.82441}
+		{Axis 0.809204 0.587528}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body32"
+	{Obb2
+		{Center 51.1024 -24.8047}
+		{Extent 20.7244 4.74471}
+		{Axis 0.999848 0.0174436}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Area "cut"
+	{Polygon2
+		{Radius 0}
+		{Vertex 70.8096 34.0578}
+		{Vertex -71.4062 12.8711}
+		{Vertex -70.6117 -8.58047}
+		{Vertex 71.3393 -28.7079}
+	}	{Rotate}
+}
+{Volume "body27"
+	{Polyhedron "body27.vol"}
+	{Bone "trench_ground7"}
+	{Position 99.7163	-44.8617	0.117212}
+}
+{Volume "body28"
+	{Polyhedron "body28.vol"}
+	{Bone "trench_ground7"}
+	{Position -4.47238	11.6741	0.117212}
+}
+{Volume "body29"
+	{Polyhedron "body29.vol"}
+	{Bone "trench_ground7"}
+	{Position -4.47238	-13.6044	0.117212}
+}
+{Volume "body30"
+	{Polyhedron "body30.vol"}
+	{Bone "trench_ground7"}
+	{Position 77.2039	11.6741	0.117212}
+}
+{Volume "body31"
+	{Polyhedron "body31.vol"}
+	{Bone "trench_ground7"}
+	{Position 77.2039	-13.6044	0.117212}
+}
+{Volume "body32"
+	{Polyhedron "body32.vol"}
+	{Bone "trench_ground7"}
+	{Position 99.7163	40.8728	0.117212}
+}

@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/humanskin/american/gi_sniper_body_d"}
+	{blend none}
+}

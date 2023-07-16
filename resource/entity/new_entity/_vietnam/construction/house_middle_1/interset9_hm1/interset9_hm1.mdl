@@ -1,0 +1,26 @@
+;Exported by: Kislov_A
+;Date:        Thu Apr 15 10:34:57 2010
+;File:        E:\Men of war red tide2\Art\Models\Houses\House_middle_1\hm1_complete.max
+{Skeleton
+	{bone "interset9_hm1"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "interset9_hm1.ply"}
+		{bone "fix36"
+			{Position 0.565742	-1.40294	12.895}
+		}
+	}
+}
+{Volume "body"
+	{Box 19.2273 4.98275 9.4684}
+	{Bone "interset9_hm1"}
+	{Matrix34
+		0.00274844	0.999996	0
+		-0.999996	0.00274844	0
+		0	0	1
+		0.453362	0.0474018	0.568698
+	}
+}

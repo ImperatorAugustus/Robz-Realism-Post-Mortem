@@ -1,0 +1,40 @@
+;Exported by: Kislov_A
+;Date:        Wed Apr 14 14:26:56 2010
+;File:        E:\Men of war red tide2\Art\Models\Houses\House_small_1\hs1.max
+{Skeleton
+	{bone "interset6_hs1"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "interset6_hs1.ply"}
+		{bone "fix12"
+			{Matrix34
+				1	0	0
+				0	1	0
+				0	0	1
+				17.0238	2.67422	17.2797
+			}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -0.468417 -0.172914}
+		{Extent 19.8077 0.343366}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Box 0.686718 39.6154 17.4697}
+	{Bone "interset6_hs1"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		-0.468417	0.172914	-0.489737
+	}
+}

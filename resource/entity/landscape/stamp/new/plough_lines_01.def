@@ -1,0 +1,10 @@
+{entity 
+	{lodclass "decor_decal"}{DecalView 
+		{Sprite "plough_lines_01.mtl" 
+			{Scale 1 }
+		}
+		{orientation normal}
+		{layer grounddecal }
+		{UseDirection }
+	}
+}

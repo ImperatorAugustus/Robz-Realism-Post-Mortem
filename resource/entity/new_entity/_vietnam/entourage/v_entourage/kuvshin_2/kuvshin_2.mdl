@@ -1,0 +1,27 @@
+;Exported by: Loskutov_K
+;Date:        Fri Apr 09 12:34:50 2010
+;File:        D:\_Vietnam\Art\Models\Anturage\utvar\kuvshin_2\kuvshin_2.max
+{Skeleton
+	{bone "kuvshin_2"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "kuvshin_2.ply"}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 0.011528 -0.0113715}
+		{Extent 5.73597 5.73597}
+		{Axis 0.375164 0.926958}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "kuvshin_2"}
+	{Position 0.011528	0.0113716	0}
+}

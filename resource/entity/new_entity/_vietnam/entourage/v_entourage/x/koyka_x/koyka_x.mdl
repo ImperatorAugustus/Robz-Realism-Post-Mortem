@@ -1,0 +1,107 @@
+;Exported by: Loskutov_K
+;Date:        Thu Apr 08 17:36:41 2010
+;File:        D:\_Vietnam\Art\Models\Anturage\x\koyka_x\koyka_x.max
+{Skeleton
+	{bone "body_x"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "piece01"
+			{Matrix34
+				-0.515379	0	0.856963
+				0	1	0
+				-0.856963	0	-0.515379
+				1.24593	-20.4944	6.2785
+			}
+			{VolumeView "piece01.ply"}
+		}
+		{bone "piece02"
+			{Matrix34
+				1	0	0
+				0	0	1
+				0	-1	0
+				7.03232	-6.40352	10.0052
+			}
+			{VolumeView "piece02.ply"}
+		}
+		{bone "piece04"
+			{Matrix34
+				1	0	0
+				0	0	1
+				0	-1	0
+				-7.14212	10.7069	10.0052
+			}
+			{VolumeView "piece04.ply"}
+		}
+		{bone "piece03"
+			{Matrix34
+				-0.515379	0	0.856963
+				0	1	0
+				-0.856963	0	-0.515379
+				1.24593	-0.0162506	5.62475
+			}
+			{VolumeView "piece03.ply"}
+		}
+		{bone "piece05"
+			{Matrix34
+				-0.515379	0	0.856963
+				0	1	0
+				-0.856963	0	-0.515379
+				1.24593	20.4145	6.2785
+			}
+			{VolumeView "piece05.ply"}
+		}
+	}
+}
+{Volume "piece01"
+	{Polyhedron "piece01.vol"}
+	{Bone "piece01"}
+	{Matrix34
+		-0.515378	0	-0.856963
+		0.856963	0	-0.515378
+		0	-1	0
+		-0.635813	0.286686	1.56598
+	}
+}
+{Volume "piece02"
+	{Box 22.5862 0.621769 0.775449}
+	{Bone "piece02"}
+	{Matrix34
+		0	0	-1
+		0	1	0
+		1	0	0
+		0.0323995	0.0229664	0.218206
+	}
+}
+{Volume "piece03"
+	{Polyhedron "piece03.vol"}
+	{Bone "piece03"}
+	{Matrix34
+		-0.515378	0	-0.856963
+		0.856963	0	-0.515378
+		0	-1	0
+		-0.0755754	0.292588	1.22905
+	}
+}
+{Volume "piece04"
+	{Box 15.6849 0.621769 0.775449}
+	{Bone "piece04"}
+	{Matrix34
+		0	0	-1
+		0	1	0
+		1	0	0
+		-0.0222875	0.0229664	-0.556391
+	}
+}
+{Volume "piece05"
+	{Polyhedron "piece05.vol"}
+	{Bone "piece05"}
+	{Matrix34
+		-0.515378	0	-0.856963
+		0.856963	0	-0.515378
+		0	-1	0
+		-0.592505	0.248062	1.53993
+	}
+}

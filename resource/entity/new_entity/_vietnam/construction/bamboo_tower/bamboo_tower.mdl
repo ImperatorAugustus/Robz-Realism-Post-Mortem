@@ -1,0 +1,24 @@
+;Exported by: Loskutov_K
+;Date:        Thu Feb 11 17:26:00 2010
+;File:        D:\_Vietnam\Models\Bolvanki_diz\Bamboo_tower\tower.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "3"
+			{Position 0.850494	-0.0742569	191.014}
+		}
+		{bone "2"
+			{Position 1.32563	-0.229202	144.156}
+		}
+		{bone "1"
+			{Position -0.634838	-0.612915	92.7861}
+		}
+		{bone "4"
+			{Position 0.334295	-0.263285	107.918}
+		}
+	}
+}

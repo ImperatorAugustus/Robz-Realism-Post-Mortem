@@ -1,0 +1,14 @@
+;Exported by: Фёдор
+;Date:        Wed Nov 19 14:00:33 2014
+;File:        C:\Users\Фёдор\Documents\3dsmax\scenes\new_okop_baza_6_bun_02.max
+{Skeleton
+	{bone "land"
+		{parameters "Land"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "land.ply" {Ground} {DecalTarget}}
+	}
+}

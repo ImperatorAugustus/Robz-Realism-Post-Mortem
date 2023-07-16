@@ -1,0 +1,16 @@
+;Exported by: Руслан
+;Date:        Tue Aug 27 15:49:07 2013
+;File:        C:\Users\Руслан\Documents\3dsmax\scenes\Новая папка\new_okop_3_baza_5_x.max
+{Skeleton
+	{bone "ardenn_trench_baza_wall_roof_6_x"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "ardenn_trench_baza_wall_roof_6_x.ply"}
+	}
+		
+}
+
+

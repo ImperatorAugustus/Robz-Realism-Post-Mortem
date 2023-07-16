@@ -1,0 +1,19 @@
+;Exported by: ?????
+;Date:        Sun Mar 01 21:49:57 2015
+;File:        C:\Users\?????\Documents\3dsmax\scenes\mangra.max
+{Skeleton
+	{bone "tree"
+		{parameters "CommonMesh;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "tree.ply"}
+	}
+}
+{Volume "crown"
+	{Box 97.1195 106.539 157.783}
+	{Bone "tree"}
+	{Position -28.2917	-2.52031	78.8913}
+}

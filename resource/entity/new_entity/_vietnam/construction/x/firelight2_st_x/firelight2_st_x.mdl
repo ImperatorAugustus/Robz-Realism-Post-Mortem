@@ -1,0 +1,12 @@
+;Exported by: Loskutov_K
+;Date:        Tue Apr 20 17:38:50 2010
+;File:        D:\_Vietnam\Art\Models\Houses\X\Stolovaya_x\stolovaya_x.max
+{Skeleton
+	{bone "firelight2_st_x"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+	}
+}

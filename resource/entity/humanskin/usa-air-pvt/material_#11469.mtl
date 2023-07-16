@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/humanskin/american/mainchr_lowerbody_colspec"}
+	{blend none}
+}

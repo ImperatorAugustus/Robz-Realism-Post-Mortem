@@ -1,0 +1,65 @@
+;Exported by: 因诚之名
+;Date:        Wed Oct 26 18:29:51 2011
+;File:        C:\Documents and Settings\因诚之名\My Documents\3dsmax\scenes\jap\tropical\tropical头盔.max
+{Skeleton
+	{bone "japan-tropical"
+		{parameters "CommonMesh;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "japan-tropical.ply"}
+		{bone "handle"
+			{Matrix34
+				0.999923	0.00877735	0.0087427
+				-0.00877768	0.999961	0
+				-0.00874236	-7.67407e-005	0.999962
+				0.29404	-0.00720351	0.974807
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 4.14813 3.61352 3.32807}
+	{Bone "japan-tropical"}
+	{Matrix34
+		0.999924	0.00877736	0.00874271
+		-0.00877768	0.999962	0
+		-0.00874236	-7.67408e-005	0.999962
+		-0.0105026	-0.0235105	3.78102
+	}
+}
+{Volume "select"
+	{Box 8.33811 5.92873 4.67327}
+	{Bone "japan-tropical"}
+	{Matrix34
+		0.999924	0.00877736	0.00874271
+		-0.00877768	0.999962	0
+		-0.00874236	-7.67408e-005	0.999962
+		-0.159799	0.0245479	3.80542
+	}
+}
+{Extender "preview"
+	{"stuff"
+		{camera
+			{origin 27.2135	-28.589	7.50259}
+			{lookat -0.241284	0.279995	3.47976}
+			{fov 8.28224}
+			{horizon 1.00015}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 2.57268	0.295122	6.24153}
+			}
+			{"1"
+				{type spot}
+				{position 17.5011	-6.28482	5.97984}
+				{direction -0.461071	0.180791	-0.0687651}
+				{theta 43}
+				{phi 45}
+			}
+		}
+	}
+}

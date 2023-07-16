@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "mosin pouch"}
+	{blend none}
+}

@@ -1,0 +1,13 @@
+{game_entity
+	(include "/properties/stuff.ext")
+	{collider "ammo"}
+	{extension "mortar_ammo.mdl"}
+	{extender "stuff"
+		{item "ammo mortar81 fg"}
+	}
+	{Volume "body"
+		{thickness 4}
+		{able {touch} {bullet} {blast}}
+	}
+	{props "steel" "explosive_stuff"}
+}

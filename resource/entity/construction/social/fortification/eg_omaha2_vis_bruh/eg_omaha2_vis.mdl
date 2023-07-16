@@ -1,0 +1,21 @@
+;Exported by: ubrashaev
+;Date:        Sun Dec 18 15:10:04 2005
+;File:        D:\-Projects1_5-\-work-\3d\-entourage\eg_spline2b.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "body"
+			{Matrix34
+				-0.436108	0.896563	0.0773591
+				-0.879065	-0.442825	0.176497
+				0.192497	0.00896809	0.981257
+				-5.5369	-7.1053	31.388
+			}
+			{VolumeView "body.ply"}
+		}
+	}
+}

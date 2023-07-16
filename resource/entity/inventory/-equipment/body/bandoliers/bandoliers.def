@@ -1,0 +1,11 @@
+{game_entity
+	(include "/properties/stuff_small.ext")
+	{extender "stuff"
+		{item "bandoliers"}
+	}
+	{Extension "armor_folgore_mg.mdl"}
+	{Volume "body"
+	}
+	{Volume "select"
+	}
+}

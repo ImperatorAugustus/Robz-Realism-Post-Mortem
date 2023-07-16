@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "k98_gg40_c"}
+	{blend none}
+}

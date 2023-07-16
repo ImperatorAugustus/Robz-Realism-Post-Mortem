@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/humanskin/american/82nd 2/usa-82nd-medic"}
+	{blend none}
+}

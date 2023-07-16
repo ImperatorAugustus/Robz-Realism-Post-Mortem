@@ -1,0 +1,20 @@
+{game_entity
+	(include "/properties/building.inc")
+	{props "one" "staged" "wood" "construction" "disable_area" "no_destroyed_stamp" "burning"}
+	("armor_heavy" args 0.8)
+	{Extension "bunker_tunn_roof.mdl"}
+	{placer}
+	{extender "structure"
+		{place "gr_01" "cane3" "cane2" "ash_tree_bush1" "fern_bush" "grass3"}
+		{place "gr_02" "cane2" "cane3" "ash_tree_bush1" "delphinium" "grass3a" "bush10b"}
+		{place "gr_03" "cane3" "cane2" "ash_tree_bush1" "bush10b" "grass3"}
+		{place "gr_04" "cane2" "cane3" "ash_tree_bush1" "grass3a" "grass3" "fern_bush"}
+		{place "gr_05" "cane3" "cane2" "ash_tree_bush1" "bush10b" "grass3" "delphinium"}
+	}
+	{Volume "body_r"
+		{Tags "body"}
+		{Thickness 150}
+		{able {visible 0}{obstacle 0}}
+	}
+
+}

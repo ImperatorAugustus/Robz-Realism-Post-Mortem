@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "nashorn_hull_x"}
+	{bump "$/model/hummel_bp"}
+	{specular "$/model/hummel_sp"}
+	{color "230 230 230 25"}
+	{blend test}
+}

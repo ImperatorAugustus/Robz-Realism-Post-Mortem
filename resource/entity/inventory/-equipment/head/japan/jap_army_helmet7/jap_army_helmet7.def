@@ -1,0 +1,10 @@
+{actor
+	(include "/properties/stuff_small.ext")
+	{extender "stuff"
+		{item "jap_army_helmet7"}
+	}
+	{Extension "army-tropical.mdl"}
+}
+
+
+

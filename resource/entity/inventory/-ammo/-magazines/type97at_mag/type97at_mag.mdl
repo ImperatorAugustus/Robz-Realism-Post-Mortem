@@ -1,0 +1,52 @@
+;Exported by: Kalinski
+;Date:        Tue Aug 02 18:28:07 2016
+;File:        C:\Users\Kalinski\Desktop\magazynki\gotowe\boyes\type97at_mag_rdy.max
+{Skeleton
+	{bone "type97at_mag"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "type97at_mag.ply"}
+	}
+}
+{Volume "body"
+	{Box 3.53714 5.88253 0.677647}
+	{Bone "type97at_mag"}
+	{Position -0.00322589	-0.0274697	0.00200084}
+}
+{Volume "select"
+	{Box 3.76916 6.14211 0.74358}
+	{Bone "type97at_mag"}
+	{Matrix34
+		1.0387	0	0
+		0	1.0387	0
+		0	0	1.0387
+		-0.00758443	-0.0521467	0.0186898
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 0.0572955	0.865683	4.27905}
+			{lookat -0.0080567	-0.125411	-0.00864656}
+			{fov 45}
+			{horizon -0.238211}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -0.329693	-1.93913	0.684929}
+			}
+			{"1"
+				{type point}
+				{position -0.305518	1.17772	0.72634}
+			}
+			{"2"
+				{type directional}
+				{direction -0.0260877	0.0026428	-0.499312}
+			}
+		}
+	}
+}

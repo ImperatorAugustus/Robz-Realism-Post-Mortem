@@ -1,0 +1,16 @@
+{material bump
+	
+  {diffuse "plough_lines_01"
+		
+     {Axis 512 384}
+	
+  }	
+  {specular "plough_lines_01_sp"}
+	
+	
+  {bump "plough_lines_01_bp"}
+		
+  {color "230 230 230 25"}  
+  {Blend blend}
+
+}

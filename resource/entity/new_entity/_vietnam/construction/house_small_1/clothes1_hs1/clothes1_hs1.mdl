@@ -1,0 +1,30 @@
+;Exported by: Kislov_A
+;Date:        Wed Apr 14 14:26:49 2010
+;File:        E:\Men of war red tide2\Art\Models\Houses\House_small_1\hs1.max
+{Skeleton
+	{animation
+		{sequence "flattern" {speed 0.3} {autostart}}
+	}
+	{bone "clothes1_hs1"
+		{parameters "CommonMesh;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "clothes1_hs1.ply"}
+		{bone "fix18"
+			{Position 1.39909	-34.9852	61.3882}
+		}
+	}
+}
+{Volume "body"
+	{Box 53.5641 15.9766 10.9168}
+	{Bone "clothes1_hs1"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		-3.3824	-40.5358	56.7561
+	}
+}

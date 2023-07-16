@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "hetzer_xx"}
+	{blend none}
+}

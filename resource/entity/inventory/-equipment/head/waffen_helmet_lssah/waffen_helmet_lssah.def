@@ -1,0 +1,8 @@
+{actor
+	(include "/properties/stuff_small.ext")
+	{extender "stuff"
+		{item "waffen_helmet_lssah"}
+	}
+	{props "waffen_camo_helmet"}
+	{Extension "waffen_helmet_lssah.mdl"}
+}

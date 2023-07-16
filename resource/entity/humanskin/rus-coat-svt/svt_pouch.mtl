@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "svt pouch"}
+	{blend none}
+}

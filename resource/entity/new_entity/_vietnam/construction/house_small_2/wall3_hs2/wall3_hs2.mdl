@@ -1,0 +1,21 @@
+;Exported by: Kislov_A
+;Date:        Wed Apr 14 15:14:15 2010
+;File:        E:\Men of war red tide2\Art\Models\Houses\House_small_2\hs2_bumpspec.max
+{Skeleton
+	{bone "wall3_hs2"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "wall3_hs2.ply"}
+		{bone "fix32"
+			{Position 6.12576	4.90918	30.7573}
+		}
+	}
+}
+{Volume "body"
+	{Box 81.5698 2.08661 40.8429}
+	{Bone "wall3_hs2"}
+	{Position -0.76092	1.16822	5.79873}
+}

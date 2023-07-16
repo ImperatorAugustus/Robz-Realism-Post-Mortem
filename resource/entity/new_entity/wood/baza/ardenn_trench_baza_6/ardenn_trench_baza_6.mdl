@@ -1,0 +1,36 @@
+;Exported by: Руслан
+;Date:        Wed Aug 28 17:59:55 2013
+;File:        C:\Users\Руслан\Documents\3dsmax\scenes\Новая папка\new_okop_baza_5.max
+{Skeleton
+	{bone "ardenn_trench_baza_6"
+		{parameters "Land;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "ardenn_trench_baza_6.ply" {Ground} {DecalTarget}}
+		{bone "wall_01"
+		}
+		{bone "wall_02"
+		}
+		{bone "wall_03"
+		}
+		{bone "wall_04"
+		}
+		{bone "wall_05"
+		}
+		{bone "wall_06"
+		}
+		{bone "wall_07"
+		}
+		{bone "wall_roof_1"
+		}
+		{bone "wall_roof_2"
+		}
+		{bone "gun_nest"
+			{Position 64.1996	-8.53154	-40.1502}
+		}
+
+	}
+}

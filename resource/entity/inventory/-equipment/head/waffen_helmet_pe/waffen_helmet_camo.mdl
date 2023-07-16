@@ -1,0 +1,65 @@
+;Exported by: Vlad
+;Date:        Sun Jan 11 17:56:21 2015
+;File:        D:\маё\Проги всякие\3д проэкты\MOD\ger\cap.max
+{Skeleton
+	{bone "helm2"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "helm2.ply"}
+		{bone "handle"
+			{Matrix34
+				0.999935	-0.00499112	0.0102563
+				-0.00172058	0.999969	-0.00772247
+				-0.00553748	0.00773187	0.999955
+				0.891198	0	3.42329
+			}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "helm2"}
+	{Matrix34
+		0.119558	0.992823	0.00305557
+		-0.75495	0.0929106	-0.649168
+		-0.644792	0.0753062	0.760639
+		0.646758	0.111439	2.42105
+	}
+}
+{Volume "select"
+	{Polyhedron "select.vol"}
+	{Bone "helm2"}
+	{Matrix34
+		0.119558	0.992823	0.00305557
+		-0.75495	0.0929106	-0.649168
+		-0.644792	0.0753062	0.760639
+		0.646758	0.111439	2.42105
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 9.85153	-8.39751	4.05603}
+			{lookat 1.52162	-1.24505	2.75668}
+			{fov 22.6199}
+			{horizon -3.38634}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.171162	0.146829	-0.446256}
+			}
+			{"1"
+				{type directional}
+				{direction -0.189277	0.266067	0.378659}
+			}
+			{"2"
+				{type directional}
+				{direction -0.105484	-0.229601	-0.431458}
+			}
+		}
+	}
+}

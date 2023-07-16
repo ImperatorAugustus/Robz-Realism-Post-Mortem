@@ -1,0 +1,85 @@
+{game_entity
+	(include "/properties/tank_unarmed.ext")
+	(include "/properties/selection/vehicle.inc" scale(1.2))
+	{collider "tank.light"}
+	{props "light" "turret_rotator" "vision_vehicle_low" "switch_mgun"}
+	{targetClass "light_tank" "bullet"}
+	{targetSelector "tank_bullet"}
+	{patherId "tank.light"}
+
+	("armor_light" turret(15) body(13 10 10 6))
+	("armor_engine"  t(5 10 10 6))
+	
+	("crew_2_human")
+	("seat_3_human")
+
+	{boarder
+		{anm "left"
+			{forward	{begin	"board_LowTank_left"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+		{anm "right"
+			{forward	{begin	"board_LowTank_left"}}
+			{reverse 	{end	"emit_tank_1"}}
+		}
+	}
+
+	{boarder
+		{anm "armor"
+			{forward	{begin	"board_LowArmor"}}
+			{reverse 	{end	"emit_tank_1"}}
+		}
+	}
+
+	{extender "inventory"
+		{box
+			{item "ammo mg_mauser belt" 2000}
+		}
+	}
+	{Weaponry
+		{place "mgun"
+			{type "mgun_main"}
+			{weapon "mg34_x2" filled}
+			{Barrels 2}
+			{charger "gunner"}
+			("abm_mgun")
+		}
+	}
+
+	{mass 5900}
+	{Chassis
+		("tank_trace" fx("tracks_sm2") step(0.15) len(0.13))
+		{Locomotion ("locomotion")
+			{maxspeed   30}
+			{maxSpeedAtMaxTurn 7}
+			{StartTime  20}
+			{TurnTime   12}
+			{TurnStart  0.9}			
+			{TurnRadius 6} 
+	    	{TurnStop   0.5}
+			{BrakeTime  1}
+			{StopTime   2}
+     		{Gears  0.1 0.2 0.3 1}
+			{RearGears  0.3}
+		}
+		{FuelBag
+			{volume 140 }	
+			{rate	9 }   
+			{remain 140 }
+			{fuel "fuel"}
+		}
+		{speed
+        	{Normal  30}
+        	{Slow  30}
+    	}
+	}
+
+	{Extension "pz1b.mdl"}
+	
+	{bone "gun_rot"
+		{limits -10 18}
+	}
+	{bone "turret"
+		{speed 0.005}
+	}
+}

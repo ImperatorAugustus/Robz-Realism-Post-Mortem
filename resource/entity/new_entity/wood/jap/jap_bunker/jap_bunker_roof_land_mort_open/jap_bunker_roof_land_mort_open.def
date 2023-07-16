@@ -1,0 +1,27 @@
+{game_entity
+	(include "/properties/building.inc")
+	{props "one" "staged" "wood" "construction" "disable_area" "no_destroyed_stamp" "burning"}
+	("armor_heavy" args 0.8)
+	{Extension "jap_bunker_roof_land_mort_open.mdl"}
+	{Volume "body1"
+		{Tags  "body" "fire"}
+		{Thickness 10}
+		{able {visible 0}{obstacle 0}}
+	}
+	{Volume "body2"
+		{Tags  "body" "fire"}
+		{Thickness 10}
+		{able {visible 0}{obstacle 0}}
+	}
+	{Volume "body3"
+		{Tags  "body" "fire"}
+		{Thickness 10}
+		{able {visible 0}{obstacle 0}}
+	}
+	{Volume "body4"
+		{Tags  "body" "fire"}
+		{Thickness 10}
+		{able {visible 0}{obstacle 0}}
+	}
+}
+

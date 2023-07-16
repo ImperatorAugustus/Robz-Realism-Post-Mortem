@@ -1,0 +1,53 @@
+{game_entity
+	{Extension "dot_sandbags_x.mdl"}
+	{Volume "dot_sandbags_x1"
+;		{Tags  "body"}
+;		{Thickness 200}
+;		{able {visible 1}{touch 0}}
+	}
+	{Volume "dot_sandbags_x2"
+;		{Tags  "body"}
+;		{Thickness 200}
+;		{able {visible 1}{touch 0}}
+	}
+	{Volume "dot_sandbags_x3"
+;		{Tags  "body"}
+;		{Thickness 200}
+;		{able {visible 1}{touch 0}}
+	}
+	{Volume "dot_sandbags_x4"
+;		{Tags  "body"}
+;		{Thickness 200}
+;		{able {visible 1}{touch 0}}
+	}
+	{Volume "piece01"
+	}
+	{Volume "piece02"
+	}
+	{Volume "piece03"
+	}
+	{Volume "piece04"
+	}
+	{Volume "piece05"
+	}
+	{Volume "piece06"
+	}
+	{Volume "piece07"
+	}
+	{Volume "piece08"
+	}
+	{Volume "piece09"
+	}
+	{Volume "piece10"
+	}
+	{Volume "piece11"
+	}
+	{Volume "piece12"
+	}
+	{Volume "piece13"
+	}
+	{Volume "piece14"
+	}
+	{Volume "piece15"
+	}
+}

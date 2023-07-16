@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "ger_tank_commander"}
+	{blend none}
+}

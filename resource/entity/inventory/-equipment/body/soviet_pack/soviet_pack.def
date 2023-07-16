@@ -1,0 +1,7 @@
+{actor
+	(include "/properties/stuff_small.ext")
+	{Extension "soviet_pack.mdl"}
+	{extender "stuff"
+		{item "soviet_pack"}
+	}
+}

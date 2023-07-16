@@ -1,0 +1,25 @@
+;Exported by: Фёдор
+;Date:        Wed Nov 19 14:00:29 2014
+;File:        C:\Users\Фёдор\Documents\3dsmax\scenes\new_okop_baza_6_bun_02.max
+{Skeleton
+	{bone "basic"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "gun_nest"
+			{Position 37.6208	-8.34344	-42.8814}
+		}
+		{bone "wall1"
+		}
+		{bone "wall2"
+		}
+		{bone "wall3"
+		}
+		{bone "wall4"
+		}
+		{bone "roof"
+		}
+	}
+}

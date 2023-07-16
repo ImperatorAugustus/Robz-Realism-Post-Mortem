@@ -1,0 +1,33 @@
+;Exported by: Руслан
+;Date:        Mon Aug 26 23:47:16 2013
+;File:        C:\Users\Руслан\Documents\3dsmax\scenes\Новая папка\new_okop_3_baza_6.max
+{Skeleton
+	{bone "baza_roof_04"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "exterior"
+			{Matrix34
+				0.998103	-0.0615713	0
+				0.0615713	0.998103	0
+				0	0	1
+				7.70128	-1.43524	0
+			}
+			{VolumeView "exterior.ply"}
+		}
+	}
+}
+
+{Volume "body24"
+	{Box 57.3472 45.2756 4.92126}
+	{Bone "exterior"}
+	{Matrix34
+		0.999918	-0.012808	0
+		0.012808	0.999918	0
+		0	0	1
+		-23.6118	13.2123	10.6028
+	}
+}
+

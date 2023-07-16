@@ -1,0 +1,50 @@
+;Exported by: Loskutov_K
+;Date:        Wed Apr 21 14:05:10 2010
+;File:        D:\_Vietnam\Art\Models\Houses\Saray_3\saray_3_complete.max
+{Skeleton
+	{bone "roofhold1_s3"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "roofhold1_s3.ply"}
+		{bone "exterior"
+			{Position -1.65906	5.8492	-2.10287}
+			{VolumeView "exterior.ply"}
+		}
+		{bone "fix08"
+			{Position 5.58313	-24.7149	-19.8731}
+		}
+	}
+}
+{Volume "body"
+	{Box 3.42831 3.66782 39.9296}
+	{Bone "roofhold1_s3"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		-0.12995	-24.1608	-0.142653
+	}
+}
+{Volume "roof1"
+	{Box 56.5316 2.79606 33.7905}
+	{Bone "exterior"}
+	{Matrix34
+		0	-1	0
+		0.758193	0	0.65203
+		-0.65203	0	0.758193
+		11.6371	-12.9619	10.2399
+	}
+}
+{Volume "roof2"
+	{Box 68.9685 2.79606 33.7905}
+	{Bone "exterior"}
+	{Matrix34
+		0	1	0
+		-0.758193	0	0.65203
+		0.65203	0	0.758193
+		-8.66098	-7.50629	10.2399
+	}
+}

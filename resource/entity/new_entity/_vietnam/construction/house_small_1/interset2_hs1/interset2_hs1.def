@@ -1,0 +1,15 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{Extension "interset2_hs1.mdl"}
+	{props "wood" "small" "construction" "parts" "disable_area" "no_destroyed_stamp" "burning" "break_on_burn"}
+	("armor_fabric")
+	{mass 10}
+
+	{extender "structure_bone"
+		{hold "13"}
+	}
+	{Volume "body"
+		{Tags  "body"}
+		{Thickness 1}
+	}
+}

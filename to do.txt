@@ -18,7 +18,6 @@ model for m3 carbine
 
 fix
 open top vehicle holes
-HE targeting of vehicles
 local
 icons
 	mg 42 sp

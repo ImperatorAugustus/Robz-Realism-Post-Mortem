@@ -90,10 +90,8 @@
 {"pz4g_ss"	("v_ss" c(10) v1(pz4g) t(medium all 43 44) 	s(ger_ss) n1(3) n2(1) g(e13) b(v4)) {level 1} {cost 480} {fore -82.0}}		;830sec
 
 {"pz5a_ss"	("v_ss" c(600) v1(pz5a) t(heavy all 43 44) 	s(ger_ss) n1(4) n2(1) g(e16) b(v4)) {level 1} {cost 1450} {fore -2.15}}  ;1890sec
-{"pz5g_ss"	("v_ss" c(600) v1(pz5g) t(heavy all 44 45) 	s(ger_ss) n1(4) n2(1) g(e16) b(v4)) {level 1} {cost 1475} {fore -2.15}}  ;1890sec
 
 {"pz6h_ss"	("v_ss" c(60) v1(pz6h) t(heavy all 43 44) 	s(ger_ss) n1(3) n2(1) g(e17) b(v4)) {level 1} {cost 1350} {fore -26.0}}	;1620sec
-{"pz6e_ss"	("v_ss" c(60) v1(pz6e) t(heavy all 43 44 45) 	s(ger_ss) n1(4) n2(1) g(e18) b(v4)) {level 1} {cost 1375} {fore -26.0}}	;1620sec
 
 {"pz6bh_ss"	("v_ss" c(120) v1(pz6bh) t(heavy all 44 45) 	s(ger_ss) n1(4) n2(1) g(e19) b(v4)) {level 1} {cost 2550} {fore -19.25}} 	;2430sec
 

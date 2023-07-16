@@ -86,10 +86,8 @@
 
 {"pz4h"             ("v" c(10) t(44 medium) 		s(ger) n1(4) n2(1) g(e14) sc(27.5) b(v4) cw(0) cp(20)) {level 1} {cost 525} {fore -94.0}}	;950sec
 
-{"pz5a"             ("v" c(60) t(44 heavy) 			s(ger) n1(4) n2(1) g(e16) sc(73.75) b(v4) cw(0) cp(30)) {level 1} {cost 1350} {fore -26.0}}	;1620sec
 {"pz5g"             ("v" c(60) t(44 heavy) 			s(ger) n1(4) n2(1) g(e16) sc(75) b(v4) cw(0) cp(30)) {level 1} {cost 1375} {fore -26.0}}	;1620sec
 
-{"pz6h"		    	("v" c(600) t(44 heavy) 		s(ger) n1(3) n2(1) g(e17) sc(61.25) b(v4) cw(0) cp(30)) {level 1} {cost 1425} {fore -2.15}}  ;1890sec
 {"pz6e"             ("v" c(600) t(44 heavy) 		s(ger) n1(4) n2(1) g(e17) sc(62.5) b(v4) cw(0) cp(30)) {level 1} {cost 1450} {fore -2.15}}  ;1890sec
 
 {"sdkfz182b"        ("v" c(120) t(44 sheavy) 		s(ger) n1(4) n2(1) g(e19) sc(110.00) b(v4) cw(0) cp(40)) {level 1} {cost 2200} {fore -19.25}} 	;2430sec

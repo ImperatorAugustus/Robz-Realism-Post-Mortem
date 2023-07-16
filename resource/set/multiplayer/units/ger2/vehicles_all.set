@@ -91,6 +91,7 @@
 {"pz4j_ger2"			("v_ss" c(10) v1(pz4j_vet) t(medium all 44 45) 	s(ger2) n1(4) n2(1) g(e7) b(v6)) {level 1} {cost 675} {fore -82.0}}		;830sec ;vetted
 
 {"pz6e_ger2"			("v" c(600) t(all 44 45 heavy)		s(ger2) n1(4) n2(1) g(e9) sc(67.50) b(v6) cw(0) cp(30)) {level 1} {cost 1550} {fore -2.15}}  ;1890sec ;vetted
+
 {"pz5g_ger2"			("v" c(600) t(all 44 45 heavy)		s(ger2) n1(4) n2(1) g(e10) sc(80.00) b(v6) cw(0) cp(30)) {level 1} {cost 1550} {fore -2.15}}  ;1890sec ;vetted
 
 {"sdkfz182b_ger2"		("v_ss" c(120) v1(sdkfz182b) t(sheavy all 44 45) 	s(ger2) n1(4) n2(1) g(e11) b(v6)) {level 1} {cost 2250} {fore -19.25}} 	;2430sec ;vetted

@@ -19,17 +19,12 @@
 ;------------------------------elite guards squads ||| vet 6-----------------------------------------------------------
 
 ("squad_with3types" side(rus_guard) name(elite_guards_smg) c(240) g(rus_guard2) c1(elite_guard_sl:1) c2(elite_guard_smg:4) c3(elite_guard_smg2:5) b(squad1) t(all inf_only 43 44 45) level(1) cost(215) f(1.0))
-("squad_with5types" side(rus_guard) name(elite_guards_43) c(240) g(rus_guard3) c1(elite_guard_sl:1) c2(elite_guard_smg2:3) c3(elite_guard_sa:1) c4(elite_guard_mg:2) c5(elite_guard_mg_asst:2) b(squad1) t(all inf_only 43 44) level(1) cost(255) f(1.0))
 ("squad_with6types" side(rus_guard) name(elite_guards) c(240) g(rus_guard3) c1(elite_guard_sl:1) c2(elite_guard_smg2:3) c3(elite_guard_sa:2) c4(elite_guard_mg:1) c5(elite_guard_mg_asst:1) c6(elite_guard_rifle:3) b(squad1) t(all inf_only 44 45) level(1) cost(232) f(1.0))
 
 ;------------------------------elite guards shock troops ||| vet 7-----------------------------------------------------------
 
 ("squad_with4types" side(rus_guard) name(elite_guards_shock_assault) c(300) g(rus_guard2) c1(elite_guards_shock_sl_smg:1) c2(elite_guards_shock_smg2:4) c3(elite_guards_shock_smg3:5) c4(elite_guards_shock_flame:1) b(squad1) t(all inf_only 42 43 44 45) level(1) cost(275) f(1.0))
 ("squad_with8types" side(rus_guard) name(elite_guards_shock) c(300) g(rus_guard3) c1(elite_guards_shock_sl:1) c2(elite_guards_shock_smg3:2) c3(elite_guards_shock_sa:2) c4(elite_guards_shock_rifle:2) c5(elite_guards_shock_mg:1) c6(elite_guards_shock_mg_asst:1) c7(elite_guards_shock_mg2:1) c8(elite_guards_shock_mg2_asst:1) b(squad1) t(all inf_only 42 43 44 45) level(1) cost(305) f(1.0))
-
-;------------------------------stormtrooper halftrack |||| vet 3/4----------------------------------------------
-
-
 
 ;------------------------------AP and AT miners, sappers || vet 2-----------------------------------------------
 

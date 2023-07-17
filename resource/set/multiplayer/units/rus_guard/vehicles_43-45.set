@@ -46,7 +46,7 @@
 ("how" side(rus_guard) name(np_ml20) c(60) c1(zis5art) c2(np_ml20) t(artillery heavyart heavy 43 44 45) g(c22) b(v22) level(1) cost(875) f(-19.0))	;1200sec
 ("how" side(rus_guard) name(how_a) c(60) c1(zis5art) c2(d1) 	t(artillery heavyart heavy 43 44 45) g(c16) b(v22) level(1) cost(725) f(-19.0))			;1200sec
 {"203b4_guard"            ("vs_rus_g_noinfo" c(60) v1(203b4) t(all artillery heavyart heavy 43 44 45) 	s(rus_guard) n(2) g(c17) sc(75.00) b(v22) cw(2) cp(25)) {level 1} {cost 1300} {fore -19.0}} 		;1200sec
-{"280br5_guard"          ("vs_rus_g_noinfo" c(60) v1(280br5) t(all artillery heavyart heavy 44 45) 	s(rus_guard) n(2) g(c17) sc(80.00) b(v2) cw(2) cp(25)) {level 1} {cost 1600} {fore -19.0}} 	;1200sec
+{"280br5_guard"          ("vs_rus_g_noinfo" c(60) v1(280br5) t(all artillery heavyart heavy 44 45) 	s(rus_guard) n(2) g(c17) sc(80.00) b(v22) cw(2) cp(25)) {level 1} {cost 1600} {fore -19.0}} 	;1200sec
 
 {"bm_8_24_guard"        ("vs_rus_g" c(60) v1(bm_8_24) t(all artillery heavyart rocket 43 44 45) 	s(rus_guard) n(2) g(c22) sc(62.50) b(v22) cw(0) cp(15)) {level 1} {cost 500} {fore -19.0}} 	;1200sec
 {"bm8-48_guard"         ("vs_rus_g" c(60) v1(bm8-48) t(artillery heavyart rocket 43 44 45) 	s(rus_guard) n(2) g(c23) sc(62.50) b(v22) cw(0) cp(15)) {level 1} {cost 650} {fore -14.0}} 		;900sec

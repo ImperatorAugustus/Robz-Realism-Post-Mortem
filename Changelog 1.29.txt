@@ -153,6 +153,7 @@ USA
 -Added paradropped 57mm for 3 sp.
 -Added Marine Raider on LVT buy for 6sp.
 -Removed 105 sherman sp buy.
+-Fury sp buy increased from 7 to 8sp..
 -Added m3 carbine sp buy. Two teams of three for 2sp. 60m range but with advanced thermal scope.
 -Removed odd restriction on M18 Hellcat ringmount MG.
 

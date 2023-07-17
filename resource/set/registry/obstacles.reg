@@ -33,9 +33,9 @@
     }
 	{fire
 		{flag_damage}
-		{"human"			-1	}
+		{"human"			1000}
 		{"human_flying"		 0	}
-		{"animal"			-1	}
+		{"animal"			1000}
 		("vehicles"	  cost(200)	)
 		("marines"	  cost(200) )
 		{"airborne"			 0	}
@@ -71,19 +71,19 @@
 		{"airdrop"		0}
     }
 	{trench_wall
-		{"human"			20	}
+		{"human"			22	}
 		{"human_flying"		-1	}
 		{"animal"			-1	}
 		{"moto"				-1	}
 		{"vehicle.small"	-1	}
 		{"vehicle.large"	-1	}
-		{"armored"			30	}
-		{"cannon.micro"		50	}
-		{"cannon.carried"	50	}
-		{"cannon.small"		50	}
-		{"cannon.large"		50	}
-		{"tank.light"		30   }
-		{"tank"				15   }
+		{"armored"			50	}
+		{"cannon.micro"		100	}
+		{"cannon.carried"	100	}
+		{"cannon.small"		100	}
+		{"cannon.large"		100	}
+		{"tank.light"		1000   }
+		{"tank"				0   }
 		{"amphibia"			30   }
 		{"railway"			0   }
 		{"airborne"			0	}
@@ -94,17 +94,17 @@
 		{"human_flying"		-1	}
 		{"animal"			-1	}
 
-		{"moto"				-1	}
-		{"vehicle.small"	-1	}
-		{"vehicle.large"	-1	}
-		{"armored"			400	}
-		{"cannon.micro"		-1	}
-		{"cannon.carried"	-1	}
-		{"cannon.small"		-1	}
-		{"cannon.large"		-1	}
-		{"tank.light"		350   }
-		{"tank"				300   }
-		{"amphibia"			25  }
+		{"moto"				1000	}
+		{"vehicle.small"	1000	}
+		{"vehicle.large"	1000	}
+		{"armored"			1000	}
+		{"cannon.micro"		1000	}
+		{"cannon.carried"	1000	}
+		{"cannon.small"		1000	}
+		{"cannon.large"		1000	}
+		{"tank.light"		300   }
+		{"tank"				200   }
+		{"amphibia"			200  }
 		{"railway"			0   }
 
 		{"airborne"			0	}
@@ -124,12 +124,25 @@
 		{"human"			-1	}
 		{"human_flying"		-1	}
 		{"animal"			-1	}
-		("vehicles"	   cost(-1)	)
-		("marines"	   cost(0)	)
+		{"moto"				-1	}
+		{"vehicle.small"	-1	}
+		{"vehicle.large"	-1	}
+		{"armored"			-1	}
+		{"cannon.micro"		-1	}
+		{"cannon.carried"	-1	}
+		{"cannon.small"		-1	}
+		{"cannon.large"		-1	}
+		{"tank.light"		-1 }
+		{"tank"				400  }
+		{"amphibia"			400  }
+		{"railway"			0   }
+
 		{"airborne"			0	}
+		("marines"	   cost(0)	)
 		{"airdrop"		0}
     }
 	{small_building
+		{flag_crush_in_battle}
 		{"human"			-1	}
 		{"human_flying"		-1	}
 		{"animal"			-1	}
@@ -137,14 +150,14 @@
 		{"moto"				-1	}
 		{"vehicle.small"	-1	}
 		{"vehicle.large"	-1	}
-		{"armored"			500	}
+		{"armored"			250	}
 		{"cannon.micro"		-1	}
 		{"cannon.carried"	-1	}
 		{"cannon.small"		-1	}
 		{"cannon.large"		-1	}
-		{"tank.light"		450   }
-		{"tank"				400   }
-		{"amphibia"			50   }
+		{"tank.light"		175  }
+		{"tank"				100}
+		{"amphibia"			100  }
 		{"railway"			0   }
 
 		{"airborne"			0	}
@@ -165,7 +178,7 @@
 		{"cannon.small"		-1	}
 		{"cannon.large"		-1	}
 		{"tank.light"		-1   	}
-		{"tank"			50  	}
+		{"tank"			100  	}
 		{"amphibia"		-1   	}
 		{"railway"		0   	}
 
@@ -179,13 +192,13 @@
 		{"animal"			-1	}
 
 		{"moto"				-1	}
-		{"vehicle.small"	60	}
-		{"vehicle.large"	60	}
-		{"armored"			50	}
-		{"cannon.micro"		-1	}
-		{"cannon.carried"	-1	}
-		{"cannon.small"		200	}
-		{"cannon.large"		200	}
+		{"vehicle.small"	500	}
+		{"vehicle.large"	500	}
+		{"armored"			100	}
+		{"cannon.micro"		2000	}
+		{"cannon.carried"	2000	}
+		{"cannon.small"		500	}
+		{"cannon.large"		500	}
 		{"tank.light"		50  }
 		{"tank"				30  }
 		{"amphibia"			50  }

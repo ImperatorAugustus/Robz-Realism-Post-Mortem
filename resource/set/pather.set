@@ -17,9 +17,9 @@
 		{Radius 0.3}
 	    {Terrain
 			"ground"		1
-			;"snow"			0.8
-			"no_pass"		0
-			"swamp"		    0
+			"snow"			0.8
+			"no_pass"		0.4
+			"swamp"		    1 0
 			"shallow_water"	0.7
 			"water"			0.4		0	; ai movement disabled
 			"deep_water"	0.4		0	; ai movement disabled
@@ -45,12 +45,12 @@
 		{Radius 0.3}
 	    {Terrain
 			"ground"		1
-			;"snow"			0.8
-			"no_pass"		0
-			"swamp"		    0
-			"shallow_water"	0
-			"water"			0		
-			"deep_water"	0		
+			"snow"			0.8
+			"no_pass"		1 0
+			"swamp"		    1 0
+			"shallow_water"	1 0
+			"water"			1 0		
+			"deep_water"	1 0		
 		}
 		{Height	 
 			0  0  0  1  1 ;  0...6..12..18..24..29
@@ -64,14 +64,14 @@
 		{Priority 5}
 		{BattleCrusher}
 	    {Terrain
-			"road"			1.25
+			"road"			1.5
 			"ground"		0.75
-			;"snow"			0.6
-			"no_pass"		0
-			"swamp"		   0
+			"snow"			0.6
+			"no_pass"		1 0
+			"swamp"		   1 0
 			"shallow_water"	0.5
-			"water"			0		
-			"deep_water"	0		
+			"water"			1 0		
+			"deep_water"	1 0		
 		}
 		{Height
 			0 0 1 2 3 ;  0...6..12..18..24..29
@@ -84,14 +84,14 @@
 		{Radius 5}
 		{Priority 4}
 	    {Terrain
-			"road"			1.25
+			"road"			1.5
 			"ground"		0.75
-			;"snow"			0.6
-			"no_pass"		0
-			"swamp"		    0
+			"snow"			0.6
+			"no_pass"		1 0
+			"swamp"		    1 0
 			"shallow_water"	0.5
-			"water"			0		
-			"deep_water"	0		
+			"water"			1 0		
+			"deep_water"	1 0		
 		}
 		{Height	 
 			0  0  1  2  3 ;  0...6..12..18..24..29
@@ -105,11 +105,11 @@
 		{Priority 3}
 		{BattleCrusher}
 	    {Terrain
-			"road"			1.25
+			"road"			1.5
 			"ground"		0.75
-			;"snow"			0.6
-			"no_pass"		0
-			"swamp"		    0
+			"snow"			0.6
+			"no_pass"		1 0
+			"swamp"		    1 0
 			"shallow_water"	0.7
 			"water"			0.5		
 			"deep_water"	0.5		
@@ -125,14 +125,14 @@
 		{Radius   5}
 		{Priority 3}
 	    {Terrain
-			"road"			1.25
+			"road"			1.5
 			"ground"		0.75
-			;"snow"			0.6
-			"no_pass"		0
-			"swamp"		    0
+			"snow"			0.6
+			"no_pass"		1 0
+			"swamp"		    1 0
 			"shallow_water"	0.5
-			"water"			0		
-			"deep_water"	0		
+			"water"			1 0		
+			"deep_water"	1 0		
 		}
 		{Height	 
 			0  0  1  2  3 ;  0...6..12..18..24..29
@@ -145,14 +145,14 @@
 		{Radius 5}
 		{Priority 2}
 	    {Terrain
-			"road"			1.25
+			"road"			1.5
 			"ground"		0.75
-			;"snow"			0.6
-			"no_pass"		0
-			"swamp"		    0
+			"snow"			0.6
+			"no_pass"		1 0
+			"swamp"		    1 0
 			"shallow_water"	0.33
-			"water"			0		
-			"deep_water"	0		
+			"water"			1 0		
+			"deep_water"	1 0		
 		}
 		{Height	 
 			0  1  1  2 -1 ;  0...6..12..18..24..29
@@ -165,14 +165,14 @@
 		{Radius 5}
 		{Priority 2}
 	    {Terrain
-			"road"			1.25
+			"road"			1.5
 			"ground"		0.75
-			;"snow"			0.6
+			"snow"			0.6
 			"no_pass"		0
-			"swamp"		    0
+			"swamp"		    1 0
 			"shallow_water"	0.33
-			"water"			0		
-			"deep_water"	0		
+			"water"			1 0		
+			"deep_water"	1 0		
 		}
 		{Height	 
 			0  1  1  2 -1 ;  0...6..12..18..24..29
@@ -185,14 +185,14 @@
 		{Radius 5}
 		{Priority 2}
 	    {Terrain
-			"road"			1.25
+			"road"			1.5
 			"ground"		0.75
-			;"snow"			0.6
-			"no_pass"		0
-			"swamp"		    0
+			"snow"			0.6
+			"no_pass"		1 0
+			"swamp"		    1 0
 			"shallow_water"	0.33
-			"water"			0		
-			"deep_water"	0		
+			"water"			1 0		
+			"deep_water"	1 0		
 		}
 		{Height	 
 			0  1  1  2 -1 ;  0...6..12..18..24..29
@@ -205,14 +205,14 @@
 		{Radius 5}
 		{Priority 2}
 	    {Terrain
-			"road"			1.25
+			"road"			1.5
 			"ground"		0.75
-			;"snow"			0.6
-			"no_pass"		0
-			"swamp"		    0
+			"snow"			0.6
+			"no_pass"		1 0
+			"swamp"		    1 0
 			"shallow_water"	0.33
-			"water"			0		
-			"deep_water"	0		
+			"water"			1 0		
+			"deep_water"	1 0		
 		}
 		{Height	 
 			0  1  1  1  2 ;  0...6..12..18..24..29
@@ -225,14 +225,14 @@
 		{Radius 5}
 		{Priority 2}
 	    {Terrain
-			"road"			1.25
+			"road"			1.5
 			"ground"		0.75
-			;"snow"			0.6
-			"no_pass"		0
-			"swamp"		    0
+			"snow"			0.6
+			"no_pass"		1 0
+			"swamp"		    1 0
 			"shallow_water"	0.33
-			"water"			0		
-			"deep_water"	0		
+			"water"			1 0		
+			"deep_water"	1 0		
 		}
 		{Height	 
 			0  0  0  0  1 ;  0...6..12..18..24..29
@@ -247,12 +247,12 @@
 	    {Terrain
 			"road"			1
 			"ground"		0.75
-			;"snow"			0.6
-			"no_pass"		0
-			"swamp"		    0
+			"snow"			0.6
+			"no_pass"		1 0
+			"swamp"		    1 0
 			"shallow_water"	0.33
-			"water"			0		
-			"deep_water"	0		
+			"water"			1 0		
+			"deep_water"	1 0		
 		}
 		{Height	 
 			0  0  0  0  0 ;  0...6..12..18..24..29
@@ -267,12 +267,12 @@
 	    {Terrain
 			"road"			1
 			"ground"		0.75
-			;"snow"			0.6
-			"no_pass"		0
-			"swamp"		    0
+			"snow"			0.6
+			"no_pass"		1 0
+			"swamp"		    1 0
 			"shallow_water"	0.33
-			"water"			0		
-			"deep_water"	0		
+			"water"			1 0		
+			"deep_water"	1 0		
 		}
 		{Height	 
 			0  0  0  0  0 ;  0...6..12..18..24..29

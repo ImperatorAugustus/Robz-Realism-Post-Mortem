@@ -8,8 +8,8 @@
 		{accuracy 2.5}
 		{throw_off}
 	}
-	{recoveryTime 2.2}
-	{rechargeTime 6}
+	{recoveryTime 1.4}
+	{rechargeTime 7.5}
 	{speed 150}
 	{healthDamage 35}
 	{aimingTolerance 0.8}

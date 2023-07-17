@@ -56,7 +56,7 @@
 ("how" side(ger_ss) name(morser18) c(60) c1(np_sdkfz8) c2(morser18) t(all artillery heavyart heavy 39 40 41 42 43 44 45) g(cc4) b(v22)  level(1) cost(1150) f(-19.0))	;1200sec
 
 {"nebelwerfer41_ss"	("vs_ss" c(60) v1(nebelwerfer41) t(all artillery rocket 41 42 43 44 45) s(ger_ss) n(2) g(cc5) b(v22)) {level 1} {cost 450} {fore -14.0}}	;900sec
-{"nebelwerfer42_ss"	("vs_ss" c(60) v1(nebelwerfer42) t(all artillery heavyart rocket 42 43 44 45) s(ger_ss) n(2) g(cc6) b(v22)) {level 1} {cost 1200} {fore -14.0}}	;900sec
+{"nebelwerfer42_ss"	("vs_ss" c(60) v1(nebelwerfer42) t(all artillery heavyart rocket 42 43 44 45) s(ger_ss) n(2) g(cc6) b(v22)) {level 1} {cost 1300} {fore -14.0}}	;900sec
 {"np_sdkfz251_1w_ss"	("vs_ss" c(60) v1(np_sdkfz251_1w) t(all artillery heavyart rocket 41 42 43 44 45) s(ger_ss) n(3) g(cc7) b(v22)) {level 1} {cost 1600} {fore -19.0}};1200sec
 
 {"wespe_ss"		("v_ss" c(60) v1(wespe) t(all artillery 43 44 45) s(ger_ss) n1(3) n2(1) g(cc8) b(v22)) {level 1} {cost 675} {fore -14.0}}	;900sec

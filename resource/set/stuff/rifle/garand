@@ -6,7 +6,7 @@
 	{reloadSound "garand/m1"}
 	
 	{Automatic}
-	{recoveryTime 0.45}
+	{recoveryTime 0.4}
 	{rechargeTime 6}
 	("accuracy_automatic_rifle")
 	("speed" s(853))

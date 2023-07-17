@@ -2,15 +2,16 @@
 	{filling "ammo bullet15" 25}
 	{fireSound "mgun/dshk_burst/"}
 	{reloadSound "ptrd"}
-	{rechargeTime 4}
+	{rechargeTime 5}
 	{Spreading	
-		{BurstRecoveryTime 0.6}
-		{BurstAccuracy 100 90 80 70 50 40}
+		{BurstRecoveryTime 0.8}
+		{BurstAccuracy  100 75 65 55 45 35 20}
 	}
 	{Automatic}
 	{burst
-		{short 2.5 1}
-		{long 7 2}
+		{short 1}
+		{long 5 2}
+		{rangeKoef 0.35}
 	}	
 	{range 150 150}
 	{traceFreq 1}

@@ -48,6 +48,7 @@
 		{item "mg34" filled}
 		{item "ammo mg_mauser drum" 150}
 		{item "bandage" 3}
+		{item "grenade molotov_coctail" 0 1}
 		{in_hands 0}
 	}
 }

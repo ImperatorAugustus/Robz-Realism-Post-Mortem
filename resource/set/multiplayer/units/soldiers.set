@@ -1,15 +1,4 @@
 ;SDL
-(define "plasma"
-    {tags   "plasma %side infantry man"}
-    {cp     2.5}
-    {score  2.15}
-    {basic}
-    {breed}
-    {cw 5.0}
-)
-{"mp/rus/plasma" ("plasma" side(rus))}
-{"mp/ger/plasma" ("plasma" side(ger))}
-{"mp/usa/plasma" ("plasma" side(usa))}
 
 (define "tankman"
     {tags   "tankman %side crew man"}

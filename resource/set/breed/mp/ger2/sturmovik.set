@@ -45,7 +45,7 @@
 		("veterancy_lvl2")
 	}
 	{inventory
-		{item "sg44b" filled}
+		{item "sg44" filled}
 		{item "ammo stg44_mag" 180}
 		{item "bandage" 5}
 		{item "grenade m24" 2}

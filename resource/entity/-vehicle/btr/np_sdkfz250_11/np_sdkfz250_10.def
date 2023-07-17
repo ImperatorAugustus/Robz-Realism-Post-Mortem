@@ -165,7 +165,7 @@
 			{weapon "37mm_pak35" filled}
 			{RestoreIKAfterAim}
 			{charger "gunner"}
-			{basic}
+			("abm_low")
 		}
 		{place "mgun"
 			{type "mgun_main"}
@@ -175,7 +175,7 @@
 			{gunner "gunner1"}
 			{charger "gunner1"}
 			{foresight "foresight3"}
-			{basic}
+			("abm_mgun")
 		}
 	}  	
 		

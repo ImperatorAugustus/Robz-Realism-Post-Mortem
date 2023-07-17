@@ -49,5 +49,6 @@
 		{item "ammo mp40_mag" 96}
 		{item "bandage" 3}
 		{in_hands 0}
+		{item "grenade molotov_coctail" 0 1}
 	}
 }

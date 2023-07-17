@@ -6,6 +6,6 @@
 		{accuracy 2.5}
 		{throw_off}
 	}
-	{recoveryTime 1.8}
+	{recoveryTime 0.84}
 	{range 150 150}
 }

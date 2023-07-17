@@ -170,8 +170,7 @@
 
 	{delete "map\multi\8v8_coastal_town\battle_zones.mi"}
 
-	{delete "map\multi\4x4_gsm_Bog\battle_zones.mi"}
-	{delete "map\multi\4x4_gsm_westland\battle_zones.mi"}
+	{delete "map\multi\8v8_elalamein\battle_zones.mi"}
 
 ;----
 

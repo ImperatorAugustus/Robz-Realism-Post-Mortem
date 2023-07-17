@@ -19,7 +19,7 @@
 			"ground"		1
 			;"snow"			0.8
 			"no_pass"		0
-			"swamp"		    0.25
+			"swamp"		    0
 			"shallow_water"	0.7
 			"water"			0.4		0	; ai movement disabled
 			"deep_water"	0.4		0	; ai movement disabled
@@ -60,7 +60,7 @@
     }	
 
     {Profile "tank"
-		{Radius 2.25}
+		{Radius 5}
 		{Priority 5}
 		{BattleCrusher}
 	    {Terrain
@@ -68,7 +68,7 @@
 			"ground"		0.75
 			;"snow"			0.6
 			"no_pass"		0
-			"swamp"		    0.5
+			"swamp"		   0
 			"shallow_water"	0.5
 			"water"			0		
 			"deep_water"	0		
@@ -81,14 +81,14 @@
     }
 
     {Profile "tank.light"
-		{Radius 2.25}
+		{Radius 5}
 		{Priority 4}
 	    {Terrain
 			"road"			1.25
 			"ground"		0.75
 			;"snow"			0.6
 			"no_pass"		0
-			"swamp"		    0.5
+			"swamp"		    0
 			"shallow_water"	0.5
 			"water"			0		
 			"deep_water"	0		
@@ -101,7 +101,7 @@
     }
 
 	{Profile "amphibia"
-		{Radius 2.25}
+		{Radius 2.5}
 		{Priority 3}
 		{BattleCrusher}
 	    {Terrain
@@ -109,7 +109,7 @@
 			"ground"		0.75
 			;"snow"			0.6
 			"no_pass"		0
-			"swamp"		    0.7
+			"swamp"		    0
 			"shallow_water"	0.7
 			"water"			0.5		
 			"deep_water"	0.5		
@@ -122,14 +122,14 @@
     }
 
     {Profile "armored"
-		{Radius   2.25}
+		{Radius   5}
 		{Priority 3}
 	    {Terrain
 			"road"			1.25
 			"ground"		0.75
 			;"snow"			0.6
 			"no_pass"		0
-			"swamp"		    0.5
+			"swamp"		    0
 			"shallow_water"	0.5
 			"water"			0		
 			"deep_water"	0		
@@ -142,14 +142,14 @@
     }
 
     {Profile "vehicle.large"
-		{Radius 2}
+		{Radius 5}
 		{Priority 2}
 	    {Terrain
 			"road"			1.25
 			"ground"		0.75
 			;"snow"			0.6
 			"no_pass"		0
-			"swamp"		    0.33
+			"swamp"		    0
 			"shallow_water"	0.33
 			"water"			0		
 			"deep_water"	0		
@@ -162,14 +162,14 @@
     }
 
     {Profile "vehicle.small"
-		{Radius 1.5}
+		{Radius 5}
 		{Priority 2}
 	    {Terrain
 			"road"			1.25
 			"ground"		0.75
 			;"snow"			0.6
 			"no_pass"		0
-			"swamp"		    0.33
+			"swamp"		    0
 			"shallow_water"	0.33
 			"water"			0		
 			"deep_water"	0		
@@ -182,14 +182,14 @@
     }
 
     {Profile "moto"
-		{Radius 1.5}
+		{Radius 5}
 		{Priority 2}
 	    {Terrain
 			"road"			1.25
 			"ground"		0.75
 			;"snow"			0.6
 			"no_pass"		0
-			"swamp"		    0.33
+			"swamp"		    0
 			"shallow_water"	0.33
 			"water"			0		
 			"deep_water"	0		
@@ -202,14 +202,14 @@
     }
 
     {Profile "cannon.large"
-		{Radius 2}
+		{Radius 5}
 		{Priority 2}
 	    {Terrain
 			"road"			1.25
 			"ground"		0.75
 			;"snow"			0.6
 			"no_pass"		0
-			"swamp"		    0.33
+			"swamp"		    0
 			"shallow_water"	0.33
 			"water"			0		
 			"deep_water"	0		
@@ -222,14 +222,14 @@
     }
 
     {Profile "cannon.small"
-		{Radius 1.5}
+		{Radius 5}
 		{Priority 2}
 	    {Terrain
 			"road"			1.25
 			"ground"		0.75
 			;"snow"			0.6
 			"no_pass"		0
-			"swamp"		    0.33
+			"swamp"		    0
 			"shallow_water"	0.33
 			"water"			0		
 			"deep_water"	0		
@@ -242,14 +242,14 @@
     }
 
     {Profile "cannon.carried"
-		{Radius 1.0}
+		{Radius 5}
 		{Priority 2}
 	    {Terrain
 			"road"			1
 			"ground"		0.75
 			;"snow"			0.6
 			"no_pass"		0
-			"swamp"		    0.33
+			"swamp"		    0
 			"shallow_water"	0.33
 			"water"			0		
 			"deep_water"	0		
@@ -262,14 +262,14 @@
     }
 
     {Profile "cannon.micro"
-		{Radius 0.6}
+		{Radius 5}
 		{Priority 2}
 	    {Terrain
 			"road"			1
 			"ground"		0.75
 			;"snow"			0.6
 			"no_pass"		0
-			"swamp"		    0.33
+			"swamp"		    0
 			"shallow_water"	0.33
 			"water"			0		
 			"deep_water"	0		

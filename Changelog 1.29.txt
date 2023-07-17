@@ -81,7 +81,7 @@ Faction/Balance - General:
 -All flame tanks limited to 3 in AZ.
 -Most heavily armored Flame tanks now come in to play after 15 mins, OT 34 being slightly lower, SS halftrack, SSD, and Wasp come at 6 minutes.
 
--Decreased accuracy of assault guns by 25% and reload nerfed reload by 10% ; helps prevents them from being op unkillable over hill snipers due to mow limitations (Stuh 42, Brumbar, Sig 33b, KV2, SU 152, SU122, Sherman 105, Chuchill CS, Cromwell CS, Chi Ha 120).
+-Decreased accuracy of assault guns by 25% and reload nerfed by 10% ; helps prevents them from being op unkillable over hill snipers due to mow limitations (Stuh 42, Brumbar, Sig 33b, KV2, SU 152, SU122, Sherman 105, Chuchill CS, Cromwell CS, Chi Ha 120).
 -Also added slight aiming time to them to prevent limit the flick method of farshooting.
 
 -Flak 88 and KwK 36 all have a base range of 230 now.
@@ -100,7 +100,7 @@ Faction/Balance - General:
 -Increased infantry ammo crate cost from 25mp to 30mp.
 -Reduced support crew cost from 40mp to 25mp, except Guards and Ost Front which are 35mp.
 
--Doubled mp regen via CP.
+-1.5x mp regen via CP.
 
 -Locked CP and MP settings to prevent division and inbalance.
 
@@ -111,6 +111,12 @@ Faction/Balance - General:
 -Buy menu reorder.
 
 -SP armored mortar increased by 100mp.
+
+-Sdkfz 250/10 3.7cm pak half abm fix.
+-T48 abm fix.
+-Fixed 15mm besa on humber burst accuracy and range switch.
+
+-Adjusted bolt rifle fire rate and stripper reload times to be more accurate.
 
 USA
 -----
@@ -184,6 +190,7 @@ USA
 -----
 	Infantry
 -Removed conscripts.
+-Partisans have a 50% chance to have a molotov each.
 -SMG squad is sequentialed into the following price; 125, 112, 100, 100, 100.
 -Rifle squad is sequentialed into the following price; 140, 126, 112, 112, 112.
 -Rifle Assault squad is sequentialed into the following price; 150, 135, 120, 120, 120.
@@ -210,6 +217,11 @@ USA
 -Given M3 Lee.
 -BT Series reintroduced.
 -Removed zsu 37.
+-t26-180mp.
+-bt5-190mp.
+-t60-230mp.
+-t70-250mp.
+-bt7a-300mp.
 -Reduced SU122 price by 50mp.
 -Reduced SU152 price by 150mp.
 -isu152 - 900 mp.
@@ -362,6 +374,7 @@ USA
 -ptrd- 110mp.
 -officer - 150mp.
 -Removed veteran marksman.
+-Removed Scoped STG 44.
 
 	Vehicles
 -Increased Flak 88 cost by 100mp.
@@ -402,6 +415,9 @@ USA
 -Reduced basic rifle squads by 15mp.
 -Reduced all elite infantry squads except Imperial guard by 20mp.
 -Added 50% more minners to each respective squad.
+-Removed Kamikaze SMG.
+-Gave Kamikaze 150% stamina regen from 125%.
+-Gave Kamikaze 110% speed from 100% speed.
 
 	Vehicles
 -Fixed 200m AT gun and TD range scaling so its accurate to max.

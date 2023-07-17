@@ -5,4 +5,6 @@
 	{reloadSound "rifle_bolt_five"}
 	
 	("speed" s(855))
+	{recoveryTime 1.4}
+	{rechargeTime 7.5}
 }

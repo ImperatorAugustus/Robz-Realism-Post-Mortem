@@ -49,6 +49,7 @@
 		{item "ammo mauser_clip" 30}
 		{item "bandage" 3}
 		{item "panzerfaust_30 weapon" filled}
+		{item "grenade molotov_coctail" 0 1}
 		{in_hands 0}
 	}
 }

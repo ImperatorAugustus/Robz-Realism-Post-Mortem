@@ -62,7 +62,6 @@
 		{color 0xffffffff}
 	}
 	{grain
-		{enable}
 		{colorAmount 0}
 		{grainAmount 0.02}
 		{grainParticleSize 0.6}

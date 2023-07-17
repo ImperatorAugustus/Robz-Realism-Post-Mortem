@@ -3,6 +3,6 @@
 	{entity "g41"}
 	{fireSound "rifle/g43_shot"}
 	{reloadSound "m1carbine"}
-	{rechargeTime 8.5}
+	{rechargeTime 7.5}
 	("sa_zeroing")
 }

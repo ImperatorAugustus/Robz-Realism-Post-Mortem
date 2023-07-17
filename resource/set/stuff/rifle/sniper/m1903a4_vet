@@ -6,6 +6,7 @@
 		{accuracy 2.5}
 		{throw_off}
 	}
-	{recoveryTime 1.7}
+	{recoveryTime 1.05}
+	{rechargeTime 7.5}
 	{range 150 150}
 }

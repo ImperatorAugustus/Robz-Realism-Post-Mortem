@@ -24,6 +24,6 @@
 	("accuracy_boost")
 	("sa_zeroing")
 	{parameters "mauser_clip"
-		{rechargeTime 8.5}
+		{rechargeTime 7.5}
 	}
 }

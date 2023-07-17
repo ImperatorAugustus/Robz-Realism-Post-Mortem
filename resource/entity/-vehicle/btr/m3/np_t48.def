@@ -90,6 +90,7 @@
 		{place "gun"
 			{weapon "57mm_oqf" filling "ammo bullet57 us-eng us apcbc" 1}
 			{RestoreIKAfterAim}
+			("abm_medium")
 		}
 	}
   	

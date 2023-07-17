@@ -6,6 +6,6 @@
 	
 	("speed" s(850))
 	;("accuracy_boost")
-	{recoveryTime 2.8}
-	{rechargeTime 6.5}
+	{recoveryTime 1.4}
+	{rechargeTime 7.5}
 }

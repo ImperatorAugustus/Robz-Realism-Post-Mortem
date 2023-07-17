@@ -2277,7 +2277,8 @@
 		{"at_rifles(ger)" "PzB 39 AT-Rifle team"}
 		{"at_rifles(jap)" "Type 97 Auto-Cannon team"}
 		{"at_rifles(rus)" "PTRD AT-Rifle team"}
-		{"at_rifles(ger2)" "PzB 784(r) AT-Rifle team"}
+		{"at_rifles(ger2)" "PzB 39 AT-Rifle team"}
+		{"at_rifles2(ger2)" "PzB 784(r) AT-Rifle team"}
 		{"at_rifles_guard(rus)" "PTRS AT-Rifle team"}
 		{"kamikaze(jap)" "Kamikaze infantry"}
 		{"type89mortarinf(jap)" "Type 89 Mortar team"}
@@ -2290,6 +2291,8 @@
 		{"bazookers(jap)" "Type 4 AT Launcher team"}
 		{"bazookers(rus)" "Bazooka team"}
 		{"bazookers(usa)" "Bazooka team"}
+		{"bazooker(ger2)" "Jäger Pzfst team"}
+		{"bazooker3(ger2)" "Jäger RPzB 54 team"}
 
 		{"stormtrooper5(eng)" "SAS PIAT team"}
 		{"stormtrooper5(ger)" "Panzergrenadier Panzerschreck team"}
@@ -2769,8 +2772,8 @@
 		{"home_guards(rus)" "Partisan Regular squad"}
 		{"home_guards_smg(rus)" "Partisan SMG squad"}
 		{"home_guards(usa)" "Conscripts"}
-		{"home_guards(ger2)" "Hungarian Reserves"}
-		{"home_guards2(ger2)" "Hungarian Rifle squad"}
+		{"home_guards(ger2)" "Leichte Aufklärung"}
+		{"home_guards2(ger2)" "Schwere Aufklärung"}
 		{"kamikazes(jap)" "Kamikaze"}
 		{"mgs2_40(eng)" "Bren Gun team"}
 		{"mgs2(eng)" "Bren Gun team"}
@@ -2778,7 +2781,7 @@
 		{"mgs2(ger)" "Grenadier MG42 team"}
 		{"mg2(ger_ss)" "SS-Grenadier MG34 team"}
 		{"mgs2(ger_ss)" "SS-Grenadier MG42 team"}
-		{"mgs2(ger2)" "MG42 team"}
+		{"mgs2(ger2)" "Jäger MG team"}
 		{"mgs3(ger2)" "DP-27 team"}
 		{"mgs4(ger2)" "Wz. 28 team"}
 
@@ -3014,7 +3017,7 @@
 		{"stormtroopers3(usa)" "Elite support infantry"}
 		{"stormtroopers(ger2)" "Elite Jäger squad"}
 		{"stormtroopers1(ger2)" "Elite Jäger marksmen"}
-		{"stormtroopers2(ger2)" "Elite Jäger AT team"}
+		{"stormtroopers2(ger2)" "Elite Jäger Pzfst team"}
 		{"stormtroopers3(ger2)" "Elite Jäger MG team"}
 		{"storm_mech_eng" "Mechanized SAS"}
 		{"storm_mech_ger" "Mechanized Panzergrenadiere"}
@@ -3100,7 +3103,7 @@
 		{"hero_rus_at_squad" "PTR Anti Tank Detachment"}
 		{"hero3_rus" "Veteran Sniper"}
 		{"hero4_rus" "Black Coats"}
-		{"hero5_rus" "Penal Troops"}
+		{"hero5_rus" "Mass Assault"}
 		{"hero5_rus(rus)" "Rifle Platoon"}
 		{"hero6_rus" "Radio Operator"}
 		{"hero7_rus" "Dual T-34/85s w/ Tank Riders"}
@@ -3487,6 +3490,20 @@
 		{"m4a3e8x2" "<c(00ff04)>2x M4A3E8(76)W Sherman"}
 		{"stug3gx2" "<c(00ff04)>2x StuG III Ausf. G"}
 		{"maxim_1910_30x2" "<c(00ff04)>2x Maxim 1910 HMG"}
+		{"m3_usax2" "<c(00ff04)>2x M3A1"}
+		
+		{"riflemansv2(rus)" "<c(00ff04)>Rifle squad"}
+		{"riflemansv3(rus)" "<c(00ff04)>Rifle squad"}
+		{"riflemansv4(rus)" "<c(00ff04)>Rifle squad"}
+		{"riflemansv5(rus)" "<c(00ff04)>Rifle squad"}
+		{"riflemans_riflev2(rus)" "<c(00ff04)>Assault Rifle squad"}
+		{"riflemans_riflev3(rus)" "<c(00ff04)>Assault Rifle squad"}
+		{"riflemans_riflev4(rus)" "<c(00ff04)>Assault Rifle squad"}
+		{"riflemans_riflev5(rus)" "<c(00ff04)>Assault Rifle squad"}
+		{"smgsv2(rus)" "<c(00ff04)>SMG Squad"}
+		{"smgsv3(rus)" "<c(00ff04)>SMG Squad"}
+		{"smgsv4(rus)" "<c(00ff04)>SMG Squad"}
+		{"smgsv5(rus)" "<c(00ff04)>SMG Squad"}
 	}
 	{"entity"
 		;new vehicles

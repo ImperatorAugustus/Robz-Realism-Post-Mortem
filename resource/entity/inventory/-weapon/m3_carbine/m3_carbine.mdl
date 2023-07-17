@@ -1,0 +1,128 @@
+;Exported by: Basement
+;Date:        Mon Jul 17 15:05:07 2023
+;File:        C:\Users\Basement\Documents\3dsMax\saves\m3_carbine.max
+{Skeleton
+	{bone "m3_carbine"
+		{parameters "CommonMesh;ID=smg;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "m3_carbine.ply"}
+			{VolumeView "m3_carbine_lod01.ply"}
+			{VolumeView "m3_carbine_lod02.ply"}
+		}
+		{bone "mag"
+			{Matrix34
+				-1	0	0
+				0	0	1
+				0	1	0
+				2.89026	-0.0349922	0
+			}
+			{LODView
+				{VolumeView "mag.ply"}
+				{VolumeView "mag_lod01.ply"}
+				{VolumeView "mag_lod02.ply"}
+			}
+		}
+		{bone "foresight3"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				12.1272	1.16069	0
+			}
+		}
+		{bone "fxshell"
+			{Matrix34
+				0	0.00410718	0.999992
+				-0.00868453	0.999954	-0.00410703
+				-0.999962	-0.00868445	3.56702e-05
+				2.57492	1.33463	0.238788
+			}
+		}
+		{bone "handle"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				3.65177	1.48797	0
+			}
+		}
+		{bone "m3_scope"
+			{LODView
+				{VolumeView "m3_scope.ply"}
+				{VolumeView "m3_scope_lod01.ply"}
+				{VolumeView "m3_scope_lod02.ply"}
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 15.795 2.24541 1.75054}
+	{Bone "m3_carbine"}
+	{Matrix34
+		0.92215	0	0
+		0	0	-0.92215
+		0	0.92215	0
+		4.69315	0.826213	0.29713
+	}
+}
+{Volume "select"
+	{Box 18.8426 2.24541 9.50292}
+	{Bone "m3_carbine"}
+	{Matrix34
+		1.072	0	0
+		0	0	-1.48045
+		0	1.16404	0
+		3.26077	1.93785	0.297134
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 5.33275	-2.47926	23.5326}
+			{lookat 4.03724	-1.72093	6.42275}
+			{fov 45}
+			{horizon 120.048}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 7.32458	-4.83314	17.5828}
+			}
+			{"1"
+				{type point}
+				{position 0.713345	-5.4824	12.4819}
+			}
+			{"2"
+				{type directional}
+				{direction -0.0815214	0	-0.493309}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin 5.33669	-2.47925	23.5326}
+			{lookat 4.04118	-1.72096	6.42276}
+			{fov 45}
+			{horizon 120.246}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 3.88851	-3.62793	17.8967}
+			}
+			{"1"
+				{type point}
+				{position -2.72272	-4.27721	12.7958}
+			}
+			{"2"
+				{type directional}
+				{direction -0.0815215	0	-0.493309}
+			}
+		}
+	}
+}

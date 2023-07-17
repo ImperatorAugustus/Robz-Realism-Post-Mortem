@@ -32,6 +32,9 @@ PATHING:
 -Allowed 'cannons' to climb any height at speed cost ; This should prevent units from getting stuck most of the time, and allow for more strategic uses with less micro - unfinished !Need to add NoPath zones to map to prevent stupid shit!
 -Allowed airborne to climb anything to prevent the dropper getting stuck.
 -Added correct pather IDs and removed death swamps from many maps - unfinished.
+-Fixed No Path
+-Reenabled snow pathing weights, was defaulting to 1.
+-Increased relative road weight to increase unit desire to move on roads.
 
 
 
@@ -94,7 +97,7 @@ Faction/Balance - General:
 -Average 10m increase in range before STGs go to long burst mode.
 -Reduced standard vp to 125.
 
--Increased startup timer of; all light vehicles with heavy cannons (50mm+ cannon or 37mm+ autocannon) by 15%, all medium armored or gunned tanks by 25%, all heavy armored or gunned tanks by 35%.
+-Increased startup timer of; all light vehicles with heavy cannons (47mm+ cannon or 37mm+ autocannon) by 15%, all medium armored or gunned tanks by 25%, all heavy armored or gunned tanks by 35%.
 -Various timer adjustments across the board to line up with other factions.
 -Removed some vehicle copies with little difference.
 

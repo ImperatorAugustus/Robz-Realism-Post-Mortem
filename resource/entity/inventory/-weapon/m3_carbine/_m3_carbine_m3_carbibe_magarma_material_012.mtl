@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "vn_carbine_atlas"}
+	{bump "vn_carbine_atlas_bp"}
+	{specular "vn_carbine_atlas_sp"}
+	{color "255 255 255 25"}
+	{blend none}
+}

@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "vn_m3_optic"}
+	{bump "vn_m3_optic_bp"}
+	{specular "vn_m3_optic_sp"}
+	{color "255 255 255 25"}
+	{blend none}
+}

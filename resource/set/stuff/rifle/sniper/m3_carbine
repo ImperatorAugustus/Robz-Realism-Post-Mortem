@@ -1,6 +1,6 @@
 {from "pattern sniper_rifle"
 	{filling "ammo m2carbine_mag" 30}
-	{entity "m2_carbine"}
+	{entity "m3_carbine"}
 	{fireSound "rifle/m1carbine_shot"}
 	{reloadSound "m1carbine"}
 	{mass 16}
@@ -9,8 +9,7 @@
 		{mode aim}
 		{PrepareTime 0.8}	
 		{PrepareCursor "aimed_shot"}
-		{accuracy 1.7}
-		{throw_off}
+		{accuracy 2.0}
 	}
 	
 	{burst

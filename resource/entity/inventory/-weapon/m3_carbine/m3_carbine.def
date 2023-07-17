@@ -1,0 +1,8 @@
+{entity
+	(include "/properties/stuff_small.ext")
+	{Extension "m3_carbine.mdl"}
+	{extender "stuff"
+		{item "m3_carbine"}
+	}
+	{nogroupmesh 1}
+}

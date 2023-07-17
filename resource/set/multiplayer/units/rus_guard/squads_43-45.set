@@ -8,8 +8,8 @@
 ;------------------------------guards rifle squads |||| vet 5----------------------------------------------------------
 
 ("squad_with3types" side(rus_guard) name(specialinf_smg) c(0) g(rus_guard) c1(guard_sl:1) c2(guard_smg:6) c3(guard_smg2:3) b(squad1) t(all inf_only 43 44 45) level(1) cost(175) f(1.0))
-("squad_with7types" side(rus_guard) name(specialinf) c(0) g(rus_guard) c1(guard_sl:1) c2(guard_smg:1) c3(guard_smg2:2) c4(guard_sa:3) c5(guard_mg:1) c6(guard_mg_asst:1) c7(guard_rifle:2) b(squad1) t(all inf_only 44 45) level(1) cost(200) f(1.0))
 ("squad_with6types" side(rus_guard) name(specialinf_rifle) c(0) g(rus_guard) c1(guard_sl:1) c2(guard_smg2:1) c3(guard_sa:2) c4(guard_mg:1) c5(guard_mg_asst:1) c6(guard_rifle:5) b(squad1) t(all inf_only 44 45) level(1) cost(205) f(1.0))
+("squad_with7types" side(rus_guard) name(specialinf) c(0) g(rus_guard) c1(guard_sl:1) c2(guard_smg:1) c3(guard_smg2:2) c4(guard_sa:3) c5(guard_mg:1) c6(guard_mg_asst:1) c7(guard_rifle:2) b(squad1) t(all inf_only 44 45) level(1) cost(220) f(1.0))
 
 ;------------------------------guards shock troops ||| vet 6-----------------------------------------------------------
 

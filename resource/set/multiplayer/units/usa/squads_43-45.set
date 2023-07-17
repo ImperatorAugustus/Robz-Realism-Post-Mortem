@@ -74,7 +74,7 @@
 
 ;------------------------------AT rifles and bazookas || vet 2--------------------------------------------------
 
-("squad_with1types" side(usa) name(shotguns)  c1(shotgun:1) c(15) g(soldier_4) b(squad2) t(all inf_only 39 40 41 42 43 44 45) level(1) cost(15) f(1.0))
+("squad_with1types" side(usa) name(shotguns)  c1(marine_shotgun:1) c(60) g(soldier_4) b(squad2) t(all inf_only 39 40 41 42 43 44 45) level(1) cost(20) f(1.0))
 
 ("squad_with2types" side(usa) name(bazookers) c1(bazooker:1) c2(bazooker2:1) c(0) g(soldier_5) b(squad2) t(all inf_only 42 43 44 45) level(1) level(1) cost(80) f(1.0))
 

@@ -3,7 +3,7 @@
 	;{filling "ammo flame"}
 	{filling "fuel" 0}
 	{inventory
-		{size 4 1 }
+		{size 4 2 }
 		{weight 100 }
 	}
 	{entity "flame_thrower"}
@@ -15,10 +15,10 @@
 	{Automatic}
 	{aimRange 40}
 	{maxRange 40}
-	{recoveryTime 0.1}
+	{recoveryTime 1.4}
     {RelaxationTime 0.5}
 	{gravity 35}
-	{speed 150}
+	{speed 160}
     {AimingTolerance 3}
 	{cursor "cannon_on"}
 	{burst

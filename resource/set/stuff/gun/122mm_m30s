@@ -11,4 +11,12 @@
 	{rechargeTime 19.8}
 	("caliber_maximum")
 	("accuracy_grazinghowitzer_high_200m")
+	(mod "mp"
+		{tag "prepare"}
+		{Special
+			{Mode aim}
+			{PrepareTime 0.1}
+			{PrepareCursor "cannon_shot"}
+		}
+	)
 }

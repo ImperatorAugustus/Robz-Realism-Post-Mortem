@@ -379,8 +379,8 @@
 			}
 		}
 		{entitygenerator
-			{totalparticles 20}
-			{particlesinblock 20}
+			{totalparticles 10}
+			{particlesinblock 10}
 			{emissionarea
 				{radius 1}
 				{alpha0 0}
@@ -411,8 +411,8 @@
 			}
 		}
 		{entitygenerator
-			{totalparticles 20}
-			{particlesinblock 20}
+			{totalparticles 10}
+			{particlesinblock 10}
 			{emissionarea
 				{radius 1}
 				{alpha0 0}
@@ -443,8 +443,8 @@
 			}
 		}
 		{entitygenerator
-			{totalparticles 20}
-			{particlesinblock 20}
+			{totalparticles 10}
+			{particlesinblock 10}
 			{emissionarea
 				{radius 1}
 				{alpha0 0}
@@ -475,8 +475,8 @@
 			}
 		}
 		{entitygenerator
-			{totalparticles 20}
-			{particlesinblock 20}
+			{totalparticles 10}
+			{particlesinblock 10}
 			{emissionarea
 				{radius 1}
 				{alpha0 0}
@@ -507,8 +507,8 @@
 			}
 		}
 		{entitygenerator
-			{totalparticles 20}
-			{particlesinblock 20}
+			{totalparticles 10}
+			{particlesinblock 10}
 			{emissionarea
 				{radius 1}
 				{alpha0 0}
@@ -539,8 +539,8 @@
 			}
 		}
 		{entitygenerator
-			{totalparticles 20}
-			{particlesinblock 20}
+			{totalparticles 10}
+			{particlesinblock 10}
 			{emissionarea
 				{radius 1}
 				{alpha0 0}
@@ -559,7 +559,7 @@
 	}
 	{#+ particleview "flare particles"
 		{generator
-			{totalparticles 150}
+			{totalparticles 70}
 			{emissionarea
 				{radius 1 1}
 				{alpha0 45 45}
@@ -570,7 +570,7 @@
 				{lifetime 12.5 2.5}
 			}
 			{timetolive 0.1}
-			{particlesinblock 150}
+			{particlesinblock 70}
 			{axisz}
 		}
 		{mover

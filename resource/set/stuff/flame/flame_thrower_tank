@@ -15,7 +15,7 @@
 	{Automatic}
 	{aimRange 70}
 	{maxRange 70}
-	{recoveryTime 0.2}
+	{recoveryTime 1.4}
     {RelaxationTime 0.5}
 	{gravity 35}
 	{speed 230}

@@ -145,8 +145,8 @@
 			}
 		}
 		{entitygenerator
-			{totalparticles 20}
-			{particlesinblock 20}
+			{totalparticles 10}
+			{particlesinblock 10}
 			{emissionarea
 				{radius 1}
 				{alpha0 2.5 2.5}
@@ -177,8 +177,8 @@
 			}
 		}
 		{entitygenerator
-			{totalparticles 20}
-			{particlesinblock 20}
+			{totalparticles 10}
+			{particlesinblock 10}
 			{emissionarea
 				{radius 1}
 				{alpha0 2.5 2.5}

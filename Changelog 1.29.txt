@@ -23,6 +23,7 @@ PERFORMANCE:
 -Limit the number of useless entity objects.
 -Removed all other modes except 44-45 Assault Zones. All other modes have long been unsupported and can be readded via submods.
 -Merged some copy models and culled unused models and skins - unfinished.
+-Reduced particles from WP.
 
 
 
@@ -118,6 +119,11 @@ Faction/Balance - General:
 
 -Adjusted bolt rifle fire rate and stripper reload times to be more accurate.
 
+-Made anti tank rifles more realistic.
+
+-Burst mode to flamethrowers.
+-Adjusted fuel amount for flame throwers to realistic amounts.
+
 USA
 -----
 	Vehicles
@@ -159,13 +165,13 @@ USA
 
 	Infantry
 -Buffed M1, M1A1, and M2 Carbine.
--Shotguns are single infantry at 15mp each.
+-Single buy shotgun turned into single marine. Added 60 second timer. 20mp.
 -US Bazooka single buy reduced from 100 to 80mp.
 -US Ranger Bazooka single buy reduced from 150 to 130mp.
 -US Ranger Recoiless single buy reduced from 150 to 130mp.
 -Changed all US machine gun single buys into 4 man fire teams.
 -Ranger Heavy squad price increased by 15mp.
--Added a shotgun to marine rifle squad and now have a 1 minute startup timer.
+-Added a shotgun to marine rifle squad.
 -Added boys at rifle to paramarines.
 
 
@@ -205,7 +211,7 @@ USA
 -Bazooka reduced by 10mp.
 -Reduced PTRD cost by 20mp.
 -Added sequential buy that reduces every 2nd PTRD buy to 40 mp.
--Added hero AT squad for 2 SP. 2 beteran PTRS, 1 regular PTRD, 1 AT Rifle support.
+-Added hero AT squad for 2 SP. 2 veteran PTRS, 1 regular PTRD, 1 AT Rifle support.
 -Updated charge to reflect an assault rifle squads without lmgs.
 
 	Vehicles
@@ -427,6 +433,8 @@ USA
 -Type 92 HMG reduced by 10 mp.
 -47mm AT gun reduced by 80mp.
 -75mm at gun reduced by 30mp.
+-Added Sandbags to Pak38 anti tank gun.
+-Added camoflauge kits to 75mm AT/Field gun, 75mm Mountain gun, and 47mm AT.
 -Ha Go and Ke Nu to 160mp.
 -Chi Ha 57 to 210 mp.
 -Chi Ha 47 to 230 mp.

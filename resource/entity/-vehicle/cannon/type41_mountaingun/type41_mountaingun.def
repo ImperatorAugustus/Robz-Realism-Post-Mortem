@@ -85,6 +85,7 @@
 			{item "bullet75 japs fg" 6}
 			{item "bullet75 japs heat" 4}
 			{item "bullet75 japs wp" 10}
+			{item "plant" 5}
 		}
 	}
 	{mass 800}

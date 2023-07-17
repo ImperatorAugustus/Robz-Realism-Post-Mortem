@@ -55,7 +55,6 @@
 ("how" side(rus) name(how_b) c(60) c1(zis5art) c2(m30_1938) t(all artillery 44 45) g(c15) b(v22) level(1) cost(500) f(-14.0))			;900sec
 ("how" side(rus) name(np_ml20) c(60) c1(zis5art) c2(np_ml20) t(all artillery heavyart heavy 44 45) g(c22) b(v22) level(1) cost(875) f(-19.0))	;1200sec
 ("how" side(rus) name(how_a) c(60) c1(zis5art) c2(d1) 	t(all artillery heavyart heavy 44 45) g(c16) b(v22) level(1) cost(725) f(-19.0))			;1200sec
-{"203b4"            ("vs" c(60) t(all artillery heavyart heavy 44 45) 	s(rus) n(2) g(c17) sc(60.00) b(v22) cw(2) cp(25)) {level 1} {cost 1300} {fore -19.0}} ;1200sec
 {"280br5"           ("vs" c(60) t(all artillery heavyart heavy 44 45) 	s(rus) n(2) g(c17) sc(75.00) b(v22) cw(2) cp(25)) {level 1} {cost 1600} {fore -19.0}} ;1200sec
 
 {"bm_8_24"          ("vs" c(60) t(artillery heavyart rocket 44 45) 	s(rus) n(2) g(c22) sc(25.00) b(v22) cw(0) cp(10)) {level 1} {cost 500} {fore -14.0}} ;900sec

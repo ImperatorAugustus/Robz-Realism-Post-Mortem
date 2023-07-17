@@ -1,0 +1,12 @@
+{item
+	{tag "flame capacity balloon"}
+	{tag "itemin2hands"}
+	{filling "fuel" 200}
+	{inventory
+		{size 4 2}
+		{weight 100}
+		{fsm "hand-only"}
+	}
+	{mass 40}
+	{entity "balloon_tank"}
+}

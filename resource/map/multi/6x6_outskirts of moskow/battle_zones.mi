@@ -608,33 +608,6 @@
 		{Player 0}
 		{MID 28}
 	}
-	{Human "mp/ger/at_rifle" 0x800e
-		{Position 592.93 1338.61}
-		{TexMod "heer_splitter"}
-		{Player 0}
-		{MID 20}
-		{NameId 90 52}
-		{FsmState "stand"}
-	}
-	{Entity "pzb39" 0x8011
-		{Extender "stuff"
-			{Item "pzb39" filled}
-		}
-	}
-	{Human "mp/ger/at_rifle" 0x8012
-		{Position -1152.95 1445.23}
-		{xform zl -25.26}
-		{TexMod "heer_splitter"}
-		{Player 0}
-		{MID 29}
-		{NameId 90 53}
-		{FsmState "squat"}
-	}
-	{Entity "pzb39" 0x8013
-		{Extender "stuff"
-			{Item "pzb39" filled}
-		}
-	}
 	{Tags "keep_places_without_door" 0x1000}
 	{Tags "keep_places_without_door" 0x200f}
 	{Tags "keep_places_without_door" 0x2011}
@@ -671,7 +644,6 @@
 	{Tags "keep_places_without_door" 0x416e}
 	{Tags "keep_places_without_door" 0x3d0}
 	{Tags "keep_places_without_door" 0x41d2}
-	{Tags "keep_places_without_door" 0x41f6}
 	{Tags "keep_places_without_door" 0x421d}
 	{Tags "keep_places_without_door" 0x535}
 	{Tags "keep_places_without_door" 0x217d}
@@ -746,13 +718,11 @@
 	{Tags "keep_places_without_door" 0xd7d}
 	{Tags "keep_places_without_door" 0xf1b}
 	{Tags "keep_places_without_door" 0x48b6}
-	{Tags "keep_places_without_door" 0x400}
 	{Tags "keep_places_without_door" 0x10ec}
 	{Tags "keep_places_without_door" 0x1070}
 	{Tags "keep_places_without_door" 0x110c}
 	{Tags "keep_places_without_door" 0x327}
 	{Tags "keep_places_without_door" 0x689c}
-	{Tags "keep_places_without_door" 0x4301}
 	{Tags "keep_places_without_door" 0x43fa}
 	{Tags "keep_places_without_door" 0x384b}
 	{Tags "keep_places_without_door" 0x1303}
@@ -778,42 +748,8 @@
 	{Tags "day" 0xc00d}
 	{Tags "day" 0xc00e}
 	{Tags "day" 0x800d}
-	{Tags "riflew" "jammable" 0x800e}
 	{Tags "keep_places_without_door" {0x3006 "10_in"}}
 	{Tags "keep_places_without_door" {0x50ff "7"}}
-	{Tags "riflew" "jammable" 0x8012}
-	{Inventory 0x800e
-		{box
-			{clear}
-			{item 0x8011 {cell 0 0}{user "hand_right"}}
-			{item "bandage" 3 {cell 0 2}}
-			{item "hohlladung" "grenade" {cell 2 2}}
-			{item "ptr" "ammo" 5 {cell 4 2}}
-			{item "ptr" "ammo" 5 {cell 0 3}}
-			{item "ptr" "ammo" 5 {cell 4 3}}
-			{item "ptr" "ammo" 5 {cell 0 4}}
-			{item "ptr" "ammo" 5 {cell 2 4}}
-			{item "ptr" "ammo" 5 {cell 4 4}}
-			{item "ptr" "ammo" 5 {cell 0 5}}
-			{item "helmet_ger_m40" {cell 2 5}{user "head"}}
-		}
-	}
-	{Inventory 0x8012
-		{box
-			{clear}
-			{item 0x8013 {cell 0 0}{user "hand_right"}}
-			{item "bandage" 3 {cell 0 2}}
-			{item "hohlladung" "grenade" {cell 2 2}}
-			{item "ptr" "ammo" 5 {cell 4 2}}
-			{item "ptr" "ammo" 5 {cell 0 3}}
-			{item "ptr" "ammo" 5 {cell 4 3}}
-			{item "ptr" "ammo" 5 {cell 0 4}}
-			{item "ptr" "ammo" 5 {cell 2 4}}
-			{item "ptr" "ammo" 5 {cell 4 4}}
-			{item "ptr" "ammo" 5 {cell 0 5}}
-			{item "helmet_ger_m40" {cell 2 5}{user "head"}}
-		}
-	}
 	{Brain 0xb07
 		{Properties
 			{fire_mode hold}

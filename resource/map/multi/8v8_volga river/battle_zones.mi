@@ -1,6 +1,6 @@
 {mission
 	{Entity "map_point" 0x802c
-		{Position 2951.99 -7515.92}
+		{Position 2847.82 -7310.65}
 		{xform zl 108.19}
 		{Extender "map_point"
 			{name b1}
@@ -19,7 +19,7 @@
 		{MID 45}
 	}
 	{Entity "map_point" 0x802d
-		{Position -2736.51 12381.9}
+		{Position -2701.76 12085.8}
 		{xform zl -82.63}
 		{Extender "map_point"
 			{name a2}
@@ -38,7 +38,7 @@
 		{MID 46}
 	}
 	{Entity "map_point" 0xc000
-		{Position -3428.7 -7498.74}
+		{Position -3364.66 -7317.44}
 		{xform zl 78.09}
 		{Extender "map_point"
 			{name b2}
@@ -57,7 +57,7 @@
 		{MID 1}
 	}
 	{Entity "map_point" 0xc007
-		{Position 2955.11 12373.9}
+		{Position 2909.79 12088.1}
 		{xform zl -91.4}
 		{Extender "map_point"
 			{name a1}
@@ -76,7 +76,7 @@
 		{MID 9}
 	}
 	{Entity "map_point" 0x8003
-		{Position 188.28 12383.7}
+		{Position 210.43 12000.6}
 		{xform zl -92.94}
 		{Extender "map_point"
 			{name a3}
@@ -95,7 +95,7 @@
 		{MID 4}
 	}
 	{Entity "map_point" 0x8004
-		{Position -185.68 -7514.57}
+		{Position -228.31 -7267.66}
 		{xform zl 89.04}
 		{Extender "map_point"
 			{name b3}
@@ -275,7 +275,7 @@
 		{MID 6}
 	}
 	{Entity "map_point" 0x8000
-		{Position 5894.16 -7506.28}
+		{Position 5974.27 -7246.82}
 		{xform zl 89.04}
 		{Extender "map_point"
 			{name b4}
@@ -294,7 +294,7 @@
 		{MID 7}
 	}
 	{Entity "map_point" 0x8002
-		{Position 4452.34 -7500.54}
+		{Position 4509.6 -7286.46}
 		{xform zl 89.04}
 		{Extender "map_point"
 			{name b5}
@@ -313,7 +313,7 @@
 		{MID 13}
 	}
 	{Entity "map_point" 0x8005
-		{Position 1499.94 -7496.17}
+		{Position 1518.61 -7344.61}
 		{xform zl 89.04}
 		{Extender "map_point"
 			{name b6}
@@ -332,7 +332,7 @@
 		{MID 14}
 	}
 	{Entity "map_point" 0x8006
-		{Position -5325.74 -7496.06}
+		{Position -5293.7 -7291.23}
 		{xform zl 89.04}
 		{Extender "map_point"
 			{name b7}
@@ -351,7 +351,7 @@
 		{MID 15}
 	}
 	{Entity "map_point" 0x8007
-		{Position -4451.3 -7494.88}
+		{Position -4464.9 -7334.86}
 		{xform zl 89.04}
 		{Extender "map_point"
 			{name b8}
@@ -370,7 +370,7 @@
 		{MID 16}
 	}
 	{Entity "map_point" 0x8008
-		{Position 5595.67 12373}
+		{Position 5386.07 12063.4}
 		{xform zl -92.94}
 		{Extender "map_point"
 			{name a4}
@@ -389,7 +389,7 @@
 		{MID 17}
 	}
 	{Entity "map_point" 0x8009
-		{Position -790.45 12365.1}
+		{Position -762.87 12104.8}
 		{xform zl -92.94}
 		{Extender "map_point"
 			{name a5}
@@ -408,7 +408,7 @@
 		{MID 18}
 	}
 	{Entity "map_point" 0x800a
-		{Position -4205.33 12380.5}
+		{Position -4193.01 12109.9}
 		{xform zl -92.94}
 		{Extender "map_point"
 			{name a6}
@@ -427,7 +427,7 @@
 		{MID 19}
 	}
 	{Entity "map_point" 0x800b
-		{Position 7158.49 12311.8}
+		{Position 6817.31 12054.6}
 		{xform zl -109.66}
 		{Extender "map_point"
 			{name a7}
@@ -446,7 +446,7 @@
 		{MID 20}
 	}
 	{Entity "map_point" 0x800c
-		{Position -5463.9 11604}
+		{Position -5329.22 11556.1}
 		{xform zl -59.07}
 		{Extender "map_point"
 			{name a8}

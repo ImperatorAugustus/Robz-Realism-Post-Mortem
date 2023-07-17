@@ -12,7 +12,9 @@
 			{visor MapPoint}
 			{allow
 				{capture "b" "a"}
+				{enableCapture}
 				{release "b" "a"}
+				{enableRelease}
 			}
 		}
 		{Player 0}
@@ -24,9 +26,15 @@
 		{Extender "map_point"
 			{name a1}
 			{team a}
+			{zoneA 0}
+			{zoneB 0}
 			{phase 0}
 			{order 1}
 			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
 		}
 		{Player 0}
 		{MID 3}
@@ -37,9 +45,15 @@
 		{Extender "map_point"
 			{name a2}
 			{team a}
+			{zoneA 0}
+			{zoneB 0}
 			{phase 0}
 			{order 2}
 			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
 		}
 		{Player 0}
 		{MID 4}
@@ -57,7 +71,9 @@
 			{visor MapPoint}
 			{allow
 				{capture "b" "a"}
+				{enableCapture}
 				{release "b" "a"}
+				{enableRelease}
 			}
 		}
 		{Player 0}
@@ -76,7 +92,9 @@
 			{visor MapPoint}
 			{allow
 				{capture "b" "a"}
+				{enableCapture}
 				{release "b" "a"}
+				{enableRelease}
 			}
 		}
 		{Player 0}
@@ -88,9 +106,15 @@
 		{Extender "map_point"
 			{name b1}
 			{team b}
+			{zoneA 0}
+			{zoneB 0}
 			{phase 0}
 			{order 1}
 			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
 		}
 		{Player 0}
 		{MID 2}
@@ -101,9 +125,15 @@
 		{Extender "map_point"
 			{name b2}
 			{team b}
+			{zoneA 0}
+			{zoneB 0}
 			{phase 0}
 			{order 2}
 			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
 		}
 		{Player 0}
 		{MID 6}
@@ -114,9 +144,15 @@
 		{Extender "map_point"
 			{name b3}
 			{team b}
+			{zoneA 0}
+			{zoneB 0}
 			{phase 0}
 			{order 3}
 			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
 		}
 		{Player 0}
 		{MID 1}
@@ -127,9 +163,15 @@
 		{Extender "map_point"
 			{name b4}
 			{team b}
+			{zoneA 0}
+			{zoneB 0}
 			{phase 0}
 			{order 4}
 			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
 		}
 		{Player 0}
 		{MID 5}
@@ -140,9 +182,15 @@
 		{Extender "map_point"
 			{name a3}
 			{team a}
+			{zoneA 0}
+			{zoneB 0}
 			{phase 0}
 			{order 3}
 			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
 		}
 		{Player 0}
 		{MID 7}
@@ -153,9 +201,15 @@
 		{Extender "map_point"
 			{name a4}
 			{team a}
+			{zoneA 0}
+			{zoneB 0}
 			{phase 0}
 			{order 4}
 			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
 		}
 		{Player 0}
 		{MID 8}
@@ -173,7 +227,9 @@
 			{visor MapPoint}
 			{allow
 				{capture "b" "a"}
+				{enableCapture}
 				{release "b" "a"}
+				{enableRelease}
 			}
 		}
 		{Player 0}
@@ -192,7 +248,9 @@
 			{visor MapPoint}
 			{allow
 				{capture "b" "a"}
+				{enableCapture}
 				{release "b" "a"}
+				{enableRelease}
 			}
 		}
 		{Player 0}
@@ -211,7 +269,9 @@
 			{visor MapPoint}
 			{allow
 				{capture "b" "a"}
+				{enableCapture}
 				{release "b" "a"}
+				{enableRelease}
 			}
 		}
 		{Player 0}
@@ -230,7 +290,9 @@
 			{visor MapPoint}
 			{allow
 				{capture "b" "a"}
+				{enableCapture}
 				{release "b" "a"}
+				{enableRelease}
 			}
 		}
 		{Player 0}
@@ -305,14 +367,15 @@
 	{Tags "keep_places_without_door" 0x24b6}
 	{Tags "keep_places_without_door" 0x1726}
 	{Tags "keep_places_without_door" 0x1727}
-	{Environment "multi/multi_01"}
+	{Environment "multi/multi_08"}
 	{Helpers
 		{reinforcements
 			{scoreTotal 0}
 			{scoreCurrent 0}
 		}
 		{triggers
-			{"environment"
+			{## "environment"
+				{disabled}
 				{condition
 				}
 				{actions
@@ -324,6 +387,8 @@
 							}
 							{"environment"
 								{name "multi/multi_10"}
+								{time -1}
+								{apply}
 							}
 							{"delete"
 								{selector
@@ -343,6 +408,8 @@
 							}
 							{"environment"
 								{name "multi/multi_09"}
+								{time -1}
+								{apply}
 							}
 							{"delete"
 								{selector
@@ -369,6 +436,8 @@
 							}
 							{"environment"
 								{name "multi/multi_08"}
+								{time -1}
+								{apply}
 							}
 							{"delete"
 								{selector
@@ -395,6 +464,8 @@
 							}
 							{"environment"
 								{name "multi/multi_07"}
+								{time -1}
+								{apply}
 							}
 							{"delete"
 								{selector
@@ -421,6 +492,8 @@
 							}
 							{"environment"
 								{name "multi/multi_06"}
+								{time -1}
+								{apply}
 							}
 							{"delete"
 								{selector
@@ -447,6 +520,8 @@
 							}
 							{"environment"
 								{name "multi/multi_05"}
+								{time -1}
+								{apply}
 							}
 							{"delete"
 								{selector
@@ -473,6 +548,8 @@
 							}
 							{"environment"
 								{name "multi/multi_04"}
+								{time -1}
+								{apply}
 							}
 							{"delete"
 								{selector
@@ -499,6 +576,8 @@
 							}
 							{"environment"
 								{name "multi/multi_03"}
+								{time -1}
+								{apply}
 							}
 							{"delete"
 								{selector
@@ -525,6 +604,8 @@
 							}
 							{"environment"
 								{name "multi/multi_02"}
+								{time -1}
+								{apply}
 							}
 							{"delete"
 								{selector
@@ -547,6 +628,8 @@
 						{"default"
 							{"environment"
 								{name "multi/multi_01"}
+								{time -1}
+								{apply}
 							}
 							{"delete"
 								{selector

@@ -1,7 +1,7 @@
 {game_entity
 	(include "/properties/tank.ext")
 	(include "/properties/selection/vehicle.inc"  scale(0.5))
-	{props "light" "-turret" "vision_vehicle_minimum" "sdkfz303"}
+	{props "light" "-turret" "vision_lev00" "sdkfz303"}
 
 	{collider "goliath"}
 	{patherId "tank.light"}
@@ -14,6 +14,16 @@
 	}
           
 	("armor_light" turret(10 5 5 5) body(10 5 5 5))
+
+	{sensor
+		{visor "main"
+			{vision "none"}
+		}
+		{visor "driver"
+			{vision "tank_driver"}
+			{vision "none"}
+		}
+	}
 	
 	{placer
 		{crew 0}

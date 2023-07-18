@@ -99,7 +99,9 @@ Faction/Balance - General:
 -Reduced Wespe cost by 125.
 
 -Average 10m increase in range before STGs go to long burst mode.
+
 -Reduced standard vp to 125.
+-Changed flag calculation to prevent drawn out games.
 
 -Increased startup timer of; all light vehicles with heavy cannons (47mm+ cannon or 37mm+ autocannon) by 15%, all medium armored or gunned tanks by 25%, all heavy armored or gunned tanks by 35%.
 -Various timer adjustments across the board to line up with other factions.
@@ -334,6 +336,7 @@ USA
 -sturmtiger - 15sp.
 -Panther and Tiger Veteran to 15 sp.
 -Sniper SP buy replaced by Veteran MG 42 Lafette.
+-Removed visor from goliath. Now comes with 3 vehicle supporters and 3 goliaths for 2 sp.
 -Replaced double nebelwerfer buy with an 11sp double mechanized sturm pioneer with 2 nebelwerfers loaded with smoke.
 
 

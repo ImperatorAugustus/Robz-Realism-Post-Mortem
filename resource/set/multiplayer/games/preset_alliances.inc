@@ -1,4 +1,19 @@
-
+			{"axis" 
+				{title "mp/alliance/axis"}
+				{armies "ger"}
+				{armies "ger2"}
+				{armies "jap"}
+				{armies "ger_ss"}
+				{icon "/interface/pages/multi/flag_axis"}
+			}
+			{"allies"
+				{title "mp/alliance/allies"}
+				{armies "usa"}
+				{armies "eng"}
+				{armies "rus"}
+				{armies "rus_guard"}
+				{icon "/interface/pages/multi/flag_allies"}
+			}
 			{"allies_usa"
 				{title "mp/alliance/allies_usa"}
 				{armies "usa"}
@@ -63,20 +78,4 @@
 				{armies "rus"}
 				{armies "rus_guard"}
 				{icon "/interface/pages/multi/flag_rus"}
-			}
-			{"axis" 
-				{title "mp/alliance/axis"}
-				{armies "ger"}
-				{armies "ger2"}
-				{armies "jap"}
-				{armies "ger_ss"}
-				{icon "/interface/pages/multi/flag_axis"}
-			}
-			{"allies"
-				{title "mp/alliance/allies"}
-				{armies "usa"}
-				{armies "eng"}
-				{armies "rus"}
-				{armies "rus_guard"}
-				{icon "/interface/pages/multi/flag_allies"}
 			}

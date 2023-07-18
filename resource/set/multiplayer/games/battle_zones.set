@@ -1,6 +1,6 @@
 {game
 	{teammatch}
-	{parameters	"points_table=0/0.000,0.05/0.75,0.50/1.00,0.68/1.25,0.81/1.50,1.00/3;flag_capture_time=50;flag_release_time=10;flag_capture_factor=0.9"}
+	{parameters	"points_table=0/0.000,0.05/0.2,0.50/1.00,0.68/1.25,0.81/1.50,1.00/3;flag_capture_time=50;flag_release_time=10;flag_capture_factor=0.9"}
 
 	{settings
 		{options 			scoreFinal enableSpectators preparationTime }

@@ -31,13 +31,15 @@ PATHING:
 -----
 -Allowed 'cannons' to climb any height at speed cost ; This should prevent units from getting stuck most of the time, and allow for more strategic uses with less micro - unfinished !Need to add NoPath zones to map to prevent stupid shit!
 -Allowed airborne to climb anything to prevent the dropper getting stuck.
--Added correct pather IDs and removed death swamps from many maps - unfinished.
+-Added correct pather IDs from many maps - unfinished.
 -Fixed No Path
 -Reenabled snow pathing weights, was defaulting to 1.
 -Increased relative road weight to increase unit desire to move on roads.
 -Fixed truck pathfinding around trees.
 -Allowed cannons to path into foxholes.
 -Fixed obstacle avoidance.
+-Unit will handle 'fire' better.
+-Adjusted all entities to move on 'fast' at all times so units actually reach their full speed with single click or direct control.
 
 
 
@@ -77,7 +79,6 @@ RANGE:
 
 Faction/Balance - General:
 -----
--Adjusted all entities to move on 'fast' at all times so units actually reach their full speed with single click or direct control.
 
 -Increased effect of equipment weight on stamina regen.
 -Decreased lower scale (0-20kg) rate of stamina reduction .
@@ -120,7 +121,6 @@ Faction/Balance - General:
 -SP armored mortar increased by 100mp.
 
 -Sdkfz 250/10 3.7cm pak half abm fix.
--T48 abm fix.
 -Fixed 15mm besa on humber burst accuracy and range switch.
 
 -Adjusted bolt rifle fire rate and stripper reload times to be more accurate.

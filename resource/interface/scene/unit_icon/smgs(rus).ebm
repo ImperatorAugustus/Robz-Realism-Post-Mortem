@@ -1,6 +1,6 @@
 {bitmap
-	{frame "smgsrus_00.tga"}
-	{frame "smgsrus_01.tga"}
-	{frame "smgsrus_02.tga"}
-	{frame "smgsrus_03.tga"}
+	{frame "smgs(rus)_00.tga"}
+	{frame "smgs(rus)_01.tga"}
+	{frame "smgs(rus)_02.tga"}
+	{frame "smgs(rus)_03.tga"}
 }

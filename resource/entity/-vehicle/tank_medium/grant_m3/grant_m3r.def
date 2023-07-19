@@ -103,7 +103,7 @@
 		}
 		{place "gun2"
 			{type "secondary_main"}
-			{weapon "37mm_m5" filling "bullet37 ap" 1}
+			{weapon "37mm_m5" filling "bullet37 us ap" 1}
 			{foresight "foresight2"}
 			{gunner "commander"}
 			{charger "commander"}

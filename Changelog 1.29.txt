@@ -156,8 +156,8 @@ USA
 -Reduced price of stuart by 30mp.
 -m26 pershing - 1350 mp.
 -sherman m4a3(76) - 550 mp.
--veteran pershing - 14sp.
--veteran slugger - 11sp.
+-veteran pershing - 15sp.
+-veteran slugger - 12sp.
 -tank platoon - 7sp .
 -m36 jackson - 1000mp.
 -m36 slugger - 950 mp.
@@ -363,7 +363,8 @@ USA
 -marder3m - 425mp.
 -nashorn - 1350mp.
 -jagdpanther - 1800mp.
--stug veteran - 775mp.
+-Pz4h veteran - 725mp.
+-stug veteran - 750mp.
 -tiger veteran - 1550mp.
 -veteran pz4j - 650mp.
 -veteran pz4h - 625mp.
@@ -389,6 +390,7 @@ USA
 -at rifle - 80mp.
 -ptrd- 110mp.
 -officer - 150mp.
+-Removed attendents from normal officer
 -Removed veteran marksman.
 -Removed Scoped STG 44.
 
@@ -428,8 +430,9 @@ USA
 -Knee mortar reduced by 30mp.
 -Added 80 second cooldown to rpg single buy.
 -Doubled timer on bother Imperial Guard varients.
--Reduced basic rifle squads by 15mp.
+-Reduced basic rifle squads and banzai chargers by 15mp.
 -Reduced all elite infantry squads except Imperial guard by 20mp.
+-Made Assault SMG 3 skill.
 -Added 50% more minners to each respective squad.
 -Removed Kamikaze SMG.
 -Gave Kamikaze 150% stamina regen from 125%.

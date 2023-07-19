@@ -134,11 +134,11 @@
 {"hero7_usa"  	    ("v5_3-2-tank" c(900) v1(m4a3_75) v2(m4a3e8) 	t(all 44 45 hero) s(usa) n1(4) n2(1) g(h8) b(hero)) {level 1} {cost 7.0} {fore -0.5}}
 {"fury_hero"  	    ("v1" c(900) c1(m4a3e8_fury) 	t(all 44 45 hero) s(usa) n1(elite_tankman:4) n2(elite_tankman2:1) g(h88) b(hero)) {level 1} {cost 8.0} {fore -0.5}} ;1350sec
 {"hero8_usa"  	    ("v1" c(800) c1(m4a3e2_jumbo_76_vet)	t(all 45 hero) s(usa) n1(vet_tankman:4) n2(vet_tankman2:1) g(h10) b(hero)) {level 1} {cost 9.0} {fore -1.0}} ;1600sec
-{"hero_usa_m36"     ("v1" c(950) c1(m36_vet)	t(all 44 45 hero) s(usa) n1(vet_tankman:4) n2(vet_tankman2:1) g(h111) b(hero)) {level 1} {cost 11.0} {fore -1.0}} ;1800sec
+{"hero_usa_m36"     ("v1" c(950) c1(m36_vet)	t(all 44 45 hero) s(usa) n1(vet_tankman:4) n2(vet_tankman2:1) g(h111) b(hero)) {level 1} {cost 12.0} {fore -1.0}} ;1800sec
 
 {"m7_hero"  	    ("v2" c(760) c1(m7) 		t(all artillery 42 43 44 45 hero) s(usa) n1(tankman:4) n2(tankman2:0) g(h9) b(hero)) {level 1} {cost 13.0} {fore -0.5}}
 
-{"pershing_hero"    ("v1" c(1050) c1(m26_pershing_vet)	t(all 45 hero) s(usa) n1(vet_tankman:4) n2(vet_tankman2:1) g(h11) b(hero)) {level 1} {cost 14.0} {fore -1.0}} ;2100sec
+{"pershing_hero"    ("v1" c(1050) c1(m26_pershing_vet)	t(all 45 hero) s(usa) n1(vet_tankman:4) n2(vet_tankman2:1) g(h11) b(hero)) {level 1} {cost 15.0} {fore -1.0}} ;2100sec
 {"hero9_usa"	    ("v1" c(1400) c1(m26e4)		t(all 45 hero) s(usa) n1(tankman:4) n2(tankman2:1) g(h12) b(hero)) {level 1} {cost 18.0} {fore -1.0}} ;2800sec
 
 

@@ -1,7 +1,7 @@
 ;°°°Squads°°°
 ;------------------------------home guards | vet 1--------------------------------------------------------------
 
-("squad_with3types" side(jap) name(home_guards) c(15) g(squad_1) c1(charger_rifle:8) c2(charger_smg:4) c3(charger_smg2:3) b(squad1) t(all inf_only 44 45) level(1) cost(125) f(1.0))
+("squad_with3types" side(jap) name(home_guards) c(15) g(squad_1) c1(charger_rifle:8) c2(charger_smg:4) c3(charger_smg2:3) b(squad1) t(all inf_only 44 45) level(1) cost(110) f(1.0))
 
 ;------------------------------assault infantry || vet 2/3/4--------------------------------------------------------
 
@@ -27,10 +27,6 @@
 ;------------------------------stormtroopers |||| vet 6---------------------------------------------------------
 
 ("squad_with5types" side(jap) name(stormtroopers) c(360) g(squad_5) c1(sturmovikb:4) c2(sturmovik2:2) c3(sturmovik3:1) c4(sturmovik4:5) c5(sturmovik6b:3) b(squad1) t(all inf_only 44 45) level(1) cost(305) f(1.0))
-
-;------------------------------stormtrooper halftrack |||| vet 3/4----------------------------------------------
-
-;{"storm_mech_jap"      ("vb3" c(380) c1(ho-ha3mgun) 	t(all inf_only 39 40 41 42 43 44 45) s(jap) n1(6) n2(2) n3(2) 		g(squad_5) b(squad1)) {level 1} {cost 375} {fore 1.0}}
 
 ;------------------------------AP and AT miners, sappers || vet 2-----------------------------------------------
 

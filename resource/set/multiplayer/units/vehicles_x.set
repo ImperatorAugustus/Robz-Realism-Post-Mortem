@@ -27,6 +27,7 @@
 {"ho-ri"        		("extra" t() sc(50.00) cw(0) cp(25))}	;9
 {"chi_to_2"        		("extra" t() sc(28.75) cw(0) cp(20))}	;9
 
+{"lvt4"      	("extra" t() sc(17.00) cw(0) cp(10))}	;6
 {"m4a3e8_fury"      	("extra" t() sc(40.00) cw(0) cp(20))}	;6
 {"m36_vet"      		("extra" t() sc(52.50) cw(0) cp(20))}	;6
 {"m4a3e2_jumbo_76_vet"  ("extra" t() sc(70.00) cw(0) cp(30))}	;6

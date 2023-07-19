@@ -314,6 +314,7 @@
 {"mp/usa/elite4" 		("vet_4" side(usa))}
 {"mp/usa/elite5" 		("vet_4" side(usa))}
 {"mp/usa/elite5_grenadier" 	("vet_4" side(usa))}
+{"mp/usa/marine_shotgun" 	("vet_4" side(usa))}
 {"mp/usa/elite6" 		("vet_4" side(usa))}
 {"mp/usa/elite6_asst" 		("vet_4" side(usa))}
 {"mp/usa/recon_squadleader" ("vet_4" side(usa))}
@@ -647,6 +648,8 @@
 {"mp/usa/paramarine2" 		("vet_6" side(usa))}
 {"mp/usa/paramarine3" 		("vet_6" side(usa))}
 {"mp/usa/paramarine3_asst" 	("vet_6" side(usa))}
+{"mp/usa/paramarine3_asst" 	("vet_6" side(usa))}
+{"mp/usa/paramarineb_boys_at" 	("vet_6" side(usa))}
 {"mp/usa/sturmovik_sgt" 	("vet_6" side(usa))}
 {"mp/usa/sturmovik_sniper" 	("vet_6" side(usa))}
 {"mp/usa/sturmovik" 		("vet_6" side(usa))}

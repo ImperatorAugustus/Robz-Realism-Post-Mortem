@@ -436,12 +436,13 @@ USA
 -Gave Kamikaze 110% speed from 100% speed.
 
 	Vehicles
--Fixed 200m AT gun and TD range scaling so its accurate to max.
+-Fixed 47mm AT gun move speed.
+-Fixed 75mm AT gun and TD range scaling so its accurate to max.
 -Reduced 105 and 150 howitzer by 50mp.
 -Increased price of HoHa to 135mp.
 -Type 92 HMG reduced by 10 mp.
 -47mm AT gun reduced by 80mp.
--75mm at gun reduced by 30mp.
+-75mm ATgun reduced by 30mp.
 -Added Sandbags to Pak38 anti tank gun.
 -Added camoflauge kits to 75mm AT/Field gun, 75mm Mountain gun, and 47mm AT.
 -Ha Go and Ke Nu to 160mp.

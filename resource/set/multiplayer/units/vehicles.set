@@ -315,6 +315,7 @@
     {content "mp/%s/%n1 mp/%s/%n2 mp/%s/%n3"}
 )
 
+; 4 infantry types
 (define "i4"
     ("generic_h" c(%c) t(%t %s) g(%g) b(%b))
     {content "mp/%s/%n1 mp/%s/%n2 mp/%s/%n3 mp/%s/%n4"}

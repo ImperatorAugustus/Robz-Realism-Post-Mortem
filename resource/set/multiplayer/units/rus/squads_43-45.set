@@ -82,11 +82,9 @@
 ;------------------------------AT rifles and bazookas || vet 2--------------------------------------------------
 
 ("i_seq_with2types" side(rus) name(at_rifles) c1(at_rifle:1) c2(at_rifle2:1) c(0) i(6) g(soldier_4) b(squad2) t(all inf_only 41 42 43 44 45) level(1) cost(70) f(1.0))
-("i_seq_with2types" side(rus) name(at_rifles1/2) c1(at_rifle:1) c2(at_rifle2:1) c(0) i(6) g(soldier_4) b(squad2) t(all inf_only 41 42 43 44 45) level(1) cost(40) f(1.0))
+("i_seq_with2types" side(rus) name(at_riflesv2) c1(at_rifle:1) c2(at_rifle2:1) c(0) i(6) g(soldier_4) b(squad2) t(all inf_only 41 42 43 44 45) level(1) cost(40) f(1.0))
 
 ("squad_with2types" side(rus) name(bazookers) c1(bazooker:1) c2(bazooker2:1) c(300) g(soldier_5) b(squad2) t(all inf_only 42 43 44 45) level(1) cost(90) f(1.0))
-
-;("squad_with2types" side(rus) name(stormtrooper5) c1(sturmovik5_42:1) c2(sturmovik5b_42:1) c(0) g(soldier_5) b(squad2) t(all inf_only 42 43 44 45) level(1) cost(130) f(1.0))
 
 ;------------------------------MG infantry || vet 2-------------------------------------------------------------
 
@@ -95,16 +93,6 @@
 ;------------------------------elite3
 
 ("squad_with2types" side(rus) name(elite3) c(200) g(squad_4) c1(elite3:1) c2(elite:2) b(squad2) t(all inf_only 42 43 44 45) level(1) cost(60) f(1.0))
-
-;("squad_with2types" side(rus) name(elite6) c(230) g(squad_4) c1(guard_mg:1) c2(guard_mg_asst:2) b(squad2) t(all inf_only 41 42 43 44 45) level(1) cost(78) f(1.0))
-
-;------------------------------------------------
-
-;("squad_with2types" side(rus) name(stormtrooper2) c(260) g(squad_4) c1(sturmovik2:1) c2(sturmovik6c:2) b(squad2) t(all inf_only 43 44 45) level(1) cost(93) f(1.0))
-
-;------------------------------------------------
-
-;("squad_with2types" side(rus) name(stormtrooper6) c(260) g(squad_4) c1(sturmovik6:1) c2(sturmovik6b:2) b(squad2) t(all inf_only 43 44 45) level(1) cost(89) f(1.0))
 
 ;------------------------------flamer, sniper and officer || vet2/3/4----------------------------------------------
 

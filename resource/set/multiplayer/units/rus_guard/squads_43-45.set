@@ -52,7 +52,6 @@
 
 ("squad_with1types" side(rus_guard) name(rifle_sa) c(30) g(soldier_sa) c1(guard_sa:1) b(squad2) t(all inf_only 40 41 42 43 44 45) level(1) cost(15) f(1.0))
 
-;("squad_with1types" side(rus_guard) name(rifle_sa2) c(30) g(soldier_sa) c1(guard_sa2:1) b(squad2) t(all inf_only 45) level(1) cost(15) f(1.0))
 
 ("squad_with1types" side(rus_guard) name(smg) c(5) g(soldier_2) c1(guard_smg:1) b(squad2) t(all inf_only 41 42 43 44 45) level(1) cost(13) f(1.0))
 
@@ -71,11 +70,7 @@
 
 ;------------------------------flamer, sniper and officer || vet2/3/4----------------------------------------------
 
-;("squad_with2types" side(rus_guard) name(flamers) c(150) g(soldier_8) c1(guards_shock_flame:1) c2(flamer2:1) b(squad2) t(all flamer inf_only 39 40 41 42 43 44 45) level(1) cost(75) f(0))
-
 ("squad_with1types" side(rus_guard) name(snipers) c(90) g(soldier_9) c1(sniper:2) b(squad2) t(all sniper inf_only 39 40 41 42 43 44 45) level(1) cost(130) f(0))
 ("squad_with1types" side(rus_guard) name(snipers3) c(90) g(soldier_9) c1(sniper3:2) b(squad2) t(all sniper inf_only 40 41 42 43 44 45) level(1) cost(170) f(0))
 
 ("squad_with1types" side(rus_guard) name(officers) c(100) g(soldier_10) c1(oficer:1) b(squad2) t(all officer inf_only 39 40 41 42 43 44 45) level(1) cost(200) f(0))
-
-;("squad_with1types" side(rus_guard) name(radioman_mortar) c(300) g(radio_1) c1(radioman_mortar:1) b(squad2) t(all mortar 39 40 41 42 43 44 45) level(1) cost(250) f(1.0))

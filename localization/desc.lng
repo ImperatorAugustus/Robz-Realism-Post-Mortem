@@ -19,12 +19,16 @@
 				{"ap_miner" "<c(c3baae)>Saper (AP mines)"}
 				{"at_miner" "<c(c3baae)>Saper (AT mines)"}
 				{"at_rifle" "<c(c3baae)>Broneboyshik"}
-				{"at_rifle_ptrs" "<c(c3baae)>Broneboyshik"}
+				{"at_rifle3" "<c(c3baae)>Broneboyshik"}
 				{"at_rifle2" "<c(c3baae)>Broneboyshik asst."}
 				{"bazooker" "<c(c3baae)>Bazooka Broneboyshik"}
 				{"bazooker2" "<c(c3baae)>Bazooka Broneboyshik asst."}
 				{"conscript_rifle" "<c(c3baae)>Prizyvnik"}
 				{"conscript_smg" "<c(c3baae)>Prizyvnik"}
+				{"bsf_marine" "<c(c3baae)>BSF Marine"}
+				{"bsf_marine2" "<c(c3baae)>BSF Marine"}
+				{"bsf_marine3" "<c(c3baae)>BSF Marine"}
+				{"bsf_marine_mg_asst" "<c(c3baae)>BSF Marine"}
 				{"elite" "<c(c3baae)>Morskaya Pekhota"}
 				{"elite_39" "<c(c3baae)>Morskaya Pekhota"}
 				{"elite_40" "<c(c3baae)>Morskaya Pekhota"}
@@ -628,12 +632,13 @@
 				{"smg2_vet" "<c(c3baae)>Armored Rifleman"}
 				{"smg2_elite" "<c(c3baae)>Armored Rifleman"}
 				{"sniper" "<c(c3baae)>Marksman"}
-				{"shotgun" "<c(c3baae)>Shotgun Trooper"}
+				{"marine_shotgun" "<c(c3baae)>Marine Shotgun"}
 				{"sturmovik" "<c(c3baae)>Ranger"}
 				{"sturmovik_ab" "<c(c3baae)>Ranger Ammo Bearer"}
 				{"sturmovik_grenadier" "<c(c3baae)>Ranger Grenadier [Sgt]"}
 				{"sturmovik_sgt" "<c(c3baae)>Ranger Squad Leader [SSgt]"}
 				{"sturmovik_sniper" "<c(c3baae)>Ranger Marksman"}
+				{"sturmovik1" "<c(c3baae)>Ranger"}
 				{"sturmovik2" "<c(c3baae)>Ranger Automatic Rifleman"}
 				{"sturmovik2_asst" "<c(c3baae)>Ranger Automatic Rifleman asst."}
 				{"sturmovik3" "<c(c3baae)>Ranger AT Infantry"}
@@ -784,6 +789,7 @@
 				{"medic" "<c(c3baae)>Navy Corpsman"}
 				{"oficer" "<c(c3baae)>Marine Captain"}
 				{"paramarine_at" "<c(c3baae)>Paramarine AT Infantry"}
+				{"paramarineb_boys_at" "<c(c3baae)>Paramarine AT Infantry"}
 				{"paramarine_at_42" "<c(c3baae)>Paramarine AT Infantry"}
 				{"paramarine_at_42b" "<c(c3baae)>Paramarine AT Infantry"}
 				{"paramarine_at_asst" "<c(c3baae)>Paramarine AT asst."}
@@ -1355,6 +1361,7 @@
 				{"recon_ppsh" "<c(c3baae)>Leichter Aufklärer"}
 				{"recon_wz28" "<c(c3baae)>Leichter Aufklärer"}
 				{"rifle" "<c(c3baae)>Jäger"}
+				{"rifle_single" "<c(c3baae)>Jäger"}
 				{"rifle_grenadier" "<c(c3baae)>Jäger Gewehrgranat-schütze"}
 				{"rifle_pzfst" "<c(c3baae)>Jäger"}
 				{"sa_pzfst" "<c(c3baae)>Jäger"}
@@ -2163,6 +2170,9 @@
 		{"smgs3(rus)" "PPS-43 SMG"}
 		{"specialinf(usa)" "US Marine squad"}
 		{"conscripts(rus)" "Reservists"}
+		{"smgs_mot(rus)" "Motorized SMG Squad"}
+		{"riflemans_rifle_mot(rus)" "Motorized Rifle Squad"}
+		{"shock_assault_mech(rus)" "Mechanized Shock SMG"}
 		{"sapper_squad(rus)" "Sapper squad"}
 		{"specialinf_41(rus)" "Guards rifle squad"}
 		{"specialinf_42(rus)" "Guards rifle squad"}
@@ -2657,7 +2667,7 @@
 		{"elite_tankmans(jap)" "Veteran Tank crew"}
 		{"mot_rifles_can(eng)" "Motorized Canadian Rifle section"}
 		{"mot_rifles(rus)" "Motorized Rifle squad"}
-		{"mech_armor_rifles(eng)" "Mechanized Rifle section"}
+		{"mech_rifles(eng)" "Mechanized Rifle section"}
 		{"mech_armor_rifles(fra)" "Mechanized Fusilier squad"}
 		{"aufklarer(ger)" "Recon"}
 		{"aufklarer(ger_ss)" "Recon"}
@@ -2750,6 +2760,7 @@
 		{"elites_40(rus)" "Marine squad"}
 		{"elites_42(rus)" "Marine squad"}
 		{"elites(rus)" "Marine squad"}
+		{"bsf_marines(rus)" "BSF Marine squad"}
 		{"elites(usa)" "Airborne squad"}
 		{"elites_82nd(usa)" "82nd Airborne squad"}
 		{"elites_drop(usa)" "Paradropped Airborne squad"}
@@ -2843,7 +2854,7 @@
 		{"riflemans2(eng)" "SMLE Rifleman"}
 		{"riflemans2(ger)" "Karabiner 98k Rifleman"}
 		{"riflemans2(ger_ss)" "Karabiner 98k Rifleman"}
-		{"riflemans2(ger2)" "Karabiner 98k jäger"}
+		{"riflemans2(ger2)" "Karabiner 98k Jäger"}
 
 		{"riflemans2b(jap)" "Type 38 Rifleman"}
 		{"riflemans2(jap)" "Type 99 Rifleman"}
@@ -2976,7 +2987,7 @@
 		{"snipers_d(rus)" "Sniper"}
 		{"snipers_d(usa)" "Sniper"}
 		{"scouts(rus)" "Osnaz"}
-		{"shotguns(usa)" "Shotgunners"}
+		{"shotguns(usa)" "Marine Shotgunner"}
 		{"elites_para(ger2)" "Elite Fallschirmjäger squad"}
 		{"stormtroopers(ger2)" "Elite Jäger squad"}
 		{"stormtroopers(eng)" "SAS section"}
@@ -3064,7 +3075,7 @@
 		{"panther_hero" "Veteran Panther"}
 		{"hero_ger_tiger2_ace" "Tiger II Ace"}
 		{"flak18_hero" "Two FlaK-18 Artillery guns"}
-		{"hero10_ger" "Dual Veteran PzKpfw IV.H"}
+		{"hero10_ger" "Dual PzKpfw IV.H"}
 		{"heronew1_ger" "Panzerfaust Squad"}
 		{"heronew2_ger" "Marder III Ausf. H"}
 		{"heronew3_ger" "PaK 44"}
@@ -3279,7 +3290,7 @@
 		{"hero_ss_2cmflak" "Mechanized 20mm FlaK 38"}
 		{"hero_ss_sdkfz251_16" "SdKfz 251/16 flammpanzerwagen (tranny burner)"}
 		{"hero_ss_stuka" "SdKfz 251/1 Wurfrahmen 40 'stuka zu fuss'"}
-		{"hero_ss_hetzers" "Dual Veteran Hetzers"}
+		{"hero_ss_hetzers" "Dual Hetzers"}
 		{"hero_ss_pak40" "Mechanized 75mm PaK 40 platoon"}
 		{"hero_ss_lefh18" "Two LeFH 18 howitzers"}
 		{"hero_ss_brummbar" "Sturmpanzer IV 'Stupa' (early)"}
@@ -3453,7 +3464,7 @@
 		{"hero_guard_pm38" "Veteran 120mm PM-38 mortar platoon"}
 		{"hero_guard_bm31" "BM-31-12 heavy rocket artillery"}
 		{"hero_guard_m4_76" "Lend-Lease M4A2(76W) Shermans"}
-		{"hero_guard_kv85" "Dual Veteran IS-1 unit"}
+		{"hero_guard_kv85" "Dual IS-1 unit"}
 		{"hero_guard_t34_3" "Elite T-34-85"}
 		{"hero_guard_is2" "Veteran IS-2"}
 		
@@ -3504,6 +3515,8 @@
 		{"smgsv3(rus)" "<c(00ff04)>SMG Squad"}
 		{"smgsv4(rus)" "<c(00ff04)>SMG Squad"}
 		{"smgsv5(rus)" "<c(00ff04)>SMG Squad"}
+		
+		{"at_riflesv2(rus)" "<c(00ff04)>PTRD AT-Rifle team"}
 	}
 	{"entity"
 		;new vehicles
@@ -3985,6 +3998,7 @@
 		{"gmc_fuel" "GMC Refueller"}
 		{"gmc_inf" "GMC CCKW Infantry ammo truck"}
 		{"grant_m3" "M3 Lee"}
+		{"grant_m3r" "M3 Lee"}
 		{"hamilcar" "G.A.L.49 Hamilcar"}
 		{"ha-go" "Ha-Go"}
 		{"ha-to" "Ha-To"}
@@ -5289,11 +5303,11 @@
 		{"122mm_m30_2" "122-mm M30<c(ffffff)>\n Range - <c(ffaf00)>200 m<c(ffffff)>\n Penetration HEAT - <c(ff0000)>120 mm<c(ffffff)>\n Muzzle velocity - 515 m/s\n Accuracy - <c(ff0000)>Low"}
 		{"122mm_m30s" "122-mm M-30s<c(ffffff)>\n Range - <c(ffaf00)>200 m<c(ffffff)>\n Penetration HEAT - <c(ff0000)>120 mm<c(ffffff)>\n Muzzle velocity - 515 m/s\n Accuracy - <c(ff0000)>Low"}
 		{"122mm_m30s_2" "122-mm M-30s<c(ffffff)>\n Range - <c(ff0000)>390 m<c(ffffff)>\n Barrage - <c(ffaf00)>4 shells<c(ffffff)>\n Muzzle velocity - 515 m/s\n Accuracy - <c(ff0000)>Very low"}
-		{"128mm_kwk44" "128mm KwK 44<c(ffffff)>\n Range - <c(00ff04)>250 m<c(ffffff)>\n Penetration APCBC - <c(00ff04)>269 - 208 mm<c(ffffff)>\n Muzzle velocity - 930 m/s\n Accuracy - <c(00ff04)>Maximum"}
+		{"128mm_kwk44" "128mm KwK 44<c(ffffff)>\n Range - <c(00ff04)>260 m<c(ffffff)>\n Penetration APCBC - <c(00ff04)>269 - 208 mm<c(ffffff)>\n Muzzle velocity - 930 m/s\n Accuracy - <c(00ff04)>Maximum"}
 		{"128mm_l61" "128mm K40 L/61<c(ffffff)>\n Range - <c(00ff04)>250 m<c(ffffff)>\n Penetration APC - <c(00ff04)>261 - 145 mm<c(ffffff)>\n Muzzle velocity - 880 m/s\n Accuracy - <c(00ff04)>Maximum"}
-		{"128mm_pak44" "128mm PaK 44<c(ffffff)>\n Range - <c(00ff04)>250 m<c(ffffff)>\n Penetration APCBC - <c(00ff04)>269 - 208 mm<c(ffffff)>\n Muzzle velocity - 930 m/s\n Accuracy - <c(00ff04)>Maximum"}
+		{"128mm_pak44" "128mm PaK 44<c(ffffff)>\n Range - <c(00ff04)>260 m<c(ffffff)>\n Penetration APCBC - <c(00ff04)>269 - 208 mm<c(ffffff)>\n Muzzle velocity - 930 m/s\n Accuracy - <c(00ff04)>Maximum"}
 		{"128mm_pak44_2" "128mm PaK 44<c(ffffff)>\n Range - <c(00ff04)>800 m<c(ffffff)>\n Barrage - <c(ffaf00)>3 shells<c(ffffff)>\n Muzzle velocity - 880 m/s\n Accuracy - <c(ff0000)>Very low"}
-		{"128mm_pak44_vet" "128mm PaK 44<c(ffffff)>\n Range - <c(00ff04)>250 m<c(ffffff)>\n Penetration APCBC - <c(00ff04)>269 - 208 mm<c(ffffff)>\n Muzzle velocity - 930 m/s\n Accuracy - <c(00ff04)>Maximum"}
+		{"128mm_pak44_vet" "128mm PaK 44<c(ffffff)>\n Range - <c(00ff04)>260 m<c(ffffff)>\n Penetration APCBC - <c(00ff04)>269 - 208 mm<c(ffffff)>\n Muzzle velocity - 930 m/s\n Accuracy - <c(00ff04)>Maximum"}
 		{"150mm_sfh18" "150mm sFH 18<c(ffffff)>\n Range - <c(ffaf00)>440 m<c(ffffff)>\n Barrage - <c(ffaf00)>3 shells<c(ffffff)>\n Muzzle velocity - 520 m/s\n Accuracy - <c(ff0000)>Low"}
 		{"150mm_sfh18_2" "150mm sFH 18<c(ffffff)>\n Range - <c(ffaf00)>200 m<c(ffffff)>\n Muzzle velocity - 520 m/s\n Accuracy - <c(ff0000)>Low"}
 		{"150mm_sfh18a" "150mm sFH 18<c(ffffff)>\n Range - <c(ffaf00)>440 m<c(ffffff)>\n Barrage - <c(ffaf00)>3 shells<c(ffffff)>\n Muzzle velocity - 520 m/s\n Accuracy - <c(ff0000)>Low"}

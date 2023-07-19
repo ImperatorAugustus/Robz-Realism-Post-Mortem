@@ -112,7 +112,7 @@
 ;°°°Button Hero°°°
 {"hero3_rus"        ("v1" c(60) c1(gaz67)   	t(all hero 44 45) s(rus) n1(sniper2:2) n2(tankman2:0) g(h1) b(hero)) {level 1} {cost 1.0} {fore -0.5}}
 {"hero5_rus"        ("i4" c(120)		t(all hero 44 45) s(rus) n1(squadleader_smg:3) n2(rifle_sa:6) n3(rifle:12) n4(smg:9) g(h2) b(hero)) {level 1} {cost 3.0} {fore -0.5}}
-{"hero_rus_at_squad"       	("i3" c(120)		t(all hero 44 45) s(rus) n1(at_rifle3:2) n2(at_rifle::1) n3(at_rifle2:1) g(h9) b(hero)) {level 1} {cost 2.0} {fore -1.5}}
+{"hero_rus_at_squad"       	("i3" c(120)		t(all hero 44 45) s(rus) n1(at_rifle:1) n2(at_rifle2:1) n3(at_rifle3:2) g(h9) b(hero)) {level 1} {cost 2.0} {fore -1.5}}
 
 {"hero_rus_t34"     ("v1" c(600) c1(t34_3)   	t(all hero 44 45) s(rus) n1(tankman:3) n2(tankman2:1) g(h3) b(hero)) {level 1} {cost 5.0} {fore -0.65}} ;990sec
 

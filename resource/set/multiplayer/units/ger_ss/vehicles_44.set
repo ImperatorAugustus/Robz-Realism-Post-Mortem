@@ -55,12 +55,12 @@
 ("how" side(ger_ss) name(how_a) c(60) c1(np_sdkfz8) c2(sfh18) 	t(all artillery heavyart heavy 39 40 41 42 43 44 45) g(cc3) b(v22) level(1) cost(750) f(-19.0))		;1200sec
 ("how" side(ger_ss) name(morser18) c(60) c1(np_sdkfz8) c2(morser18) t(all artillery heavyart heavy 39 40 41 42 43 44 45) g(cc4) b(v22)  level(1) cost(1150) f(-19.0))	;1200sec
 
+{"wespe_ss"		("v_ss" c(60) v1(wespe) t(all artillery 43 44 45) s(ger_ss) n1(3) n2(1) g(cc8) b(v22)) {level 1} {cost 675} {fore -14.0}}	;900sec
+{"hummel_ss"		("v_ss" c(60) v1(hummel) t(all artillery heavyart heavy 43 44 45) s(ger_ss) n1(3) n2(1) g(cc9) b(v22)) {level 1} {cost 1150} {fore -19.0}}	;1200sec
+
 {"nebelwerfer41_ss"	("vs_ss" c(60) v1(nebelwerfer41) t(all artillery rocket 41 42 43 44 45) s(ger_ss) n(2) g(cc5) b(v22)) {level 1} {cost 450} {fore -14.0}}	;900sec
 {"nebelwerfer42_ss"	("vs_ss" c(60) v1(nebelwerfer42) t(all artillery heavyart rocket 42 43 44 45) s(ger_ss) n(2) g(cc6) b(v22)) {level 1} {cost 1300} {fore -14.0}}	;900sec
 {"np_sdkfz251_1w_ss"	("vs_ss" c(60) v1(np_sdkfz251_1w) t(all artillery heavyart rocket 41 42 43 44 45) s(ger_ss) n(3) g(cc7) b(v22)) {level 1} {cost 1600} {fore -19.0}};1200sec
-
-{"wespe_ss"		("v_ss" c(60) v1(wespe) t(all artillery 43 44 45) s(ger_ss) n1(3) n2(1) g(cc8) b(v22)) {level 1} {cost 675} {fore -14.0}}	;900sec
-{"hummel_ss"		("v_ss" c(60) v1(hummel) t(all artillery heavyart heavy 43 44 45) s(ger_ss) n1(3) n2(1) g(cc9) b(v22)) {level 1} {cost 1150} {fore -19.0}}	;1200sec
 {"sdkfz4_ss"		("v_ss" c(60) v1(sdkfz4) t(all artillery heavyart rocket 44 45) s(ger_ss) n1(2) n2(0) g(cc10) b(v22)) {level 1} {cost 650} {fore -19.0}}	;1200sec
 
 ;°°°Button 3°°°
@@ -84,7 +84,6 @@
 ;°°°Button 4°°°
 
 {"pz3_m_ss"	("v_ss" c(10) v1(pz3_m) t(medium all 42 43 44) 	s(ger_ss) n1(3) n2(1) g(e6) b(v4)) {level 1} {cost 350} {fore -62.0}}	;630sec
-{"pz3_m_flamer_ss" ("v_ss" c(900) v1(pz3_m_flamer) t(medium all 43 44 flamethrower) 	s(ger_ss) n1(3) n2(1) g(flame) b(v4)) {level 1} {cost 500} {fore 0.0}}	;900sec
 {"pz3n_ss"	("v_ss" c(10) v1(pz3n) t(medium all 42 43 44) 	s(ger_ss) n1(3) n2(1) g(e8) b(v4)) {level 1} {cost 380} {fore -62.0}}	;630sec
 
 {"pz4g_ss"	("v_ss" c(10) v1(pz4g) t(medium all 43 44) 	s(ger_ss) n1(3) n2(1) g(e13) b(v4)) {level 1} {cost 480} {fore -82.0}}		;830sec
@@ -98,10 +97,10 @@
 
 ;°°°Button 5°°°
 
+{"flammpz38_ss"	("v_ss_com" c(900) v1(flammpz38) t(medium all 44 45 flamethrower)	s(ger_ss) n1(3) n2(1) g(flame) b(v5)) {level 1} {cost 525} {fore 0.0}}		;900sec
+
 {"marder_3m_ss"	("v_ss" c(10) v1(marder_3m) t(medium all 43 44)	s(ger_ss) n1(3) n2(1) g(f0) b(v5)) {level 1} {cost 525} {fore -74.0}} 	;750sec
 {"hetzer_ss"	("v_ss_com" c(10) v1(hetzer) t(medium all 44 45)	s(ger_ss) n1(3) n2(1) g(f1) b(v5)) {level 1} {cost 675} {fore -87.0}} 	;880sec
-
-{"flammpz38_ss"	("v_ss_com" c(900) v1(flammpz38) t(medium all 44 45 flamethrower)	s(ger_ss) n1(3) n2(1) g(flame) b(v5)) {level 1} {cost 525} {fore 0.0}}		;900sec
 
 {"stug3f_ss"	("v_ss" c(10) v1(stug3f) t(medium all 42 43 44)	s(ger_ss) n1(3) n2(1) g(f4) b(v5)) {level 1} {cost 450} {fore -82.0}} 	;830sec
 {"stug4g_ss"	("v_ss_com" c(10) v1(stug4g) t(medium all 44 45)	s(ger_ss) n1(3) n2(1) g(f7) b(v5)) {level 1} {cost 575} {fore -94.0}} 	;950sec
